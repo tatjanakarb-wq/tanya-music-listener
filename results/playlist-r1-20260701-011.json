@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "James Holden & The Animal Spirits",
+    "track": "Each Moment Like The First",
+    "request_id": "playlist-r1-20260701-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d2173f20-04a7-48f8-b8b4-b3fde7538c75",
+      "title": "Each Moment Like the First",
+      "artist": "James Holden The Animal Spirits",
+      "duration_ms": 297040,
+      "first_release_date": "2017-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "James Holden & The Animal Spirits",
+    "track": "Each Moment Like the First",
+    "album": "The Animal Spirits",
+    "duration_ms": 297040,
+    "release_date": "2017-11-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/97/6d/bd976d74-f34d-e6b1-f4a3-6c42ecb18f15/mzaf_5102023291423546468.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/each-moment-like-the-first/1271214537?i=1271214547&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/each-moment-like-the-first/1271214537?i=1271214547&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/97/6d/bd976d74-f34d-e6b1-f4a3-6c42ecb18f15/mzaf_5102023291423546468.plus.aac.p.m4a",
+      "bytes": 1035302,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.03841,
+    "onset_rate_per_sec": 5.84716,
+    "dynamic_range_db_p95_p10": 12.203,
+    "crest_factor_db": 14.664,
+    "rms_mean": 0.09942,
+    "rms_std": 0.04216,
+    "spectral_centroid_hz_mean": 1800.18,
+    "spectral_centroid_hz_std": 590.57,
+    "spectral_bandwidth_hz_mean": 2157.27,
+    "spectral_rolloff_hz_mean": 3829.5,
+    "spectral_flatness_mean": 0.01442,
+    "spectral_contrast_mean": 19.30791,
+    "energy_share": {
+      "below_150_hz": 0.56362,
+      "150_to_2000_hz": 0.3998,
+      "above_2000_hz": 0.03658
+    },
+    "percussive_share": 0.37009,
+    "tonal_entropy_bits": 3.54713,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.69275
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0543,
+        "spectral_centroid_hz": 1872.91,
+        "onset_strength": 1.47586,
+        "spectral_flatness": 0.01873
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05959,
+        "spectral_centroid_hz": 1861.77,
+        "onset_strength": 1.48258,
+        "spectral_flatness": 0.01891
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05937,
+        "spectral_centroid_hz": 2272.44,
+        "onset_strength": 1.41334,
+        "spectral_flatness": 0.02735
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06123,
+        "spectral_centroid_hz": 2342.99,
+        "onset_strength": 1.39417,
+        "spectral_flatness": 0.02498
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10501,
+        "spectral_centroid_hz": 1630.81,
+        "onset_strength": 1.57474,
+        "spectral_flatness": 0.01456
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12255,
+        "spectral_centroid_hz": 1561.22,
+        "onset_strength": 1.48819,
+        "spectral_flatness": 0.00796
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.1208,
+        "spectral_centroid_hz": 1512.63,
+        "onset_strength": 1.3946,
+        "spectral_flatness": 0.00774
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12496,
+        "spectral_centroid_hz": 1563.75,
+        "onset_strength": 1.57196,
+        "spectral_flatness": 0.00871
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12325,
+        "spectral_centroid_hz": 1595.82,
+        "onset_strength": 1.37895,
+        "spectral_flatness": 0.00922
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12611,
+        "spectral_centroid_hz": 1696.7,
+        "onset_strength": 1.37639,
+        "spectral_flatness": 0.00969
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11435,
+        "spectral_centroid_hz": 1877.22,
+        "onset_strength": 1.35444,
+        "spectral_flatness": 0.01309
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12114,
+        "spectral_centroid_hz": 1814.14,
+        "onset_strength": 1.53343,
+        "spectral_flatness": 0.01205
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d2173f20-04a7-48f8-b8b4-b3fde7538c75",
+      "title": "Each Moment Like the First",
+      "artist": "James Holden The Animal Spirits",
+      "duration_ms": 297040,
+      "first_release_date": "2017-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d2173f20-04a7-48f8-b8b4-b3fde7538c75",
+      "duration_sec": 297.040008545,
+      "sample_rate": 44100,
+      "tempo_bpm": 89.6997680664,
+      "danceability": 1.2126442194,
+      "onset_rate": 4.65237045288,
+      "beats_count": 443,
+      "key": "D#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0501719303429,
+      "dynamic_complexity": 2.59283328056,
+      "average_loudness": 0.726635098457,
+      "spectral_centroid_mean": 1259.2947998,
+      "spectral_flux_mean": 0.0870116725564,
+      "spectral_rolloff_mean": 1144.67932129,
+      "dissonance_mean": 0.475051432848,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
