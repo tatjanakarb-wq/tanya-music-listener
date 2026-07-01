@@ -1,0 +1,10 @@
+{
+  "request": {
+    "artist": "Amon Tobin",
+    "track": "Fools Rhythm",
+    "request_id": "playlist-r2-20260701-007"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [],
+  "musicbrainz_candidates": []
+}
