@@ -1,0 +1,225 @@
+{
+  "request": {
+    "artist": "Thinking Plague",
+    "track": "Warheads",
+    "request_id": "ear-fallback-20260701-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "763ebaeb-0bdd-417d-9e27-123a62e46593",
+      "title": "Warheads",
+      "artist": "Thinking Plague",
+      "duration_ms": 497000,
+      "first_release_date": "2000",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "176b15f2-1161-47ae-8c0c-e7bc9f948f9c",
+      "title": "Warheads",
+      "artist": "Thinking Plague",
+      "duration_ms": 405666,
+      "first_release_date": "2004-09-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3c2945d0-16a4-4b57-bf39-7995dda9fbbe",
+      "title": "Warheads",
+      "artist": "Thinking Plague",
+      "duration_ms": null,
+      "first_release_date": "1987",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7740e972-06ac-4c39-bfe7-63ff4bc03fdd",
+      "title": "Warheads",
+      "artist": "Thinking Plague",
+      "duration_ms": 400000,
+      "first_release_date": "2001",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Thinking Plague",
+    "track": "Warheads",
+    "album": "Early Plague Years - Moonsongs / ...A Thinking Plague",
+    "duration_ms": 497573,
+    "release_date": "2000-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/76/0d/68/760d68e9-a61a-0b98-20cf-7e95b41d92b0/mzaf_8789200003375098002.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/warheads/1162946028?i=1162946460&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 573
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/warheads/1162946028?i=1162946460&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/76/0d/68/760d68e9-a61a-0b98-20cf-7e95b41d92b0/mzaf_8789200003375098002.plus.aac.p.m4a",
+      "bytes": 1212145,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 143.555,
+    "beat_interval_cv": 0.05356,
+    "onset_rate_per_sec": 5.24574,
+    "dynamic_range_db_p95_p10": 19.457,
+    "crest_factor_db": 19.586,
+    "rms_mean": 0.04996,
+    "rms_std": 0.03649,
+    "spectral_centroid_hz_mean": 2610.24,
+    "spectral_centroid_hz_std": 831.9,
+    "spectral_bandwidth_hz_mean": 2531.16,
+    "spectral_rolloff_hz_mean": 5387.49,
+    "spectral_flatness_mean": 0.04689,
+    "spectral_contrast_mean": 18.56926,
+    "energy_share": {
+      "below_150_hz": 0.45292,
+      "150_to_2000_hz": 0.45416,
+      "above_2000_hz": 0.09292
+    },
+    "percussive_share": 0.47018,
+    "tonal_entropy_bits": 3.58256,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.95119
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05704,
+        "spectral_centroid_hz": 2276.1,
+        "onset_strength": 1.34402,
+        "spectral_flatness": 0.03066
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06689,
+        "spectral_centroid_hz": 2544.55,
+        "onset_strength": 1.16413,
+        "spectral_flatness": 0.04997
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05082,
+        "spectral_centroid_hz": 2536.67,
+        "onset_strength": 1.52325,
+        "spectral_flatness": 0.05116
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06494,
+        "spectral_centroid_hz": 2215.67,
+        "onset_strength": 1.61026,
+        "spectral_flatness": 0.02003
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05682,
+        "spectral_centroid_hz": 2580.58,
+        "onset_strength": 1.69366,
+        "spectral_flatness": 0.04552
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05926,
+        "spectral_centroid_hz": 2492.93,
+        "onset_strength": 1.52362,
+        "spectral_flatness": 0.03797
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06055,
+        "spectral_centroid_hz": 2505.07,
+        "onset_strength": 1.77063,
+        "spectral_flatness": 0.03873
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04844,
+        "spectral_centroid_hz": 2893.38,
+        "onset_strength": 1.93847,
+        "spectral_flatness": 0.06298
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.01977,
+        "spectral_centroid_hz": 2750.3,
+        "onset_strength": 3.10448,
+        "spectral_flatness": 0.06189
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.02081,
+        "spectral_centroid_hz": 2614.19,
+        "onset_strength": 2.93784,
+        "spectral_flatness": 0.05126
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0231,
+        "spectral_centroid_hz": 2917.4,
+        "onset_strength": 2.76552,
+        "spectral_flatness": 0.06052
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07107,
+        "spectral_centroid_hz": 2990.78,
+        "onset_strength": 1.84642,
+        "spectral_flatness": 0.05172
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "763ebaeb-0bdd-417d-9e27-123a62e46593",
+      "title": "Warheads",
+      "artist": "Thinking Plague",
+      "duration_ms": 497000,
+      "first_release_date": "2000",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "763ebaeb-0bdd-417d-9e27-123a62e46593",
+      "duration_sec": 497.57333374,
+      "sample_rate": 44100,
+      "tempo_bpm": 143.426620483,
+      "danceability": 1.07709956169,
+      "onset_rate": 3.45262789726,
+      "beats_count": 1125,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0808137357235,
+      "dynamic_complexity": 4.96887779236,
+      "average_loudness": 0.553826987743,
+      "spectral_centroid_mean": 1280.31530762,
+      "spectral_flux_mean": 0.0746584311128,
+      "spectral_rolloff_mean": 1706.41796875,
+      "dissonance_mean": 0.461506634951,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
