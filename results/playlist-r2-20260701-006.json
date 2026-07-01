@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "Qasim Naqvi",
+    "track": "Matic",
+    "request_id": "playlist-r2-20260701-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f1413a23-d613-4532-8f6c-a6b90fe26555",
+      "title": "Matic",
+      "artist": "Qasim Naqvi",
+      "duration_ms": 192860,
+      "first_release_date": "2020-07-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "13be5173-d81f-4f6e-9972-ffe49ec3fa1e",
+      "title": "Matic",
+      "artist": "Qasim Naqvi",
+      "duration_ms": 193000,
+      "first_release_date": "2020",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0f399ace-b555-411c-8b9c-ff66b50861f6",
+      "title": "Matic",
+      "artist": "Qasim Naqvi",
+      "duration_ms": 196000,
+      "first_release_date": "2020-10-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Qasim Naqvi",
+    "track": "Matic",
+    "album": "Beta - EP",
+    "duration_ms": 192860,
+    "release_date": "2020-06-05T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/48/36/35483662-c6c3-9410-2717-339b0d1fd4ec/mzaf_17967812294168103936.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/matic/1499812527?i=1499812583&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/matic/1499812527?i=1499812583&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/48/36/35483662-c6c3-9410-2717-339b0d1fd4ec/mzaf_17967812294168103936.plus.aac.p.m4a",
+      "bytes": 991857,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 80.75,
+    "beat_interval_cv": 0.0652,
+    "onset_rate_per_sec": 4.74455,
+    "dynamic_range_db_p95_p10": 27.326,
+    "crest_factor_db": 21.143,
+    "rms_mean": 0.02917,
+    "rms_std": 0.02897,
+    "spectral_centroid_hz_mean": 735.66,
+    "spectral_centroid_hz_std": 356.12,
+    "spectral_bandwidth_hz_mean": 1732.74,
+    "spectral_rolloff_hz_mean": 789.72,
+    "spectral_flatness_mean": 0.00058,
+    "spectral_contrast_mean": 15.36204,
+    "energy_share": {
+      "below_150_hz": 0.49651,
+      "150_to_2000_hz": 0.50342,
+      "above_2000_hz": 7e-05
+    },
+    "percussive_share": 0.68676,
+    "tonal_entropy_bits": 3.56927,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.82694
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0226,
+        "spectral_centroid_hz": 714.9,
+        "onset_strength": 1.4199,
+        "spectral_flatness": 0.00044
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03122,
+        "spectral_centroid_hz": 700.0,
+        "onset_strength": 1.59702,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01914,
+        "spectral_centroid_hz": 840.0,
+        "onset_strength": 1.51162,
+        "spectral_flatness": 0.00083
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.02801,
+        "spectral_centroid_hz": 738.56,
+        "onset_strength": 1.75686,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03656,
+        "spectral_centroid_hz": 619.71,
+        "onset_strength": 1.53554,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.02107,
+        "spectral_centroid_hz": 839.16,
+        "onset_strength": 1.70647,
+        "spectral_flatness": 0.00132
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02312,
+        "spectral_centroid_hz": 832.41,
+        "onset_strength": 1.83134,
+        "spectral_flatness": 0.00088
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02941,
+        "spectral_centroid_hz": 729.89,
+        "onset_strength": 1.72657,
+        "spectral_flatness": 0.00047
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.03178,
+        "spectral_centroid_hz": 760.35,
+        "onset_strength": 1.82631,
+        "spectral_flatness": 0.00073
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.03124,
+        "spectral_centroid_hz": 736.05,
+        "onset_strength": 1.6723,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04167,
+        "spectral_centroid_hz": 613.41,
+        "onset_strength": 1.747,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.03412,
+        "spectral_centroid_hz": 703.97,
+        "onset_strength": 1.95172,
+        "spectral_flatness": 0.00046
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f1413a23-d613-4532-8f6c-a6b90fe26555",
+      "title": "Matic",
+      "artist": "Qasim Naqvi",
+      "duration_ms": 192860,
+      "first_release_date": "2020-07-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f1413a23-d613-4532-8f6c-a6b90fe26555",
+      "duration_sec": 192.888168335,
+      "sample_rate": 44100,
+      "tempo_bpm": 100.002876282,
+      "danceability": 1.79135453701,
+      "onset_rate": 5.51581764221,
+      "beats_count": 301,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.03200962767,
+      "dynamic_complexity": 6.07158994675,
+      "average_loudness": 0.53900295496,
+      "spectral_centroid_mean": 263.476501465,
+      "spectral_flux_mean": 0.100372128189,
+      "spectral_rolloff_mean": 301.195220947,
+      "dissonance_mean": 0.321594774723,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
