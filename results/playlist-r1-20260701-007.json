@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Son Lux",
+    "track": "Lost It To Trying",
+    "request_id": "playlist-r1-20260701-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d4f4f926-b402-4b2f-aca8-222a13b1b6fb",
+      "title": "Lost It to Trying",
+      "artist": "Son Lux",
+      "duration_ms": 282594,
+      "first_release_date": "2013-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7d8ebdca-55ac-4e5e-9bc6-2e72726886a2",
+      "title": "Lost It to Trying (radio edit)",
+      "artist": "Son Lux",
+      "duration_ms": 210000,
+      "first_release_date": "2014-06-03",
+      "disambiguation": "",
+      "musicbrainz_score": 90,
+      "local_match_score": 0.8582
+    },
+    {
+      "mbid": "201b9d37-17fb-4f95-91d4-4bbda5b04c38",
+      "title": "Lost It to Trying (Paper Towns mix)",
+      "artist": "Son Lux",
+      "duration_ms": 246093,
+      "first_release_date": "2015-07-10",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.8144
+    },
+    {
+      "mbid": "017d7c45-379d-4c35-8281-16d7719426ae",
+      "title": "Lost It to Trying (Mouths Only Lying)",
+      "artist": "Son Lux",
+      "duration_ms": 228396,
+      "first_release_date": "2013-10-29",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7992
+    },
+    {
+      "mbid": "3f797c9d-5439-4193-a7c6-f261d8d823eb",
+      "title": "Lost It to Trying (Mouths Only Lying)",
+      "artist": "Son Lux",
+      "duration_ms": 227250,
+      "first_release_date": "2014-03-04",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7992
+    }
+  ],
+  "matched_recording": {
+    "artist": "Son Lux",
+    "track": "Lost It To Trying",
+    "album": "Lanterns",
+    "duration_ms": 282587,
+    "release_date": "2013-10-29T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/e8/41/e1e841b7-b2c3-12dc-1c01-ecbe30fdedf7/mzaf_1801939158930756454.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/lost-it-to-trying/1562301258?i=1562301268&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 7
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/lost-it-to-trying/1562301258?i=1562301268&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/e8/41/e1e841b7-b2c3-12dc-1c01-ecbe30fdedf7/mzaf_1801939158930756454.plus.aac.p.m4a",
+      "bytes": 1056554,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.02986,
+    "onset_rate_per_sec": 3.37203,
+    "dynamic_range_db_p95_p10": 15.222,
+    "crest_factor_db": 17.341,
+    "rms_mean": 0.06088,
+    "rms_std": 0.03944,
+    "spectral_centroid_hz_mean": 1758.49,
+    "spectral_centroid_hz_std": 517.65,
+    "spectral_bandwidth_hz_mean": 1672.44,
+    "spectral_rolloff_hz_mean": 3127.74,
+    "spectral_flatness_mean": 0.01411,
+    "spectral_contrast_mean": 20.62288,
+    "energy_share": {
+      "below_150_hz": 0.13415,
+      "150_to_2000_hz": 0.78612,
+      "above_2000_hz": 0.07973
+    },
+    "percussive_share": 0.27265,
+    "tonal_entropy_bits": 3.48218,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.71,
+      "relative_score": 0.77592
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02643,
+        "spectral_centroid_hz": 1618.39,
+        "onset_strength": 1.07577,
+        "spectral_flatness": 0.06313
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0321,
+        "spectral_centroid_hz": 1536.23,
+        "onset_strength": 1.26095,
+        "spectral_flatness": 0.00282
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0349,
+        "spectral_centroid_hz": 1612.59,
+        "onset_strength": 1.36862,
+        "spectral_flatness": 0.00232
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.03924,
+        "spectral_centroid_hz": 1480.97,
+        "onset_strength": 1.49883,
+        "spectral_flatness": 0.00224
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.07897,
+        "spectral_centroid_hz": 1403.07,
+        "onset_strength": 1.77454,
+        "spectral_flatness": 0.00231
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.03941,
+        "spectral_centroid_hz": 1962.6,
+        "onset_strength": 1.64127,
+        "spectral_flatness": 0.01979
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.04235,
+        "spectral_centroid_hz": 2000.1,
+        "onset_strength": 1.50215,
+        "spectral_flatness": 0.01705
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.04094,
+        "spectral_centroid_hz": 1987.0,
+        "onset_strength": 1.46233,
+        "spectral_flatness": 0.01668
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.05869,
+        "spectral_centroid_hz": 1918.92,
+        "onset_strength": 1.91044,
+        "spectral_flatness": 0.01762
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.09671,
+        "spectral_centroid_hz": 1971.78,
+        "onset_strength": 1.38311,
+        "spectral_flatness": 0.01154
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.12358,
+        "spectral_centroid_hz": 1818.94,
+        "onset_strength": 0.91553,
+        "spectral_flatness": 0.00701
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.11717,
+        "spectral_centroid_hz": 1789.64,
+        "onset_strength": 1.14586,
+        "spectral_flatness": 0.00701
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d4f4f926-b402-4b2f-aca8-222a13b1b6fb",
+      "title": "Lost It to Trying",
+      "artist": "Son Lux",
+      "duration_ms": 282594,
+      "first_release_date": "2013-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d4f4f926-b402-4b2f-aca8-222a13b1b6fb",
+      "duration_sec": 282.618774414,
+      "sample_rate": 44100,
+      "tempo_bpm": 80.0668716431,
+      "danceability": 1.00872612,
+      "onset_rate": 2.94374370575,
+      "beats_count": 392,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.0602924264967,
+      "dynamic_complexity": 4.04460477829,
+      "average_loudness": 0.833515882492,
+      "spectral_centroid_mean": 1433.8001709,
+      "spectral_flux_mean": 0.0882275924087,
+      "spectral_rolloff_mean": 1492.66223145,
+      "dissonance_mean": 0.465805381536,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
