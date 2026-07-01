@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Moderat",
+    "track": "A New Error",
+    "request_id": "ear-control-20260701-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5d2ce680-b68e-4528-abde-5122ff045003",
+      "title": "A New Error",
+      "artist": "Moderat",
+      "duration_ms": 354000,
+      "first_release_date": "2009-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "620d502a-3af5-4c3d-bb19-4b662da01ae4",
+      "title": "A New Error",
+      "artist": "Moderat",
+      "duration_ms": 379000,
+      "first_release_date": "2016-03",
+      "disambiguation": "live, 2014‐02‐27: Columbiahalle, Berlin, Germany",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2efbe7f4-3402-4a06-b2c4-bc6eaccad049",
+      "title": "A New Error",
+      "artist": "Moderat",
+      "duration_ms": 369000,
+      "first_release_date": "2009-05-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6e17c97b-b3be-4b81-9cc9-cf38c5508222",
+      "title": "A New Error",
+      "artist": "Moderat",
+      "duration_ms": 396633,
+      "first_release_date": "2022-12-02",
+      "disambiguation": "live, 2022‐09‐03: Wuhlheide, Berlin, Germany",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ee46b53d-9664-4d94-9896-d61476ee4e31",
+      "title": "A New Error",
+      "artist": "Moderat",
+      "duration_ms": 367306,
+      "first_release_date": "2009-05-08",
+      "disambiguation": "",
+      "musicbrainz_score": 99,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Moderat",
+    "track": "A New Error",
+    "album": "Moderat (Deluxe Version)",
+    "duration_ms": 367307,
+    "release_date": "2009-05-11T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/56/89/b85689b8-1f8d-c849-1a54-e94abfd29c9e/mzaf_9640754058463460168.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/a-new-error/315489205?i=315489351&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1693
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/a-new-error/315489205?i=315489351&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/56/89/b85689b8-1f8d-c849-1a54-e94abfd29c9e/mzaf_9640754058463460168.plus.aac.p.m4a",
+      "bytes": 1075901,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.03521,
+    "onset_rate_per_sec": 5.54645,
+    "dynamic_range_db_p95_p10": 19.769,
+    "crest_factor_db": 8.996,
+    "rms_mean": 0.20049,
+    "rms_std": 0.08392,
+    "spectral_centroid_hz_mean": 978.52,
+    "spectral_centroid_hz_std": 586.71,
+    "spectral_bandwidth_hz_mean": 1450.33,
+    "spectral_rolloff_hz_mean": 1985.47,
+    "spectral_flatness_mean": 0.00317,
+    "spectral_contrast_mean": 18.82352,
+    "energy_share": {
+      "below_150_hz": 0.9288,
+      "150_to_2000_hz": 0.06721,
+      "above_2000_hz": 0.00399
+    },
+    "percussive_share": 0.16721,
+    "tonal_entropy_bits": 3.53417,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 0.49179
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02994,
+        "spectral_centroid_hz": 1221.4,
+        "onset_strength": 1.48384,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04776,
+        "spectral_centroid_hz": 1194.94,
+        "onset_strength": 1.54859,
+        "spectral_flatness": 0.00077
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.24323,
+        "spectral_centroid_hz": 909.92,
+        "onset_strength": 2.43896,
+        "spectral_flatness": 0.00412
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.22762,
+        "spectral_centroid_hz": 985.32,
+        "onset_strength": 2.48746,
+        "spectral_flatness": 0.00434
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.21212,
+        "spectral_centroid_hz": 969.14,
+        "onset_strength": 2.58666,
+        "spectral_flatness": 0.00323
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.23314,
+        "spectral_centroid_hz": 902.0,
+        "onset_strength": 2.50906,
+        "spectral_flatness": 0.00295
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.23821,
+        "spectral_centroid_hz": 961.21,
+        "onset_strength": 2.4116,
+        "spectral_flatness": 0.00414
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.24705,
+        "spectral_centroid_hz": 872.21,
+        "onset_strength": 2.35866,
+        "spectral_flatness": 0.0031
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.24334,
+        "spectral_centroid_hz": 864.71,
+        "onset_strength": 2.26394,
+        "spectral_flatness": 0.00301
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.24019,
+        "spectral_centroid_hz": 974.15,
+        "onset_strength": 2.60942,
+        "spectral_flatness": 0.00504
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.2289,
+        "spectral_centroid_hz": 925.59,
+        "onset_strength": 2.42606,
+        "spectral_flatness": 0.00341
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.213,
+        "spectral_centroid_hz": 963.6,
+        "onset_strength": 2.62593,
+        "spectral_flatness": 0.0032
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "5d2ce680-b68e-4528-abde-5122ff045003",
+      "title": "A New Error",
+      "artist": "Moderat",
+      "duration_ms": 354000,
+      "first_release_date": "2009-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "5d2ce680-b68e-4528-abde-5122ff045003",
+      "duration_sec": 367.359985352,
+      "sample_rate": 44100,
+      "tempo_bpm": 110.902191162,
+      "danceability": 1.10606300831,
+      "onset_rate": 4.74992132187,
+      "beats_count": 683,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.027047522366,
+      "dynamic_complexity": 4.71782064438,
+      "average_loudness": 0.920292854309,
+      "spectral_centroid_mean": 754.356994629,
+      "spectral_flux_mean": 0.158052906394,
+      "spectral_rolloff_mean": 481.418823242,
+      "dissonance_mean": 0.449406564236,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
