@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Raven",
+    "request_id": "raven-test"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "51dbc3a1-55f9-449a-9a18-cc2fc491a69c",
+      "title": "Raven",
+      "artist": "GoGo Penguin",
+      "duration_ms": 290000,
+      "first_release_date": "2018-04-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "97632d0f-5eb7-4934-a1b3-9213e43f3266",
+      "title": "Raven",
+      "artist": "GoGo Penguin",
+      "duration_ms": 297000,
+      "first_release_date": "2018-02-09",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Raven",
+    "album": "A Humdrum Star (Deluxe)",
+    "duration_ms": 297539,
+    "release_date": "2018-02-09T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3c/fe/e1/3cfee19f-4480-9dab-8933-159bb9de875c/mzaf_11989722731544063856.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/raven/1440897364?i=1440897752&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 539
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/raven/1440897364?i=1440897752&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3c/fe/e1/3cfee19f-4480-9dab-8933-159bb9de875c/mzaf_11989722731544063856.plus.aac.p.m4a",
+      "bytes": 1038404,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.06084,
+    "onset_rate_per_sec": 5.17891,
+    "dynamic_range_db_p95_p10": 16.882,
+    "crest_factor_db": 13.893,
+    "rms_mean": 0.09899,
+    "rms_std": 0.06423,
+    "spectral_centroid_hz_mean": 1716.78,
+    "spectral_centroid_hz_std": 634.54,
+    "spectral_bandwidth_hz_mean": 2246.88,
+    "spectral_rolloff_hz_mean": 4049.89,
+    "spectral_flatness_mean": 0.011,
+    "spectral_contrast_mean": 17.29232,
+    "energy_share": {
+      "below_150_hz": 0.79376,
+      "150_to_2000_hz": 0.19524,
+      "above_2000_hz": 0.011
+    },
+    "percussive_share": 0.41875,
+    "tonal_entropy_bits": 3.55044,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 0.81452
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03577,
+        "spectral_centroid_hz": 1129.29,
+        "onset_strength": 0.98532,
+        "spectral_flatness": 0.00321
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06274,
+        "spectral_centroid_hz": 1003.68,
+        "onset_strength": 0.94573,
+        "spectral_flatness": 0.00081
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05728,
+        "spectral_centroid_hz": 1131.41,
+        "onset_strength": 0.97985,
+        "spectral_flatness": 0.00374
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10776,
+        "spectral_centroid_hz": 1835.88,
+        "onset_strength": 1.23816,
+        "spectral_flatness": 0.01323
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.11512,
+        "spectral_centroid_hz": 1818.28,
+        "onset_strength": 1.4548,
+        "spectral_flatness": 0.0108
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10968,
+        "spectral_centroid_hz": 1871.1,
+        "onset_strength": 1.7143,
+        "spectral_flatness": 0.01321
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11735,
+        "spectral_centroid_hz": 1840.48,
+        "onset_strength": 1.464,
+        "spectral_flatness": 0.00999
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11483,
+        "spectral_centroid_hz": 1942.59,
+        "onset_strength": 1.58173,
+        "spectral_flatness": 0.01499
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11123,
+        "spectral_centroid_hz": 2068.29,
+        "onset_strength": 1.59573,
+        "spectral_flatness": 0.0157
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1282,
+        "spectral_centroid_hz": 1880.74,
+        "onset_strength": 1.54004,
+        "spectral_flatness": 0.01283
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11466,
+        "spectral_centroid_hz": 2038.97,
+        "onset_strength": 1.63584,
+        "spectral_flatness": 0.01717
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11299,
+        "spectral_centroid_hz": 2038.51,
+        "onset_strength": 1.37725,
+        "spectral_flatness": 0.01627
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "97632d0f-5eb7-4934-a1b3-9213e43f3266",
+      "title": "Raven",
+      "artist": "GoGo Penguin",
+      "duration_ms": 297000,
+      "first_release_date": "2018-02-09",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "97632d0f-5eb7-4934-a1b3-9213e43f3266",
+      "duration_sec": 297.533325195,
+      "sample_rate": 44100,
+      "tempo_bpm": 151.929702759,
+      "danceability": 1.3253017664,
+      "onset_rate": 4.57062768936,
+      "beats_count": 738,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0461922585964,
+      "dynamic_complexity": 5.38465595245,
+      "average_loudness": 0.814606428146,
+      "spectral_centroid_mean": 907.579223633,
+      "spectral_flux_mean": 0.111098609865,
+      "spectral_rolloff_mean": 809.362854004,
+      "dissonance_mean": 0.446859955788,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
