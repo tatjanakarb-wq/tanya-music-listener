@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Present",
+    "track": "Promenade au fond d’un canal",
+    "request_id": "ear-fallback-20260701-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4ab15029-1d2b-44a8-bbc5-f9aa20d260d8",
+      "title": "Promenade au fond d’un canal",
+      "artist": "Present",
+      "duration_ms": 1155826,
+      "first_release_date": "1980",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "eb820711-7abc-4cb8-8ae5-8a34ffe36334",
+      "title": "Promenade au Fond d'un Canal",
+      "artist": "Present",
+      "duration_ms": 1353226,
+      "first_release_date": "2005",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f0042591-600e-4ff4-9dcf-c4d19d96d530",
+      "title": "Promenade au fond d'un canal",
+      "artist": "Present",
+      "duration_ms": 1294120,
+      "first_release_date": "2014-02-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b4c012e8-ee29-40d1-8b14-558f87c22e27",
+      "title": "Promenade Au Fond D'Un Canal",
+      "artist": "Present",
+      "duration_ms": 1323000,
+      "first_release_date": "2009",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8a811240-0bc0-4a46-b816-076dd5b65119",
+      "title": "Promenade au fond d'un canal",
+      "artist": "Present",
+      "duration_ms": 1327973,
+      "first_release_date": "1996",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Present",
+    "track": "Promenade Au Fond d'un Canal",
+    "album": "Triskaidékaphobie (2014 Expanded Remaster)",
+    "duration_ms": 1161173,
+    "release_date": "1980-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/be/a0/a8/bea0a870-77d5-1a3a-29b1-9ec6c07b7ba1/mzaf_2421694050723368404.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/promenade-au-fond-dun-canal/1166423308?i=1166423310&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 5347
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/promenade-au-fond-dun-canal/1166423308?i=1166423310&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/be/a0/a8/bea0a870-77d5-1a3a-29b1-9ec6c07b7ba1/mzaf_2421694050723368404.plus.aac.p.m4a",
+      "bytes": 1246355,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.04658,
+    "onset_rate_per_sec": 5.04526,
+    "dynamic_range_db_p95_p10": 9.457,
+    "crest_factor_db": 19.813,
+    "rms_mean": 0.03632,
+    "rms_std": 0.01406,
+    "spectral_centroid_hz_mean": 2265.09,
+    "spectral_centroid_hz_std": 815.21,
+    "spectral_bandwidth_hz_mean": 2762.25,
+    "spectral_rolloff_hz_mean": 5455.79,
+    "spectral_flatness_mean": 0.01777,
+    "spectral_contrast_mean": 20.53996,
+    "energy_share": {
+      "below_150_hz": 0.45072,
+      "150_to_2000_hz": 0.44943,
+      "above_2000_hz": 0.09985
+    },
+    "percussive_share": 0.1631,
+    "tonal_entropy_bits": 3.1253,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.46373
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0294,
+        "spectral_centroid_hz": 2002.43,
+        "onset_strength": 0.95723,
+        "spectral_flatness": 0.00572
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03172,
+        "spectral_centroid_hz": 2022.9,
+        "onset_strength": 1.0884,
+        "spectral_flatness": 0.00557
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03165,
+        "spectral_centroid_hz": 2055.47,
+        "onset_strength": 0.94112,
+        "spectral_flatness": 0.00737
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03171,
+        "spectral_centroid_hz": 1975.53,
+        "onset_strength": 0.95813,
+        "spectral_flatness": 0.00731
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03425,
+        "spectral_centroid_hz": 2001.21,
+        "onset_strength": 0.88826,
+        "spectral_flatness": 0.00811
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.032,
+        "spectral_centroid_hz": 2170.49,
+        "onset_strength": 0.94521,
+        "spectral_flatness": 0.01265
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.03233,
+        "spectral_centroid_hz": 1749.6,
+        "onset_strength": 0.84395,
+        "spectral_flatness": 0.00548
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02736,
+        "spectral_centroid_hz": 1739.0,
+        "onset_strength": 0.96931,
+        "spectral_flatness": 0.0044
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.02964,
+        "spectral_centroid_hz": 1667.07,
+        "onset_strength": 1.04244,
+        "spectral_flatness": 0.00396
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.03558,
+        "spectral_centroid_hz": 2728.33,
+        "onset_strength": 0.88781,
+        "spectral_flatness": 0.02033
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05547,
+        "spectral_centroid_hz": 3507.07,
+        "onset_strength": 0.88675,
+        "spectral_flatness": 0.06177
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06461,
+        "spectral_centroid_hz": 3554.95,
+        "onset_strength": 0.82867,
+        "spectral_flatness": 0.07036
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "4ab15029-1d2b-44a8-bbc5-f9aa20d260d8",
+      "title": "Promenade au fond d’un canal",
+      "artist": "Present",
+      "duration_ms": 1155826,
+      "first_release_date": "1980",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "4ab15029-1d2b-44a8-bbc5-f9aa20d260d8",
+      "duration_sec": 1161.17333984,
+      "sample_rate": 44100,
+      "tempo_bpm": 118.19128418,
+      "danceability": 1.22441756725,
+      "onset_rate": 3.56357002258,
+      "beats_count": 2328,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.0751449689269,
+      "dynamic_complexity": 4.1807141304,
+      "average_loudness": 0.607190847397,
+      "spectral_centroid_mean": 1488.3494873,
+      "spectral_flux_mean": 0.0636792480946,
+      "spectral_rolloff_mean": 1638.76916504,
+      "dissonance_mean": 0.473114460707,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
