@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Squarepusher",
+    "track": "Stor Eiglass",
+    "request_id": "playlist-r2-20260701-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ff0a3bdc-a2e6-464b-961f-8216a56b5d6d",
+      "title": "Stor Eiglass",
+      "artist": "Squarepusher",
+      "duration_ms": 272428,
+      "first_release_date": "2015-04-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "fa1b9776-8120-4d07-8934-881ffaac7de9",
+      "title": "Stor Eiglass (Yzox 160 Edit)",
+      "artist": "Squarepusher",
+      "duration_ms": 240000,
+      "first_release_date": "2015-09-02",
+      "disambiguation": "",
+      "musicbrainz_score": 79,
+      "local_match_score": 0.7863
+    }
+  ],
+  "matched_recording": {
+    "artist": "Squarepusher",
+    "track": "Stor Eiglass",
+    "album": "Damogen Furies",
+    "duration_ms": 272428,
+    "release_date": "2015-04-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/7b/67/507b67cb-9f2e-5117-19ca-314c0d87ba2e/mzaf_14504235133946446885.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/stor-eiglass/967292032?i=967292041&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/stor-eiglass/967292032?i=967292041&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/7b/67/507b67cb-9f2e-5117-19ca-314c0d87ba2e/mzaf_14504235133946446885.plus.aac.p.m4a",
+      "bytes": 1028794,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.05999,
+    "onset_rate_per_sec": 5.11209,
+    "dynamic_range_db_p95_p10": 7.541,
+    "crest_factor_db": 12.098,
+    "rms_mean": 0.13293,
+    "rms_std": 0.03871,
+    "spectral_centroid_hz_mean": 2950.87,
+    "spectral_centroid_hz_std": 536.56,
+    "spectral_bandwidth_hz_mean": 3021.7,
+    "spectral_rolloff_hz_mean": 6755.95,
+    "spectral_flatness_mean": 0.0639,
+    "spectral_contrast_mean": 15.95572,
+    "energy_share": {
+      "below_150_hz": 0.50887,
+      "150_to_2000_hz": 0.39854,
+      "above_2000_hz": 0.09259
+    },
+    "percussive_share": 0.42428,
+    "tonal_entropy_bits": 3.57676,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.75604
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12721,
+        "spectral_centroid_hz": 2853.49,
+        "onset_strength": 1.20309,
+        "spectral_flatness": 0.05265
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.12259,
+        "spectral_centroid_hz": 2888.76,
+        "onset_strength": 1.25396,
+        "spectral_flatness": 0.0588
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.13791,
+        "spectral_centroid_hz": 2963.58,
+        "onset_strength": 1.18884,
+        "spectral_flatness": 0.06952
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.13673,
+        "spectral_centroid_hz": 2663.74,
+        "onset_strength": 1.24804,
+        "spectral_flatness": 0.03994
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.1389,
+        "spectral_centroid_hz": 3074.22,
+        "onset_strength": 1.24396,
+        "spectral_flatness": 0.07727
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.14223,
+        "spectral_centroid_hz": 2932.36,
+        "onset_strength": 1.15607,
+        "spectral_flatness": 0.05926
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.12879,
+        "spectral_centroid_hz": 2929.44,
+        "onset_strength": 1.20136,
+        "spectral_flatness": 0.06155
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.15191,
+        "spectral_centroid_hz": 2821.92,
+        "onset_strength": 1.17525,
+        "spectral_flatness": 0.0533
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.13431,
+        "spectral_centroid_hz": 2951.47,
+        "onset_strength": 1.20512,
+        "spectral_flatness": 0.06676
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12625,
+        "spectral_centroid_hz": 3422.17,
+        "onset_strength": 1.2787,
+        "spectral_flatness": 0.10895
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12707,
+        "spectral_centroid_hz": 2973.98,
+        "onset_strength": 1.21252,
+        "spectral_flatness": 0.05616
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12109,
+        "spectral_centroid_hz": 2931.01,
+        "onset_strength": 1.27055,
+        "spectral_flatness": 0.06213
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ff0a3bdc-a2e6-464b-961f-8216a56b5d6d",
+      "title": "Stor Eiglass",
+      "artist": "Squarepusher",
+      "duration_ms": 272428,
+      "first_release_date": "2015-04-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ff0a3bdc-a2e6-464b-961f-8216a56b5d6d",
+      "duration_sec": 272.42666626,
+      "sample_rate": 44100,
+      "tempo_bpm": 80.0479736328,
+      "danceability": 1.18035101891,
+      "onset_rate": 4.26883411407,
+      "beats_count": 464,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.0719154700637,
+      "dynamic_complexity": 3.69489097595,
+      "average_loudness": 0.743039011955,
+      "spectral_centroid_mean": 1571.47143555,
+      "spectral_flux_mean": 0.119892477989,
+      "spectral_rolloff_mean": 2012.28918457,
+      "dissonance_mean": 0.473078459501,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
