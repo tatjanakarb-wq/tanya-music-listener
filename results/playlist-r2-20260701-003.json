@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "Melt Yourself Down",
+    "track": "Fix My Life",
+    "request_id": "playlist-r2-20260701-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "6be07159-da04-4953-8326-0387fab6a9d5",
+      "title": "Fix My Life",
+      "artist": "Melt Yourself Down",
+      "duration_ms": 242000,
+      "first_release_date": "2013-02-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5b8a4f05-07dc-4aa9-8c26-9c53dea3481a",
+      "title": "Fix My Life",
+      "artist": "Melt Yourself Down",
+      "duration_ms": 253000,
+      "first_release_date": "2014-04-19",
+      "disambiguation": "live, 2013-11-29: The New Empowering Church, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "63d07e27-2071-4cae-98ec-cea26924e827",
+      "title": "Fix My Life (Fixed by the Subliminal Kid)",
+      "artist": "Melt Yourself Down",
+      "duration_ms": 671000,
+      "first_release_date": "2013-05-21",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.6752
+    }
+  ],
+  "matched_recording": {
+    "artist": "Melt Yourself Down",
+    "track": "Fix My Life",
+    "album": "Melt Yourself Down",
+    "duration_ms": 242693,
+    "release_date": "2013-02-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/93/db/2b93db8c-a93c-ad56-fa82-691c6ade295f/mzaf_13334745637217274568.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/fix-my-life/1384699807?i=1384699810&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 693
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/fix-my-life/1384699807?i=1384699810&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/93/db/2b93db8c-a93c-ad56-fa82-691c6ade295f/mzaf_13334745637217274568.plus.aac.p.m4a",
+      "bytes": 1142054,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.02774,
+    "onset_rate_per_sec": 6.24811,
+    "dynamic_range_db_p95_p10": 9.557,
+    "crest_factor_db": 10.944,
+    "rms_mean": 0.16212,
+    "rms_std": 0.06234,
+    "spectral_centroid_hz_mean": 2011.52,
+    "spectral_centroid_hz_std": 434.11,
+    "spectral_bandwidth_hz_mean": 2230.54,
+    "spectral_rolloff_hz_mean": 4263.58,
+    "spectral_flatness_mean": 0.02254,
+    "spectral_contrast_mean": 17.0179,
+    "energy_share": {
+      "below_150_hz": 0.66427,
+      "150_to_2000_hz": 0.29487,
+      "above_2000_hz": 0.04086
+    },
+    "percussive_share": 0.29403,
+    "tonal_entropy_bits": 3.54239,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 0.81923
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13974,
+        "spectral_centroid_hz": 1903.73,
+        "onset_strength": 1.56204,
+        "spectral_flatness": 0.01673
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.14649,
+        "spectral_centroid_hz": 1881.14,
+        "onset_strength": 1.46511,
+        "spectral_flatness": 0.0181
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.16408,
+        "spectral_centroid_hz": 1790.31,
+        "onset_strength": 1.385,
+        "spectral_flatness": 0.01563
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.15395,
+        "spectral_centroid_hz": 1866.54,
+        "onset_strength": 1.36768,
+        "spectral_flatness": 0.01701
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.16829,
+        "spectral_centroid_hz": 1887.89,
+        "onset_strength": 1.39023,
+        "spectral_flatness": 0.01804
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.17229,
+        "spectral_centroid_hz": 1940.64,
+        "onset_strength": 1.71449,
+        "spectral_flatness": 0.02094
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.16302,
+        "spectral_centroid_hz": 1905.92,
+        "onset_strength": 1.84452,
+        "spectral_flatness": 0.02072
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.16382,
+        "spectral_centroid_hz": 1947.32,
+        "onset_strength": 1.53973,
+        "spectral_flatness": 0.02031
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16619,
+        "spectral_centroid_hz": 2195.49,
+        "onset_strength": 1.16295,
+        "spectral_flatness": 0.02987
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.17466,
+        "spectral_centroid_hz": 2203.2,
+        "onset_strength": 1.19672,
+        "spectral_flatness": 0.02583
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.1733,
+        "spectral_centroid_hz": 2351.92,
+        "onset_strength": 1.23515,
+        "spectral_flatness": 0.03391
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.15944,
+        "spectral_centroid_hz": 2263.84,
+        "onset_strength": 1.16063,
+        "spectral_flatness": 0.03336
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "6be07159-da04-4953-8326-0387fab6a9d5",
+      "title": "Fix My Life",
+      "artist": "Melt Yourself Down",
+      "duration_ms": 242000,
+      "first_release_date": "2013-02-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "6be07159-da04-4953-8326-0387fab6a9d5",
+      "duration_sec": 242.741409302,
+      "sample_rate": 44100,
+      "tempo_bpm": 114.9947052,
+      "danceability": 1.49287009239,
+      "onset_rate": 4.626101017,
+      "beats_count": 464,
+      "key": "C",
+      "scale": "minor",
+      "chords_changes_rate": 0.0862662568688,
+      "dynamic_complexity": 2.31918811798,
+      "average_loudness": 0.929942667484,
+      "spectral_centroid_mean": 1493.7388916,
+      "spectral_flux_mean": 0.104362785816,
+      "spectral_rolloff_mean": 1413.64758301,
+      "dissonance_mean": 0.475202828646,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
