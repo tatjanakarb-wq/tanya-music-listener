@@ -1,0 +1,79 @@
+name: Listen to a track
+
+on:
+  workflow_dispatch:
+    inputs:
+      artist:
+        description: "Artist"
+        required: true
+        type: string
+      track:
+        description: "Track"
+        required: true
+        type: string
+      request_id:
+        description: "Unique request id"
+        required: false
+        default: "manual"
+        type: string
+      source_url:
+        description: "Optional permitted public HTTPS audio URL"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: music-listener-writer
+  cancel-in-progress: false
+
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Make safe result filename
+        id: names
+        shell: bash
+        run: |
+          SAFE_ID="$(printf '%s' '${{ inputs.request_id }}' | tr -cd '[:alnum:]_-')"
+          if [ -z "$SAFE_ID" ]; then SAFE_ID="manual"; fi
+          echo "safe_id=$SAFE_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Analyze
+        run: |
+          python listener.py \
+            --artist '${{ inputs.artist }}' \
+            --track '${{ inputs.track }}' \
+            --request-id '${{ steps.names.outputs.safe_id }}' \
+            --source-url '${{ inputs.source_url }}' \
+            --output 'results/${{ steps.names.outputs.safe_id }}.json'
+
+      - name: Update latest result
+        run: cp 'results/${{ steps.names.outputs.safe_id }}.json' results/latest.json
+
+      - name: Commit result
+        run: |
+          git config user.name "Tanya Music Listener"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/
+          git commit -m "Listen: ${{ inputs.artist }} — ${{ inputs.track }}" || exit 0
+          git push
