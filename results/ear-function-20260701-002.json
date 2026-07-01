@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Jon Hopkins",
+    "track": "Light Through the Veins",
+    "request_id": "ear-function-20260701-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "2de8d3f1-a9d8-4ab7-b824-3e4781759236",
+      "title": "Light Through the Veins",
+      "artist": "Jon Hopkins",
+      "duration_ms": 558493,
+      "first_release_date": "2008-11-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "dcdf8f1d-c8bf-4283-9e23-c2dadbcee12f",
+      "title": "Light Through the Veins (radio edit)",
+      "artist": "Jon Hopkins",
+      "duration_ms": 261839,
+      "first_release_date": "2009",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8881
+    },
+    {
+      "mbid": "126aaa04-a746-424c-84de-01cb13a7a770",
+      "title": "Light Through the Veins (David Holmes remix)",
+      "artist": "Jon Hopkins",
+      "duration_ms": 400000,
+      "first_release_date": "2009-03-29",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.8305
+    },
+    {
+      "mbid": "e06d8e10-00d7-4ae2-a07c-223724a375a3",
+      "title": "Light Through the Veins (Tom Middleton remodel)",
+      "artist": "Jon Hopkins",
+      "duration_ms": 548506,
+      "first_release_date": "2009-10-19",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.8124
+    },
+    {
+      "mbid": "fadd22fc-4f79-467e-b242-19f28c8a48c0",
+      "title": "Light Through the Veins (Ewan Pearson’s Downtown Lights remix)",
+      "artist": "Jon Hopkins",
+      "duration_ms": 875133,
+      "first_release_date": "2009-03-29",
+      "disambiguation": "",
+      "musicbrainz_score": 79,
+      "local_match_score": 0.7414
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jon Hopkins",
+    "track": "Light Through the Veins",
+    "album": "Light Through the Veins",
+    "duration_ms": 558493,
+    "release_date": "2008-11-30T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/25/d2/2d/25d22d2c-e5bd-4375-ffca-21f3360cbe7a/mzaf_12405138822339308219.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/light-through-the-veins/1540926144?i=1540926154&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/light-through-the-veins/1540926144?i=1540926154&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/25/d2/2d/25d22d2c-e5bd-4375-ffca-21f3360cbe7a/mzaf_12405138822339308219.plus.aac.p.m4a",
+      "bytes": 1352245,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.0392,
+    "onset_rate_per_sec": 7.91872,
+    "dynamic_range_db_p95_p10": 4.994,
+    "crest_factor_db": 11.602,
+    "rms_mean": 0.08073,
+    "rms_std": 0.01582,
+    "spectral_centroid_hz_mean": 735.18,
+    "spectral_centroid_hz_std": 304.64,
+    "spectral_bandwidth_hz_mean": 1571.18,
+    "spectral_rolloff_hz_mean": 924.55,
+    "spectral_flatness_mean": 0.00022,
+    "spectral_contrast_mean": 22.90162,
+    "energy_share": {
+      "below_150_hz": 0.80323,
+      "150_to_2000_hz": 0.19622,
+      "above_2000_hz": 0.00055
+    },
+    "percussive_share": 0.08791,
+    "tonal_entropy_bits": 3.41269,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.38055
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06424,
+        "spectral_centroid_hz": 308.45,
+        "onset_strength": 0.60427,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06894,
+        "spectral_centroid_hz": 348.38,
+        "onset_strength": 0.76008,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07215,
+        "spectral_centroid_hz": 394.34,
+        "onset_strength": 0.98506,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07355,
+        "spectral_centroid_hz": 482.4,
+        "onset_strength": 1.09314,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.08048,
+        "spectral_centroid_hz": 635.43,
+        "onset_strength": 1.16885,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.07554,
+        "spectral_centroid_hz": 802.88,
+        "onset_strength": 1.22965,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07856,
+        "spectral_centroid_hz": 843.0,
+        "onset_strength": 1.22652,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08304,
+        "spectral_centroid_hz": 909.39,
+        "onset_strength": 1.15611,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09157,
+        "spectral_centroid_hz": 1018.4,
+        "onset_strength": 1.28475,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08816,
+        "spectral_centroid_hz": 1045.72,
+        "onset_strength": 1.34168,
+        "spectral_flatness": 0.00055
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.09227,
+        "spectral_centroid_hz": 1036.62,
+        "onset_strength": 1.27054,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10009,
+        "spectral_centroid_hz": 994.33,
+        "onset_strength": 1.24151,
+        "spectral_flatness": 0.00048
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "2de8d3f1-a9d8-4ab7-b824-3e4781759236",
+      "title": "Light Through the Veins",
+      "artist": "Jon Hopkins",
+      "duration_ms": 558493,
+      "first_release_date": "2008-11-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "2de8d3f1-a9d8-4ab7-b824-3e4781759236",
+      "duration_sec": 558.493347168,
+      "sample_rate": 44100,
+      "tempo_bpm": 126.953765869,
+      "danceability": 1.18572425842,
+      "onset_rate": 4.9470949173,
+      "beats_count": 1181,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0242766868323,
+      "dynamic_complexity": 4.69941759109,
+      "average_loudness": 0.783218383789,
+      "spectral_centroid_mean": 639.179321289,
+      "spectral_flux_mean": 0.0789224132895,
+      "spectral_rolloff_mean": 491.62512207,
+      "dissonance_mean": 0.406818062067,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
