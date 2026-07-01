@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Nils Frahm",
+    "track": "Hammers",
+    "request_id": "ear-control-20260701-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "6a01d300-8006-4f52-99cb-fbea9836a193",
+      "title": "Hammers",
+      "artist": "Nils Frahm",
+      "duration_ms": 228000,
+      "first_release_date": "2013-11-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "faa0ff21-48ac-4bae-b1c8-835aa32df81c",
+      "title": "Hammers",
+      "artist": "Nils Frahm",
+      "duration_ms": 215362,
+      "first_release_date": "2024-12-06",
+      "disambiguation": "live, 2024-03-21: Philharmonie de Paris: Grande salle Pierre Boulez, Paris, France",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6de02c19-c788-4cfd-83fd-e0f0733265e2",
+      "title": "Hammers",
+      "artist": "Nils Frahm",
+      "duration_ms": 192000,
+      "first_release_date": "2014-02-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f12830b7-fba1-430e-a6fa-6a07dc88feb9",
+      "title": "Hammers",
+      "artist": "Nils Frahm Peter Broderick",
+      "duration_ms": 112000,
+      "first_release_date": "2021-03-28",
+      "disambiguation": "",
+      "musicbrainz_score": 80,
+      "local_match_score": 0.8133
+    },
+    {
+      "mbid": "dc223bce-9f9e-44fc-b217-89a7e83a93bd",
+      "title": "Hammers",
+      "artist": "Nils Frahm Remy Van Kesteren",
+      "duration_ms": 200200,
+      "first_release_date": "2016-01-08",
+      "disambiguation": "",
+      "musicbrainz_score": 76,
+      "local_match_score": 0.8011
+    }
+  ],
+  "matched_recording": {
+    "artist": "Nils Frahm",
+    "track": "Hammers",
+    "album": "Spaces (Special Edition)",
+    "duration_ms": 228067,
+    "release_date": "2013-11-19T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a3/31/7f/a3317f1e-65ca-3fda-f043-24aad5bc4337/mzaf_6878117621665032684.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/hammers/1453571326?i=1453571978&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 67
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/hammers/1453571326?i=1453571978&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a3/31/7f/a3317f1e-65ca-3fda-f043-24aad5bc4337/mzaf_6878117621665032684.plus.aac.p.m4a",
+      "bytes": 1019442,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.03863,
+    "onset_rate_per_sec": 8.25285,
+    "dynamic_range_db_p95_p10": 5.797,
+    "crest_factor_db": 13.007,
+    "rms_mean": 0.07961,
+    "rms_std": 0.01794,
+    "spectral_centroid_hz_mean": 848.76,
+    "spectral_centroid_hz_std": 126.81,
+    "spectral_bandwidth_hz_mean": 1079.91,
+    "spectral_rolloff_hz_mean": 1588.04,
+    "spectral_flatness_mean": 0.0002,
+    "spectral_contrast_mean": 21.67526,
+    "energy_share": {
+      "below_150_hz": 0.13945,
+      "150_to_2000_hz": 0.85355,
+      "above_2000_hz": 0.007
+    },
+    "percussive_share": 0.14906,
+    "tonal_entropy_bits": 3.36455,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.05755
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07727,
+        "spectral_centroid_hz": 926.03,
+        "onset_strength": 1.10805,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07878,
+        "spectral_centroid_hz": 926.28,
+        "onset_strength": 1.22434,
+        "spectral_flatness": 0.00032
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08233,
+        "spectral_centroid_hz": 868.87,
+        "onset_strength": 1.08505,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07524,
+        "spectral_centroid_hz": 850.12,
+        "onset_strength": 1.19358,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.08006,
+        "spectral_centroid_hz": 878.3,
+        "onset_strength": 1.25795,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.0841,
+        "spectral_centroid_hz": 890.83,
+        "onset_strength": 1.20372,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.08214,
+        "spectral_centroid_hz": 814.71,
+        "onset_strength": 1.07947,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08515,
+        "spectral_centroid_hz": 779.59,
+        "onset_strength": 1.12251,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07465,
+        "spectral_centroid_hz": 759.56,
+        "onset_strength": 1.03426,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0726,
+        "spectral_centroid_hz": 802.06,
+        "onset_strength": 1.09161,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08192,
+        "spectral_centroid_hz": 876.21,
+        "onset_strength": 1.17801,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.08103,
+        "spectral_centroid_hz": 813.45,
+        "onset_strength": 1.0737,
+        "spectral_flatness": 0.00016
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "6a01d300-8006-4f52-99cb-fbea9836a193",
+      "title": "Hammers",
+      "artist": "Nils Frahm",
+      "duration_ms": 228000,
+      "first_release_date": "2013-11-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "6a01d300-8006-4f52-99cb-fbea9836a193",
+      "duration_sec": 228.066665649,
+      "sample_rate": 44100,
+      "tempo_bpm": 135.968490601,
+      "danceability": 1.12485206127,
+      "onset_rate": 4.91473484039,
+      "beats_count": 503,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0372481159866,
+      "dynamic_complexity": 2.72420239449,
+      "average_loudness": 0.923834860325,
+      "spectral_centroid_mean": 580.628234863,
+      "spectral_flux_mean": 0.0753524824977,
+      "spectral_rolloff_mean": 646.813537598,
+      "dissonance_mean": 0.430568695068,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
