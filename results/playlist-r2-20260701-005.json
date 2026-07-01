@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Brandt Brauer Frick",
+    "track": "Bop",
+    "request_id": "playlist-r2-20260701-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7458706f-9a60-4b25-abbc-6b8f2e0a1c5c",
+      "title": "Bop",
+      "artist": "Brandt Brauer Frick",
+      "duration_ms": 401466,
+      "first_release_date": "2010-11-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "291be18e-db66-4de5-994f-e46c42fedf4f",
+      "title": "Bop",
+      "artist": "The Brandt Brauer Frick Ensemble",
+      "duration_ms": 266213,
+      "first_release_date": "2011-10-24",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.8929
+    },
+    {
+      "mbid": "09170826-cf64-44b4-94f5-89739d50cdd7",
+      "title": "Bop",
+      "artist": "The Brandt Brauer Frick Ensemble",
+      "duration_ms": 268000,
+      "first_release_date": "2012",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.8929
+    },
+    {
+      "mbid": "3ed9d139-fbf0-4bec-94ff-d139f89d44fc",
+      "title": "Bop (Video Edit)",
+      "artist": "Brandt Brauer Frick",
+      "duration_ms": 400000,
+      "first_release_date": "2010-07-12",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.6247
+    },
+    {
+      "mbid": "6006ef94-23cf-4458-af31-575f9ede72de",
+      "title": "Bop (Pépé Bradock's Geoduck Dive remix)",
+      "artist": "Brandt Brauer Frick",
+      "duration_ms": 516000,
+      "first_release_date": "2011-09-27",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.507
+    }
+  ],
+  "matched_recording": {
+    "artist": "Brandt Brauer Frick",
+    "track": "Bop",
+    "album": "You Make Me Real",
+    "duration_ms": 401560,
+    "release_date": "2010-11-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/77/3f/25/773f25fd-591c-0ef6-60dd-c142c59c053c/mzaf_6101368906428115232.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/bop/402225364?i=402225514&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 94
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/bop/402225364?i=402225514&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/77/3f/25/773f25fd-591c-0ef6-60dd-c142c59c053c/mzaf_6101368906428115232.plus.aac.p.m4a",
+      "bytes": 1119660,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.07211,
+    "onset_rate_per_sec": 6.38176,
+    "dynamic_range_db_p95_p10": 21.316,
+    "crest_factor_db": 17.856,
+    "rms_mean": 0.06238,
+    "rms_std": 0.04565,
+    "spectral_centroid_hz_mean": 1689.29,
+    "spectral_centroid_hz_std": 1019.86,
+    "spectral_bandwidth_hz_mean": 2035.54,
+    "spectral_rolloff_hz_mean": 3419.49,
+    "spectral_flatness_mean": 0.02217,
+    "spectral_contrast_mean": 15.79853,
+    "energy_share": {
+      "below_150_hz": 0.78395,
+      "150_to_2000_hz": 0.17447,
+      "above_2000_hz": 0.04157
+    },
+    "percussive_share": 0.56321,
+    "tonal_entropy_bits": 3.53746,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.81681
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04727,
+        "spectral_centroid_hz": 1621.51,
+        "onset_strength": 2.71024,
+        "spectral_flatness": 0.02421
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07822,
+        "spectral_centroid_hz": 1444.75,
+        "onset_strength": 3.24988,
+        "spectral_flatness": 0.01468
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05356,
+        "spectral_centroid_hz": 1723.65,
+        "onset_strength": 3.09438,
+        "spectral_flatness": 0.02239
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05867,
+        "spectral_centroid_hz": 1818.13,
+        "onset_strength": 3.24935,
+        "spectral_flatness": 0.02673
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.06908,
+        "spectral_centroid_hz": 1759.25,
+        "onset_strength": 3.2949,
+        "spectral_flatness": 0.02681
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06552,
+        "spectral_centroid_hz": 1551.04,
+        "onset_strength": 3.12946,
+        "spectral_flatness": 0.01642
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05222,
+        "spectral_centroid_hz": 1824.83,
+        "onset_strength": 3.33173,
+        "spectral_flatness": 0.02738
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07526,
+        "spectral_centroid_hz": 1630.75,
+        "onset_strength": 3.32355,
+        "spectral_flatness": 0.01711
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05472,
+        "spectral_centroid_hz": 1713.68,
+        "onset_strength": 2.78135,
+        "spectral_flatness": 0.02191
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06059,
+        "spectral_centroid_hz": 1734.81,
+        "onset_strength": 3.44463,
+        "spectral_flatness": 0.02186
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06429,
+        "spectral_centroid_hz": 1732.24,
+        "onset_strength": 3.4713,
+        "spectral_flatness": 0.02664
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06906,
+        "spectral_centroid_hz": 1715.75,
+        "onset_strength": 3.13953,
+        "spectral_flatness": 0.01996
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7458706f-9a60-4b25-abbc-6b8f2e0a1c5c",
+      "title": "Bop",
+      "artist": "Brandt Brauer Frick",
+      "duration_ms": 401466,
+      "first_release_date": "2010-11-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7458706f-9a60-4b25-abbc-6b8f2e0a1c5c",
+      "duration_sec": 401.606536865,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.016662598,
+      "danceability": 1.58299922943,
+      "onset_rate": 6.10770368576,
+      "beats_count": 869,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0898369774222,
+      "dynamic_complexity": 4.32277584076,
+      "average_loudness": 0.829114377499,
+      "spectral_centroid_mean": 685.212890625,
+      "spectral_flux_mean": 0.117780670524,
+      "spectral_rolloff_mean": 525.179504395,
+      "dissonance_mean": 0.443157404661,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
