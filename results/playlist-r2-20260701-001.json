@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Three Trapped Tigers",
+    "track": "Engrams",
+    "request_id": "playlist-r2-20260701-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a0ea3603-23d5-4909-aec0-c651842235b8",
+      "title": "Engrams",
+      "artist": "Three Trapped Tigers",
+      "duration_ms": 321000,
+      "first_release_date": "2016-04-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8fda4861-4109-43e9-a878-46ce085278cd",
+      "title": "Engrams",
+      "artist": "Three Trapped Tigers",
+      "duration_ms": 321455,
+      "first_release_date": "2016-03-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Three Trapped Tigers",
+    "track": "Engrams",
+    "album": "Silent Earthling",
+    "duration_ms": 321456,
+    "release_date": "2016-04-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/a0/95/23a09516-575e-8212-6628-fe6a60254183/mzaf_582888800012743867.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/engrams/1078005851?i=1078005865&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/engrams/1078005851?i=1078005865&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/a0/95/23a09516-575e-8212-6628-fe6a60254183/mzaf_582888800012743867.plus.aac.p.m4a",
+      "bytes": 1072530,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.02775,
+    "onset_rate_per_sec": 4.14313,
+    "dynamic_range_db_p95_p10": 7.478,
+    "crest_factor_db": 11.325,
+    "rms_mean": 0.14955,
+    "rms_std": 0.04056,
+    "spectral_centroid_hz_mean": 1873.9,
+    "spectral_centroid_hz_std": 782.85,
+    "spectral_bandwidth_hz_mean": 2056.07,
+    "spectral_rolloff_hz_mean": 3867.66,
+    "spectral_flatness_mean": 0.0159,
+    "spectral_contrast_mean": 20.41354,
+    "energy_share": {
+      "below_150_hz": 0.54446,
+      "150_to_2000_hz": 0.41021,
+      "above_2000_hz": 0.04532
+    },
+    "percussive_share": 0.2685,
+    "tonal_entropy_bits": 3.48063,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 0.86952
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.15225,
+        "spectral_centroid_hz": 914.55,
+        "onset_strength": 1.0031,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.13885,
+        "spectral_centroid_hz": 1093.06,
+        "onset_strength": 1.22206,
+        "spectral_flatness": 0.00101
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.16326,
+        "spectral_centroid_hz": 961.79,
+        "onset_strength": 0.97499,
+        "spectral_flatness": 0.00061
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.14628,
+        "spectral_centroid_hz": 1124.63,
+        "onset_strength": 1.03847,
+        "spectral_flatness": 0.00074
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.14592,
+        "spectral_centroid_hz": 1484.7,
+        "onset_strength": 1.22072,
+        "spectral_flatness": 0.00261
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1551,
+        "spectral_centroid_hz": 2333.33,
+        "onset_strength": 1.33871,
+        "spectral_flatness": 0.02328
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14937,
+        "spectral_centroid_hz": 2317.02,
+        "onset_strength": 1.44707,
+        "spectral_flatness": 0.02599
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13543,
+        "spectral_centroid_hz": 2392.41,
+        "onset_strength": 1.40379,
+        "spectral_flatness": 0.02801
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.15442,
+        "spectral_centroid_hz": 2483.42,
+        "onset_strength": 1.46405,
+        "spectral_flatness": 0.027
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.15468,
+        "spectral_centroid_hz": 2504.52,
+        "onset_strength": 1.26731,
+        "spectral_flatness": 0.02932
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.14616,
+        "spectral_centroid_hz": 2500.83,
+        "onset_strength": 1.35899,
+        "spectral_flatness": 0.02421
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.15288,
+        "spectral_centroid_hz": 2373.32,
+        "onset_strength": 1.34991,
+        "spectral_flatness": 0.02746
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "a0ea3603-23d5-4909-aec0-c651842235b8",
+      "title": "Engrams",
+      "artist": "Three Trapped Tigers",
+      "duration_ms": 321000,
+      "first_release_date": "2016-04-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "a0ea3603-23d5-4909-aec0-c651842235b8",
+      "duration_sec": 321.455749512,
+      "sample_rate": 44100,
+      "tempo_bpm": 106.58341217,
+      "danceability": 1.06907331944,
+      "onset_rate": 3.26625943184,
+      "beats_count": 550,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.053878378123,
+      "dynamic_complexity": 2.14721655846,
+      "average_loudness": 0.941023111343,
+      "spectral_centroid_mean": 1577.19494629,
+      "spectral_flux_mean": 0.101364284754,
+      "spectral_rolloff_mean": 1388.4251709,
+      "dissonance_mean": 0.462225675583,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
