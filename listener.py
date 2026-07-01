@@ -1,3 +1,4 @@
+
 from __future__ import annotations
 
 import argparse
@@ -447,6 +448,7 @@ def choose_itunes_match(
     return best
 
 
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--artist", required=True)
@@ -474,16 +476,37 @@ def main() -> None:
 
     result["musicbrainz_candidates"] = mb_candidates[:5]
 
-    # 1. Explicit public audio URL, if supplied.
+    # Collect an archived full-recording profile, but do not let it block
+    # an actual audio attempt.
+    archived_profile = None
+    archived_match = None
+    for candidate in mb_candidates[:5]:
+        if candidate.get("local_match_score", 0) < 0.75:
+            continue
+        try:
+            profile = acousticbrainz_summary(candidate["mbid"])
+        except Exception as exc:
+            result["warnings"].append(
+                f"AcousticBrainz lookup failed for {candidate['mbid']}: {exc}"
+            )
+            continue
+        if profile:
+            archived_profile = profile
+            archived_match = candidate
+            break
+
+    # 1. Explicit permitted public audio URL, if supplied.
     if args.source_url:
         try:
             download, analysis = analyze_url(args.source_url)
             result.update(
                 {
                     "status": "heard_direct_public_audio",
+                    "matched_recording": archived_match,
                     "source": {
                         "kind": "explicit_public_https_audio",
                         "download": download,
+                        "retained_audio": False,
                     },
                     "analysis": analysis,
                 }
@@ -491,33 +514,8 @@ def main() -> None:
         except Exception as exc:
             result["warnings"].append(f"Direct URL analysis failed: {exc}")
 
-    # 2. Archived full-recording features.
-    if result["status"] == "started":
-        for candidate in mb_candidates[:5]:
-            if candidate.get("local_match_score", 0) < 0.75:
-                continue
-            try:
-                profile = acousticbrainz_summary(candidate["mbid"])
-            except Exception as exc:
-                result["warnings"].append(
-                    f"AcousticBrainz lookup failed for {candidate['mbid']}: {exc}"
-                )
-                continue
-            if profile:
-                result.update(
-                    {
-                        "status": "analyzed_archived_full_recording_features",
-                        "matched_recording": candidate,
-                        "source": {
-                            "kind": "AcousticBrainz",
-                            "audio_was_not_downloaded": True,
-                        },
-                        "analysis": profile,
-                    }
-                )
-                break
-
-    # 3. Official short preview, processed transiently.
+    # 2. Official short preview: actual signal is downloaded transiently
+    # and analyzed before falling back to archived features.
     if result["status"] == "started":
         try:
             preview = choose_itunes_match(
@@ -543,6 +541,29 @@ def main() -> None:
                 )
         except Exception as exc:
             result["warnings"].append(f"Official preview analysis failed: {exc}")
+
+    # Attach archived whole-recording features as a second layer whenever
+    # they exist, even after a real preview has been heard.
+    if archived_profile:
+        result["archived_full_recording_features"] = {
+            "matched_recording": archived_match,
+            "analysis": archived_profile,
+        }
+
+    # 3. Only if no actual audio could be heard, fall back to the archived
+    # full-recording profile.
+    if result["status"] == "started" and archived_profile:
+        result.update(
+            {
+                "status": "analyzed_archived_full_recording_features",
+                "matched_recording": archived_match,
+                "source": {
+                    "kind": "AcousticBrainz",
+                    "audio_was_not_downloaded": True,
+                },
+                "analysis": archived_profile,
+            }
+        )
 
     if result["status"] == "started":
         result["status"] = "no_usable_open_features_or_permitted_audio_found"
