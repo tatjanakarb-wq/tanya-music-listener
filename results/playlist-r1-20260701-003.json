@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Kelly Moran",
+    "track": "Autowave",
+    "request_id": "playlist-r1-20260701-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ea4a3a85-11e8-4f9f-91e7-1880ce7814ac",
+      "title": "Autowave",
+      "artist": "Kelly Moran",
+      "duration_ms": 189000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "36826f62-90db-411e-8525-d652934d804c",
+      "title": "Reflexive Music (Autowave)",
+      "artist": "Kelly Moran",
+      "duration_ms": 163000,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.71
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kelly Moran",
+    "track": "Autowave",
+    "album": "Ultraviolet",
+    "duration_ms": 189540,
+    "release_date": "2018-11-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e9/9e/b9/e99eb9b5-8665-d8ca-8215-91eab0ea3522/mzaf_13121096817345331817.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/autowave/1715661282?i=1715661283&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 540
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/autowave/1715661282?i=1715661283&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e9/9e/b9/e99eb9b5-8665-d8ca-8215-91eab0ea3522/mzaf_13121096817345331817.plus.aac.p.m4a",
+      "bytes": 1121792,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 143.555,
+    "beat_interval_cv": 0.04557,
+    "onset_rate_per_sec": 1.90303,
+    "dynamic_range_db_p95_p10": 24.758,
+    "crest_factor_db": 18.332,
+    "rms_mean": 0.0166,
+    "rms_std": 0.01202,
+    "spectral_centroid_hz_mean": 1014.91,
+    "spectral_centroid_hz_std": 435.3,
+    "spectral_bandwidth_hz_mean": 1433.42,
+    "spectral_rolloff_hz_mean": 1636.24,
+    "spectral_flatness_mean": 0.00423,
+    "spectral_contrast_mean": 22.4552,
+    "energy_share": {
+      "below_150_hz": 0.01934,
+      "150_to_2000_hz": 0.97255,
+      "above_2000_hz": 0.00811
+    },
+    "percussive_share": 0.1508,
+    "tonal_entropy_bits": 3.35234,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.71,
+      "relative_score": 1.54474
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00659,
+        "spectral_centroid_hz": 1010.03,
+        "onset_strength": 1.03158,
+        "spectral_flatness": 0.03284
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00206,
+        "spectral_centroid_hz": 791.69,
+        "onset_strength": 0.34834,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01108,
+        "spectral_centroid_hz": 953.46,
+        "onset_strength": 1.06882,
+        "spectral_flatness": 0.00081
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.00475,
+        "spectral_centroid_hz": 640.55,
+        "onset_strength": 0.35317,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.00996,
+        "spectral_centroid_hz": 913.88,
+        "onset_strength": 0.8521,
+        "spectral_flatness": 0.00221
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.01032,
+        "spectral_centroid_hz": 911.82,
+        "onset_strength": 0.78811,
+        "spectral_flatness": 0.00072
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.02674,
+        "spectral_centroid_hz": 1354.68,
+        "onset_strength": 1.56179,
+        "spectral_flatness": 0.00415
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.01734,
+        "spectral_centroid_hz": 940.01,
+        "onset_strength": 0.75991,
+        "spectral_flatness": 0.00047
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.02217,
+        "spectral_centroid_hz": 1183.28,
+        "onset_strength": 1.25097,
+        "spectral_flatness": 0.00258
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.03162,
+        "spectral_centroid_hz": 1377.3,
+        "onset_strength": 1.57642,
+        "spectral_flatness": 0.00365
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.02948,
+        "spectral_centroid_hz": 1137.56,
+        "onset_strength": 1.19969,
+        "spectral_flatness": 0.00178
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.02721,
+        "spectral_centroid_hz": 968.91,
+        "onset_strength": 1.25869,
+        "spectral_flatness": 0.00146
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ea4a3a85-11e8-4f9f-91e7-1880ce7814ac",
+      "title": "Autowave",
+      "artist": "Kelly Moran",
+      "duration_ms": 189000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ea4a3a85-11e8-4f9f-91e7-1880ce7814ac",
+      "duration_sec": 189.570617676,
+      "sample_rate": 44100,
+      "tempo_bpm": 178.205917358,
+      "danceability": 0.847816646099,
+      "onset_rate": 2.76911973953,
+      "beats_count": 495,
+      "key": "C#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0320763960481,
+      "dynamic_complexity": 7.6812081337,
+      "average_loudness": 0.596948444843,
+      "spectral_centroid_mean": 518.778747559,
+      "spectral_flux_mean": 0.0578342378139,
+      "spectral_rolloff_mean": 686.790100098,
+      "dissonance_mean": 0.430992424488,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
