@@ -1,0 +1,96 @@
+{
+  "request": {
+    "artist": "Nils Frahm",
+    "track": "Says",
+    "request_id": "says-test"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "1058ffd7-413f-44b2-b67b-850a1a57f0a8",
+      "title": "Says",
+      "artist": "Nils Frahm",
+      "duration_ms": 497087,
+      "first_release_date": "2019-10-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "322a7d90-f7dc-4cb2-941b-5bb437fa98be",
+      "title": "Says",
+      "artist": "Nils Frahm",
+      "duration_ms": 540000,
+      "first_release_date": "2013-10-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5e573d61-37d6-446e-a5b1-82ab84e1a9b9",
+      "title": "Says",
+      "artist": "Nils Frahm",
+      "duration_ms": 132000,
+      "first_release_date": "2017-08-16",
+      "disambiguation": "part of “NO.SLEEP Mix.11” DJ‐mix",
+      "musicbrainz_score": 99,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "26185c8c-2413-4000-8f2b-573f153a46e9",
+      "title": "Says",
+      "artist": "Nils Frahm",
+      "duration_ms": 444413,
+      "first_release_date": "2014-06-27",
+      "disambiguation": "",
+      "musicbrainz_score": 99,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "dad94af0-5144-4928-8349-9805466f6b30",
+      "title": "Says",
+      "artist": "Nils Frahm",
+      "duration_ms": 189885,
+      "first_release_date": "2023-11-03",
+      "disambiguation": "part of 'The Evolution of Chill Pt. VII' mix",
+      "musicbrainz_score": 99,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "mbid": "1058ffd7-413f-44b2-b67b-850a1a57f0a8",
+    "title": "Says",
+    "artist": "Nils Frahm",
+    "duration_ms": 497087,
+    "first_release_date": "2019-10-18",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "1058ffd7-413f-44b2-b67b-850a1a57f0a8",
+    "duration_sec": 497.095336914,
+    "sample_rate": 44100,
+    "tempo_bpm": 112.281593323,
+    "danceability": 1.05545282364,
+    "onset_rate": 3.8522195816,
+    "beats_count": 1081,
+    "key": "C",
+    "scale": "minor",
+    "chords_changes_rate": 0.0101812072098,
+    "dynamic_complexity": 9.35687446594,
+    "average_loudness": 0.0805254131556,
+    "spectral_centroid_mean": 695.881530762,
+    "spectral_flux_mean": 0.041375182569,
+    "spectral_rolloff_mean": 779.257446289,
+    "dissonance_mean": 0.377785772085,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}
