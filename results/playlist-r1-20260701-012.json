@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Plaid",
+    "track": "Do Matter",
+    "request_id": "playlist-r1-20260701-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d932f53a-8528-49d7-b5e2-4f5b44b11cdb",
+      "title": "Do Matter",
+      "artist": "Plaid",
+      "duration_ms": 220000,
+      "first_release_date": "2016-06-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f955753b-47ec-4fc2-b279-2539a553689a",
+      "title": "Do Matter",
+      "artist": "Plaid",
+      "duration_ms": 231000,
+      "first_release_date": null,
+      "disambiguation": "Music video",
+      "musicbrainz_score": 99,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Plaid",
+    "track": "Do Matter",
+    "album": "The Digging Remedy",
+    "duration_ms": 220920,
+    "release_date": "2016-05-26T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/a5/b4/27a5b48b-5943-ce38-8417-c05c8b6b5dc8/mzaf_8526718931117021490.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/do-matter/1104321742?i=1104321950&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 920
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/do-matter/1104321742?i=1104321950&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/a5/b4/27a5b48b-5943-ce38-8417-c05c8b6b5dc8/mzaf_8526718931117021490.plus.aac.p.m4a",
+      "bytes": 998310,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.01592,
+    "onset_rate_per_sec": 3.2051,
+    "dynamic_range_db_p95_p10": 4.936,
+    "crest_factor_db": 14.268,
+    "rms_mean": 0.08006,
+    "rms_std": 0.02641,
+    "spectral_centroid_hz_mean": 290.52,
+    "spectral_centroid_hz_std": 208.94,
+    "spectral_bandwidth_hz_mean": 497.58,
+    "spectral_rolloff_hz_mean": 488.47,
+    "spectral_flatness_mean": 0.0322,
+    "spectral_contrast_mean": 20.16275,
+    "energy_share": {
+      "below_150_hz": 0.79447,
+      "150_to_2000_hz": 0.20512,
+      "above_2000_hz": 0.00041
+    },
+    "percussive_share": 0.18636,
+    "tonal_entropy_bits": 3.34298,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 1.55882
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04609,
+        "spectral_centroid_hz": 212.16,
+        "onset_strength": 0.55946,
+        "spectral_flatness": 0.38753
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06897,
+        "spectral_centroid_hz": 246.59,
+        "onset_strength": 0.76725,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07987,
+        "spectral_centroid_hz": 259.56,
+        "onset_strength": 0.76934,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.07822,
+        "spectral_centroid_hz": 260.02,
+        "onset_strength": 0.73517,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.07963,
+        "spectral_centroid_hz": 247.08,
+        "onset_strength": 0.70077,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.08226,
+        "spectral_centroid_hz": 285.71,
+        "onset_strength": 0.76171,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.08062,
+        "spectral_centroid_hz": 280.8,
+        "onset_strength": 0.67586,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.07699,
+        "spectral_centroid_hz": 269.27,
+        "onset_strength": 0.67646,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.08234,
+        "spectral_centroid_hz": 553.86,
+        "onset_strength": 0.99669,
+        "spectral_flatness": 0.00062
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.0921,
+        "spectral_centroid_hz": 279.82,
+        "onset_strength": 0.74699,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.09077,
+        "spectral_centroid_hz": 259.22,
+        "onset_strength": 0.77522,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.10267,
+        "spectral_centroid_hz": 332.74,
+        "onset_strength": 1.01535,
+        "spectral_flatness": 2e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d932f53a-8528-49d7-b5e2-4f5b44b11cdb",
+      "title": "Do Matter",
+      "artist": "Plaid",
+      "duration_ms": 220000,
+      "first_release_date": "2016-06-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d932f53a-8528-49d7-b5e2-4f5b44b11cdb",
+      "duration_sec": 220.919998169,
+      "sample_rate": 44100,
+      "tempo_bpm": 100.040092468,
+      "danceability": 1.42333054543,
+      "onset_rate": 4.09617424011,
+      "beats_count": 371,
+      "key": "D#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0575751215219,
+      "dynamic_complexity": 3.48626947403,
+      "average_loudness": 0.700572669506,
+      "spectral_centroid_mean": 454.90637207,
+      "spectral_flux_mean": 0.0945711582899,
+      "spectral_rolloff_mean": 439.365722656,
+      "dissonance_mean": 0.409953206778,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
