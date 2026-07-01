@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "mouse on the keys",
+    "track": "spectres de mouse",
+    "request_id": "playlist-r1-20260701-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "957bf12d-e67a-4dab-8ca2-40ba8973e29b",
+      "title": "spectres de mouse",
+      "artist": "mouse on the keys",
+      "duration_ms": 201000,
+      "first_release_date": "2009-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "594bb96a-e21e-41fe-83d8-adb8a834e1ba",
+      "title": "Spectres de Mouse",
+      "artist": "mouse on the keys",
+      "duration_ms": 70046,
+      "first_release_date": "2011-09-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f8676686-6fc5-4ce6-acf6-c6acb3483632",
+      "title": "Spectres De Mouse",
+      "artist": "Mouse on the Keys",
+      "duration_ms": 204906,
+      "first_release_date": "2016-03-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "mouse on the keys",
+    "track": "Spectres De Mouse",
+    "album": "An Anxious Object",
+    "duration_ms": 200587,
+    "release_date": "2009-07-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/17/72/0a/17720ae5-b544-bf4c-0b4d-a4cbe71a69df/mzaf_10307870779499942765.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/spectres-de-mouse/1292674914?i=1292674917&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 413
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/spectres-de-mouse/1292674914?i=1292674917&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/17/72/0a/17720ae5-b544-bf4c-0b4d-a4cbe71a69df/mzaf_10307870779499942765.plus.aac.p.m4a",
+      "bytes": 1089784,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.03724,
+    "onset_rate_per_sec": 5.37939,
+    "dynamic_range_db_p95_p10": 6.032,
+    "crest_factor_db": 9.8,
+    "rms_mean": 0.19325,
+    "rms_std": 0.04357,
+    "spectral_centroid_hz_mean": 2239.24,
+    "spectral_centroid_hz_std": 664.35,
+    "spectral_bandwidth_hz_mean": 2645.01,
+    "spectral_rolloff_hz_mean": 5236.41,
+    "spectral_flatness_mean": 0.02721,
+    "spectral_contrast_mean": 16.71353,
+    "energy_share": {
+      "below_150_hz": 0.49141,
+      "150_to_2000_hz": 0.46767,
+      "above_2000_hz": 0.04092
+    },
+    "percussive_share": 0.38394,
+    "tonal_entropy_bits": 3.53408,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.41235
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.18273,
+        "spectral_centroid_hz": 2605.22,
+        "onset_strength": 1.21406,
+        "spectral_flatness": 0.03888
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.15422,
+        "spectral_centroid_hz": 2425.65,
+        "onset_strength": 1.33925,
+        "spectral_flatness": 0.03771
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.17077,
+        "spectral_centroid_hz": 2506.82,
+        "onset_strength": 1.27346,
+        "spectral_flatness": 0.03593
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.16854,
+        "spectral_centroid_hz": 2390.15,
+        "onset_strength": 1.25591,
+        "spectral_flatness": 0.03776
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.19123,
+        "spectral_centroid_hz": 2122.49,
+        "onset_strength": 1.19429,
+        "spectral_flatness": 0.02216
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.193,
+        "spectral_centroid_hz": 2281.41,
+        "onset_strength": 1.15788,
+        "spectral_flatness": 0.0316
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.20161,
+        "spectral_centroid_hz": 2048.27,
+        "onset_strength": 1.1755,
+        "spectral_flatness": 0.01943
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.20799,
+        "spectral_centroid_hz": 2249.17,
+        "onset_strength": 1.19805,
+        "spectral_flatness": 0.02454
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.21589,
+        "spectral_centroid_hz": 1924.26,
+        "onset_strength": 1.18603,
+        "spectral_flatness": 0.01591
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.21011,
+        "spectral_centroid_hz": 2189.45,
+        "onset_strength": 1.08363,
+        "spectral_flatness": 0.02338
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.21286,
+        "spectral_centroid_hz": 1852.02,
+        "onset_strength": 1.20814,
+        "spectral_flatness": 0.01488
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.20988,
+        "spectral_centroid_hz": 2274.58,
+        "onset_strength": 1.13874,
+        "spectral_flatness": 0.02434
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "957bf12d-e67a-4dab-8ca2-40ba8973e29b",
+      "title": "spectres de mouse",
+      "artist": "mouse on the keys",
+      "duration_ms": 201000,
+      "first_release_date": "2009-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "957bf12d-e67a-4dab-8ca2-40ba8973e29b",
+      "duration_sec": 200.646530151,
+      "sample_rate": 44100,
+      "tempo_bpm": 163.813568115,
+      "danceability": 1.09455895424,
+      "onset_rate": 4.13122558594,
+      "beats_count": 544,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0705691799521,
+      "dynamic_complexity": 2.38005185127,
+      "average_loudness": 0.956757307053,
+      "spectral_centroid_mean": 1133.12976074,
+      "spectral_flux_mean": 0.100591309369,
+      "spectral_rolloff_mean": 1088.73693848,
+      "dissonance_mean": 0.454413741827,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
