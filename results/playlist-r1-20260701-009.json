@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Battles",
+    "track": "The Yabba",
+    "request_id": "playlist-r1-20260701-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "97b0614d-5400-4f0f-822d-430ec99340f5",
+      "title": "The Yabba",
+      "artist": "Battles",
+      "duration_ms": 409120,
+      "first_release_date": "2015-12-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ddd5cc21-c3fb-49ca-bbf9-3d756e37d600",
+      "title": "The Yabba",
+      "artist": "Battles",
+      "duration_ms": 409000,
+      "first_release_date": "2015-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Battles",
+    "track": "The Yabba",
+    "album": "La Di Da Di",
+    "duration_ms": 409120,
+    "release_date": "2015-08-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/25/df/77/25df77ba-7067-da39-2182-bf252b120df0/mzaf_17646348659873238512.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-yabba/1019525939?i=1019525943&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-yabba/1019525939?i=1019525943&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/25/df/77/25df77ba-7067-da39-2182-bf252b120df0/mzaf_17646348659873238512.plus.aac.p.m4a",
+      "bytes": 1063405,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.03432,
+    "onset_rate_per_sec": 6.18128,
+    "dynamic_range_db_p95_p10": 21.447,
+    "crest_factor_db": 11.061,
+    "rms_mean": 0.13674,
+    "rms_std": 0.08991,
+    "spectral_centroid_hz_mean": 912.32,
+    "spectral_centroid_hz_std": 509.41,
+    "spectral_bandwidth_hz_mean": 1427.63,
+    "spectral_rolloff_hz_mean": 1768.11,
+    "spectral_flatness_mean": 0.00134,
+    "spectral_contrast_mean": 20.03335,
+    "energy_share": {
+      "below_150_hz": 0.89505,
+      "150_to_2000_hz": 0.10301,
+      "above_2000_hz": 0.00194
+    },
+    "percussive_share": 0.14644,
+    "tonal_entropy_bits": 3.47232,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.37824
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13729,
+        "spectral_centroid_hz": 1144.04,
+        "onset_strength": 1.40929,
+        "spectral_flatness": 0.00065
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.15298,
+        "spectral_centroid_hz": 1055.18,
+        "onset_strength": 1.52806,
+        "spectral_flatness": 0.00048
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.17018,
+        "spectral_centroid_hz": 810.27,
+        "onset_strength": 1.48208,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.20148,
+        "spectral_centroid_hz": 548.17,
+        "onset_strength": 1.54985,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.22192,
+        "spectral_centroid_hz": 541.38,
+        "onset_strength": 1.40569,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.2329,
+        "spectral_centroid_hz": 599.86,
+        "onset_strength": 1.49564,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.21271,
+        "spectral_centroid_hz": 739.8,
+        "onset_strength": 1.56726,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.21,
+        "spectral_centroid_hz": 800.4,
+        "onset_strength": 1.55305,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.03723,
+        "spectral_centroid_hz": 841.15,
+        "onset_strength": 1.47473,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.02172,
+        "spectral_centroid_hz": 1104.91,
+        "onset_strength": 1.75905,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.02148,
+        "spectral_centroid_hz": 1112.16,
+        "onset_strength": 1.73459,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.02138,
+        "spectral_centroid_hz": 1647.26,
+        "onset_strength": 1.92838,
+        "spectral_flatness": 0.01245
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ddd5cc21-c3fb-49ca-bbf9-3d756e37d600",
+      "title": "The Yabba",
+      "artist": "Battles",
+      "duration_ms": 409000,
+      "first_release_date": "2015-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ddd5cc21-c3fb-49ca-bbf9-3d756e37d600",
+      "duration_sec": 409.119995117,
+      "sample_rate": 44100,
+      "tempo_bpm": 163.925308228,
+      "danceability": 1.07473301888,
+      "onset_rate": 3.64915704727,
+      "beats_count": 1015,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0528884343803,
+      "dynamic_complexity": 5.14684820175,
+      "average_loudness": 0.283007353544,
+      "spectral_centroid_mean": 955.970275879,
+      "spectral_flux_mean": 0.084697842598,
+      "spectral_rolloff_mean": 1146.51501465,
+      "dissonance_mean": 0.445797234774,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
