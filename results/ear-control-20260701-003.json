@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Björk",
+    "track": "Crystalline",
+    "request_id": "ear-control-20260701-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "6644142c-075b-4f29-b0ba-d5658de44519",
+      "title": "Crystalline",
+      "artist": "Björk",
+      "duration_ms": 326000,
+      "first_release_date": "2011-10-10",
+      "disambiguation": "live, 2011-07: Manchester International Festival 2011, Campfield Market Hall, Manchester, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "182698ac-070d-48c3-bfcc-14c39bf79f59",
+      "title": "Crystalline",
+      "artist": "Björk",
+      "duration_ms": 328000,
+      "first_release_date": null,
+      "disambiguation": "live, 2013-09-03: Alexandra Palace, London, England, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2164d10f-51d9-478d-963c-488f969a045b",
+      "title": "Crystalline",
+      "artist": "Björk",
+      "duration_ms": 307000,
+      "first_release_date": null,
+      "disambiguation": "live, 2013‐06‐15: Bonnaroo Music & Arts Festival, Manchester, TN, USA",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5d7a6274-ac7f-4b40-9687-b84c9ef1222d",
+      "title": "Crystalline",
+      "artist": "Björk",
+      "duration_ms": 312000,
+      "first_release_date": "2014-11-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "34bf109e-2eb9-42d7-88eb-2e6961c85646",
+      "title": "Crystalline",
+      "artist": "Björk",
+      "duration_ms": 311773,
+      "first_release_date": "2014-11-19",
+      "disambiguation": "live, 2013-09-03: Alexandra Palace, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Björk",
+    "track": "Crystalline",
+    "album": "Biophilia (Deluxe Edition)",
+    "duration_ms": 308053,
+    "release_date": "2011-06-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/39/b2/1539b2f2-2fa7-c7c4-23e4-e938eca18159/mzaf_15355235523607056883.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/crystalline/1726653719?i=1726653722&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1053
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/crystalline/1726653719?i=1726653722&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/39/b2/1539b2f2-2fa7-c7c4-23e4-e938eca18159/mzaf_15355235523607056883.plus.aac.p.m4a",
+      "bytes": 1011430,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.03606,
+    "onset_rate_per_sec": 3.50558,
+    "dynamic_range_db_p95_p10": 22.332,
+    "crest_factor_db": 17.795,
+    "rms_mean": 0.03543,
+    "rms_std": 0.02742,
+    "spectral_centroid_hz_mean": 3071.49,
+    "spectral_centroid_hz_std": 895.8,
+    "spectral_bandwidth_hz_mean": 2807.75,
+    "spectral_rolloff_hz_mean": 6516.97,
+    "spectral_flatness_mean": 0.03388,
+    "spectral_contrast_mean": 21.49195,
+    "energy_share": {
+      "below_150_hz": 0.00196,
+      "150_to_2000_hz": 0.92137,
+      "above_2000_hz": 0.07667
+    },
+    "percussive_share": 0.23438,
+    "tonal_entropy_bits": 3.47297,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.23,
+      "relative_score": 0.88588
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01325,
+        "spectral_centroid_hz": 2975.5,
+        "onset_strength": 1.84338,
+        "spectral_flatness": 0.10309
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01678,
+        "spectral_centroid_hz": 2794.51,
+        "onset_strength": 1.77809,
+        "spectral_flatness": 0.01341
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0167,
+        "spectral_centroid_hz": 2889.26,
+        "onset_strength": 1.74865,
+        "spectral_flatness": 0.0151
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.05627,
+        "spectral_centroid_hz": 2591.02,
+        "onset_strength": 1.58207,
+        "spectral_flatness": 0.01108
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.06577,
+        "spectral_centroid_hz": 3247.3,
+        "onset_strength": 1.6027,
+        "spectral_flatness": 0.02607
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.02524,
+        "spectral_centroid_hz": 3201.75,
+        "onset_strength": 1.73119,
+        "spectral_flatness": 0.03637
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.01698,
+        "spectral_centroid_hz": 3401.01,
+        "onset_strength": 1.9222,
+        "spectral_flatness": 0.05705
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.02762,
+        "spectral_centroid_hz": 3777.37,
+        "onset_strength": 1.87469,
+        "spectral_flatness": 0.07228
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.06028,
+        "spectral_centroid_hz": 3013.33,
+        "onset_strength": 1.756,
+        "spectral_flatness": 0.0185
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.05395,
+        "spectral_centroid_hz": 3086.45,
+        "onset_strength": 1.28977,
+        "spectral_flatness": 0.01489
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.04333,
+        "spectral_centroid_hz": 3205.82,
+        "onset_strength": 1.54991,
+        "spectral_flatness": 0.0199
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.02906,
+        "spectral_centroid_hz": 2677.36,
+        "onset_strength": 1.58008,
+        "spectral_flatness": 0.01915
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "6644142c-075b-4f29-b0ba-d5658de44519",
+      "title": "Crystalline",
+      "artist": "Björk",
+      "duration_ms": 326000,
+      "first_release_date": "2011-10-10",
+      "disambiguation": "live, 2011-07: Manchester International Festival 2011, Campfield Market Hall, Manchester, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "6644142c-075b-4f29-b0ba-d5658de44519",
+      "duration_sec": 325.933319092,
+      "sample_rate": 44100,
+      "tempo_bpm": 178.206466675,
+      "danceability": 1.16017591953,
+      "onset_rate": 3.35634183884,
+      "beats_count": 948,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.0783475786448,
+      "dynamic_complexity": 5.4774889946,
+      "average_loudness": 0.250413745642,
+      "spectral_centroid_mean": 2239.23803711,
+      "spectral_flux_mean": 0.0758136436343,
+      "spectral_rolloff_mean": 2813.67163086,
+      "dissonance_mean": 0.459262281656,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
