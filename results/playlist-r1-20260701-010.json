@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Tyondai Braxton",
+    "track": "Scout1",
+    "request_id": "playlist-r1-20260701-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7809d1d6-70c6-4a82-979f-81be0759254c",
+      "title": "Scout1",
+      "artist": "Tyondai Braxton",
+      "duration_ms": 566254,
+      "first_release_date": "2015-05-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "073b5e6d-340b-4dee-a178-aed62c07394e",
+      "title": "Scout1",
+      "artist": "Tyondai Braxton",
+      "duration_ms": 565869,
+      "first_release_date": "2015",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Tyondai Braxton",
+    "track": "Scout1",
+    "album": "HIVE1",
+    "duration_ms": 565754,
+    "release_date": "2015-05-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6a/7a/f7/6a7af7da-8476-284f-d860-ee1d07e6ddaf/mzaf_957173882525949089.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/scout1/969363013?i=969363023&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 115
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/scout1/969363013?i=969363023&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6a/7a/f7/6a7af7da-8476-284f-d860-ee1d07e6ddaf/mzaf_957173882525949089.plus.aac.p.m4a",
+      "bytes": 1284906,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.03813,
+    "onset_rate_per_sec": 7.21706,
+    "dynamic_range_db_p95_p10": 12.21,
+    "crest_factor_db": 11.625,
+    "rms_mean": 0.13367,
+    "rms_std": 0.06231,
+    "spectral_centroid_hz_mean": 1744.61,
+    "spectral_centroid_hz_std": 589.99,
+    "spectral_bandwidth_hz_mean": 1953.85,
+    "spectral_rolloff_hz_mean": 3532.77,
+    "spectral_flatness_mean": 0.01656,
+    "spectral_contrast_mean": 17.21744,
+    "energy_share": {
+      "below_150_hz": 0.51772,
+      "150_to_2000_hz": 0.44566,
+      "above_2000_hz": 0.03662
+    },
+    "percussive_share": 0.48081,
+    "tonal_entropy_bits": 3.54845,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.73,
+      "relative_score": 0.48756
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13769,
+        "spectral_centroid_hz": 1761.51,
+        "onset_strength": 1.50534,
+        "spectral_flatness": 0.01355
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.14048,
+        "spectral_centroid_hz": 1735.64,
+        "onset_strength": 1.65008,
+        "spectral_flatness": 0.01189
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.13823,
+        "spectral_centroid_hz": 1572.45,
+        "onset_strength": 1.67254,
+        "spectral_flatness": 0.01089
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.1413,
+        "spectral_centroid_hz": 1455.82,
+        "onset_strength": 1.7453,
+        "spectral_flatness": 0.01056
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.14552,
+        "spectral_centroid_hz": 1682.59,
+        "onset_strength": 1.51581,
+        "spectral_flatness": 0.01322
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1403,
+        "spectral_centroid_hz": 1744.18,
+        "onset_strength": 1.56163,
+        "spectral_flatness": 0.01055
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.12522,
+        "spectral_centroid_hz": 1977.88,
+        "onset_strength": 1.41359,
+        "spectral_flatness": 0.02409
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.1121,
+        "spectral_centroid_hz": 2044.32,
+        "onset_strength": 1.56079,
+        "spectral_flatness": 0.03553
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.13622,
+        "spectral_centroid_hz": 1586.69,
+        "onset_strength": 1.58198,
+        "spectral_flatness": 0.01502
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1423,
+        "spectral_centroid_hz": 1577.16,
+        "onset_strength": 1.62173,
+        "spectral_flatness": 0.00984
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.14006,
+        "spectral_centroid_hz": 1719.46,
+        "onset_strength": 1.60115,
+        "spectral_flatness": 0.01019
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10481,
+        "spectral_centroid_hz": 2075.48,
+        "onset_strength": 1.66291,
+        "spectral_flatness": 0.03321
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7809d1d6-70c6-4a82-979f-81be0759254c",
+      "title": "Scout1",
+      "artist": "Tyondai Braxton",
+      "duration_ms": 566254,
+      "first_release_date": "2015-05-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7809d1d6-70c6-4a82-979f-81be0759254c",
+      "duration_sec": 565.799987793,
+      "sample_rate": 44100,
+      "tempo_bpm": 143.761260986,
+      "danceability": 1.27574980259,
+      "onset_rate": 4.59339666367,
+      "beats_count": 1162,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.0837915465236,
+      "dynamic_complexity": 7.49839067459,
+      "average_loudness": 0.65909999609,
+      "spectral_centroid_mean": 928.691223145,
+      "spectral_flux_mean": 0.0851309373975,
+      "spectral_rolloff_mean": 1172.72155762,
+      "dissonance_mean": 0.422893792391,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
