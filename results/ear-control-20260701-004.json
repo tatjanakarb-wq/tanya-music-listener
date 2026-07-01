@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "One-Armed Bandit",
+    "request_id": "ear-control-20260701-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7ff81df4-7243-4d41-9b8f-232d81d62e27",
+      "title": "One-Armed Bandit",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 411080,
+      "first_release_date": "2010-01-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b7e85335-23e4-4a90-a7f8-6171fff5b54b",
+      "title": "One Armed Bandit",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 212000,
+      "first_release_date": "2010-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f100348b-d489-42a2-aff4-e206d9cfbfcd",
+      "title": "One-Armed Bandit",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 427746,
+      "first_release_date": "2010-01-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "fa2a4a9c-2ef1-4d69-a168-a2fbfa291816",
+      "title": "One-Armed Bandit (edit)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 317701,
+      "first_release_date": "2010-07-18",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.9216
+    },
+    {
+      "mbid": "c0986136-e3f1-4341-9bb0-20376eb8e4cc",
+      "title": "One-Armed Bandit (radio edit)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 214000,
+      "first_release_date": "2010-02",
+      "disambiguation": "",
+      "musicbrainz_score": 90,
+      "local_match_score": 0.8516
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "One-armed Bandit",
+    "album": "One-armed Bandit",
+    "duration_ms": 427747,
+    "release_date": "2005-11-21T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/55/1e/5d551e79-91f1-6f4e-b37d-eade963e8e5f/mzaf_5255995237293320102.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/one-armed-bandit/416306064?i=416306071&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/one-armed-bandit/416306064?i=416306071&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/55/1e/5d551e79-91f1-6f4e-b37d-eade963e8e5f/mzaf_5255995237293320102.plus.aac.p.m4a",
+      "bytes": 1160365,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.0362,
+    "onset_rate_per_sec": 6.01422,
+    "dynamic_range_db_p95_p10": 10.984,
+    "crest_factor_db": 11.494,
+    "rms_mean": 0.14807,
+    "rms_std": 0.0573,
+    "spectral_centroid_hz_mean": 2231.18,
+    "spectral_centroid_hz_std": 835.39,
+    "spectral_bandwidth_hz_mean": 2597.28,
+    "spectral_rolloff_hz_mean": 5218.99,
+    "spectral_flatness_mean": 0.02032,
+    "spectral_contrast_mean": 20.02167,
+    "energy_share": {
+      "below_150_hz": 0.7514,
+      "150_to_2000_hz": 0.21652,
+      "above_2000_hz": 0.03208
+    },
+    "percussive_share": 0.2793,
+    "tonal_entropy_bits": 3.51495,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.04962
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10296,
+        "spectral_centroid_hz": 2809.43,
+        "onset_strength": 1.53306,
+        "spectral_flatness": 0.02369
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.14639,
+        "spectral_centroid_hz": 1957.64,
+        "onset_strength": 1.49677,
+        "spectral_flatness": 0.01079
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15077,
+        "spectral_centroid_hz": 1780.91,
+        "onset_strength": 1.57713,
+        "spectral_flatness": 0.01063
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.15561,
+        "spectral_centroid_hz": 2170.77,
+        "onset_strength": 1.41781,
+        "spectral_flatness": 0.01921
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.14257,
+        "spectral_centroid_hz": 2258.19,
+        "onset_strength": 1.51938,
+        "spectral_flatness": 0.02167
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.15536,
+        "spectral_centroid_hz": 2251.01,
+        "onset_strength": 1.73,
+        "spectral_flatness": 0.01586
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14193,
+        "spectral_centroid_hz": 2291.42,
+        "onset_strength": 1.59523,
+        "spectral_flatness": 0.02729
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14707,
+        "spectral_centroid_hz": 1986.02,
+        "onset_strength": 1.55285,
+        "spectral_flatness": 0.0194
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14635,
+        "spectral_centroid_hz": 2424.75,
+        "onset_strength": 1.624,
+        "spectral_flatness": 0.02829
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.14995,
+        "spectral_centroid_hz": 2173.96,
+        "onset_strength": 1.48516,
+        "spectral_flatness": 0.02099
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.16339,
+        "spectral_centroid_hz": 2402.56,
+        "onset_strength": 1.71242,
+        "spectral_flatness": 0.02501
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.17425,
+        "spectral_centroid_hz": 2273.92,
+        "onset_strength": 1.36361,
+        "spectral_flatness": 0.0211
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7ff81df4-7243-4d41-9b8f-232d81d62e27",
+      "title": "One-Armed Bandit",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 411080,
+      "first_release_date": "2010-01-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7ff81df4-7243-4d41-9b8f-232d81d62e27",
+      "duration_sec": 411.090423584,
+      "sample_rate": null,
+      "tempo_bpm": 144.602005005,
+      "danceability": 1.09364581108,
+      "onset_rate": 3.13541936874,
+      "beats_count": 866,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0765755623579,
+      "dynamic_complexity": 2.99000287056,
+      "average_loudness": 0.932141780853,
+      "spectral_centroid_mean": 763.734558105,
+      "spectral_flux_mean": 0.137081727386,
+      "spectral_rolloff_mean": 12994.0029297,
+      "dissonance_mean": 0.456153869629,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
