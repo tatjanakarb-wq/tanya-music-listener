@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Objekt",
+    "track": "Theme from Q",
+    "request_id": "clean-01-20260702-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "de477795-54eb-49f4-a398-4a0d38edd729",
+      "title": "Theme From Q",
+      "artist": "Objekt",
+      "duration_ms": 440253,
+      "first_release_date": "2017-03-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "640ef8e6-b027-4379-aaee-3c991ef4f705",
+      "title": "Theme from Q (L U C Y refix)",
+      "artist": "Objekt",
+      "duration_ms": null,
+      "first_release_date": null,
+      "disambiguation": "appears on SZNS7N MIX 01: L U C Y",
+      "musicbrainz_score": 79,
+      "local_match_score": 0.7863
+    }
+  ],
+  "matched_recording": {
+    "artist": "Objekt",
+    "track": "Theme from Q",
+    "album": "Objekt #4 - Single",
+    "duration_ms": 440253,
+    "release_date": "2017-05-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/d7/5c/c9d75cb8-1d82-84f4-134e-55f08c57b4b2/mzaf_3849470731207750030.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/theme-from-q/1228195642?i=1228195726&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/theme-from-q/1228195642?i=1228195726&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/d7/5c/c9d75cb8-1d82-84f4-134e-55f08c57b4b2/mzaf_3849470731207750030.plus.aac.p.m4a",
+      "bytes": 1054262,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0,
+    "onset_rate_per_sec": 6.34834,
+    "dynamic_range_db_p95_p10": 20.91,
+    "crest_factor_db": 14.004,
+    "rms_mean": 0.09692,
+    "rms_std": 0.07416,
+    "spectral_centroid_hz_mean": 2956.42,
+    "spectral_centroid_hz_std": 1122.15,
+    "spectral_bandwidth_hz_mean": 2886.13,
+    "spectral_rolloff_hz_mean": 6367.43,
+    "spectral_flatness_mean": 0.06183,
+    "spectral_contrast_mean": 16.50344,
+    "energy_share": {
+      "below_150_hz": 0.77383,
+      "150_to_2000_hz": 0.17032,
+      "above_2000_hz": 0.05584
+    },
+    "percussive_share": 0.49471,
+    "tonal_entropy_bits": 3.58274,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.78516
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09181,
+        "spectral_centroid_hz": 3274.46,
+        "onset_strength": 2.5501,
+        "spectral_flatness": 0.08315
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11803,
+        "spectral_centroid_hz": 3084.31,
+        "onset_strength": 2.23683,
+        "spectral_flatness": 0.04073
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09948,
+        "spectral_centroid_hz": 3155.0,
+        "onset_strength": 2.37389,
+        "spectral_flatness": 0.05706
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0949,
+        "spectral_centroid_hz": 3340.68,
+        "onset_strength": 2.52959,
+        "spectral_flatness": 0.08505
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09017,
+        "spectral_centroid_hz": 3295.84,
+        "onset_strength": 2.50196,
+        "spectral_flatness": 0.07899
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06179,
+        "spectral_centroid_hz": 3291.78,
+        "onset_strength": 2.23803,
+        "spectral_flatness": 0.07941
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05777,
+        "spectral_centroid_hz": 2946.15,
+        "onset_strength": 2.21287,
+        "spectral_flatness": 0.06439
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06466,
+        "spectral_centroid_hz": 2928.68,
+        "onset_strength": 2.01349,
+        "spectral_flatness": 0.09436
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1215,
+        "spectral_centroid_hz": 2491.71,
+        "onset_strength": 2.50333,
+        "spectral_flatness": 0.04006
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11971,
+        "spectral_centroid_hz": 2609.43,
+        "onset_strength": 2.79436,
+        "spectral_flatness": 0.04015
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11265,
+        "spectral_centroid_hz": 2599.0,
+        "onset_strength": 2.67507,
+        "spectral_flatness": 0.04412
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13039,
+        "spectral_centroid_hz": 2463.08,
+        "onset_strength": 2.73747,
+        "spectral_flatness": 0.03456
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "de477795-54eb-49f4-a398-4a0d38edd729",
+      "title": "Theme From Q",
+      "artist": "Objekt",
+      "duration_ms": 440253,
+      "first_release_date": "2017-03-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "de477795-54eb-49f4-a398-4a0d38edd729",
+      "duration_sec": 440.471984863,
+      "sample_rate": 48000,
+      "tempo_bpm": 122.980278015,
+      "danceability": 1.57934498787,
+      "onset_rate": 5.90473222733,
+      "beats_count": 900,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0845456495881,
+      "dynamic_complexity": 6.43303442001,
+      "average_loudness": 0.736486017704,
+      "spectral_centroid_mean": 1719.54663086,
+      "spectral_flux_mean": 0.0927499607205,
+      "spectral_rolloff_mean": 2287.46362305,
+      "dissonance_mean": 0.4549485147,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
