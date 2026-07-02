@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Terrain: III",
+    "request_id": "clean-01-20260702-019"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "226b352b-a6a6-4d54-b817-815dec2a9109",
+      "title": "Terrain: III",
+      "artist": "Portico Quartet",
+      "duration_ms": 610000,
+      "first_release_date": "2021-05-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "995cc81c-a627-418f-bb9f-55d6ca7d3784",
+      "title": "Terrain III (Extended) [Live in Studio One: An Abbey Road 90th Session]",
+      "artist": "Portico Quartet",
+      "duration_ms": 609920,
+      "first_release_date": "2022-10-21",
+      "disambiguation": "",
+      "musicbrainz_score": 71,
+      "local_match_score": 0.5857
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Terrain: III",
+    "album": "Terrain",
+    "duration_ms": 610387,
+    "release_date": "2021-05-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7d/79/bc/7d79bcef-eb92-cbdd-abf9-cbe535bfe819/mzaf_12958675292914319751.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/terrain-iii/1578665175?i=1578665180&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 387
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/terrain-iii/1578665175?i=1578665180&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7d/79/bc/7d79bcef-eb92-cbdd-abf9-cbe535bfe819/mzaf_12958675292914319751.plus.aac.p.m4a",
+      "bytes": 1124438,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.02169,
+    "onset_rate_per_sec": 3.97607,
+    "dynamic_range_db_p95_p10": 10.643,
+    "crest_factor_db": 17.281,
+    "rms_mean": 0.02016,
+    "rms_std": 0.00886,
+    "spectral_centroid_hz_mean": 1005.7,
+    "spectral_centroid_hz_std": 372.62,
+    "spectral_bandwidth_hz_mean": 1362.09,
+    "spectral_rolloff_hz_mean": 2008.89,
+    "spectral_flatness_mean": 0.00153,
+    "spectral_contrast_mean": 20.30592,
+    "energy_share": {
+      "below_150_hz": 0.02853,
+      "150_to_2000_hz": 0.96465,
+      "above_2000_hz": 0.00682
+    },
+    "percussive_share": 0.15255,
+    "tonal_entropy_bits": 3.23566,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 1.95113
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03301,
+        "spectral_centroid_hz": 1221.06,
+        "onset_strength": 1.63901,
+        "spectral_flatness": 0.0034
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02863,
+        "spectral_centroid_hz": 1043.23,
+        "onset_strength": 1.63803,
+        "spectral_flatness": 0.00156
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02971,
+        "spectral_centroid_hz": 975.47,
+        "onset_strength": 1.49007,
+        "spectral_flatness": 0.00093
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.01959,
+        "spectral_centroid_hz": 939.66,
+        "onset_strength": 1.47893,
+        "spectral_flatness": 0.00088
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.02035,
+        "spectral_centroid_hz": 1025.0,
+        "onset_strength": 1.67981,
+        "spectral_flatness": 0.00153
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.01553,
+        "spectral_centroid_hz": 1020.5,
+        "onset_strength": 1.50379,
+        "spectral_flatness": 0.00193
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02127,
+        "spectral_centroid_hz": 931.16,
+        "onset_strength": 1.54648,
+        "spectral_flatness": 0.00099
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.01809,
+        "spectral_centroid_hz": 912.6,
+        "onset_strength": 1.48408,
+        "spectral_flatness": 0.00096
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.01427,
+        "spectral_centroid_hz": 972.0,
+        "onset_strength": 1.41441,
+        "spectral_flatness": 0.00137
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.01284,
+        "spectral_centroid_hz": 1048.31,
+        "onset_strength": 1.57136,
+        "spectral_flatness": 0.002
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.01409,
+        "spectral_centroid_hz": 1010.26,
+        "onset_strength": 1.37713,
+        "spectral_flatness": 0.0017
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.01458,
+        "spectral_centroid_hz": 970.02,
+        "onset_strength": 1.36952,
+        "spectral_flatness": 0.00114
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "226b352b-a6a6-4d54-b817-815dec2a9109",
+      "title": "Terrain: III",
+      "artist": "Portico Quartet",
+      "duration_ms": 610000,
+      "first_release_date": "2021-05-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "226b352b-a6a6-4d54-b817-815dec2a9109",
+      "duration_sec": 610.386657715,
+      "sample_rate": 44100,
+      "tempo_bpm": 151.057861328,
+      "danceability": 1.24956440926,
+      "onset_rate": 4.69523429871,
+      "beats_count": 1274,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.028680106625,
+      "dynamic_complexity": 5.62276554108,
+      "average_loudness": 0.421039998531,
+      "spectral_centroid_mean": 779.404846191,
+      "spectral_flux_mean": 0.0762326642871,
+      "spectral_rolloff_mean": 945.576171875,
+      "dissonance_mean": 0.413988977671,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
