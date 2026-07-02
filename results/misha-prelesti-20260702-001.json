@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Max Cooper, Tom Hodge",
+    "track": "Symmetry",
+    "request_id": "misha-prelesti-20260702-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Max Cooper & Tom Hodge",
+    "track": "Symmetry",
+    "album": "Emergence",
+    "duration_ms": 227000,
+    "release_date": "2016-11-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/16/ef/8d16ef3b-ac2f-7dbf-ddeb-6a913bc7ae21/mzaf_16941439202008091053.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/symmetry/1149398778?i=1149398796&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/symmetry/1149398778?i=1149398796&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/16/ef/8d16ef3b-ac2f-7dbf-ddeb-6a913bc7ae21/mzaf_16941439202008091053.plus.aac.p.m4a",
+      "bytes": 904348,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04811,
+    "onset_rate_per_sec": 3.67536,
+    "dynamic_range_db_p95_p10": 36.776,
+    "crest_factor_db": 17.086,
+    "rms_mean": 0.03422,
+    "rms_std": 0.02611,
+    "spectral_centroid_hz_mean": 606.02,
+    "spectral_centroid_hz_std": 435.87,
+    "spectral_bandwidth_hz_mean": 687.58,
+    "spectral_rolloff_hz_mean": 798.57,
+    "spectral_flatness_mean": 0.00145,
+    "spectral_contrast_mean": 23.76276,
+    "energy_share": {
+      "below_150_hz": 0.01777,
+      "150_to_2000_hz": 0.98219,
+      "above_2000_hz": 3e-05
+    },
+    "percussive_share": 0.07059,
+    "tonal_entropy_bits": 3.04449,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.16625
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00058,
+        "spectral_centroid_hz": 1475.91,
+        "onset_strength": 0.24269,
+        "spectral_flatness": 0.01734
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00213,
+        "spectral_centroid_hz": 793.22,
+        "onset_strength": 0.52678,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00287,
+        "spectral_centroid_hz": 733.73,
+        "onset_strength": 0.51715,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.02648,
+        "spectral_centroid_hz": 501.44,
+        "onset_strength": 0.57906,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03123,
+        "spectral_centroid_hz": 524.05,
+        "onset_strength": 0.71238,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.02954,
+        "spectral_centroid_hz": 464.74,
+        "onset_strength": 0.60833,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04651,
+        "spectral_centroid_hz": 509.49,
+        "onset_strength": 0.61694,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.03615,
+        "spectral_centroid_hz": 506.69,
+        "onset_strength": 0.71471,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06741,
+        "spectral_centroid_hz": 464.29,
+        "onset_strength": 0.60485,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0491,
+        "spectral_centroid_hz": 417.67,
+        "onset_strength": 0.64079,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04021,
+        "spectral_centroid_hz": 426.72,
+        "onset_strength": 0.63472,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07818,
+        "spectral_centroid_hz": 457.88,
+        "onset_strength": 0.71328,
+        "spectral_flatness": 0.0
+      }
+    ]
+  }
+}
