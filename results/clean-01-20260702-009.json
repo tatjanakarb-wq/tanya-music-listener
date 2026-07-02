@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Floating Points",
+    "track": "Anasickmodular",
+    "request_id": "clean-01-20260702-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d2f76f0f-1c4a-442e-9040-1acf36af21fc",
+      "title": "Anasickmodular",
+      "artist": "Floating Points",
+      "duration_ms": 192080,
+      "first_release_date": "2019-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Floating Points",
+    "track": "Anasickmodular",
+    "album": "Crush",
+    "duration_ms": 192080,
+    "release_date": "2019-10-18T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/1e/8e/021e8e0d-a788-62eb-f810-bedaa897f7df/mzaf_11262081603178463854.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/anasickmodular/1475361065?i=1475361069&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/anasickmodular/1475361065?i=1475361069&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/1e/8e/021e8e0d-a788-62eb-f810-bedaa897f7df/mzaf_11262081603178463854.plus.aac.p.m4a",
+      "bytes": 998043,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.0556,
+    "onset_rate_per_sec": 6.61051,
+    "dynamic_range_db_p95_p10": 15.45,
+    "crest_factor_db": 14.515,
+    "rms_mean": 0.09054,
+    "rms_std": 0.05229,
+    "spectral_centroid_hz_mean": 1534.18,
+    "spectral_centroid_hz_std": 974.7,
+    "spectral_bandwidth_hz_mean": 2174.93,
+    "spectral_rolloff_hz_mean": 3361.59,
+    "spectral_flatness_mean": 0.00933,
+    "spectral_contrast_mean": 18.07424,
+    "energy_share": {
+      "below_150_hz": 0.81643,
+      "150_to_2000_hz": 0.1768,
+      "above_2000_hz": 0.00677
+    },
+    "percussive_share": 0.39686,
+    "tonal_entropy_bits": 3.42083,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 1.0278
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05691,
+        "spectral_centroid_hz": 1933.89,
+        "onset_strength": 1.66003,
+        "spectral_flatness": 0.01179
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09252,
+        "spectral_centroid_hz": 1234.47,
+        "onset_strength": 2.07921,
+        "spectral_flatness": 0.00962
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08751,
+        "spectral_centroid_hz": 1246.94,
+        "onset_strength": 2.08859,
+        "spectral_flatness": 0.00646
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.08882,
+        "spectral_centroid_hz": 1212.2,
+        "onset_strength": 2.0897,
+        "spectral_flatness": 0.0064
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.08293,
+        "spectral_centroid_hz": 1274.52,
+        "onset_strength": 2.09745,
+        "spectral_flatness": 0.00666
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.09563,
+        "spectral_centroid_hz": 1111.65,
+        "onset_strength": 1.95254,
+        "spectral_flatness": 0.00477
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.08955,
+        "spectral_centroid_hz": 1529.02,
+        "onset_strength": 2.03751,
+        "spectral_flatness": 0.0115
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.08814,
+        "spectral_centroid_hz": 1685.08,
+        "onset_strength": 1.97867,
+        "spectral_flatness": 0.01063
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.0993,
+        "spectral_centroid_hz": 1643.59,
+        "onset_strength": 1.99689,
+        "spectral_flatness": 0.01082
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.09454,
+        "spectral_centroid_hz": 1843.21,
+        "onset_strength": 1.94165,
+        "spectral_flatness": 0.01221
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.1033,
+        "spectral_centroid_hz": 1768.62,
+        "onset_strength": 2.01716,
+        "spectral_flatness": 0.01001
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.10711,
+        "spectral_centroid_hz": 1928.7,
+        "onset_strength": 1.99751,
+        "spectral_flatness": 0.01109
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d2f76f0f-1c4a-442e-9040-1acf36af21fc",
+      "title": "Anasickmodular",
+      "artist": "Floating Points",
+      "duration_ms": 192080,
+      "first_release_date": "2019-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d2f76f0f-1c4a-442e-9040-1acf36af21fc",
+      "duration_sec": 192.080001831,
+      "sample_rate": 44100,
+      "tempo_bpm": 138.979919434,
+      "danceability": 1.1062630415,
+      "onset_rate": 7.12654542923,
+      "beats_count": 448,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0497825033963,
+      "dynamic_complexity": 4.99984931946,
+      "average_loudness": 0.757692396641,
+      "spectral_centroid_mean": 1091.33984375,
+      "spectral_flux_mean": 0.0858169570565,
+      "spectral_rolloff_mean": 1024.81359863,
+      "dissonance_mean": 0.461981862783,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
