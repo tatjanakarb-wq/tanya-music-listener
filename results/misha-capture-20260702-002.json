@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Marley Carroll",
+    "track": "Shiver",
+    "request_id": "misha-capture-20260702-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b9a248ac-96ca-4db1-9a4d-e831b7e98211",
+      "title": "Shiver",
+      "artist": "Marley Carroll",
+      "duration_ms": 287000,
+      "first_release_date": "2018-11-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Marley Carroll",
+    "track": "Shiver",
+    "album": "Flight Patterns",
+    "duration_ms": 287576,
+    "release_date": "2018-09-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/34/28/b2342844-29c3-02d1-704d-2c925cc49fc0/mzaf_10712067863922397668.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/shiver/1855979430?i=1855979432&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 576
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/shiver/1855979430?i=1855979432&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/34/28/b2342844-29c3-02d1-704d-2c925cc49fc0/mzaf_10712067863922397668.plus.aac.p.m4a",
+      "bytes": 1095503,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.01911,
+    "onset_rate_per_sec": 7.13916,
+    "dynamic_range_db_p95_p10": 10.402,
+    "crest_factor_db": 10.706,
+    "rms_mean": 0.16457,
+    "rms_std": 0.06595,
+    "spectral_centroid_hz_mean": 1196.93,
+    "spectral_centroid_hz_std": 672.58,
+    "spectral_bandwidth_hz_mean": 2123.79,
+    "spectral_rolloff_hz_mean": 2354.51,
+    "spectral_flatness_mean": 0.00307,
+    "spectral_contrast_mean": 18.48192,
+    "energy_share": {
+      "below_150_hz": 0.74972,
+      "150_to_2000_hz": 0.24378,
+      "above_2000_hz": 0.0065
+    },
+    "percussive_share": 0.43475,
+    "tonal_entropy_bits": 3.54672,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 0.87202
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1099,
+        "spectral_centroid_hz": 1233.84,
+        "onset_strength": 2.02353,
+        "spectral_flatness": 0.00805
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.17134,
+        "spectral_centroid_hz": 1162.14,
+        "onset_strength": 2.51283,
+        "spectral_flatness": 0.00215
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.1771,
+        "spectral_centroid_hz": 1104.66,
+        "onset_strength": 2.62378,
+        "spectral_flatness": 0.00202
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.16511,
+        "spectral_centroid_hz": 1185.49,
+        "onset_strength": 2.61544,
+        "spectral_flatness": 0.00222
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.16704,
+        "spectral_centroid_hz": 1187.59,
+        "onset_strength": 2.652,
+        "spectral_flatness": 0.00284
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.15447,
+        "spectral_centroid_hz": 1210.81,
+        "onset_strength": 2.51436,
+        "spectral_flatness": 0.00276
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.15949,
+        "spectral_centroid_hz": 1184.84,
+        "onset_strength": 2.61416,
+        "spectral_flatness": 0.00285
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.16486,
+        "spectral_centroid_hz": 1193.73,
+        "onset_strength": 2.66311,
+        "spectral_flatness": 0.00278
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.17664,
+        "spectral_centroid_hz": 1247.65,
+        "onset_strength": 2.57581,
+        "spectral_flatness": 0.00273
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.17952,
+        "spectral_centroid_hz": 1153.99,
+        "onset_strength": 2.74785,
+        "spectral_flatness": 0.00247
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.17162,
+        "spectral_centroid_hz": 1202.95,
+        "onset_strength": 2.68044,
+        "spectral_flatness": 0.00258
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.17755,
+        "spectral_centroid_hz": 1294.41,
+        "onset_strength": 2.60712,
+        "spectral_flatness": 0.00344
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b9a248ac-96ca-4db1-9a4d-e831b7e98211",
+      "title": "Shiver",
+      "artist": "Marley Carroll",
+      "duration_ms": 287000,
+      "first_release_date": "2018-11-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b9a248ac-96ca-4db1-9a4d-e831b7e98211",
+      "duration_sec": 287.608154297,
+      "sample_rate": 44100,
+      "tempo_bpm": 108.946487427,
+      "danceability": 1.32032895088,
+      "onset_rate": 6.29290342331,
+      "beats_count": 516,
+      "key": "C",
+      "scale": "minor",
+      "chords_changes_rate": 0.0421307496727,
+      "dynamic_complexity": 4.67917537689,
+      "average_loudness": 0.847784340382,
+      "spectral_centroid_mean": 496.592926025,
+      "spectral_flux_mean": 0.0899261683226,
+      "spectral_rolloff_mean": 571.149597168,
+      "dissonance_mean": 0.375960469246,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
