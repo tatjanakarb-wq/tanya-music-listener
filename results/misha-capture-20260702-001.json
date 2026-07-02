@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Szymon",
+    "track": "Feenicks",
+    "request_id": "misha-capture-20260702-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d783450e-5f8f-4e80-904c-bc29a68c6313",
+      "title": "Feenicks",
+      "artist": "Szymon",
+      "duration_ms": 148000,
+      "first_release_date": "2019-11-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Szymon",
+    "track": "Feenicks",
+    "album": "Blue Coloured Mountain",
+    "duration_ms": 148373,
+    "release_date": "2019-11-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/00/4a/9b/004a9b48-ad73-98d4-c9db-716c7571f967/mzaf_16696306386073317170.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/feenicks/1478120343?i=1478120354&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 373
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/feenicks/1478120343?i=1478120354&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/00/4a/9b/004a9b48-ad73-98d4-c9db-716c7571f967/mzaf_16696306386073317170.plus.aac.p.m4a",
+      "bytes": 1000521,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.02097,
+    "onset_rate_per_sec": 6.31493,
+    "dynamic_range_db_p95_p10": 9.859,
+    "crest_factor_db": 10.777,
+    "rms_mean": 0.14907,
+    "rms_std": 0.05431,
+    "spectral_centroid_hz_mean": 1141.95,
+    "spectral_centroid_hz_std": 432.12,
+    "spectral_bandwidth_hz_mean": 1825.93,
+    "spectral_rolloff_hz_mean": 2074.55,
+    "spectral_flatness_mean": 0.00208,
+    "spectral_contrast_mean": 20.49853,
+    "energy_share": {
+      "below_150_hz": 0.71969,
+      "150_to_2000_hz": 0.27511,
+      "above_2000_hz": 0.0052
+    },
+    "percussive_share": 0.20503,
+    "tonal_entropy_bits": 3.39257,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 1.00483
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13194,
+        "spectral_centroid_hz": 1474.13,
+        "onset_strength": 1.46869,
+        "spectral_flatness": 0.005
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.15748,
+        "spectral_centroid_hz": 1080.27,
+        "onset_strength": 1.37022,
+        "spectral_flatness": 0.00096
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14076,
+        "spectral_centroid_hz": 1080.58,
+        "onset_strength": 1.4448,
+        "spectral_flatness": 0.00097
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11718,
+        "spectral_centroid_hz": 1048.39,
+        "onset_strength": 1.28085,
+        "spectral_flatness": 0.00067
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.16683,
+        "spectral_centroid_hz": 974.42,
+        "onset_strength": 1.36818,
+        "spectral_flatness": 0.00047
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.14693,
+        "spectral_centroid_hz": 1011.2,
+        "onset_strength": 1.49528,
+        "spectral_flatness": 0.00079
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14464,
+        "spectral_centroid_hz": 1091.45,
+        "onset_strength": 1.63843,
+        "spectral_flatness": 0.00126
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.15371,
+        "spectral_centroid_hz": 1410.08,
+        "onset_strength": 1.737,
+        "spectral_flatness": 0.00415
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16368,
+        "spectral_centroid_hz": 1238.79,
+        "onset_strength": 1.16906,
+        "spectral_flatness": 0.00351
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.16083,
+        "spectral_centroid_hz": 1069.2,
+        "onset_strength": 1.49307,
+        "spectral_flatness": 0.00203
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.14204,
+        "spectral_centroid_hz": 1086.39,
+        "onset_strength": 1.56482,
+        "spectral_flatness": 0.00282
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.16241,
+        "spectral_centroid_hz": 1138.85,
+        "onset_strength": 1.54284,
+        "spectral_flatness": 0.00231
+      }
+    ]
+  }
+}
