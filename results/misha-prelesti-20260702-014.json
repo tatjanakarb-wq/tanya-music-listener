@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "CUPIDS OPPRESSION",
+    "track": "NEPTUNE 2006",
+    "request_id": "misha-prelesti-20260702-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "CUPIDS OPPRESSION",
+    "track": "NEPTUNE 2006",
+    "album": "NEPTUNE 2006 - Single",
+    "duration_ms": 109333,
+    "release_date": "2022-12-30T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/6f/97/6f6f9786-eccd-b758-c774-060676853375/mzaf_3712109703160950337.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/neptune-2006/1840839553?i=1840839556&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/neptune-2006/1840839553?i=1840839556&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/6f/97/6f6f9786-eccd-b758-c774-060676853375/mzaf_3712109703160950337.plus.aac.p.m4a",
+      "bytes": 1001339,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.03867,
+    "onset_rate_per_sec": 4.70384,
+    "dynamic_range_db_p95_p10": 16.66,
+    "crest_factor_db": 10.253,
+    "rms_mean": 0.15402,
+    "rms_std": 0.10794,
+    "spectral_centroid_hz_mean": 699.4,
+    "spectral_centroid_hz_std": 540.38,
+    "spectral_bandwidth_hz_mean": 1437.47,
+    "spectral_rolloff_hz_mean": 1281.38,
+    "spectral_flatness_mean": 0.00132,
+    "spectral_contrast_mean": 17.77153,
+    "energy_share": {
+      "below_150_hz": 0.91715,
+      "150_to_2000_hz": 0.08111,
+      "above_2000_hz": 0.00174
+    },
+    "percussive_share": 0.50572,
+    "tonal_entropy_bits": 3.48525,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.74,
+      "relative_score": 0.96195
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.15359,
+        "spectral_centroid_hz": 599.66,
+        "onset_strength": 2.00631,
+        "spectral_flatness": 0.00086
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.16261,
+        "spectral_centroid_hz": 585.5,
+        "onset_strength": 1.93231,
+        "spectral_flatness": 0.00127
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15502,
+        "spectral_centroid_hz": 594.83,
+        "onset_strength": 2.02835,
+        "spectral_flatness": 0.00081
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15034,
+        "spectral_centroid_hz": 581.58,
+        "onset_strength": 1.85917,
+        "spectral_flatness": 0.00123
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.15329,
+        "spectral_centroid_hz": 602.25,
+        "onset_strength": 2.03772,
+        "spectral_flatness": 0.00084
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.16643,
+        "spectral_centroid_hz": 579.08,
+        "onset_strength": 1.90134,
+        "spectral_flatness": 0.00108
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.14929,
+        "spectral_centroid_hz": 807.18,
+        "onset_strength": 1.75991,
+        "spectral_flatness": 0.00133
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.14986,
+        "spectral_centroid_hz": 791.98,
+        "onset_strength": 1.83992,
+        "spectral_flatness": 0.00189
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.14877,
+        "spectral_centroid_hz": 816.61,
+        "onset_strength": 1.77539,
+        "spectral_flatness": 0.00136
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.1616,
+        "spectral_centroid_hz": 797.52,
+        "onset_strength": 1.8602,
+        "spectral_flatness": 0.00185
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.14868,
+        "spectral_centroid_hz": 798.77,
+        "onset_strength": 1.83495,
+        "spectral_flatness": 0.00133
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.14881,
+        "spectral_centroid_hz": 836.77,
+        "onset_strength": 1.84024,
+        "spectral_flatness": 0.00198
+      }
+    ]
+  }
+}
