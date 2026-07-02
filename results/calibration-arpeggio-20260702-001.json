@@ -1,0 +1,12 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Automatist",
+    "request_id": "calibration-arpeggio-20260702-001"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": []
+}
