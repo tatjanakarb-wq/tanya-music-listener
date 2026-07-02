@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Alessandro Cortini",
+    "track": "Retta",
+    "request_id": "misha-prelesti-20260702-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "dd9d6f97-597b-47e3-99cf-ed0864b6659a",
+      "title": "Retta",
+      "artist": "Alessandro Cortini",
+      "duration_ms": 414733,
+      "first_release_date": "2015-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Alessandro Cortini",
+    "track": "Retta",
+    "album": "Forse 3",
+    "duration_ms": 414738,
+    "release_date": "2015-03-24T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/5b/ac/b75bacc5-1a19-6567-1fc9-1a41ffde88f9/mzaf_10537458202997245959.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/retta/973586065?i=973586666&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 5
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/retta/973586065?i=973586666&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/5b/ac/b75bacc5-1a19-6567-1fc9-1a41ffde88f9/mzaf_10537458202997245959.plus.aac.p.m4a",
+      "bytes": 1183434,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04609,
+    "onset_rate_per_sec": 6.71588,
+    "dynamic_range_db_p95_p10": 9.958,
+    "crest_factor_db": 10.072,
+    "rms_mean": 0.10201,
+    "rms_std": 0.036,
+    "spectral_centroid_hz_mean": 724.09,
+    "spectral_centroid_hz_std": 131.07,
+    "spectral_bandwidth_hz_mean": 995.38,
+    "spectral_rolloff_hz_mean": 1453.52,
+    "spectral_flatness_mean": 7e-05,
+    "spectral_contrast_mean": 22.45752,
+    "energy_share": {
+      "below_150_hz": 0.9065,
+      "150_to_2000_hz": 0.09251,
+      "above_2000_hz": 0.001
+    },
+    "percussive_share": 0.04256,
+    "tonal_entropy_bits": 2.72539,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 1.25964
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11893,
+        "spectral_centroid_hz": 795.29,
+        "onset_strength": 0.75712,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10384,
+        "spectral_centroid_hz": 828.46,
+        "onset_strength": 0.80717,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09884,
+        "spectral_centroid_hz": 850.81,
+        "onset_strength": 0.81276,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.1024,
+        "spectral_centroid_hz": 785.0,
+        "onset_strength": 0.80478,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09663,
+        "spectral_centroid_hz": 731.16,
+        "onset_strength": 0.77941,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.09024,
+        "spectral_centroid_hz": 729.04,
+        "onset_strength": 0.76756,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10743,
+        "spectral_centroid_hz": 691.21,
+        "onset_strength": 0.77015,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10027,
+        "spectral_centroid_hz": 684.11,
+        "onset_strength": 0.76552,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10032,
+        "spectral_centroid_hz": 663.61,
+        "onset_strength": 0.79735,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09427,
+        "spectral_centroid_hz": 656.8,
+        "onset_strength": 0.7527,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10859,
+        "spectral_centroid_hz": 616.56,
+        "onset_strength": 0.75831,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10248,
+        "spectral_centroid_hz": 657.39,
+        "onset_strength": 0.75998,
+        "spectral_flatness": 5e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "dd9d6f97-597b-47e3-99cf-ed0864b6659a",
+      "title": "Retta",
+      "artist": "Alessandro Cortini",
+      "duration_ms": 414733,
+      "first_release_date": "2015-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "dd9d6f97-597b-47e3-99cf-ed0864b6659a",
+      "duration_sec": 414.772247314,
+      "sample_rate": 44100,
+      "tempo_bpm": 124.982139587,
+      "danceability": 1.10829269886,
+      "onset_rate": 0.643699705601,
+      "beats_count": 860,
+      "key": "C",
+      "scale": "minor",
+      "chords_changes_rate": 0.0238441731781,
+      "dynamic_complexity": 3.56243753433,
+      "average_loudness": 0.755509257317,
+      "spectral_centroid_mean": 747.324279785,
+      "spectral_flux_mean": 0.0616516023874,
+      "spectral_rolloff_mean": 745.426696777,
+      "dissonance_mean": 0.431793481112,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
