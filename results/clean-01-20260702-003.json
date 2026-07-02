@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Vessels",
+    "track": "Elliptic",
+    "request_id": "clean-01-20260702-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f9d70c33-2930-41f5-9a08-4d3fab07b6f5",
+      "title": "Elliptic",
+      "artist": "Vessels",
+      "duration_ms": 528000,
+      "first_release_date": "2013-11-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f34d5713-68e8-47bb-8a0a-b21ccb6b655b",
+      "title": "Elliptic",
+      "artist": "Vessels",
+      "duration_ms": 528593,
+      "first_release_date": "2015-03-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "255e01da-4a95-4450-ac6d-bad775a133d8",
+      "title": "Elliptic (radio edit)",
+      "artist": "Vessels",
+      "duration_ms": 234000,
+      "first_release_date": "2013-11-25",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7637
+    },
+    {
+      "mbid": "fef8b3fb-22ed-474e-b0e3-0373c2a43fd8",
+      "title": "Elliptic (Snasen remix)",
+      "artist": "Vessels",
+      "duration_ms": 430635,
+      "first_release_date": "2015-11-24",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.74
+    },
+    {
+      "mbid": "6b01b9cf-5db3-4e36-b3d8-a9b495a7813a",
+      "title": "Elliptic (Alex Banks remix)",
+      "artist": "Vessels",
+      "duration_ms": 437868,
+      "first_release_date": "2015-11-24",
+      "disambiguation": "",
+      "musicbrainz_score": 82,
+      "local_match_score": 0.7012
+    }
+  ],
+  "matched_recording": {
+    "artist": "Vessels",
+    "track": "Elliptic",
+    "album": "Dilate (Special Edition)",
+    "duration_ms": 527841,
+    "release_date": "2016-04-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ac/6a/3c/ac6a3c03-e85c-4c93-9ae9-7302cef38b6c/mzaf_16963208777931284733.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/elliptic/1084797566?i=1084797971&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 159
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/elliptic/1084797566?i=1084797971&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ac/6a/3c/ac6a3c03-e85c-4c93-9ae9-7302cef38b6c/mzaf_16963208777931284733.plus.aac.p.m4a",
+      "bytes": 1113379,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.00619,
+    "onset_rate_per_sec": 5.31256,
+    "dynamic_range_db_p95_p10": 5.389,
+    "crest_factor_db": 10.59,
+    "rms_mean": 0.17424,
+    "rms_std": 0.04367,
+    "spectral_centroid_hz_mean": 533.83,
+    "spectral_centroid_hz_std": 219.07,
+    "spectral_bandwidth_hz_mean": 1201.77,
+    "spectral_rolloff_hz_mean": 721.68,
+    "spectral_flatness_mean": 0.00017,
+    "spectral_contrast_mean": 19.56404,
+    "energy_share": {
+      "below_150_hz": 0.87562,
+      "150_to_2000_hz": 0.12405,
+      "above_2000_hz": 0.00033
+    },
+    "percussive_share": 0.33716,
+    "tonal_entropy_bits": 3.43144,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.8646
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.16331,
+        "spectral_centroid_hz": 503.92,
+        "onset_strength": 1.3873,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.17484,
+        "spectral_centroid_hz": 533.07,
+        "onset_strength": 1.54783,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.17505,
+        "spectral_centroid_hz": 547.45,
+        "onset_strength": 1.53824,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.17644,
+        "spectral_centroid_hz": 535.82,
+        "onset_strength": 1.69342,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.17514,
+        "spectral_centroid_hz": 502.0,
+        "onset_strength": 1.50004,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.17591,
+        "spectral_centroid_hz": 501.27,
+        "onset_strength": 1.57989,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.17626,
+        "spectral_centroid_hz": 524.32,
+        "onset_strength": 1.6448,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.17845,
+        "spectral_centroid_hz": 531.02,
+        "onset_strength": 1.67153,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.17779,
+        "spectral_centroid_hz": 515.32,
+        "onset_strength": 1.60783,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.17579,
+        "spectral_centroid_hz": 524.18,
+        "onset_strength": 1.58113,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.16983,
+        "spectral_centroid_hz": 586.82,
+        "onset_strength": 1.35194,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.17207,
+        "spectral_centroid_hz": 600.43,
+        "onset_strength": 1.40607,
+        "spectral_flatness": 0.00019
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f9d70c33-2930-41f5-9a08-4d3fab07b6f5",
+      "title": "Elliptic",
+      "artist": "Vessels",
+      "duration_ms": 528000,
+      "first_release_date": "2013-11-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f9d70c33-2930-41f5-9a08-4d3fab07b6f5",
+      "duration_sec": 525.374694824,
+      "sample_rate": 44100,
+      "tempo_bpm": 123.008682251,
+      "danceability": 1.31315386295,
+      "onset_rate": 5.23614740372,
+      "beats_count": 1076,
+      "key": "D#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0424253121018,
+      "dynamic_complexity": 3.35480713844,
+      "average_loudness": 0.795571386814,
+      "spectral_centroid_mean": 718.688842773,
+      "spectral_flux_mean": 0.0923818945885,
+      "spectral_rolloff_mean": 460.131622314,
+      "dissonance_mean": 0.440750002861,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
