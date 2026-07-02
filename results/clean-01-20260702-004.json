@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Anchorsong",
+    "track": "Plum Rain",
+    "request_id": "clean-01-20260702-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "796d23e3-3404-4b72-adcf-0d672352bc88",
+      "title": "Plum Rain",
+      "artist": "Anchorsong",
+      "duration_ms": 358000,
+      "first_release_date": "2012-03-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f04e1bb2-0ba4-4546-b4c0-463b169932c0",
+      "title": "Plum Rain",
+      "artist": "Anchorsong",
+      "duration_ms": 358506,
+      "first_release_date": "2011-10-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "59500ecc-9377-4349-b83c-9e585ff2e7b4",
+      "title": "Plum Rain",
+      "artist": "Anchorsong",
+      "duration_ms": 359000,
+      "first_release_date": "2014-01-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f83aa44e-57aa-4316-ae4e-a41320f3b788",
+      "title": "Plum Rain",
+      "artist": "Anchorsong",
+      "duration_ms": 358507,
+      "first_release_date": "2011-01-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d012d101-be8e-4c70-89ab-2fa8cbf0c296",
+      "title": "Plum Rain",
+      "artist": "Anchorsong",
+      "duration_ms": 358890,
+      "first_release_date": "2012",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Anchorsong",
+    "track": "Plum Rain",
+    "album": "Chapters",
+    "duration_ms": 358507,
+    "release_date": "2011-10-10T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/40/86/e3/4086e344-6c9f-4f95-0809-910f261adef1/mzaf_2814006904836995366.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/plum-rain/1368795294?i=1368795871&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/plum-rain/1368795294?i=1368795871&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/40/86/e3/4086e344-6c9f-4f95-0809-910f261adef1/mzaf_2814006904836995366.plus.aac.p.m4a",
+      "bytes": 1047959,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 83.354,
+    "beat_interval_cv": 0.04843,
+    "onset_rate_per_sec": 6.14787,
+    "dynamic_range_db_p95_p10": 13.391,
+    "crest_factor_db": 9.889,
+    "rms_mean": 0.18137,
+    "rms_std": 0.07458,
+    "spectral_centroid_hz_mean": 2291.47,
+    "spectral_centroid_hz_std": 1207.35,
+    "spectral_bandwidth_hz_mean": 2386.19,
+    "spectral_rolloff_hz_mean": 4816.97,
+    "spectral_flatness_mean": 0.01997,
+    "spectral_contrast_mean": 20.02437,
+    "energy_share": {
+      "below_150_hz": 0.81537,
+      "150_to_2000_hz": 0.15866,
+      "above_2000_hz": 0.02597
+    },
+    "percussive_share": 0.29347,
+    "tonal_entropy_bits": 3.47007,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 0.85207
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.17036,
+        "spectral_centroid_hz": 2317.8,
+        "onset_strength": 1.88105,
+        "spectral_flatness": 0.01931
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.2104,
+        "spectral_centroid_hz": 2110.29,
+        "onset_strength": 1.99333,
+        "spectral_flatness": 0.00703
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15965,
+        "spectral_centroid_hz": 2517.09,
+        "onset_strength": 2.08712,
+        "spectral_flatness": 0.03372
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.18651,
+        "spectral_centroid_hz": 2157.91,
+        "onset_strength": 1.70554,
+        "spectral_flatness": 0.01321
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.19455,
+        "spectral_centroid_hz": 2295.94,
+        "onset_strength": 1.999,
+        "spectral_flatness": 0.01349
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.16609,
+        "spectral_centroid_hz": 2438.25,
+        "onset_strength": 1.99206,
+        "spectral_flatness": 0.03248
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.2014,
+        "spectral_centroid_hz": 2126.1,
+        "onset_strength": 1.60893,
+        "spectral_flatness": 0.01275
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.18473,
+        "spectral_centroid_hz": 2349.39,
+        "onset_strength": 2.0176,
+        "spectral_flatness": 0.01493
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16736,
+        "spectral_centroid_hz": 2381.33,
+        "onset_strength": 1.95512,
+        "spectral_flatness": 0.03249
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.19636,
+        "spectral_centroid_hz": 2205.08,
+        "onset_strength": 1.81133,
+        "spectral_flatness": 0.01219
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.18075,
+        "spectral_centroid_hz": 2363.59,
+        "onset_strength": 1.94353,
+        "spectral_flatness": 0.01601
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.1584,
+        "spectral_centroid_hz": 2233.51,
+        "onset_strength": 1.7255,
+        "spectral_flatness": 0.03193
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "796d23e3-3404-4b72-adcf-0d672352bc88",
+      "title": "Plum Rain",
+      "artist": "Anchorsong",
+      "duration_ms": 358000,
+      "first_release_date": "2012-03-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "796d23e3-3404-4b72-adcf-0d672352bc88",
+      "duration_sec": 358.556732178,
+      "sample_rate": 44100,
+      "tempo_bpm": 124.507423401,
+      "danceability": 1.08628547192,
+      "onset_rate": 4.87486314774,
+      "beats_count": 745,
+      "key": "D#",
+      "scale": "major",
+      "chords_changes_rate": 0.0516705513,
+      "dynamic_complexity": 4.04429864883,
+      "average_loudness": 0.945959150791,
+      "spectral_centroid_mean": 1158.34777832,
+      "spectral_flux_mean": 0.0802783668041,
+      "spectral_rolloff_mean": 1046.41369629,
+      "dissonance_mean": 0.429586559534,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
