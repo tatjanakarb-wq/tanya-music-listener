@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "Daniel Brandt",
+    "track": "Flamingo",
+    "request_id": "clean-01-20260702-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "bb44d8cf-90dd-439c-adb2-bd6aba2206d3",
+      "title": "Flamingo",
+      "artist": "Daniel Brandt",
+      "duration_ms": 307000,
+      "first_release_date": "2022-11-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "72d499cf-fa23-4754-a301-23ae3cff2bbd",
+      "title": "Flamingo",
+      "artist": "Daniel Brandt",
+      "duration_ms": 306885,
+      "first_release_date": "2018-10-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Daniel Brandt",
+    "track": "Flamingo",
+    "album": "Channels",
+    "duration_ms": 306885,
+    "release_date": "2018-10-12T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/64/4f/8e/644f8e50-e410-04e1-db45-26141b075c4b/mzaf_11946253864970196806.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/flamingo/1451156809?i=1451156811&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/flamingo/1451156809?i=1451156811&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/64/4f/8e/644f8e50-e410-04e1-db45-26141b075c4b/mzaf_11946253864970196806.plus.aac.p.m4a",
+      "bytes": 1030732,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.0222,
+    "onset_rate_per_sec": 6.14787,
+    "dynamic_range_db_p95_p10": 12.531,
+    "crest_factor_db": 14.061,
+    "rms_mean": 0.10575,
+    "rms_std": 0.04879,
+    "spectral_centroid_hz_mean": 1058.25,
+    "spectral_centroid_hz_std": 642.96,
+    "spectral_bandwidth_hz_mean": 1524.36,
+    "spectral_rolloff_hz_mean": 2174.57,
+    "spectral_flatness_mean": 0.00613,
+    "spectral_contrast_mean": 18.04467,
+    "energy_share": {
+      "below_150_hz": 0.71562,
+      "150_to_2000_hz": 0.27204,
+      "above_2000_hz": 0.01234
+    },
+    "percussive_share": 0.38873,
+    "tonal_entropy_bits": 3.54981,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 1.40115
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10819,
+        "spectral_centroid_hz": 1175.15,
+        "onset_strength": 3.07615,
+        "spectral_flatness": 0.00803
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11075,
+        "spectral_centroid_hz": 1186.84,
+        "onset_strength": 3.28618,
+        "spectral_flatness": 0.00821
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10811,
+        "spectral_centroid_hz": 1201.55,
+        "onset_strength": 3.1415,
+        "spectral_flatness": 0.00765
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09891,
+        "spectral_centroid_hz": 1243.03,
+        "onset_strength": 3.1657,
+        "spectral_flatness": 0.00995
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10092,
+        "spectral_centroid_hz": 1059.21,
+        "onset_strength": 2.69809,
+        "spectral_flatness": 0.00634
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10761,
+        "spectral_centroid_hz": 927.13,
+        "onset_strength": 2.49481,
+        "spectral_flatness": 0.00485
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10508,
+        "spectral_centroid_hz": 904.3,
+        "onset_strength": 2.60546,
+        "spectral_flatness": 0.00429
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09954,
+        "spectral_centroid_hz": 1007.16,
+        "onset_strength": 2.78449,
+        "spectral_flatness": 0.00511
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10885,
+        "spectral_centroid_hz": 1055.22,
+        "onset_strength": 2.89644,
+        "spectral_flatness": 0.00592
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10473,
+        "spectral_centroid_hz": 989.51,
+        "onset_strength": 2.75585,
+        "spectral_flatness": 0.00421
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10793,
+        "spectral_centroid_hz": 996.05,
+        "onset_strength": 2.75979,
+        "spectral_flatness": 0.00511
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10846,
+        "spectral_centroid_hz": 954.58,
+        "onset_strength": 2.70865,
+        "spectral_flatness": 0.00388
+      }
+    ]
+  }
+}
