@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Lorn",
+    "track": "BITTER ARCS",
+    "request_id": "misha-prelesti-20260702-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "68d64a4e-279b-4f58-9b04-9e18df9a2150",
+      "title": "Bitter Arcs",
+      "artist": "Lorn",
+      "duration_ms": 165000,
+      "first_release_date": "2020-10-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Lorn",
+    "track": "Bitter Arcs",
+    "album": "The Map - EP",
+    "duration_ms": 165000,
+    "release_date": "2020-10-21T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/c7/83/a8c783fe-96c9-dd2d-b259-23a5c9aaaadf/mzaf_5116686250638803712.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/bitter-arcs/1536940014?i=1536940015&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/bitter-arcs/1536940014?i=1536940015&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/c7/83/a8c783fe-96c9-dd2d-b259-23a5c9aaaadf/mzaf_5116686250638803712.plus.aac.p.m4a",
+      "bytes": 1123064,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.03179,
+    "onset_rate_per_sec": 5.78033,
+    "dynamic_range_db_p95_p10": 18.246,
+    "crest_factor_db": 9.091,
+    "rms_mean": 0.1794,
+    "rms_std": 0.10377,
+    "spectral_centroid_hz_mean": 1689.89,
+    "spectral_centroid_hz_std": 1065.28,
+    "spectral_bandwidth_hz_mean": 2020.18,
+    "spectral_rolloff_hz_mean": 3489.05,
+    "spectral_flatness_mean": 0.02611,
+    "spectral_contrast_mean": 15.66534,
+    "energy_share": {
+      "below_150_hz": 0.87547,
+      "150_to_2000_hz": 0.10618,
+      "above_2000_hz": 0.01835
+    },
+    "percussive_share": 0.30083,
+    "tonal_entropy_bits": 3.55945,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.6627
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.17076,
+        "spectral_centroid_hz": 1247.67,
+        "onset_strength": 2.22184,
+        "spectral_flatness": 0.00848
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10608,
+        "spectral_centroid_hz": 2253.38,
+        "onset_strength": 2.82839,
+        "spectral_flatness": 0.06104
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.13206,
+        "spectral_centroid_hz": 2141.41,
+        "onset_strength": 2.78961,
+        "spectral_flatness": 0.05777
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.26203,
+        "spectral_centroid_hz": 1091.82,
+        "onset_strength": 2.26472,
+        "spectral_flatness": 0.00554
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.1973,
+        "spectral_centroid_hz": 1198.93,
+        "onset_strength": 2.43904,
+        "spectral_flatness": 0.00497
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.14855,
+        "spectral_centroid_hz": 1895.66,
+        "onset_strength": 2.93852,
+        "spectral_flatness": 0.04469
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.16655,
+        "spectral_centroid_hz": 1817.49,
+        "onset_strength": 2.79906,
+        "spectral_flatness": 0.04198
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.18876,
+        "spectral_centroid_hz": 1457.89,
+        "onset_strength": 2.75112,
+        "spectral_flatness": 0.01493
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.20026,
+        "spectral_centroid_hz": 1575.46,
+        "onset_strength": 2.5798,
+        "spectral_flatness": 0.01192
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.17756,
+        "spectral_centroid_hz": 2062.22,
+        "onset_strength": 2.12211,
+        "spectral_flatness": 0.02846
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13404,
+        "spectral_centroid_hz": 2114.0,
+        "onset_strength": 2.30363,
+        "spectral_flatness": 0.02788
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.26817,
+        "spectral_centroid_hz": 1424.29,
+        "onset_strength": 2.2572,
+        "spectral_flatness": 0.00587
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "68d64a4e-279b-4f58-9b04-9e18df9a2150",
+      "title": "Bitter Arcs",
+      "artist": "Lorn",
+      "duration_ms": 165000,
+      "first_release_date": "2020-10-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "68d64a4e-279b-4f58-9b04-9e18df9a2150",
+      "duration_sec": 164.999984741,
+      "sample_rate": 48000,
+      "tempo_bpm": 89.8810043335,
+      "danceability": 0.983358085155,
+      "onset_rate": 4.19361925125,
+      "beats_count": 279,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0678109154105,
+      "dynamic_complexity": 6.52601146698,
+      "average_loudness": 0.390971451998,
+      "spectral_centroid_mean": 805.559387207,
+      "spectral_flux_mean": 0.0880950167775,
+      "spectral_rolloff_mean": 755.721252441,
+      "dissonance_mean": 0.43648648262,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
