@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Max Cooper",
+    "track": "Resynthesis 3D (Binaural Version)",
+    "request_id": "misha-prelesti-20260702-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Max Cooper",
+    "track": "Resynthesis 3D (Binaural Version - Headphones Only)",
+    "album": "3D Reworks 001 - EP",
+    "duration_ms": 296250,
+    "release_date": "2020-04-02T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/3e/e2/5f3ee26b-1662-a169-289a-72815f80a544/mzaf_13865761327169534722.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/resynthesis-3d-binaural-version-headphones-only/1508232597?i=1508232601&uo=4",
+    "match_score": 0.8728,
+    "title_score": 0.7949,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/resynthesis-3d-binaural-version-headphones-only/1508232597?i=1508232601&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/3e/e2/5f3ee26b-1662-a169-289a-72815f80a544/mzaf_13865761327169534722.plus.aac.p.m4a",
+      "bytes": 1218703,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04317,
+    "onset_rate_per_sec": 6.84953,
+    "dynamic_range_db_p95_p10": 7.773,
+    "crest_factor_db": 8.39,
+    "rms_mean": 0.21589,
+    "rms_std": 0.06296,
+    "spectral_centroid_hz_mean": 1299.86,
+    "spectral_centroid_hz_std": 529.65,
+    "spectral_bandwidth_hz_mean": 2080.33,
+    "spectral_rolloff_hz_mean": 2744.57,
+    "spectral_flatness_mean": 0.00428,
+    "spectral_contrast_mean": 17.13681,
+    "energy_share": {
+      "below_150_hz": 0.60076,
+      "150_to_2000_hz": 0.3935,
+      "above_2000_hz": 0.00574
+    },
+    "percussive_share": 0.33723,
+    "tonal_entropy_bits": 3.53588,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.73,
+      "relative_score": 1.08798
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.20906,
+        "spectral_centroid_hz": 1148.31,
+        "onset_strength": 2.03601,
+        "spectral_flatness": 0.00264
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.20659,
+        "spectral_centroid_hz": 1404.45,
+        "onset_strength": 1.7527,
+        "spectral_flatness": 0.00561
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.20968,
+        "spectral_centroid_hz": 1191.8,
+        "onset_strength": 1.98545,
+        "spectral_flatness": 0.00296
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.23841,
+        "spectral_centroid_hz": 1253.5,
+        "onset_strength": 1.98195,
+        "spectral_flatness": 0.0029
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.21507,
+        "spectral_centroid_hz": 1294.76,
+        "onset_strength": 1.7214,
+        "spectral_flatness": 0.0045
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.20779,
+        "spectral_centroid_hz": 1448.4,
+        "onset_strength": 1.65968,
+        "spectral_flatness": 0.00589
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.2313,
+        "spectral_centroid_hz": 1327.45,
+        "onset_strength": 1.56856,
+        "spectral_flatness": 0.00408
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.22734,
+        "spectral_centroid_hz": 1222.63,
+        "onset_strength": 1.99607,
+        "spectral_flatness": 0.00315
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.2024,
+        "spectral_centroid_hz": 1322.12,
+        "onset_strength": 2.01219,
+        "spectral_flatness": 0.00451
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.20768,
+        "spectral_centroid_hz": 1450.95,
+        "onset_strength": 1.73974,
+        "spectral_flatness": 0.00631
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.23402,
+        "spectral_centroid_hz": 1141.41,
+        "onset_strength": 1.53674,
+        "spectral_flatness": 0.00299
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.20149,
+        "spectral_centroid_hz": 1392.08,
+        "onset_strength": 2.07339,
+        "spectral_flatness": 0.00583
+      }
+    ]
+  }
+}
