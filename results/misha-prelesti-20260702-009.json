@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Boards of Canada",
+    "track": "Hi Scores",
+    "request_id": "misha-prelesti-20260702-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d0848640-6801-419b-8b8a-74b877aefd61",
+      "title": "Hi Scores",
+      "artist": "Boards of Canada",
+      "duration_ms": 297346,
+      "first_release_date": "1996-12-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Boards of Canada",
+    "track": "Hi Scores",
+    "album": "Hi Scores - EP",
+    "duration_ms": 297320,
+    "release_date": "1996-12-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cf/7c/30/cf7c307b-8ceb-eea1-aaa1-50b094904312/mzaf_4152797241480568078.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/hi-scores/1686583346?i=1686583347&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 26
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/hi-scores/1686583346?i=1686583347&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cf/7c/30/cf7c307b-8ceb-eea1-aaa1-50b094904312/mzaf_4152797241480568078.plus.aac.p.m4a",
+      "bytes": 1134500,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.03453,
+    "onset_rate_per_sec": 3.54171,
+    "dynamic_range_db_p95_p10": 14.711,
+    "crest_factor_db": 16.194,
+    "rms_mean": 0.08135,
+    "rms_std": 0.03942,
+    "spectral_centroid_hz_mean": 1012.67,
+    "spectral_centroid_hz_std": 635.8,
+    "spectral_bandwidth_hz_mean": 1377.61,
+    "spectral_rolloff_hz_mean": 1992.95,
+    "spectral_flatness_mean": 0.00289,
+    "spectral_contrast_mean": 21.44348,
+    "energy_share": {
+      "below_150_hz": 0.25217,
+      "150_to_2000_hz": 0.73433,
+      "above_2000_hz": 0.01351
+    },
+    "percussive_share": 0.17765,
+    "tonal_entropy_bits": 3.31426,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.17047
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03622,
+        "spectral_centroid_hz": 527.41,
+        "onset_strength": 0.70698,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02764,
+        "spectral_centroid_hz": 572.23,
+        "onset_strength": 0.61531,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09531,
+        "spectral_centroid_hz": 522.39,
+        "onset_strength": 0.8196,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10068,
+        "spectral_centroid_hz": 506.62,
+        "onset_strength": 0.75742,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.0617,
+        "spectral_centroid_hz": 561.1,
+        "onset_strength": 0.86563,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03259,
+        "spectral_centroid_hz": 918.17,
+        "onset_strength": 1.17617,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.09625,
+        "spectral_centroid_hz": 716.58,
+        "onset_strength": 1.18357,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11058,
+        "spectral_centroid_hz": 1089.77,
+        "onset_strength": 1.4955,
+        "spectral_flatness": 0.00192
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10844,
+        "spectral_centroid_hz": 1644.96,
+        "onset_strength": 1.65842,
+        "spectral_flatness": 0.00822
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07923,
+        "spectral_centroid_hz": 1902.66,
+        "onset_strength": 1.63402,
+        "spectral_flatness": 0.01218
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10776,
+        "spectral_centroid_hz": 1644.13,
+        "onset_strength": 1.64878,
+        "spectral_flatness": 0.00628
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11924,
+        "spectral_centroid_hz": 1540.83,
+        "onset_strength": 1.68533,
+        "spectral_flatness": 0.00511
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d0848640-6801-419b-8b8a-74b877aefd61",
+      "title": "Hi Scores",
+      "artist": "Boards of Canada",
+      "duration_ms": 297346,
+      "first_release_date": "1996-12-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d0848640-6801-419b-8b8a-74b877aefd61",
+      "duration_sec": 297.717559814,
+      "sample_rate": 44100,
+      "tempo_bpm": 97.9919128418,
+      "danceability": 0.893127858639,
+      "onset_rate": 4.83982801437,
+      "beats_count": 506,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0597317516804,
+      "dynamic_complexity": 2.7031443119,
+      "average_loudness": 0.82784062624,
+      "spectral_centroid_mean": 581.633056641,
+      "spectral_flux_mean": 0.0761409774423,
+      "spectral_rolloff_mean": 441.186035156,
+      "dissonance_mean": 0.410468965769,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
