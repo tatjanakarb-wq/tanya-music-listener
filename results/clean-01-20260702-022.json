@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Ishmael Ensemble",
+    "track": "Full Circle",
+    "request_id": "clean-01-20260702-022"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "499b89d1-5b50-4415-98ad-1e85a835a8df",
+      "title": "Full Circle",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 263000,
+      "first_release_date": "2019-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "17cbda3f-9d87-4bbd-bd76-d8ad47c1cf82",
+      "title": "Full Circle",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 241000,
+      "first_release_date": "2018-06-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8c6cd2f2-8ec5-4817-a74e-2b5486974f49",
+      "title": "Full Circle",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 240762,
+      "first_release_date": "2018-06-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "79688adc-cc74-4f3b-8ec2-a80b95985b66",
+      "title": "Full Circle",
+      "artist": "Ishmael Ensemble Holysseus Fly",
+      "duration_ms": 263284,
+      "first_release_date": "2019-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 81,
+      "local_match_score": 0.8722
+    }
+  ],
+  "matched_recording": {
+    "artist": "Ishmael Ensemble",
+    "track": "Full Circle (feat. Holysseus Fly)",
+    "album": "A State of Flow",
+    "duration_ms": 263284,
+    "release_date": "2019-05-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/72/49/3a/72493a2d-7e90-1a80-8e86-46ebbb6d4729/mzaf_8191704233758669048.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/full-circle-feat-holysseus-fly/1458410390?i=1458410609&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 284
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/full-circle-feat-holysseus-fly/1458410390?i=1458410609&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/72/49/3a/72493a2d-7e90-1a80-8e86-46ebbb6d4729/mzaf_8191704233758669048.plus.aac.p.m4a",
+      "bytes": 1204901,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.08007,
+    "onset_rate_per_sec": 5.4128,
+    "dynamic_range_db_p95_p10": 6.87,
+    "crest_factor_db": 15.825,
+    "rms_mean": 0.04182,
+    "rms_std": 0.01155,
+    "spectral_centroid_hz_mean": 1943.34,
+    "spectral_centroid_hz_std": 565.1,
+    "spectral_bandwidth_hz_mean": 2377.29,
+    "spectral_rolloff_hz_mean": 3996.13,
+    "spectral_flatness_mean": 0.00864,
+    "spectral_contrast_mean": 21.41698,
+    "energy_share": {
+      "below_150_hz": 0.0189,
+      "150_to_2000_hz": 0.95896,
+      "above_2000_hz": 0.02213
+    },
+    "percussive_share": 0.21234,
+    "tonal_entropy_bits": 3.28803,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.00098
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0371,
+        "spectral_centroid_hz": 1806.27,
+        "onset_strength": 0.91893,
+        "spectral_flatness": 0.00454
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03378,
+        "spectral_centroid_hz": 1568.09,
+        "onset_strength": 0.95413,
+        "spectral_flatness": 0.00314
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03583,
+        "spectral_centroid_hz": 1558.03,
+        "onset_strength": 1.08222,
+        "spectral_flatness": 0.00297
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04393,
+        "spectral_centroid_hz": 1540.67,
+        "onset_strength": 0.95518,
+        "spectral_flatness": 0.00442
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04294,
+        "spectral_centroid_hz": 1546.92,
+        "onset_strength": 0.92796,
+        "spectral_flatness": 0.00436
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03277,
+        "spectral_centroid_hz": 1626.24,
+        "onset_strength": 0.96937,
+        "spectral_flatness": 0.0057
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04877,
+        "spectral_centroid_hz": 1527.41,
+        "onset_strength": 1.08986,
+        "spectral_flatness": 0.00314
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04881,
+        "spectral_centroid_hz": 1752.26,
+        "onset_strength": 0.98806,
+        "spectral_flatness": 0.00567
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04229,
+        "spectral_centroid_hz": 2662.07,
+        "onset_strength": 1.02826,
+        "spectral_flatness": 0.02043
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.04805,
+        "spectral_centroid_hz": 2295.13,
+        "onset_strength": 1.05923,
+        "spectral_flatness": 0.01284
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04388,
+        "spectral_centroid_hz": 2571.47,
+        "onset_strength": 1.02139,
+        "spectral_flatness": 0.01672
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04355,
+        "spectral_centroid_hz": 2862.76,
+        "onset_strength": 1.07839,
+        "spectral_flatness": 0.01971
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "8c6cd2f2-8ec5-4817-a74e-2b5486974f49",
+      "title": "Full Circle",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 240762,
+      "first_release_date": "2018-06-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "8c6cd2f2-8ec5-4817-a74e-2b5486974f49",
+      "duration_sec": 240.796737671,
+      "sample_rate": 44100,
+      "tempo_bpm": 95.9374313354,
+      "danceability": 1.5272051096,
+      "onset_rate": 4.17749547958,
+      "beats_count": 345,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0431848838925,
+      "dynamic_complexity": 4.41053104401,
+      "average_loudness": 0.667822897434,
+      "spectral_centroid_mean": 1434.91174316,
+      "spectral_flux_mean": 0.101143620908,
+      "spectral_rolloff_mean": 932.513427734,
+      "dissonance_mean": 0.467454820871,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
