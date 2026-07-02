@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Kelly Moran",
+    "track": "Helix",
+    "request_id": "clean-01-20260702-015"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "fb6c780b-dd99-4cfc-b1a5-68a097e209ef",
+      "title": "Helix",
+      "artist": "Kelly Moran",
+      "duration_ms": 528000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "450eb27a-2234-4ae6-b9d5-3851df0cfc78",
+      "title": "Helix II",
+      "artist": "Kelly Moran",
+      "duration_ms": 202000,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 93,
+      "local_match_score": 0.8662
+    },
+    {
+      "mbid": "2165c051-afe9-45af-94ea-434b41c919fd",
+      "title": "Helix III",
+      "artist": "Kelly Moran",
+      "duration_ms": 322000,
+      "first_release_date": "2020-12-04",
+      "disambiguation": "",
+      "musicbrainz_score": 93,
+      "local_match_score": 0.8343
+    },
+    {
+      "mbid": "be648463-b5fa-4790-bb6b-cc9328043fb6",
+      "title": "Helix (piano solo)",
+      "artist": "Kelly Moran",
+      "duration_ms": 528000,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.6962
+    },
+    {
+      "mbid": "95e95894-9d38-4798-bafc-f55694ce418e",
+      "title": "Helix 2 (TransAcoustic)",
+      "artist": "Kelly Moran",
+      "duration_ms": 206000,
+      "first_release_date": "2019-11-15",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.6431
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kelly Moran",
+    "track": "Helix",
+    "album": "Ultraviolet",
+    "duration_ms": 528317,
+    "release_date": "2018-11-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/20/7f/83/207f83d7-bbc3-01a7-db55-0ef688eee008/mzaf_2696766484637463373.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/helix/1715661282?i=1715661284&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 317
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/helix/1715661282?i=1715661284&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/20/7f/83/207f83d7-bbc3-01a7-db55-0ef688eee008/mzaf_2696766484637463373.plus.aac.p.m4a",
+      "bytes": 999968,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.08554,
+    "onset_rate_per_sec": 1.03498,
+    "dynamic_range_db_p95_p10": 33.02,
+    "crest_factor_db": 20.055,
+    "rms_mean": 0.00866,
+    "rms_std": 0.00787,
+    "spectral_centroid_hz_mean": 1358.41,
+    "spectral_centroid_hz_std": 466.96,
+    "spectral_bandwidth_hz_mean": 1895.16,
+    "spectral_rolloff_hz_mean": 2195.18,
+    "spectral_flatness_mean": 0.00938,
+    "spectral_contrast_mean": 22.89138,
+    "energy_share": {
+      "below_150_hz": 0.02203,
+      "150_to_2000_hz": 0.96948,
+      "above_2000_hz": 0.00849
+    },
+    "percussive_share": 0.14411,
+    "tonal_entropy_bits": 3.54045,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.21,
+      "relative_score": 1.59812
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0054,
+        "spectral_centroid_hz": 1166.11,
+        "onset_strength": 0.97082,
+        "spectral_flatness": 0.08693
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00732,
+        "spectral_centroid_hz": 1084.43,
+        "onset_strength": 0.94844,
+        "spectral_flatness": 0.00054
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00258,
+        "spectral_centroid_hz": 939.06,
+        "onset_strength": 0.39456,
+        "spectral_flatness": 0.00026
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.00257,
+        "spectral_centroid_hz": 1415.24,
+        "onset_strength": 0.72421,
+        "spectral_flatness": 0.00311
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.01721,
+        "spectral_centroid_hz": 1309.57,
+        "onset_strength": 1.25552,
+        "spectral_flatness": 0.00223
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.01082,
+        "spectral_centroid_hz": 1415.95,
+        "onset_strength": 0.97927,
+        "spectral_flatness": 0.00235
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.00704,
+        "spectral_centroid_hz": 1537.53,
+        "onset_strength": 0.9142,
+        "spectral_flatness": 0.00265
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.00243,
+        "spectral_centroid_hz": 1356.68,
+        "onset_strength": 0.61372,
+        "spectral_flatness": 0.00146
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.00058,
+        "spectral_centroid_hz": 1569.53,
+        "onset_strength": 0.48082,
+        "spectral_flatness": 0.00409
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.01207,
+        "spectral_centroid_hz": 1590.5,
+        "onset_strength": 1.23601,
+        "spectral_flatness": 0.0045
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.0222,
+        "spectral_centroid_hz": 1532.87,
+        "onset_strength": 1.15405,
+        "spectral_flatness": 0.00283
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.01367,
+        "spectral_centroid_hz": 1382.61,
+        "onset_strength": 0.90216,
+        "spectral_flatness": 0.00204
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "fb6c780b-dd99-4cfc-b1a5-68a097e209ef",
+      "title": "Helix",
+      "artist": "Kelly Moran",
+      "duration_ms": 528000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "fb6c780b-dd99-4cfc-b1a5-68a097e209ef",
+      "duration_sec": 528.352661133,
+      "sample_rate": 44100,
+      "tempo_bpm": 112.759254456,
+      "danceability": 0.910231888294,
+      "onset_rate": 5.16494035721,
+      "beats_count": 1031,
+      "key": "B",
+      "scale": "major",
+      "chords_changes_rate": 0.0427102558315,
+      "dynamic_complexity": 6.82323455811,
+      "average_loudness": 0.267025977373,
+      "spectral_centroid_mean": 674.632080078,
+      "spectral_flux_mean": 0.0524042993784,
+      "spectral_rolloff_mean": 756.027160645,
+      "dissonance_mean": 0.434339255095,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
