@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Iglooghost",
+    "track": "Amu",
+    "request_id": "misha-prelesti-20260702-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f295ae3c-3708-4ec5-86e7-7c1a0b1bd235",
+      "title": "Amu",
+      "artist": "Iglooghost",
+      "duration_ms": 249000,
+      "first_release_date": "2020-04-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "989a6b35-cd76-499d-a24b-713279716218",
+      "title": "Amu (Disk•Mod)",
+      "artist": "Iglooghost",
+      "duration_ms": 223000,
+      "first_release_date": "2021-04-02",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.652
+    }
+  ],
+  "matched_recording": {
+    "artist": "Iglooghost",
+    "track": "Amu",
+    "album": "Amu - Single",
+    "duration_ms": 248987,
+    "release_date": "2020-04-19T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/bd/d6/aabdd65b-c4a8-839d-1600-3fb99a8c33e9/mzaf_2326639589075239870.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/amu/1507937330?i=1507937331&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 13
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/amu/1507937330?i=1507937331&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/bd/d6/aabdd65b-c4a8-839d-1600-3fb99a8c33e9/mzaf_2326639589075239870.plus.aac.p.m4a",
+      "bytes": 1018532,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.03663,
+    "onset_rate_per_sec": 2.77322,
+    "dynamic_range_db_p95_p10": 28.005,
+    "crest_factor_db": 17.406,
+    "rms_mean": 0.05275,
+    "rms_std": 0.06346,
+    "spectral_centroid_hz_mean": 2168.31,
+    "spectral_centroid_hz_std": 943.73,
+    "spectral_bandwidth_hz_mean": 2434.85,
+    "spectral_rolloff_hz_mean": 4425.84,
+    "spectral_flatness_mean": 0.01969,
+    "spectral_contrast_mean": 19.36769,
+    "energy_share": {
+      "below_150_hz": 0.73237,
+      "150_to_2000_hz": 0.22127,
+      "above_2000_hz": 0.04636
+    },
+    "percussive_share": 0.44768,
+    "tonal_entropy_bits": 3.54591,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.8019
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0277,
+        "spectral_centroid_hz": 1033.38,
+        "onset_strength": 0.4769,
+        "spectral_flatness": 0.00063
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0469,
+        "spectral_centroid_hz": 2046.78,
+        "onset_strength": 1.24995,
+        "spectral_flatness": 0.01223
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05541,
+        "spectral_centroid_hz": 1646.5,
+        "onset_strength": 1.66311,
+        "spectral_flatness": 0.01173
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04251,
+        "spectral_centroid_hz": 2969.44,
+        "onset_strength": 1.54844,
+        "spectral_flatness": 0.03926
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07246,
+        "spectral_centroid_hz": 2247.23,
+        "onset_strength": 1.32846,
+        "spectral_flatness": 0.01952
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04544,
+        "spectral_centroid_hz": 2482.67,
+        "onset_strength": 1.3767,
+        "spectral_flatness": 0.02514
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06928,
+        "spectral_centroid_hz": 2145.78,
+        "onset_strength": 1.46313,
+        "spectral_flatness": 0.01662
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04816,
+        "spectral_centroid_hz": 2509.93,
+        "onset_strength": 1.52728,
+        "spectral_flatness": 0.02449
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06953,
+        "spectral_centroid_hz": 1927.16,
+        "onset_strength": 1.26269,
+        "spectral_flatness": 0.01301
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.01873,
+        "spectral_centroid_hz": 2529.68,
+        "onset_strength": 1.88328,
+        "spectral_flatness": 0.03216
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07156,
+        "spectral_centroid_hz": 2315.74,
+        "onset_strength": 1.56865,
+        "spectral_flatness": 0.02204
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06532,
+        "spectral_centroid_hz": 2163.0,
+        "onset_strength": 1.4434,
+        "spectral_flatness": 0.01936
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f295ae3c-3708-4ec5-86e7-7c1a0b1bd235",
+      "title": "Amu",
+      "artist": "Iglooghost",
+      "duration_ms": 249000,
+      "first_release_date": "2020-04-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f295ae3c-3708-4ec5-86e7-7c1a0b1bd235",
+      "duration_sec": 248.986526489,
+      "sample_rate": 44100,
+      "tempo_bpm": 156.433990479,
+      "danceability": 1.0313205719,
+      "onset_rate": 3.59037303925,
+      "beats_count": 600,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.058176394552,
+      "dynamic_complexity": 5.4783115387,
+      "average_loudness": 0.535605072975,
+      "spectral_centroid_mean": 1459.09533691,
+      "spectral_flux_mean": 0.0844256728888,
+      "spectral_rolloff_mean": 1665.23291016,
+      "dissonance_mean": 0.453387588263,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
