@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Atomised",
+    "request_id": "calibration-arpeggio-20260702-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e38744af-48e6-4dc3-8e7e-60a1350e822b",
+      "title": "Atomised",
+      "artist": "GoGo Penguin",
+      "duration_ms": 271000,
+      "first_release_date": "2020-11-27",
+      "disambiguation": "2020 live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d5b55b5c-181d-481b-8637-b32ef36c3575",
+      "title": "Atomised",
+      "artist": "GoGo Penguin",
+      "duration_ms": 263000,
+      "first_release_date": "2020-06-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7dce3571-dce7-4289-9a6c-e5d6da4239b2",
+      "title": "Atomised (Machinedrum remix)",
+      "artist": "GoGo Penguin",
+      "duration_ms": 374266,
+      "first_release_date": "2021-04-09",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.6929
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Atomised",
+    "album": "GoGo Penguin",
+    "duration_ms": 263382,
+    "release_date": "2020-06-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/2a/d5/292ad534-2116-8a77-9deb-76ef058bf920/mzaf_12006588503097883803.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/atomised/1499870154?i=1499870163&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 382
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/atomised/1499870154?i=1499870163&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/2a/d5/292ad534-2116-8a77-9deb-76ef058bf920/mzaf_12006588503097883803.plus.aac.p.m4a",
+      "bytes": 1105360,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.07867,
+    "onset_rate_per_sec": 6.14787,
+    "dynamic_range_db_p95_p10": 11.914,
+    "crest_factor_db": 12.828,
+    "rms_mean": 0.12151,
+    "rms_std": 0.05429,
+    "spectral_centroid_hz_mean": 1505.1,
+    "spectral_centroid_hz_std": 510.84,
+    "spectral_bandwidth_hz_mean": 2114.03,
+    "spectral_rolloff_hz_mean": 3296.03,
+    "spectral_flatness_mean": 0.00812,
+    "spectral_contrast_mean": 17.26975,
+    "energy_share": {
+      "below_150_hz": 0.68965,
+      "150_to_2000_hz": 0.3021,
+      "above_2000_hz": 0.00825
+    },
+    "percussive_share": 0.39379,
+    "tonal_entropy_bits": 3.54733,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 0.6497
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13287,
+        "spectral_centroid_hz": 1517.43,
+        "onset_strength": 1.4401,
+        "spectral_flatness": 0.00817
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10142,
+        "spectral_centroid_hz": 1784.05,
+        "onset_strength": 1.52928,
+        "spectral_flatness": 0.01468
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.104,
+        "spectral_centroid_hz": 1713.26,
+        "onset_strength": 1.55597,
+        "spectral_flatness": 0.01289
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.12777,
+        "spectral_centroid_hz": 1494.01,
+        "onset_strength": 1.49229,
+        "spectral_flatness": 0.00848
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.11725,
+        "spectral_centroid_hz": 1689.01,
+        "onset_strength": 1.49293,
+        "spectral_flatness": 0.01121
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10869,
+        "spectral_centroid_hz": 1456.41,
+        "onset_strength": 1.28669,
+        "spectral_flatness": 0.00705
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13115,
+        "spectral_centroid_hz": 1294.32,
+        "onset_strength": 1.35304,
+        "spectral_flatness": 0.004
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12867,
+        "spectral_centroid_hz": 1453.72,
+        "onset_strength": 1.41843,
+        "spectral_flatness": 0.00663
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1219,
+        "spectral_centroid_hz": 1454.67,
+        "onset_strength": 1.3078,
+        "spectral_flatness": 0.00694
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13922,
+        "spectral_centroid_hz": 1330.62,
+        "onset_strength": 1.36468,
+        "spectral_flatness": 0.00454
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13004,
+        "spectral_centroid_hz": 1456.68,
+        "onset_strength": 1.29929,
+        "spectral_flatness": 0.00631
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11523,
+        "spectral_centroid_hz": 1416.28,
+        "onset_strength": 1.30888,
+        "spectral_flatness": 0.00647
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "e38744af-48e6-4dc3-8e7e-60a1350e822b",
+      "title": "Atomised",
+      "artist": "GoGo Penguin",
+      "duration_ms": 271000,
+      "first_release_date": "2020-11-27",
+      "disambiguation": "2020 live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "e38744af-48e6-4dc3-8e7e-60a1350e822b",
+      "duration_sec": 271.830200195,
+      "sample_rate": 44100,
+      "tempo_bpm": 129.75843811,
+      "danceability": 1.19978535175,
+      "onset_rate": 4.66437768936,
+      "beats_count": 661,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0263023059815,
+      "dynamic_complexity": 3.44754695892,
+      "average_loudness": 0.75539368391,
+      "spectral_centroid_mean": 865.570800781,
+      "spectral_flux_mean": 0.0934794470668,
+      "spectral_rolloff_mean": 971.990966797,
+      "dissonance_mean": 0.443951427937,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
