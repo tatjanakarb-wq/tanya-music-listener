@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Throwing Snow",
+    "track": "The Tempest",
+    "request_id": "clean-01-20260702-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e6adaa7e-b968-4ea6-b365-499ea69f5eb5",
+      "title": "The Tempest VIP",
+      "artist": "Throwing Snow",
+      "duration_ms": 315505,
+      "first_release_date": "2015-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.9108
+    },
+    {
+      "mbid": "98f0b21e-c068-40b8-8f7f-86319042a91e",
+      "title": "The Tempest (VIP)",
+      "artist": "Throwing Snow",
+      "duration_ms": 315505,
+      "first_release_date": "2015-01-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.9108
+    },
+    {
+      "mbid": "56466f55-481b-4a52-b023-d097a7296257",
+      "title": "The Tempest",
+      "artist": "Throwing Snow Adda Kaleh",
+      "duration_ms": 250000,
+      "first_release_date": "2014-03-24",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.8751
+    }
+  ],
+  "matched_recording": {
+    "artist": "Throwing Snow",
+    "track": "The Tempest (feat. Adda Kaleh)",
+    "album": "Mosaic",
+    "duration_ms": 250897,
+    "release_date": "2014-03-24T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/26/52/23265284-947d-92ba-d49f-540d131f0aa9/mzaf_11431569137160965782.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-tempest-feat-adda-kaleh/1782119250?i=1782119254&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 897
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-tempest-feat-adda-kaleh/1782119250?i=1782119254&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/26/52/23265284-947d-92ba-d49f-540d131f0aa9/mzaf_11431569137160965782.plus.aac.p.m4a",
+      "bytes": 1004460,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.03583,
+    "onset_rate_per_sec": 8.60703,
+    "dynamic_range_db_p95_p10": 12.66,
+    "crest_factor_db": 10.449,
+    "rms_mean": 0.16044,
+    "rms_std": 0.08081,
+    "spectral_centroid_hz_mean": 2128.1,
+    "spectral_centroid_hz_std": 901.5,
+    "spectral_bandwidth_hz_mean": 2651.42,
+    "spectral_rolloff_hz_mean": 5076.71,
+    "spectral_flatness_mean": 0.01319,
+    "spectral_contrast_mean": 16.99996,
+    "energy_share": {
+      "below_150_hz": 0.91174,
+      "150_to_2000_hz": 0.07419,
+      "above_2000_hz": 0.01407
+    },
+    "percussive_share": 0.39744,
+    "tonal_entropy_bits": 3.54194,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 1.09473
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.16351,
+        "spectral_centroid_hz": 857.2,
+        "onset_strength": 1.17862,
+        "spectral_flatness": 0.00066
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.15379,
+        "spectral_centroid_hz": 1851.31,
+        "onset_strength": 1.86521,
+        "spectral_flatness": 0.01168
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15772,
+        "spectral_centroid_hz": 2228.89,
+        "onset_strength": 1.97922,
+        "spectral_flatness": 0.01226
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15928,
+        "spectral_centroid_hz": 2183.21,
+        "onset_strength": 1.92043,
+        "spectral_flatness": 0.01504
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.15857,
+        "spectral_centroid_hz": 2372.7,
+        "onset_strength": 2.03629,
+        "spectral_flatness": 0.0155
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.16406,
+        "spectral_centroid_hz": 2321.01,
+        "onset_strength": 1.86656,
+        "spectral_flatness": 0.01186
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.16071,
+        "spectral_centroid_hz": 2484.96,
+        "onset_strength": 1.72628,
+        "spectral_flatness": 0.01817
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.15858,
+        "spectral_centroid_hz": 2392.36,
+        "onset_strength": 1.88684,
+        "spectral_flatness": 0.01298
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.15804,
+        "spectral_centroid_hz": 2233.96,
+        "onset_strength": 1.96695,
+        "spectral_flatness": 0.01507
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.16077,
+        "spectral_centroid_hz": 2144.9,
+        "onset_strength": 2.01321,
+        "spectral_flatness": 0.01657
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.1628,
+        "spectral_centroid_hz": 2221.2,
+        "onset_strength": 1.8913,
+        "spectral_flatness": 0.01261
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1674,
+        "spectral_centroid_hz": 2239.51,
+        "onset_strength": 1.78024,
+        "spectral_flatness": 0.01579
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "56466f55-481b-4a52-b023-d097a7296257",
+      "title": "The Tempest",
+      "artist": "Throwing Snow Adda Kaleh",
+      "duration_ms": 250000,
+      "first_release_date": "2014-03-24",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.8751
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "56466f55-481b-4a52-b023-d097a7296257",
+      "duration_sec": 250.960006714,
+      "sample_rate": 44100,
+      "tempo_bpm": 99.4723129272,
+      "danceability": 1.24498307705,
+      "onset_rate": 5.28343915939,
+      "beats_count": 520,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0530989840627,
+      "dynamic_complexity": 3.79827141762,
+      "average_loudness": 0.803676843643,
+      "spectral_centroid_mean": 1072.89758301,
+      "spectral_flux_mean": 0.112970232964,
+      "spectral_rolloff_mean": 847.916015625,
+      "dissonance_mean": 0.448891282082,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
