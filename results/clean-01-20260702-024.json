@@ -1,0 +1,183 @@
+{
+  "request": {
+    "artist": "James Holden",
+    "track": "Renata",
+    "request_id": "clean-01-20260702-024"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5b2b5aed-2d90-4e68-9932-11b76fd1612e",
+      "title": "Renata (Daphni remix)",
+      "artist": "James Holden",
+      "duration_ms": 298506,
+      "first_release_date": "2013",
+      "disambiguation": "part of “TSUGi, Volume 64: Benga Benga” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.6984
+    },
+    {
+      "mbid": "cebad1f0-f3c0-4ade-b97d-7703bb613bc8",
+      "title": "Renata (Daphni remix)",
+      "artist": "James Holden",
+      "duration_ms": 449000,
+      "first_release_date": "2013-06-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.6984
+    },
+    {
+      "mbid": "bb56e935-e96e-4674-949d-42ee90402033",
+      "title": "Renata (Steve Moore remix)",
+      "artist": "James Holden",
+      "duration_ms": 433500,
+      "first_release_date": "2013-06-10",
+      "disambiguation": "",
+      "musicbrainz_score": 95,
+      "local_match_score": 0.652
+    }
+  ],
+  "matched_recording": {
+    "artist": "James Holden",
+    "track": "Renata",
+    "album": "The Inheritors",
+    "duration_ms": 357360,
+    "release_date": "2013-06-09T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/9d/fe/ab9dfe1a-1f04-f998-cdc7-2dc19e0225d3/mzaf_16426725175331769457.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/renata/649555143?i=649555310&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 58854
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/renata/649555143?i=649555310&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/9d/fe/ab9dfe1a-1f04-f998-cdc7-2dc19e0225d3/mzaf_16426725175331769457.plus.aac.p.m4a",
+      "bytes": 1199697,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.03652,
+    "onset_rate_per_sec": 7.91872,
+    "dynamic_range_db_p95_p10": 5.426,
+    "crest_factor_db": 13.159,
+    "rms_mean": 0.10005,
+    "rms_std": 0.02107,
+    "spectral_centroid_hz_mean": 697.26,
+    "spectral_centroid_hz_std": 212.25,
+    "spectral_bandwidth_hz_mean": 1075.32,
+    "spectral_rolloff_hz_mean": 1147.76,
+    "spectral_flatness_mean": 0.0003,
+    "spectral_contrast_mean": 18.74279,
+    "energy_share": {
+      "below_150_hz": 0.40166,
+      "150_to_2000_hz": 0.597,
+      "above_2000_hz": 0.00134
+    },
+    "percussive_share": 0.1756,
+    "tonal_entropy_bits": 3.55624,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.09779
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08268,
+        "spectral_centroid_hz": 653.44,
+        "onset_strength": 1.35747,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09882,
+        "spectral_centroid_hz": 558.62,
+        "onset_strength": 1.35823,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0969,
+        "spectral_centroid_hz": 566.48,
+        "onset_strength": 1.40767,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09633,
+        "spectral_centroid_hz": 553.2,
+        "onset_strength": 1.50261,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09659,
+        "spectral_centroid_hz": 575.04,
+        "onset_strength": 1.55672,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10333,
+        "spectral_centroid_hz": 595.36,
+        "onset_strength": 1.8155,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11221,
+        "spectral_centroid_hz": 607.07,
+        "onset_strength": 1.63926,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10666,
+        "spectral_centroid_hz": 775.6,
+        "onset_strength": 1.58977,
+        "spectral_flatness": 0.00042
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08996,
+        "spectral_centroid_hz": 775.49,
+        "onset_strength": 1.66248,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09322,
+        "spectral_centroid_hz": 921.73,
+        "onset_strength": 1.45576,
+        "spectral_flatness": 0.00087
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10632,
+        "spectral_centroid_hz": 867.62,
+        "onset_strength": 1.39471,
+        "spectral_flatness": 0.00067
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11744,
+        "spectral_centroid_hz": 915.02,
+        "onset_strength": 1.37032,
+        "spectral_flatness": 0.00075
+      }
+    ]
+  }
+}
