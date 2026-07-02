@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Sungazer",
+    "track": "Threshold",
+    "request_id": "clean-01-20260702-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ae5a0075-7813-4b73-85dd-6a5bff96a307",
+      "title": "Threshold",
+      "artist": "Sungazer",
+      "duration_ms": 255187,
+      "first_release_date": "2021-10-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0c6dc4f6-709d-44a8-9710-6913312c0088",
+      "title": "Threshold",
+      "artist": "Sungazer",
+      "duration_ms": 255186,
+      "first_release_date": "2021-09-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Sungazer",
+    "track": "Threshold",
+    "album": "Threshold - Single",
+    "duration_ms": 255187,
+    "release_date": "2021-09-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7d/02/8a/7d028ae0-00c4-3e73-cd49-df73fe003c4f/mzaf_6955483449726393920.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/threshold/1585552385?i=1585552596&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/threshold/1585552385?i=1585552596&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7d/02/8a/7d028ae0-00c4-3e73-cd49-df73fe003c4f/mzaf_6955483449726393920.plus.aac.p.m4a",
+      "bytes": 1088209,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.07102,
+    "onset_rate_per_sec": 4.6109,
+    "dynamic_range_db_p95_p10": 16.275,
+    "crest_factor_db": 14.82,
+    "rms_mean": 0.09356,
+    "rms_std": 0.06002,
+    "spectral_centroid_hz_mean": 2071.17,
+    "spectral_centroid_hz_std": 675.78,
+    "spectral_bandwidth_hz_mean": 2518.58,
+    "spectral_rolloff_hz_mean": 4749.25,
+    "spectral_flatness_mean": 0.01409,
+    "spectral_contrast_mean": 19.83511,
+    "energy_share": {
+      "below_150_hz": 0.69302,
+      "150_to_2000_hz": 0.27817,
+      "above_2000_hz": 0.02881
+    },
+    "percussive_share": 0.36613,
+    "tonal_entropy_bits": 3.53911,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 1.16016
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04291,
+        "spectral_centroid_hz": 2046.29,
+        "onset_strength": 1.66677,
+        "spectral_flatness": 0.01539
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05587,
+        "spectral_centroid_hz": 1432.89,
+        "onset_strength": 0.74086,
+        "spectral_flatness": 0.00188
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06488,
+        "spectral_centroid_hz": 1502.01,
+        "onset_strength": 0.94657,
+        "spectral_flatness": 0.0038
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05762,
+        "spectral_centroid_hz": 2290.81,
+        "onset_strength": 1.59891,
+        "spectral_flatness": 0.01342
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07157,
+        "spectral_centroid_hz": 1973.69,
+        "onset_strength": 1.64141,
+        "spectral_flatness": 0.01169
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.07377,
+        "spectral_centroid_hz": 1843.67,
+        "onset_strength": 1.74293,
+        "spectral_flatness": 0.01003
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06659,
+        "spectral_centroid_hz": 2042.81,
+        "onset_strength": 1.60096,
+        "spectral_flatness": 0.02078
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10814,
+        "spectral_centroid_hz": 2288.61,
+        "onset_strength": 1.81008,
+        "spectral_flatness": 0.02041
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.15485,
+        "spectral_centroid_hz": 2448.93,
+        "onset_strength": 1.52792,
+        "spectral_flatness": 0.02531
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13372,
+        "spectral_centroid_hz": 2448.99,
+        "onset_strength": 1.27493,
+        "spectral_flatness": 0.01824
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.14042,
+        "spectral_centroid_hz": 2341.89,
+        "onset_strength": 1.31701,
+        "spectral_flatness": 0.01517
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.15181,
+        "spectral_centroid_hz": 2192.93,
+        "onset_strength": 1.31925,
+        "spectral_flatness": 0.01297
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ae5a0075-7813-4b73-85dd-6a5bff96a307",
+      "title": "Threshold",
+      "artist": "Sungazer",
+      "duration_ms": 255187,
+      "first_release_date": "2021-10-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ae5a0075-7813-4b73-85dd-6a5bff96a307",
+      "duration_sec": 255.216323853,
+      "sample_rate": 44100,
+      "tempo_bpm": 99.5426864624,
+      "danceability": 1.19143402576,
+      "onset_rate": 4.38421678543,
+      "beats_count": 445,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0540294721723,
+      "dynamic_complexity": 4.69504117966,
+      "average_loudness": 0.59233379364,
+      "spectral_centroid_mean": 858.926940918,
+      "spectral_flux_mean": 0.0873016417027,
+      "spectral_rolloff_mean": 721.793701172,
+      "dissonance_mean": 0.441749334335,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
