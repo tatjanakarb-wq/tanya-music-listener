@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Lusine",
+    "track": "Just a Cloud",
+    "request_id": "clean-01-20260702-016"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "dc62bd10-4509-41b4-b4f2-f16f0f72a523",
+      "title": "Just A Cloud (Live on KEXP)",
+      "artist": "Lusine",
+      "duration_ms": 396000,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.7962
+    },
+    {
+      "mbid": "b9069a7d-43b0-4dec-aa10-a856c15315c5",
+      "title": "Just a Cloud",
+      "artist": "Lusine Vilja Larjosto",
+      "duration_ms": 332306,
+      "first_release_date": "2017-03-03",
+      "disambiguation": "",
+      "musicbrainz_score": 97,
+      "local_match_score": 0.7667
+    }
+  ],
+  "matched_recording": {
+    "artist": "Lusine",
+    "track": "Just a Cloud (feat. Vilja Larjosto)",
+    "album": "Sensorimotor",
+    "duration_ms": 332307,
+    "release_date": "2017-03-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/94/63/3e946312-563f-5967-38e1-b44e4631800b/mzaf_17714087012240651030.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/just-a-cloud-feat-vilja-larjosto/1188786011?i=1188786226&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/just-a-cloud-feat-vilja-larjosto/1188786011?i=1188786226&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/94/63/3e946312-563f-5967-38e1-b44e4631800b/mzaf_17714087012240651030.plus.aac.p.m4a",
+      "bytes": 1091008,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.05313,
+    "onset_rate_per_sec": 5.27097,
+    "dynamic_range_db_p95_p10": 8.097,
+    "crest_factor_db": 12.696,
+    "rms_mean": 0.12878,
+    "rms_std": 0.04377,
+    "spectral_centroid_hz_mean": 1949.97,
+    "spectral_centroid_hz_std": 764.87,
+    "spectral_bandwidth_hz_mean": 2637.17,
+    "spectral_rolloff_hz_mean": 4575.12,
+    "spectral_flatness_mean": 0.01436,
+    "spectral_contrast_mean": 19.35462,
+    "energy_share": {
+      "below_150_hz": 0.76293,
+      "150_to_2000_hz": 0.21539,
+      "above_2000_hz": 0.02168
+    },
+    "percussive_share": 0.30008,
+    "tonal_entropy_bits": 3.49374,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 0.74201
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12049,
+        "spectral_centroid_hz": 1810.58,
+        "onset_strength": 2.12117,
+        "spectral_flatness": 0.01365
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.13391,
+        "spectral_centroid_hz": 1727.64,
+        "onset_strength": 2.02685,
+        "spectral_flatness": 0.01224
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12689,
+        "spectral_centroid_hz": 1831.52,
+        "onset_strength": 1.77796,
+        "spectral_flatness": 0.01363
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.13254,
+        "spectral_centroid_hz": 1978.26,
+        "onset_strength": 1.73539,
+        "spectral_flatness": 0.01354
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.12895,
+        "spectral_centroid_hz": 2020.94,
+        "onset_strength": 1.89507,
+        "spectral_flatness": 0.01517
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.12228,
+        "spectral_centroid_hz": 1963.12,
+        "onset_strength": 2.13052,
+        "spectral_flatness": 0.01564
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.12991,
+        "spectral_centroid_hz": 2275.07,
+        "onset_strength": 1.85518,
+        "spectral_flatness": 0.0167
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.12723,
+        "spectral_centroid_hz": 1799.06,
+        "onset_strength": 1.71313,
+        "spectral_flatness": 0.01268
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.13083,
+        "spectral_centroid_hz": 2015.99,
+        "onset_strength": 1.66133,
+        "spectral_flatness": 0.01451
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.13277,
+        "spectral_centroid_hz": 1987.1,
+        "onset_strength": 1.98719,
+        "spectral_flatness": 0.01505
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.12822,
+        "spectral_centroid_hz": 1883.33,
+        "onset_strength": 1.98987,
+        "spectral_flatness": 0.01356
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1313,
+        "spectral_centroid_hz": 2104.24,
+        "onset_strength": 1.9882,
+        "spectral_flatness": 0.016
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b9069a7d-43b0-4dec-aa10-a856c15315c5",
+      "title": "Just a Cloud",
+      "artist": "Lusine Vilja Larjosto",
+      "duration_ms": 332306,
+      "first_release_date": "2017-03-03",
+      "disambiguation": "",
+      "musicbrainz_score": 97,
+      "local_match_score": 0.7667
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b9069a7d-43b0-4dec-aa10-a856c15315c5",
+      "duration_sec": 332.306671143,
+      "sample_rate": 44100,
+      "tempo_bpm": 150.079116821,
+      "danceability": 1.52899193764,
+      "onset_rate": 6.52676343918,
+      "beats_count": 830,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.04275534302,
+      "dynamic_complexity": 3.41010284424,
+      "average_loudness": 0.940104961395,
+      "spectral_centroid_mean": 815.670043945,
+      "spectral_flux_mean": 0.100505724549,
+      "spectral_rolloff_mean": 890.557739258,
+      "dissonance_mean": 0.454490065575,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
