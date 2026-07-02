@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Prequell",
+    "track": "Part XIII",
+    "request_id": "misha-capture-20260702-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "56d29285-9c07-4b30-99d0-e23182ff5bd9",
+      "title": "Part XIII",
+      "artist": "Prequell",
+      "duration_ms": 172644,
+      "first_release_date": "2017-09-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Prequell",
+    "track": "Part XIII",
+    "album": "The Future Comes Before",
+    "duration_ms": 172644,
+    "release_date": "2017-10-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/0f/a4/a80fa4ff-3dd8-dced-d8de-f54fb9f3072d/mzaf_12000611503480005991.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/part-xiii/1442971280?i=1442971286&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/part-xiii/1442971280?i=1442971286&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/0f/a4/a80fa4ff-3dd8-dced-d8de-f54fb9f3072d/mzaf_12000611503480005991.plus.aac.p.m4a",
+      "bytes": 1072874,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 92.285,
+    "beat_interval_cv": 0.048,
+    "onset_rate_per_sec": 1.9045,
+    "dynamic_range_db_p95_p10": 5.215,
+    "crest_factor_db": 9.94,
+    "rms_mean": 0.18852,
+    "rms_std": 0.04973,
+    "spectral_centroid_hz_mean": 1637.16,
+    "spectral_centroid_hz_std": 630.92,
+    "spectral_bandwidth_hz_mean": 1997.14,
+    "spectral_rolloff_hz_mean": 3536.79,
+    "spectral_flatness_mean": 0.01121,
+    "spectral_contrast_mean": 18.33394,
+    "energy_share": {
+      "below_150_hz": 0.67028,
+      "150_to_2000_hz": 0.29951,
+      "above_2000_hz": 0.03021
+    },
+    "percussive_share": 0.22147,
+    "tonal_entropy_bits": 3.47797,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.10526
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.20232,
+        "spectral_centroid_hz": 1024.32,
+        "onset_strength": 0.96178,
+        "spectral_flatness": 0.00167
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.17169,
+        "spectral_centroid_hz": 1098.87,
+        "onset_strength": 0.94556,
+        "spectral_flatness": 0.00229
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.21193,
+        "spectral_centroid_hz": 993.05,
+        "onset_strength": 0.88732,
+        "spectral_flatness": 0.00102
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.17367,
+        "spectral_centroid_hz": 1232.07,
+        "onset_strength": 0.9846,
+        "spectral_flatness": 0.00245
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.17709,
+        "spectral_centroid_hz": 1468.42,
+        "onset_strength": 0.83384,
+        "spectral_flatness": 0.00569
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.19856,
+        "spectral_centroid_hz": 2335.58,
+        "onset_strength": 1.00343,
+        "spectral_flatness": 0.02588
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.21482,
+        "spectral_centroid_hz": 2163.62,
+        "onset_strength": 1.085,
+        "spectral_flatness": 0.02171
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.20348,
+        "spectral_centroid_hz": 2053.96,
+        "onset_strength": 1.09459,
+        "spectral_flatness": 0.01957
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.20827,
+        "spectral_centroid_hz": 2270.79,
+        "onset_strength": 0.98857,
+        "spectral_flatness": 0.0221
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.22664,
+        "spectral_centroid_hz": 2054.63,
+        "onset_strength": 1.10213,
+        "spectral_flatness": 0.01662
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.19307,
+        "spectral_centroid_hz": 1898.68,
+        "onset_strength": 0.8536,
+        "spectral_flatness": 0.01489
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.08114,
+        "spectral_centroid_hz": 1057.1,
+        "onset_strength": 0.83139,
+        "spectral_flatness": 0.00071
+      }
+    ]
+  }
+}
