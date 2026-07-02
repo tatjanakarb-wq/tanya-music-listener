@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "yes/and",
+    "track": "Melt Away",
+    "request_id": "misha-capture-20260702-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "741a44b5-c543-4922-82bf-9baff149ced5",
+      "title": "Melt Away",
+      "artist": "yes/and",
+      "duration_ms": 198280,
+      "first_release_date": "2021-07-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "yes/and",
+    "track": "Melt Away",
+    "album": "Yes/And",
+    "duration_ms": 198280,
+    "release_date": "2021-06-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/31/7b/ec317b85-38b5-8316-eeb0-abcd617e3085/mzaf_2687203897513636934.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/melt-away/1563258874?i=1563259061&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/melt-away/1563258874?i=1563259061&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/31/7b/ec317b85-38b5-8316-eeb0-abcd617e3085/mzaf_2687203897513636934.plus.aac.p.m4a",
+      "bytes": 1021269,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02666,
+    "onset_rate_per_sec": 5.61327,
+    "dynamic_range_db_p95_p10": 8.756,
+    "crest_factor_db": 11.432,
+    "rms_mean": 0.14561,
+    "rms_std": 0.05514,
+    "spectral_centroid_hz_mean": 760.83,
+    "spectral_centroid_hz_std": 147.07,
+    "spectral_bandwidth_hz_mean": 1072.53,
+    "spectral_rolloff_hz_mean": 1503.95,
+    "spectral_flatness_mean": 0.0002,
+    "spectral_contrast_mean": 19.53437,
+    "energy_share": {
+      "below_150_hz": 0.72748,
+      "150_to_2000_hz": 0.26861,
+      "above_2000_hz": 0.00391
+    },
+    "percussive_share": 0.16551,
+    "tonal_entropy_bits": 3.35452,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.59083
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.24158,
+        "spectral_centroid_hz": 588.54,
+        "onset_strength": 0.94229,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.16373,
+        "spectral_centroid_hz": 682.34,
+        "onset_strength": 1.014,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11587,
+        "spectral_centroid_hz": 806.92,
+        "onset_strength": 1.01651,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.1182,
+        "spectral_centroid_hz": 834.93,
+        "onset_strength": 1.01352,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10867,
+        "spectral_centroid_hz": 877.32,
+        "onset_strength": 1.05465,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11684,
+        "spectral_centroid_hz": 803.87,
+        "onset_strength": 1.01745,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.2173,
+        "spectral_centroid_hz": 637.77,
+        "onset_strength": 1.01145,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.19883,
+        "spectral_centroid_hz": 625.59,
+        "onset_strength": 0.97834,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12274,
+        "spectral_centroid_hz": 773.46,
+        "onset_strength": 0.99909,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11524,
+        "spectral_centroid_hz": 820.77,
+        "onset_strength": 1.03942,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11293,
+        "spectral_centroid_hz": 875.34,
+        "onset_strength": 1.02577,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11611,
+        "spectral_centroid_hz": 801.88,
+        "onset_strength": 1.0556,
+        "spectral_flatness": 0.00024
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "741a44b5-c543-4922-82bf-9baff149ced5",
+      "title": "Melt Away",
+      "artist": "yes/and",
+      "duration_ms": 198280,
+      "first_release_date": "2021-07-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "741a44b5-c543-4922-82bf-9baff149ced5",
+      "duration_sec": 198.321640015,
+      "sample_rate": 44100,
+      "tempo_bpm": 121.052635193,
+      "danceability": 0.860038995743,
+      "onset_rate": 2.44033741951,
+      "beats_count": 403,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0458801500499,
+      "dynamic_complexity": 2.5718357563,
+      "average_loudness": 0.438730150461,
+      "spectral_centroid_mean": 468.742980957,
+      "spectral_flux_mean": 0.0815641209483,
+      "spectral_rolloff_mean": 595.782958984,
+      "dissonance_mean": 0.419434845448,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
