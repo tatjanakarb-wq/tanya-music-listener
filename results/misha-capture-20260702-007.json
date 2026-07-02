@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Shey Baba",
+    "track": "Requiem",
+    "request_id": "misha-capture-20260702-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "12a544c3-1fa4-43ed-90a2-02d3d7f7ad25",
+      "title": "Requiem",
+      "artist": "shey baba",
+      "duration_ms": 246268,
+      "first_release_date": "2019-05-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Shey Baba",
+    "track": "Requiem",
+    "album": "Requiem - Single",
+    "duration_ms": 233596,
+    "release_date": "2017-09-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/29/57/3e2957ca-8081-fcc4-a3fa-9d3b8158920b/mzaf_14278793521406230463.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/requiem/1288283085?i=1288283100&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 12672
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/requiem/1288283085?i=1288283100&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/29/57/3e2957ca-8081-fcc4-a3fa-9d3b8158920b/mzaf_14278793521406230463.plus.aac.p.m4a",
+      "bytes": 1010662,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04853,
+    "onset_rate_per_sec": 2.50592,
+    "dynamic_range_db_p95_p10": 9.773,
+    "crest_factor_db": 15.136,
+    "rms_mean": 0.09958,
+    "rms_std": 0.03966,
+    "spectral_centroid_hz_mean": 1428.74,
+    "spectral_centroid_hz_std": 736.69,
+    "spectral_bandwidth_hz_mean": 1570.96,
+    "spectral_rolloff_hz_mean": 2683.99,
+    "spectral_flatness_mean": 0.00704,
+    "spectral_contrast_mean": 21.82368,
+    "energy_share": {
+      "below_150_hz": 0.02572,
+      "150_to_2000_hz": 0.93575,
+      "above_2000_hz": 0.03853
+    },
+    "percussive_share": 0.22006,
+    "tonal_entropy_bits": 3.46651,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.89012
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12527,
+        "spectral_centroid_hz": 1699.99,
+        "onset_strength": 1.16014,
+        "spectral_flatness": 0.00758
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0933,
+        "spectral_centroid_hz": 1480.6,
+        "onset_strength": 0.94412,
+        "spectral_flatness": 0.01039
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06243,
+        "spectral_centroid_hz": 819.54,
+        "onset_strength": 0.80062,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10956,
+        "spectral_centroid_hz": 1972.88,
+        "onset_strength": 1.29743,
+        "spectral_flatness": 0.01571
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10575,
+        "spectral_centroid_hz": 1994.07,
+        "onset_strength": 1.24169,
+        "spectral_flatness": 0.01787
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.0706,
+        "spectral_centroid_hz": 1145.15,
+        "onset_strength": 0.72358,
+        "spectral_flatness": 0.00161
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05588,
+        "spectral_centroid_hz": 792.01,
+        "onset_strength": 0.70622,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12367,
+        "spectral_centroid_hz": 1424.08,
+        "onset_strength": 1.32456,
+        "spectral_flatness": 0.00235
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09558,
+        "spectral_centroid_hz": 1497.87,
+        "onset_strength": 0.98242,
+        "spectral_flatness": 0.00988
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09941,
+        "spectral_centroid_hz": 992.76,
+        "onset_strength": 0.97699,
+        "spectral_flatness": 0.0004
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11609,
+        "spectral_centroid_hz": 1997.32,
+        "onset_strength": 1.24614,
+        "spectral_flatness": 0.01771
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13717,
+        "spectral_centroid_hz": 1334.04,
+        "onset_strength": 1.05717,
+        "spectral_flatness": 0.00089
+      }
+    ]
+  }
+}
