@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "JAMBINAI",
+    "track": "They Keep Silence",
+    "request_id": "clean-01-20260702-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Jambinai",
+    "track": "They Keep Silence",
+    "album": "A Hermitage",
+    "duration_ms": 384920,
+    "release_date": "2016-03-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/ce/8a/c3ce8a97-98ab-f95e-0c3e-b13ecea73d24/mzaf_776361694644270158.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/they-keep-silence/1084795866?i=1084796163&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/they-keep-silence/1084795866?i=1084796163&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/ce/8a/c3ce8a97-98ab-f95e-0c3e-b13ecea73d24/mzaf_776361694644270158.plus.aac.p.m4a",
+      "bytes": 1077898,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.06469,
+    "onset_rate_per_sec": 4.94502,
+    "dynamic_range_db_p95_p10": 8.645,
+    "crest_factor_db": 8.857,
+    "rms_mean": 0.21263,
+    "rms_std": 0.05958,
+    "spectral_centroid_hz_mean": 1720.97,
+    "spectral_centroid_hz_std": 521.4,
+    "spectral_bandwidth_hz_mean": 2238.88,
+    "spectral_rolloff_hz_mean": 3871.37,
+    "spectral_flatness_mean": 0.01176,
+    "spectral_contrast_mean": 17.79349,
+    "energy_share": {
+      "below_150_hz": 0.64759,
+      "150_to_2000_hz": 0.3264,
+      "above_2000_hz": 0.02601
+    },
+    "percussive_share": 0.31313,
+    "tonal_entropy_bits": 3.49458,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.77668
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10541,
+        "spectral_centroid_hz": 1455.62,
+        "onset_strength": 1.32736,
+        "spectral_flatness": 0.00582
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10762,
+        "spectral_centroid_hz": 1201.15,
+        "onset_strength": 1.24417,
+        "spectral_flatness": 0.00269
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.23457,
+        "spectral_centroid_hz": 1765.63,
+        "onset_strength": 1.46159,
+        "spectral_flatness": 0.0121
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.24454,
+        "spectral_centroid_hz": 1760.04,
+        "onset_strength": 1.3641,
+        "spectral_flatness": 0.01162
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.23228,
+        "spectral_centroid_hz": 1837.25,
+        "onset_strength": 1.39204,
+        "spectral_flatness": 0.01384
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.23144,
+        "spectral_centroid_hz": 1856.34,
+        "onset_strength": 1.32928,
+        "spectral_flatness": 0.01464
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.23846,
+        "spectral_centroid_hz": 1956.6,
+        "onset_strength": 1.34784,
+        "spectral_flatness": 0.01574
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.23587,
+        "spectral_centroid_hz": 1834.0,
+        "onset_strength": 1.31141,
+        "spectral_flatness": 0.01311
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.2398,
+        "spectral_centroid_hz": 1751.34,
+        "onset_strength": 1.39733,
+        "spectral_flatness": 0.0126
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.23445,
+        "spectral_centroid_hz": 1849.12,
+        "onset_strength": 1.32719,
+        "spectral_flatness": 0.01452
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.2336,
+        "spectral_centroid_hz": 1874.7,
+        "onset_strength": 1.25718,
+        "spectral_flatness": 0.01379
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.21269,
+        "spectral_centroid_hz": 1508.04,
+        "onset_strength": 1.40524,
+        "spectral_flatness": 0.01054
+      }
+    ]
+  }
+}
