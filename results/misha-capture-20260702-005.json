@@ -1,0 +1,23 @@
+{
+  "request": {
+    "artist": "Oliver Buckland",
+    "track": "espial",
+    "request_id": "misha-capture-20260702-005"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "816fa97e-b291-40dd-9b5a-66f3baeedbc1",
+      "title": "espial",
+      "artist": "Oliver Buckland",
+      "duration_ms": 251000,
+      "first_release_date": "2021-01-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ]
+}
