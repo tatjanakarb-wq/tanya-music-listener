@@ -1,0 +1,12 @@
+{
+  "request": {
+    "artist": "Luo",
+    "track": "Convoluted Mess Machine",
+    "request_id": "clean-01-20260702-011"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": []
+}
