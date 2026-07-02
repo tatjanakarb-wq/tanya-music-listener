@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Iglooghost",
+    "track": "UI Birth (feat. BABii)",
+    "request_id": "misha-prelesti-20260702-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Iglooghost & BABii",
+    "track": "Ui Birth",
+    "album": "Lei Line Eon",
+    "duration_ms": 217381,
+    "release_date": "2021-04-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/21/01/97/21019796-44f6-d268-5da2-9ab1799e7411/mzaf_7623552517976869128.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/ui-birth/1676861128?i=1676861134&uo=4",
+    "match_score": 0.9123,
+    "title_score": 1.0,
+    "artist_score": 0.7692
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/ui-birth/1676861128?i=1676861134&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/21/01/97/21019796-44f6-d268-5da2-9ab1799e7411/mzaf_7623552517976869128.plus.aac.p.m4a",
+      "bytes": 1053158,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05888,
+    "onset_rate_per_sec": 3.00711,
+    "dynamic_range_db_p95_p10": 14.859,
+    "crest_factor_db": 17.675,
+    "rms_mean": 0.06799,
+    "rms_std": 0.04216,
+    "spectral_centroid_hz_mean": 2722.19,
+    "spectral_centroid_hz_std": 1085.78,
+    "spectral_bandwidth_hz_mean": 2744.74,
+    "spectral_rolloff_hz_mean": 5707.72,
+    "spectral_flatness_mean": 0.02758,
+    "spectral_contrast_mean": 20.54846,
+    "energy_share": {
+      "below_150_hz": 0.66676,
+      "150_to_2000_hz": 0.26113,
+      "above_2000_hz": 0.07211
+    },
+    "percussive_share": 0.36347,
+    "tonal_entropy_bits": 3.5479,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.82253
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04637,
+        "spectral_centroid_hz": 2520.82,
+        "onset_strength": 1.13979,
+        "spectral_flatness": 0.01961
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04197,
+        "spectral_centroid_hz": 2609.11,
+        "onset_strength": 1.14005,
+        "spectral_flatness": 0.02054
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06269,
+        "spectral_centroid_hz": 3032.53,
+        "onset_strength": 1.73179,
+        "spectral_flatness": 0.04046
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04515,
+        "spectral_centroid_hz": 2867.06,
+        "onset_strength": 1.55516,
+        "spectral_flatness": 0.02953
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04129,
+        "spectral_centroid_hz": 2577.16,
+        "onset_strength": 1.08587,
+        "spectral_flatness": 0.01478
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05974,
+        "spectral_centroid_hz": 2668.79,
+        "onset_strength": 0.9518,
+        "spectral_flatness": 0.01972
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05731,
+        "spectral_centroid_hz": 2836.15,
+        "onset_strength": 1.53758,
+        "spectral_flatness": 0.03442
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05488,
+        "spectral_centroid_hz": 3113.45,
+        "onset_strength": 1.60498,
+        "spectral_flatness": 0.04763
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08114,
+        "spectral_centroid_hz": 2873.1,
+        "onset_strength": 1.63669,
+        "spectral_flatness": 0.04154
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12783,
+        "spectral_centroid_hz": 2135.2,
+        "onset_strength": 0.92207,
+        "spectral_flatness": 0.00841
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08331,
+        "spectral_centroid_hz": 3260.14,
+        "onset_strength": 1.54725,
+        "spectral_flatness": 0.0405
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11358,
+        "spectral_centroid_hz": 2178.12,
+        "onset_strength": 1.24393,
+        "spectral_flatness": 0.01389
+      }
+    ]
+  }
+}
