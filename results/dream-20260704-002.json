@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Susanne Sundfør",
+    "track": "White Foxes",
+    "request_id": "dream-20260704-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "176d887e-054e-4a48-b8fb-9d5614372f20",
+      "title": "White Foxes",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 256453,
+      "first_release_date": "2012-02-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c5e4cded-e955-4df9-a6c4-0337ff80a8b9",
+      "title": "White Foxes",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 202000,
+      "first_release_date": "2013-06-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "da83cdbf-257e-4959-87c6-a27e51adedc6",
+      "title": "White Foxes (radio edit)",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 242920,
+      "first_release_date": "2012",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8067
+    },
+    {
+      "mbid": "412550fa-211c-4467-ad97-ee5bef2f5ae5",
+      "title": "White Foxes (Maps remix)",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 340179,
+      "first_release_date": "2012",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8067
+    },
+    {
+      "mbid": "52c22c87-8a3b-4e66-a4c0-faf331b0189b",
+      "title": "White Foxes (Susanne Sundfør remix)",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 301000,
+      "first_release_date": "2013-06-28",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.71
+    }
+  ],
+  "matched_recording": {
+    "artist": "Susanne Sundfør",
+    "track": "White Foxes",
+    "album": "The Silicone Veil",
+    "duration_ms": 256453,
+    "release_date": "2012-02-24T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/dc/59/49/dc594981-0def-17be-ecaa-d802367ca670/mzaf_5268907291008587114.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/white-foxes/732111845?i=732111885&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/white-foxes/732111845?i=732111885&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/dc/59/49/dc594981-0def-17be-ecaa-d802367ca670/mzaf_5268907291008587114.plus.aac.p.m4a",
+      "bytes": 1038051,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.03359,
+    "onset_rate_per_sec": 5.01185,
+    "dynamic_range_db_p95_p10": 8.11,
+    "crest_factor_db": 11.851,
+    "rms_mean": 0.15089,
+    "rms_std": 0.04146,
+    "spectral_centroid_hz_mean": 2212.58,
+    "spectral_centroid_hz_std": 480.03,
+    "spectral_bandwidth_hz_mean": 2523.68,
+    "spectral_rolloff_hz_mean": 4787.41,
+    "spectral_flatness_mean": 0.01079,
+    "spectral_contrast_mean": 21.56494,
+    "energy_share": {
+      "below_150_hz": 0.53109,
+      "150_to_2000_hz": 0.41222,
+      "above_2000_hz": 0.05669
+    },
+    "percussive_share": 0.22993,
+    "tonal_entropy_bits": 3.5315,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.52122
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13558,
+        "spectral_centroid_hz": 2287.59,
+        "onset_strength": 1.05874,
+        "spectral_flatness": 0.01445
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.16387,
+        "spectral_centroid_hz": 2235.41,
+        "onset_strength": 1.11532,
+        "spectral_flatness": 0.01168
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.1625,
+        "spectral_centroid_hz": 2028.68,
+        "onset_strength": 1.15185,
+        "spectral_flatness": 0.01086
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.173,
+        "spectral_centroid_hz": 2035.05,
+        "onset_strength": 1.17862,
+        "spectral_flatness": 0.00968
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.15777,
+        "spectral_centroid_hz": 2128.84,
+        "onset_strength": 1.18446,
+        "spectral_flatness": 0.01427
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.17162,
+        "spectral_centroid_hz": 1905.73,
+        "onset_strength": 1.13686,
+        "spectral_flatness": 0.009
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.17774,
+        "spectral_centroid_hz": 2057.93,
+        "onset_strength": 1.15342,
+        "spectral_flatness": 0.01086
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.15942,
+        "spectral_centroid_hz": 2146.09,
+        "onset_strength": 1.19469,
+        "spectral_flatness": 0.01128
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.17895,
+        "spectral_centroid_hz": 1800.72,
+        "onset_strength": 1.11578,
+        "spectral_flatness": 0.00719
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.14613,
+        "spectral_centroid_hz": 2318.96,
+        "onset_strength": 1.10509,
+        "spectral_flatness": 0.01816
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11629,
+        "spectral_centroid_hz": 2698.16,
+        "onset_strength": 0.88799,
+        "spectral_flatness": 0.00372
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06842,
+        "spectral_centroid_hz": 2903.43,
+        "onset_strength": 0.97706,
+        "spectral_flatness": 0.0083
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "176d887e-054e-4a48-b8fb-9d5614372f20",
+      "title": "White Foxes",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 256453,
+      "first_release_date": "2012-02-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "176d887e-054e-4a48-b8fb-9d5614372f20",
+      "duration_sec": 256.496337891,
+      "sample_rate": 44100,
+      "tempo_bpm": 84.9267044067,
+      "danceability": 1.12472391129,
+      "onset_rate": 3.06029963493,
+      "beats_count": 363,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0385520346463,
+      "dynamic_complexity": 6.94457149506,
+      "average_loudness": 0.734036028385,
+      "spectral_centroid_mean": 1288.02893066,
+      "spectral_flux_mean": 0.089529953897,
+      "spectral_rolloff_mean": 879.244750977,
+      "dissonance_mean": 0.443444371223,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
