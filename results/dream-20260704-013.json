@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Hania Rani",
+    "track": "Buka",
+    "request_id": "dream-20260704-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "05c39a6a-5c7b-4f29-ade0-da439525605f",
+      "title": "Buka",
+      "artist": "Hania Rani",
+      "duration_ms": 329493,
+      "first_release_date": "2021-03-26",
+      "disambiguation": "live, 2021-02-04: Studio S2, Warsaw, Poland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "afa575c4-0cee-42b3-bfb6-460d8c4b4bc4",
+      "title": "Buka",
+      "artist": "Hania Rani",
+      "duration_ms": 302720,
+      "first_release_date": "2020-05-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hania Rani",
+    "track": "Buka",
+    "album": "Home",
+    "duration_ms": 302724,
+    "release_date": "2020-05-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/06/6f/93066f0a-4194-98e7-d0f2-096c71187ff3/mzaf_5020189253550900406.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/buka/1579362259?i=1579362270&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 4
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/buka/1579362259?i=1579362270&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/06/6f/93066f0a-4194-98e7-d0f2-096c71187ff3/mzaf_5020189253550900406.plus.aac.p.m4a",
+      "bytes": 1038504,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.04887,
+    "onset_rate_per_sec": 9.58934,
+    "dynamic_range_db_p95_p10": 10.355,
+    "crest_factor_db": 15.708,
+    "rms_mean": 0.04221,
+    "rms_std": 0.01725,
+    "spectral_centroid_hz_mean": 935.52,
+    "spectral_centroid_hz_std": 188.32,
+    "spectral_bandwidth_hz_mean": 1389.21,
+    "spectral_rolloff_hz_mean": 1322.17,
+    "spectral_flatness_mean": 0.0007,
+    "spectral_contrast_mean": 19.48152,
+    "energy_share": {
+      "below_150_hz": 0.01881,
+      "150_to_2000_hz": 0.97914,
+      "above_2000_hz": 0.00205
+    },
+    "percussive_share": 0.21199,
+    "tonal_entropy_bits": 3.50383,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.22073
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03203,
+        "spectral_centroid_hz": 943.34,
+        "onset_strength": 1.24863,
+        "spectral_flatness": 0.00084
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04162,
+        "spectral_centroid_hz": 886.99,
+        "onset_strength": 1.23402,
+        "spectral_flatness": 0.00061
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03535,
+        "spectral_centroid_hz": 833.71,
+        "onset_strength": 1.19463,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03245,
+        "spectral_centroid_hz": 945.28,
+        "onset_strength": 1.26112,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04257,
+        "spectral_centroid_hz": 1013.08,
+        "onset_strength": 1.31856,
+        "spectral_flatness": 0.00088
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04307,
+        "spectral_centroid_hz": 899.18,
+        "onset_strength": 1.25266,
+        "spectral_flatness": 0.00059
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04453,
+        "spectral_centroid_hz": 916.57,
+        "onset_strength": 1.30116,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04173,
+        "spectral_centroid_hz": 1000.06,
+        "onset_strength": 1.24243,
+        "spectral_flatness": 0.00081
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05019,
+        "spectral_centroid_hz": 929.76,
+        "onset_strength": 1.20979,
+        "spectral_flatness": 0.00057
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0407,
+        "spectral_centroid_hz": 960.68,
+        "onset_strength": 1.26273,
+        "spectral_flatness": 0.00084
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05189,
+        "spectral_centroid_hz": 912.63,
+        "onset_strength": 1.30407,
+        "spectral_flatness": 0.00063
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05036,
+        "spectral_centroid_hz": 983.88,
+        "onset_strength": 1.30903,
+        "spectral_flatness": 0.00075
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "05c39a6a-5c7b-4f29-ade0-da439525605f",
+      "title": "Buka",
+      "artist": "Hania Rani",
+      "duration_ms": 329493,
+      "first_release_date": "2021-03-26",
+      "disambiguation": "live, 2021-02-04: Studio S2, Warsaw, Poland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "05c39a6a-5c7b-4f29-ade0-da439525605f",
+      "duration_sec": 326.765716553,
+      "sample_rate": 44100,
+      "tempo_bpm": 103.037460327,
+      "danceability": 0.918367862701,
+      "onset_rate": 2.79693722725,
+      "beats_count": 561,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0304063651711,
+      "dynamic_complexity": 4.48064374924,
+      "average_loudness": 0.356734037399,
+      "spectral_centroid_mean": 539.980407715,
+      "spectral_flux_mean": 0.0498144440353,
+      "spectral_rolloff_mean": 764.497253418,
+      "dissonance_mean": 0.387661665678,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
