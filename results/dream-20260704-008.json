@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "JAMBINAI",
+    "track": "ONDA",
+    "request_id": "dream-20260704-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f68cfeea-f045-4b65-9911-af9d2a14f75f",
+      "title": "온다 (ONDA)",
+      "artist": "Jambinai",
+      "duration_ms": 427000,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3a8ffeb7-5c78-48be-9848-4ee8ca710fc5",
+      "title": "그대가 지내온 아픔들이 빛나는 축복의 별이 되어 (ONDA Prelude)",
+      "artist": "Jambinai",
+      "duration_ms": 138000,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 80,
+      "local_match_score": 0.71
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jambinai",
+    "track": "ONDA",
+    "album": "ONDA",
+    "duration_ms": 427787,
+    "release_date": "2019-06-07T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3d/58/59/3d585962-23d8-dc69-41dd-42c1bcfd2e81/mzaf_3412854863821405251.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/onda/1457106540?i=1457106560&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 787
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/onda/1457106540?i=1457106560&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3d/58/59/3d585962-23d8-dc69-41dd-42c1bcfd2e81/mzaf_3412854863821405251.plus.aac.p.m4a",
+      "bytes": 1131407,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.02866,
+    "onset_rate_per_sec": 6.98318,
+    "dynamic_range_db_p95_p10": 3.706,
+    "crest_factor_db": 10.586,
+    "rms_mean": 0.17534,
+    "rms_std": 0.02547,
+    "spectral_centroid_hz_mean": 1051.13,
+    "spectral_centroid_hz_std": 321.57,
+    "spectral_bandwidth_hz_mean": 1770.85,
+    "spectral_rolloff_hz_mean": 2066.85,
+    "spectral_flatness_mean": 0.00207,
+    "spectral_contrast_mean": 18.5868,
+    "energy_share": {
+      "below_150_hz": 0.74947,
+      "150_to_2000_hz": 0.24552,
+      "above_2000_hz": 0.005
+    },
+    "percussive_share": 0.22744,
+    "tonal_entropy_bits": 3.43829,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 0.75572
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.18032,
+        "spectral_centroid_hz": 1019.11,
+        "onset_strength": 1.52732,
+        "spectral_flatness": 0.00185
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.17627,
+        "spectral_centroid_hz": 968.73,
+        "onset_strength": 1.5905,
+        "spectral_flatness": 0.00183
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.17071,
+        "spectral_centroid_hz": 1102.15,
+        "onset_strength": 1.58212,
+        "spectral_flatness": 0.00246
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.17791,
+        "spectral_centroid_hz": 962.26,
+        "onset_strength": 1.60247,
+        "spectral_flatness": 0.00184
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.17398,
+        "spectral_centroid_hz": 1085.8,
+        "onset_strength": 1.44326,
+        "spectral_flatness": 0.0022
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.18058,
+        "spectral_centroid_hz": 1092.47,
+        "onset_strength": 1.4403,
+        "spectral_flatness": 0.00216
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.16977,
+        "spectral_centroid_hz": 1074.34,
+        "onset_strength": 1.63939,
+        "spectral_flatness": 0.00228
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.17563,
+        "spectral_centroid_hz": 1053.15,
+        "onset_strength": 1.47595,
+        "spectral_flatness": 0.00186
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.17386,
+        "spectral_centroid_hz": 1092.17,
+        "onset_strength": 1.53681,
+        "spectral_flatness": 0.00248
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.17647,
+        "spectral_centroid_hz": 1112.11,
+        "onset_strength": 1.49425,
+        "spectral_flatness": 0.00215
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.17387,
+        "spectral_centroid_hz": 1045.48,
+        "onset_strength": 1.50899,
+        "spectral_flatness": 0.00168
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.1747,
+        "spectral_centroid_hz": 1004.87,
+        "onset_strength": 1.74072,
+        "spectral_flatness": 0.00204
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f68cfeea-f045-4b65-9911-af9d2a14f75f",
+      "title": "온다 (ONDA)",
+      "artist": "Jambinai",
+      "duration_ms": 427000,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f68cfeea-f045-4b65-9911-af9d2a14f75f",
+      "duration_sec": 427.787445068,
+      "sample_rate": 44100,
+      "tempo_bpm": 110.969360352,
+      "danceability": 1.1354995966,
+      "onset_rate": 3.2140853405,
+      "beats_count": 856,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0367958322167,
+      "dynamic_complexity": 2.09907412529,
+      "average_loudness": 0.970140218735,
+      "spectral_centroid_mean": 1011.34863281,
+      "spectral_flux_mean": 0.123047910631,
+      "spectral_rolloff_mean": 921.880493164,
+      "dissonance_mean": 0.466396123171,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
