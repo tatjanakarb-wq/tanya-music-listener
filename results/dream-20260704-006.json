@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "Dawn Chorus",
+    "request_id": "dream-20260704-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "abb8ed99-f5a4-4c34-acc9-032300ffa087",
+      "title": "Wingbeats Source VI: Dawn Chorus",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 481729,
+      "first_release_date": "2016-11-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.7238
+    },
+    {
+      "mbid": "c0cb9af1-f62f-4815-8d81-867d8686ac0e",
+      "title": "Sonic Woodland Dawn Chorus (excerpt)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 276427,
+      "first_release_date": "2022-07-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.7036
+    }
+  ],
+  "matched_recording": {
+    "artist": "Box Tree Orchestra",
+    "track": "Dawn Chorus",
+    "album": "Instrumental Inspirations of Cello",
+    "duration_ms": 253466,
+    "release_date": "2001-01-07T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/ee/e6/bc/eee6bc85-5b85-0984-9139-4064e55e2138/mzaf_7536276168183615592.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/dawn-chorus/593770392?i=593770395&uo=4",
+    "match_score": 0.8659,
+    "title_score": 1.0,
+    "artist_score": 0.6471,
+    "duration_difference_to_musicbrainz_ms": 22961
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/dawn-chorus/593770392?i=593770395&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/ee/e6/bc/eee6bc85-5b85-0984-9139-4064e55e2138/mzaf_7536276168183615592.plus.aac.p.m4a",
+      "bytes": 1046667,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.06586,
+    "onset_rate_per_sec": 2.90687,
+    "dynamic_range_db_p95_p10": 11.106,
+    "crest_factor_db": 16.835,
+    "rms_mean": 0.05283,
+    "rms_std": 0.02297,
+    "spectral_centroid_hz_mean": 2158.13,
+    "spectral_centroid_hz_std": 437.83,
+    "spectral_bandwidth_hz_mean": 2297.52,
+    "spectral_rolloff_hz_mean": 4529.5,
+    "spectral_flatness_mean": 0.00967,
+    "spectral_contrast_mean": 21.56096,
+    "energy_share": {
+      "below_150_hz": 0.48984,
+      "150_to_2000_hz": 0.44126,
+      "above_2000_hz": 0.0689
+    },
+    "percussive_share": 0.12952,
+    "tonal_entropy_bits": 3.04848,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.73463
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03913,
+        "spectral_centroid_hz": 2459.38,
+        "onset_strength": 0.90799,
+        "spectral_flatness": 0.01342
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02436,
+        "spectral_centroid_hz": 2482.24,
+        "onset_strength": 0.88859,
+        "spectral_flatness": 0.01962
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07662,
+        "spectral_centroid_hz": 1768.65,
+        "onset_strength": 0.91148,
+        "spectral_flatness": 0.00541
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04375,
+        "spectral_centroid_hz": 2335.69,
+        "onset_strength": 0.92258,
+        "spectral_flatness": 0.01543
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05864,
+        "spectral_centroid_hz": 2115.07,
+        "onset_strength": 0.89785,
+        "spectral_flatness": 0.00986
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05478,
+        "spectral_centroid_hz": 2338.84,
+        "onset_strength": 0.89177,
+        "spectral_flatness": 0.01152
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04207,
+        "spectral_centroid_hz": 2514.4,
+        "onset_strength": 0.94941,
+        "spectral_flatness": 0.01539
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05503,
+        "spectral_centroid_hz": 1863.7,
+        "onset_strength": 0.87786,
+        "spectral_flatness": 0.00368
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04255,
+        "spectral_centroid_hz": 2470.97,
+        "onset_strength": 1.04785,
+        "spectral_flatness": 0.00704
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07745,
+        "spectral_centroid_hz": 1502.38,
+        "onset_strength": 0.88483,
+        "spectral_flatness": 0.00225
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0423,
+        "spectral_centroid_hz": 2253.65,
+        "onset_strength": 0.89161,
+        "spectral_flatness": 0.00732
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07657,
+        "spectral_centroid_hz": 1808.75,
+        "onset_strength": 0.94419,
+        "spectral_flatness": 0.00534
+      }
+    ]
+  }
+}
