@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Max Cooper",
+    "track": "Perpetual Motion",
+    "request_id": "dream-20260704-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "94312a8e-c518-4355-8e80-b1cf56b61b72",
+      "title": "Perpetual Motion",
+      "artist": "Max Cooper",
+      "duration_ms": 305000,
+      "first_release_date": "2020-03-25",
+      "disambiguation": "part of “NO.SLEEP Mix.12” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5da0aae3-81c3-4863-80c9-4219a3976218",
+      "title": "Perpetual Motion",
+      "artist": "Max Cooper",
+      "duration_ms": 298000,
+      "first_release_date": "2019-08-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "fbeba126-a4c5-4401-87a3-fd21d83bfcdf",
+      "title": "Perpetual Motion (edit)",
+      "artist": "Max Cooper",
+      "duration_ms": 252000,
+      "first_release_date": "2019-08-01",
+      "disambiguation": "",
+      "musicbrainz_score": 93,
+      "local_match_score": 0.9216
+    },
+    {
+      "mbid": "82f507f2-8f3f-4528-a053-9dc123dac2e3",
+      "title": "Perpetual Motion (Live at the Acropolis)",
+      "artist": "Max Cooper",
+      "duration_ms": 332891,
+      "first_release_date": "2021-10-29",
+      "disambiguation": "",
+      "musicbrainz_score": 79,
+      "local_match_score": 0.7637
+    },
+    {
+      "mbid": "944510bc-6c3f-442b-8d7f-a48c13eba9df",
+      "title": "Perpetual Motion (Fort Romeau's Love Eternal Remix)",
+      "artist": "Max Cooper",
+      "duration_ms": 613179,
+      "first_release_date": "2021-08-12",
+      "disambiguation": "",
+      "musicbrainz_score": 76,
+      "local_match_score": 0.7055
+    }
+  ],
+  "matched_recording": {
+    "artist": "Max Cooper",
+    "track": "Perpetual Motion",
+    "album": "Yearning for the Infinite",
+    "duration_ms": 298987,
+    "release_date": "2019-08-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/56/fd/5e/56fd5ed5-b6d2-3593-b162-03f02d4e0f89/mzaf_515704518734124955.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/perpetual-motion/1472730148?i=1472730303&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 987
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/perpetual-motion/1472730148?i=1472730303&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/56/fd/5e/56fd5ed5-b6d2-3593-b162-03f02d4e0f89/mzaf_515704518734124955.plus.aac.p.m4a",
+      "bytes": 1131832,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.05229,
+    "onset_rate_per_sec": 7.01659,
+    "dynamic_range_db_p95_p10": 8.734,
+    "crest_factor_db": 9.398,
+    "rms_mean": 0.17675,
+    "rms_std": 0.05648,
+    "spectral_centroid_hz_mean": 1141.53,
+    "spectral_centroid_hz_std": 434.83,
+    "spectral_bandwidth_hz_mean": 1852.49,
+    "spectral_rolloff_hz_mean": 2167.05,
+    "spectral_flatness_mean": 0.00339,
+    "spectral_contrast_mean": 17.32473,
+    "energy_share": {
+      "below_150_hz": 0.67951,
+      "150_to_2000_hz": 0.3161,
+      "above_2000_hz": 0.00439
+    },
+    "percussive_share": 0.34868,
+    "tonal_entropy_bits": 3.48675,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 0.71596
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.18012,
+        "spectral_centroid_hz": 1177.28,
+        "onset_strength": 1.75015,
+        "spectral_flatness": 0.00364
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1917,
+        "spectral_centroid_hz": 1163.42,
+        "onset_strength": 1.68988,
+        "spectral_flatness": 0.00331
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.19169,
+        "spectral_centroid_hz": 1348.74,
+        "onset_strength": 1.34405,
+        "spectral_flatness": 0.00534
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.18606,
+        "spectral_centroid_hz": 1179.86,
+        "onset_strength": 1.58649,
+        "spectral_flatness": 0.00396
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.17928,
+        "spectral_centroid_hz": 1235.32,
+        "onset_strength": 1.70787,
+        "spectral_flatness": 0.00355
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.18505,
+        "spectral_centroid_hz": 1301.21,
+        "onset_strength": 1.51128,
+        "spectral_flatness": 0.00483
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.16793,
+        "spectral_centroid_hz": 1086.55,
+        "onset_strength": 2.06993,
+        "spectral_flatness": 0.00281
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.17063,
+        "spectral_centroid_hz": 1217.77,
+        "onset_strength": 2.11205,
+        "spectral_flatness": 0.00383
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16422,
+        "spectral_centroid_hz": 1180.15,
+        "onset_strength": 2.04847,
+        "spectral_flatness": 0.00369
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.16151,
+        "spectral_centroid_hz": 1082.53,
+        "onset_strength": 2.15843,
+        "spectral_flatness": 0.00323
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.18135,
+        "spectral_centroid_hz": 991.27,
+        "onset_strength": 1.62847,
+        "spectral_flatness": 0.00195
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.1617,
+        "spectral_centroid_hz": 735.09,
+        "onset_strength": 1.64691,
+        "spectral_flatness": 0.00054
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "5da0aae3-81c3-4863-80c9-4219a3976218",
+      "title": "Perpetual Motion",
+      "artist": "Max Cooper",
+      "duration_ms": 298000,
+      "first_release_date": "2019-08-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "5da0aae3-81c3-4863-80c9-4219a3976218",
+      "duration_sec": 299.023681641,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.004959106,
+      "danceability": 1.43606626987,
+      "onset_rate": 4.72849321365,
+      "beats_count": 613,
+      "key": "E",
+      "scale": "major",
+      "chords_changes_rate": 0.0445652157068,
+      "dynamic_complexity": 3.61802649498,
+      "average_loudness": 0.948616564274,
+      "spectral_centroid_mean": 491.769470215,
+      "spectral_flux_mean": 0.0942099690437,
+      "spectral_rolloff_mean": 528.077209473,
+      "dissonance_mean": 0.420934647322,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
