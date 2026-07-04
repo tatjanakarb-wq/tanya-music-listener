@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "These New Puritans",
+    "track": "Where Corals Lie",
+    "request_id": "dream-20260704-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "84a243d5-6bc4-4e51-8658-0c982c4f3207",
+      "title": "Drum Courts - Where Corals Lie",
+      "artist": "These New Puritans",
+      "duration_ms": 374413,
+      "first_release_date": "2010-01-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.8418
+    }
+  ],
+  "matched_recording": {
+    "artist": "These New Puritans",
+    "track": "Drum Courts–Where Corals Lie",
+    "album": "Hidden [MMXX]",
+    "duration_ms": 374413,
+    "release_date": "2010-01-18T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bc/cc/59/bccc5981-9b5c-e71e-53e6-c62aa685efe4/mzaf_16270864983533656289.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/drum-courts-where-corals-lie/1534731484?i=1534732155&uo=4",
+    "match_score": 0.8309,
+    "title_score": 0.7273,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/drum-courts-where-corals-lie/1534731484?i=1534732155&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bc/cc/59/bccc5981-9b5c-e71e-53e6-c62aa685efe4/mzaf_16270864983533656289.plus.aac.p.m4a",
+      "bytes": 1100308,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.03065,
+    "onset_rate_per_sec": 6.28152,
+    "dynamic_range_db_p95_p10": 9.1,
+    "crest_factor_db": 12.783,
+    "rms_mean": 0.11811,
+    "rms_std": 0.04735,
+    "spectral_centroid_hz_mean": 2107.64,
+    "spectral_centroid_hz_std": 836.79,
+    "spectral_bandwidth_hz_mean": 2495.08,
+    "spectral_rolloff_hz_mean": 4815.44,
+    "spectral_flatness_mean": 0.02482,
+    "spectral_contrast_mean": 16.75377,
+    "energy_share": {
+      "below_150_hz": 0.66661,
+      "150_to_2000_hz": 0.29438,
+      "above_2000_hz": 0.03901
+    },
+    "percussive_share": 0.32864,
+    "tonal_entropy_bits": 3.55221,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.00612
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10981,
+        "spectral_centroid_hz": 2301.46,
+        "onset_strength": 1.8799,
+        "spectral_flatness": 0.03053
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09095,
+        "spectral_centroid_hz": 1888.85,
+        "onset_strength": 2.24239,
+        "spectral_flatness": 0.01912
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10132,
+        "spectral_centroid_hz": 1940.73,
+        "onset_strength": 1.97929,
+        "spectral_flatness": 0.02229
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.1061,
+        "spectral_centroid_hz": 2085.54,
+        "onset_strength": 1.93105,
+        "spectral_flatness": 0.02608
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10675,
+        "spectral_centroid_hz": 2231.2,
+        "onset_strength": 2.00935,
+        "spectral_flatness": 0.0317
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12134,
+        "spectral_centroid_hz": 2247.66,
+        "onset_strength": 1.927,
+        "spectral_flatness": 0.02762
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.12667,
+        "spectral_centroid_hz": 2221.42,
+        "onset_strength": 1.78447,
+        "spectral_flatness": 0.02476
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12387,
+        "spectral_centroid_hz": 2156.88,
+        "onset_strength": 1.79101,
+        "spectral_flatness": 0.02731
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12775,
+        "spectral_centroid_hz": 1889.61,
+        "onset_strength": 1.82598,
+        "spectral_flatness": 0.02067
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13678,
+        "spectral_centroid_hz": 2206.89,
+        "onset_strength": 2.0003,
+        "spectral_flatness": 0.02603
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12795,
+        "spectral_centroid_hz": 1937.96,
+        "onset_strength": 1.95477,
+        "spectral_flatness": 0.02175
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13784,
+        "spectral_centroid_hz": 2181.75,
+        "onset_strength": 1.84987,
+        "spectral_flatness": 0.01993
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "84a243d5-6bc4-4e51-8658-0c982c4f3207",
+      "title": "Drum Courts - Where Corals Lie",
+      "artist": "These New Puritans",
+      "duration_ms": 374413,
+      "first_release_date": "2010-01-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.8418
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "84a243d5-6bc4-4e51-8658-0c982c4f3207",
+      "duration_sec": 375.457946777,
+      "sample_rate": 44100,
+      "tempo_bpm": 154.756958008,
+      "danceability": 1.04299175739,
+      "onset_rate": 4.33314037323,
+      "beats_count": 896,
+      "key": "B",
+      "scale": "minor",
+      "chords_changes_rate": 0.0891664624214,
+      "dynamic_complexity": 3.84122991562,
+      "average_loudness": 0.784781396389,
+      "spectral_centroid_mean": 901.86932373,
+      "spectral_flux_mean": 0.0951145589352,
+      "spectral_rolloff_mean": 802.472167969,
+      "dissonance_mean": 0.437557369471,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
