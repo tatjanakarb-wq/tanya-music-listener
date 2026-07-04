@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Hania Rani",
+    "track": "Glass",
+    "request_id": "newchat-ear-test-20260704-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e0d97825-d4e7-4291-b041-fc118b62ed1e",
+      "title": "Glass",
+      "artist": "Hania Rani",
+      "duration_ms": 270000,
+      "first_release_date": "2019-03-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "1ab46e6a-bfb9-4cb0-91fc-2205564361bd",
+      "title": "Glass",
+      "artist": "Hania Rani",
+      "duration_ms": 423524,
+      "first_release_date": "2022-01-21",
+      "disambiguation": "live, 2021-02-04: Studio S2, Warsaw, Poland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e35e3ec9-e7eb-4ad0-9044-5cc6c52b3571",
+      "title": "Glass",
+      "artist": "Hania Rani",
+      "duration_ms": 270720,
+      "first_release_date": "2019-04-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "07e9dabd-5480-4695-856d-58603a8becdf",
+      "title": "Letter to Glass",
+      "artist": "Hania Rani",
+      "duration_ms": 212013,
+      "first_release_date": "2020-05-29",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.71
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hania Rani",
+    "track": "Glass",
+    "album": "Esja",
+    "duration_ms": 270720,
+    "release_date": "2019-02-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/2d/fd/d92dfdeb-b1d8-e171-700c-ac4612b6bb03/mzaf_12911405617148631259.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/glass/1578451491?i=1578451932&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/glass/1578451491?i=1578451932&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/2d/fd/d92dfdeb-b1d8-e171-700c-ac4612b6bb03/mzaf_12911405617148631259.plus.aac.p.m4a",
+      "bytes": 1029828,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.06268,
+    "onset_rate_per_sec": 7.55119,
+    "dynamic_range_db_p95_p10": 5.023,
+    "crest_factor_db": 12.324,
+    "rms_mean": 0.04803,
+    "rms_std": 0.00969,
+    "spectral_centroid_hz_mean": 619.73,
+    "spectral_centroid_hz_std": 84.12,
+    "spectral_bandwidth_hz_mean": 876.8,
+    "spectral_rolloff_hz_mean": 852.94,
+    "spectral_flatness_mean": 7e-05,
+    "spectral_contrast_mean": 23.75891,
+    "energy_share": {
+      "below_150_hz": 0.07209,
+      "150_to_2000_hz": 0.92728,
+      "above_2000_hz": 0.00063
+    },
+    "percussive_share": 0.12812,
+    "tonal_entropy_bits": 3.17684,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.22,
+      "relative_score": 1.39917
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03911,
+        "spectral_centroid_hz": 730.86,
+        "onset_strength": 0.98325,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04513,
+        "spectral_centroid_hz": 652.81,
+        "onset_strength": 1.00918,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04651,
+        "spectral_centroid_hz": 674.56,
+        "onset_strength": 1.07767,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04351,
+        "spectral_centroid_hz": 585.48,
+        "onset_strength": 0.99984,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05622,
+        "spectral_centroid_hz": 651.06,
+        "onset_strength": 1.07549,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04604,
+        "spectral_centroid_hz": 576.82,
+        "onset_strength": 0.90991,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05007,
+        "spectral_centroid_hz": 580.44,
+        "onset_strength": 0.94044,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05267,
+        "spectral_centroid_hz": 551.29,
+        "onset_strength": 0.93147,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05354,
+        "spectral_centroid_hz": 626.26,
+        "onset_strength": 0.99376,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05417,
+        "spectral_centroid_hz": 594.52,
+        "onset_strength": 0.87416,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04366,
+        "spectral_centroid_hz": 586.09,
+        "onset_strength": 0.97654,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04562,
+        "spectral_centroid_hz": 626.63,
+        "onset_strength": 1.05077,
+        "spectral_flatness": 8e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "1ab46e6a-bfb9-4cb0-91fc-2205564361bd",
+      "title": "Glass",
+      "artist": "Hania Rani",
+      "duration_ms": 423524,
+      "first_release_date": "2022-01-21",
+      "disambiguation": "live, 2021-02-04: Studio S2, Warsaw, Poland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "1ab46e6a-bfb9-4cb0-91fc-2205564361bd",
+      "duration_sec": 423.524108887,
+      "sample_rate": 96000,
+      "tempo_bpm": 112.908073425,
+      "danceability": 0.848394572735,
+      "onset_rate": 3.33377742767,
+      "beats_count": 828,
+      "key": "C#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0246683470905,
+      "dynamic_complexity": 6.89331626892,
+      "average_loudness": 0.124850429595,
+      "spectral_centroid_mean": 343.945159912,
+      "spectral_flux_mean": 0.0410619340837,
+      "spectral_rolloff_mean": 344.264343262,
+      "dissonance_mean": 0.311744600534,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
