@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Kora",
+    "request_id": "dream-20260704-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f9df9cf3-1140-4c6c-891f-611e2c06a93c",
+      "title": "Kora",
+      "artist": "GoGo Penguin",
+      "duration_ms": 341000,
+      "first_release_date": "2020-11-27",
+      "disambiguation": "2020 live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "a2c11866-9faa-491a-a92c-8b7e4beeb722",
+      "title": "Kora",
+      "artist": "GoGo Penguin",
+      "duration_ms": 335000,
+      "first_release_date": "2020-06-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0d00901c-b95b-477d-bac4-c1600cee6c66",
+      "title": "Kora (Cornelius remix)",
+      "artist": "GoGo Penguin",
+      "duration_ms": 260026,
+      "first_release_date": "2021-05-07",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.6133
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Kora",
+    "album": "GoGo Penguin",
+    "duration_ms": 335002,
+    "release_date": "2020-06-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/01/a5/b701a56d-db08-4e26-c975-1d6ce42a2b08/mzaf_14295247908281073438.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/kora/1499870154?i=1499870350&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 2
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/kora/1499870154?i=1499870350&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/01/a5/b701a56d-db08-4e26-c975-1d6ce42a2b08/mzaf_14295247908281073438.plus.aac.p.m4a",
+      "bytes": 1042994,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.06851,
+    "onset_rate_per_sec": 6.01422,
+    "dynamic_range_db_p95_p10": 9.924,
+    "crest_factor_db": 12.219,
+    "rms_mean": 0.13233,
+    "rms_std": 0.05296,
+    "spectral_centroid_hz_mean": 1389.03,
+    "spectral_centroid_hz_std": 427.59,
+    "spectral_bandwidth_hz_mean": 2093.47,
+    "spectral_rolloff_hz_mean": 3051.62,
+    "spectral_flatness_mean": 0.00552,
+    "spectral_contrast_mean": 17.40775,
+    "energy_share": {
+      "below_150_hz": 0.74511,
+      "150_to_2000_hz": 0.24762,
+      "above_2000_hz": 0.00727
+    },
+    "percussive_share": 0.34915,
+    "tonal_entropy_bits": 3.55756,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.92173
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13226,
+        "spectral_centroid_hz": 1171.66,
+        "onset_strength": 1.5496,
+        "spectral_flatness": 0.00324
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11715,
+        "spectral_centroid_hz": 1324.14,
+        "onset_strength": 1.59359,
+        "spectral_flatness": 0.005
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12696,
+        "spectral_centroid_hz": 1216.63,
+        "onset_strength": 1.53278,
+        "spectral_flatness": 0.00352
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.1149,
+        "spectral_centroid_hz": 1426.19,
+        "onset_strength": 1.56589,
+        "spectral_flatness": 0.00618
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12253,
+        "spectral_centroid_hz": 1555.28,
+        "onset_strength": 1.47415,
+        "spectral_flatness": 0.00673
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.14532,
+        "spectral_centroid_hz": 1415.87,
+        "onset_strength": 1.25389,
+        "spectral_flatness": 0.00463
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.16401,
+        "spectral_centroid_hz": 1308.88,
+        "onset_strength": 1.29208,
+        "spectral_flatness": 0.00423
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14811,
+        "spectral_centroid_hz": 1280.97,
+        "onset_strength": 1.21717,
+        "spectral_flatness": 0.00345
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11568,
+        "spectral_centroid_hz": 1465.49,
+        "onset_strength": 1.17385,
+        "spectral_flatness": 0.00745
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13103,
+        "spectral_centroid_hz": 1531.32,
+        "onset_strength": 1.37929,
+        "spectral_flatness": 0.00796
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12315,
+        "spectral_centroid_hz": 1539.49,
+        "onset_strength": 1.12081,
+        "spectral_flatness": 0.00716
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.14668,
+        "spectral_centroid_hz": 1431.8,
+        "onset_strength": 1.28111,
+        "spectral_flatness": 0.00672
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f9df9cf3-1140-4c6c-891f-611e2c06a93c",
+      "title": "Kora",
+      "artist": "GoGo Penguin",
+      "duration_ms": 341000,
+      "first_release_date": "2020-11-27",
+      "disambiguation": "2020 live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f9df9cf3-1140-4c6c-891f-611e2c06a93c",
+      "duration_sec": 341.707763672,
+      "sample_rate": 44100,
+      "tempo_bpm": 129.680343628,
+      "danceability": 1.09728336334,
+      "onset_rate": 4.08511924744,
+      "beats_count": 756,
+      "key": "C",
+      "scale": "minor",
+      "chords_changes_rate": 0.0489130429924,
+      "dynamic_complexity": 3.17993736267,
+      "average_loudness": 0.544807136059,
+      "spectral_centroid_mean": 760.450012207,
+      "spectral_flux_mean": 0.0953164175153,
+      "spectral_rolloff_mean": 766.514770508,
+      "dissonance_mean": 0.437365978956,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
