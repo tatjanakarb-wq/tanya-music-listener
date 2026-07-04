@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Gidge",
+    "track": "Norrland",
+    "request_id": "dream-20260704-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "cf2fa6e0-a5ef-41d5-91b4-3f4a80b2c6af",
+      "title": "Norrland",
+      "artist": "Gidge",
+      "duration_ms": 483492,
+      "first_release_date": "2014-09-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3243fe68-26b7-4614-b1b8-8cf97a502b27",
+      "title": "Norrland",
+      "artist": "Gidge",
+      "duration_ms": 453000,
+      "first_release_date": "2016-08-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "591562d1-6ede-4bf9-ba1c-8c7a84b751e5",
+      "title": "Norrland",
+      "artist": "Gidge",
+      "duration_ms": 483000,
+      "first_release_date": "2018-07-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "46d4dfcf-51c5-4cf2-9fca-acf31583da60",
+      "title": "Norrland",
+      "artist": "Gidge",
+      "duration_ms": 394866,
+      "first_release_date": "2018-07-20",
+      "disambiguation": "part of “Le café abstrait, Vol. 12” DJ-mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Gidge",
+    "track": "Norrland",
+    "album": "Autumn Bells",
+    "duration_ms": 484682,
+    "release_date": "2014-09-19T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/11/b5/c811b54a-d5d5-9aec-48a6-125bf3724860/mzaf_2303085263847508425.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/norrland/916385589?i=916385696&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1190
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/norrland/916385589?i=916385696&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/11/b5/c811b54a-d5d5-9aec-48a6-125bf3724860/mzaf_2303085263847508425.plus.aac.p.m4a",
+      "bytes": 1077351,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.01493,
+    "onset_rate_per_sec": 5.84716,
+    "dynamic_range_db_p95_p10": 7.133,
+    "crest_factor_db": 12.366,
+    "rms_mean": 0.12275,
+    "rms_std": 0.03311,
+    "spectral_centroid_hz_mean": 812.2,
+    "spectral_centroid_hz_std": 331.23,
+    "spectral_bandwidth_hz_mean": 1220.64,
+    "spectral_rolloff_hz_mean": 1619.45,
+    "spectral_flatness_mean": 0.00064,
+    "spectral_contrast_mean": 20.80745,
+    "energy_share": {
+      "below_150_hz": 0.79156,
+      "150_to_2000_hz": 0.20246,
+      "above_2000_hz": 0.00598
+    },
+    "percussive_share": 0.2172,
+    "tonal_entropy_bits": 3.35001,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.70003
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06977,
+        "spectral_centroid_hz": 815.01,
+        "onset_strength": 1.4503,
+        "spectral_flatness": 0.00069
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09655,
+        "spectral_centroid_hz": 872.03,
+        "onset_strength": 1.44458,
+        "spectral_flatness": 0.00045
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09427,
+        "spectral_centroid_hz": 799.43,
+        "onset_strength": 1.67443,
+        "spectral_flatness": 0.00078
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11143,
+        "spectral_centroid_hz": 734.76,
+        "onset_strength": 1.64566,
+        "spectral_flatness": 0.00083
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12617,
+        "spectral_centroid_hz": 899.7,
+        "onset_strength": 1.6276,
+        "spectral_flatness": 0.00076
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1472,
+        "spectral_centroid_hz": 859.42,
+        "onset_strength": 1.53557,
+        "spectral_flatness": 0.00054
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14452,
+        "spectral_centroid_hz": 768.15,
+        "onset_strength": 1.63296,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13817,
+        "spectral_centroid_hz": 775.34,
+        "onset_strength": 1.81257,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14056,
+        "spectral_centroid_hz": 781.68,
+        "onset_strength": 1.60844,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13504,
+        "spectral_centroid_hz": 773.27,
+        "onset_strength": 1.64695,
+        "spectral_flatness": 0.0007
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13014,
+        "spectral_centroid_hz": 755.05,
+        "onset_strength": 1.73842,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13904,
+        "spectral_centroid_hz": 911.63,
+        "onset_strength": 1.45665,
+        "spectral_flatness": 0.00058
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "cf2fa6e0-a5ef-41d5-91b4-3f4a80b2c6af",
+      "title": "Norrland",
+      "artist": "Gidge",
+      "duration_ms": 483492,
+      "first_release_date": "2014-09-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "cf2fa6e0-a5ef-41d5-91b4-3f4a80b2c6af",
+      "duration_sec": 483.526519775,
+      "sample_rate": 44100,
+      "tempo_bpm": 112.130363464,
+      "danceability": 1.0144919157,
+      "onset_rate": 3.26133751869,
+      "beats_count": 951,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.0387016236782,
+      "dynamic_complexity": 7.83629131317,
+      "average_loudness": 0.132527858019,
+      "spectral_centroid_mean": 596.568237305,
+      "spectral_flux_mean": 0.0623254850507,
+      "spectral_rolloff_mean": 737.032714844,
+      "dissonance_mean": 0.40080177784,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
