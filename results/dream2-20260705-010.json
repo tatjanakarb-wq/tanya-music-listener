@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Lithuania",
+    "request_id": "dream2-20260705-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "68b4f318-b4b2-4ae0-878a-5cc1054a6d62",
+      "title": "Lithuania",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 517613,
+      "first_release_date": "2001-05-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "cdbd57fe-1132-4c0b-b553-6aece699609d",
+      "title": "Lithuania",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 518120,
+      "first_release_date": "2008-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e1a87462-49de-405b-a9b5-d8fc0e1196b3",
+      "title": "Lithuania",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 515000,
+      "first_release_date": "2003-05-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c78177ef-1fba-4c72-bf80-725f17bb97af",
+      "title": "Lithuania (Martin Horntveth remix)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 223053,
+      "first_release_date": "2002-12-17",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.6746
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Lithuania",
+    "album": "A Living Room Hush",
+    "duration_ms": 518120,
+    "release_date": "1994-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/64/6c/b1646cdf-f7b2-bcb5-2912-b996f5256fc7/mzaf_16580998776550302523.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/lithuania/416345894?i=416345969&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/lithuania/416345894?i=416345969&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/64/6c/b1646cdf-f7b2-bcb5-2912-b996f5256fc7/mzaf_16580998776550302523.plus.aac.p.m4a",
+      "bytes": 1146920,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02248,
+    "onset_rate_per_sec": 4.51066,
+    "dynamic_range_db_p95_p10": 51.86,
+    "crest_factor_db": 16.78,
+    "rms_mean": 0.02928,
+    "rms_std": 0.0229,
+    "spectral_centroid_hz_mean": 1426.06,
+    "spectral_centroid_hz_std": 814.64,
+    "spectral_bandwidth_hz_mean": 1989.94,
+    "spectral_rolloff_hz_mean": 3265.07,
+    "spectral_flatness_mean": 0.00698,
+    "spectral_contrast_mean": 19.25465,
+    "energy_share": {
+      "below_150_hz": 0.56262,
+      "150_to_2000_hz": 0.43479,
+      "above_2000_hz": 0.00259
+    },
+    "percussive_share": 0.16414,
+    "tonal_entropy_bits": 3.4586,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.02941
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00932,
+        "spectral_centroid_hz": 1528.42,
+        "onset_strength": 0.89876,
+        "spectral_flatness": 0.01715
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01308,
+        "spectral_centroid_hz": 1135.37,
+        "onset_strength": 1.09343,
+        "spectral_flatness": 0.00818
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01512,
+        "spectral_centroid_hz": 1120.18,
+        "onset_strength": 1.03389,
+        "spectral_flatness": 0.0079
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.01252,
+        "spectral_centroid_hz": 1395.9,
+        "onset_strength": 0.87727,
+        "spectral_flatness": 0.0123
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.01194,
+        "spectral_centroid_hz": 1245.03,
+        "onset_strength": 1.09511,
+        "spectral_flatness": 0.01005
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.01399,
+        "spectral_centroid_hz": 1129.43,
+        "onset_strength": 1.1611,
+        "spectral_flatness": 0.00763
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0395,
+        "spectral_centroid_hz": 1614.91,
+        "onset_strength": 1.28013,
+        "spectral_flatness": 0.01161
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04527,
+        "spectral_centroid_hz": 1722.81,
+        "onset_strength": 1.13964,
+        "spectral_flatness": 0.00191
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04535,
+        "spectral_centroid_hz": 1598.5,
+        "onset_strength": 1.20975,
+        "spectral_flatness": 0.0019
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05417,
+        "spectral_centroid_hz": 1376.53,
+        "onset_strength": 1.23594,
+        "spectral_flatness": 0.00125
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0445,
+        "spectral_centroid_hz": 1554.23,
+        "onset_strength": 1.2197,
+        "spectral_flatness": 0.00176
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04635,
+        "spectral_centroid_hz": 1691.23,
+        "onset_strength": 1.23757,
+        "spectral_flatness": 0.00228
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "68b4f318-b4b2-4ae0-878a-5cc1054a6d62",
+      "title": "Lithuania",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 517613,
+      "first_release_date": "2001-05-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "68b4f318-b4b2-4ae0-878a-5cc1054a6d62",
+      "duration_sec": 517.616333008,
+      "sample_rate": 44100,
+      "tempo_bpm": 122.145584106,
+      "danceability": 1.08565163612,
+      "onset_rate": 3.28226184845,
+      "beats_count": 1098,
+      "key": "F#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0727550014853,
+      "dynamic_complexity": 5.08457946777,
+      "average_loudness": 0.0473556369543,
+      "spectral_centroid_mean": 824.015441895,
+      "spectral_flux_mean": 0.105964742601,
+      "spectral_rolloff_mean": 7164.90087891,
+      "dissonance_mean": 0.455874294043,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
