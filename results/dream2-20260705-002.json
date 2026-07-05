@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Arooj Aftab",
+    "track": "Last Night",
+    "request_id": "dream2-20260705-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "0bf39e63-31d1-4ea8-91d6-1a876d728014",
+      "title": "Last Night",
+      "artist": "Arooj Aftab",
+      "duration_ms": 358601,
+      "first_release_date": "2021-04-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c29a6def-6349-4a7e-a48a-483b6db115a9",
+      "title": "Last Night Reprise",
+      "artist": "Arooj Aftab Cautious Clay Kaki King Maeve Gilchrist",
+      "duration_ms": 307888,
+      "first_release_date": "2024-05-31",
+      "disambiguation": "",
+      "musicbrainz_score": 56,
+      "local_match_score": 0.5633
+    }
+  ],
+  "matched_recording": {
+    "artist": "Arooj Aftab",
+    "track": "Last Night",
+    "album": "Vulture Prince (Deluxe Edition)",
+    "duration_ms": 358601,
+    "release_date": "2021-03-26T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/35/ff/4435ff68-2360-99a2-f52b-3861e880c012/mzaf_16538679824733311799.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/last-night/1613561221?i=1613561426&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/last-night/1613561221?i=1613561426&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/35/ff/4435ff68-2360-99a2-f52b-3861e880c012/mzaf_16538679824733311799.plus.aac.p.m4a",
+      "bytes": 988536,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0305,
+    "onset_rate_per_sec": 3.33606,
+    "dynamic_range_db_p95_p10": 15.202,
+    "crest_factor_db": 14.124,
+    "rms_mean": 0.10264,
+    "rms_std": 0.05709,
+    "spectral_centroid_hz_mean": 1999.5,
+    "spectral_centroid_hz_std": 969.73,
+    "spectral_bandwidth_hz_mean": 2481.7,
+    "spectral_rolloff_hz_mean": 4476.67,
+    "spectral_flatness_mean": 0.02099,
+    "spectral_contrast_mean": 17.48454,
+    "energy_share": {
+      "below_150_hz": 0.71984,
+      "150_to_2000_hz": 0.25394,
+      "above_2000_hz": 0.02622
+    },
+    "percussive_share": 0.31167,
+    "tonal_entropy_bits": 3.55261,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 0.84472
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09304,
+        "spectral_centroid_hz": 1803.05,
+        "onset_strength": 1.30632,
+        "spectral_flatness": 0.00535
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.10445,
+        "spectral_centroid_hz": 2607.06,
+        "onset_strength": 1.38918,
+        "spectral_flatness": 0.02994
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08639,
+        "spectral_centroid_hz": 1875.19,
+        "onset_strength": 1.3911,
+        "spectral_flatness": 0.01467
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.11822,
+        "spectral_centroid_hz": 2070.99,
+        "onset_strength": 1.50471,
+        "spectral_flatness": 0.02959
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.08433,
+        "spectral_centroid_hz": 1972.85,
+        "onset_strength": 1.72444,
+        "spectral_flatness": 0.02309
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.10204,
+        "spectral_centroid_hz": 1994.23,
+        "onset_strength": 1.81879,
+        "spectral_flatness": 0.02052
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.11044,
+        "spectral_centroid_hz": 1896.32,
+        "onset_strength": 1.54491,
+        "spectral_flatness": 0.02553
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.09762,
+        "spectral_centroid_hz": 1923.58,
+        "onset_strength": 1.80694,
+        "spectral_flatness": 0.01526
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.10881,
+        "spectral_centroid_hz": 1977.9,
+        "onset_strength": 1.69624,
+        "spectral_flatness": 0.01394
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10057,
+        "spectral_centroid_hz": 2212.37,
+        "onset_strength": 1.74915,
+        "spectral_flatness": 0.0443
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.10516,
+        "spectral_centroid_hz": 1904.57,
+        "onset_strength": 1.81809,
+        "spectral_flatness": 0.01915
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1201,
+        "spectral_centroid_hz": 1753.98,
+        "onset_strength": 1.74929,
+        "spectral_flatness": 0.01046
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "0bf39e63-31d1-4ea8-91d6-1a876d728014",
+      "title": "Last Night",
+      "artist": "Arooj Aftab",
+      "duration_ms": 358601,
+      "first_release_date": "2021-04-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "0bf39e63-31d1-4ea8-91d6-1a876d728014",
+      "duration_sec": 354.063659668,
+      "sample_rate": 44100,
+      "tempo_bpm": 122.66217041,
+      "danceability": 1.16795098782,
+      "onset_rate": 3.30432796478,
+      "beats_count": 713,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.058484133333,
+      "dynamic_complexity": 6.92494726181,
+      "average_loudness": 0.306179821491,
+      "spectral_centroid_mean": 863.427734375,
+      "spectral_flux_mean": 0.0651676207781,
+      "spectral_rolloff_mean": 777.64630127,
+      "dissonance_mean": 0.437854111195,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
