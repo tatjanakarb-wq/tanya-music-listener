@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "Vorka",
+    "request_id": "dream2-20260705-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "cba5900c-7501-40c2-a72c-91c87c64e6cd",
+      "title": "Vorka",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 321066,
+      "first_release_date": "2012-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "be433e4e-5347-4a27-ab74-8f185c3fb313",
+      "title": "Vorka",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 306520,
+      "first_release_date": "2013-07-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7f13e0d3-4017-4512-8463-ec7bda3876c6",
+      "title": "Vorka",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 321066,
+      "first_release_date": "2012-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6fac2bcb-dfc7-4bf1-9dd0-1f246e43815b",
+      "title": "Vorka (DC Breaks mix)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 338683,
+      "first_release_date": "2013-01-01",
+      "disambiguation": "",
+      "musicbrainz_score": 80,
+      "local_match_score": 0.6617
+    },
+    {
+      "mbid": "0a0d6669-ef1e-4862-a349-37c3d72dd079",
+      "title": "Vorka (DC Breaks remix)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 338694,
+      "first_release_date": "2022-02-11",
+      "disambiguation": "",
+      "musicbrainz_score": 80,
+      "local_match_score": 0.6431
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hidden Orchestra",
+    "track": "Vorka",
+    "album": "Archipelago",
+    "duration_ms": 321067,
+    "release_date": "2012-09-10T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f0/19/fc/f019fcf9-7295-366c-4006-947a84da1c77/mzaf_9490631476760621738.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/vorka/1368925225?i=1368925459&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/vorka/1368925225?i=1368925459&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f0/19/fc/f019fcf9-7295-366c-4006-947a84da1c77/mzaf_9490631476760621738.plus.aac.p.m4a",
+      "bytes": 1208571,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.0542,
+    "onset_rate_per_sec": 5.98081,
+    "dynamic_range_db_p95_p10": 13.057,
+    "crest_factor_db": 15.421,
+    "rms_mean": 0.04896,
+    "rms_std": 0.02137,
+    "spectral_centroid_hz_mean": 2046.43,
+    "spectral_centroid_hz_std": 745.28,
+    "spectral_bandwidth_hz_mean": 2673.95,
+    "spectral_rolloff_hz_mean": 4847.37,
+    "spectral_flatness_mean": 0.01917,
+    "spectral_contrast_mean": 17.76262,
+    "energy_share": {
+      "below_150_hz": 0.42821,
+      "150_to_2000_hz": 0.5376,
+      "above_2000_hz": 0.0342
+    },
+    "percussive_share": 0.22296,
+    "tonal_entropy_bits": 3.42296,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.23501
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04004,
+        "spectral_centroid_hz": 797.36,
+        "onset_strength": 0.87378,
+        "spectral_flatness": 0.00056
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04029,
+        "spectral_centroid_hz": 1146.59,
+        "onset_strength": 0.89803,
+        "spectral_flatness": 0.00175
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05246,
+        "spectral_centroid_hz": 1384.75,
+        "onset_strength": 0.91278,
+        "spectral_flatness": 0.00228
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05077,
+        "spectral_centroid_hz": 1682.03,
+        "onset_strength": 0.9152,
+        "spectral_flatness": 0.004
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.02291,
+        "spectral_centroid_hz": 2193.18,
+        "onset_strength": 0.85771,
+        "spectral_flatness": 0.01267
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.01802,
+        "spectral_centroid_hz": 2794.56,
+        "onset_strength": 0.95857,
+        "spectral_flatness": 0.02887
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04796,
+        "spectral_centroid_hz": 2492.75,
+        "onset_strength": 0.98528,
+        "spectral_flatness": 0.02538
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.0585,
+        "spectral_centroid_hz": 2443.72,
+        "onset_strength": 1.00387,
+        "spectral_flatness": 0.0202
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05934,
+        "spectral_centroid_hz": 2470.5,
+        "onset_strength": 0.95596,
+        "spectral_flatness": 0.0308
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06181,
+        "spectral_centroid_hz": 2269.48,
+        "onset_strength": 0.96303,
+        "spectral_flatness": 0.02862
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06715,
+        "spectral_centroid_hz": 2281.87,
+        "onset_strength": 0.99265,
+        "spectral_flatness": 0.03298
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06813,
+        "spectral_centroid_hz": 2594.3,
+        "onset_strength": 1.01982,
+        "spectral_flatness": 0.04185
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "cba5900c-7501-40c2-a72c-91c87c64e6cd",
+      "title": "Vorka",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 321066,
+      "first_release_date": "2012-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "cba5900c-7501-40c2-a72c-91c87c64e6cd",
+      "duration_sec": 321.097137451,
+      "sample_rate": 44100,
+      "tempo_bpm": 172.265213013,
+      "danceability": 1.26821732521,
+      "onset_rate": 4.92356538773,
+      "beats_count": 829,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0454019680619,
+      "dynamic_complexity": 4.04598855972,
+      "average_loudness": 0.782933175564,
+      "spectral_centroid_mean": 1041.97290039,
+      "spectral_flux_mean": 0.0945286601782,
+      "spectral_rolloff_mean": 1126.9074707,
+      "dissonance_mean": 0.456987917423,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
