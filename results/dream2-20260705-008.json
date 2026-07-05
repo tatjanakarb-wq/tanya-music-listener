@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Nihiloxica",
+    "track": "Tewali Sukali",
+    "request_id": "dream2-20260705-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "fee608bf-fafe-4f1f-9067-acf09c30d147",
+      "title": "Tewali Sukali",
+      "artist": "Nihiloxica",
+      "duration_ms": 364520,
+      "first_release_date": "2020-06",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "53657e0f-51ce-434a-b21e-4e9ccfa8497b",
+      "title": "Tewali Sukali",
+      "artist": "Nihiloxica",
+      "duration_ms": 357000,
+      "first_release_date": "2020-06-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8d5829c1-9ee7-4726-8288-3e2bef481132",
+      "title": "Tewali Sukali (Giant Swan remix)",
+      "artist": "Nihiloxica",
+      "duration_ms": 275509,
+      "first_release_date": "2021-10-08",
+      "disambiguation": "",
+      "musicbrainz_score": 80,
+      "local_match_score": 0.7707
+    }
+  ],
+  "matched_recording": {
+    "artist": "Nihiloxica",
+    "track": "Tewali Sukali",
+    "album": "Kaloli",
+    "duration_ms": 357640,
+    "release_date": "2020-03-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/62/72/38/62723848-fe42-4697-1829-219e3de957e9/mzaf_17556744203158414625.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/tewali-sukali/1516684257?i=1516684260&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 640
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/tewali-sukali/1516684257?i=1516684260&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/62/72/38/62723848-fe42-4697-1829-219e3de957e9/mzaf_17556744203158414625.plus.aac.p.m4a",
+      "bytes": 1035522,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.09096,
+    "onset_rate_per_sec": 5.61327,
+    "dynamic_range_db_p95_p10": 8.38,
+    "crest_factor_db": 11.494,
+    "rms_mean": 0.15463,
+    "rms_std": 0.05165,
+    "spectral_centroid_hz_mean": 1618.91,
+    "spectral_centroid_hz_std": 657.51,
+    "spectral_bandwidth_hz_mean": 2303.01,
+    "spectral_rolloff_hz_mean": 3863.91,
+    "spectral_flatness_mean": 0.00975,
+    "spectral_contrast_mean": 17.4763,
+    "energy_share": {
+      "below_150_hz": 0.56481,
+      "150_to_2000_hz": 0.42125,
+      "above_2000_hz": 0.01394
+    },
+    "percussive_share": 0.37376,
+    "tonal_entropy_bits": 3.53873,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 0.62777
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.18018,
+        "spectral_centroid_hz": 1556.6,
+        "onset_strength": 1.8277,
+        "spectral_flatness": 0.00793
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.14312,
+        "spectral_centroid_hz": 1583.58,
+        "onset_strength": 2.53248,
+        "spectral_flatness": 0.01037
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14523,
+        "spectral_centroid_hz": 1664.76,
+        "onset_strength": 2.31304,
+        "spectral_flatness": 0.01023
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.15533,
+        "spectral_centroid_hz": 1531.47,
+        "onset_strength": 1.87331,
+        "spectral_flatness": 0.00958
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.14116,
+        "spectral_centroid_hz": 1608.36,
+        "onset_strength": 2.55066,
+        "spectral_flatness": 0.01025
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.13891,
+        "spectral_centroid_hz": 1709.78,
+        "onset_strength": 2.5562,
+        "spectral_flatness": 0.01035
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.15485,
+        "spectral_centroid_hz": 1741.53,
+        "onset_strength": 1.82762,
+        "spectral_flatness": 0.00957
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.15681,
+        "spectral_centroid_hz": 1514.33,
+        "onset_strength": 2.37578,
+        "spectral_flatness": 0.00956
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14294,
+        "spectral_centroid_hz": 1761.53,
+        "onset_strength": 2.19413,
+        "spectral_flatness": 0.01361
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.16879,
+        "spectral_centroid_hz": 1691.24,
+        "onset_strength": 1.65649,
+        "spectral_flatness": 0.00903
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.17964,
+        "spectral_centroid_hz": 1498.39,
+        "onset_strength": 1.75084,
+        "spectral_flatness": 0.00687
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.14868,
+        "spectral_centroid_hz": 1565.84,
+        "onset_strength": 2.24054,
+        "spectral_flatness": 0.00966
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "53657e0f-51ce-434a-b21e-4e9ccfa8497b",
+      "title": "Tewali Sukali",
+      "artist": "Nihiloxica",
+      "duration_ms": 357000,
+      "first_release_date": "2020-06-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "53657e0f-51ce-434a-b21e-4e9ccfa8497b",
+      "duration_sec": 357.668579102,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.950012207,
+      "danceability": 1.29938566685,
+      "onset_rate": 4.76403236389,
+      "beats_count": 720,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0710112974048,
+      "dynamic_complexity": 3.24381685257,
+      "average_loudness": 0.755938231945,
+      "spectral_centroid_mean": 661.242675781,
+      "spectral_flux_mean": 0.0917253568769,
+      "spectral_rolloff_mean": 496.401031494,
+      "dissonance_mean": 0.439353018999,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
