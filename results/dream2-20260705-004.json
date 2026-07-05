@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Double Space",
+    "request_id": "dream2-20260705-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "6fe61c9e-56da-47bd-8890-12d03cbe1b5c",
+      "title": "Double Space",
+      "artist": "Portico Quartet",
+      "duration_ms": 173286,
+      "first_release_date": "2018-04-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Double Space",
+    "album": "Untitled (AITAOA #2)",
+    "duration_ms": 173286,
+    "release_date": "2018-04-27T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cc/06/a6/cc06a613-1cb0-e0fe-ed51-6a78480f8de5/mzaf_6632520486767134080.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/double-space/1577509625?i=1577509867&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/double-space/1577509625?i=1577509867&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cc/06/a6/cc06a613-1cb0-e0fe-ed51-6a78480f8de5/mzaf_6632520486767134080.plus.aac.p.m4a",
+      "bytes": 1160211,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.03722,
+    "onset_rate_per_sec": 7.51777,
+    "dynamic_range_db_p95_p10": 6.664,
+    "crest_factor_db": 15.076,
+    "rms_mean": 0.07835,
+    "rms_std": 0.01957,
+    "spectral_centroid_hz_mean": 1299.72,
+    "spectral_centroid_hz_std": 245.07,
+    "spectral_bandwidth_hz_mean": 1674.1,
+    "spectral_rolloff_hz_mean": 2382.9,
+    "spectral_flatness_mean": 0.00317,
+    "spectral_contrast_mean": 19.38182,
+    "energy_share": {
+      "below_150_hz": 0.14146,
+      "150_to_2000_hz": 0.84028,
+      "above_2000_hz": 0.01827
+    },
+    "percussive_share": 0.2684,
+    "tonal_entropy_bits": 3.48793,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.00276
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06798,
+        "spectral_centroid_hz": 1078.16,
+        "onset_strength": 1.74529,
+        "spectral_flatness": 0.00065
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0694,
+        "spectral_centroid_hz": 1094.13,
+        "onset_strength": 1.68937,
+        "spectral_flatness": 0.00079
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07174,
+        "spectral_centroid_hz": 1073.29,
+        "onset_strength": 1.66223,
+        "spectral_flatness": 0.00076
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08163,
+        "spectral_centroid_hz": 1110.1,
+        "onset_strength": 1.44818,
+        "spectral_flatness": 0.00076
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07986,
+        "spectral_centroid_hz": 1178.82,
+        "onset_strength": 1.40504,
+        "spectral_flatness": 0.00125
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06707,
+        "spectral_centroid_hz": 1286.04,
+        "onset_strength": 1.51293,
+        "spectral_flatness": 0.00231
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06451,
+        "spectral_centroid_hz": 1379.97,
+        "onset_strength": 1.65121,
+        "spectral_flatness": 0.00337
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08531,
+        "spectral_centroid_hz": 1333.21,
+        "onset_strength": 1.27969,
+        "spectral_flatness": 0.00281
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08857,
+        "spectral_centroid_hz": 1386.23,
+        "onset_strength": 1.26255,
+        "spectral_flatness": 0.00434
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08433,
+        "spectral_centroid_hz": 1450.23,
+        "onset_strength": 1.2308,
+        "spectral_flatness": 0.00508
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08424,
+        "spectral_centroid_hz": 1617.49,
+        "onset_strength": 1.26546,
+        "spectral_flatness": 0.00814
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09537,
+        "spectral_centroid_hz": 1607.62,
+        "onset_strength": 1.20638,
+        "spectral_flatness": 0.00775
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "6fe61c9e-56da-47bd-8890-12d03cbe1b5c",
+      "title": "Double Space",
+      "artist": "Portico Quartet",
+      "duration_ms": 173286,
+      "first_release_date": "2018-04-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "6fe61c9e-56da-47bd-8890-12d03cbe1b5c",
+      "duration_sec": 173.28553772,
+      "sample_rate": 44100,
+      "tempo_bpm": 172.265991211,
+      "danceability": 0.890398979187,
+      "onset_rate": 2.44082403183,
+      "beats_count": 469,
+      "key": null,
+      "scale": null,
+      "chords_changes_rate": 0.037235468626,
+      "dynamic_complexity": 6.48689842224,
+      "average_loudness": 0.105971775949,
+      "spectral_centroid_mean": 962.583251953,
+      "spectral_flux_mean": 0.0688894316554,
+      "spectral_rolloff_mean": 1008.06274414,
+      "dissonance_mean": 0.429351836443,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
