@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Colin Stetson",
+    "track": "Among the Sef",
+    "request_id": "dream2-20260705-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d2134d55-df71-40dc-b6ad-7e34923eedd5",
+      "title": "Among the Sef",
+      "artist": "Colin Stetson",
+      "duration_ms": 275867,
+      "first_release_date": "2013-04-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "cea959b0-10cf-4190-9675-3511a301b11a",
+      "title": "Among the Sef (Righteous II)",
+      "artist": "Colin Stetson",
+      "duration_ms": 276000,
+      "first_release_date": "2013-04-30",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.8067
+    }
+  ],
+  "matched_recording": {
+    "artist": "Colin Stetson",
+    "track": "Among the Sef",
+    "album": "New History Warfare, Vol. 3: To See More Light",
+    "duration_ms": 275867,
+    "release_date": "2013-04-30T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/79/37/97793762-77f5-c918-2fdd-6efc6309b315/mzaf_13500531653878217255.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/among-the-sef/626980450?i=626980610&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/among-the-sef/626980450?i=626980610&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/79/37/97793762-77f5-c918-2fdd-6efc6309b315/mzaf_13500531653878217255.plus.aac.p.m4a",
+      "bytes": 1066589,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.04597,
+    "onset_rate_per_sec": 7.38413,
+    "dynamic_range_db_p95_p10": 12.714,
+    "crest_factor_db": 15.442,
+    "rms_mean": 0.05675,
+    "rms_std": 0.02679,
+    "spectral_centroid_hz_mean": 1805.36,
+    "spectral_centroid_hz_std": 341.16,
+    "spectral_bandwidth_hz_mean": 2036.98,
+    "spectral_rolloff_hz_mean": 3506.86,
+    "spectral_flatness_mean": 0.0057,
+    "spectral_contrast_mean": 18.83836,
+    "energy_share": {
+      "below_150_hz": 0.06819,
+      "150_to_2000_hz": 0.88946,
+      "above_2000_hz": 0.04235
+    },
+    "percussive_share": 0.24741,
+    "tonal_entropy_bits": 3.55921,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.44759
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03975,
+        "spectral_centroid_hz": 1465.2,
+        "onset_strength": 1.06241,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04821,
+        "spectral_centroid_hz": 1788.52,
+        "onset_strength": 1.14479,
+        "spectral_flatness": 0.00469
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0289,
+        "spectral_centroid_hz": 1567.46,
+        "onset_strength": 1.30351,
+        "spectral_flatness": 0.00522
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03715,
+        "spectral_centroid_hz": 1868.28,
+        "onset_strength": 1.30347,
+        "spectral_flatness": 0.00663
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05092,
+        "spectral_centroid_hz": 1997.71,
+        "onset_strength": 1.37429,
+        "spectral_flatness": 0.00816
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.07788,
+        "spectral_centroid_hz": 2030.19,
+        "onset_strength": 1.20103,
+        "spectral_flatness": 0.0075
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07343,
+        "spectral_centroid_hz": 1779.76,
+        "onset_strength": 1.11911,
+        "spectral_flatness": 0.00241
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04726,
+        "spectral_centroid_hz": 1616.9,
+        "onset_strength": 1.17213,
+        "spectral_flatness": 0.0051
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07572,
+        "spectral_centroid_hz": 1804.04,
+        "onset_strength": 1.10236,
+        "spectral_flatness": 0.00471
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.04763,
+        "spectral_centroid_hz": 1813.4,
+        "onset_strength": 1.32692,
+        "spectral_flatness": 0.00733
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07118,
+        "spectral_centroid_hz": 1899.04,
+        "onset_strength": 1.33393,
+        "spectral_flatness": 0.00645
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.08326,
+        "spectral_centroid_hz": 2033.84,
+        "onset_strength": 1.39453,
+        "spectral_flatness": 0.00778
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "cea959b0-10cf-4190-9675-3511a301b11a",
+      "title": "Among the Sef (Righteous II)",
+      "artist": "Colin Stetson",
+      "duration_ms": 276000,
+      "first_release_date": "2013-04-30",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.8067
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "cea959b0-10cf-4190-9675-3511a301b11a",
+      "duration_sec": 275.866668701,
+      "sample_rate": 44100,
+      "tempo_bpm": 139.320129395,
+      "danceability": 0.893103897572,
+      "onset_rate": 2.29803490639,
+      "beats_count": 552,
+      "key": "F#",
+      "scale": "major",
+      "chords_changes_rate": 0.05974419415,
+      "dynamic_complexity": 8.1070766449,
+      "average_loudness": 0.252567499876,
+      "spectral_centroid_mean": 1191.88928223,
+      "spectral_flux_mean": 0.0526047572494,
+      "spectral_rolloff_mean": 1669.83508301,
+      "dissonance_mean": 0.4478482306,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
