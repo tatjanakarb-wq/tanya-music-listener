@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Anna Meredith",
+    "track": "Sawbones",
+    "request_id": "dream2-20260705-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "dff3af65-3da2-4a69-86b2-fd8a0a6f5b72",
+      "title": "Sawbones",
+      "artist": "Anna Meredith",
+      "duration_ms": 278277,
+      "first_release_date": "2019-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Anna Meredith",
+    "track": "Sawbones",
+    "album": "FIBS",
+    "duration_ms": 278277,
+    "release_date": "2019-10-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/fe/ee/e3feee75-739f-469d-5909-91e79de89e05/mzaf_5497506646122562285.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/sawbones/1798525826?i=1798525834&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/sawbones/1798525826?i=1798525834&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/fe/ee/e3feee75-739f-469d-5909-91e79de89e05/mzaf_5497506646122562285.plus.aac.p.m4a",
+      "bytes": 1070128,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.03067,
+    "onset_rate_per_sec": 7.90645,
+    "dynamic_range_db_p95_p10": 11.056,
+    "crest_factor_db": 12.869,
+    "rms_mean": 0.12691,
+    "rms_std": 0.05426,
+    "spectral_centroid_hz_mean": 2502.97,
+    "spectral_centroid_hz_std": 344.48,
+    "spectral_bandwidth_hz_mean": 2711.37,
+    "spectral_rolloff_hz_mean": 5630.8,
+    "spectral_flatness_mean": 0.02224,
+    "spectral_contrast_mean": 19.46019,
+    "energy_share": {
+      "below_150_hz": 0.73982,
+      "150_to_2000_hz": 0.21071,
+      "above_2000_hz": 0.04947
+    },
+    "percussive_share": 0.37227,
+    "tonal_entropy_bits": 3.57941,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.24,
+      "relative_score": 0.95037
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13885,
+        "spectral_centroid_hz": 2563.03,
+        "onset_strength": 1.14624,
+        "spectral_flatness": 0.01826
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.14753,
+        "spectral_centroid_hz": 2469.05,
+        "onset_strength": 1.14659,
+        "spectral_flatness": 0.01781
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15591,
+        "spectral_centroid_hz": 2466.46,
+        "onset_strength": 1.15489,
+        "spectral_flatness": 0.01612
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15374,
+        "spectral_centroid_hz": 2528.11,
+        "onset_strength": 1.07061,
+        "spectral_flatness": 0.0198
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.15112,
+        "spectral_centroid_hz": 2667.74,
+        "onset_strength": 1.13672,
+        "spectral_flatness": 0.02258
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.12597,
+        "spectral_centroid_hz": 2469.33,
+        "onset_strength": 1.27177,
+        "spectral_flatness": 0.02177
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.11223,
+        "spectral_centroid_hz": 2528.21,
+        "onset_strength": 1.3578,
+        "spectral_flatness": 0.0263
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.10871,
+        "spectral_centroid_hz": 2444.62,
+        "onset_strength": 1.37217,
+        "spectral_flatness": 0.02308
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.10394,
+        "spectral_centroid_hz": 2445.55,
+        "onset_strength": 1.20921,
+        "spectral_flatness": 0.02587
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10648,
+        "spectral_centroid_hz": 2492.56,
+        "onset_strength": 1.25167,
+        "spectral_flatness": 0.02724
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.10598,
+        "spectral_centroid_hz": 2517.3,
+        "onset_strength": 1.36646,
+        "spectral_flatness": 0.02659
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.11275,
+        "spectral_centroid_hz": 2444.84,
+        "onset_strength": 1.34098,
+        "spectral_flatness": 0.02142
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "dff3af65-3da2-4a69-86b2-fd8a0a6f5b72",
+      "title": "Sawbones",
+      "artist": "Anna Meredith",
+      "duration_ms": 278277,
+      "first_release_date": "2019-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "dff3af65-3da2-4a69-86b2-fd8a0a6f5b72",
+      "duration_sec": 278.276977539,
+      "sample_rate": 44100,
+      "tempo_bpm": 123.888023376,
+      "danceability": 1.20134353638,
+      "onset_rate": 4.59231233597,
+      "beats_count": 633,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0595595613122,
+      "dynamic_complexity": 3.18723011017,
+      "average_loudness": 0.754635512829,
+      "spectral_centroid_mean": 1704.64660645,
+      "spectral_flux_mean": 0.107889197767,
+      "spectral_rolloff_mean": 1707.9173584,
+      "dissonance_mean": 0.473281532526,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
