@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Tigran Hamasyan",
+    "track": "The Apple Orchard in Saghmosavanq",
+    "request_id": "dream2-20260705-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "0f11cf7d-f442-4bcb-9075-d26000b2fcab",
+      "title": "The Apple Orchard in Saghmosavanq",
+      "artist": "Tigran Hamasyan",
+      "duration_ms": 262346,
+      "first_release_date": "2015-02-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "990dd2fc-adbb-4980-a9cf-096122a5a4ab",
+      "title": "The Apple Orchard in Saghmosavanq",
+      "artist": "Tigran Hamasyan",
+      "duration_ms": 262346,
+      "first_release_date": "2014-12-09",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Tigran Hamasyan",
+    "track": "The Apple Orchard in Saghmosavanq",
+    "album": "Mockroot",
+    "duration_ms": 262309,
+    "release_date": "2015-01-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2c/5a/2b/2c5a2b5d-9a47-bf45-1014-28677a8607ca/mzaf_17161304381091887873.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-apple-orchard-in-saghmosavanq/945504772?i=945504788&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 37
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-apple-orchard-in-saghmosavanq/945504772?i=945504788&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2c/5a/2b/2c5a2b5d-9a47-bf45-1014-28677a8607ca/mzaf_17161304381091887873.plus.aac.p.m4a",
+      "bytes": 1114977,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.05911,
+    "onset_rate_per_sec": 4.8782,
+    "dynamic_range_db_p95_p10": 4.533,
+    "crest_factor_db": 13.885,
+    "rms_mean": 0.11176,
+    "rms_std": 0.02045,
+    "spectral_centroid_hz_mean": 1477.18,
+    "spectral_centroid_hz_std": 250.19,
+    "spectral_bandwidth_hz_mean": 1918.04,
+    "spectral_rolloff_hz_mean": 2841.26,
+    "spectral_flatness_mean": 0.00582,
+    "spectral_contrast_mean": 19.18645,
+    "energy_share": {
+      "below_150_hz": 0.25818,
+      "150_to_2000_hz": 0.72402,
+      "above_2000_hz": 0.0178
+    },
+    "percussive_share": 0.29212,
+    "tonal_entropy_bits": 3.51967,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.82555
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10869,
+        "spectral_centroid_hz": 1514.09,
+        "onset_strength": 0.96896,
+        "spectral_flatness": 0.00558
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11112,
+        "spectral_centroid_hz": 1445.13,
+        "onset_strength": 0.93823,
+        "spectral_flatness": 0.00525
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10263,
+        "spectral_centroid_hz": 1531.07,
+        "onset_strength": 0.93168,
+        "spectral_flatness": 0.00643
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10761,
+        "spectral_centroid_hz": 1512.6,
+        "onset_strength": 0.93399,
+        "spectral_flatness": 0.00574
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10509,
+        "spectral_centroid_hz": 1566.96,
+        "onset_strength": 0.94504,
+        "spectral_flatness": 0.00664
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11257,
+        "spectral_centroid_hz": 1522.32,
+        "onset_strength": 0.94266,
+        "spectral_flatness": 0.00664
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10728,
+        "spectral_centroid_hz": 1486.92,
+        "onset_strength": 0.95201,
+        "spectral_flatness": 0.00588
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.1172,
+        "spectral_centroid_hz": 1461.42,
+        "onset_strength": 0.95793,
+        "spectral_flatness": 0.0055
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11065,
+        "spectral_centroid_hz": 1504.99,
+        "onset_strength": 0.96605,
+        "spectral_flatness": 0.00706
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11798,
+        "spectral_centroid_hz": 1387.61,
+        "onset_strength": 0.95761,
+        "spectral_flatness": 0.00444
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11653,
+        "spectral_centroid_hz": 1424.05,
+        "onset_strength": 0.98739,
+        "spectral_flatness": 0.00586
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12367,
+        "spectral_centroid_hz": 1369.62,
+        "onset_strength": 0.93773,
+        "spectral_flatness": 0.00481
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "0f11cf7d-f442-4bcb-9075-d26000b2fcab",
+      "title": "The Apple Orchard in Saghmosavanq",
+      "artist": "Tigran Hamasyan",
+      "duration_ms": 262346,
+      "first_release_date": "2015-02-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "0f11cf7d-f442-4bcb-9075-d26000b2fcab",
+      "duration_sec": 262.346679688,
+      "sample_rate": 44100,
+      "tempo_bpm": 94.4317550659,
+      "danceability": 0.994596719742,
+      "onset_rate": 1.73805475235,
+      "beats_count": 438,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0422933995724,
+      "dynamic_complexity": 9.05345439911,
+      "average_loudness": 0.266905277967,
+      "spectral_centroid_mean": 547.544799805,
+      "spectral_flux_mean": 0.0535886771977,
+      "spectral_rolloff_mean": 924.893127441,
+      "dissonance_mean": 0.386305212975,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
