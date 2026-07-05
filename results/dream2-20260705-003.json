@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Laurence Pike",
+    "track": "Nero",
+    "request_id": "dream2-20260705-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7e4dfd4a-96ab-4db9-b4ca-6af8ab7d0a7a",
+      "title": "Nero",
+      "artist": "Laurence Pike",
+      "duration_ms": 179528,
+      "first_release_date": "2020-07-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Laurence Pike",
+    "track": "Nero",
+    "album": "Prophecy",
+    "duration_ms": 179528,
+    "release_date": "2020-05-20T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/2e/72/6f2e7246-f55c-73fa-1599-52857d805795/mzaf_17597979800504468315.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/nero/1513201159?i=1513201173&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/nero/1513201159?i=1513201173&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/2e/72/6f2e7246-f55c-73fa-1599-52857d805795/mzaf_17597979800504468315.plus.aac.p.m4a",
+      "bytes": 1060569,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.04775,
+    "onset_rate_per_sec": 4.51066,
+    "dynamic_range_db_p95_p10": 14.551,
+    "crest_factor_db": 15.887,
+    "rms_mean": 0.07713,
+    "rms_std": 0.05011,
+    "spectral_centroid_hz_mean": 1130.75,
+    "spectral_centroid_hz_std": 485.85,
+    "spectral_bandwidth_hz_mean": 1562.26,
+    "spectral_rolloff_hz_mean": 2221.67,
+    "spectral_flatness_mean": 0.00285,
+    "spectral_contrast_mean": 18.62443,
+    "energy_share": {
+      "below_150_hz": 0.56909,
+      "150_to_2000_hz": 0.425,
+      "above_2000_hz": 0.00592
+    },
+    "percussive_share": 0.40057,
+    "tonal_entropy_bits": 3.53149,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.68323
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0752,
+        "spectral_centroid_hz": 1105.26,
+        "onset_strength": 1.47886,
+        "spectral_flatness": 0.00316
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08036,
+        "spectral_centroid_hz": 1116.43,
+        "onset_strength": 1.55131,
+        "spectral_flatness": 0.00249
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09591,
+        "spectral_centroid_hz": 1132.94,
+        "onset_strength": 1.57158,
+        "spectral_flatness": 0.00328
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0907,
+        "spectral_centroid_hz": 1129.64,
+        "onset_strength": 1.49427,
+        "spectral_flatness": 0.00351
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07238,
+        "spectral_centroid_hz": 1339.76,
+        "onset_strength": 1.25264,
+        "spectral_flatness": 0.00334
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03673,
+        "spectral_centroid_hz": 1357.94,
+        "onset_strength": 1.23515,
+        "spectral_flatness": 0.00307
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.03761,
+        "spectral_centroid_hz": 1521.54,
+        "onset_strength": 1.16914,
+        "spectral_flatness": 0.00448
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06419,
+        "spectral_centroid_hz": 1022.98,
+        "onset_strength": 1.35916,
+        "spectral_flatness": 0.00239
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08212,
+        "spectral_centroid_hz": 1074.1,
+        "onset_strength": 1.66046,
+        "spectral_flatness": 0.00324
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09437,
+        "spectral_centroid_hz": 1017.26,
+        "onset_strength": 1.65675,
+        "spectral_flatness": 0.00212
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10102,
+        "spectral_centroid_hz": 847.54,
+        "onset_strength": 1.55575,
+        "spectral_flatness": 0.00178
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.0946,
+        "spectral_centroid_hz": 905.81,
+        "onset_strength": 1.50097,
+        "spectral_flatness": 0.00133
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7e4dfd4a-96ab-4db9-b4ca-6af8ab7d0a7a",
+      "title": "Nero",
+      "artist": "Laurence Pike",
+      "duration_ms": 179528,
+      "first_release_date": "2020-07-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7e4dfd4a-96ab-4db9-b4ca-6af8ab7d0a7a",
+      "duration_sec": 179.565719604,
+      "sample_rate": 44100,
+      "tempo_bpm": 163.760345459,
+      "danceability": 1.34068143368,
+      "onset_rate": 4.2988448143,
+      "beats_count": 471,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0687693879008,
+      "dynamic_complexity": 4.2164721489,
+      "average_loudness": 0.786772191525,
+      "spectral_centroid_mean": 670.469970703,
+      "spectral_flux_mean": 0.0829955413938,
+      "spectral_rolloff_mean": 1053.87963867,
+      "dissonance_mean": 0.426353424788,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
