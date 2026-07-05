@@ -1,0 +1,91 @@
+{
+  "request": {
+    "artist": "Sons Of Kemet",
+    "track": "My Queen Is Ada Eastman",
+    "request_id": "dream2-20260705-009"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "1310df73-12c0-4f54-a00b-c5e1b7de0a50",
+      "title": "My Queen Is Ada Eastman",
+      "artist": "Sons of Kemet",
+      "duration_ms": 401186,
+      "first_release_date": "2018-03-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "1310df73-12c0-4f54-a00b-c5e1b7de0a50",
+      "title": "My Queen Is Ada Eastman",
+      "artist": "Sons of Kemet",
+      "duration_ms": 401186,
+      "first_release_date": "2018-03-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "1310df73-12c0-4f54-a00b-c5e1b7de0a50",
+      "duration_sec": 401.195831299,
+      "sample_rate": 44100,
+      "tempo_bpm": 72.6631774902,
+      "danceability": 1.48481118679,
+      "onset_rate": 4.84275865555,
+      "beats_count": 549,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.113412797451,
+      "dynamic_complexity": 3.09126925468,
+      "average_loudness": 0.933718025684,
+      "spectral_centroid_mean": 797.529052734,
+      "spectral_flux_mean": 0.0953167378902,
+      "spectral_rolloff_mean": 849.076782227,
+      "dissonance_mean": 0.453300118446,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "1310df73-12c0-4f54-a00b-c5e1b7de0a50",
+    "title": "My Queen Is Ada Eastman",
+    "artist": "Sons of Kemet",
+    "duration_ms": 401186,
+    "first_release_date": "2018-03-30",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "1310df73-12c0-4f54-a00b-c5e1b7de0a50",
+    "duration_sec": 401.195831299,
+    "sample_rate": 44100,
+    "tempo_bpm": 72.6631774902,
+    "danceability": 1.48481118679,
+    "onset_rate": 4.84275865555,
+    "beats_count": 549,
+    "key": "F",
+    "scale": "minor",
+    "chords_changes_rate": 0.113412797451,
+    "dynamic_complexity": 3.09126925468,
+    "average_loudness": 0.933718025684,
+    "spectral_centroid_mean": 797.529052734,
+    "spectral_flux_mean": 0.0953167378902,
+    "spectral_rolloff_mean": 849.076782227,
+    "dissonance_mean": 0.453300118446,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}
