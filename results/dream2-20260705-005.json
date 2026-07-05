@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Nightingale",
+    "request_id": "dream2-20260705-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b4df6c0c-21b2-4ea2-b086-89f63ea6cda3",
+      "title": "Nightingale",
+      "artist": "Mammal Hands",
+      "duration_ms": 312439,
+      "first_release_date": "2023-02-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Nightingale",
+    "album": "Gift from the Trees",
+    "duration_ms": 312439,
+    "release_date": "2023-03-31T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/cc/e9/97/cce9976f-4d89-3422-9c3c-680ff142d4b1/mzaf_9512364022700543122.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/nightingale/1664153744?i=1664155236&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/nightingale/1664153744?i=1664155236&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/cc/e9/97/cce9976f-4d89-3422-9c3c-680ff142d4b1/mzaf_9512364022700543122.plus.aac.p.m4a",
+      "bytes": 1096202,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.0749,
+    "onset_rate_per_sec": 4.24337,
+    "dynamic_range_db_p95_p10": 13.007,
+    "crest_factor_db": 15.504,
+    "rms_mean": 0.07851,
+    "rms_std": 0.04258,
+    "spectral_centroid_hz_mean": 1006.21,
+    "spectral_centroid_hz_std": 551.77,
+    "spectral_bandwidth_hz_mean": 1524.8,
+    "spectral_rolloff_hz_mean": 1858.81,
+    "spectral_flatness_mean": 0.00288,
+    "spectral_contrast_mean": 21.92502,
+    "energy_share": {
+      "below_150_hz": 0.6084,
+      "150_to_2000_hz": 0.38531,
+      "above_2000_hz": 0.00629
+    },
+    "percussive_share": 0.22226,
+    "tonal_entropy_bits": 3.37651,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 0.843
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06413,
+        "spectral_centroid_hz": 1119.83,
+        "onset_strength": 1.56759,
+        "spectral_flatness": 0.00605
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07656,
+        "spectral_centroid_hz": 1118.97,
+        "onset_strength": 1.50731,
+        "spectral_flatness": 0.00331
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.088,
+        "spectral_centroid_hz": 998.52,
+        "onset_strength": 1.60857,
+        "spectral_flatness": 0.00253
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07019,
+        "spectral_centroid_hz": 1156.54,
+        "onset_strength": 1.59672,
+        "spectral_flatness": 0.0046
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07257,
+        "spectral_centroid_hz": 1085.25,
+        "onset_strength": 1.44011,
+        "spectral_flatness": 0.00285
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08779,
+        "spectral_centroid_hz": 960.63,
+        "onset_strength": 1.48313,
+        "spectral_flatness": 0.00257
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0798,
+        "spectral_centroid_hz": 1031.77,
+        "onset_strength": 1.53734,
+        "spectral_flatness": 0.00317
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08978,
+        "spectral_centroid_hz": 888.6,
+        "onset_strength": 1.60625,
+        "spectral_flatness": 0.00175
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09316,
+        "spectral_centroid_hz": 981.22,
+        "onset_strength": 1.54931,
+        "spectral_flatness": 0.00236
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08169,
+        "spectral_centroid_hz": 965.58,
+        "onset_strength": 1.51129,
+        "spectral_flatness": 0.00182
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08012,
+        "spectral_centroid_hz": 876.86,
+        "onset_strength": 1.3863,
+        "spectral_flatness": 0.00299
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05839,
+        "spectral_centroid_hz": 892.57,
+        "onset_strength": 1.11591,
+        "spectral_flatness": 0.00059
+      }
+    ]
+  }
+}
