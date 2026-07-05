@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "JAMBINAI",
+    "track": "Sawtooth",
+    "request_id": "dream2-20260705-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "cdf2b232-bb15-49cf-9b84-14759c744dbe",
+      "title": "Sawtooth",
+      "artist": "Jambinai",
+      "duration_ms": 459404,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3f42c7a3-44ee-4272-a699-1f56c3cead7b",
+      "title": "Sawtooth",
+      "artist": "Jambinai",
+      "duration_ms": 465146,
+      "first_release_date": "2019",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jambinai",
+    "track": "Sawtooth",
+    "album": "ONDA",
+    "duration_ms": 459404,
+    "release_date": "2019-06-07T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6a/89/3d/6a893d8e-630c-4964-8703-7adae71f2b36/mzaf_5548507391045364568.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/sawtooth/1457106540?i=1457106542&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/sawtooth/1457106540?i=1457106542&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6a/89/3d/6a893d8e-630c-4964-8703-7adae71f2b36/mzaf_5548507391045364568.plus.aac.p.m4a",
+      "bytes": 1120481,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.04876,
+    "onset_rate_per_sec": 1.10261,
+    "dynamic_range_db_p95_p10": 10.251,
+    "crest_factor_db": 17.97,
+    "rms_mean": 0.01754,
+    "rms_std": 0.00735,
+    "spectral_centroid_hz_mean": 1315.31,
+    "spectral_centroid_hz_std": 371.93,
+    "spectral_bandwidth_hz_mean": 1438.76,
+    "spectral_rolloff_hz_mean": 2267.31,
+    "spectral_flatness_mean": 0.00084,
+    "spectral_contrast_mean": 22.96291,
+    "energy_share": {
+      "below_150_hz": 0.00086,
+      "150_to_2000_hz": 0.97654,
+      "above_2000_hz": 0.0226
+    },
+    "percussive_share": 0.10756,
+    "tonal_entropy_bits": 3.25865,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.56264
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01745,
+        "spectral_centroid_hz": 1504.05,
+        "onset_strength": 0.9762,
+        "spectral_flatness": 0.00059
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01527,
+        "spectral_centroid_hz": 1117.2,
+        "onset_strength": 0.93644,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01935,
+        "spectral_centroid_hz": 1087.21,
+        "onset_strength": 1.11087,
+        "spectral_flatness": 0.0007
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.01243,
+        "spectral_centroid_hz": 985.73,
+        "onset_strength": 0.88455,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.01229,
+        "spectral_centroid_hz": 1231.46,
+        "onset_strength": 1.02027,
+        "spectral_flatness": 0.00082
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.01909,
+        "spectral_centroid_hz": 1860.97,
+        "onset_strength": 1.04035,
+        "spectral_flatness": 0.00163
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02222,
+        "spectral_centroid_hz": 1330.88,
+        "onset_strength": 1.0579,
+        "spectral_flatness": 0.00113
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.01451,
+        "spectral_centroid_hz": 1135.72,
+        "onset_strength": 1.01269,
+        "spectral_flatness": 0.0006
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.02319,
+        "spectral_centroid_hz": 1587.68,
+        "onset_strength": 1.02625,
+        "spectral_flatness": 0.00104
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.02445,
+        "spectral_centroid_hz": 1649.4,
+        "onset_strength": 1.11107,
+        "spectral_flatness": 0.00161
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0179,
+        "spectral_centroid_hz": 1130.53,
+        "onset_strength": 0.9753,
+        "spectral_flatness": 0.00051
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.01237,
+        "spectral_centroid_hz": 1165.73,
+        "onset_strength": 1.03007,
+        "spectral_flatness": 0.00065
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "cdf2b232-bb15-49cf-9b84-14759c744dbe",
+      "title": "Sawtooth",
+      "artist": "Jambinai",
+      "duration_ms": 459404,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "cdf2b232-bb15-49cf-9b84-14759c744dbe",
+      "duration_sec": 459.403900146,
+      "sample_rate": 44100,
+      "tempo_bpm": 94.8730545044,
+      "danceability": 0.967964172363,
+      "onset_rate": 2.17884159088,
+      "beats_count": 740,
+      "key": "B",
+      "scale": "minor",
+      "chords_changes_rate": 0.0406306870282,
+      "dynamic_complexity": 6.90765094757,
+      "average_loudness": 0.824205458164,
+      "spectral_centroid_mean": 1216.51574707,
+      "spectral_flux_mean": 0.0706809386611,
+      "spectral_rolloff_mean": 1196.63720703,
+      "dissonance_mean": 0.457030743361,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
