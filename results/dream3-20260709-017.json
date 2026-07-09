@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Nala Sinephro",
+    "track": "Space 1",
+    "request_id": "dream3-20260709-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "74b8b5b0-0364-416c-a031-54040e20bd3b",
+      "title": "Space 1",
+      "artist": "Nala Sinephro",
+      "duration_ms": 248000,
+      "first_release_date": "2021-09-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c3cb20bf-a83d-47f6-b80a-93ded446fe57",
+      "title": "Space 1",
+      "artist": "Nala Sinephro",
+      "duration_ms": 1028000,
+      "first_release_date": "2022-06-03",
+      "disambiguation": "part of “Early Hours” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3cc7b319-e39e-424e-9c3b-0b3d3884d828",
+      "title": "Space 1",
+      "artist": "Nala Sinephro",
+      "duration_ms": 226000,
+      "first_release_date": "2024-01-05",
+      "disambiguation": "part of “Ninja Tune Presents: Downtempo with Ben Böhmer” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Nala Sinephro",
+    "track": "Space 1",
+    "album": "Space 1.8",
+    "duration_ms": 248000,
+    "release_date": "2021-09-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/42/75/f4427553-e893-aee3-82a9-42a462ed2930/mzaf_6848467705282627567.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/space-1/1576882000?i=1576882001&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/space-1/1576882000?i=1576882001&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/42/75/f4427553-e893-aee3-82a9-42a462ed2930/mzaf_6848467705282627567.plus.aac.p.m4a",
+      "bytes": 1003764,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.04976,
+    "onset_rate_per_sec": 2.60414,
+    "dynamic_range_db_p95_p10": 20.295,
+    "crest_factor_db": 17.419,
+    "rms_mean": 0.03784,
+    "rms_std": 0.021,
+    "spectral_centroid_hz_mean": 566.01,
+    "spectral_centroid_hz_std": 467.01,
+    "spectral_bandwidth_hz_mean": 962.1,
+    "spectral_rolloff_hz_mean": 814.76,
+    "spectral_flatness_mean": 0.00107,
+    "spectral_contrast_mean": 22.43615,
+    "energy_share": {
+      "below_150_hz": 0.0804,
+      "150_to_2000_hz": 0.91952,
+      "above_2000_hz": 8e-05
+    },
+    "percussive_share": 0.11337,
+    "tonal_entropy_bits": 2.8084,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.71,
+      "relative_score": 1.29057
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00255,
+        "spectral_centroid_hz": 1779.59,
+        "onset_strength": 0.19951,
+        "spectral_flatness": 0.0125
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01178,
+        "spectral_centroid_hz": 565.01,
+        "onset_strength": 0.24567,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02408,
+        "spectral_centroid_hz": 432.21,
+        "onset_strength": 0.30359,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.03949,
+        "spectral_centroid_hz": 366.34,
+        "onset_strength": 0.37598,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.04114,
+        "spectral_centroid_hz": 372.95,
+        "onset_strength": 0.43229,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.04384,
+        "spectral_centroid_hz": 406.58,
+        "onset_strength": 0.5945,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.04219,
+        "spectral_centroid_hz": 456.56,
+        "onset_strength": 0.67434,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.04026,
+        "spectral_centroid_hz": 449.3,
+        "onset_strength": 0.64991,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.03783,
+        "spectral_centroid_hz": 457.63,
+        "onset_strength": 0.73546,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.07359,
+        "spectral_centroid_hz": 401.21,
+        "onset_strength": 0.87063,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.05951,
+        "spectral_centroid_hz": 479.52,
+        "onset_strength": 0.90365,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.03769,
+        "spectral_centroid_hz": 630.62,
+        "onset_strength": 0.9387,
+        "spectral_flatness": 0.00014
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "74b8b5b0-0364-416c-a031-54040e20bd3b",
+      "title": "Space 1",
+      "artist": "Nala Sinephro",
+      "duration_ms": 248000,
+      "first_release_date": "2021-09-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "74b8b5b0-0364-416c-a031-54040e20bd3b",
+      "duration_sec": 248.032653809,
+      "sample_rate": 44100,
+      "tempo_bpm": 125.062599182,
+      "danceability": 0.894733428955,
+      "onset_rate": 1.59647059441,
+      "beats_count": 498,
+      "key": "G",
+      "scale": "minor",
+      "chords_changes_rate": 0.0404342934489,
+      "dynamic_complexity": 5.11293888092,
+      "average_loudness": 0.0664789378643,
+      "spectral_centroid_mean": 456.561035156,
+      "spectral_flux_mean": 0.0413280762732,
+      "spectral_rolloff_mean": 736.308227539,
+      "dissonance_mean": 0.371453851461,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
