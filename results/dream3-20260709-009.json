@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Sarathy Korwar",
+    "track": "Bol",
+    "request_id": "dream3-20260709-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a0701200-d862-42c2-a28a-d077d37a385d",
+      "title": "Bol",
+      "artist": "Sarathy Korwar",
+      "duration_ms": 560000,
+      "first_release_date": "2019-07-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7696a47e-d355-4269-996a-6ddf10529d46",
+      "title": "Bol",
+      "artist": "Sarathy Korwar Zia Ahmed Aditya Prakash",
+      "duration_ms": 559000,
+      "first_release_date": "2019-07-26",
+      "disambiguation": "",
+      "musicbrainz_score": 67,
+      "local_match_score": 0.8019
+    },
+    {
+      "mbid": "4e7b1ed6-04df-4ef4-b383-dce087a94256",
+      "title": "Bol (edit)",
+      "artist": "Sarathy Korwar Zia Ahmed Aditya Prakash",
+      "duration_ms": 250000,
+      "first_release_date": "2019-07-11",
+      "disambiguation": "",
+      "musicbrainz_score": 62,
+      "local_match_score": 0.5383
+    }
+  ],
+  "matched_recording": {
+    "artist": "Sarathy Korwar",
+    "track": "Bol (feat. Zia Ahmed & Aditya Prakash)",
+    "album": "More Arriving",
+    "duration_ms": 559926,
+    "release_date": "2019-07-11T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/f5/4d/87f54d3a-6eb9-96de-343e-467ab22d1521/mzaf_4914848613550244850.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/bol-feat-zia-ahmed-aditya-prakash/1459445055?i=1459445061&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 74
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/bol-feat-zia-ahmed-aditya-prakash/1459445055?i=1459445061&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/f5/4d/87f54d3a-6eb9-96de-343e-467ab22d1521/mzaf_4914848613550244850.plus.aac.p.m4a",
+      "bytes": 1100784,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 184.57,
+    "beat_interval_cv": 0.03802,
+    "onset_rate_per_sec": 4.64431,
+    "dynamic_range_db_p95_p10": 22.332,
+    "crest_factor_db": 14.693,
+    "rms_mean": 0.07878,
+    "rms_std": 0.06971,
+    "spectral_centroid_hz_mean": 1597.97,
+    "spectral_centroid_hz_std": 759.85,
+    "spectral_bandwidth_hz_mean": 1603.42,
+    "spectral_rolloff_hz_mean": 3104.17,
+    "spectral_flatness_mean": 0.00975,
+    "spectral_contrast_mean": 20.70007,
+    "energy_share": {
+      "below_150_hz": 0.9254,
+      "150_to_2000_hz": 0.0599,
+      "above_2000_hz": 0.0147
+    },
+    "percussive_share": 0.25184,
+    "tonal_entropy_bits": 3.48012,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.98804
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0692,
+        "spectral_centroid_hz": 1712.67,
+        "onset_strength": 1.33336,
+        "spectral_flatness": 0.00464
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08072,
+        "spectral_centroid_hz": 1624.92,
+        "onset_strength": 1.3423,
+        "spectral_flatness": 0.00521
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07653,
+        "spectral_centroid_hz": 1629.34,
+        "onset_strength": 1.12034,
+        "spectral_flatness": 0.00268
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08196,
+        "spectral_centroid_hz": 1531.74,
+        "onset_strength": 1.27554,
+        "spectral_flatness": 0.00745
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07507,
+        "spectral_centroid_hz": 1631.37,
+        "onset_strength": 1.22777,
+        "spectral_flatness": 0.01075
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08329,
+        "spectral_centroid_hz": 1460.9,
+        "onset_strength": 1.35781,
+        "spectral_flatness": 0.01114
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0781,
+        "spectral_centroid_hz": 1494.09,
+        "onset_strength": 1.45653,
+        "spectral_flatness": 0.00863
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08286,
+        "spectral_centroid_hz": 1458.1,
+        "onset_strength": 1.47658,
+        "spectral_flatness": 0.01065
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07326,
+        "spectral_centroid_hz": 1540.79,
+        "onset_strength": 1.58491,
+        "spectral_flatness": 0.01036
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07936,
+        "spectral_centroid_hz": 1583.26,
+        "onset_strength": 1.7793,
+        "spectral_flatness": 0.01506
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07624,
+        "spectral_centroid_hz": 1599.83,
+        "onset_strength": 1.6597,
+        "spectral_flatness": 0.01268
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.08867,
+        "spectral_centroid_hz": 1906.66,
+        "onset_strength": 1.74424,
+        "spectral_flatness": 0.0177
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7696a47e-d355-4269-996a-6ddf10529d46",
+      "title": "Bol",
+      "artist": "Sarathy Korwar Zia Ahmed Aditya Prakash",
+      "duration_ms": 559000,
+      "first_release_date": "2019-07-26",
+      "disambiguation": "",
+      "musicbrainz_score": 67,
+      "local_match_score": 0.8019
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7696a47e-d355-4269-996a-6ddf10529d46",
+      "duration_sec": 554.435913086,
+      "sample_rate": 44100,
+      "tempo_bpm": 93.9127883911,
+      "danceability": 1.20871889591,
+      "onset_rate": 4.33216094971,
+      "beats_count": 872,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0587939694524,
+      "dynamic_complexity": 4.7604136467,
+      "average_loudness": 0.568467736244,
+      "spectral_centroid_mean": 1242.64111328,
+      "spectral_flux_mean": 0.0893537178636,
+      "spectral_rolloff_mean": 1144.63391113,
+      "dissonance_mean": 0.464063614607,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
