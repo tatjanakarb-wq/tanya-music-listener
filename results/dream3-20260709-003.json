@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Black Sails",
+    "request_id": "dream3-20260709-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "2e49697e-e395-49a4-a842-53cefd58bd5f",
+      "title": "Black Sails",
+      "artist": "Mammal Hands",
+      "duration_ms": 286000,
+      "first_release_date": "2017-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Black Sails",
+    "album": "Shadow Work",
+    "duration_ms": 286417,
+    "release_date": "2017-09-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/9c/47/509c4756-3634-c49e-1898-affb2993d6bf/mzaf_11423203675398823279.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/black-sails/1577505862?i=1577505865&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 417
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/black-sails/1577505862?i=1577505865&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/9c/47/509c4756-3634-c49e-1898-affb2993d6bf/mzaf_11423203675398823279.plus.aac.p.m4a",
+      "bytes": 1132309,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.0415,
+    "onset_rate_per_sec": 5.07867,
+    "dynamic_range_db_p95_p10": 5.387,
+    "crest_factor_db": 12.693,
+    "rms_mean": 0.13288,
+    "rms_std": 0.02938,
+    "spectral_centroid_hz_mean": 1435.32,
+    "spectral_centroid_hz_std": 330.42,
+    "spectral_bandwidth_hz_mean": 2277.1,
+    "spectral_rolloff_hz_mean": 3299.21,
+    "spectral_flatness_mean": 0.00405,
+    "spectral_contrast_mean": 19.52895,
+    "energy_share": {
+      "below_150_hz": 0.66191,
+      "150_to_2000_hz": 0.32735,
+      "above_2000_hz": 0.01073
+    },
+    "percussive_share": 0.23912,
+    "tonal_entropy_bits": 3.40926,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 1.09398
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12714,
+        "spectral_centroid_hz": 1223.1,
+        "onset_strength": 1.02742,
+        "spectral_flatness": 0.00235
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.13001,
+        "spectral_centroid_hz": 1293.63,
+        "onset_strength": 1.08677,
+        "spectral_flatness": 0.00337
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.13438,
+        "spectral_centroid_hz": 1345.27,
+        "onset_strength": 1.06997,
+        "spectral_flatness": 0.00333
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.12409,
+        "spectral_centroid_hz": 1373.47,
+        "onset_strength": 1.08609,
+        "spectral_flatness": 0.00343
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.11994,
+        "spectral_centroid_hz": 1431.15,
+        "onset_strength": 0.99115,
+        "spectral_flatness": 0.00404
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.13868,
+        "spectral_centroid_hz": 1505.74,
+        "onset_strength": 1.08633,
+        "spectral_flatness": 0.00423
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13402,
+        "spectral_centroid_hz": 1583.55,
+        "onset_strength": 1.06485,
+        "spectral_flatness": 0.00509
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14523,
+        "spectral_centroid_hz": 1447.84,
+        "onset_strength": 1.0683,
+        "spectral_flatness": 0.00408
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.13631,
+        "spectral_centroid_hz": 1437.49,
+        "onset_strength": 1.01999,
+        "spectral_flatness": 0.00425
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13548,
+        "spectral_centroid_hz": 1503.96,
+        "onset_strength": 1.12083,
+        "spectral_flatness": 0.0044
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13402,
+        "spectral_centroid_hz": 1591.23,
+        "onset_strength": 1.08403,
+        "spectral_flatness": 0.00577
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13518,
+        "spectral_centroid_hz": 1487.06,
+        "onset_strength": 1.0839,
+        "spectral_flatness": 0.00425
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "2e49697e-e395-49a4-a842-53cefd58bd5f",
+      "title": "Black Sails",
+      "artist": "Mammal Hands",
+      "duration_ms": 286000,
+      "first_release_date": "2017-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "2e49697e-e395-49a4-a842-53cefd58bd5f",
+      "duration_sec": 286.416595459,
+      "sample_rate": 96000,
+      "tempo_bpm": 132.597015381,
+      "danceability": 1.20136857033,
+      "onset_rate": 3.74611926079,
+      "beats_count": 667,
+      "key": null,
+      "scale": null,
+      "chords_changes_rate": 0.0406873077154,
+      "dynamic_complexity": 4.15006351471,
+      "average_loudness": 0.860678255558,
+      "spectral_centroid_mean": 700.291442871,
+      "spectral_flux_mean": 0.0879715681076,
+      "spectral_rolloff_mean": 615.47869873,
+      "dissonance_mean": 0.450356096029,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
