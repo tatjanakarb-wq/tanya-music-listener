@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Winding Snake",
+    "request_id": "dream3-20260709-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "78add05e-dcdb-4005-99b6-44f274d3a398",
+      "title": "Winding Snake",
+      "artist": "Portico Quartet",
+      "duration_ms": 363000,
+      "first_release_date": "2020-05-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Winding Snake",
+    "album": "We Welcome Tomorrow - Single",
+    "duration_ms": 363962,
+    "release_date": "2020-05-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b3/7f/77/b37f7726-cabe-90d3-02b6-e45cb9b99aca/mzaf_880662198228221533.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/winding-snake/1577504580?i=1577504867&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 962
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/winding-snake/1577504580?i=1577504867&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b3/7f/77/b37f7726-cabe-90d3-02b6-e45cb9b99aca/mzaf_880662198228221533.plus.aac.p.m4a",
+      "bytes": 1092463,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.04409,
+    "onset_rate_per_sec": 2.13839,
+    "dynamic_range_db_p95_p10": 13.266,
+    "crest_factor_db": 18.174,
+    "rms_mean": 0.06003,
+    "rms_std": 0.03834,
+    "spectral_centroid_hz_mean": 1078.12,
+    "spectral_centroid_hz_std": 504.42,
+    "spectral_bandwidth_hz_mean": 1532.87,
+    "spectral_rolloff_hz_mean": 1913.62,
+    "spectral_flatness_mean": 0.00343,
+    "spectral_contrast_mean": 21.59279,
+    "energy_share": {
+      "below_150_hz": 0.74384,
+      "150_to_2000_hz": 0.24621,
+      "above_2000_hz": 0.00995
+    },
+    "percussive_share": 0.37047,
+    "tonal_entropy_bits": 3.49952,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.58877
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02429,
+        "spectral_centroid_hz": 1359.65,
+        "onset_strength": 1.14236,
+        "spectral_flatness": 0.00554
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05845,
+        "spectral_centroid_hz": 923.44,
+        "onset_strength": 1.26264,
+        "spectral_flatness": 0.00218
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06109,
+        "spectral_centroid_hz": 1002.73,
+        "onset_strength": 1.2547,
+        "spectral_flatness": 0.00477
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04996,
+        "spectral_centroid_hz": 968.14,
+        "onset_strength": 1.26258,
+        "spectral_flatness": 0.00251
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07016,
+        "spectral_centroid_hz": 806.98,
+        "onset_strength": 1.05538,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05835,
+        "spectral_centroid_hz": 1122.88,
+        "onset_strength": 1.26735,
+        "spectral_flatness": 0.00409
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07114,
+        "spectral_centroid_hz": 794.97,
+        "onset_strength": 1.22128,
+        "spectral_flatness": 0.0026
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04541,
+        "spectral_centroid_hz": 1189.79,
+        "onset_strength": 1.31266,
+        "spectral_flatness": 0.00638
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06441,
+        "spectral_centroid_hz": 845.09,
+        "onset_strength": 1.17797,
+        "spectral_flatness": 0.00368
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07347,
+        "spectral_centroid_hz": 1116.2,
+        "onset_strength": 1.06522,
+        "spectral_flatness": 0.00251
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06619,
+        "spectral_centroid_hz": 1555.86,
+        "onset_strength": 1.16118,
+        "spectral_flatness": 0.00473
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07723,
+        "spectral_centroid_hz": 1251.93,
+        "onset_strength": 1.0757,
+        "spectral_flatness": 0.00166
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "78add05e-dcdb-4005-99b6-44f274d3a398",
+      "title": "Winding Snake",
+      "artist": "Portico Quartet",
+      "duration_ms": 363000,
+      "first_release_date": "2020-05-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "78add05e-dcdb-4005-99b6-44f274d3a398",
+      "duration_sec": 363.990203857,
+      "sample_rate": 44100,
+      "tempo_bpm": 84.5408554077,
+      "danceability": 1.09277558327,
+      "onset_rate": 2.36808228493,
+      "beats_count": 534,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0371220819652,
+      "dynamic_complexity": 6.13841962814,
+      "average_loudness": 0.360578596592,
+      "spectral_centroid_mean": 1077.94506836,
+      "spectral_flux_mean": 0.0752933695912,
+      "spectral_rolloff_mean": 906.70501709,
+      "dissonance_mean": 0.427072048187,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
