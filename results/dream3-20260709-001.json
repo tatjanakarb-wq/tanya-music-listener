@@ -1,0 +1,91 @@
+{
+  "request": {
+    "artist": "Anna Meredith",
+    "track": "R-Type",
+    "request_id": "dream3-20260709-001"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ed6bae82-54b9-4944-8c53-53791e68efd0",
+      "title": "R-Type",
+      "artist": "Anna Meredith",
+      "duration_ms": 282000,
+      "first_release_date": "2016-03-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ed6bae82-54b9-4944-8c53-53791e68efd0",
+      "title": "R-Type",
+      "artist": "Anna Meredith",
+      "duration_ms": 282000,
+      "first_release_date": "2016-03-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ed6bae82-54b9-4944-8c53-53791e68efd0",
+      "duration_sec": 286.104003906,
+      "sample_rate": 48000,
+      "tempo_bpm": 135.927215576,
+      "danceability": 1.31353843212,
+      "onset_rate": 4.56807279587,
+      "beats_count": 644,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0558260306716,
+      "dynamic_complexity": 4.94217252731,
+      "average_loudness": 0.897075772285,
+      "spectral_centroid_mean": 977.224243164,
+      "spectral_flux_mean": 0.116719909012,
+      "spectral_rolloff_mean": 1007.27539062,
+      "dissonance_mean": 0.466422498226,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "ed6bae82-54b9-4944-8c53-53791e68efd0",
+    "title": "R-Type",
+    "artist": "Anna Meredith",
+    "duration_ms": 282000,
+    "first_release_date": "2016-03-04",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "ed6bae82-54b9-4944-8c53-53791e68efd0",
+    "duration_sec": 286.104003906,
+    "sample_rate": 48000,
+    "tempo_bpm": 135.927215576,
+    "danceability": 1.31353843212,
+    "onset_rate": 4.56807279587,
+    "beats_count": 644,
+    "key": "F",
+    "scale": "major",
+    "chords_changes_rate": 0.0558260306716,
+    "dynamic_complexity": 4.94217252731,
+    "average_loudness": 0.897075772285,
+    "spectral_centroid_mean": 977.224243164,
+    "spectral_flux_mean": 0.116719909012,
+    "spectral_rolloff_mean": 1007.27539062,
+    "dissonance_mean": 0.466422498226,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}
