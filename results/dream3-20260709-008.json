@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Park Jiha",
+    "track": "At Dawn",
+    "request_id": "dream3-20260709-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f663dd7a-9047-4a2b-97e7-7a74274ad3a2",
+      "title": "At Dawn",
+      "artist": "Park Jiha",
+      "duration_ms": null,
+      "first_release_date": "2022-02-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Park Jiha",
+    "track": "At Dawn",
+    "album": "The Gleam",
+    "duration_ms": 332097,
+    "release_date": "2022-02-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d4/da/5a/d4da5a34-6d34-1a02-6545-9fad50f420f7/mzaf_12860289841913106301.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/at-dawn/1593189979?i=1593189981&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/at-dawn/1593189979?i=1593189981&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d4/da/5a/d4da5a34-6d34-1a02-6545-9fad50f420f7/mzaf_12860289841913106301.plus.aac.p.m4a",
+      "bytes": 1043384,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0501,
+    "onset_rate_per_sec": 5.24574,
+    "dynamic_range_db_p95_p10": 17.802,
+    "crest_factor_db": 13.892,
+    "rms_mean": 0.02799,
+    "rms_std": 0.01895,
+    "spectral_centroid_hz_mean": 2407.09,
+    "spectral_centroid_hz_std": 714.45,
+    "spectral_bandwidth_hz_mean": 2166.85,
+    "spectral_rolloff_hz_mean": 4791.38,
+    "spectral_flatness_mean": 0.00032,
+    "spectral_contrast_mean": 30.25642,
+    "energy_share": {
+      "below_150_hz": 4e-05,
+      "150_to_2000_hz": 0.99136,
+      "above_2000_hz": 0.00859
+    },
+    "percussive_share": 0.0206,
+    "tonal_entropy_bits": 2.1544,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 1.38419
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01399,
+        "spectral_centroid_hz": 2964.3,
+        "onset_strength": 0.48548,
+        "spectral_flatness": 0.00034
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02658,
+        "spectral_centroid_hz": 2877.44,
+        "onset_strength": 0.64543,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01959,
+        "spectral_centroid_hz": 2363.0,
+        "onset_strength": 0.69183,
+        "spectral_flatness": 0.00034
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.00806,
+        "spectral_centroid_hz": 2715.53,
+        "onset_strength": 0.46669,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.02754,
+        "spectral_centroid_hz": 2855.77,
+        "onset_strength": 0.6066,
+        "spectral_flatness": 0.00063
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04426,
+        "spectral_centroid_hz": 2055.08,
+        "onset_strength": 0.71572,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.01709,
+        "spectral_centroid_hz": 1722.14,
+        "onset_strength": 0.58888,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05645,
+        "spectral_centroid_hz": 2450.7,
+        "onset_strength": 0.69499,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04352,
+        "spectral_centroid_hz": 1431.02,
+        "onset_strength": 0.59171,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.01683,
+        "spectral_centroid_hz": 2588.91,
+        "onset_strength": 0.64002,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.02965,
+        "spectral_centroid_hz": 3214.85,
+        "onset_strength": 0.69195,
+        "spectral_flatness": 0.00074
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.03216,
+        "spectral_centroid_hz": 1647.59,
+        "onset_strength": 0.68212,
+        "spectral_flatness": 0.00014
+      }
+    ]
+  }
+}
