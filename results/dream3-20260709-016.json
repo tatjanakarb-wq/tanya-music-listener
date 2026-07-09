@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Daniel Herskedal",
+    "track": "The Mistral Noir",
+    "request_id": "dream3-20260709-016"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "41798ee2-5c39-4a55-a9e3-b2006af2022d",
+      "title": "The Mistral Noir",
+      "artist": "Daniel Herskedal",
+      "duration_ms": 251666,
+      "first_release_date": "2015-03-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "4b93254e-77c3-4137-a4e2-b5a099a0e215",
+      "title": "The Mistral Noir",
+      "artist": "Daniel Herskedal",
+      "duration_ms": 251666,
+      "first_release_date": "2021-04-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Daniel Herskedal",
+    "track": "The Mistral Noir",
+    "album": "Slow Eastbound Train",
+    "duration_ms": 251667,
+    "release_date": "2010-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/2c/9c/732c9c2f-e086-ab94-96a5-9dbbecefe7e5/mzaf_9356591556799265491.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-mistral-noir/973468266?i=973468267&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-mistral-noir/973468266?i=973468267&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/2c/9c/732c9c2f-e086-ab94-96a5-9dbbecefe7e5/mzaf_9356591556799265491.plus.aac.p.m4a",
+      "bytes": 1016489,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.06389,
+    "onset_rate_per_sec": 3.77559,
+    "dynamic_range_db_p95_p10": 11.029,
+    "crest_factor_db": 18.129,
+    "rms_mean": 0.0352,
+    "rms_std": 0.0148,
+    "spectral_centroid_hz_mean": 474.44,
+    "spectral_centroid_hz_std": 110.1,
+    "spectral_bandwidth_hz_mean": 770.45,
+    "spectral_rolloff_hz_mean": 679.34,
+    "spectral_flatness_mean": 3e-05,
+    "spectral_contrast_mean": 21.33636,
+    "energy_share": {
+      "below_150_hz": 0.25516,
+      "150_to_2000_hz": 0.74474,
+      "above_2000_hz": 0.0001
+    },
+    "percussive_share": 0.13398,
+    "tonal_entropy_bits": 3.50037,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.68635
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03237,
+        "spectral_centroid_hz": 657.37,
+        "onset_strength": 0.85344,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02719,
+        "spectral_centroid_hz": 539.62,
+        "onset_strength": 0.94834,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02942,
+        "spectral_centroid_hz": 456.01,
+        "onset_strength": 0.86104,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.02635,
+        "spectral_centroid_hz": 399.25,
+        "onset_strength": 0.7535,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.02935,
+        "spectral_centroid_hz": 405.38,
+        "onset_strength": 0.80119,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03462,
+        "spectral_centroid_hz": 445.38,
+        "onset_strength": 0.88263,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02897,
+        "spectral_centroid_hz": 413.59,
+        "onset_strength": 0.81219,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.03676,
+        "spectral_centroid_hz": 445.11,
+        "onset_strength": 0.93042,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04498,
+        "spectral_centroid_hz": 460.62,
+        "onset_strength": 0.87464,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.04654,
+        "spectral_centroid_hz": 517.64,
+        "onset_strength": 0.89689,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.03187,
+        "spectral_centroid_hz": 393.64,
+        "onset_strength": 0.81725,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05384,
+        "spectral_centroid_hz": 559.55,
+        "onset_strength": 0.91504,
+        "spectral_flatness": 4e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "41798ee2-5c39-4a55-a9e3-b2006af2022d",
+      "title": "The Mistral Noir",
+      "artist": "Daniel Herskedal",
+      "duration_ms": 251666,
+      "first_release_date": "2015-03-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "41798ee2-5c39-4a55-a9e3-b2006af2022d",
+      "duration_sec": 251.715911865,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.950622559,
+      "danceability": 0.905252277851,
+      "onset_rate": 2.1809296608,
+      "beats_count": 501,
+      "key": "D#",
+      "scale": "major",
+      "chords_changes_rate": 0.0595721118152,
+      "dynamic_complexity": 4.90409517288,
+      "average_loudness": 0.312592923641,
+      "spectral_centroid_mean": 358.121276855,
+      "spectral_flux_mean": 0.0430357269943,
+      "spectral_rolloff_mean": 493.699829102,
+      "dissonance_mean": 0.330751955509,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
