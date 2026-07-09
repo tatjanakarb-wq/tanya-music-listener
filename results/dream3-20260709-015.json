@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Laurence Pike",
+    "track": "Daughter of Mars",
+    "request_id": "dream3-20260709-015"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ada1b700-c41b-4e86-8e22-a1765b930641",
+      "title": "Daughter of Mars",
+      "artist": "Laurence Pike",
+      "duration_ms": 220384,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Laurence Pike",
+    "track": "Daughter of Mars",
+    "album": "Holy Spring",
+    "duration_ms": 220384,
+    "release_date": "2019-05-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d8/b8/d0/d8b8d006-9dba-044b-61d7-b7d7808de684/mzaf_10589285697068019151.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/daughter-of-mars/1451666227?i=1451666229&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/daughter-of-mars/1451666227?i=1451666229&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d8/b8/d0/d8b8d006-9dba-044b-61d7-b7d7808de684/mzaf_10589285697068019151.plus.aac.p.m4a",
+      "bytes": 1092584,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05809,
+    "onset_rate_per_sec": 5.47962,
+    "dynamic_range_db_p95_p10": 2.229,
+    "crest_factor_db": 12.15,
+    "rms_mean": 0.05847,
+    "rms_std": 0.00508,
+    "spectral_centroid_hz_mean": 809.96,
+    "spectral_centroid_hz_std": 212.45,
+    "spectral_bandwidth_hz_mean": 1244.82,
+    "spectral_rolloff_hz_mean": 1303.83,
+    "spectral_flatness_mean": 0.00037,
+    "spectral_contrast_mean": 22.61191,
+    "energy_share": {
+      "below_150_hz": 0.16261,
+      "150_to_2000_hz": 0.83352,
+      "above_2000_hz": 0.00388
+    },
+    "percussive_share": 0.11765,
+    "tonal_entropy_bits": 3.1103,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.73,
+      "relative_score": 1.08734
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05823,
+        "spectral_centroid_hz": 604.69,
+        "onset_strength": 0.80521,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05802,
+        "spectral_centroid_hz": 604.79,
+        "onset_strength": 0.83715,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05755,
+        "spectral_centroid_hz": 639.36,
+        "onset_strength": 0.82852,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06116,
+        "spectral_centroid_hz": 835.69,
+        "onset_strength": 0.80561,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05814,
+        "spectral_centroid_hz": 1208.51,
+        "onset_strength": 0.86102,
+        "spectral_flatness": 0.00085
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05879,
+        "spectral_centroid_hz": 1047.76,
+        "onset_strength": 0.86104,
+        "spectral_flatness": 0.00084
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05797,
+        "spectral_centroid_hz": 994.02,
+        "onset_strength": 0.82113,
+        "spectral_flatness": 0.00078
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05755,
+        "spectral_centroid_hz": 918.42,
+        "onset_strength": 0.81093,
+        "spectral_flatness": 0.00062
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06028,
+        "spectral_centroid_hz": 788.86,
+        "onset_strength": 0.79791,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05663,
+        "spectral_centroid_hz": 720.07,
+        "onset_strength": 0.81543,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05898,
+        "spectral_centroid_hz": 736.57,
+        "onset_strength": 0.79684,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05833,
+        "spectral_centroid_hz": 620.21,
+        "onset_strength": 0.82657,
+        "spectral_flatness": 0.0001
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ada1b700-c41b-4e86-8e22-a1765b930641",
+      "title": "Daughter of Mars",
+      "artist": "Laurence Pike",
+      "duration_ms": 220384,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ada1b700-c41b-4e86-8e22-a1765b930641",
+      "duration_sec": 220.421218872,
+      "sample_rate": 44100,
+      "tempo_bpm": 107.119232178,
+      "danceability": 1.40038740635,
+      "onset_rate": 0.966255247593,
+      "beats_count": 428,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.0237994939089,
+      "dynamic_complexity": 1.13321995735,
+      "average_loudness": 0.947145819664,
+      "spectral_centroid_mean": 510.323364258,
+      "spectral_flux_mean": 0.0649011805654,
+      "spectral_rolloff_mean": 624.436584473,
+      "dissonance_mean": 0.361165434122,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
