@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Sons Of Kemet",
+    "track": "To Never Forget the Source",
+    "request_id": "dream3-20260709-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "fdb2e1c7-e933-4761-9bb1-8019ad23f5b1",
+      "title": "To Never Forget the Source",
+      "artist": "Sons of Kemet",
+      "duration_ms": 175440,
+      "first_release_date": "2021-05-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Sons Of Kemet",
+    "track": "To Never Forget The Source",
+    "album": "Black To The Future",
+    "duration_ms": 175440,
+    "release_date": "2021-05-14T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/1a/7c/661a7c92-00ed-97ba-e083-dc0683527e33/mzaf_10044035977357643118.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/to-never-forget-the-source/1565071833?i=1565072043&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/to-never-forget-the-source/1565071833?i=1565072043&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/1a/7c/661a7c92-00ed-97ba-e083-dc0683527e33/mzaf_10044035977357643118.plus.aac.p.m4a",
+      "bytes": 983034,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 184.57,
+    "beat_interval_cv": 0.03632,
+    "onset_rate_per_sec": 5.37105,
+    "dynamic_range_db_p95_p10": 13.389,
+    "crest_factor_db": 11.8,
+    "rms_mean": 0.13395,
+    "rms_std": 0.06438,
+    "spectral_centroid_hz_mean": 923.68,
+    "spectral_centroid_hz_std": 381.98,
+    "spectral_bandwidth_hz_mean": 1537.31,
+    "spectral_rolloff_hz_mean": 1728.14,
+    "spectral_flatness_mean": 0.00158,
+    "spectral_contrast_mean": 18.30142,
+    "energy_share": {
+      "below_150_hz": 0.67694,
+      "150_to_2000_hz": 0.31972,
+      "above_2000_hz": 0.00334
+    },
+    "percussive_share": 0.34661,
+    "tonal_entropy_bits": 3.50562,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.74,
+      "relative_score": 0.67028
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12435,
+        "spectral_centroid_hz": 993.75,
+        "onset_strength": 2.10765,
+        "spectral_flatness": 0.00214
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.13425,
+        "spectral_centroid_hz": 860.9,
+        "onset_strength": 2.26895,
+        "spectral_flatness": 0.00138
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.13316,
+        "spectral_centroid_hz": 852.69,
+        "onset_strength": 1.98372,
+        "spectral_flatness": 0.0015
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.12874,
+        "spectral_centroid_hz": 907.25,
+        "onset_strength": 2.19482,
+        "spectral_flatness": 0.00157
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.13382,
+        "spectral_centroid_hz": 871.84,
+        "onset_strength": 1.83684,
+        "spectral_flatness": 0.00134
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.143,
+        "spectral_centroid_hz": 849.42,
+        "onset_strength": 1.87864,
+        "spectral_flatness": 0.00123
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.13967,
+        "spectral_centroid_hz": 904.3,
+        "onset_strength": 1.73416,
+        "spectral_flatness": 0.00151
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.12652,
+        "spectral_centroid_hz": 965.74,
+        "onset_strength": 1.71127,
+        "spectral_flatness": 0.00204
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.13258,
+        "spectral_centroid_hz": 984.73,
+        "onset_strength": 1.72554,
+        "spectral_flatness": 0.00147
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.1356,
+        "spectral_centroid_hz": 977.5,
+        "onset_strength": 1.69035,
+        "spectral_flatness": 0.00146
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.13732,
+        "spectral_centroid_hz": 958.35,
+        "onset_strength": 1.73987,
+        "spectral_flatness": 0.00159
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.13823,
+        "spectral_centroid_hz": 958.09,
+        "onset_strength": 1.74505,
+        "spectral_flatness": 0.0018
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "fdb2e1c7-e933-4761-9bb1-8019ad23f5b1",
+      "title": "To Never Forget the Source",
+      "artist": "Sons of Kemet",
+      "duration_ms": 175440,
+      "first_release_date": "2021-05-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "fdb2e1c7-e933-4761-9bb1-8019ad23f5b1",
+      "duration_sec": 175.439971924,
+      "sample_rate": 96000,
+      "tempo_bpm": 92.174911499,
+      "danceability": 1.56908798218,
+      "onset_rate": 4.75317716599,
+      "beats_count": 268,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0767398774624,
+      "dynamic_complexity": 4.62023973465,
+      "average_loudness": 0.896541416645,
+      "spectral_centroid_mean": 467.489379883,
+      "spectral_flux_mean": 0.0923239737749,
+      "spectral_rolloff_mean": 443.99887085,
+      "dissonance_mean": 0.414261609316,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
