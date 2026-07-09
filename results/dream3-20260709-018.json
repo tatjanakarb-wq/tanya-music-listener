@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Dawn of Midi",
+    "track": "Moon",
+    "request_id": "dream3-20260709-018"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9df9d865-0d60-423f-8617-8292640e0269",
+      "title": "Moon",
+      "artist": "Dawn of Midi",
+      "duration_ms": 304000,
+      "first_release_date": "2013-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Dawn of Midi",
+    "track": "Moon",
+    "album": "Dysnomia",
+    "duration_ms": 303943,
+    "release_date": "2013-08-06T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/97/08/98970849-98f4-2aba-addd-ffba522446ec/mzaf_18213614905224480333.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/moon/1451055198?i=1451055567&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 57
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/moon/1451055198?i=1451055567&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/97/08/98970849-98f4-2aba-addd-ffba522446ec/mzaf_18213614905224480333.plus.aac.p.m4a",
+      "bytes": 977289,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 92.285,
+    "beat_interval_cv": 0.01803,
+    "onset_rate_per_sec": 3.93655,
+    "dynamic_range_db_p95_p10": 12.261,
+    "crest_factor_db": 11.57,
+    "rms_mean": 0.14426,
+    "rms_std": 0.07152,
+    "spectral_centroid_hz_mean": 484.69,
+    "spectral_centroid_hz_std": 439.45,
+    "spectral_bandwidth_hz_mean": 937.47,
+    "spectral_rolloff_hz_mean": 833.3,
+    "spectral_flatness_mean": 0.00088,
+    "spectral_contrast_mean": 18.56688,
+    "energy_share": {
+      "below_150_hz": 0.91652,
+      "150_to_2000_hz": 0.08182,
+      "above_2000_hz": 0.00166
+    },
+    "percussive_share": 0.28462,
+    "tonal_entropy_bits": 3.37491,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 1.20166
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1502,
+        "spectral_centroid_hz": 465.77,
+        "onset_strength": 1.58883,
+        "spectral_flatness": 0.00088
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.13479,
+        "spectral_centroid_hz": 489.15,
+        "onset_strength": 1.52435,
+        "spectral_flatness": 0.00098
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14517,
+        "spectral_centroid_hz": 489.72,
+        "onset_strength": 1.66903,
+        "spectral_flatness": 0.00102
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.14859,
+        "spectral_centroid_hz": 438.86,
+        "onset_strength": 1.54254,
+        "spectral_flatness": 0.00068
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.13739,
+        "spectral_centroid_hz": 485.38,
+        "onset_strength": 1.58882,
+        "spectral_flatness": 0.00083
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.1446,
+        "spectral_centroid_hz": 473.7,
+        "onset_strength": 1.59729,
+        "spectral_flatness": 0.00119
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.14681,
+        "spectral_centroid_hz": 476.22,
+        "onset_strength": 1.47886,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.14257,
+        "spectral_centroid_hz": 502.77,
+        "onset_strength": 1.32543,
+        "spectral_flatness": 0.00099
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.14729,
+        "spectral_centroid_hz": 484.49,
+        "onset_strength": 1.3588,
+        "spectral_flatness": 0.00068
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.14162,
+        "spectral_centroid_hz": 507.4,
+        "onset_strength": 1.45061,
+        "spectral_flatness": 0.00118
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.14118,
+        "spectral_centroid_hz": 469.71,
+        "onset_strength": 1.3241,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.15089,
+        "spectral_centroid_hz": 533.33,
+        "onset_strength": 1.497,
+        "spectral_flatness": 0.00094
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "9df9d865-0d60-423f-8617-8292640e0269",
+      "title": "Moon",
+      "artist": "Dawn of Midi",
+      "duration_ms": 304000,
+      "first_release_date": "2013-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "9df9d865-0d60-423f-8617-8292640e0269",
+      "duration_sec": 304.266662598,
+      "sample_rate": null,
+      "tempo_bpm": 93.8291778564,
+      "danceability": 1.72905802727,
+      "onset_rate": 4.50234460831,
+      "beats_count": 513,
+      "key": "G#",
+      "scale": "major",
+      "chords_changes_rate": 0.0437967330217,
+      "dynamic_complexity": 2.51753211021,
+      "average_loudness": 0.961948156357,
+      "spectral_centroid_mean": 284.721496582,
+      "spectral_flux_mean": 0.154841631651,
+      "spectral_rolloff_mean": 185.096572876,
+      "dissonance_mean": 0.359439909458,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
