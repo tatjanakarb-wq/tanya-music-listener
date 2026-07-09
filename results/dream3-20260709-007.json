@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Colin Stetson",
+    "track": "The Righteous Wrath of an Honorable Man",
+    "request_id": "dream3-20260709-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a46d4156-c3ee-4e67-8352-c4ab8f4df07b",
+      "title": "The righteous wrath of an honorable man",
+      "artist": "Colin Stetson",
+      "duration_ms": 147000,
+      "first_release_date": "2011-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6a6910b9-3403-449e-9264-68cabd8c4c79",
+      "title": "The Righteous Wrath of an Honorable Man",
+      "artist": "Colin Stetson",
+      "duration_ms": 175331,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c8a85b47-be22-4dde-ab74-85e0fb8c11de",
+      "title": "The Righteous Wrath of an Honorable Man",
+      "artist": "Colin Stetson",
+      "duration_ms": 149000,
+      "first_release_date": "2010-09-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "007b1a34-b39d-48b9-beb1-188f7480fcb4",
+      "title": "The righteous wrath of an honorable man",
+      "artist": "Colin Stetson",
+      "duration_ms": 147867,
+      "first_release_date": "2011-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3f05d9ab-9740-4a69-821f-983522320163",
+      "title": "The Righteous Wrath of an Honorable Man",
+      "artist": "Colin Stetson",
+      "duration_ms": 147000,
+      "first_release_date": "2015-09-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Colin Stetson",
+    "track": "The Righteous Wrath of an Honorable Man",
+    "album": "New History Warfare, Vol 2: Judges",
+    "duration_ms": 147867,
+    "release_date": "2011-02-21T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/da/56/a8/da56a89c-a1e3-c4bb-5c3d-65d36068bc5a/mzaf_13935536020360035485.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-righteous-wrath-of-an-honorable-man/482631565?i=482631698&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 867
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-righteous-wrath-of-an-honorable-man/482631565?i=482631698&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/da/56/a8/da56a89c-a1e3-c4bb-5c3d-65d36068bc5a/mzaf_13935536020360035485.plus.aac.p.m4a",
+      "bytes": 1126744,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.04802,
+    "onset_rate_per_sec": 6.74929,
+    "dynamic_range_db_p95_p10": 7.318,
+    "crest_factor_db": 15.354,
+    "rms_mean": 0.06593,
+    "rms_std": 0.0198,
+    "spectral_centroid_hz_mean": 1570.36,
+    "spectral_centroid_hz_std": 522.09,
+    "spectral_bandwidth_hz_mean": 1790.41,
+    "spectral_rolloff_hz_mean": 3120.75,
+    "spectral_flatness_mean": 0.00378,
+    "spectral_contrast_mean": 21.31539,
+    "energy_share": {
+      "below_150_hz": 0.1911,
+      "150_to_2000_hz": 0.73502,
+      "above_2000_hz": 0.07387
+    },
+    "percussive_share": 0.28446,
+    "tonal_entropy_bits": 3.5455,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 1.13451
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05753,
+        "spectral_centroid_hz": 1222.59,
+        "onset_strength": 1.41562,
+        "spectral_flatness": 0.00133
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05697,
+        "spectral_centroid_hz": 1648.59,
+        "onset_strength": 1.51036,
+        "spectral_flatness": 0.00371
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07246,
+        "spectral_centroid_hz": 1337.06,
+        "onset_strength": 1.48194,
+        "spectral_flatness": 0.00247
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06806,
+        "spectral_centroid_hz": 1476.55,
+        "onset_strength": 1.49096,
+        "spectral_flatness": 0.00351
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05854,
+        "spectral_centroid_hz": 1211.12,
+        "onset_strength": 1.51323,
+        "spectral_flatness": 0.00157
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06568,
+        "spectral_centroid_hz": 1654.89,
+        "onset_strength": 1.54224,
+        "spectral_flatness": 0.00345
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07906,
+        "spectral_centroid_hz": 1534.59,
+        "onset_strength": 1.43403,
+        "spectral_flatness": 0.00409
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07521,
+        "spectral_centroid_hz": 1771.97,
+        "onset_strength": 1.67024,
+        "spectral_flatness": 0.00566
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07526,
+        "spectral_centroid_hz": 1538.26,
+        "onset_strength": 1.67684,
+        "spectral_flatness": 0.0041
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06637,
+        "spectral_centroid_hz": 2283.84,
+        "onset_strength": 1.74326,
+        "spectral_flatness": 0.0089
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05949,
+        "spectral_centroid_hz": 1524.61,
+        "onset_strength": 1.51854,
+        "spectral_flatness": 0.00349
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05654,
+        "spectral_centroid_hz": 1636.58,
+        "onset_strength": 1.51029,
+        "spectral_flatness": 0.00301
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "a46d4156-c3ee-4e67-8352-c4ab8f4df07b",
+      "title": "The righteous wrath of an honorable man",
+      "artist": "Colin Stetson",
+      "duration_ms": 147000,
+      "first_release_date": "2011-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "a46d4156-c3ee-4e67-8352-c4ab8f4df07b",
+      "duration_sec": 147.866668701,
+      "sample_rate": 44100,
+      "tempo_bpm": 99.505317688,
+      "danceability": 1.12252533436,
+      "onset_rate": 3.1645591259,
+      "beats_count": 278,
+      "key": "E",
+      "scale": "major",
+      "chords_changes_rate": 0.0605775266886,
+      "dynamic_complexity": 3.25847792625,
+      "average_loudness": 0.821414887905,
+      "spectral_centroid_mean": 1078.10473633,
+      "spectral_flux_mean": 0.0853123962879,
+      "spectral_rolloff_mean": 1313.26904297,
+      "dissonance_mean": 0.425806164742,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
