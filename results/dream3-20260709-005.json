@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Nihiloxica",
+    "track": "Busoga",
+    "request_id": "dream3-20260709-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "3be92a72-622f-4437-8372-61c3587617d8",
+      "title": "Busoga",
+      "artist": "Nihiloxica",
+      "duration_ms": 339000,
+      "first_release_date": "2020-06-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "605d0d49-24ec-43ff-aa3b-3a1d954d7317",
+      "title": "Busoga (Spooky‐J’s Drum Appreciation Fix)",
+      "artist": "Nihiloxica",
+      "duration_ms": 264524,
+      "first_release_date": "2021-10-08",
+      "disambiguation": "",
+      "musicbrainz_score": 75,
+      "local_match_score": 0.5747
+    }
+  ],
+  "matched_recording": {
+    "artist": "Nihiloxica",
+    "track": "Busoga",
+    "album": "Kaloli",
+    "duration_ms": 339053,
+    "release_date": "2020-06-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/42/fd/b2/42fdb250-026c-8418-18e8-bcd10ebca6bd/mzaf_7900198737580804974.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/busoga/1516684257?i=1516684416&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 53
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/busoga/1516684257?i=1516684416&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/42/fd/b2/42fdb250-026c-8418-18e8-bcd10ebca6bd/mzaf_7900198737580804974.plus.aac.p.m4a",
+      "bytes": 1015755,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.02272,
+    "onset_rate_per_sec": 7.51777,
+    "dynamic_range_db_p95_p10": 6.652,
+    "crest_factor_db": 10.709,
+    "rms_mean": 0.17227,
+    "rms_std": 0.04662,
+    "spectral_centroid_hz_mean": 2064.35,
+    "spectral_centroid_hz_std": 403.88,
+    "spectral_bandwidth_hz_mean": 2556.13,
+    "spectral_rolloff_hz_mean": 4900.28,
+    "spectral_flatness_mean": 0.01777,
+    "spectral_contrast_mean": 16.65267,
+    "energy_share": {
+      "below_150_hz": 0.66001,
+      "150_to_2000_hz": 0.3084,
+      "above_2000_hz": 0.03159
+    },
+    "percussive_share": 0.37777,
+    "tonal_entropy_bits": 3.5686,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.22,
+      "relative_score": 1.09251
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.16809,
+        "spectral_centroid_hz": 1773.5,
+        "onset_strength": 2.37444,
+        "spectral_flatness": 0.0094
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.17145,
+        "spectral_centroid_hz": 1904.85,
+        "onset_strength": 2.46446,
+        "spectral_flatness": 0.01226
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.18531,
+        "spectral_centroid_hz": 2325.67,
+        "onset_strength": 1.37459,
+        "spectral_flatness": 0.02703
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.16384,
+        "spectral_centroid_hz": 1996.64,
+        "onset_strength": 1.71611,
+        "spectral_flatness": 0.01465
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.18796,
+        "spectral_centroid_hz": 1975.47,
+        "onset_strength": 2.07792,
+        "spectral_flatness": 0.01488
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.16557,
+        "spectral_centroid_hz": 2010.67,
+        "onset_strength": 1.44982,
+        "spectral_flatness": 0.01755
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.17194,
+        "spectral_centroid_hz": 2104.23,
+        "onset_strength": 1.71463,
+        "spectral_flatness": 0.01501
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.18423,
+        "spectral_centroid_hz": 2330.15,
+        "onset_strength": 1.23835,
+        "spectral_flatness": 0.02573
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.15942,
+        "spectral_centroid_hz": 2104.78,
+        "onset_strength": 1.76696,
+        "spectral_flatness": 0.01876
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.16596,
+        "spectral_centroid_hz": 2124.16,
+        "onset_strength": 1.9699,
+        "spectral_flatness": 0.02062
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.16982,
+        "spectral_centroid_hz": 2121.86,
+        "onset_strength": 1.37669,
+        "spectral_flatness": 0.02083
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.17328,
+        "spectral_centroid_hz": 1996.17,
+        "onset_strength": 1.49283,
+        "spectral_flatness": 0.01639
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "3be92a72-622f-4437-8372-61c3587617d8",
+      "title": "Busoga",
+      "artist": "Nihiloxica",
+      "duration_ms": 339000,
+      "first_release_date": "2020-06-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "3be92a72-622f-4437-8372-61c3587617d8",
+      "duration_sec": 339.09552002,
+      "sample_rate": 44100,
+      "tempo_bpm": 151.470230103,
+      "danceability": 1.2232298851,
+      "onset_rate": 5.9212808609,
+      "beats_count": 761,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0773654654622,
+      "dynamic_complexity": 3.27067255974,
+      "average_loudness": 0.909742534161,
+      "spectral_centroid_mean": 936.154968262,
+      "spectral_flux_mean": 0.103897131979,
+      "spectral_rolloff_mean": 610.213928223,
+      "dissonance_mean": 0.467442065477,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
