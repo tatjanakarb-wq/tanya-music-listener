@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Signal in the Noise",
+    "request_id": "dream3-20260709-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "58d0aec5-df18-4575-ad6b-cd56c913fc7d",
+      "title": "Signal in the Noise",
+      "artist": "GoGo Penguin",
+      "duration_ms": 363460,
+      "first_release_date": "2020-06-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "039ac7c2-7057-46cd-82bf-2bee4cca3be0",
+      "title": "Signal in the Noise (808 State remix)",
+      "artist": "GoGo Penguin",
+      "duration_ms": 336373,
+      "first_release_date": "2021-05-07",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.8281
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Signal In The Noise",
+    "album": "GoGo Penguin",
+    "duration_ms": 363461,
+    "release_date": "2020-06-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f4/68/18/f46818f5-5afb-0538-abcb-0b331c3e6a30/mzaf_9199911975167078031.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/signal-in-the-noise/1499870154?i=1499870347&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/signal-in-the-noise/1499870154?i=1499870347&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f4/68/18/f46818f5-5afb-0538-abcb-0b331c3e6a30/mzaf_9199911975167078031.plus.aac.p.m4a",
+      "bytes": 1163215,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 184.57,
+    "beat_interval_cv": 0.06078,
+    "onset_rate_per_sec": 5.94739,
+    "dynamic_range_db_p95_p10": 9.403,
+    "crest_factor_db": 12.431,
+    "rms_mean": 0.13031,
+    "rms_std": 0.04972,
+    "spectral_centroid_hz_mean": 1427.49,
+    "spectral_centroid_hz_std": 422.09,
+    "spectral_bandwidth_hz_mean": 2114.23,
+    "spectral_rolloff_hz_mean": 3129.66,
+    "spectral_flatness_mean": 0.00579,
+    "spectral_contrast_mean": 17.60942,
+    "energy_share": {
+      "below_150_hz": 0.71998,
+      "150_to_2000_hz": 0.27339,
+      "above_2000_hz": 0.00663
+    },
+    "percussive_share": 0.37295,
+    "tonal_entropy_bits": 3.54055,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.62805
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11392,
+        "spectral_centroid_hz": 1505.72,
+        "onset_strength": 1.46416,
+        "spectral_flatness": 0.00563
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11295,
+        "spectral_centroid_hz": 1653.1,
+        "onset_strength": 1.54024,
+        "spectral_flatness": 0.009
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12864,
+        "spectral_centroid_hz": 1489.81,
+        "onset_strength": 1.28421,
+        "spectral_flatness": 0.00651
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.13586,
+        "spectral_centroid_hz": 1329.32,
+        "onset_strength": 1.36254,
+        "spectral_flatness": 0.00425
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12698,
+        "spectral_centroid_hz": 1405.9,
+        "onset_strength": 1.40984,
+        "spectral_flatness": 0.00548
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.13477,
+        "spectral_centroid_hz": 1362.52,
+        "onset_strength": 1.3,
+        "spectral_flatness": 0.00486
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14058,
+        "spectral_centroid_hz": 1326.24,
+        "onset_strength": 1.34043,
+        "spectral_flatness": 0.00499
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13595,
+        "spectral_centroid_hz": 1472.12,
+        "onset_strength": 1.34359,
+        "spectral_flatness": 0.00651
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.13742,
+        "spectral_centroid_hz": 1323.0,
+        "onset_strength": 1.36587,
+        "spectral_flatness": 0.00478
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12864,
+        "spectral_centroid_hz": 1458.04,
+        "onset_strength": 1.36076,
+        "spectral_flatness": 0.00655
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13846,
+        "spectral_centroid_hz": 1449.0,
+        "onset_strength": 1.39622,
+        "spectral_flatness": 0.00572
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12961,
+        "spectral_centroid_hz": 1354.78,
+        "onset_strength": 1.38679,
+        "spectral_flatness": 0.00516
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "58d0aec5-df18-4575-ad6b-cd56c913fc7d",
+      "title": "Signal in the Noise",
+      "artist": "GoGo Penguin",
+      "duration_ms": 363460,
+      "first_release_date": "2020-06-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "58d0aec5-df18-4575-ad6b-cd56c913fc7d",
+      "duration_sec": 363.460754395,
+      "sample_rate": 96000,
+      "tempo_bpm": 135.011688232,
+      "danceability": 1.2766597271,
+      "onset_rate": 4.71561098099,
+      "beats_count": 784,
+      "key": "B",
+      "scale": "minor",
+      "chords_changes_rate": 0.0466274917126,
+      "dynamic_complexity": 4.05618238449,
+      "average_loudness": 0.812161803246,
+      "spectral_centroid_mean": 742.598083496,
+      "spectral_flux_mean": 0.11525721848,
+      "spectral_rolloff_mean": 690.199890137,
+      "dissonance_mean": 0.455216795206,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
