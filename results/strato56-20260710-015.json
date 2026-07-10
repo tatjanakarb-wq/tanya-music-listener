@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Ishmael Ensemble",
+    "track": "The Chapel",
+    "request_id": "strato56-20260710-015"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "28ffa59c-218c-49b8-8a8f-b0f39270b68d",
+      "title": "The Chapel",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 279000,
+      "first_release_date": "2018-06-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b3515d17-eb66-4e89-857d-a26d9d439502",
+      "title": "The Chapel",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 278774,
+      "first_release_date": "2018-06-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "49085b70-bb1e-4b5a-a5b7-f5f733d367cb",
+      "title": "The Chapel",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 278774,
+      "first_release_date": "2019-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7814fc75-eaf0-4c89-b766-ed8c98487bb0",
+      "title": "The Chapel",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 278000,
+      "first_release_date": "2019-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7a89a5ea-108e-4d6f-95d9-6021dc813ca9",
+      "title": "The Chapel (live from Maida Vale)",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 273920,
+      "first_release_date": "2020-03-17",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.7029
+    }
+  ],
+  "matched_recording": {
+    "artist": "Ishmael Ensemble",
+    "track": "The Chapel",
+    "album": "The Chapel - Single",
+    "duration_ms": 278774,
+    "release_date": "2018-06-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/3c/1d/5d3c1db8-3bd6-ce88-ac24-b893d7029e68/mzaf_16265643989257462726.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-chapel/1399534393?i=1399534395&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-chapel/1399534393?i=1399534395&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/3c/1d/5d3c1db8-3bd6-ce88-ac24-b893d7029e68/mzaf_16265643989257462726.plus.aac.p.m4a",
+      "bytes": 1073203,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.03102,
+    "onset_rate_per_sec": 5.44621,
+    "dynamic_range_db_p95_p10": 5.99,
+    "crest_factor_db": 14.708,
+    "rms_mean": 0.05473,
+    "rms_std": 0.01264,
+    "spectral_centroid_hz_mean": 1359.19,
+    "spectral_centroid_hz_std": 224.6,
+    "spectral_bandwidth_hz_mean": 1701.31,
+    "spectral_rolloff_hz_mean": 2671.37,
+    "spectral_flatness_mean": 0.00233,
+    "spectral_contrast_mean": 20.61571,
+    "energy_share": {
+      "below_150_hz": 0.05283,
+      "150_to_2000_hz": 0.91514,
+      "above_2000_hz": 0.03203
+    },
+    "percussive_share": 0.20766,
+    "tonal_entropy_bits": 3.43265,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.73,
+      "relative_score": 0.9116
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05444,
+        "spectral_centroid_hz": 1334.77,
+        "onset_strength": 1.01316,
+        "spectral_flatness": 0.00242
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05981,
+        "spectral_centroid_hz": 1411.12,
+        "onset_strength": 0.90821,
+        "spectral_flatness": 0.00269
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0632,
+        "spectral_centroid_hz": 1244.92,
+        "onset_strength": 0.90805,
+        "spectral_flatness": 0.00149
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06086,
+        "spectral_centroid_hz": 1406.19,
+        "onset_strength": 0.95019,
+        "spectral_flatness": 0.00223
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05174,
+        "spectral_centroid_hz": 1407.21,
+        "onset_strength": 0.87031,
+        "spectral_flatness": 0.0028
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05293,
+        "spectral_centroid_hz": 1387.3,
+        "onset_strength": 0.8835,
+        "spectral_flatness": 0.00252
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05004,
+        "spectral_centroid_hz": 1542.43,
+        "onset_strength": 0.96177,
+        "spectral_flatness": 0.00306
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05294,
+        "spectral_centroid_hz": 1424.98,
+        "onset_strength": 0.91065,
+        "spectral_flatness": 0.00245
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04305,
+        "spectral_centroid_hz": 1460.37,
+        "onset_strength": 0.92207,
+        "spectral_flatness": 0.00282
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0505,
+        "spectral_centroid_hz": 1373.64,
+        "onset_strength": 0.89373,
+        "spectral_flatness": 0.00303
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.059,
+        "spectral_centroid_hz": 1216.88,
+        "onset_strength": 0.91065,
+        "spectral_flatness": 0.00158
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.0582,
+        "spectral_centroid_hz": 1102.73,
+        "onset_strength": 0.86773,
+        "spectral_flatness": 0.0009
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b3515d17-eb66-4e89-857d-a26d9d439502",
+      "title": "The Chapel",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 278774,
+      "first_release_date": "2018-06-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b3515d17-eb66-4e89-857d-a26d9d439502",
+      "duration_sec": 278.804901123,
+      "sample_rate": 44100,
+      "tempo_bpm": 127.848953247,
+      "danceability": 1.14289438725,
+      "onset_rate": 2.56791687012,
+      "beats_count": 594,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0358034968376,
+      "dynamic_complexity": 5.95508527756,
+      "average_loudness": 0.0862739980221,
+      "spectral_centroid_mean": 739.991760254,
+      "spectral_flux_mean": 0.0692992061377,
+      "spectral_rolloff_mean": 754.399597168,
+      "dissonance_mean": 0.447790324688,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
