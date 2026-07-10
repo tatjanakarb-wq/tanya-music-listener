@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "East London Street",
+    "request_id": "strato56-20260710-016"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "eac7f4cf-e546-4e8c-b107-c600cc6c4587",
+      "title": "East London Street",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 673000,
+      "first_release_date": "2017-06-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f4a8270a-fdd1-47c1-9d70-2ac75a26221a",
+      "title": "East London Street (edit)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 238400,
+      "first_release_date": "2017-09-17",
+      "disambiguation": "",
+      "musicbrainz_score": 93,
+      "local_match_score": 0.9293
+    },
+    {
+      "mbid": "701019c8-da4b-43d4-a99f-34b123fc9e92",
+      "title": "East London Street (No Drums version)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 238858,
+      "first_release_date": "2017-09-17",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.814
+    },
+    {
+      "mbid": "2076541b-e98a-489a-b1a6-e04692db4bca",
+      "title": "East London Street (Drums Only version)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 161960,
+      "first_release_date": "2017-09-17",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.7996
+    },
+    {
+      "mbid": "906ecd1c-8681-43d3-99c0-2a929b288f46",
+      "title": "East London Street (Hidden Orchestra remix)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 430760,
+      "first_release_date": "2018-01-26",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.7739
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hidden Orchestra",
+    "track": "East London Street",
+    "album": "Dawn Chorus",
+    "duration_ms": 673787,
+    "release_date": "2017-06-16T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/45/d8/8f/45d88f9f-1c1f-1267-c190-3cf1f43ca273/mzaf_4688474467358891111.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/east-london-street/1373971245?i=1373971826&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 787
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/east-london-street/1373971245?i=1373971826&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/45/d8/8f/45d88f9f-1c1f-1267-c190-3cf1f43ca273/mzaf_4688474467358891111.plus.aac.p.m4a",
+      "bytes": 1104302,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.06,
+    "onset_rate_per_sec": 5.34597,
+    "dynamic_range_db_p95_p10": 20.103,
+    "crest_factor_db": 16.507,
+    "rms_mean": 0.03572,
+    "rms_std": 0.02568,
+    "spectral_centroid_hz_mean": 1136.17,
+    "spectral_centroid_hz_std": 497.66,
+    "spectral_bandwidth_hz_mean": 1899.32,
+    "spectral_rolloff_hz_mean": 2456.71,
+    "spectral_flatness_mean": 0.00126,
+    "spectral_contrast_mean": 19.74671,
+    "energy_share": {
+      "below_150_hz": 0.74416,
+      "150_to_2000_hz": 0.25305,
+      "above_2000_hz": 0.00279
+    },
+    "percussive_share": 0.10053,
+    "tonal_entropy_bits": 3.254,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.17323
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03632,
+        "spectral_centroid_hz": 1952.85,
+        "onset_strength": 0.9416,
+        "spectral_flatness": 0.00158
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00758,
+        "spectral_centroid_hz": 1485.17,
+        "onset_strength": 0.85614,
+        "spectral_flatness": 0.00206
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04203,
+        "spectral_centroid_hz": 520.69,
+        "onset_strength": 0.93384,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0149,
+        "spectral_centroid_hz": 1203.71,
+        "onset_strength": 0.91127,
+        "spectral_flatness": 0.00289
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03917,
+        "spectral_centroid_hz": 781.97,
+        "onset_strength": 0.93912,
+        "spectral_flatness": 0.00041
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.02369,
+        "spectral_centroid_hz": 978.6,
+        "onset_strength": 0.87913,
+        "spectral_flatness": 0.00139
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0357,
+        "spectral_centroid_hz": 962.63,
+        "onset_strength": 0.99053,
+        "spectral_flatness": 0.00106
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02916,
+        "spectral_centroid_hz": 1110.61,
+        "onset_strength": 0.9844,
+        "spectral_flatness": 0.002
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.03612,
+        "spectral_centroid_hz": 844.69,
+        "onset_strength": 0.91297,
+        "spectral_flatness": 0.00042
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06017,
+        "spectral_centroid_hz": 988.56,
+        "onset_strength": 1.01155,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04617,
+        "spectral_centroid_hz": 1482.81,
+        "onset_strength": 1.00999,
+        "spectral_flatness": 0.00182
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05713,
+        "spectral_centroid_hz": 1330.56,
+        "onset_strength": 1.00186,
+        "spectral_flatness": 0.00098
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "eac7f4cf-e546-4e8c-b107-c600cc6c4587",
+      "title": "East London Street",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 673000,
+      "first_release_date": "2017-06-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "eac7f4cf-e546-4e8c-b107-c600cc6c4587",
+      "duration_sec": 673.828552246,
+      "sample_rate": 44100,
+      "tempo_bpm": 99.7622756958,
+      "danceability": 1.11426985264,
+      "onset_rate": 2.93094944954,
+      "beats_count": 1263,
+      "key": "G",
+      "scale": "minor",
+      "chords_changes_rate": 0.0562332011759,
+      "dynamic_complexity": 13.4860105515,
+      "average_loudness": 0.0193869285285,
+      "spectral_centroid_mean": 1394.04406738,
+      "spectral_flux_mean": 0.0557227320969,
+      "spectral_rolloff_mean": 1684.2244873,
+      "dissonance_mean": 0.447619706392,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
