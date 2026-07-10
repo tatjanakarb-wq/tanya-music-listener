@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Anna Meredith",
+    "track": "Paramour",
+    "request_id": "strato56-20260710-018"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f102b8e2-4f8d-4dc9-be8e-a4b5db52647d",
+      "title": "Paramour",
+      "artist": "Anna Meredith",
+      "duration_ms": 296457,
+      "first_release_date": "2019-07-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "db498696-7a78-4eb5-b240-700fbfcba4bd",
+      "title": "Paramour",
+      "artist": "Anna Meredith",
+      "duration_ms": 304000,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2f93b6a6-bd68-4921-9710-68d748c4395b",
+      "title": "Paramour (edit)",
+      "artist": "Anna Meredith",
+      "duration_ms": 259000,
+      "first_release_date": "2019-07-10",
+      "disambiguation": "",
+      "musicbrainz_score": 93,
+      "local_match_score": 0.8619
+    }
+  ],
+  "matched_recording": {
+    "artist": "Anna Meredith",
+    "track": "Paramour",
+    "album": "FIBS",
+    "duration_ms": 296457,
+    "release_date": "2019-07-10T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/f5/09/95f50978-5422-d481-252e-55fb07dfa904/mzaf_9284616874036009724.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/paramour/1798525826?i=1798526156&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/paramour/1798525826?i=1798526156&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/f5/09/95f50978-5422-d481-252e-55fb07dfa904/mzaf_9284616874036009724.plus.aac.p.m4a",
+      "bytes": 1118736,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.00601,
+    "onset_rate_per_sec": 7.50613,
+    "dynamic_range_db_p95_p10": 13.697,
+    "crest_factor_db": 14.722,
+    "rms_mean": 0.09402,
+    "rms_std": 0.05891,
+    "spectral_centroid_hz_mean": 1757.99,
+    "spectral_centroid_hz_std": 455.26,
+    "spectral_bandwidth_hz_mean": 2411.56,
+    "spectral_rolloff_hz_mean": 4161.4,
+    "spectral_flatness_mean": 0.01048,
+    "spectral_contrast_mean": 17.04802,
+    "energy_share": {
+      "below_150_hz": 0.77489,
+      "150_to_2000_hz": 0.21375,
+      "above_2000_hz": 0.01136
+    },
+    "percussive_share": 0.40937,
+    "tonal_entropy_bits": 3.56506,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 0.80251
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05921,
+        "spectral_centroid_hz": 1395.74,
+        "onset_strength": 2.15666,
+        "spectral_flatness": 0.00487
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.06248,
+        "spectral_centroid_hz": 1532.11,
+        "onset_strength": 2.22591,
+        "spectral_flatness": 0.00658
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07677,
+        "spectral_centroid_hz": 1583.31,
+        "onset_strength": 2.03756,
+        "spectral_flatness": 0.0062
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.07527,
+        "spectral_centroid_hz": 1632.65,
+        "onset_strength": 1.92473,
+        "spectral_flatness": 0.00736
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.07366,
+        "spectral_centroid_hz": 1659.81,
+        "onset_strength": 2.00952,
+        "spectral_flatness": 0.0075
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.07697,
+        "spectral_centroid_hz": 1573.03,
+        "onset_strength": 2.0236,
+        "spectral_flatness": 0.00656
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.07219,
+        "spectral_centroid_hz": 1828.18,
+        "onset_strength": 1.86859,
+        "spectral_flatness": 0.01083
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.07322,
+        "spectral_centroid_hz": 1740.49,
+        "onset_strength": 2.01451,
+        "spectral_flatness": 0.00991
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.12746,
+        "spectral_centroid_hz": 2075.61,
+        "onset_strength": 1.66865,
+        "spectral_flatness": 0.01518
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.13791,
+        "spectral_centroid_hz": 2049.56,
+        "onset_strength": 1.55057,
+        "spectral_flatness": 0.01772
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.14712,
+        "spectral_centroid_hz": 1910.68,
+        "onset_strength": 1.58323,
+        "spectral_flatness": 0.01172
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.14555,
+        "spectral_centroid_hz": 2111.36,
+        "onset_strength": 1.54074,
+        "spectral_flatness": 0.0213
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f102b8e2-4f8d-4dc9-be8e-a4b5db52647d",
+      "title": "Paramour",
+      "artist": "Anna Meredith",
+      "duration_ms": 296457,
+      "first_release_date": "2019-07-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f102b8e2-4f8d-4dc9-be8e-a4b5db52647d",
+      "duration_sec": 296.456542969,
+      "sample_rate": 44100,
+      "tempo_bpm": 87.866607666,
+      "danceability": 1.15499353409,
+      "onset_rate": 4.86385965347,
+      "beats_count": 432,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0516836345196,
+      "dynamic_complexity": 4.5056643486,
+      "average_loudness": 0.503165364265,
+      "spectral_centroid_mean": 1250.71020508,
+      "spectral_flux_mean": 0.0864767357707,
+      "spectral_rolloff_mean": 1189.60925293,
+      "dissonance_mean": 0.460451811552,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
