@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Jaimie Branch",
+    "track": "nuevo roquero estéreo",
+    "request_id": "strato56-20260710-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c0edfe63-ffcc-4566-837b-f1beb064a619",
+      "title": "nuevo roquero estéreo",
+      "artist": "Jaimie Branch",
+      "duration_ms": 478000,
+      "first_release_date": "2021-05-21",
+      "disambiguation": "live, 2020-01-23: Moods, Zurich, Switzerland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "599c5792-056a-474b-92cf-c57a07e82cf9",
+      "title": "nuevo roquero estéreo",
+      "artist": "jaimie branch",
+      "duration_ms": 493514,
+      "first_release_date": "2019-10-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "4777458a-e528-4c23-8c79-bbbb45bf63f2",
+      "title": "Nuevo Roquero Estéreo (Roberto Carlos Lange remix)",
+      "artist": "jaimie branch",
+      "duration_ms": 352000,
+      "first_release_date": "2025-11-20",
+      "disambiguation": "",
+      "musicbrainz_score": 79,
+      "local_match_score": 0.773
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaimie Branch",
+    "track": "Nuevo Roquero Estéreo",
+    "album": "Fly or Die II: Bird Dogs of Paradise",
+    "duration_ms": 493514,
+    "release_date": "2019-10-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5a/84/f8/5a84f89e-3864-0ee0-7311-c9ef642fdd38/mzaf_14015918790192182801.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/nuevo-roquero-est%C3%A9reo/1473067567?i=1473067799&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/nuevo-roquero-est%C3%A9reo/1473067567?i=1473067799&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5a/84/f8/5a84f89e-3864-0ee0-7311-c9ef642fdd38/mzaf_14015918790192182801.plus.aac.p.m4a",
+      "bytes": 1215560,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.02571,
+    "onset_rate_per_sec": 6.14787,
+    "dynamic_range_db_p95_p10": 12.531,
+    "crest_factor_db": 13.262,
+    "rms_mean": 0.10564,
+    "rms_std": 0.05171,
+    "spectral_centroid_hz_mean": 1928.18,
+    "spectral_centroid_hz_std": 664.0,
+    "spectral_bandwidth_hz_mean": 2506.53,
+    "spectral_rolloff_hz_mean": 4515.3,
+    "spectral_flatness_mean": 0.01304,
+    "spectral_contrast_mean": 18.60339,
+    "energy_share": {
+      "below_150_hz": 0.63755,
+      "150_to_2000_hz": 0.33944,
+      "above_2000_hz": 0.023
+    },
+    "percussive_share": 0.32893,
+    "tonal_entropy_bits": 3.52278,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.76128
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1108,
+        "spectral_centroid_hz": 1748.87,
+        "onset_strength": 1.80525,
+        "spectral_flatness": 0.01304
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10335,
+        "spectral_centroid_hz": 1830.07,
+        "onset_strength": 1.86058,
+        "spectral_flatness": 0.01141
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0964,
+        "spectral_centroid_hz": 1914.74,
+        "onset_strength": 1.95764,
+        "spectral_flatness": 0.01568
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10455,
+        "spectral_centroid_hz": 1850.81,
+        "onset_strength": 1.90707,
+        "spectral_flatness": 0.01187
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10022,
+        "spectral_centroid_hz": 1869.23,
+        "onset_strength": 1.83783,
+        "spectral_flatness": 0.01388
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10253,
+        "spectral_centroid_hz": 1958.99,
+        "onset_strength": 1.81805,
+        "spectral_flatness": 0.01608
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10887,
+        "spectral_centroid_hz": 1971.56,
+        "onset_strength": 1.76437,
+        "spectral_flatness": 0.0117
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10429,
+        "spectral_centroid_hz": 1949.18,
+        "onset_strength": 1.77099,
+        "spectral_flatness": 0.01114
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10872,
+        "spectral_centroid_hz": 2007.93,
+        "onset_strength": 1.80336,
+        "spectral_flatness": 0.01327
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10647,
+        "spectral_centroid_hz": 1990.99,
+        "onset_strength": 1.69284,
+        "spectral_flatness": 0.01102
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10692,
+        "spectral_centroid_hz": 2063.2,
+        "onset_strength": 1.72547,
+        "spectral_flatness": 0.01595
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11466,
+        "spectral_centroid_hz": 1981.92,
+        "onset_strength": 1.66189,
+        "spectral_flatness": 0.01143
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "c0edfe63-ffcc-4566-837b-f1beb064a619",
+      "title": "nuevo roquero estéreo",
+      "artist": "Jaimie Branch",
+      "duration_ms": 478000,
+      "first_release_date": "2021-05-21",
+      "disambiguation": "live, 2020-01-23: Moods, Zurich, Switzerland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "c0edfe63-ffcc-4566-837b-f1beb064a619",
+      "duration_sec": 479.007354736,
+      "sample_rate": 44100,
+      "tempo_bpm": 126.490486145,
+      "danceability": 1.46360397339,
+      "onset_rate": 4.64273786545,
+      "beats_count": 1063,
+      "key": "E",
+      "scale": "major",
+      "chords_changes_rate": 0.0939317569137,
+      "dynamic_complexity": 2.96129322052,
+      "average_loudness": 0.814214110374,
+      "spectral_centroid_mean": 1123.18359375,
+      "spectral_flux_mean": 0.101694941521,
+      "spectral_rolloff_mean": 985.835388184,
+      "dissonance_mean": 0.462071359158,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
