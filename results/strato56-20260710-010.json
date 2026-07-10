@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "STUFF.",
+    "track": "Event Horizon",
+    "request_id": "strato56-20260710-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c271b187-b84b-4fbf-bdb3-74cea7e8a9c4",
+      "title": "Event Horizon",
+      "artist": "STUFF.",
+      "duration_ms": 280000,
+      "first_release_date": "2015-03-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "STUFF.",
+    "track": "Event Horizon",
+    "album": "STUFF.",
+    "duration_ms": 280810,
+    "release_date": "2015-03-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/3a/1c/7f3a1c44-9a71-01d2-1845-537f7e401724/mzaf_12122040830076233514.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/event-horizon/969170462?i=969170670&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 810
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/event-horizon/969170462?i=969170670&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/3a/1c/7f3a1c44-9a71-01d2-1845-537f7e401724/mzaf_12122040830076233514.plus.aac.p.m4a",
+      "bytes": 1049516,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.06089,
+    "onset_rate_per_sec": 4.00948,
+    "dynamic_range_db_p95_p10": 11.04,
+    "crest_factor_db": 11.646,
+    "rms_mean": 0.14291,
+    "rms_std": 0.06192,
+    "spectral_centroid_hz_mean": 1956.62,
+    "spectral_centroid_hz_std": 586.46,
+    "spectral_bandwidth_hz_mean": 2348.53,
+    "spectral_rolloff_hz_mean": 4257.57,
+    "spectral_flatness_mean": 0.01884,
+    "spectral_contrast_mean": 18.03455,
+    "energy_share": {
+      "below_150_hz": 0.43602,
+      "150_to_2000_hz": 0.53992,
+      "above_2000_hz": 0.02406
+    },
+    "percussive_share": 0.37519,
+    "tonal_entropy_bits": 3.4849,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.79584
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.14043,
+        "spectral_centroid_hz": 1880.01,
+        "onset_strength": 1.13991,
+        "spectral_flatness": 0.01569
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11717,
+        "spectral_centroid_hz": 1976.73,
+        "onset_strength": 1.13138,
+        "spectral_flatness": 0.01138
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14488,
+        "spectral_centroid_hz": 1865.26,
+        "onset_strength": 1.06337,
+        "spectral_flatness": 0.01394
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.13554,
+        "spectral_centroid_hz": 1823.23,
+        "onset_strength": 1.21746,
+        "spectral_flatness": 0.01096
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.1616,
+        "spectral_centroid_hz": 1908.23,
+        "onset_strength": 1.11696,
+        "spectral_flatness": 0.0166
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.13988,
+        "spectral_centroid_hz": 1765.69,
+        "onset_strength": 1.15055,
+        "spectral_flatness": 0.00918
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14602,
+        "spectral_centroid_hz": 1882.31,
+        "onset_strength": 1.11254,
+        "spectral_flatness": 0.01403
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12414,
+        "spectral_centroid_hz": 1986.79,
+        "onset_strength": 1.12513,
+        "spectral_flatness": 0.01323
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14958,
+        "spectral_centroid_hz": 2009.63,
+        "onset_strength": 1.13848,
+        "spectral_flatness": 0.01406
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12345,
+        "spectral_centroid_hz": 2106.87,
+        "onset_strength": 1.10786,
+        "spectral_flatness": 0.01803
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.1462,
+        "spectral_centroid_hz": 2545.35,
+        "onset_strength": 1.3263,
+        "spectral_flatness": 0.06932
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.18574,
+        "spectral_centroid_hz": 1731.14,
+        "onset_strength": 1.47433,
+        "spectral_flatness": 0.01983
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "c271b187-b84b-4fbf-bdb3-74cea7e8a9c4",
+      "title": "Event Horizon",
+      "artist": "STUFF.",
+      "duration_ms": 280000,
+      "first_release_date": "2015-03-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "c271b187-b84b-4fbf-bdb3-74cea7e8a9c4",
+      "duration_sec": 280.842437744,
+      "sample_rate": 44100,
+      "tempo_bpm": 92.0317306519,
+      "danceability": 1.20089697838,
+      "onset_rate": 3.48932051659,
+      "beats_count": 502,
+      "key": "G#",
+      "scale": "minor",
+      "chords_changes_rate": 0.050917506218,
+      "dynamic_complexity": 7.09906959534,
+      "average_loudness": 0.455166190863,
+      "spectral_centroid_mean": 846.573059082,
+      "spectral_flux_mean": 0.0730870217085,
+      "spectral_rolloff_mean": 1036.67163086,
+      "dissonance_mean": 0.451010197401,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
