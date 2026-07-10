@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Elephant9",
+    "track": "Dodovoodoo",
+    "request_id": "strato56-20260710-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f1f74c55-9f52-4652-a077-272f0fdc0939",
+      "title": "Dodovoodoo",
+      "artist": "Elephant9",
+      "duration_ms": 641000,
+      "first_release_date": "2011",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "98610ea7-8191-4d72-aada-2305183046e0",
+      "title": "Dodovoodoo",
+      "artist": "Elephant9",
+      "duration_ms": 671917,
+      "first_release_date": "2019-05-31",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "14cb5d86-dbe3-465d-b769-ab349389975b",
+      "title": "Dodovoodoo",
+      "artist": "Elephant9",
+      "duration_ms": 312053,
+      "first_release_date": "2008-05-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7e2d7325-da86-4a34-92c9-a6c55bb24cfb",
+      "title": "Dodovoodoo",
+      "artist": "Elephant9",
+      "duration_ms": 314346,
+      "first_release_date": "2008",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c790b4ab-4e96-4833-b54d-eb59d1184f0b",
+      "title": "Dodovoodoo",
+      "artist": "Elephant9 Terje Rypdal",
+      "duration_ms": 1272053,
+      "first_release_date": "2024-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.8239
+    }
+  ],
+  "matched_recording": {
+    "artist": "Elephant9",
+    "track": "Dodovoodoo",
+    "album": "Dodovoodoo",
+    "duration_ms": 312040,
+    "release_date": "2008-05-26T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/60/26/12/60261252-a473-3c9c-d424-70056eba8456/mzaf_18397777672949819453.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/dodovoodoo/297999551?i=297999558&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 13
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/dodovoodoo/297999551?i=297999558&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/60/26/12/60261252-a473-3c9c-d424-70056eba8456/mzaf_18397777672949819453.plus.aac.p.m4a",
+      "bytes": 1044687,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.04892,
+    "onset_rate_per_sec": 5.47962,
+    "dynamic_range_db_p95_p10": 11.719,
+    "crest_factor_db": 12.984,
+    "rms_mean": 0.12542,
+    "rms_std": 0.05219,
+    "spectral_centroid_hz_mean": 2595.14,
+    "spectral_centroid_hz_std": 724.54,
+    "spectral_bandwidth_hz_mean": 2777.66,
+    "spectral_rolloff_hz_mean": 5917.18,
+    "spectral_flatness_mean": 0.03879,
+    "spectral_contrast_mean": 16.77475,
+    "energy_share": {
+      "below_150_hz": 0.60642,
+      "150_to_2000_hz": 0.35182,
+      "above_2000_hz": 0.04176
+    },
+    "percussive_share": 0.33426,
+    "tonal_entropy_bits": 3.53149,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.57577
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08341,
+        "spectral_centroid_hz": 2586.96,
+        "onset_strength": 2.02726,
+        "spectral_flatness": 0.04786
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08343,
+        "spectral_centroid_hz": 3193.3,
+        "onset_strength": 1.57005,
+        "spectral_flatness": 0.05461
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09281,
+        "spectral_centroid_hz": 3063.57,
+        "onset_strength": 1.52838,
+        "spectral_flatness": 0.06194
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09468,
+        "spectral_centroid_hz": 2597.61,
+        "onset_strength": 1.70926,
+        "spectral_flatness": 0.03833
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.13701,
+        "spectral_centroid_hz": 2612.27,
+        "onset_strength": 1.46994,
+        "spectral_flatness": 0.03992
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.16904,
+        "spectral_centroid_hz": 2247.56,
+        "onset_strength": 1.31092,
+        "spectral_flatness": 0.02009
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.15348,
+        "spectral_centroid_hz": 2352.2,
+        "onset_strength": 1.76897,
+        "spectral_flatness": 0.01972
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11462,
+        "spectral_centroid_hz": 2820.49,
+        "onset_strength": 1.64307,
+        "spectral_flatness": 0.04464
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.0903,
+        "spectral_centroid_hz": 3121.03,
+        "onset_strength": 1.58257,
+        "spectral_flatness": 0.06989
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13336,
+        "spectral_centroid_hz": 2659.02,
+        "onset_strength": 1.38649,
+        "spectral_flatness": 0.04182
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.17196,
+        "spectral_centroid_hz": 2091.75,
+        "onset_strength": 1.22087,
+        "spectral_flatness": 0.01733
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.18069,
+        "spectral_centroid_hz": 1796.18,
+        "onset_strength": 1.38403,
+        "spectral_flatness": 0.00926
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "14cb5d86-dbe3-465d-b769-ab349389975b",
+      "title": "Dodovoodoo",
+      "artist": "Elephant9",
+      "duration_ms": 312053,
+      "first_release_date": "2008-05-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "14cb5d86-dbe3-465d-b769-ab349389975b",
+      "duration_sec": 312.111022949,
+      "sample_rate": 44100,
+      "tempo_bpm": 178.206573486,
+      "danceability": 1.15776252747,
+      "onset_rate": 3.50182890892,
+      "beats_count": 919,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0840523689985,
+      "dynamic_complexity": 3.03131771088,
+      "average_loudness": 0.894419848919,
+      "spectral_centroid_mean": 1036.22875977,
+      "spectral_flux_mean": 0.158182471991,
+      "spectral_rolloff_mean": 5462.42773438,
+      "dissonance_mean": 0.473151177168,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
