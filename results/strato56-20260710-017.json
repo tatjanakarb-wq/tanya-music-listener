@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Spiral Era",
+    "request_id": "strato56-20260710-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "92388e57-e4e3-42f9-bc93-a8cd31918a9b",
+      "title": "Spiral Era",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 488000,
+      "first_release_date": "2020-06-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "36b18e8e-04d3-4440-aab2-c1936c346d6d",
+      "title": "Spiral Era",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 489000,
+      "first_release_date": "2020-04-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c4020f68-69de-473f-b57c-c41be38df75d",
+      "title": "Spiral Era",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 522000,
+      "first_release_date": "2021-06-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "1fe3abfe-49c9-4826-b757-1b2ff7ade443",
+      "title": "Spiral Era (Prins Thomas remix)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 677000,
+      "first_release_date": "2020-06-22",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7174
+    },
+    {
+      "mbid": "a787ed10-ef2b-412f-a6de-b9a0e1631799",
+      "title": "Spiral Era (Prins Thomas remix)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 677000,
+      "first_release_date": "2021-11-05",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7174
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Spiral Era",
+    "album": "Pyramid",
+    "duration_ms": 488905,
+    "release_date": "2020-08-07T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/da/ac/d8daac0a-371f-81f1-fafd-312f1891c071/mzaf_4466505508843961955.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/spiral-era/1499638879?i=1499638883&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 95
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/spiral-era/1499638879?i=1499638883&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/da/ac/d8daac0a-371f-81f1-fafd-312f1891c071/mzaf_4466505508843961955.plus.aac.p.m4a",
+      "bytes": 1128694,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.05709,
+    "onset_rate_per_sec": 4.77796,
+    "dynamic_range_db_p95_p10": 32.651,
+    "crest_factor_db": 15.62,
+    "rms_mean": 0.07398,
+    "rms_std": 0.06234,
+    "spectral_centroid_hz_mean": 2321.67,
+    "spectral_centroid_hz_std": 1092.74,
+    "spectral_bandwidth_hz_mean": 2524.29,
+    "spectral_rolloff_hz_mean": 5038.31,
+    "spectral_flatness_mean": 0.07486,
+    "spectral_contrast_mean": 16.34132,
+    "energy_share": {
+      "below_150_hz": 0.72722,
+      "150_to_2000_hz": 0.25773,
+      "above_2000_hz": 0.01505
+    },
+    "percussive_share": 0.42498,
+    "tonal_entropy_bits": 3.57254,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.31858
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02922,
+        "spectral_centroid_hz": 2908.38,
+        "onset_strength": 2.30622,
+        "spectral_flatness": 0.19595
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03946,
+        "spectral_centroid_hz": 2859.65,
+        "onset_strength": 2.28605,
+        "spectral_flatness": 0.10668
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03219,
+        "spectral_centroid_hz": 3081.79,
+        "onset_strength": 2.39279,
+        "spectral_flatness": 0.1342
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0372,
+        "spectral_centroid_hz": 3111.55,
+        "onset_strength": 2.21798,
+        "spectral_flatness": 0.13743
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04045,
+        "spectral_centroid_hz": 2868.4,
+        "onset_strength": 2.13773,
+        "spectral_flatness": 0.10644
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.02864,
+        "spectral_centroid_hz": 3006.38,
+        "onset_strength": 2.30065,
+        "spectral_flatness": 0.12364
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0806,
+        "spectral_centroid_hz": 2151.0,
+        "onset_strength": 2.06625,
+        "spectral_flatness": 0.06111
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13191,
+        "spectral_centroid_hz": 1517.95,
+        "onset_strength": 1.5385,
+        "spectral_flatness": 0.00518
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11085,
+        "spectral_centroid_hz": 1685.78,
+        "onset_strength": 1.26944,
+        "spectral_flatness": 0.00881
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11526,
+        "spectral_centroid_hz": 1446.19,
+        "onset_strength": 1.44362,
+        "spectral_flatness": 0.00614
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12913,
+        "spectral_centroid_hz": 1437.84,
+        "onset_strength": 1.6512,
+        "spectral_flatness": 0.0042
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11232,
+        "spectral_centroid_hz": 1793.54,
+        "onset_strength": 1.29995,
+        "spectral_flatness": 0.00953
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "36b18e8e-04d3-4440-aab2-c1936c346d6d",
+      "title": "Spiral Era",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 489000,
+      "first_release_date": "2020-04-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "36b18e8e-04d3-4440-aab2-c1936c346d6d",
+      "duration_sec": 488.920806885,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.973136902,
+      "danceability": 1.20466780663,
+      "onset_rate": 4.96581792831,
+      "beats_count": 976,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.0566001906991,
+      "dynamic_complexity": 3.23426198959,
+      "average_loudness": 0.815566420555,
+      "spectral_centroid_mean": 777.928466797,
+      "spectral_flux_mean": 0.0967032238841,
+      "spectral_rolloff_mean": 748.01940918,
+      "dissonance_mean": 0.445977330208,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
