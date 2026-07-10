@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Clark",
+    "track": "Lambent Rag",
+    "request_id": "strato56-20260710-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "78dfb10d-e298-4eaf-a92c-8a2ccac9acc5",
+      "title": "Lambent Rag",
+      "artist": "Clark",
+      "duration_ms": 204000,
+      "first_release_date": "2021-03-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Clark",
+    "track": "Lambent Rag",
+    "album": "Playground In A Lake",
+    "duration_ms": 204124,
+    "release_date": "2021-02-26T08:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/cc/68/aacc6850-59a0-faca-7020-34b7c412cf86/mzaf_11197989865052470288.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/lambent-rag/1547612956?i=1547612958&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 124
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/lambent-rag/1547612956?i=1547612958&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/cc/68/aacc6850-59a0-faca-7020-34b7c412cf86/mzaf_11197989865052470288.plus.aac.p.m4a",
+      "bytes": 1027826,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 92.285,
+    "beat_interval_cv": 0.03837,
+    "onset_rate_per_sec": 5.21232,
+    "dynamic_range_db_p95_p10": 17.091,
+    "crest_factor_db": 16.301,
+    "rms_mean": 0.0675,
+    "rms_std": 0.04099,
+    "spectral_centroid_hz_mean": 557.83,
+    "spectral_centroid_hz_std": 212.46,
+    "spectral_bandwidth_hz_mean": 1189.45,
+    "spectral_rolloff_hz_mean": 639.2,
+    "spectral_flatness_mean": 0.00022,
+    "spectral_contrast_mean": 19.43709,
+    "energy_share": {
+      "below_150_hz": 0.2866,
+      "150_to_2000_hz": 0.71326,
+      "above_2000_hz": 0.00014
+    },
+    "percussive_share": 0.37346,
+    "tonal_entropy_bits": 3.51246,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.53204
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07356,
+        "spectral_centroid_hz": 494.56,
+        "onset_strength": 1.19845,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06507,
+        "spectral_centroid_hz": 583.73,
+        "onset_strength": 1.40114,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06499,
+        "spectral_centroid_hz": 474.29,
+        "onset_strength": 1.12623,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05514,
+        "spectral_centroid_hz": 468.2,
+        "onset_strength": 1.08384,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05254,
+        "spectral_centroid_hz": 483.74,
+        "onset_strength": 0.97553,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05994,
+        "spectral_centroid_hz": 430.8,
+        "onset_strength": 1.04488,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06636,
+        "spectral_centroid_hz": 417.77,
+        "onset_strength": 1.0171,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07022,
+        "spectral_centroid_hz": 648.28,
+        "onset_strength": 1.37983,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07787,
+        "spectral_centroid_hz": 670.52,
+        "onset_strength": 1.44515,
+        "spectral_flatness": 0.00035
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06512,
+        "spectral_centroid_hz": 645.74,
+        "onset_strength": 1.31,
+        "spectral_flatness": 0.00026
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08132,
+        "spectral_centroid_hz": 695.1,
+        "onset_strength": 1.53307,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07792,
+        "spectral_centroid_hz": 679.92,
+        "onset_strength": 1.44025,
+        "spectral_flatness": 0.00036
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "78dfb10d-e298-4eaf-a92c-8a2ccac9acc5",
+      "title": "Lambent Rag",
+      "artist": "Clark",
+      "duration_ms": 204000,
+      "first_release_date": "2021-03-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "78dfb10d-e298-4eaf-a92c-8a2ccac9acc5",
+      "duration_sec": 204.173065186,
+      "sample_rate": 44100,
+      "tempo_bpm": 91.9776992798,
+      "danceability": 1.2752815485,
+      "onset_rate": 4.16289806366,
+      "beats_count": 323,
+      "key": "D#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0675306990743,
+      "dynamic_complexity": 4.32896280289,
+      "average_loudness": 0.50004285574,
+      "spectral_centroid_mean": 502.34954834,
+      "spectral_flux_mean": 0.0694096386433,
+      "spectral_rolloff_mean": 616.483642578,
+      "dissonance_mean": 0.375890612602,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
