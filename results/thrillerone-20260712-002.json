@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Oceansize",
+    "track": "Trail of Fire",
+    "request_id": "thrillerone-20260712-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9bee3615-984e-4c77-8ad1-330512a18a1e",
+      "title": "Trail of Fire",
+      "artist": "Oceansize",
+      "duration_ms": 511000,
+      "first_release_date": "2008-05-19",
+      "disambiguation": "live, 2008-02-16: O2 Arena, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "9b619ae2-aae0-417e-b1ee-630be42a753c",
+      "title": "Trail of Fire",
+      "artist": "Oceansize",
+      "duration_ms": 522679,
+      "first_release_date": "2009-09-28",
+      "disambiguation": "live, 2008-10-18: The Roadhouse, Manchester, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6e179771-f0a8-4c18-ae49-024cf7becce5",
+      "title": "Trail of Fire",
+      "artist": "Oceansize",
+      "duration_ms": 527000,
+      "first_release_date": "2008-05-19",
+      "disambiguation": "live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "9c7dfbe0-8c34-4597-a885-c46b8d2dc33b",
+      "title": "Trail of Fire",
+      "artist": "Oceansize",
+      "duration_ms": 486880,
+      "first_release_date": "2007-09-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Oceansize",
+    "track": "Trail Of Fire",
+    "album": "FRAMES (Deluxe Edition 2024)",
+    "duration_ms": 486880,
+    "release_date": "2007-09-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/50/20/13502043-a6b4-e771-fd63-6fb0a70a8377/mzaf_6660544489089491072.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/trail-of-fire/1788532051?i=1788532058&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 24120
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/trail-of-fire/1788532051?i=1788532058&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/50/20/13502043-a6b4-e771-fd63-6fb0a70a8377/mzaf_6660544489089491072.plus.aac.p.m4a",
+      "bytes": 1012450,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.05321,
+    "onset_rate_per_sec": 4.33687,
+    "dynamic_range_db_p95_p10": 6.541,
+    "crest_factor_db": 13.615,
+    "rms_mean": 0.11652,
+    "rms_std": 0.02813,
+    "spectral_centroid_hz_mean": 1851.86,
+    "spectral_centroid_hz_std": 541.78,
+    "spectral_bandwidth_hz_mean": 2075.97,
+    "spectral_rolloff_hz_mean": 3189.93,
+    "spectral_flatness_mean": 0.01122,
+    "spectral_contrast_mean": 22.43074,
+    "energy_share": {
+      "below_150_hz": 0.19852,
+      "150_to_2000_hz": 0.69463,
+      "above_2000_hz": 0.10685
+    },
+    "percussive_share": 0.24943,
+    "tonal_entropy_bits": 3.48433,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.24,
+      "relative_score": 0.91806
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08166,
+        "spectral_centroid_hz": 1548.1,
+        "onset_strength": 0.97994,
+        "spectral_flatness": 0.00472
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.08789,
+        "spectral_centroid_hz": 1571.28,
+        "onset_strength": 0.87791,
+        "spectral_flatness": 0.00351
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09384,
+        "spectral_centroid_hz": 1821.11,
+        "onset_strength": 1.08606,
+        "spectral_flatness": 0.0096
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.13524,
+        "spectral_centroid_hz": 1817.84,
+        "onset_strength": 0.92982,
+        "spectral_flatness": 0.0057
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.11856,
+        "spectral_centroid_hz": 1962.21,
+        "onset_strength": 1.1361,
+        "spectral_flatness": 0.01377
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.13307,
+        "spectral_centroid_hz": 1861.51,
+        "onset_strength": 0.87672,
+        "spectral_flatness": 0.00635
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.12579,
+        "spectral_centroid_hz": 2131.77,
+        "onset_strength": 1.16018,
+        "spectral_flatness": 0.01672
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.12675,
+        "spectral_centroid_hz": 1797.46,
+        "onset_strength": 0.93752,
+        "spectral_flatness": 0.01285
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.11722,
+        "spectral_centroid_hz": 2300.59,
+        "onset_strength": 1.15307,
+        "spectral_flatness": 0.03577
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.11093,
+        "spectral_centroid_hz": 1761.19,
+        "onset_strength": 0.95127,
+        "spectral_flatness": 0.00844
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.13321,
+        "spectral_centroid_hz": 1878.22,
+        "onset_strength": 1.06629,
+        "spectral_flatness": 0.01029
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1336,
+        "spectral_centroid_hz": 1767.66,
+        "onset_strength": 1.05029,
+        "spectral_flatness": 0.00687
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "9c7dfbe0-8c34-4597-a885-c46b8d2dc33b",
+      "title": "Trail of Fire",
+      "artist": "Oceansize",
+      "duration_ms": 486880,
+      "first_release_date": "2007-09-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "9c7dfbe0-8c34-4597-a885-c46b8d2dc33b",
+      "duration_sec": 486.897399902,
+      "sample_rate": 44100,
+      "tempo_bpm": 156.045288086,
+      "danceability": 1.12567019463,
+      "onset_rate": 1.90383934975,
+      "beats_count": 1279,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0693305358291,
+      "dynamic_complexity": 1.69483888149,
+      "average_loudness": 0.915653765202,
+      "spectral_centroid_mean": 947.645751953,
+      "spectral_flux_mean": 0.148086383939,
+      "spectral_rolloff_mean": 16979.9628906,
+      "dissonance_mean": 0.460114151239,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
