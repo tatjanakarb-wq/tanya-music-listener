@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Susanne Sundfør",
+    "track": "Memorial",
+    "request_id": "heartone-20260712-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b128610f-25f0-4a66-ae98-07bcd67d389a",
+      "title": "Memorial",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 606107,
+      "first_release_date": "2015-02-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Susanne Sundfør",
+    "track": "Memorial",
+    "album": "Ten Love Songs",
+    "duration_ms": 606107,
+    "release_date": "2015-02-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/66/dc/67/66dc67a1-ed8f-b256-8058-972d6e773c69/mzaf_5394649477710687836.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/memorial/1697860291?i=1697861002&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/memorial/1697860291?i=1697861002&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/66/dc/67/66dc67a1-ed8f-b256-8058-972d6e773c69/mzaf_5394649477710687836.plus.aac.p.m4a",
+      "bytes": 1014888,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.04897,
+    "onset_rate_per_sec": 1.46786,
+    "dynamic_range_db_p95_p10": 6.234,
+    "crest_factor_db": 15.269,
+    "rms_mean": 0.05321,
+    "rms_std": 0.0133,
+    "spectral_centroid_hz_mean": 1108.27,
+    "spectral_centroid_hz_std": 769.35,
+    "spectral_bandwidth_hz_mean": 1629.24,
+    "spectral_rolloff_hz_mean": 1920.7,
+    "spectral_flatness_mean": 0.00174,
+    "spectral_contrast_mean": 23.34789,
+    "energy_share": {
+      "below_150_hz": 0.07655,
+      "150_to_2000_hz": 0.90823,
+      "above_2000_hz": 0.01522
+    },
+    "percussive_share": 0.13755,
+    "tonal_entropy_bits": 3.13761,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.80425
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04506,
+        "spectral_centroid_hz": 1046.69,
+        "onset_strength": 0.73342,
+        "spectral_flatness": 0.00055
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.0549,
+        "spectral_centroid_hz": 904.8,
+        "onset_strength": 0.88386,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05565,
+        "spectral_centroid_hz": 464.9,
+        "onset_strength": 0.69531,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.04762,
+        "spectral_centroid_hz": 1083.05,
+        "onset_strength": 0.94779,
+        "spectral_flatness": 0.00154
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.05931,
+        "spectral_centroid_hz": 1570.58,
+        "onset_strength": 1.08346,
+        "spectral_flatness": 0.00359
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.05227,
+        "spectral_centroid_hz": 639.71,
+        "onset_strength": 0.6657,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.05288,
+        "spectral_centroid_hz": 1014.0,
+        "onset_strength": 1.02504,
+        "spectral_flatness": 0.0029
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.04329,
+        "spectral_centroid_hz": 831.07,
+        "onset_strength": 0.85488,
+        "spectral_flatness": 0.00067
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.05264,
+        "spectral_centroid_hz": 1888.82,
+        "onset_strength": 1.31263,
+        "spectral_flatness": 0.00673
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.04384,
+        "spectral_centroid_hz": 1096.59,
+        "onset_strength": 1.12136,
+        "spectral_flatness": 0.00097
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.07091,
+        "spectral_centroid_hz": 1468.66,
+        "onset_strength": 1.24692,
+        "spectral_flatness": 0.00175
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.05994,
+        "spectral_centroid_hz": 1285.48,
+        "onset_strength": 1.13828,
+        "spectral_flatness": 0.0015
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b128610f-25f0-4a66-ae98-07bcd67d389a",
+      "title": "Memorial",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 606107,
+      "first_release_date": "2015-02-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b128610f-25f0-4a66-ae98-07bcd67d389a",
+      "duration_sec": 606.145324707,
+      "sample_rate": 44100,
+      "tempo_bpm": 108.96219635,
+      "danceability": 0.869797110558,
+      "onset_rate": 1.37588131428,
+      "beats_count": 1142,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0266584958881,
+      "dynamic_complexity": 5.67765378952,
+      "average_loudness": 0.0142711522058,
+      "spectral_centroid_mean": 815.009033203,
+      "spectral_flux_mean": 0.0371648333967,
+      "spectral_rolloff_mean": 944.807250977,
+      "dissonance_mean": 0.413262844086,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
