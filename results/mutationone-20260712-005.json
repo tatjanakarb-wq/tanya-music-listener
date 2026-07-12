@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Ben Chatwin",
+    "track": "Knots",
+    "request_id": "mutationone-20260712-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f339915b-a195-48c9-bcfe-3d7d314fc7c7",
+      "title": "Knots",
+      "artist": "Ben Chatwin",
+      "duration_ms": 295307,
+      "first_release_date": "2018-07-06",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "9f9071f5-eaf2-49b5-979b-5fb923bd5677",
+      "title": "Knots (Pye Corner Audio Remix)",
+      "artist": "Ben Chatwin",
+      "duration_ms": 359453,
+      "first_release_date": "2019-04-12",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.5958
+    }
+  ],
+  "matched_recording": {
+    "artist": "Ben Chatwin",
+    "track": "Knots",
+    "album": "Staccato Signals",
+    "duration_ms": 295307,
+    "release_date": "2018-07-06T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/f8/30/37f83041-c13d-7f69-9c05-d08091bc37cb/mzaf_3356259202221753633.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/knots/1378460793?i=1378461163&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/knots/1378460793?i=1378461163&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/f8/30/37f83041-c13d-7f69-9c05-d08091bc37cb/mzaf_3356259202221753633.plus.aac.p.m4a",
+      "bytes": 1028171,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.03697,
+    "onset_rate_per_sec": 4.47725,
+    "dynamic_range_db_p95_p10": 11.539,
+    "crest_factor_db": 13.015,
+    "rms_mean": 0.11507,
+    "rms_std": 0.05374,
+    "spectral_centroid_hz_mean": 708.78,
+    "spectral_centroid_hz_std": 202.9,
+    "spectral_bandwidth_hz_mean": 1172.1,
+    "spectral_rolloff_hz_mean": 1316.5,
+    "spectral_flatness_mean": 0.0002,
+    "spectral_contrast_mean": 19.95457,
+    "energy_share": {
+      "below_150_hz": 0.84609,
+      "150_to_2000_hz": 0.15285,
+      "above_2000_hz": 0.00106
+    },
+    "percussive_share": 0.20796,
+    "tonal_entropy_bits": 3.27788,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 1.04919
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1039,
+        "spectral_centroid_hz": 511.95,
+        "onset_strength": 1.0591,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.14578,
+        "spectral_centroid_hz": 512.02,
+        "onset_strength": 1.03499,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12443,
+        "spectral_centroid_hz": 710.1,
+        "onset_strength": 1.05115,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.12573,
+        "spectral_centroid_hz": 747.14,
+        "onset_strength": 0.93593,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.11318,
+        "spectral_centroid_hz": 792.69,
+        "onset_strength": 0.97494,
+        "spectral_flatness": 0.00026
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12359,
+        "spectral_centroid_hz": 659.35,
+        "onset_strength": 0.90597,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11568,
+        "spectral_centroid_hz": 665.44,
+        "onset_strength": 1.14629,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11999,
+        "spectral_centroid_hz": 665.95,
+        "onset_strength": 0.94141,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10845,
+        "spectral_centroid_hz": 737.82,
+        "onset_strength": 0.90733,
+        "spectral_flatness": 0.00022
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10404,
+        "spectral_centroid_hz": 904.03,
+        "onset_strength": 0.93981,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10356,
+        "spectral_centroid_hz": 785.44,
+        "onset_strength": 0.94356,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09274,
+        "spectral_centroid_hz": 810.29,
+        "onset_strength": 1.06185,
+        "spectral_flatness": 0.00025
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f339915b-a195-48c9-bcfe-3d7d314fc7c7",
+      "title": "Knots",
+      "artist": "Ben Chatwin",
+      "duration_ms": 295307,
+      "first_release_date": "2018-07-06",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f339915b-a195-48c9-bcfe-3d7d314fc7c7",
+      "duration_sec": 295.306671143,
+      "sample_rate": 44100,
+      "tempo_bpm": 132.961090088,
+      "danceability": 1.1009837389,
+      "onset_rate": 2.92561030388,
+      "beats_count": 651,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0396226420999,
+      "dynamic_complexity": 3.88813114166,
+      "average_loudness": 0.598561406136,
+      "spectral_centroid_mean": 766.711364746,
+      "spectral_flux_mean": 0.097977489233,
+      "spectral_rolloff_mean": 649.215515137,
+      "dissonance_mean": 0.448236584663,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
