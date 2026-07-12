@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Anna von Hausswolff",
+    "track": "Ugly and Vengeful",
+    "request_id": "thrillerone-20260712-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "6f456b32-a35c-4f3b-a6c0-86b111aa22b3",
+      "title": "Ugly and Vengeful",
+      "artist": "Anna von Hausswolff",
+      "duration_ms": 1146000,
+      "first_release_date": "2022-01-14",
+      "disambiguation": "live, 2018-07-12: Montreux Jazz Festival 2018, Auditorium Stravinski, Montreux, Switzerland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e486ce2e-0233-40a3-86f4-0a281724ac2a",
+      "title": "Ugly and Vengeful",
+      "artist": "Anna von Hausswolff",
+      "duration_ms": 977000,
+      "first_release_date": "2018-03-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Anna von Hausswolff",
+    "track": "Ugly and Vengeful",
+    "album": "Dead Magic",
+    "duration_ms": 977227,
+    "release_date": "2018-03-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/3a/08/283a0826-ff7c-7ac6-c082-ea10c87c70a3/mzaf_11070699543900218734.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/ugly-and-vengeful/1837147293?i=1837147299&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 227
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/ugly-and-vengeful/1837147293?i=1837147299&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/3a/08/283a0826-ff7c-7ac6-c082-ea10c87c70a3/mzaf_11070699543900218734.plus.aac.p.m4a",
+      "bytes": 983986,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.04747,
+    "onset_rate_per_sec": 7.44517,
+    "dynamic_range_db_p95_p10": 36.225,
+    "crest_factor_db": 17.652,
+    "rms_mean": 0.00524,
+    "rms_std": 0.00454,
+    "spectral_centroid_hz_mean": 1083.01,
+    "spectral_centroid_hz_std": 997.83,
+    "spectral_bandwidth_hz_mean": 1706.62,
+    "spectral_rolloff_hz_mean": 2294.76,
+    "spectral_flatness_mean": 0.00318,
+    "spectral_contrast_mean": 17.72685,
+    "energy_share": {
+      "below_150_hz": 0.61081,
+      "150_to_2000_hz": 0.389,
+      "above_2000_hz": 0.00019
+    },
+    "percussive_share": 0.16591,
+    "tonal_entropy_bits": 2.71586,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 0.936
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 9e-05,
+        "spectral_centroid_hz": 3333.52,
+        "onset_strength": 0.17747,
+        "spectral_flatness": 0.01969
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00022,
+        "spectral_centroid_hz": 2693.72,
+        "onset_strength": 0.49633,
+        "spectral_flatness": 0.01004
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00029,
+        "spectral_centroid_hz": 2113.52,
+        "onset_strength": 0.54796,
+        "spectral_flatness": 0.00635
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.00077,
+        "spectral_centroid_hz": 1107.3,
+        "onset_strength": 0.62262,
+        "spectral_flatness": 0.00144
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.0022,
+        "spectral_centroid_hz": 575.03,
+        "onset_strength": 0.64408,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.00407,
+        "spectral_centroid_hz": 469.53,
+        "onset_strength": 0.74117,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.00572,
+        "spectral_centroid_hz": 409.3,
+        "onset_strength": 0.76944,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.00958,
+        "spectral_centroid_hz": 372.37,
+        "onset_strength": 0.82716,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.01076,
+        "spectral_centroid_hz": 413.43,
+        "onset_strength": 0.81196,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.00854,
+        "spectral_centroid_hz": 520.06,
+        "onset_strength": 0.85791,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.00865,
+        "spectral_centroid_hz": 541.79,
+        "onset_strength": 0.83732,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.01193,
+        "spectral_centroid_hz": 454.75,
+        "onset_strength": 0.84285,
+        "spectral_flatness": 8e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "6f456b32-a35c-4f3b-a6c0-86b111aa22b3",
+      "title": "Ugly and Vengeful",
+      "artist": "Anna von Hausswolff",
+      "duration_ms": 1146000,
+      "first_release_date": "2022-01-14",
+      "disambiguation": "live, 2018-07-12: Montreux Jazz Festival 2018, Auditorium Stravinski, Montreux, Switzerland",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "6f456b32-a35c-4f3b-a6c0-86b111aa22b3",
+      "duration_sec": 1146.7467041,
+      "sample_rate": 44100,
+      "tempo_bpm": 128.899551392,
+      "danceability": 1.11206316948,
+      "onset_rate": 1.5164411068,
+      "beats_count": 2380,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0384288318455,
+      "dynamic_complexity": 4.73417568207,
+      "average_loudness": 0.25160446763,
+      "spectral_centroid_mean": 1139.69311523,
+      "spectral_flux_mean": 0.0799811929464,
+      "spectral_rolloff_mean": 789.281066895,
+      "dissonance_mean": 0.464095890522,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
