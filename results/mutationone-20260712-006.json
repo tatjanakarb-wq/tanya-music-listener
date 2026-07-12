@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Amon Tobin",
+    "track": "Kitchen Sink",
+    "request_id": "mutationone-20260712-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d1469745-e801-4697-95fc-09741aa47d68",
+      "title": "Kitchen Sink",
+      "artist": "Amon Tobin",
+      "duration_ms": 287666,
+      "first_release_date": "2007-02-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "a2f4b77d-666a-41f6-9691-43aca826da79",
+      "title": "Kitchen Sink (Clark remix)",
+      "artist": "Amon Tobin",
+      "duration_ms": 262000,
+      "first_release_date": "2007-11-26",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.8067
+    },
+    {
+      "mbid": "fa37f26b-8ec8-4558-99b0-fb578880693c",
+      "title": "Kitchen Sink (Sixtoo remix)",
+      "artist": "Amon Tobin",
+      "duration_ms": 167933,
+      "first_release_date": "2007-11-26",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.7962
+    },
+    {
+      "mbid": "de0f1c04-1798-41de-9b68-699443036c8e",
+      "title": "Kitchen Sink (Noisia remix)",
+      "artist": "Amon Tobin",
+      "duration_ms": 271733,
+      "first_release_date": "2007-11-26",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.7962
+    },
+    {
+      "mbid": "235a6bed-f795-4c67-ab43-20f03943c86a",
+      "title": "Kitchen Sink (Boxcutter remix)",
+      "artist": "Amon Tobin",
+      "duration_ms": 277680,
+      "first_release_date": "2007-11-26",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.768
+    }
+  ],
+  "matched_recording": {
+    "artist": "Amon Tobin",
+    "track": "Kitchen Sink",
+    "album": "Foley Room",
+    "duration_ms": 287667,
+    "release_date": "2007-02-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/45/46/05454651-7a2f-5a1e-2334-bd36274658b2/mzaf_12250182205132010029.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/kitchen-sink/416320021?i=416320031&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/kitchen-sink/416320021?i=416320031&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/45/46/05454651-7a2f-5a1e-2334-bd36274658b2/mzaf_12250182205132010029.plus.aac.p.m4a",
+      "bytes": 1110476,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.07166,
+    "onset_rate_per_sec": 4.71114,
+    "dynamic_range_db_p95_p10": 26.111,
+    "crest_factor_db": 15.878,
+    "rms_mean": 0.07041,
+    "rms_std": 0.06876,
+    "spectral_centroid_hz_mean": 1976.45,
+    "spectral_centroid_hz_std": 1020.63,
+    "spectral_bandwidth_hz_mean": 2165.07,
+    "spectral_rolloff_hz_mean": 4033.19,
+    "spectral_flatness_mean": 0.02383,
+    "spectral_contrast_mean": 18.24378,
+    "energy_share": {
+      "below_150_hz": 0.79827,
+      "150_to_2000_hz": 0.17522,
+      "above_2000_hz": 0.02651
+    },
+    "percussive_share": 0.34719,
+    "tonal_entropy_bits": 3.55278,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.97825
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07359,
+        "spectral_centroid_hz": 1716.44,
+        "onset_strength": 1.94248,
+        "spectral_flatness": 0.00907
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04544,
+        "spectral_centroid_hz": 1727.45,
+        "onset_strength": 1.54816,
+        "spectral_flatness": 0.00851
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08072,
+        "spectral_centroid_hz": 1426.33,
+        "onset_strength": 1.73718,
+        "spectral_flatness": 0.00569
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07303,
+        "spectral_centroid_hz": 1742.01,
+        "onset_strength": 1.50363,
+        "spectral_flatness": 0.01051
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04502,
+        "spectral_centroid_hz": 2127.22,
+        "onset_strength": 1.59068,
+        "spectral_flatness": 0.01618
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06283,
+        "spectral_centroid_hz": 2046.89,
+        "onset_strength": 1.40175,
+        "spectral_flatness": 0.01176
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.09298,
+        "spectral_centroid_hz": 1796.21,
+        "onset_strength": 1.97333,
+        "spectral_flatness": 0.02291
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06813,
+        "spectral_centroid_hz": 2299.24,
+        "onset_strength": 2.12718,
+        "spectral_flatness": 0.04646
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07913,
+        "spectral_centroid_hz": 2071.78,
+        "onset_strength": 1.50426,
+        "spectral_flatness": 0.02344
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07341,
+        "spectral_centroid_hz": 2288.42,
+        "onset_strength": 2.16081,
+        "spectral_flatness": 0.05339
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08366,
+        "spectral_centroid_hz": 2157.0,
+        "onset_strength": 1.91572,
+        "spectral_flatness": 0.03798
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06714,
+        "spectral_centroid_hz": 2313.06,
+        "onset_strength": 1.88133,
+        "spectral_flatness": 0.03968
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d1469745-e801-4697-95fc-09741aa47d68",
+      "title": "Kitchen Sink",
+      "artist": "Amon Tobin",
+      "duration_ms": 287666,
+      "first_release_date": "2007-02-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d1469745-e801-4697-95fc-09741aa47d68",
+      "duration_sec": 287.687591553,
+      "sample_rate": 44100,
+      "tempo_bpm": 184.570510864,
+      "danceability": 1.11411488056,
+      "onset_rate": 4.03883314133,
+      "beats_count": 698,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.103615239263,
+      "dynamic_complexity": 6.62666988373,
+      "average_loudness": 0.593840718269,
+      "spectral_centroid_mean": 1290.4810791,
+      "spectral_flux_mean": 0.105897255242,
+      "spectral_rolloff_mean": 15246.7578125,
+      "dissonance_mean": 0.459341675043,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
