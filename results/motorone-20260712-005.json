@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Daniel Brandt",
+    "track": "Kale Me",
+    "request_id": "motorone-20260712-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b6b08e73-add8-4a40-9e50-a2c3118a049e",
+      "title": "Kale Me",
+      "artist": "Daniel Brandt",
+      "duration_ms": 390000,
+      "first_release_date": "2017-03-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0ca8b0a1-9249-4263-a0ec-eb721202b9e7",
+      "title": "Kale Me",
+      "artist": "Daniel Brandt",
+      "duration_ms": 389000,
+      "first_release_date": "2017-02-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Daniel Brandt",
+    "track": "Kale Me",
+    "album": "Eternal Something",
+    "duration_ms": 390440,
+    "release_date": "2017-02-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c4/bd/f1/c4bdf15a-af2c-61bc-d535-df8668d10ff9/mzaf_17888516510131661169.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/kale-me/1451154446?i=1451154604&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 440
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/kale-me/1451154446?i=1451154604&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c4/bd/f1/c4bdf15a-af2c-61bc-d535-df8668d10ff9/mzaf_17888516510131661169.plus.aac.p.m4a",
+      "bytes": 1091379,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.02483,
+    "onset_rate_per_sec": 7.55119,
+    "dynamic_range_db_p95_p10": 9.911,
+    "crest_factor_db": 19.359,
+    "rms_mean": 0.0228,
+    "rms_std": 0.00874,
+    "spectral_centroid_hz_mean": 738.22,
+    "spectral_centroid_hz_std": 80.32,
+    "spectral_bandwidth_hz_mean": 859.21,
+    "spectral_rolloff_hz_mean": 1310.33,
+    "spectral_flatness_mean": 0.00012,
+    "spectral_contrast_mean": 19.78794,
+    "energy_share": {
+      "below_150_hz": 0.26239,
+      "150_to_2000_hz": 0.73528,
+      "above_2000_hz": 0.00232
+    },
+    "percussive_share": 0.31748,
+    "tonal_entropy_bits": 3.5317,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.49881
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01653,
+        "spectral_centroid_hz": 763.15,
+        "onset_strength": 1.50936,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01622,
+        "spectral_centroid_hz": 753.87,
+        "onset_strength": 1.61367,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0152,
+        "spectral_centroid_hz": 767.58,
+        "onset_strength": 1.52376,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.01562,
+        "spectral_centroid_hz": 766.78,
+        "onset_strength": 1.50226,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.01691,
+        "spectral_centroid_hz": 749.49,
+        "onset_strength": 1.65106,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.02024,
+        "spectral_centroid_hz": 738.38,
+        "onset_strength": 1.5746,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02693,
+        "spectral_centroid_hz": 723.57,
+        "onset_strength": 1.40759,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02607,
+        "spectral_centroid_hz": 741.97,
+        "onset_strength": 1.28192,
+        "spectral_flatness": 0.00022
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.0295,
+        "spectral_centroid_hz": 685.9,
+        "onset_strength": 1.32203,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.02754,
+        "spectral_centroid_hz": 702.88,
+        "onset_strength": 1.45653,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.03018,
+        "spectral_centroid_hz": 748.77,
+        "onset_strength": 1.35404,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.03258,
+        "spectral_centroid_hz": 716.37,
+        "onset_strength": 1.33198,
+        "spectral_flatness": 0.00015
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b6b08e73-add8-4a40-9e50-a2c3118a049e",
+      "title": "Kale Me",
+      "artist": "Daniel Brandt",
+      "duration_ms": 390000,
+      "first_release_date": "2017-03-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b6b08e73-add8-4a40-9e50-a2c3118a049e",
+      "duration_sec": 390.480010986,
+      "sample_rate": 48000,
+      "tempo_bpm": 161.499526978,
+      "danceability": 1.11593365669,
+      "onset_rate": 5.93339443207,
+      "beats_count": 922,
+      "key": "F#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0587395951152,
+      "dynamic_complexity": 3.52316904068,
+      "average_loudness": 0.416817188263,
+      "spectral_centroid_mean": 913.939025879,
+      "spectral_flux_mean": 0.098914578557,
+      "spectral_rolloff_mean": 1064.92150879,
+      "dissonance_mean": 0.443740725517,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
