@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Mouse on the Keys",
+    "track": "Seiren",
+    "request_id": "motorone-20260712-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "03d8db19-3eac-4730-9d89-91d117a3c5fe",
+      "title": "seiren",
+      "artist": "mouse on the keys",
+      "duration_ms": 266000,
+      "first_release_date": "2009-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "856a2002-3b8d-486f-858e-375ca39da3ec",
+      "title": "Seiren",
+      "artist": "mouse on the keys",
+      "duration_ms": 104846,
+      "first_release_date": "2011-09-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "mouse on the keys",
+    "track": "Seiren",
+    "album": "An Anxious Object",
+    "duration_ms": 263036,
+    "release_date": "2009-07-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2f/b1/d2/2fb1d202-a275-165c-93a7-01f9e4b78f30/mzaf_620606759949729755.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/seiren/1292674914?i=1292674918&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 2964
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/seiren/1292674914?i=1292674918&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2f/b1/d2/2fb1d202-a275-165c-93a7-01f9e4b78f30/mzaf_620606759949729755.plus.aac.p.m4a",
+      "bytes": 1109963,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 83.354,
+    "beat_interval_cv": 0.02615,
+    "onset_rate_per_sec": 3.74218,
+    "dynamic_range_db_p95_p10": 9.106,
+    "crest_factor_db": 11.093,
+    "rms_mean": 0.16043,
+    "rms_std": 0.05762,
+    "spectral_centroid_hz_mean": 1614.05,
+    "spectral_centroid_hz_std": 793.75,
+    "spectral_bandwidth_hz_mean": 2300.78,
+    "spectral_rolloff_hz_mean": 3713.13,
+    "spectral_flatness_mean": 0.01145,
+    "spectral_contrast_mean": 17.88843,
+    "energy_share": {
+      "below_150_hz": 0.62049,
+      "150_to_2000_hz": 0.35669,
+      "above_2000_hz": 0.02282
+    },
+    "percussive_share": 0.36726,
+    "tonal_entropy_bits": 3.5661,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.933
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.18596,
+        "spectral_centroid_hz": 1787.92,
+        "onset_strength": 1.18893,
+        "spectral_flatness": 0.00861
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.18207,
+        "spectral_centroid_hz": 2416.08,
+        "onset_strength": 0.87841,
+        "spectral_flatness": 0.02771
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.19394,
+        "spectral_centroid_hz": 2634.7,
+        "onset_strength": 0.81303,
+        "spectral_flatness": 0.02808
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.16238,
+        "spectral_centroid_hz": 1777.64,
+        "onset_strength": 1.39778,
+        "spectral_flatness": 0.01617
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.13389,
+        "spectral_centroid_hz": 1271.05,
+        "onset_strength": 1.79925,
+        "spectral_flatness": 0.00536
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.15983,
+        "spectral_centroid_hz": 1218.68,
+        "onset_strength": 1.78051,
+        "spectral_flatness": 0.0051
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13559,
+        "spectral_centroid_hz": 1276.82,
+        "onset_strength": 1.63984,
+        "spectral_flatness": 0.0052
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.16505,
+        "spectral_centroid_hz": 1273.23,
+        "onset_strength": 1.72029,
+        "spectral_flatness": 0.00542
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14091,
+        "spectral_centroid_hz": 1376.76,
+        "onset_strength": 1.57635,
+        "spectral_flatness": 0.00703
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1498,
+        "spectral_centroid_hz": 1214.9,
+        "onset_strength": 1.71452,
+        "spectral_flatness": 0.00435
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.16506,
+        "spectral_centroid_hz": 1843.04,
+        "onset_strength": 1.31507,
+        "spectral_flatness": 0.01952
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.15071,
+        "spectral_centroid_hz": 1281.49,
+        "onset_strength": 1.49713,
+        "spectral_flatness": 0.00496
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "03d8db19-3eac-4730-9d89-91d117a3c5fe",
+      "title": "seiren",
+      "artist": "mouse on the keys",
+      "duration_ms": 266000,
+      "first_release_date": "2009-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "03d8db19-3eac-4730-9d89-91d117a3c5fe",
+      "duration_sec": 265.613067627,
+      "sample_rate": 44100,
+      "tempo_bpm": 165.944595337,
+      "danceability": 1.06975972652,
+      "onset_rate": 3.63671040535,
+      "beats_count": 738,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0669463351369,
+      "dynamic_complexity": 3.35247755051,
+      "average_loudness": 0.950582265854,
+      "spectral_centroid_mean": 1035.75732422,
+      "spectral_flux_mean": 0.0902794674039,
+      "spectral_rolloff_mean": 1215.0703125,
+      "dissonance_mean": 0.436628818512,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
