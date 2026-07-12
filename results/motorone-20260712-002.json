@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "LAAKE",
+    "track": "Run",
+    "request_id": "motorone-20260712-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f12ef692-3012-4813-95e1-fbda10ad9ab4",
+      "title": "RUN",
+      "artist": "Laake",
+      "duration_ms": 223000,
+      "first_release_date": "2020-03-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "LAAKE",
+    "track": "RUN",
+    "album": "O",
+    "duration_ms": 223660,
+    "release_date": "2020-01-24T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/32/2c/07/322c0712-a8f8-8b1e-e18d-c4b75131946e/mzaf_11905802494052210582.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/run/1672391104?i=1672391114&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 660
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/run/1672391104?i=1672391114&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/32/2c/07/322c0712-a8f8-8b1e-e18d-c4b75131946e/mzaf_11905802494052210582.plus.aac.p.m4a",
+      "bytes": 1024783,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 61.523,
+    "beat_interval_cv": 0.04415,
+    "onset_rate_per_sec": 1.73744,
+    "dynamic_range_db_p95_p10": 9.798,
+    "crest_factor_db": 12.336,
+    "rms_mean": 0.13544,
+    "rms_std": 0.0581,
+    "spectral_centroid_hz_mean": 424.14,
+    "spectral_centroid_hz_std": 266.16,
+    "spectral_bandwidth_hz_mean": 632.81,
+    "spectral_rolloff_hz_mean": 852.06,
+    "spectral_flatness_mean": 0.00051,
+    "spectral_contrast_mean": 20.1793,
+    "energy_share": {
+      "below_150_hz": 0.8689,
+      "150_to_2000_hz": 0.13082,
+      "above_2000_hz": 0.00028
+    },
+    "percussive_share": 0.23448,
+    "tonal_entropy_bits": 3.49772,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.58192
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10554,
+        "spectral_centroid_hz": 646.89,
+        "onset_strength": 0.6141,
+        "spectral_flatness": 0.00606
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1232,
+        "spectral_centroid_hz": 330.26,
+        "onset_strength": 0.53251,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.083,
+        "spectral_centroid_hz": 426.22,
+        "onset_strength": 0.5408,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11837,
+        "spectral_centroid_hz": 352.41,
+        "onset_strength": 0.57749,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.16292,
+        "spectral_centroid_hz": 342.15,
+        "onset_strength": 0.72722,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12618,
+        "spectral_centroid_hz": 396.34,
+        "onset_strength": 0.67115,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11133,
+        "spectral_centroid_hz": 446.42,
+        "onset_strength": 0.61351,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.15546,
+        "spectral_centroid_hz": 407.67,
+        "onset_strength": 0.74236,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.15505,
+        "spectral_centroid_hz": 410.6,
+        "onset_strength": 0.69691,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.14494,
+        "spectral_centroid_hz": 448.73,
+        "onset_strength": 0.64457,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.15835,
+        "spectral_centroid_hz": 426.31,
+        "onset_strength": 0.71385,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.18045,
+        "spectral_centroid_hz": 456.06,
+        "onset_strength": 0.89174,
+        "spectral_flatness": 2e-05
+      }
+    ]
+  }
+}
