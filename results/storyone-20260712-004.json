@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "iamthemorning",
+    "track": "Lighthouse",
+    "request_id": "storyone-20260712-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a8202c7f-96d7-4233-86f9-7669ba9e1a8e",
+      "title": "Lighthouse",
+      "artist": "iamthemorning Mariusz Duda",
+      "duration_ms": 373933,
+      "first_release_date": "2016-04-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.86
+    }
+  ],
+  "matched_recording": {
+    "artist": "Iamthemorning",
+    "track": "Lighthouse (feat. Mariusz Duda)",
+    "album": "Lighthouse",
+    "duration_ms": 373938,
+    "release_date": "2008-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/86/7e/76867edf-62ed-5b51-44d9-532ec84318e3/mzaf_1952967966662656445.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/lighthouse-feat-mariusz-duda/1086183990?i=1086184628&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 5
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/lighthouse-feat-mariusz-duda/1086183990?i=1086184628&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/86/7e/76867edf-62ed-5b51-44d9-532ec84318e3/mzaf_1952967966662656445.plus.aac.p.m4a",
+      "bytes": 1054767,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.0532,
+    "onset_rate_per_sec": 2.23863,
+    "dynamic_range_db_p95_p10": 24.69,
+    "crest_factor_db": 16.175,
+    "rms_mean": 0.0544,
+    "rms_std": 0.03828,
+    "spectral_centroid_hz_mean": 1276.51,
+    "spectral_centroid_hz_std": 554.04,
+    "spectral_bandwidth_hz_mean": 1873.65,
+    "spectral_rolloff_hz_mean": 2163.49,
+    "spectral_flatness_mean": 0.00247,
+    "spectral_contrast_mean": 21.89724,
+    "energy_share": {
+      "below_150_hz": 0.07001,
+      "150_to_2000_hz": 0.92281,
+      "above_2000_hz": 0.00718
+    },
+    "percussive_share": 0.17276,
+    "tonal_entropy_bits": 3.4088,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 0.74695
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05805,
+        "spectral_centroid_hz": 1403.24,
+        "onset_strength": 0.88026,
+        "spectral_flatness": 0.00126
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0763,
+        "spectral_centroid_hz": 1495.06,
+        "onset_strength": 0.8441,
+        "spectral_flatness": 0.00189
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09513,
+        "spectral_centroid_hz": 1224.39,
+        "onset_strength": 0.86584,
+        "spectral_flatness": 0.00204
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08415,
+        "spectral_centroid_hz": 1379.71,
+        "onset_strength": 0.78727,
+        "spectral_flatness": 0.0025
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.08053,
+        "spectral_centroid_hz": 1433.47,
+        "onset_strength": 0.81208,
+        "spectral_flatness": 0.00177
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10571,
+        "spectral_centroid_hz": 1150.55,
+        "onset_strength": 0.82557,
+        "spectral_flatness": 0.00085
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06464,
+        "spectral_centroid_hz": 924.79,
+        "onset_strength": 0.79255,
+        "spectral_flatness": 0.00047
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02542,
+        "spectral_centroid_hz": 888.62,
+        "onset_strength": 0.73559,
+        "spectral_flatness": 0.00044
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.01631,
+        "spectral_centroid_hz": 1282.05,
+        "onset_strength": 0.82042,
+        "spectral_flatness": 0.00329
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.00985,
+        "spectral_centroid_hz": 1028.72,
+        "onset_strength": 0.64479,
+        "spectral_flatness": 0.00154
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.02772,
+        "spectral_centroid_hz": 1779.24,
+        "onset_strength": 1.05962,
+        "spectral_flatness": 0.01092
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.00947,
+        "spectral_centroid_hz": 1332.71,
+        "onset_strength": 0.79849,
+        "spectral_flatness": 0.00275
+      }
+    ]
+  }
+}
