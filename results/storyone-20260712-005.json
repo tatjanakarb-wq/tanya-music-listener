@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Kashiwa Daisuke",
+    "track": "April.#02",
+    "request_id": "storyone-20260712-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "3f5dad1d-79c7-44f0-b837-ec38f6ace29b",
+      "title": "april.#02",
+      "artist": "Kashiwa Daisuke",
+      "duration_ms": 1656640,
+      "first_release_date": "2006-02-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7c53513d-c8b8-4374-a530-a7231e392d4d",
+      "title": "april.#02",
+      "artist": "Kashiwa Daisuke",
+      "duration_ms": 1658000,
+      "first_release_date": "2014-01-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "1e5a4cdb-626e-4d4f-88f2-6f39248208ae",
+      "title": "April.#02 (Live Edition)",
+      "artist": "KASHIWA Daisuke",
+      "duration_ms": 1664000,
+      "first_release_date": "2020-04-02",
+      "disambiguation": "",
+      "musicbrainz_score": 90,
+      "local_match_score": 0.74
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kashiwa Daisuke",
+    "track": "April.#02",
+    "album": "April.#02",
+    "duration_ms": 1662987,
+    "release_date": "2006-03-31T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/bf/41/fabf4157-60f2-3f00-4524-a07d142c6322/mzaf_5975826834094734921.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/april-02/1491150628?i=1491150633&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1013
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/april-02/1491150628?i=1491150633&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/bf/41/fabf4157-60f2-3f00-4524-a07d142c6322/mzaf_5975826834094734921.plus.aac.p.m4a",
+      "bytes": 1291888,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.04482,
+    "onset_rate_per_sec": 0.66825,
+    "dynamic_range_db_p95_p10": 10.035,
+    "crest_factor_db": 14.756,
+    "rms_mean": 0.04425,
+    "rms_std": 0.01953,
+    "spectral_centroid_hz_mean": 1662.78,
+    "spectral_centroid_hz_std": 465.15,
+    "spectral_bandwidth_hz_mean": 1782.24,
+    "spectral_rolloff_hz_mean": 3333.95,
+    "spectral_flatness_mean": 0.01353,
+    "spectral_contrast_mean": 17.92774,
+    "energy_share": {
+      "below_150_hz": 0.0539,
+      "150_to_2000_hz": 0.91334,
+      "above_2000_hz": 0.03276
+    },
+    "percussive_share": 0.25135,
+    "tonal_entropy_bits": 3.5571,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 1.13367
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01727,
+        "spectral_centroid_hz": 2082.52,
+        "onset_strength": 0.99782,
+        "spectral_flatness": 0.074
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03341,
+        "spectral_centroid_hz": 1456.23,
+        "onset_strength": 0.92847,
+        "spectral_flatness": 0.00717
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04363,
+        "spectral_centroid_hz": 1683.28,
+        "onset_strength": 0.89621,
+        "spectral_flatness": 0.00856
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03641,
+        "spectral_centroid_hz": 1636.69,
+        "onset_strength": 0.99434,
+        "spectral_flatness": 0.00881
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03757,
+        "spectral_centroid_hz": 1644.01,
+        "onset_strength": 0.8584,
+        "spectral_flatness": 0.01032
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04397,
+        "spectral_centroid_hz": 1613.6,
+        "onset_strength": 0.9109,
+        "spectral_flatness": 0.00856
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.03339,
+        "spectral_centroid_hz": 1725.45,
+        "onset_strength": 0.99435,
+        "spectral_flatness": 0.01078
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.0717,
+        "spectral_centroid_hz": 1459.22,
+        "onset_strength": 1.07438,
+        "spectral_flatness": 0.00289
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07647,
+        "spectral_centroid_hz": 1549.65,
+        "onset_strength": 0.94469,
+        "spectral_flatness": 0.0028
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06013,
+        "spectral_centroid_hz": 1266.82,
+        "onset_strength": 1.03701,
+        "spectral_flatness": 0.00243
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04241,
+        "spectral_centroid_hz": 1967.17,
+        "onset_strength": 1.06773,
+        "spectral_flatness": 0.01217
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.03436,
+        "spectral_centroid_hz": 1872.34,
+        "onset_strength": 0.93556,
+        "spectral_flatness": 0.01411
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "3f5dad1d-79c7-44f0-b837-ec38f6ace29b",
+      "title": "april.#02",
+      "artist": "Kashiwa Daisuke",
+      "duration_ms": 1656640,
+      "first_release_date": "2006-02-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "3f5dad1d-79c7-44f0-b837-ec38f6ace29b",
+      "duration_sec": 1656.64001465,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.125350952,
+      "danceability": 1.00353813171,
+      "onset_rate": 2.84789443016,
+      "beats_count": 3269,
+      "key": "G",
+      "scale": "minor",
+      "chords_changes_rate": 0.0440096445382,
+      "dynamic_complexity": 7.08724021912,
+      "average_loudness": 0.0536783710122,
+      "spectral_centroid_mean": 1111.31408691,
+      "spectral_flux_mean": 0.0493380054832,
+      "spectral_rolloff_mean": 1377.79602051,
+      "dissonance_mean": 0.437522947788,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
