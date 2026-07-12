@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Martin Kohlstedt",
+    "track": "CHA",
+    "request_id": "motorone-20260712-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9bec9eeb-af33-4725-96f6-409ce982ef11",
+      "title": "CHA",
+      "artist": "Martin Kohlstedt",
+      "duration_ms": 359000,
+      "first_release_date": "2017-11-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Martin Kohlstedt",
+    "track": "CHA",
+    "album": "Strom",
+    "duration_ms": 359726,
+    "release_date": "2017-11-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/5d/ae/035dae51-622b-cfc0-d100-102ddc7660cb/mzaf_5968376418994989025.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/cha/6768774878?i=6768775145&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 726
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/cha/6768774878?i=6768775145&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/5d/ae/035dae51-622b-cfc0-d100-102ddc7660cb/mzaf_5968376418994989025.plus.aac.p.m4a",
+      "bytes": 1039554,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.03882,
+    "onset_rate_per_sec": 0.43402,
+    "dynamic_range_db_p95_p10": 13.176,
+    "crest_factor_db": 21.202,
+    "rms_mean": 0.02427,
+    "rms_std": 0.01383,
+    "spectral_centroid_hz_mean": 821.14,
+    "spectral_centroid_hz_std": 443.33,
+    "spectral_bandwidth_hz_mean": 1132.32,
+    "spectral_rolloff_hz_mean": 1372.01,
+    "spectral_flatness_mean": 0.00162,
+    "spectral_contrast_mean": 17.99544,
+    "energy_share": {
+      "below_150_hz": 0.14616,
+      "150_to_2000_hz": 0.85029,
+      "above_2000_hz": 0.00355
+    },
+    "percussive_share": 0.17978,
+    "tonal_entropy_bits": 3.4494,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 0.94055
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01887,
+        "spectral_centroid_hz": 1504.34,
+        "onset_strength": 0.79,
+        "spectral_flatness": 0.01659
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00847,
+        "spectral_centroid_hz": 1015.77,
+        "onset_strength": 0.58592,
+        "spectral_flatness": 0.00065
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01764,
+        "spectral_centroid_hz": 726.6,
+        "onset_strength": 0.65456,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.02813,
+        "spectral_centroid_hz": 645.76,
+        "onset_strength": 0.71357,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.01211,
+        "spectral_centroid_hz": 633.24,
+        "onset_strength": 0.66412,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.02933,
+        "spectral_centroid_hz": 790.5,
+        "onset_strength": 0.745,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.02859,
+        "spectral_centroid_hz": 664.0,
+        "onset_strength": 0.79358,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.02265,
+        "spectral_centroid_hz": 647.12,
+        "onset_strength": 0.69478,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.01998,
+        "spectral_centroid_hz": 724.11,
+        "onset_strength": 0.7822,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.03468,
+        "spectral_centroid_hz": 979.85,
+        "onset_strength": 0.7475,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.03375,
+        "spectral_centroid_hz": 775.26,
+        "onset_strength": 0.69532,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.03692,
+        "spectral_centroid_hz": 748.1,
+        "onset_strength": 0.76886,
+        "spectral_flatness": 0.00018
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "9bec9eeb-af33-4725-96f6-409ce982ef11",
+      "title": "CHA",
+      "artist": "Martin Kohlstedt",
+      "duration_ms": 359000,
+      "first_release_date": "2017-11-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "9bec9eeb-af33-4725-96f6-409ce982ef11",
+      "duration_sec": 359.726379395,
+      "sample_rate": 96000,
+      "tempo_bpm": 111.428527832,
+      "danceability": 0.932538092136,
+      "onset_rate": 0.945109248161,
+      "beats_count": 679,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0311048012227,
+      "dynamic_complexity": 7.29089546204,
+      "average_loudness": 0.063389249146,
+      "spectral_centroid_mean": 667.040893555,
+      "spectral_flux_mean": 0.0487556867301,
+      "spectral_rolloff_mean": 844.235473633,
+      "dissonance_mean": 0.41825312376,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
