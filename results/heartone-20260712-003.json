@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Efterklang",
+    "track": "Modern Drift",
+    "request_id": "heartone-20260712-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "8fdc8ec0-01b0-4b2f-8222-2e2d92b54647",
+      "title": "Modern Drift",
+      "artist": "Efterklang",
+      "duration_ms": 293760,
+      "first_release_date": "2010-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "4749c32a-194c-49ac-8bac-38eb591d9ab3",
+      "title": "Modern Drift",
+      "artist": "Efterklang",
+      "duration_ms": 293000,
+      "first_release_date": "2010-05-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e432c5e5-1df4-49e5-bbb7-884d9577f22f",
+      "title": "Modern Drift",
+      "artist": "Efterklang",
+      "duration_ms": 289000,
+      "first_release_date": "2010-04-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "634550e2-db26-4148-90a9-477d1c933be1",
+      "title": "Modern Drift (Rumpistol remix)",
+      "artist": "Efterklang",
+      "duration_ms": 365000,
+      "first_release_date": "2010-12-05",
+      "disambiguation": "",
+      "musicbrainz_score": 87,
+      "local_match_score": 0.768
+    }
+  ],
+  "matched_recording": {
+    "artist": "Efterklang",
+    "track": "Modern Drift",
+    "album": "Modern Drift - Single of the Week",
+    "duration_ms": 293760,
+    "release_date": "2010-02-22T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/9d/06/66/9d06664f-5232-1c32-4dce-25657484f454/mzaf_11127680642634732359.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/modern-drift/356714329?i=351873682&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/modern-drift/356714329?i=351873682&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/9d/06/66/9d06664f-5232-1c32-4dce-25657484f454/mzaf_11127680642634732359.plus.aac.p.m4a",
+      "bytes": 1080994,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.06641,
+    "onset_rate_per_sec": 5.64668,
+    "dynamic_range_db_p95_p10": 8.926,
+    "crest_factor_db": 16.033,
+    "rms_mean": 0.08363,
+    "rms_std": 0.03358,
+    "spectral_centroid_hz_mean": 1263.98,
+    "spectral_centroid_hz_std": 498.98,
+    "spectral_bandwidth_hz_mean": 1518.17,
+    "spectral_rolloff_hz_mean": 2375.56,
+    "spectral_flatness_mean": 0.00369,
+    "spectral_contrast_mean": 20.80545,
+    "energy_share": {
+      "below_150_hz": 0.28014,
+      "150_to_2000_hz": 0.70374,
+      "above_2000_hz": 0.01612
+    },
+    "percussive_share": 0.34223,
+    "tonal_entropy_bits": 3.48216,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 1.40393
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06719,
+        "spectral_centroid_hz": 1069.78,
+        "onset_strength": 1.01889,
+        "spectral_flatness": 0.00175
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09315,
+        "spectral_centroid_hz": 1541.93,
+        "onset_strength": 1.34359,
+        "spectral_flatness": 0.00846
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06872,
+        "spectral_centroid_hz": 1026.85,
+        "onset_strength": 1.09221,
+        "spectral_flatness": 0.00141
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06658,
+        "spectral_centroid_hz": 1082.34,
+        "onset_strength": 1.16523,
+        "spectral_flatness": 0.00193
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09086,
+        "spectral_centroid_hz": 1580.9,
+        "onset_strength": 1.34094,
+        "spectral_flatness": 0.00915
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06419,
+        "spectral_centroid_hz": 888.14,
+        "onset_strength": 0.85713,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05962,
+        "spectral_centroid_hz": 1029.81,
+        "onset_strength": 0.99651,
+        "spectral_flatness": 0.00109
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07039,
+        "spectral_centroid_hz": 1091.99,
+        "onset_strength": 1.03807,
+        "spectral_flatness": 0.00132
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1226,
+        "spectral_centroid_hz": 1462.23,
+        "onset_strength": 1.16873,
+        "spectral_flatness": 0.00477
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10136,
+        "spectral_centroid_hz": 1454.71,
+        "onset_strength": 1.01042,
+        "spectral_flatness": 0.00413
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0953,
+        "spectral_centroid_hz": 1491.46,
+        "onset_strength": 1.01806,
+        "spectral_flatness": 0.00492
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10345,
+        "spectral_centroid_hz": 1445.04,
+        "onset_strength": 1.17592,
+        "spectral_flatness": 0.0052
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "8fdc8ec0-01b0-4b2f-8222-2e2d92b54647",
+      "title": "Modern Drift",
+      "artist": "Efterklang",
+      "duration_ms": 293760,
+      "first_release_date": "2010-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "8fdc8ec0-01b0-4b2f-8222-2e2d92b54647",
+      "duration_sec": 295.760009766,
+      "sample_rate": 44100,
+      "tempo_bpm": 99.9874954224,
+      "danceability": 1.11809837818,
+      "onset_rate": 4.32422161102,
+      "beats_count": 493,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0320251174271,
+      "dynamic_complexity": 3.45994329453,
+      "average_loudness": 0.716430366039,
+      "spectral_centroid_mean": 914.984741211,
+      "spectral_flux_mean": 0.0778061673045,
+      "spectral_rolloff_mean": 1068.0032959,
+      "dissonance_mean": 0.419548541307,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
