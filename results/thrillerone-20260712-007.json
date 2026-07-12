@@ -1,0 +1,101 @@
+{
+  "request": {
+    "artist": "Floex",
+    "track": "The Glasshouse with Butterfly",
+    "request_id": "thrillerone-20260712-007"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "48ebb1aa-861d-4fad-8d54-366018197f25",
+      "title": "The Glasshouse with Butterfly (Orbital remix)",
+      "artist": "Floex",
+      "duration_ms": 478827,
+      "first_release_date": "2019-09-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.8872
+    },
+    {
+      "mbid": "7f8b1865-5dad-49a4-8082-b10313e02d6a",
+      "title": "The Glasshouse with Butterfly (Orbital Remix Radio Edit)",
+      "artist": "Floex",
+      "duration_ms": 267127,
+      "first_release_date": "2019-09-18",
+      "disambiguation": "",
+      "musicbrainz_score": 91,
+      "local_match_score": 0.8253
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "48ebb1aa-861d-4fad-8d54-366018197f25",
+      "title": "The Glasshouse with Butterfly (Orbital remix)",
+      "artist": "Floex",
+      "duration_ms": 478827,
+      "first_release_date": "2019-09-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.8872
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "48ebb1aa-861d-4fad-8d54-366018197f25",
+      "duration_sec": 478.826751709,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.027114868,
+      "danceability": 1.13827180862,
+      "onset_rate": 3.18059039116,
+      "beats_count": 957,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0549844838679,
+      "dynamic_complexity": 5.57462358475,
+      "average_loudness": 0.613503754139,
+      "spectral_centroid_mean": 490.0859375,
+      "spectral_flux_mean": 0.0763114243746,
+      "spectral_rolloff_mean": 423.374053955,
+      "dissonance_mean": 0.41262486577,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "48ebb1aa-861d-4fad-8d54-366018197f25",
+    "title": "The Glasshouse with Butterfly (Orbital remix)",
+    "artist": "Floex",
+    "duration_ms": 478827,
+    "first_release_date": "2019-09-18",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 0.8872
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "48ebb1aa-861d-4fad-8d54-366018197f25",
+    "duration_sec": 478.826751709,
+    "sample_rate": 44100,
+    "tempo_bpm": 120.027114868,
+    "danceability": 1.13827180862,
+    "onset_rate": 3.18059039116,
+    "beats_count": 957,
+    "key": "F",
+    "scale": "major",
+    "chords_changes_rate": 0.0549844838679,
+    "dynamic_complexity": 5.57462358475,
+    "average_loudness": 0.613503754139,
+    "spectral_centroid_mean": 490.0859375,
+    "spectral_flux_mean": 0.0763114243746,
+    "spectral_rolloff_mean": 423.374053955,
+    "dissonance_mean": 0.41262486577,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}
