@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Poppy Ackroyd",
+    "track": "Trains",
+    "request_id": "motorone-20260712-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "11191c77-563b-4946-b0ab-ea52ae8bf590",
+      "title": "Trains",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 276000,
+      "first_release_date": "2018-02-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "afcdfbb4-75ed-4f13-afb1-98fdc3db99cd",
+      "title": "Trains",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 232666,
+      "first_release_date": "2017-07-14",
+      "disambiguation": "solo piano version",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8c85d078-e096-4e23-9535-5d0c08434765",
+      "title": "Trains (Nuage remix)",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 357000,
+      "first_release_date": "2019-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 91,
+      "local_match_score": 0.71
+    }
+  ],
+  "matched_recording": {
+    "artist": "Poppy Ackroyd",
+    "track": "Trains",
+    "album": "Resolve",
+    "duration_ms": 275859,
+    "release_date": "2017-11-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/12/b1/d512b103-c304-7d9e-f7dd-9fb85d91154b/mzaf_9756431764732138377.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/trains/1775527878?i=1775528128&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 141
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/trains/1775527878?i=1775528128&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/12/b1/d512b103-c304-7d9e-f7dd-9fb85d91154b/mzaf_9756431764732138377.plus.aac.p.m4a",
+      "bytes": 1097275,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.01483,
+    "onset_rate_per_sec": 5.27506,
+    "dynamic_range_db_p95_p10": 37.064,
+    "crest_factor_db": 16.62,
+    "rms_mean": 0.03426,
+    "rms_std": 0.0266,
+    "spectral_centroid_hz_mean": 882.06,
+    "spectral_centroid_hz_std": 558.36,
+    "spectral_bandwidth_hz_mean": 1204.74,
+    "spectral_rolloff_hz_mean": 1236.66,
+    "spectral_flatness_mean": 0.00581,
+    "spectral_contrast_mean": 19.31352,
+    "energy_share": {
+      "below_150_hz": 0.09185,
+      "150_to_2000_hz": 0.90755,
+      "above_2000_hz": 0.00061
+    },
+    "percussive_share": 0.21782,
+    "tonal_entropy_bits": 3.43172,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.22,
+      "relative_score": 0.85162
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00407,
+        "spectral_centroid_hz": 1749.81,
+        "onset_strength": 0.58553,
+        "spectral_flatness": 0.06688
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00438,
+        "spectral_centroid_hz": 956.94,
+        "onset_strength": 0.67742,
+        "spectral_flatness": 0.00022
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0044,
+        "spectral_centroid_hz": 954.66,
+        "onset_strength": 0.68613,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.00436,
+        "spectral_centroid_hz": 956.03,
+        "onset_strength": 0.68234,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.02737,
+        "spectral_centroid_hz": 791.66,
+        "onset_strength": 1.1872,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.03946,
+        "spectral_centroid_hz": 656.18,
+        "onset_strength": 1.25823,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.04301,
+        "spectral_centroid_hz": 735.19,
+        "onset_strength": 1.61354,
+        "spectral_flatness": 0.00032
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.04617,
+        "spectral_centroid_hz": 781.82,
+        "onset_strength": 1.6642,
+        "spectral_flatness": 0.00035
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.06349,
+        "spectral_centroid_hz": 719.08,
+        "onset_strength": 1.71731,
+        "spectral_flatness": 0.00032
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.04932,
+        "spectral_centroid_hz": 788.42,
+        "onset_strength": 1.58215,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.06287,
+        "spectral_centroid_hz": 677.48,
+        "onset_strength": 1.53644,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.06225,
+        "spectral_centroid_hz": 820.54,
+        "onset_strength": 1.59052,
+        "spectral_flatness": 0.00042
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "11191c77-563b-4946-b0ab-ea52ae8bf590",
+      "title": "Trains",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 276000,
+      "first_release_date": "2018-02-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "11191c77-563b-4946-b0ab-ea52ae8bf590",
+      "duration_sec": 275.866668701,
+      "sample_rate": 44100,
+      "tempo_bpm": 95.0681152344,
+      "danceability": 1.08771395683,
+      "onset_rate": 4.62144231796,
+      "beats_count": 436,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0334904082119,
+      "dynamic_complexity": 5.41670417786,
+      "average_loudness": 0.289566397667,
+      "spectral_centroid_mean": 593.422851563,
+      "spectral_flux_mean": 0.0534957125783,
+      "spectral_rolloff_mean": 847.517822266,
+      "dissonance_mean": 0.383616149426,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
