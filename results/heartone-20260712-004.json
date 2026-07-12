@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Worakls",
+    "track": "Salzburg",
+    "request_id": "heartone-20260712-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "624c99de-99d8-4e16-85d6-e5a4b3ebd1fc",
+      "title": "Salzburg",
+      "artist": "Worakls",
+      "duration_ms": 436000,
+      "first_release_date": "2014-09-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Worakls",
+    "track": "Salzburg",
+    "album": "Salzburg - Single",
+    "duration_ms": 436150,
+    "release_date": "2014-08-22T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/c8/9a/c0c89a81-432e-73c4-7331-d211008f7e8c/mzaf_17773962672743749876.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/salzburg/1114862486?i=1114862764&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 150
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/salzburg/1114862486?i=1114862764&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/c8/9a/c0c89a81-432e-73c4-7331-d211008f7e8c/mzaf_17773962672743749876.plus.aac.p.m4a",
+      "bytes": 995274,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02439,
+    "onset_rate_per_sec": 2.10335,
+    "dynamic_range_db_p95_p10": 30.066,
+    "crest_factor_db": 9.407,
+    "rms_mean": 0.14217,
+    "rms_std": 0.12341,
+    "spectral_centroid_hz_mean": 744.98,
+    "spectral_centroid_hz_std": 1066.62,
+    "spectral_bandwidth_hz_mean": 1251.74,
+    "spectral_rolloff_hz_mean": 1401.99,
+    "spectral_flatness_mean": 0.01602,
+    "spectral_contrast_mean": 17.70024,
+    "energy_share": {
+      "below_150_hz": 0.96443,
+      "150_to_2000_hz": 0.03264,
+      "above_2000_hz": 0.00293
+    },
+    "percussive_share": 0.36132,
+    "tonal_entropy_bits": 3.31367,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.73,
+      "relative_score": 1.11155
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.14223,
+        "spectral_centroid_hz": 755.02,
+        "onset_strength": 2.33034,
+        "spectral_flatness": 0.01834
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1496,
+        "spectral_centroid_hz": 746.9,
+        "onset_strength": 1.95756,
+        "spectral_flatness": 0.01271
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14084,
+        "spectral_centroid_hz": 806.0,
+        "onset_strength": 1.99733,
+        "spectral_flatness": 0.01535
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.13634,
+        "spectral_centroid_hz": 588.0,
+        "onset_strength": 1.91462,
+        "spectral_flatness": 0.01185
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.13963,
+        "spectral_centroid_hz": 861.7,
+        "onset_strength": 2.25386,
+        "spectral_flatness": 0.01759
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.15087,
+        "spectral_centroid_hz": 809.09,
+        "onset_strength": 2.05449,
+        "spectral_flatness": 0.01672
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.14111,
+        "spectral_centroid_hz": 595.29,
+        "onset_strength": 1.92472,
+        "spectral_flatness": 0.01375
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.13713,
+        "spectral_centroid_hz": 809.0,
+        "onset_strength": 1.95518,
+        "spectral_flatness": 0.01628
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.13813,
+        "spectral_centroid_hz": 836.24,
+        "onset_strength": 2.09679,
+        "spectral_flatness": 0.02066
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.15084,
+        "spectral_centroid_hz": 644.05,
+        "onset_strength": 2.07802,
+        "spectral_flatness": 0.01567
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.14226,
+        "spectral_centroid_hz": 821.27,
+        "onset_strength": 1.95073,
+        "spectral_flatness": 0.01817
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.13701,
+        "spectral_centroid_hz": 669.13,
+        "onset_strength": 1.86388,
+        "spectral_flatness": 0.01526
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "624c99de-99d8-4e16-85d6-e5a4b3ebd1fc",
+      "title": "Salzburg",
+      "artist": "Worakls",
+      "duration_ms": 436000,
+      "first_release_date": "2014-09-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "624c99de-99d8-4e16-85d6-e5a4b3ebd1fc",
+      "duration_sec": 436.150024414,
+      "sample_rate": 44100,
+      "tempo_bpm": 126.005081177,
+      "danceability": 1.77968001366,
+      "onset_rate": 4.02371931076,
+      "beats_count": 919,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.0508889593184,
+      "dynamic_complexity": 3.94673037529,
+      "average_loudness": 0.968967676163,
+      "spectral_centroid_mean": 707.298156738,
+      "spectral_flux_mean": 0.130199402571,
+      "spectral_rolloff_mean": 619.261962891,
+      "dissonance_mean": 0.410561203957,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
