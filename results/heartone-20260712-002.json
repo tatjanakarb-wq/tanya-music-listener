@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "65daysofstatic",
+    "track": "Radio Protector",
+    "request_id": "heartone-20260712-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9ef7d362-b99d-4508-887d-252fb85be448",
+      "title": "Radio Protector",
+      "artist": "65daysofstatic",
+      "duration_ms": 389000,
+      "first_release_date": "2001",
+      "disambiguation": "demo version",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "fcf7e156-fe90-461d-a63b-08e836bfa154",
+      "title": "Radio Protector",
+      "artist": "65daysofstatic",
+      "duration_ms": 326186,
+      "first_release_date": "2005-10-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c8736089-06c1-4d7d-95cb-fd6c19e4682d",
+      "title": "Radio Protector",
+      "artist": "65daysofstatic",
+      "duration_ms": 394000,
+      "first_release_date": "2007-04-29",
+      "disambiguation": "live, 2007-04-29: Cabaret Voltaire, Edinburgh, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "64448773-c086-4b15-9e6a-2fb0a23a2ece",
+      "title": "Radio Protector",
+      "artist": "65daysofstatic",
+      "duration_ms": null,
+      "first_release_date": "2006-11-08",
+      "disambiguation": "live, 2006-08-18: Pukkelpop Festival, Kiewit, Hasselt, Belgium",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2598d956-5812-4b10-a2ed-c6bbd848a9b5",
+      "title": "Radio Protector",
+      "artist": "65daysofstatic",
+      "duration_ms": 302000,
+      "first_release_date": "2005-06-07",
+      "disambiguation": "live, 2005-06-07: Maida Vale Studios, London, UK",
+      "musicbrainz_score": 99,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "65daysofstatic",
+    "track": "Radio Protector",
+    "album": "One Time for All Time",
+    "duration_ms": 326187,
+    "release_date": "2006-03-19T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/49/02/03490226-61e3-2bae-a204-277946fec4d9/mzaf_14380025999920123252.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/radio-protector/200568498?i=200569272&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/radio-protector/200568498?i=200569272&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/49/02/03490226-61e3-2bae-a204-277946fec4d9/mzaf_14380025999920123252.plus.aac.p.m4a",
+      "bytes": 1251058,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.06118,
+    "onset_rate_per_sec": 7.41754,
+    "dynamic_range_db_p95_p10": 15.694,
+    "crest_factor_db": 17.833,
+    "rms_mean": 0.03661,
+    "rms_std": 0.02159,
+    "spectral_centroid_hz_mean": 1164.44,
+    "spectral_centroid_hz_std": 326.23,
+    "spectral_bandwidth_hz_mean": 1122.35,
+    "spectral_rolloff_hz_mean": 2055.85,
+    "spectral_flatness_mean": 0.00027,
+    "spectral_contrast_mean": 22.42161,
+    "energy_share": {
+      "below_150_hz": 0.01144,
+      "150_to_2000_hz": 0.96566,
+      "above_2000_hz": 0.0229
+    },
+    "percussive_share": 0.15047,
+    "tonal_entropy_bits": 3.39713,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.22973
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02109,
+        "spectral_centroid_hz": 771.61,
+        "onset_strength": 0.79272,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02671,
+        "spectral_centroid_hz": 698.78,
+        "onset_strength": 0.92626,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01841,
+        "spectral_centroid_hz": 830.84,
+        "onset_strength": 0.90322,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.01076,
+        "spectral_centroid_hz": 1095.11,
+        "onset_strength": 0.95389,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.0388,
+        "spectral_centroid_hz": 1005.64,
+        "onset_strength": 1.1876,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06006,
+        "spectral_centroid_hz": 1284.71,
+        "onset_strength": 1.2338,
+        "spectral_flatness": 0.00034
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.03584,
+        "spectral_centroid_hz": 1248.18,
+        "onset_strength": 1.14625,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.03807,
+        "spectral_centroid_hz": 1273.71,
+        "onset_strength": 1.17005,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04179,
+        "spectral_centroid_hz": 1478.23,
+        "onset_strength": 1.25628,
+        "spectral_flatness": 0.00045
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06001,
+        "spectral_centroid_hz": 1361.37,
+        "onset_strength": 1.26069,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04388,
+        "spectral_centroid_hz": 1296.28,
+        "onset_strength": 1.16632,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04379,
+        "spectral_centroid_hz": 1626.2,
+        "onset_strength": 1.40277,
+        "spectral_flatness": 0.0008
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "9ef7d362-b99d-4508-887d-252fb85be448",
+      "title": "Radio Protector",
+      "artist": "65daysofstatic",
+      "duration_ms": 389000,
+      "first_release_date": "2001",
+      "disambiguation": "demo version",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "9ef7d362-b99d-4508-887d-252fb85be448",
+      "duration_sec": 389.773071289,
+      "sample_rate": 44100,
+      "tempo_bpm": 121.319923401,
+      "danceability": 1.0751529932,
+      "onset_rate": 3.68913412094,
+      "beats_count": 784,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.0472900532186,
+      "dynamic_complexity": 5.43659353256,
+      "average_loudness": 0.560895085335,
+      "spectral_centroid_mean": 1540.32336426,
+      "spectral_flux_mean": 0.0651016831398,
+      "spectral_rolloff_mean": 1576.53125,
+      "dissonance_mean": 0.448666661978,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
