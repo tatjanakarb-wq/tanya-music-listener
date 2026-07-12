@@ -1,0 +1,23 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "The Burning Circle",
+    "request_id": "storyone-20260712-007"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b5b000ae-8201-48ac-9c5a-98301e6c830b",
+      "title": "The Burning Circle",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 296000,
+      "first_release_date": "2011",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ]
+}
