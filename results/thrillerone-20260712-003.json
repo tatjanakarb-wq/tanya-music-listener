@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Pure Reason Revolution",
+    "track": "The Bright Ambassadors of Morning",
+    "request_id": "thrillerone-20260712-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "75189c47-f5a8-4ad5-a44e-577541add575",
+      "title": "The Bright Ambassadors of Morning",
+      "artist": "Pure Reason Revolution",
+      "duration_ms": null,
+      "first_release_date": "2005-04-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "77b9ef29-60d2-4580-86d6-9da1552bd73d",
+      "title": "The Bright Ambassadors of Morning",
+      "artist": "Pure Reason Revolution",
+      "duration_ms": 642866,
+      "first_release_date": "2008-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c575a392-d36b-43c3-8edf-b81f31276139",
+      "title": "The Bright Ambassadors of Morning",
+      "artist": "Pure Reason Revolution",
+      "duration_ms": 716733,
+      "first_release_date": "2006-04-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "455ceb9e-fc73-4fd7-af29-6b1b5b81c7d3",
+      "title": "The Bright Ambassadors of Morning",
+      "artist": "Pure Reason Revolution",
+      "duration_ms": null,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8466fc31-3e8d-4b55-baf0-9cb0e9121323",
+      "title": "The Bright Ambassadors of Morning",
+      "artist": "Pure Reason Revolution",
+      "duration_ms": 710333,
+      "first_release_date": "2005-10-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Pure Reason Revolution",
+    "track": "The Bright Ambassadors of Morning",
+    "album": "The Dark Third",
+    "duration_ms": 716733,
+    "release_date": "2006-04-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/c3/3d/b6/mzm.prnwthdz.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-bright-ambassadors-of-morning/170521536?i=170521773&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-bright-ambassadors-of-morning/170521536?i=170521773&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/c3/3d/b6/mzm.prnwthdz.aac.p.m4a",
+      "bytes": 1195898,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.02612,
+    "onset_rate_per_sec": 3.00711,
+    "dynamic_range_db_p95_p10": 6.997,
+    "crest_factor_db": 13.823,
+    "rms_mean": 0.12014,
+    "rms_std": 0.03322,
+    "spectral_centroid_hz_mean": 2193.82,
+    "spectral_centroid_hz_std": 403.58,
+    "spectral_bandwidth_hz_mean": 2613.05,
+    "spectral_rolloff_hz_mean": 5022.59,
+    "spectral_flatness_mean": 0.01341,
+    "spectral_contrast_mean": 21.02331,
+    "energy_share": {
+      "below_150_hz": 0.30465,
+      "150_to_2000_hz": 0.66329,
+      "above_2000_hz": 0.03206
+    },
+    "percussive_share": 0.23339,
+    "tonal_entropy_bits": 3.49287,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.95904
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13506,
+        "spectral_centroid_hz": 2423.58,
+        "onset_strength": 0.90975,
+        "spectral_flatness": 0.01821
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.12059,
+        "spectral_centroid_hz": 2145.25,
+        "onset_strength": 0.99057,
+        "spectral_flatness": 0.01165
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11946,
+        "spectral_centroid_hz": 2014.31,
+        "onset_strength": 1.07362,
+        "spectral_flatness": 0.01436
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10611,
+        "spectral_centroid_hz": 1982.75,
+        "onset_strength": 1.00059,
+        "spectral_flatness": 0.00783
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09616,
+        "spectral_centroid_hz": 2213.98,
+        "onset_strength": 1.07096,
+        "spectral_flatness": 0.01172
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1243,
+        "spectral_centroid_hz": 2251.64,
+        "onset_strength": 1.10362,
+        "spectral_flatness": 0.01376
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14841,
+        "spectral_centroid_hz": 2375.4,
+        "onset_strength": 0.91686,
+        "spectral_flatness": 0.01561
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.1335,
+        "spectral_centroid_hz": 2185.9,
+        "onset_strength": 0.98117,
+        "spectral_flatness": 0.01386
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12162,
+        "spectral_centroid_hz": 2206.28,
+        "onset_strength": 1.06202,
+        "spectral_flatness": 0.01811
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10433,
+        "spectral_centroid_hz": 2044.09,
+        "onset_strength": 1.04055,
+        "spectral_flatness": 0.0097
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10038,
+        "spectral_centroid_hz": 2072.16,
+        "onset_strength": 1.12734,
+        "spectral_flatness": 0.00978
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13194,
+        "spectral_centroid_hz": 2411.38,
+        "onset_strength": 1.09467,
+        "spectral_flatness": 0.01636
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "77b9ef29-60d2-4580-86d6-9da1552bd73d",
+      "title": "The Bright Ambassadors of Morning",
+      "artist": "Pure Reason Revolution",
+      "duration_ms": 642866,
+      "first_release_date": "2008-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "77b9ef29-60d2-4580-86d6-9da1552bd73d",
+      "duration_sec": 642.925720215,
+      "sample_rate": 44100,
+      "tempo_bpm": 89.0468978882,
+      "danceability": 1.06551396847,
+      "onset_rate": 2.93807792664,
+      "beats_count": 1263,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0556117296219,
+      "dynamic_complexity": 2.7005572319,
+      "average_loudness": 0.878511965275,
+      "spectral_centroid_mean": 1679.50500488,
+      "spectral_flux_mean": 0.0838113278151,
+      "spectral_rolloff_mean": 1589.87780762,
+      "dissonance_mean": 0.4701782763,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
