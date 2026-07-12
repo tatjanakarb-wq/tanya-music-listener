@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Jóhann Jóhannsson",
+    "track": "Fordlândia",
+    "request_id": "storyone-20260712-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "1b0309b2-c003-45ec-b830-a8a8ddfdfbf7",
+      "title": "Fordlândia",
+      "artist": "Jóhann Jóhannsson",
+      "duration_ms": 822893,
+      "first_release_date": "2008-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8c773d50-d3ab-4f5b-8250-49546ba7d079",
+      "title": "Fordlandia - Ariel View",
+      "artist": "Jóhann Jóhannsson",
+      "duration_ms": 247000,
+      "first_release_date": "2009-05-14",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.7942
+    },
+    {
+      "mbid": "ab8e53ab-35c7-4a99-8ce8-4df2d812b438",
+      "title": "How We Left Fordlândia",
+      "artist": "Jóhann Jóhannsson",
+      "duration_ms": 924480,
+      "first_release_date": "2008-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.7825
+    },
+    {
+      "mbid": "d7eceab8-0f36-4b44-b5b9-ea9ee9aaab63",
+      "title": "Fordlândia – Aerial View",
+      "artist": "Jóhann Jóhannsson",
+      "duration_ms": 272613,
+      "first_release_date": "2008-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 83,
+      "local_match_score": 0.7825
+    },
+    {
+      "mbid": "f249d4da-cbe8-4514-a2dd-8139fdba29b0",
+      "title": "Fordlândia (From Englabörn)",
+      "artist": "Jóhann Jóhannsson",
+      "duration_ms": 650000,
+      "first_release_date": "2020-09-18",
+      "disambiguation": "",
+      "musicbrainz_score": 87,
+      "local_match_score": 0.7514
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jóhann Jóhannsson",
+    "track": "Fordlândia",
+    "album": "Fordlândia (Bonus Track Version)",
+    "duration_ms": 822893,
+    "release_date": "2008-11-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/fb/c2/fefbc257-3b92-ae3e-661d-69d78b271c43/mzaf_5399548389922764034.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/fordl%C3%A2ndia/293921148?i=293921232&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/fordl%C3%A2ndia/293921148?i=293921232&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/fb/c2/fefbc257-3b92-ae3e-661d-69d78b271c43/mzaf_5399548389922764034.plus.aac.p.m4a",
+      "bytes": 1146104,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05084,
+    "onset_rate_per_sec": 4.27678,
+    "dynamic_range_db_p95_p10": 10.395,
+    "crest_factor_db": 13.615,
+    "rms_mean": 0.00273,
+    "rms_std": 0.00109,
+    "spectral_centroid_hz_mean": 610.67,
+    "spectral_centroid_hz_std": 338.88,
+    "spectral_bandwidth_hz_mean": 1315.95,
+    "spectral_rolloff_hz_mean": 925.36,
+    "spectral_flatness_mean": 0.00023,
+    "spectral_contrast_mean": 19.29597,
+    "energy_share": {
+      "below_150_hz": 0.66988,
+      "150_to_2000_hz": 0.32344,
+      "above_2000_hz": 0.00668
+    },
+    "percussive_share": 0.08228,
+    "tonal_entropy_bits": 3.31631,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.551
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00358,
+        "spectral_centroid_hz": 375.25,
+        "onset_strength": 0.75445,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00222,
+        "spectral_centroid_hz": 428.06,
+        "onset_strength": 0.75688,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00309,
+        "spectral_centroid_hz": 442.64,
+        "onset_strength": 0.82553,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.00288,
+        "spectral_centroid_hz": 457.63,
+        "onset_strength": 0.7781,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.00261,
+        "spectral_centroid_hz": 447.67,
+        "onset_strength": 0.76595,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.00183,
+        "spectral_centroid_hz": 514.65,
+        "onset_strength": 0.76859,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.00243,
+        "spectral_centroid_hz": 443.23,
+        "onset_strength": 0.77015,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.00411,
+        "spectral_centroid_hz": 406.5,
+        "onset_strength": 0.77278,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.00207,
+        "spectral_centroid_hz": 603.42,
+        "onset_strength": 0.78907,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.00266,
+        "spectral_centroid_hz": 602.6,
+        "onset_strength": 0.82063,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.00214,
+        "spectral_centroid_hz": 1206.8,
+        "onset_strength": 0.87197,
+        "spectral_flatness": 0.00072
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.00318,
+        "spectral_centroid_hz": 1397.35,
+        "onset_strength": 0.95657,
+        "spectral_flatness": 0.00098
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "1b0309b2-c003-45ec-b830-a8a8ddfdfbf7",
+      "title": "Fordlândia",
+      "artist": "Jóhann Jóhannsson",
+      "duration_ms": 822893,
+      "first_release_date": "2008-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "1b0309b2-c003-45ec-b830-a8a8ddfdfbf7",
+      "duration_sec": 822.906677246,
+      "sample_rate": 44100,
+      "tempo_bpm": 104.242805481,
+      "danceability": 0.904732644558,
+      "onset_rate": 0.171339660883,
+      "beats_count": 1590,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0340274237096,
+      "dynamic_complexity": 7.31133985519,
+      "average_loudness": 0.0206383857876,
+      "spectral_centroid_mean": 775.909118652,
+      "spectral_flux_mean": 0.0439599789679,
+      "spectral_rolloff_mean": 821.411804199,
+      "dissonance_mean": 0.445286005735,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
