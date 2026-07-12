@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "The Kilimanjaro Darkjazz Ensemble",
+    "track": "Lobby",
+    "request_id": "mutationone-20260712-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d10e3187-08dc-49d0-a597-0fa123f8bd70",
+      "title": "Lobby",
+      "artist": "The Kilimanjaro Darkjazz Ensemble",
+      "duration_ms": 417600,
+      "first_release_date": "2006-05-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "87e2ef40-308b-432f-a3bc-339be7b97660",
+      "title": "Lobby",
+      "artist": "The Kilimanjaro Darkjazz Ensemble",
+      "duration_ms": 446000,
+      "first_release_date": "2011-12-16",
+      "disambiguation": "live, 2007: Hungary",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "a28ba674-db6c-43db-8e12-a602a3e089f7",
+      "title": "Lobby",
+      "artist": "The Kilimanjaro Darkjazz Ensemble",
+      "duration_ms": 419000,
+      "first_release_date": "2006-06",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "371b02e6-f815-4c08-9ad5-084f9aae726e",
+      "title": "Vegas | Lobby/München",
+      "artist": "The Kilimanjaro Darkjazz Ensemble",
+      "duration_ms": 1310000,
+      "first_release_date": "2026-07-01",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.6617
+    }
+  ],
+  "matched_recording": {
+    "artist": "The Kilimanjaro Darkjazz Ensemble",
+    "track": "Lobby",
+    "album": "The Kilimanjaro Darkjazz Ensemble",
+    "duration_ms": 417600,
+    "release_date": "2006-04-11T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8e/58/cc/8e58cc9c-0fd8-e0a0-9384-5ecac3d6f646/mzaf_9967861238056457134.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/lobby/1532931710?i=1532931719&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/lobby/1532931710?i=1532931719&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8e/58/cc/8e58cc9c-0fd8-e0a0-9384-5ecac3d6f646/mzaf_9967861238056457134.plus.aac.p.m4a",
+      "bytes": 1071444,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.0,
+    "onset_rate_per_sec": 3.77559,
+    "dynamic_range_db_p95_p10": 8.784,
+    "crest_factor_db": 17.114,
+    "rms_mean": 0.05875,
+    "rms_std": 0.02072,
+    "spectral_centroid_hz_mean": 1140.13,
+    "spectral_centroid_hz_std": 303.4,
+    "spectral_bandwidth_hz_mean": 1506.57,
+    "spectral_rolloff_hz_mean": 2174.1,
+    "spectral_flatness_mean": 0.00144,
+    "spectral_contrast_mean": 21.6518,
+    "energy_share": {
+      "below_150_hz": 0.03689,
+      "150_to_2000_hz": 0.95361,
+      "above_2000_hz": 0.0095
+    },
+    "percussive_share": 0.1445,
+    "tonal_entropy_bits": 3.30721,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.22684
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05399,
+        "spectral_centroid_hz": 859.29,
+        "onset_strength": 0.73525,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05402,
+        "spectral_centroid_hz": 887.99,
+        "onset_strength": 0.81767,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05044,
+        "spectral_centroid_hz": 874.77,
+        "onset_strength": 0.77622,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06631,
+        "spectral_centroid_hz": 824.87,
+        "onset_strength": 0.91944,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04138,
+        "spectral_centroid_hz": 1060.0,
+        "onset_strength": 0.99472,
+        "spectral_flatness": 0.00056
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08019,
+        "spectral_centroid_hz": 1017.52,
+        "onset_strength": 1.04861,
+        "spectral_flatness": 0.0006
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06185,
+        "spectral_centroid_hz": 1174.37,
+        "onset_strength": 1.0854,
+        "spectral_flatness": 0.00122
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05259,
+        "spectral_centroid_hz": 1269.68,
+        "onset_strength": 1.08162,
+        "spectral_flatness": 0.00218
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06619,
+        "spectral_centroid_hz": 1350.43,
+        "onset_strength": 1.0863,
+        "spectral_flatness": 0.00202
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05265,
+        "spectral_centroid_hz": 1405.58,
+        "onset_strength": 1.07,
+        "spectral_flatness": 0.00337
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05916,
+        "spectral_centroid_hz": 1430.36,
+        "onset_strength": 1.08709,
+        "spectral_flatness": 0.00326
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06652,
+        "spectral_centroid_hz": 1522.63,
+        "onset_strength": 1.138,
+        "spectral_flatness": 0.00365
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d10e3187-08dc-49d0-a597-0fa123f8bd70",
+      "title": "Lobby",
+      "artist": "The Kilimanjaro Darkjazz Ensemble",
+      "duration_ms": 417600,
+      "first_release_date": "2006-05-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d10e3187-08dc-49d0-a597-0fa123f8bd70",
+      "duration_sec": 417.620666504,
+      "sample_rate": 44100,
+      "tempo_bpm": 151.839447021,
+      "danceability": 0.982557535172,
+      "onset_rate": 2.65303993225,
+      "beats_count": 1045,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.0680453628302,
+      "dynamic_complexity": 2.4860765934,
+      "average_loudness": 0.882154941559,
+      "spectral_centroid_mean": 688.262084961,
+      "spectral_flux_mean": 0.112092427909,
+      "spectral_rolloff_mean": 7868.03759766,
+      "dissonance_mean": 0.458677053452,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
