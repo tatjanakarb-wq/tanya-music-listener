@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Björk",
+    "track": "Family",
+    "request_id": "anniv20-20260715-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a18b09b4-01da-474b-8e5e-520aef3c4948",
+      "title": "Family",
+      "artist": "Björk",
+      "duration_ms": 481000,
+      "first_release_date": null,
+      "disambiguation": "live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8de1ae0c-d89f-4b6e-abfc-393a34e97210",
+      "title": "Family",
+      "artist": "Björk",
+      "duration_ms": 424010,
+      "first_release_date": "2015-11-06",
+      "disambiguation": "acoustic strings version",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "bccb7098-d8bb-4a96-a180-740a3028aaa8",
+      "title": "Family",
+      "artist": "Björk",
+      "duration_ms": 481000,
+      "first_release_date": null,
+      "disambiguation": "live, 2015‐03‐25: City Center, New York, NY, USA",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "54ad3b1e-dc40-42a9-95bd-ab5b1d092f36",
+      "title": "Family",
+      "artist": "Björk",
+      "duration_ms": 155000,
+      "first_release_date": null,
+      "disambiguation": "Music video (Moving album cover)",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "cef1d961-4660-4b45-a02c-74d6c5bd7121",
+      "title": "Family",
+      "artist": "Björk",
+      "duration_ms": 482000,
+      "first_release_date": "2015-01-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Björk",
+    "track": "Family",
+    "album": "Vulnicura",
+    "duration_ms": 482475,
+    "release_date": "2015-01-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/d5/24/61d5240f-9c81-31c4-018e-aacd19bf4068/mzaf_7275275584565338340.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/family/1726641911?i=1726642068&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1475
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/family/1726641911?i=1726642068&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/d5/24/61d5240f-9c81-31c4-018e-aacd19bf4068/mzaf_7275275584565338340.plus.aac.p.m4a",
+      "bytes": 995335,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.0394,
+    "onset_rate_per_sec": 0.93482,
+    "dynamic_range_db_p95_p10": 30.719,
+    "crest_factor_db": 13.352,
+    "rms_mean": 0.09995,
+    "rms_std": 0.08163,
+    "spectral_centroid_hz_mean": 1161.79,
+    "spectral_centroid_hz_std": 849.69,
+    "spectral_bandwidth_hz_mean": 1786.35,
+    "spectral_rolloff_hz_mean": 2566.9,
+    "spectral_flatness_mean": 0.00551,
+    "spectral_contrast_mean": 20.1098,
+    "energy_share": {
+      "below_150_hz": 0.95126,
+      "150_to_2000_hz": 0.04455,
+      "above_2000_hz": 0.00419
+    },
+    "percussive_share": 0.12538,
+    "tonal_entropy_bits": 3.35483,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 1.31839
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00271,
+        "spectral_centroid_hz": 1959.14,
+        "onset_strength": 0.22761,
+        "spectral_flatness": 0.04587
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00856,
+        "spectral_centroid_hz": 863.29,
+        "onset_strength": 0.40703,
+        "spectral_flatness": 0.00276
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.21176,
+        "spectral_centroid_hz": 931.06,
+        "onset_strength": 1.47978,
+        "spectral_flatness": 0.00191
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.12094,
+        "spectral_centroid_hz": 976.6,
+        "onset_strength": 0.76468,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.04137,
+        "spectral_centroid_hz": 725.3,
+        "onset_strength": 0.53637,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.14885,
+        "spectral_centroid_hz": 542.8,
+        "onset_strength": 1.05787,
+        "spectral_flatness": 0.00208
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.16596,
+        "spectral_centroid_hz": 1221.7,
+        "onset_strength": 0.94713,
+        "spectral_flatness": 0.00145
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.06057,
+        "spectral_centroid_hz": 955.5,
+        "onset_strength": 0.61151,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.07265,
+        "spectral_centroid_hz": 687.92,
+        "onset_strength": 0.78484,
+        "spectral_flatness": 0.00214
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.20153,
+        "spectral_centroid_hz": 1109.96,
+        "onset_strength": 1.07938,
+        "spectral_flatness": 0.00168
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.11458,
+        "spectral_centroid_hz": 2002.05,
+        "onset_strength": 1.03593,
+        "spectral_flatness": 0.00325
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.04998,
+        "spectral_centroid_hz": 1971.35,
+        "onset_strength": 0.82025,
+        "spectral_flatness": 0.00457
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "8de1ae0c-d89f-4b6e-abfc-393a34e97210",
+      "title": "Family",
+      "artist": "Björk",
+      "duration_ms": 424010,
+      "first_release_date": "2015-11-06",
+      "disambiguation": "acoustic strings version",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "8de1ae0c-d89f-4b6e-abfc-393a34e97210",
+      "duration_sec": 424.010437012,
+      "sample_rate": 96000,
+      "tempo_bpm": 120.400756836,
+      "danceability": 0.921696305275,
+      "onset_rate": 0.808902740479,
+      "beats_count": 862,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0329610146582,
+      "dynamic_complexity": 4.01871776581,
+      "average_loudness": 0.396860092878,
+      "spectral_centroid_mean": 1292.98254395,
+      "spectral_flux_mean": 0.0534281283617,
+      "spectral_rolloff_mean": 1659.57983398,
+      "dissonance_mean": 0.445910066366,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
