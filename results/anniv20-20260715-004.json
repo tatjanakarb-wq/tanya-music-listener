@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Susanne Sundfør",
+    "track": "The Sound of War",
+    "request_id": "anniv20-20260715-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b8477638-51ce-4226-af66-3411ad20c3cf",
+      "title": "The Sound of War",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 549760,
+      "first_release_date": "2019-11-29",
+      "disambiguation": "live, The Barbican, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "cd3a3289-1270-4d24-97f5-757020cae4dd",
+      "title": "The Sound of War",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 469186,
+      "first_release_date": "2017-08-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Susanne Sundfør",
+    "track": "The Sound of War",
+    "album": "Music For People In Trouble",
+    "duration_ms": 469187,
+    "release_date": "2017-08-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/bc/aa/53bcaaee-2164-291d-6365-ade557118e9e/mzaf_9206686505776380225.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-sound-of-war/1235818894?i=1235820912&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-sound-of-war/1235818894?i=1235820912&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/bc/aa/53bcaaee-2164-291d-6365-ade557118e9e/mzaf_9206686505776380225.plus.aac.p.m4a",
+      "bytes": 1130268,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.04926,
+    "onset_rate_per_sec": 3.07393,
+    "dynamic_range_db_p95_p10": 29.152,
+    "crest_factor_db": 14.873,
+    "rms_mean": 0.05122,
+    "rms_std": 0.03592,
+    "spectral_centroid_hz_mean": 1160.36,
+    "spectral_centroid_hz_std": 763.75,
+    "spectral_bandwidth_hz_mean": 1457.04,
+    "spectral_rolloff_hz_mean": 2025.97,
+    "spectral_flatness_mean": 0.01049,
+    "spectral_contrast_mean": 22.54214,
+    "energy_share": {
+      "below_150_hz": 0.05877,
+      "150_to_2000_hz": 0.93684,
+      "above_2000_hz": 0.00439
+    },
+    "percussive_share": 0.14956,
+    "tonal_entropy_bits": 3.41192,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.39702
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0065,
+        "spectral_centroid_hz": 2535.15,
+        "onset_strength": 1.10796,
+        "spectral_flatness": 0.03876
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00392,
+        "spectral_centroid_hz": 2565.74,
+        "onset_strength": 1.05666,
+        "spectral_flatness": 0.05165
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02838,
+        "spectral_centroid_hz": 1675.9,
+        "onset_strength": 1.30568,
+        "spectral_flatness": 0.03382
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05273,
+        "spectral_centroid_hz": 839.06,
+        "onset_strength": 1.01978,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05695,
+        "spectral_centroid_hz": 641.07,
+        "onset_strength": 0.88689,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06225,
+        "spectral_centroid_hz": 598.1,
+        "onset_strength": 0.93815,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07407,
+        "spectral_centroid_hz": 865.28,
+        "onset_strength": 1.15048,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07013,
+        "spectral_centroid_hz": 1060.44,
+        "onset_strength": 1.02088,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04767,
+        "spectral_centroid_hz": 692.84,
+        "onset_strength": 0.81204,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09912,
+        "spectral_centroid_hz": 993.82,
+        "onset_strength": 1.31158,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06158,
+        "spectral_centroid_hz": 887.24,
+        "onset_strength": 1.00157,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05086,
+        "spectral_centroid_hz": 577.61,
+        "onset_strength": 0.82319,
+        "spectral_flatness": 8e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b8477638-51ce-4226-af66-3411ad20c3cf",
+      "title": "The Sound of War",
+      "artist": "Susanne Sundfør",
+      "duration_ms": 549760,
+      "first_release_date": "2019-11-29",
+      "disambiguation": "live, The Barbican, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b8477638-51ce-4226-af66-3411ad20c3cf",
+      "duration_sec": 549.760192871,
+      "sample_rate": 44100,
+      "tempo_bpm": 125.642303467,
+      "danceability": 0.930638611317,
+      "onset_rate": 2.23726320267,
+      "beats_count": 1177,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0446790531278,
+      "dynamic_complexity": 5.15893888474,
+      "average_loudness": 0.457102626562,
+      "spectral_centroid_mean": 529.905395508,
+      "spectral_flux_mean": 0.0700030848384,
+      "spectral_rolloff_mean": 521.353393555,
+      "dissonance_mean": 0.402322977781,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
