@@ -1,0 +1,23 @@
+{
+  "request": {
+    "artist": "Max Cooper",
+    "track": "On Being",
+    "request_id": "anniv20-20260715-010"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9734d00b-aadf-460e-a87f-6e07e8228c7f",
+      "title": "On Being",
+      "artist": "Max Cooper Felix Gerbelot",
+      "duration_ms": 281000,
+      "first_release_date": "2025-02-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.82
+    }
+  ]
+}
