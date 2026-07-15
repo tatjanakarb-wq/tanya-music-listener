@@ -1,0 +1,23 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Shadow Work",
+    "request_id": "anniv20-20260715-014"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5788c7a1-a4d6-40cf-8a9b-b305e85d7371",
+      "title": "Shadow Work (Full Album)",
+      "artist": "Mammal Hands",
+      "duration_ms": 2809000,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.8067
+    }
+  ]
+}
