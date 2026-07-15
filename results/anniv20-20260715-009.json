@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Tigran Hamasyan",
+    "track": "Ara Resurrected",
+    "request_id": "anniv20-20260715-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "823c0cf0-3190-467c-b5ff-bcb6bd5c452e",
+      "title": "Ara Resurrected",
+      "artist": "Tigran Hamasyan",
+      "duration_ms": 502000,
+      "first_release_date": "2020-08-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ad416bd5-9cb1-48d0-8f7b-68a3d9eeca17",
+      "title": "Ara Resurrected - Dawatile Remix",
+      "artist": "Tigran Hamasyan Dawatile",
+      "duration_ms": 228387,
+      "first_release_date": "2022-01-28",
+      "disambiguation": "",
+      "musicbrainz_score": 72,
+      "local_match_score": 0.7097
+    }
+  ],
+  "matched_recording": {
+    "artist": "Tigran Hamasyan",
+    "track": "Ara Resurrected",
+    "album": "The Call Within",
+    "duration_ms": 502829,
+    "release_date": "2020-08-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/92/62/0f/92620f72-274e-9a6e-2999-4c4589e3a92f/mzaf_133888501895423776.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/ara-resurrected/1513048962?i=1513048969&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 829
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/ara-resurrected/1513048962?i=1513048969&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/92/62/0f/92620f72-274e-9a6e-2999-4c4589e3a92f/mzaf_133888501895423776.plus.aac.p.m4a",
+      "bytes": 1183536,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.06695,
+    "onset_rate_per_sec": 4.10972,
+    "dynamic_range_db_p95_p10": 11.61,
+    "crest_factor_db": 19.669,
+    "rms_mean": 0.05449,
+    "rms_std": 0.02831,
+    "spectral_centroid_hz_mean": 1226.18,
+    "spectral_centroid_hz_std": 506.62,
+    "spectral_bandwidth_hz_mean": 1641.22,
+    "spectral_rolloff_hz_mean": 2515.0,
+    "spectral_flatness_mean": 0.00368,
+    "spectral_contrast_mean": 21.32869,
+    "energy_share": {
+      "below_150_hz": 0.45124,
+      "150_to_2000_hz": 0.54014,
+      "above_2000_hz": 0.00861
+    },
+    "percussive_share": 0.4203,
+    "tonal_entropy_bits": 3.53138,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.39857
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03615,
+        "spectral_centroid_hz": 741.66,
+        "onset_strength": 0.6465,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03464,
+        "spectral_centroid_hz": 743.42,
+        "onset_strength": 0.67449,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05402,
+        "spectral_centroid_hz": 693.41,
+        "onset_strength": 0.69008,
+        "spectral_flatness": 0.00022
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05745,
+        "spectral_centroid_hz": 1670.18,
+        "onset_strength": 1.25032,
+        "spectral_flatness": 0.00829
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05941,
+        "spectral_centroid_hz": 1623.42,
+        "onset_strength": 1.01126,
+        "spectral_flatness": 0.00643
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04902,
+        "spectral_centroid_hz": 1546.84,
+        "onset_strength": 0.96999,
+        "spectral_flatness": 0.00505
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04917,
+        "spectral_centroid_hz": 1145.55,
+        "onset_strength": 1.34863,
+        "spectral_flatness": 0.00342
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06475,
+        "spectral_centroid_hz": 1154.96,
+        "onset_strength": 1.41237,
+        "spectral_flatness": 0.00165
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05134,
+        "spectral_centroid_hz": 1319.85,
+        "onset_strength": 1.38128,
+        "spectral_flatness": 0.00566
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05984,
+        "spectral_centroid_hz": 1240.16,
+        "onset_strength": 1.48676,
+        "spectral_flatness": 0.00254
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07796,
+        "spectral_centroid_hz": 1201.33,
+        "onset_strength": 1.45314,
+        "spectral_flatness": 0.00289
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05992,
+        "spectral_centroid_hz": 1631.35,
+        "onset_strength": 1.09858,
+        "spectral_flatness": 0.0078
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "823c0cf0-3190-467c-b5ff-bcb6bd5c452e",
+      "title": "Ara Resurrected",
+      "artist": "Tigran Hamasyan",
+      "duration_ms": 502000,
+      "first_release_date": "2020-08-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "823c0cf0-3190-467c-b5ff-bcb6bd5c452e",
+      "duration_sec": 502.829193115,
+      "sample_rate": 48000,
+      "tempo_bpm": 110.633239746,
+      "danceability": 1.35840213299,
+      "onset_rate": 3.45231246948,
+      "beats_count": 1063,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0722135007381,
+      "dynamic_complexity": 3.69076991081,
+      "average_loudness": 0.729578793049,
+      "spectral_centroid_mean": 891.680541992,
+      "spectral_flux_mean": 0.091020591557,
+      "spectral_rolloff_mean": 797.174316406,
+      "dissonance_mean": 0.45795071125,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
