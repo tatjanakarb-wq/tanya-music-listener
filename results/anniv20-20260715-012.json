@@ -1,0 +1,203 @@
+{
+  "request": {
+    "artist": "The Smile",
+    "track": "Bending Hectic",
+    "request_id": "anniv20-20260715-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "047ae6bd-4401-4bae-b2a0-044a8a445be0",
+      "title": "Bending Hectic",
+      "artist": "The Smile",
+      "duration_ms": 491180,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "666b558f-3997-4a47-96e7-d0bd8d8966e8",
+      "title": "Bending Hectic",
+      "artist": "The Smile",
+      "duration_ms": 483973,
+      "first_release_date": "2023-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "4453c6be-10d5-4e51-b588-84476c8f437c",
+      "title": "Bending Hectic",
+      "artist": "The Smile",
+      "duration_ms": 503000,
+      "first_release_date": "2024-03-09",
+      "disambiguation": "live, 2024-03-09: 6 Music Festival, O2 Victoria Warehouse, Manchester, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7a29900e-4222-4aa3-8207-5a5b7589f5a3",
+      "title": "Bending Hectic",
+      "artist": "The Smile",
+      "duration_ms": 518896,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0eb21f1f-3cbf-4885-ac8e-8d454a9417b9",
+      "title": "Bending Hectic",
+      "artist": "The Smile",
+      "duration_ms": 489247,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "The Smile",
+    "track": "Bending Hectic",
+    "album": "Bending Hectic - Single",
+    "duration_ms": 483973,
+    "release_date": "2023-06-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/2e/4d/622e4d41-e0ab-79de-0677-913461fee7b5/mzaf_14298565917539874433.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/bending-hectic/1690036090?i=1690036458&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/bending-hectic/1690036090?i=1690036458&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/2e/4d/622e4d41-e0ab-79de-0677-913461fee7b5/mzaf_14298565917539874433.plus.aac.p.m4a",
+      "bytes": 1023630,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05643,
+    "onset_rate_per_sec": 5.80474,
+    "dynamic_range_db_p95_p10": 8.833,
+    "crest_factor_db": 16.63,
+    "rms_mean": 0.07718,
+    "rms_std": 0.02779,
+    "spectral_centroid_hz_mean": 1587.11,
+    "spectral_centroid_hz_std": 441.4,
+    "spectral_bandwidth_hz_mean": 2128.74,
+    "spectral_rolloff_hz_mean": 3667.2,
+    "spectral_flatness_mean": 0.00382,
+    "spectral_contrast_mean": 21.48853,
+    "energy_share": {
+      "below_150_hz": 0.20051,
+      "150_to_2000_hz": 0.78038,
+      "above_2000_hz": 0.01912
+    },
+    "percussive_share": 0.22119,
+    "tonal_entropy_bits": 3.46969,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.24,
+      "relative_score": 1.47937
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10405,
+        "spectral_centroid_hz": 1401.74,
+        "onset_strength": 1.11979,
+        "spectral_flatness": 0.00275
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.07825,
+        "spectral_centroid_hz": 1610.44,
+        "onset_strength": 1.10976,
+        "spectral_flatness": 0.00314
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05918,
+        "spectral_centroid_hz": 1912.86,
+        "onset_strength": 1.19892,
+        "spectral_flatness": 0.00839
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.06961,
+        "spectral_centroid_hz": 1112.66,
+        "onset_strength": 0.99515,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.0542,
+        "spectral_centroid_hz": 1198.39,
+        "onset_strength": 0.87219,
+        "spectral_flatness": 0.00037
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.07002,
+        "spectral_centroid_hz": 1955.7,
+        "onset_strength": 1.06009,
+        "spectral_flatness": 0.00463
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.10953,
+        "spectral_centroid_hz": 1898.56,
+        "onset_strength": 1.35951,
+        "spectral_flatness": 0.00773
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.11267,
+        "spectral_centroid_hz": 1586.93,
+        "onset_strength": 1.23691,
+        "spectral_flatness": 0.0041
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.05979,
+        "spectral_centroid_hz": 1947.82,
+        "onset_strength": 1.33831,
+        "spectral_flatness": 0.00703
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.08902,
+        "spectral_centroid_hz": 1540.62,
+        "onset_strength": 1.15452,
+        "spectral_flatness": 0.00353
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.05103,
+        "spectral_centroid_hz": 1205.43,
+        "onset_strength": 0.89441,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.06917,
+        "spectral_centroid_hz": 1671.43,
+        "onset_strength": 1.05911,
+        "spectral_flatness": 0.00333
+      }
+    ]
+  }
+}
