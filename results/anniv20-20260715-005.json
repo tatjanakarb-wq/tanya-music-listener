@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "KASHIWA Daisuke",
+    "track": "Stella",
+    "request_id": "anniv20-20260715-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "edfee6ea-c028-46d2-85a7-a7482a582c95",
+      "title": "stella",
+      "artist": "Kashiwa Daisuke",
+      "duration_ms": 2158000,
+      "first_release_date": "2007-08-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kashiwa Daisuke",
+    "track": "stella",
+    "album": "Program Music I",
+    "duration_ms": 2158373,
+    "release_date": "2007-08-24T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/3b/8b/2f/3b8b2fab-3011-f820-8e6d-aabb0681caa9/mzaf_14506349225553561720.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/stella/1546594011?i=1546594012&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 373
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/stella/1546594011?i=1546594012&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/3b/8b/2f/3b8b2fab-3011-f820-8e6d-aabb0681caa9/mzaf_14506349225553561720.plus.aac.p.m4a",
+      "bytes": 1395243,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.06688,
+    "onset_rate_per_sec": 1.36991,
+    "dynamic_range_db_p95_p10": 28.736,
+    "crest_factor_db": 19.631,
+    "rms_mean": 0.0426,
+    "rms_std": 0.03841,
+    "spectral_centroid_hz_mean": 1650.28,
+    "spectral_centroid_hz_std": 719.43,
+    "spectral_bandwidth_hz_mean": 1602.71,
+    "spectral_rolloff_hz_mean": 2824.61,
+    "spectral_flatness_mean": 0.00986,
+    "spectral_contrast_mean": 18.93704,
+    "energy_share": {
+      "below_150_hz": 0.01928,
+      "150_to_2000_hz": 0.93697,
+      "above_2000_hz": 0.04375
+    },
+    "percussive_share": 0.25621,
+    "tonal_entropy_bits": 3.52412,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 1.18976
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04734,
+        "spectral_centroid_hz": 1409.8,
+        "onset_strength": 1.09378,
+        "spectral_flatness": 0.00091
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08633,
+        "spectral_centroid_hz": 886.59,
+        "onset_strength": 1.5376,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04441,
+        "spectral_centroid_hz": 2004.66,
+        "onset_strength": 1.21379,
+        "spectral_flatness": 0.01066
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.02047,
+        "spectral_centroid_hz": 1093.99,
+        "onset_strength": 0.5806,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03447,
+        "spectral_centroid_hz": 1143.91,
+        "onset_strength": 0.7111,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03207,
+        "spectral_centroid_hz": 1683.54,
+        "onset_strength": 1.11209,
+        "spectral_flatness": 0.00765
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.01797,
+        "spectral_centroid_hz": 2035.32,
+        "onset_strength": 0.92861,
+        "spectral_flatness": 0.01706
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06761,
+        "spectral_centroid_hz": 2489.32,
+        "onset_strength": 1.12773,
+        "spectral_flatness": 0.03198
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.01458,
+        "spectral_centroid_hz": 1406.5,
+        "onset_strength": 0.64117,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06585,
+        "spectral_centroid_hz": 1463.44,
+        "onset_strength": 1.00691,
+        "spectral_flatness": 0.00058
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0272,
+        "spectral_centroid_hz": 1743.55,
+        "onset_strength": 1.15831,
+        "spectral_flatness": 0.01333
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05246,
+        "spectral_centroid_hz": 2430.7,
+        "onset_strength": 1.66925,
+        "spectral_flatness": 0.03485
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "edfee6ea-c028-46d2-85a7-a7482a582c95",
+      "title": "stella",
+      "artist": "Kashiwa Daisuke",
+      "duration_ms": 2158000,
+      "first_release_date": "2007-08-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "edfee6ea-c028-46d2-85a7-a7482a582c95",
+      "duration_sec": 2158.37329102,
+      "sample_rate": 44100,
+      "tempo_bpm": 131.71963501,
+      "danceability": 1.01307570934,
+      "onset_rate": 2.4050359726,
+      "beats_count": 4434,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.0505400411785,
+      "dynamic_complexity": 8.6983499527,
+      "average_loudness": 0.0776325315237,
+      "spectral_centroid_mean": 1083.89672852,
+      "spectral_flux_mean": 0.0466662868857,
+      "spectral_rolloff_mean": 1268.62658691,
+      "dissonance_mean": 0.437916040421,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
