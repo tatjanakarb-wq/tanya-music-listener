@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Spiral Stair",
+    "request_id": "adult21-20260716-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e2a53ff6-4c1a-4a38-bb82-cf8d3c02d3c0",
+      "title": "Spiral Stair",
+      "artist": "Mammal Hands",
+      "duration_ms": 278000,
+      "first_release_date": "2020-09-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Spiral Stair",
+    "album": "Captured Spirits",
+    "duration_ms": 278605,
+    "release_date": "2020-09-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/88/e2/d7/88e2d786-35b8-510d-c870-fe8a545827b4/mzaf_15117177988062019305.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/spiral-stair/1579311965?i=1579312341&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 605
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/spiral-stair/1579311965?i=1579312341&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/88/e2/d7/88e2d786-35b8-510d-c870-fe8a545827b4/mzaf_15117177988062019305.plus.aac.p.m4a",
+      "bytes": 1157407,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02033,
+    "onset_rate_per_sec": 5.88057,
+    "dynamic_range_db_p95_p10": 9.754,
+    "crest_factor_db": 15.259,
+    "rms_mean": 0.09243,
+    "rms_std": 0.04033,
+    "spectral_centroid_hz_mean": 1253.34,
+    "spectral_centroid_hz_std": 456.87,
+    "spectral_bandwidth_hz_mean": 1747.24,
+    "spectral_rolloff_hz_mean": 2468.37,
+    "spectral_flatness_mean": 0.00237,
+    "spectral_contrast_mean": 23.03035,
+    "energy_share": {
+      "below_150_hz": 0.34185,
+      "150_to_2000_hz": 0.64963,
+      "above_2000_hz": 0.00852
+    },
+    "percussive_share": 0.31785,
+    "tonal_entropy_bits": 3.45701,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 1.03588
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07987,
+        "spectral_centroid_hz": 1233.58,
+        "onset_strength": 1.26535,
+        "spectral_flatness": 0.0031
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09472,
+        "spectral_centroid_hz": 1290.41,
+        "onset_strength": 1.09799,
+        "spectral_flatness": 0.00176
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09246,
+        "spectral_centroid_hz": 1348.47,
+        "onset_strength": 1.2078,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09793,
+        "spectral_centroid_hz": 1221.77,
+        "onset_strength": 1.24984,
+        "spectral_flatness": 0.00205
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.0861,
+        "spectral_centroid_hz": 1185.99,
+        "onset_strength": 1.23278,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08145,
+        "spectral_centroid_hz": 1195.81,
+        "onset_strength": 1.26621,
+        "spectral_flatness": 0.00227
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11389,
+        "spectral_centroid_hz": 1097.84,
+        "onset_strength": 1.26051,
+        "spectral_flatness": 0.00151
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10336,
+        "spectral_centroid_hz": 1194.95,
+        "onset_strength": 1.17575,
+        "spectral_flatness": 0.00186
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08476,
+        "spectral_centroid_hz": 1285.73,
+        "onset_strength": 1.31714,
+        "spectral_flatness": 0.00282
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09191,
+        "spectral_centroid_hz": 1232.04,
+        "onset_strength": 1.20702,
+        "spectral_flatness": 0.00263
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08897,
+        "spectral_centroid_hz": 1350.24,
+        "onset_strength": 1.18698,
+        "spectral_flatness": 0.00291
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09366,
+        "spectral_centroid_hz": 1402.36,
+        "onset_strength": 1.3058,
+        "spectral_flatness": 0.00279
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "e2a53ff6-4c1a-4a38-bb82-cf8d3c02d3c0",
+      "title": "Spiral Stair",
+      "artist": "Mammal Hands",
+      "duration_ms": 278000,
+      "first_release_date": "2020-09-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "e2a53ff6-4c1a-4a38-bb82-cf8d3c02d3c0",
+      "duration_sec": 278.648162842,
+      "sample_rate": 44100,
+      "tempo_bpm": 93.3191299438,
+      "danceability": 1.15129637718,
+      "onset_rate": 3.83259081841,
+      "beats_count": 475,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0259913355112,
+      "dynamic_complexity": 3.7212843895,
+      "average_loudness": 0.847132623196,
+      "spectral_centroid_mean": 588.074523926,
+      "spectral_flux_mean": 0.0651269555092,
+      "spectral_rolloff_mean": 504.679473877,
+      "dissonance_mean": 0.438868016005,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
