@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Anna Meredith",
+    "track": "Orlok",
+    "request_id": "adult21-20260716-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "6643aaa7-1c10-4a42-839e-f56ecef04193",
+      "title": "Orlok",
+      "artist": "Anna Meredith",
+      "duration_ms": 419613,
+      "first_release_date": "2013-08-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Anna Meredith",
+    "track": "Orlok",
+    "album": "Jet Black Raider - EP",
+    "duration_ms": 419613,
+    "release_date": "2013-08-16T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/3e/7a/b33e7aaa-051d-e37a-1890-936bf56ab4dd/mzaf_14308348377770520380.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/orlok/1829170834?i=1829170906&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/orlok/1829170834?i=1829170906&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/3e/7a/b33e7aaa-051d-e37a-1890-936bf56ab4dd/mzaf_14308348377770520380.plus.aac.p.m4a",
+      "bytes": 942814,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.0255,
+    "onset_rate_per_sec": 4.33687,
+    "dynamic_range_db_p95_p10": 10.553,
+    "crest_factor_db": 17.577,
+    "rms_mean": 0.06467,
+    "rms_std": 0.0289,
+    "spectral_centroid_hz_mean": 1290.49,
+    "spectral_centroid_hz_std": 471.8,
+    "spectral_bandwidth_hz_mean": 1472.98,
+    "spectral_rolloff_hz_mean": 2398.83,
+    "spectral_flatness_mean": 0.00156,
+    "spectral_contrast_mean": 27.29456,
+    "energy_share": {
+      "below_150_hz": 0.18408,
+      "150_to_2000_hz": 0.7924,
+      "above_2000_hz": 0.02352
+    },
+    "percussive_share": 0.22909,
+    "tonal_entropy_bits": 3.38983,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 1.77097
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1419,
+        "spectral_centroid_hz": 1449.19,
+        "onset_strength": 1.18456,
+        "spectral_flatness": 0.00416
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.08349,
+        "spectral_centroid_hz": 1264.35,
+        "onset_strength": 1.33436,
+        "spectral_flatness": 0.00197
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05932,
+        "spectral_centroid_hz": 1202.48,
+        "onset_strength": 1.35532,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.05849,
+        "spectral_centroid_hz": 1268.76,
+        "onset_strength": 1.19037,
+        "spectral_flatness": 0.00084
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.05689,
+        "spectral_centroid_hz": 1138.2,
+        "onset_strength": 1.20204,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.0574,
+        "spectral_centroid_hz": 1219.13,
+        "onset_strength": 1.18979,
+        "spectral_flatness": 0.00049
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.0512,
+        "spectral_centroid_hz": 1254.03,
+        "onset_strength": 1.33363,
+        "spectral_flatness": 0.0012
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.05642,
+        "spectral_centroid_hz": 1335.15,
+        "onset_strength": 1.40335,
+        "spectral_flatness": 0.00148
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.0513,
+        "spectral_centroid_hz": 1349.77,
+        "onset_strength": 1.41875,
+        "spectral_flatness": 0.00195
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.05279,
+        "spectral_centroid_hz": 1291.47,
+        "onset_strength": 1.26002,
+        "spectral_flatness": 0.00137
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.05441,
+        "spectral_centroid_hz": 1402.76,
+        "onset_strength": 1.42376,
+        "spectral_flatness": 0.0024
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.0528,
+        "spectral_centroid_hz": 1310.28,
+        "onset_strength": 1.3476,
+        "spectral_flatness": 0.00192
+      }
+    ]
+  }
+}
