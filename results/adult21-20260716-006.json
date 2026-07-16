@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Rival Consoles",
+    "track": "Recovery",
+    "request_id": "adult21-20260716-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f500ff7a-0598-4f58-a404-2620e205a05c",
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "duration_ms": 288040,
+      "first_release_date": "2014-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3b3a7e74-173c-493a-be6e-bf31951bf829",
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "duration_ms": 485000,
+      "first_release_date": "2017-07-14",
+      "disambiguation": "part of “DJ‐Kicks: DJ Tennis” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c11c551d-e425-44f6-908e-36b841c279bf",
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "duration_ms": 288000,
+      "first_release_date": "2016-04-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "87e82e61-d51d-4a02-8b06-91fd33dd8397",
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "duration_ms": 290000,
+      "first_release_date": "2024-06-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "4790d928-fe99-44f1-886c-1c3e9357766a",
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "duration_ms": 290000,
+      "first_release_date": "2015-05-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Rival Consoles",
+    "track": "Recovery",
+    "album": "Odyssey / Sonne",
+    "duration_ms": 290202,
+    "release_date": "2014-09-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/be/85/78be8550-0fc3-d05d-c71e-b02d4c6a0a80/mzaf_5201296744583151304.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/recovery/1451073712?i=1451074694&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 2162
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/recovery/1451073712?i=1451074694&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/be/85/78be8550-0fc3-d05d-c71e-b02d4c6a0a80/mzaf_5201296744583151304.plus.aac.p.m4a",
+      "bytes": 1053029,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.06653,
+    "onset_rate_per_sec": 3.96991,
+    "dynamic_range_db_p95_p10": 17.883,
+    "crest_factor_db": 18.251,
+    "rms_mean": 0.03626,
+    "rms_std": 0.02542,
+    "spectral_centroid_hz_mean": 611.73,
+    "spectral_centroid_hz_std": 224.8,
+    "spectral_bandwidth_hz_mean": 1082.66,
+    "spectral_rolloff_hz_mean": 1040.22,
+    "spectral_flatness_mean": 0.00043,
+    "spectral_contrast_mean": 18.05454,
+    "energy_share": {
+      "below_150_hz": 0.71755,
+      "150_to_2000_hz": 0.28056,
+      "above_2000_hz": 0.00189
+    },
+    "percussive_share": 0.31155,
+    "tonal_entropy_bits": 3.53869,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.20903
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04329,
+        "spectral_centroid_hz": 496.25,
+        "onset_strength": 1.305,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.03188,
+        "spectral_centroid_hz": 450.33,
+        "onset_strength": 1.46289,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03872,
+        "spectral_centroid_hz": 545.18,
+        "onset_strength": 1.70809,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.0417,
+        "spectral_centroid_hz": 482.7,
+        "onset_strength": 1.31347,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.03762,
+        "spectral_centroid_hz": 599.72,
+        "onset_strength": 1.92917,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.04163,
+        "spectral_centroid_hz": 721.33,
+        "onset_strength": 1.63613,
+        "spectral_flatness": 0.00063
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.02723,
+        "spectral_centroid_hz": 671.81,
+        "onset_strength": 1.76281,
+        "spectral_flatness": 0.0006
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.03041,
+        "spectral_centroid_hz": 708.55,
+        "onset_strength": 1.67725,
+        "spectral_flatness": 0.00041
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.02921,
+        "spectral_centroid_hz": 671.47,
+        "onset_strength": 1.39995,
+        "spectral_flatness": 0.00051
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.03379,
+        "spectral_centroid_hz": 792.08,
+        "onset_strength": 1.8479,
+        "spectral_flatness": 0.00104
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.0458,
+        "spectral_centroid_hz": 678.49,
+        "onset_strength": 1.77166,
+        "spectral_flatness": 0.00056
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.03386,
+        "spectral_centroid_hz": 523.56,
+        "onset_strength": 1.73449,
+        "spectral_flatness": 0.0004
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f500ff7a-0598-4f58-a404-2620e205a05c",
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "duration_ms": 288040,
+      "first_release_date": "2014-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f500ff7a-0598-4f58-a404-2620e205a05c",
+      "duration_sec": 287.791015625,
+      "sample_rate": 44100,
+      "tempo_bpm": 77.4095077515,
+      "danceability": 1.18218255043,
+      "onset_rate": 4.85387420654,
+      "beats_count": 370,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0341990627348,
+      "dynamic_complexity": 6.40655755997,
+      "average_loudness": 0.253590017557,
+      "spectral_centroid_mean": 524.586853027,
+      "spectral_flux_mean": 0.0968455076218,
+      "spectral_rolloff_mean": 431.990600586,
+      "dissonance_mean": 0.423670917749,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
