@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "Kiasmos",
+    "track": "Sailed",
+    "request_id": "adult21-20260716-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "671d35d9-8ece-440e-b79d-c2c37ade9bdd",
+      "title": "Sailed",
+      "artist": "Kiasmos",
+      "duration_ms": 244680,
+      "first_release_date": "2024-05-28",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e96fa3bf-077e-4f90-9a45-d3d67018c918",
+      "title": "Sailed (Rachika Nayar & Nina Keith rework)",
+      "artist": "Kiasmos",
+      "duration_ms": 258000,
+      "first_release_date": "2026-08-07",
+      "disambiguation": "",
+      "musicbrainz_score": 75,
+      "local_match_score": 0.5782
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kiasmos",
+    "track": "Sailed",
+    "album": "II",
+    "duration_ms": 244682,
+    "release_date": "2024-05-28T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/1b/81/2b1b8172-fa7b-d27e-cba9-1ce97bf4538c/mzaf_7594087024939585199.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/sailed/1740326550?i=1740327002&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 2
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/sailed/1740326550?i=1740327002&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/1b/81/2b1b8172-fa7b-d27e-cba9-1ce97bf4538c/mzaf_7594087024939585199.plus.aac.p.m4a",
+      "bytes": 973133,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.02336,
+    "onset_rate_per_sec": 7.73965,
+    "dynamic_range_db_p95_p10": 11.932,
+    "crest_factor_db": 11.47,
+    "rms_mean": 0.13839,
+    "rms_std": 0.06476,
+    "spectral_centroid_hz_mean": 1416.92,
+    "spectral_centroid_hz_std": 687.0,
+    "spectral_bandwidth_hz_mean": 2062.31,
+    "spectral_rolloff_hz_mean": 2980.63,
+    "spectral_flatness_mean": 0.00823,
+    "spectral_contrast_mean": 17.59394,
+    "energy_share": {
+      "below_150_hz": 0.64242,
+      "150_to_2000_hz": 0.34926,
+      "above_2000_hz": 0.00832
+    },
+    "percussive_share": 0.39129,
+    "tonal_entropy_bits": 3.56033,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 0.79413
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10658,
+        "spectral_centroid_hz": 708.07,
+        "onset_strength": 1.58,
+        "spectral_flatness": 0.00124
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.14303,
+        "spectral_centroid_hz": 1357.87,
+        "onset_strength": 2.51652,
+        "spectral_flatness": 0.00631
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12796,
+        "spectral_centroid_hz": 1540.93,
+        "onset_strength": 2.45962,
+        "spectral_flatness": 0.01025
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.14207,
+        "spectral_centroid_hz": 1437.89,
+        "onset_strength": 2.57511,
+        "spectral_flatness": 0.00753
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.14238,
+        "spectral_centroid_hz": 1519.67,
+        "onset_strength": 2.79302,
+        "spectral_flatness": 0.00884
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.13999,
+        "spectral_centroid_hz": 1460.32,
+        "onset_strength": 2.68687,
+        "spectral_flatness": 0.00833
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.13742,
+        "spectral_centroid_hz": 1433.16,
+        "onset_strength": 2.64669,
+        "spectral_flatness": 0.00952
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.12433,
+        "spectral_centroid_hz": 1569.2,
+        "onset_strength": 2.66487,
+        "spectral_flatness": 0.01154
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.15672,
+        "spectral_centroid_hz": 1446.17,
+        "onset_strength": 2.67664,
+        "spectral_flatness": 0.00628
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.16107,
+        "spectral_centroid_hz": 1455.17,
+        "onset_strength": 2.52765,
+        "spectral_flatness": 0.00809
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.16271,
+        "spectral_centroid_hz": 1331.1,
+        "onset_strength": 2.36053,
+        "spectral_flatness": 0.00628
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.11614,
+        "spectral_centroid_hz": 1740.81,
+        "onset_strength": 2.70083,
+        "spectral_flatness": 0.01453
+      }
+    ]
+  }
+}
