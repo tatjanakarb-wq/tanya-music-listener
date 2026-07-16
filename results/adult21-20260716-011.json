@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Poppy Ackroyd",
+    "track": "Paper",
+    "request_id": "adult21-20260716-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4278ddfe-1e74-41b1-ae16-6a6a846dc896",
+      "title": "Paper",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 275000,
+      "first_release_date": "2018-02-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f3823fae-ac9f-4fbf-8235-0c20096723b3",
+      "title": "Paper (Max Cooper remix)",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 381000,
+      "first_release_date": "2019-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.6348
+    }
+  ],
+  "matched_recording": {
+    "artist": "Poppy Ackroyd",
+    "track": "Paper",
+    "album": "Resolve",
+    "duration_ms": 274733,
+    "release_date": "2017-12-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/36/0a/f3360aec-e5c1-3d91-6613-6ebf2c1f875d/mzaf_11955628183879550454.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/paper/1775527878?i=1775528119&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 267
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/paper/1775527878?i=1775528119&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/36/0a/f3360aec-e5c1-3d91-6613-6ebf2c1f875d/mzaf_11955628183879550454.plus.aac.p.m4a",
+      "bytes": 1082379,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.0222,
+    "onset_rate_per_sec": 4.47378,
+    "dynamic_range_db_p95_p10": 13.664,
+    "crest_factor_db": 19.334,
+    "rms_mean": 0.0236,
+    "rms_std": 0.01234,
+    "spectral_centroid_hz_mean": 1520.92,
+    "spectral_centroid_hz_std": 669.64,
+    "spectral_bandwidth_hz_mean": 1890.98,
+    "spectral_rolloff_hz_mean": 2823.53,
+    "spectral_flatness_mean": 0.00826,
+    "spectral_contrast_mean": 19.63241,
+    "energy_share": {
+      "below_150_hz": 0.01714,
+      "150_to_2000_hz": 0.97615,
+      "above_2000_hz": 0.00671
+    },
+    "percussive_share": 0.17781,
+    "tonal_entropy_bits": 3.38084,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.21,
+      "relative_score": 0.88924
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00633,
+        "spectral_centroid_hz": 2560.17,
+        "onset_strength": 1.27557,
+        "spectral_flatness": 0.04986
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.011,
+        "spectral_centroid_hz": 1691.76,
+        "onset_strength": 1.53177,
+        "spectral_flatness": 0.00712
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0134,
+        "spectral_centroid_hz": 1679.47,
+        "onset_strength": 1.42203,
+        "spectral_flatness": 0.00693
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.02043,
+        "spectral_centroid_hz": 1539.78,
+        "onset_strength": 1.59819,
+        "spectral_flatness": 0.00336
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.01656,
+        "spectral_centroid_hz": 1513.91,
+        "onset_strength": 1.50517,
+        "spectral_flatness": 0.00586
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.0178,
+        "spectral_centroid_hz": 1474.53,
+        "onset_strength": 1.59303,
+        "spectral_flatness": 0.00615
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.02247,
+        "spectral_centroid_hz": 1439.86,
+        "onset_strength": 1.65295,
+        "spectral_flatness": 0.00439
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.02667,
+        "spectral_centroid_hz": 1330.35,
+        "onset_strength": 1.38778,
+        "spectral_flatness": 0.0034
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.03253,
+        "spectral_centroid_hz": 1300.35,
+        "onset_strength": 1.5661,
+        "spectral_flatness": 0.00389
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.03358,
+        "spectral_centroid_hz": 1275.14,
+        "onset_strength": 1.52446,
+        "spectral_flatness": 0.00293
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.04203,
+        "spectral_centroid_hz": 1245.41,
+        "onset_strength": 1.55495,
+        "spectral_flatness": 0.00263
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.04029,
+        "spectral_centroid_hz": 1205.98,
+        "onset_strength": 1.40984,
+        "spectral_flatness": 0.00288
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "4278ddfe-1e74-41b1-ae16-6a6a846dc896",
+      "title": "Paper",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 275000,
+      "first_release_date": "2018-02-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "4278ddfe-1e74-41b1-ae16-6a6a846dc896",
+      "duration_sec": 274.733337402,
+      "sample_rate": 44100,
+      "tempo_bpm": 114.98285675,
+      "danceability": 0.941619873047,
+      "onset_rate": 3.55959820747,
+      "beats_count": 527,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0414061173797,
+      "dynamic_complexity": 4.55014657974,
+      "average_loudness": 0.520543217659,
+      "spectral_centroid_mean": 552.340515137,
+      "spectral_flux_mean": 0.0582682974637,
+      "spectral_rolloff_mean": 730.004821777,
+      "dissonance_mean": 0.419186532497,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
