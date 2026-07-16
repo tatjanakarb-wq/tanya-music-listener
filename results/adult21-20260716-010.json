@@ -1,0 +1,203 @@
+{
+  "request": {
+    "artist": "The Smile",
+    "track": "Skrting On The Surface",
+    "request_id": "adult21-20260716-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "cf1e28b5-386e-4edb-87f9-b162016a684d",
+      "title": "Skrting on the Surface",
+      "artist": "The Smile",
+      "duration_ms": 357306,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7df917eb-0f95-4a29-890c-37f58194e724",
+      "title": "Skrting on the Surface",
+      "artist": "The Smile",
+      "duration_ms": 365697,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6e77ab15-3924-4c8a-8cf2-ce9d38e9648a",
+      "title": "Skrting on the Surface",
+      "artist": "The Smile",
+      "duration_ms": 401110,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0f436c5a-fd22-422d-aa18-2eff811afc3f",
+      "title": "Skrting on the Surface",
+      "artist": "The Smile",
+      "duration_ms": 346000,
+      "first_release_date": "2022-06-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "76158252-b2d7-41f9-9c10-cd570020020f",
+      "title": "Skrting on the Surface",
+      "artist": "The Smile",
+      "duration_ms": null,
+      "first_release_date": "2022-01-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "The Smile",
+    "track": "Skrting On the Surface",
+    "album": "A Light for Attracting Attention",
+    "duration_ms": 331915,
+    "release_date": "2022-03-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/51/41/bf/5141bfaa-e153-4302-667a-6c56baab39aa/mzaf_1876356500703266787.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/skrting-on-the-surface/1616902433?i=1616903380&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 25391
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/skrting-on-the-surface/1616902433?i=1616903380&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/51/41/bf/5141bfaa-e153-4302-667a-6c56baab39aa/mzaf_1876356500703266787.plus.aac.p.m4a",
+      "bytes": 1048514,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 143.555,
+    "beat_interval_cv": 0.03081,
+    "onset_rate_per_sec": 5.11209,
+    "dynamic_range_db_p95_p10": 9.712,
+    "crest_factor_db": 12.698,
+    "rms_mean": 0.13175,
+    "rms_std": 0.04843,
+    "spectral_centroid_hz_mean": 1338.86,
+    "spectral_centroid_hz_std": 719.4,
+    "spectral_bandwidth_hz_mean": 1856.55,
+    "spectral_rolloff_hz_mean": 2646.35,
+    "spectral_flatness_mean": 0.00509,
+    "spectral_contrast_mean": 20.36473,
+    "energy_share": {
+      "below_150_hz": 0.34664,
+      "150_to_2000_hz": 0.63971,
+      "above_2000_hz": 0.01366
+    },
+    "percussive_share": 0.38361,
+    "tonal_entropy_bits": 3.55176,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 0.7257
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12666,
+        "spectral_centroid_hz": 1371.67,
+        "onset_strength": 1.65397,
+        "spectral_flatness": 0.00289
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.15405,
+        "spectral_centroid_hz": 1354.13,
+        "onset_strength": 1.55319,
+        "spectral_flatness": 0.0039
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12235,
+        "spectral_centroid_hz": 1301.29,
+        "onset_strength": 1.61801,
+        "spectral_flatness": 0.00376
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.13099,
+        "spectral_centroid_hz": 1630.06,
+        "onset_strength": 1.62001,
+        "spectral_flatness": 0.01591
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12121,
+        "spectral_centroid_hz": 1348.65,
+        "onset_strength": 1.59393,
+        "spectral_flatness": 0.00963
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10984,
+        "spectral_centroid_hz": 1290.76,
+        "onset_strength": 1.62773,
+        "spectral_flatness": 0.00272
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.15378,
+        "spectral_centroid_hz": 1426.93,
+        "onset_strength": 1.33903,
+        "spectral_flatness": 0.00717
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14035,
+        "spectral_centroid_hz": 1645.02,
+        "onset_strength": 1.5792,
+        "spectral_flatness": 0.0059
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11807,
+        "spectral_centroid_hz": 1101.07,
+        "onset_strength": 1.71002,
+        "spectral_flatness": 0.0022
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.15624,
+        "spectral_centroid_hz": 1231.32,
+        "onset_strength": 1.35956,
+        "spectral_flatness": 0.00327
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10746,
+        "spectral_centroid_hz": 1170.15,
+        "onset_strength": 1.65948,
+        "spectral_flatness": 0.00233
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13986,
+        "spectral_centroid_hz": 1194.97,
+        "onset_strength": 1.55402,
+        "spectral_flatness": 0.0014
+      }
+    ]
+  }
+}
