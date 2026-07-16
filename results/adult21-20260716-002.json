@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Everything Is Going to Be OK",
+    "request_id": "adult21-20260716-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a122673c-b971-46d5-9c75-42d8f5b69eb8",
+      "title": "Everything Is Going to Be OK",
+      "artist": "GoGo Penguin",
+      "duration_ms": 287986,
+      "first_release_date": "2023-04-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "273482a4-e4e1-4251-b3d0-181b230c497e",
+      "title": "Everything Is Going to Be OK",
+      "artist": "GoGo Penguin",
+      "duration_ms": 286202,
+      "first_release_date": "2024-04-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Everything Is Going to Be OK",
+    "album": "Everything Is Going to Be OK",
+    "duration_ms": 287992,
+    "release_date": "2023-04-14T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d8/94/2c/d8942c8d-3644-b352-fb02-0f122988d0a6/mzaf_14728865961512691829.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/everything-is-going-to-be-ok/1661541641?i=1661542410&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 6
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/everything-is-going-to-be-ok/1661541641?i=1661542410&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d8/94/2c/d8942c8d-3644-b352-fb02-0f122988d0a6/mzaf_14728865961512691829.plus.aac.p.m4a",
+      "bytes": 1029079,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.07046,
+    "onset_rate_per_sec": 5.64668,
+    "dynamic_range_db_p95_p10": 10.325,
+    "crest_factor_db": 12.916,
+    "rms_mean": 0.12255,
+    "rms_std": 0.05225,
+    "spectral_centroid_hz_mean": 1017.43,
+    "spectral_centroid_hz_std": 455.49,
+    "spectral_bandwidth_hz_mean": 1701.45,
+    "spectral_rolloff_hz_mean": 1924.12,
+    "spectral_flatness_mean": 0.00256,
+    "spectral_contrast_mean": 18.91488,
+    "energy_share": {
+      "below_150_hz": 0.69862,
+      "150_to_2000_hz": 0.29751,
+      "above_2000_hz": 0.00387
+    },
+    "percussive_share": 0.34321,
+    "tonal_entropy_bits": 3.54591,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.4755
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12928,
+        "spectral_centroid_hz": 1006.5,
+        "onset_strength": 1.58888,
+        "spectral_flatness": 0.00166
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11719,
+        "spectral_centroid_hz": 1060.51,
+        "onset_strength": 1.79425,
+        "spectral_flatness": 0.00297
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11164,
+        "spectral_centroid_hz": 1094.37,
+        "onset_strength": 1.63555,
+        "spectral_flatness": 0.00214
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11674,
+        "spectral_centroid_hz": 1155.61,
+        "onset_strength": 1.89014,
+        "spectral_flatness": 0.00276
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12382,
+        "spectral_centroid_hz": 1130.26,
+        "onset_strength": 1.57568,
+        "spectral_flatness": 0.00246
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12205,
+        "spectral_centroid_hz": 1189.92,
+        "onset_strength": 1.58775,
+        "spectral_flatness": 0.00343
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.12543,
+        "spectral_centroid_hz": 889.1,
+        "onset_strength": 1.55858,
+        "spectral_flatness": 0.00144
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12687,
+        "spectral_centroid_hz": 908.4,
+        "onset_strength": 1.81432,
+        "spectral_flatness": 0.00201
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1219,
+        "spectral_centroid_hz": 871.06,
+        "onset_strength": 1.97035,
+        "spectral_flatness": 0.00264
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12572,
+        "spectral_centroid_hz": 932.68,
+        "onset_strength": 1.91827,
+        "spectral_flatness": 0.0033
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13653,
+        "spectral_centroid_hz": 933.16,
+        "onset_strength": 2.10643,
+        "spectral_flatness": 0.00265
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11357,
+        "spectral_centroid_hz": 1037.47,
+        "onset_strength": 1.75315,
+        "spectral_flatness": 0.00331
+      }
+    ]
+  }
+}
