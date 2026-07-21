@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Unrest",
+    "request_id": "artificial22-20260721-015"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a47b263f-9d96-4822-a916-1cc1474ed6f5",
+      "title": "Unrest",
+      "artist": "Portico Quartet",
+      "duration_ms": 313386,
+      "first_release_date": "2018-04-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Unrest",
+    "album": "Untitled (AITAOA #2)",
+    "duration_ms": 313386,
+    "release_date": "2018-04-27T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e9/9e/df/e99edff1-590c-c4d8-42df-c31648d6072d/mzaf_6371274776361638287.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/unrest/1577509625?i=1577509882&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/unrest/1577509625?i=1577509882&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e9/9e/df/e99edff1-590c-c4d8-42df-c31648d6072d/mzaf_6371274776361638287.plus.aac.p.m4a",
+      "bytes": 1113045,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.03621,
+    "onset_rate_per_sec": 6.68247,
+    "dynamic_range_db_p95_p10": 13.55,
+    "crest_factor_db": 12.167,
+    "rms_mean": 0.12869,
+    "rms_std": 0.06641,
+    "spectral_centroid_hz_mean": 1378.17,
+    "spectral_centroid_hz_std": 572.86,
+    "spectral_bandwidth_hz_mean": 1991.92,
+    "spectral_rolloff_hz_mean": 2929.12,
+    "spectral_flatness_mean": 0.00582,
+    "spectral_contrast_mean": 18.9804,
+    "energy_share": {
+      "below_150_hz": 0.82949,
+      "150_to_2000_hz": 0.16501,
+      "above_2000_hz": 0.0055
+    },
+    "percussive_share": 0.34807,
+    "tonal_entropy_bits": 3.49738,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 0.59192
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05712,
+        "spectral_centroid_hz": 1193.89,
+        "onset_strength": 1.2058,
+        "spectral_flatness": 0.00876
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05984,
+        "spectral_centroid_hz": 1179.14,
+        "onset_strength": 1.22026,
+        "spectral_flatness": 0.00644
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11647,
+        "spectral_centroid_hz": 1754.46,
+        "onset_strength": 1.50222,
+        "spectral_flatness": 0.01156
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.1358,
+        "spectral_centroid_hz": 1456.18,
+        "onset_strength": 1.87695,
+        "spectral_flatness": 0.00695
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.13962,
+        "spectral_centroid_hz": 1411.3,
+        "onset_strength": 2.07803,
+        "spectral_flatness": 0.0048
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1426,
+        "spectral_centroid_hz": 1398.85,
+        "onset_strength": 2.13758,
+        "spectral_flatness": 0.00564
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13545,
+        "spectral_centroid_hz": 1384.07,
+        "onset_strength": 1.89595,
+        "spectral_flatness": 0.00579
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13165,
+        "spectral_centroid_hz": 1413.98,
+        "onset_strength": 2.015,
+        "spectral_flatness": 0.004
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14626,
+        "spectral_centroid_hz": 1608.49,
+        "onset_strength": 1.59417,
+        "spectral_flatness": 0.00655
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.15938,
+        "spectral_centroid_hz": 1204.35,
+        "onset_strength": 1.72338,
+        "spectral_flatness": 0.00242
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.15897,
+        "spectral_centroid_hz": 1271.96,
+        "onset_strength": 1.75062,
+        "spectral_flatness": 0.00368
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.16048,
+        "spectral_centroid_hz": 1259.95,
+        "onset_strength": 1.86359,
+        "spectral_flatness": 0.00328
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "a47b263f-9d96-4822-a916-1cc1474ed6f5",
+      "title": "Unrest",
+      "artist": "Portico Quartet",
+      "duration_ms": 313386,
+      "first_release_date": "2018-04-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "a47b263f-9d96-4822-a916-1cc1474ed6f5",
+      "duration_sec": 313.385925293,
+      "sample_rate": 44100,
+      "tempo_bpm": 122.105697632,
+      "danceability": 1.38897359371,
+      "onset_rate": 6.05297279358,
+      "beats_count": 637,
+      "key": null,
+      "scale": null,
+      "chords_changes_rate": 0.0435555540025,
+      "dynamic_complexity": 2.26250123978,
+      "average_loudness": 0.958969712257,
+      "spectral_centroid_mean": 1092.57727051,
+      "spectral_flux_mean": 0.137370526791,
+      "spectral_rolloff_mean": 731.699890137,
+      "dissonance_mean": 0.436681181192,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
