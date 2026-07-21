@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Bremer/McCoy",
+    "track": "Stormfuld",
+    "request_id": "artificial22-20260721-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "835ef9d3-da0a-4efa-a387-eb1a3d5d3c9e",
+      "title": "Stormfuld",
+      "artist": "Bremer/McCoy",
+      "duration_ms": 227000,
+      "first_release_date": "2016-09-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Bremer/McCoy",
+    "track": "Stormfuld",
+    "album": "Forsvinder",
+    "duration_ms": 227500,
+    "release_date": "2016-09-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/31/2f/70/312f7078-e293-8bbb-edaf-a6461625ddba/mzaf_1093775853219237901.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/stormfuld/1151799587?i=1151800089&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 500
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/stormfuld/1151799587?i=1151800089&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/31/2f/70/312f7078-e293-8bbb-edaf-a6461625ddba/mzaf_1093775853219237901.plus.aac.p.m4a",
+      "bytes": 1099164,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 83.354,
+    "beat_interval_cv": 0.05004,
+    "onset_rate_per_sec": 3.27441,
+    "dynamic_range_db_p95_p10": 12.928,
+    "crest_factor_db": 16.088,
+    "rms_mean": 0.07224,
+    "rms_std": 0.03617,
+    "spectral_centroid_hz_mean": 623.21,
+    "spectral_centroid_hz_std": 167.3,
+    "spectral_bandwidth_hz_mean": 1058.58,
+    "spectral_rolloff_hz_mean": 948.4,
+    "spectral_flatness_mean": 0.00015,
+    "spectral_contrast_mean": 20.22495,
+    "energy_share": {
+      "below_150_hz": 0.54248,
+      "150_to_2000_hz": 0.45722,
+      "above_2000_hz": 0.0003
+    },
+    "percussive_share": 0.1873,
+    "tonal_entropy_bits": 3.50228,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.8229
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05801,
+        "spectral_centroid_hz": 585.2,
+        "onset_strength": 0.79324,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07266,
+        "spectral_centroid_hz": 575.11,
+        "onset_strength": 0.86936,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07687,
+        "spectral_centroid_hz": 540.03,
+        "onset_strength": 0.88508,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07303,
+        "spectral_centroid_hz": 622.06,
+        "onset_strength": 0.87867,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09223,
+        "spectral_centroid_hz": 560.32,
+        "onset_strength": 0.83111,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08674,
+        "spectral_centroid_hz": 637.02,
+        "onset_strength": 0.90931,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07096,
+        "spectral_centroid_hz": 561.59,
+        "onset_strength": 0.96312,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08873,
+        "spectral_centroid_hz": 593.91,
+        "onset_strength": 0.86419,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08117,
+        "spectral_centroid_hz": 621.81,
+        "onset_strength": 0.97536,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05958,
+        "spectral_centroid_hz": 696.08,
+        "onset_strength": 0.8945,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07029,
+        "spectral_centroid_hz": 790.86,
+        "onset_strength": 0.98746,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.03672,
+        "spectral_centroid_hz": 694.85,
+        "onset_strength": 0.81075,
+        "spectral_flatness": 0.00051
+      }
+    ]
+  }
+}
