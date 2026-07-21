@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Donny McCaslin",
+    "track": "Alpha and Omega",
+    "request_id": "artificial22-20260721-023"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "33a33c88-b963-4e74-a092-fc84b38d414f",
+      "title": "Alpha and Omega",
+      "artist": "Donny McCaslin",
+      "duration_ms": 253000,
+      "first_release_date": "2012-10-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Donny McCaslin",
+    "track": "Alpha and Omega",
+    "album": "Casting for Gravity (feat. Jason Lindner, Tim Lefebvre & Mark Guiliana)",
+    "duration_ms": 251606,
+    "release_date": "2012-10-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/f8/d3/18f8d32e-984b-4123-e6b5-a57572601953/mzaf_11591499146772911748.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/alpha-and-omega/1292816964?i=1292817663&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1394
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/alpha-and-omega/1292816964?i=1292817663&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/f8/d3/18f8d32e-984b-4123-e6b5-a57572601953/mzaf_11591499146772911748.plus.aac.p.m4a",
+      "bytes": 1000619,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05511,
+    "onset_rate_per_sec": 6.41517,
+    "dynamic_range_db_p95_p10": 12.684,
+    "crest_factor_db": 15.514,
+    "rms_mean": 0.01165,
+    "rms_std": 0.00571,
+    "spectral_centroid_hz_mean": 584.55,
+    "spectral_centroid_hz_std": 118.67,
+    "spectral_bandwidth_hz_mean": 706.32,
+    "spectral_rolloff_hz_mean": 862.46,
+    "spectral_flatness_mean": 1e-05,
+    "spectral_contrast_mean": 25.60829,
+    "energy_share": {
+      "below_150_hz": 7e-05,
+      "150_to_2000_hz": 0.99978,
+      "above_2000_hz": 0.00015
+    },
+    "percussive_share": 0.03007,
+    "tonal_entropy_bits": 3.35996,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 1.22186
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01994,
+        "spectral_centroid_hz": 504.23,
+        "onset_strength": 0.5776,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01291,
+        "spectral_centroid_hz": 626.69,
+        "onset_strength": 0.54302,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00705,
+        "spectral_centroid_hz": 541.48,
+        "onset_strength": 0.44982,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.01854,
+        "spectral_centroid_hz": 475.5,
+        "onset_strength": 0.51967,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.00782,
+        "spectral_centroid_hz": 719.63,
+        "onset_strength": 0.46202,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.00897,
+        "spectral_centroid_hz": 544.41,
+        "onset_strength": 0.50146,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.00812,
+        "spectral_centroid_hz": 629.09,
+        "onset_strength": 0.50668,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.0108,
+        "spectral_centroid_hz": 566.96,
+        "onset_strength": 0.5374,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.01116,
+        "spectral_centroid_hz": 623.16,
+        "onset_strength": 0.57774,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.01368,
+        "spectral_centroid_hz": 600.89,
+        "onset_strength": 0.51626,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.01386,
+        "spectral_centroid_hz": 592.98,
+        "onset_strength": 0.45285,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.00704,
+        "spectral_centroid_hz": 588.76,
+        "onset_strength": 0.42803,
+        "spectral_flatness": 4e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "33a33c88-b963-4e74-a092-fc84b38d414f",
+      "title": "Alpha and Omega",
+      "artist": "Donny McCaslin",
+      "duration_ms": 253000,
+      "first_release_date": "2012-10-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "33a33c88-b963-4e74-a092-fc84b38d414f",
+      "duration_sec": 251.564987183,
+      "sample_rate": 44100,
+      "tempo_bpm": 113.76927948,
+      "danceability": 1.0708694458,
+      "onset_rate": 3.48204088211,
+      "beats_count": 462,
+      "key": "G#",
+      "scale": "major",
+      "chords_changes_rate": 0.0513104461133,
+      "dynamic_complexity": 8.0937795639,
+      "average_loudness": 0.186130017042,
+      "spectral_centroid_mean": 924.686645508,
+      "spectral_flux_mean": 0.0655587017536,
+      "spectral_rolloff_mean": 1244.37597656,
+      "dissonance_mean": 0.412745565176,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
