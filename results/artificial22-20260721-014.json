@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Glass Museum",
+    "track": "Waves",
+    "request_id": "artificial22-20260721-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d6828fd4-dabe-4285-a145-825192add0ab",
+      "title": "Waves",
+      "artist": "Glass Museum",
+      "duration_ms": 260000,
+      "first_release_date": "2018-05-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Glass Museum",
+    "track": "Waves",
+    "album": "Deux - EP",
+    "duration_ms": 314483,
+    "release_date": "2018-02-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/79/83/7f/79837fb4-4cc4-8cdc-149a-e8fae2372dee/mzaf_9154238257271094829.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/waves/1688007125?i=1688007682&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 54483
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/waves/1688007125?i=1688007682&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/79/83/7f/79837fb4-4cc4-8cdc-149a-e8fae2372dee/mzaf_9154238257271094829.plus.aac.p.m4a",
+      "bytes": 1057430,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.0556,
+    "onset_rate_per_sec": 4.00948,
+    "dynamic_range_db_p95_p10": 18.525,
+    "crest_factor_db": 15.717,
+    "rms_mean": 0.07772,
+    "rms_std": 0.05917,
+    "spectral_centroid_hz_mean": 1901.96,
+    "spectral_centroid_hz_std": 670.25,
+    "spectral_bandwidth_hz_mean": 2095.11,
+    "spectral_rolloff_hz_mean": 4021.61,
+    "spectral_flatness_mean": 0.01393,
+    "spectral_contrast_mean": 19.93813,
+    "energy_share": {
+      "below_150_hz": 0.69154,
+      "150_to_2000_hz": 0.27693,
+      "above_2000_hz": 0.03153
+    },
+    "percussive_share": 0.3839,
+    "tonal_entropy_bits": 3.5439,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 1.22037
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0404,
+        "spectral_centroid_hz": 1478.23,
+        "onset_strength": 0.86272,
+        "spectral_flatness": 0.00304
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02661,
+        "spectral_centroid_hz": 1575.17,
+        "onset_strength": 0.95042,
+        "spectral_flatness": 0.00441
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04358,
+        "spectral_centroid_hz": 1283.99,
+        "onset_strength": 0.93486,
+        "spectral_flatness": 0.00162
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03137,
+        "spectral_centroid_hz": 1521.98,
+        "onset_strength": 0.94687,
+        "spectral_flatness": 0.00495
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04291,
+        "spectral_centroid_hz": 1570.07,
+        "onset_strength": 0.92175,
+        "spectral_flatness": 0.00341
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04596,
+        "spectral_centroid_hz": 1869.53,
+        "onset_strength": 1.09657,
+        "spectral_flatness": 0.00995
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07553,
+        "spectral_centroid_hz": 2593.91,
+        "onset_strength": 1.05684,
+        "spectral_flatness": 0.03778
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14258,
+        "spectral_centroid_hz": 2324.93,
+        "onset_strength": 1.07829,
+        "spectral_flatness": 0.02122
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12664,
+        "spectral_centroid_hz": 2089.4,
+        "onset_strength": 1.05863,
+        "spectral_flatness": 0.01686
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1204,
+        "spectral_centroid_hz": 2213.59,
+        "onset_strength": 1.09159,
+        "spectral_flatness": 0.02027
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11793,
+        "spectral_centroid_hz": 2060.32,
+        "onset_strength": 1.10385,
+        "spectral_flatness": 0.01819
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.118,
+        "spectral_centroid_hz": 2241.2,
+        "onset_strength": 1.16509,
+        "spectral_flatness": 0.02543
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d6828fd4-dabe-4285-a145-825192add0ab",
+      "title": "Waves",
+      "artist": "Glass Museum",
+      "duration_ms": 260000,
+      "first_release_date": "2018-05-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d6828fd4-dabe-4285-a145-825192add0ab",
+      "duration_sec": 314.514282227,
+      "sample_rate": 44100,
+      "tempo_bpm": 111.236083984,
+      "danceability": 1.17050611973,
+      "onset_rate": 4.11730766296,
+      "beats_count": 530,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0510776489973,
+      "dynamic_complexity": 3.91112589836,
+      "average_loudness": 0.613225340843,
+      "spectral_centroid_mean": 1445.51782227,
+      "spectral_flux_mean": 0.0977512300014,
+      "spectral_rolloff_mean": 1193.03430176,
+      "dissonance_mean": 0.465316176414,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
