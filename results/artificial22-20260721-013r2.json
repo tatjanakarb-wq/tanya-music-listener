@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Shai Maestro, Jorge Roeder, Ofri Nehemya, Philip Dizack",
+    "track": "Human",
+    "request_id": "artificial22-20260721-013r2"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Shai Maestro, Philip Dizack, Jorge Roeder & Ofri Nehemya",
+    "track": "Human",
+    "album": "Human",
+    "duration_ms": 153801,
+    "release_date": "2020-12-18T08:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/64/c4/9064c493-109e-3ac0-bb11-f45e9908efa1/mzaf_18122504947355524642.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/human/1543877224?i=1543877481&uo=4",
+    "match_score": 0.8977,
+    "title_score": 1.0,
+    "artist_score": 0.7308
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/human/1543877224?i=1543877481&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/64/c4/9064c493-109e-3ac0-bb11-f45e9908efa1/mzaf_18122504947355524642.plus.aac.p.m4a",
+      "bytes": 1074110,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0563,
+    "onset_rate_per_sec": 1.80427,
+    "dynamic_range_db_p95_p10": 16.323,
+    "crest_factor_db": 17.213,
+    "rms_mean": 0.03206,
+    "rms_std": 0.01906,
+    "spectral_centroid_hz_mean": 509.27,
+    "spectral_centroid_hz_std": 123.38,
+    "spectral_bandwidth_hz_mean": 713.05,
+    "spectral_rolloff_hz_mean": 830.63,
+    "spectral_flatness_mean": 4e-05,
+    "spectral_contrast_mean": 21.52867,
+    "energy_share": {
+      "below_150_hz": 0.3466,
+      "150_to_2000_hz": 0.65253,
+      "above_2000_hz": 0.00087
+    },
+    "percussive_share": 0.17993,
+    "tonal_entropy_bits": 3.57369,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.9165
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01026,
+        "spectral_centroid_hz": 404.97,
+        "onset_strength": 0.29739,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02324,
+        "spectral_centroid_hz": 428.27,
+        "onset_strength": 0.59008,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02657,
+        "spectral_centroid_hz": 417.1,
+        "onset_strength": 0.52991,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03494,
+        "spectral_centroid_hz": 423.07,
+        "onset_strength": 0.48423,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.02296,
+        "spectral_centroid_hz": 401.33,
+        "onset_strength": 0.38566,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03855,
+        "spectral_centroid_hz": 603.14,
+        "onset_strength": 0.74278,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02438,
+        "spectral_centroid_hz": 504.8,
+        "onset_strength": 0.52497,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.0458,
+        "spectral_centroid_hz": 614.35,
+        "onset_strength": 0.79644,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.02242,
+        "spectral_centroid_hz": 534.84,
+        "onset_strength": 0.45884,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05867,
+        "spectral_centroid_hz": 660.27,
+        "onset_strength": 0.89715,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05068,
+        "spectral_centroid_hz": 558.69,
+        "onset_strength": 0.67333,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.02605,
+        "spectral_centroid_hz": 559.47,
+        "onset_strength": 0.57099,
+        "spectral_flatness": 7e-05
+      }
+    ]
+  }
+}
