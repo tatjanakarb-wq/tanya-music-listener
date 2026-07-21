@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Waldo’s Gift",
+    "track": "Song for Margaret",
+    "request_id": "artificial22-20260721-022"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e5d21341-5ee0-4ac1-8402-4e9b2a4cc6b9",
+      "title": "Song for Margaret",
+      "artist": "Waldo's Gift",
+      "duration_ms": 206310,
+      "first_release_date": "2020-10-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Waldo's Gift",
+    "track": "Song for Margaret",
+    "album": "The Hut - EP",
+    "duration_ms": 206310,
+    "release_date": "2020-10-30T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d1/39/75/d139754f-8b8e-ba85-4524-870e8b88ea3f/mzaf_3807111331252309182.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/song-for-margaret/1528168399?i=1528168414&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/song-for-margaret/1528168399?i=1528168414&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d1/39/75/d139754f-8b8e-ba85-4524-870e8b88ea3f/mzaf_3807111331252309182.plus.aac.p.m4a",
+      "bytes": 1059725,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.03733,
+    "onset_rate_per_sec": 5.84716,
+    "dynamic_range_db_p95_p10": 5.971,
+    "crest_factor_db": 9.76,
+    "rms_mean": 0.17459,
+    "rms_std": 0.04081,
+    "spectral_centroid_hz_mean": 1355.73,
+    "spectral_centroid_hz_std": 482.32,
+    "spectral_bandwidth_hz_mean": 1784.14,
+    "spectral_rolloff_hz_mean": 2854.55,
+    "spectral_flatness_mean": 0.00723,
+    "spectral_contrast_mean": 17.73982,
+    "energy_share": {
+      "below_150_hz": 0.69085,
+      "150_to_2000_hz": 0.29312,
+      "above_2000_hz": 0.01603
+    },
+    "percussive_share": 0.25705,
+    "tonal_entropy_bits": 3.51344,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 1.04906
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.15242,
+        "spectral_centroid_hz": 1367.6,
+        "onset_strength": 1.26064,
+        "spectral_flatness": 0.00722
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.18144,
+        "spectral_centroid_hz": 1273.83,
+        "onset_strength": 1.09475,
+        "spectral_flatness": 0.00458
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.16078,
+        "spectral_centroid_hz": 1342.52,
+        "onset_strength": 1.16817,
+        "spectral_flatness": 0.00721
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.19005,
+        "spectral_centroid_hz": 1130.69,
+        "onset_strength": 1.18836,
+        "spectral_flatness": 0.00316
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.19535,
+        "spectral_centroid_hz": 1274.26,
+        "onset_strength": 1.19953,
+        "spectral_flatness": 0.0047
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.17258,
+        "spectral_centroid_hz": 1178.82,
+        "onset_strength": 1.14062,
+        "spectral_flatness": 0.004
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.15569,
+        "spectral_centroid_hz": 1457.14,
+        "onset_strength": 1.25234,
+        "spectral_flatness": 0.00937
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.16248,
+        "spectral_centroid_hz": 1270.89,
+        "onset_strength": 1.12982,
+        "spectral_flatness": 0.00436
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.21087,
+        "spectral_centroid_hz": 1302.9,
+        "onset_strength": 1.21136,
+        "spectral_flatness": 0.00375
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1866,
+        "spectral_centroid_hz": 1426.75,
+        "onset_strength": 1.1063,
+        "spectral_flatness": 0.00548
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.18819,
+        "spectral_centroid_hz": 1510.85,
+        "onset_strength": 1.22109,
+        "spectral_flatness": 0.01001
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13897,
+        "spectral_centroid_hz": 1730.06,
+        "onset_strength": 1.24319,
+        "spectral_flatness": 0.02285
+      }
+    ]
+  }
+}
