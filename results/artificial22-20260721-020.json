@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Grandbrothers",
+    "track": "Arctica",
+    "request_id": "artificial22-20260721-020"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "819954a6-b243-4c4b-bc8d-fbfdb26d4830",
+      "title": "Arctica",
+      "artist": "Grandbrothers",
+      "duration_ms": 287349,
+      "first_release_date": "2015-03-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Grandbrothers",
+    "track": "Arctica",
+    "album": "Dilation (Deluxe Version)",
+    "duration_ms": 287349,
+    "release_date": "2015-02-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/df/37/b4df374f-dafb-f625-777f-b8b8da9ba703/mzaf_13402164406455465321.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/arctica/969515920?i=969515933&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/arctica/969515920?i=969515933&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/df/37/b4df374f-dafb-f625-777f-b8b8da9ba703/mzaf_13402164406455465321.plus.aac.p.m4a",
+      "bytes": 1031706,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.03714,
+    "onset_rate_per_sec": 7.35071,
+    "dynamic_range_db_p95_p10": 10.609,
+    "crest_factor_db": 12.524,
+    "rms_mean": 0.11672,
+    "rms_std": 0.05103,
+    "spectral_centroid_hz_mean": 1279.54,
+    "spectral_centroid_hz_std": 489.04,
+    "spectral_bandwidth_hz_mean": 1665.44,
+    "spectral_rolloff_hz_mean": 2667.45,
+    "spectral_flatness_mean": 0.00488,
+    "spectral_contrast_mean": 19.11796,
+    "energy_share": {
+      "below_150_hz": 0.72029,
+      "150_to_2000_hz": 0.26557,
+      "above_2000_hz": 0.01414
+    },
+    "percussive_share": 0.40915,
+    "tonal_entropy_bits": 3.55937,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 1.06178
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11074,
+        "spectral_centroid_hz": 1299.16,
+        "onset_strength": 1.65556,
+        "spectral_flatness": 0.005
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11517,
+        "spectral_centroid_hz": 1243.61,
+        "onset_strength": 1.76849,
+        "spectral_flatness": 0.00499
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12168,
+        "spectral_centroid_hz": 1217.43,
+        "onset_strength": 1.80496,
+        "spectral_flatness": 0.00394
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11846,
+        "spectral_centroid_hz": 1301.78,
+        "onset_strength": 1.66626,
+        "spectral_flatness": 0.00506
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12416,
+        "spectral_centroid_hz": 1199.47,
+        "onset_strength": 1.72311,
+        "spectral_flatness": 0.00376
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11007,
+        "spectral_centroid_hz": 1362.84,
+        "onset_strength": 1.77634,
+        "spectral_flatness": 0.00581
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11639,
+        "spectral_centroid_hz": 1302.62,
+        "onset_strength": 1.73555,
+        "spectral_flatness": 0.0049
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11426,
+        "spectral_centroid_hz": 1365.77,
+        "onset_strength": 1.76273,
+        "spectral_flatness": 0.00583
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.109,
+        "spectral_centroid_hz": 1344.22,
+        "onset_strength": 1.76693,
+        "spectral_flatness": 0.0063
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12603,
+        "spectral_centroid_hz": 1234.82,
+        "onset_strength": 1.79925,
+        "spectral_flatness": 0.00437
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11679,
+        "spectral_centroid_hz": 1272.91,
+        "onset_strength": 1.84287,
+        "spectral_flatness": 0.00467
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11769,
+        "spectral_centroid_hz": 1211.39,
+        "onset_strength": 1.65509,
+        "spectral_flatness": 0.00397
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "819954a6-b243-4c4b-bc8d-fbfdb26d4830",
+      "title": "Arctica",
+      "artist": "Grandbrothers",
+      "duration_ms": 287349,
+      "first_release_date": "2015-03-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "819954a6-b243-4c4b-bc8d-fbfdb26d4830",
+      "duration_sec": 287.399169922,
+      "sample_rate": 44100,
+      "tempo_bpm": 113.873291016,
+      "danceability": 1.45088720322,
+      "onset_rate": 5.09365177155,
+      "beats_count": 538,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0434571877122,
+      "dynamic_complexity": 6.38595676422,
+      "average_loudness": 0.715682208538,
+      "spectral_centroid_mean": 850.746032715,
+      "spectral_flux_mean": 0.0833329260349,
+      "spectral_rolloff_mean": 936.068664551,
+      "dissonance_mean": 0.434646993876,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
