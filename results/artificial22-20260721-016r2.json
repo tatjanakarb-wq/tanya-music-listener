@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Pompidou",
+    "request_id": "artificial22-20260721-016r2"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "368a6294-3c59-4723-84e9-0fab997566fe",
+      "title": "Pompidou",
+      "artist": "Portico Quartet",
+      "duration_ms": 722280,
+      "first_release_date": "2007-10-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "41f6b0af-8148-4054-8e58-aa3fa40474af",
+      "title": "Pompidou",
+      "artist": "Portico Quartet",
+      "duration_ms": 193000,
+      "first_release_date": "2011-01-31",
+      "disambiguation": "John Leckie mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b28ce928-d194-4c00-b943-c86981f61149",
+      "title": "Pompidou",
+      "artist": "Portico Quartet",
+      "duration_ms": 193066,
+      "first_release_date": "2010",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Pompidou",
+    "album": "Knee-Deep In the North Sea",
+    "duration_ms": 193067,
+    "release_date": "2007-11-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/cd/44/7c/cd447cac-87e9-3f1f-4b7f-2fd22a4fad82/mzaf_1316248011007189441.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/pompidou/1653412708?i=1653416141&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/pompidou/1653412708?i=1653416141&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/cd/44/7c/cd447cac-87e9-3f1f-4b7f-2fd22a4fad82/mzaf_1316248011007189441.plus.aac.p.m4a",
+      "bytes": 1021407,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 172.266,
+    "beat_interval_cv": 0.03781,
+    "onset_rate_per_sec": 3.17417,
+    "dynamic_range_db_p95_p10": 12.495,
+    "crest_factor_db": 14.149,
+    "rms_mean": 0.08619,
+    "rms_std": 0.03816,
+    "spectral_centroid_hz_mean": 760.98,
+    "spectral_centroid_hz_std": 264.84,
+    "spectral_bandwidth_hz_mean": 1086.43,
+    "spectral_rolloff_hz_mean": 1141.01,
+    "spectral_flatness_mean": 0.00037,
+    "spectral_contrast_mean": 21.54063,
+    "energy_share": {
+      "below_150_hz": 0.33323,
+      "150_to_2000_hz": 0.66415,
+      "above_2000_hz": 0.00262
+    },
+    "percussive_share": 0.16012,
+    "tonal_entropy_bits": 3.47464,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.0934
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0496,
+        "spectral_centroid_hz": 749.99,
+        "onset_strength": 1.4359,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04252,
+        "spectral_centroid_hz": 707.23,
+        "onset_strength": 1.19036,
+        "spectral_flatness": 0.00095
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09536,
+        "spectral_centroid_hz": 699.63,
+        "onset_strength": 1.25853,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09342,
+        "spectral_centroid_hz": 729.93,
+        "onset_strength": 1.28535,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09575,
+        "spectral_centroid_hz": 817.62,
+        "onset_strength": 1.12575,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10056,
+        "spectral_centroid_hz": 763.88,
+        "onset_strength": 1.19092,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.09094,
+        "spectral_centroid_hz": 829.32,
+        "onset_strength": 1.22926,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08233,
+        "spectral_centroid_hz": 746.92,
+        "onset_strength": 1.30563,
+        "spectral_flatness": 0.0004
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07633,
+        "spectral_centroid_hz": 649.84,
+        "onset_strength": 1.14725,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11087,
+        "spectral_centroid_hz": 796.48,
+        "onset_strength": 1.15261,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10569,
+        "spectral_centroid_hz": 865.0,
+        "onset_strength": 1.30564,
+        "spectral_flatness": 0.00055
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.0905,
+        "spectral_centroid_hz": 775.66,
+        "onset_strength": 1.24255,
+        "spectral_flatness": 0.00033
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "368a6294-3c59-4723-84e9-0fab997566fe",
+      "title": "Pompidou",
+      "artist": "Portico Quartet",
+      "duration_ms": 722280,
+      "first_release_date": "2007-10-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "368a6294-3c59-4723-84e9-0fab997566fe",
+      "duration_sec": 722.33795166,
+      "sample_rate": 44100,
+      "tempo_bpm": 164.142608643,
+      "danceability": 1.05794644356,
+      "onset_rate": 2.23852849007,
+      "beats_count": 1850,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0470557995141,
+      "dynamic_complexity": 19.2486572266,
+      "average_loudness": 0.311690598726,
+      "spectral_centroid_mean": 2773.43823242,
+      "spectral_flux_mean": 0.0531188175082,
+      "spectral_rolloff_mean": 12489.6953125,
+      "dissonance_mean": 0.415993213654,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
