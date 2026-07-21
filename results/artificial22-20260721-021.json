@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Toccata",
+    "request_id": "artificial22-20260721-021"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "23942368-3b8e-4dc1-a037-d5e5900aa289",
+      "title": "Toccata",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 550000,
+      "first_release_date": "2008-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "77410c8a-0de0-4f17-acd5-793b7c4b38e6",
+      "title": "Toccata",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 550600,
+      "first_release_date": "2010-01-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "fb54259c-e864-40a6-84b6-e9900cf3299b",
+      "title": "Toccata (edit)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 337000,
+      "first_release_date": "2010-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 95,
+      "local_match_score": 0.8474
+    },
+    {
+      "mbid": "a7fb79ac-8d50-4393-9f27-0312359b60fc",
+      "title": "Toccata",
+      "artist": "Jaga Jazzist Britten Sinfonia",
+      "duration_ms": 511000,
+      "first_release_date": "2013-05-06",
+      "disambiguation": "live, 2012",
+      "musicbrainz_score": 76,
+      "local_match_score": 0.8259
+    },
+    {
+      "mbid": "1b10f23c-2faf-41ff-ae45-a63c0ee912b8",
+      "title": "Toccata (Teebs remix)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 187000,
+      "first_release_date": "2014-12-08",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.7323
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Toccata",
+    "album": "One-armed Bandit",
+    "duration_ms": 550600,
+    "release_date": "2008-05-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/00/39/40/0039400c-24d3-b613-2150-15663e6d6636/mzaf_3025718144924502005.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/toccata/416306064?i=416306089&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/toccata/416306064?i=416306089&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/00/39/40/0039400c-24d3-b613-2150-15663e6d6636/mzaf_3025718144924502005.plus.aac.p.m4a",
+      "bytes": 1084264,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.02568,
+    "onset_rate_per_sec": 7.55119,
+    "dynamic_range_db_p95_p10": 7.748,
+    "crest_factor_db": 15.619,
+    "rms_mean": 0.02742,
+    "rms_std": 0.00845,
+    "spectral_centroid_hz_mean": 1208.26,
+    "spectral_centroid_hz_std": 233.98,
+    "spectral_bandwidth_hz_mean": 1206.01,
+    "spectral_rolloff_hz_mean": 2186.28,
+    "spectral_flatness_mean": 0.00069,
+    "spectral_contrast_mean": 22.91779,
+    "energy_share": {
+      "below_150_hz": 0.003,
+      "150_to_2000_hz": 0.92652,
+      "above_2000_hz": 0.07047
+    },
+    "percussive_share": 0.13982,
+    "tonal_entropy_bits": 3.40058,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.73,
+      "relative_score": 0.8794
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02638,
+        "spectral_centroid_hz": 985.47,
+        "onset_strength": 1.9555,
+        "spectral_flatness": 0.00362
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02693,
+        "spectral_centroid_hz": 1023.2,
+        "onset_strength": 1.82275,
+        "spectral_flatness": 0.0004
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02845,
+        "spectral_centroid_hz": 1031.11,
+        "onset_strength": 1.74736,
+        "spectral_flatness": 0.00038
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0311,
+        "spectral_centroid_hz": 1020.66,
+        "onset_strength": 1.83508,
+        "spectral_flatness": 0.00035
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.02586,
+        "spectral_centroid_hz": 1124.56,
+        "onset_strength": 1.75956,
+        "spectral_flatness": 0.00045
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.02895,
+        "spectral_centroid_hz": 1163.89,
+        "onset_strength": 1.80931,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.02714,
+        "spectral_centroid_hz": 1180.3,
+        "onset_strength": 1.76088,
+        "spectral_flatness": 0.00035
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02406,
+        "spectral_centroid_hz": 1266.9,
+        "onset_strength": 1.83718,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.02362,
+        "spectral_centroid_hz": 1363.33,
+        "onset_strength": 1.73244,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.02696,
+        "spectral_centroid_hz": 1450.48,
+        "onset_strength": 1.73012,
+        "spectral_flatness": 0.00048
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.03002,
+        "spectral_centroid_hz": 1444.55,
+        "onset_strength": 1.69232,
+        "spectral_flatness": 0.00045
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.02956,
+        "spectral_centroid_hz": 1442.13,
+        "onset_strength": 1.77605,
+        "spectral_flatness": 0.00047
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "77410c8a-0de0-4f17-acd5-793b7c4b38e6",
+      "title": "Toccata",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 550600,
+      "first_release_date": "2010-01-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "77410c8a-0de0-4f17-acd5-793b7c4b38e6",
+      "duration_sec": 550.635131836,
+      "sample_rate": 44100,
+      "tempo_bpm": 112.493812561,
+      "danceability": 1.20893132687,
+      "onset_rate": 5.91846418381,
+      "beats_count": 1153,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.0432619340718,
+      "dynamic_complexity": 3.71429538727,
+      "average_loudness": 0.826209664345,
+      "spectral_centroid_mean": 745.48651123,
+      "spectral_flux_mean": 0.0761864110827,
+      "spectral_rolloff_mean": 821.608581543,
+      "dissonance_mean": 0.430262207985,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
