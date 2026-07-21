@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Richard Spaven, Sandunes",
+    "track": "Tree of Life",
+    "request_id": "artificial22-20260721-029"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Richard Spaven & Sandunes",
+    "track": "Tree of Life",
+    "album": "Spaven x Sandunes",
+    "duration_ms": 339303,
+    "release_date": "2020-08-04T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d9/89/eb/d989ebbc-b8b0-fa48-2c85-b0ff59a6c39a/mzaf_6444775020205693319.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/tree-of-life/1523058721?i=1523059332&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/tree-of-life/1523058721?i=1523059332&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d9/89/eb/d989ebbc-b8b0-fa48-2c85-b0ff59a6c39a/mzaf_6444775020205693319.plus.aac.p.m4a",
+      "bytes": 1082555,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.07735,
+    "onset_rate_per_sec": 4.71114,
+    "dynamic_range_db_p95_p10": 14.399,
+    "crest_factor_db": 15.474,
+    "rms_mean": 0.08823,
+    "rms_std": 0.04881,
+    "spectral_centroid_hz_mean": 1758.99,
+    "spectral_centroid_hz_std": 801.68,
+    "spectral_bandwidth_hz_mean": 2216.45,
+    "spectral_rolloff_hz_mean": 3837.56,
+    "spectral_flatness_mean": 0.01524,
+    "spectral_contrast_mean": 19.8053,
+    "energy_share": {
+      "below_150_hz": 0.52948,
+      "150_to_2000_hz": 0.44936,
+      "above_2000_hz": 0.02116
+    },
+    "percussive_share": 0.41748,
+    "tonal_entropy_bits": 3.50657,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.80416
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07921,
+        "spectral_centroid_hz": 1928.45,
+        "onset_strength": 1.7706,
+        "spectral_flatness": 0.02178
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08357,
+        "spectral_centroid_hz": 1575.41,
+        "onset_strength": 1.86177,
+        "spectral_flatness": 0.0092
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09847,
+        "spectral_centroid_hz": 1702.84,
+        "onset_strength": 1.71849,
+        "spectral_flatness": 0.01365
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08273,
+        "spectral_centroid_hz": 1661.95,
+        "onset_strength": 1.62208,
+        "spectral_flatness": 0.00891
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07411,
+        "spectral_centroid_hz": 1854.06,
+        "onset_strength": 1.79157,
+        "spectral_flatness": 0.01422
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.0864,
+        "spectral_centroid_hz": 1575.95,
+        "onset_strength": 1.82014,
+        "spectral_flatness": 0.01061
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.08618,
+        "spectral_centroid_hz": 2230.21,
+        "onset_strength": 1.79124,
+        "spectral_flatness": 0.02833
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08365,
+        "spectral_centroid_hz": 1580.27,
+        "onset_strength": 1.80468,
+        "spectral_flatness": 0.01066
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.0938,
+        "spectral_centroid_hz": 1748.45,
+        "onset_strength": 1.89464,
+        "spectral_flatness": 0.0142
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0861,
+        "spectral_centroid_hz": 1716.35,
+        "onset_strength": 1.6972,
+        "spectral_flatness": 0.01077
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08417,
+        "spectral_centroid_hz": 2145.08,
+        "onset_strength": 1.81031,
+        "spectral_flatness": 0.03446
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12016,
+        "spectral_centroid_hz": 1394.0,
+        "onset_strength": 1.62384,
+        "spectral_flatness": 0.00633
+      }
+    ]
+  }
+}
