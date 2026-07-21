@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Branches Break",
+    "request_id": "artificial22-20260721-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e6724f2f-4639-4855-881b-6564ab742363",
+      "title": "Branches Break",
+      "artist": "GoGo Penguin",
+      "duration_ms": 262654,
+      "first_release_date": "2016-01-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b619e757-97dc-4e93-865e-5acfb2e3967c",
+      "title": "Branches Break",
+      "artist": "GoGo Penguin",
+      "duration_ms": 254528,
+      "first_release_date": "2016-04-16",
+      "disambiguation": "live, 2015-12-02: Abbey Road Studios, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "380da0e8-6fcf-4527-8312-865624625741",
+      "title": "Branches Break - Radio Edit",
+      "artist": "GoGo Penguin",
+      "duration_ms": 245720,
+      "first_release_date": "2016-04-01",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.8364
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Branches Break",
+    "album": "Man Made Object",
+    "duration_ms": 262654,
+    "release_date": "2016-02-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/99/db/ae99db29-20d9-25fb-9830-8805f90151b9/mzaf_17119892875733206830.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/branches-break/1445884105?i=1445884218&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/branches-break/1445884105?i=1445884218&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/99/db/ae99db29-20d9-25fb-9830-8805f90151b9/mzaf_17119892875733206830.plus.aac.p.m4a",
+      "bytes": 1090036,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02262,
+    "onset_rate_per_sec": 3.94266,
+    "dynamic_range_db_p95_p10": 11.203,
+    "crest_factor_db": 17.346,
+    "rms_mean": 0.06434,
+    "rms_std": 0.03102,
+    "spectral_centroid_hz_mean": 1569.51,
+    "spectral_centroid_hz_std": 889.91,
+    "spectral_bandwidth_hz_mean": 2133.87,
+    "spectral_rolloff_hz_mean": 3489.77,
+    "spectral_flatness_mean": 0.00764,
+    "spectral_contrast_mean": 19.52615,
+    "energy_share": {
+      "below_150_hz": 0.68999,
+      "150_to_2000_hz": 0.30022,
+      "above_2000_hz": 0.00979
+    },
+    "percussive_share": 0.31236,
+    "tonal_entropy_bits": 3.41725,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.86591
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04335,
+        "spectral_centroid_hz": 696.98,
+        "onset_strength": 0.67747,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03942,
+        "spectral_centroid_hz": 627.69,
+        "onset_strength": 0.86433,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05259,
+        "spectral_centroid_hz": 912.1,
+        "onset_strength": 1.07786,
+        "spectral_flatness": 0.00058
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05814,
+        "spectral_centroid_hz": 1028.11,
+        "onset_strength": 1.13768,
+        "spectral_flatness": 0.00103
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.06523,
+        "spectral_centroid_hz": 1126.4,
+        "onset_strength": 1.21331,
+        "spectral_flatness": 0.00192
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06657,
+        "spectral_centroid_hz": 1416.92,
+        "onset_strength": 1.12149,
+        "spectral_flatness": 0.00406
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07302,
+        "spectral_centroid_hz": 1537.92,
+        "onset_strength": 1.1778,
+        "spectral_flatness": 0.00493
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08055,
+        "spectral_centroid_hz": 1858.52,
+        "onset_strength": 1.13911,
+        "spectral_flatness": 0.01091
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07271,
+        "spectral_centroid_hz": 2368.59,
+        "onset_strength": 1.18047,
+        "spectral_flatness": 0.0179
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07239,
+        "spectral_centroid_hz": 2522.68,
+        "onset_strength": 1.19607,
+        "spectral_flatness": 0.01845
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07177,
+        "spectral_centroid_hz": 2457.27,
+        "onset_strength": 1.19903,
+        "spectral_flatness": 0.01671
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07614,
+        "spectral_centroid_hz": 2273.01,
+        "onset_strength": 1.14388,
+        "spectral_flatness": 0.01476
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "e6724f2f-4639-4855-881b-6564ab742363",
+      "title": "Branches Break",
+      "artist": "GoGo Penguin",
+      "duration_ms": 262654,
+      "first_release_date": "2016-01-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "e6724f2f-4639-4855-881b-6564ab742363",
+      "duration_sec": 262.653503418,
+      "sample_rate": 44100,
+      "tempo_bpm": 121.86416626,
+      "danceability": 1.10288405418,
+      "onset_rate": 3.59378433228,
+      "beats_count": 528,
+      "key": "C#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0256319604814,
+      "dynamic_complexity": 5.87500429153,
+      "average_loudness": 0.216645091772,
+      "spectral_centroid_mean": 693.428894043,
+      "spectral_flux_mean": 0.0749283134937,
+      "spectral_rolloff_mean": 719.710510254,
+      "dissonance_mean": 0.429111659527,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
