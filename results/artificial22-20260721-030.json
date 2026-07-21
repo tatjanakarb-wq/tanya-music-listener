@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Moses Boyd",
+    "track": "Drum Dance",
+    "request_id": "artificial22-20260721-030"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "48fb445d-e794-4fb8-bb5b-785cc0ea0a6e",
+      "title": "Drum Dance",
+      "artist": "Moses Boyd",
+      "duration_ms": 292000,
+      "first_release_date": "2026-05-28",
+      "disambiguation": "part of “Beats in Space 208: Martyn” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "edfd0fa2-d595-4ee0-a0a4-ee993b0ceb42",
+      "title": "Drum Dance",
+      "artist": "Moses Boyd Exodus",
+      "duration_ms": 314000,
+      "first_release_date": "2016-05-27",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.8911
+    },
+    {
+      "mbid": "1676050a-5692-498b-a124-f8ac9ab2a749",
+      "title": "Drum Dance",
+      "artist": "Moses Boyd Exodus",
+      "duration_ms": 314000,
+      "first_release_date": "2018-09-28",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.8911
+    },
+    {
+      "mbid": "a25eab9c-bb24-4521-9822-3bcea8131be3",
+      "title": "Drum Dance",
+      "artist": "Moses Boyd Exodus",
+      "duration_ms": 314440,
+      "first_release_date": "2018-09-28",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.8911
+    }
+  ],
+  "matched_recording": {
+    "artist": "Moses Boyd",
+    "track": "Drum Dance",
+    "album": "Displaced Diaspora",
+    "duration_ms": 314440,
+    "release_date": "2018-09-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/33/53/1c3353f9-bb31-0603-dcd0-6fb8df6c0e8c/mzaf_3934153710987185377.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/drum-dance/1419676997?i=1419677061&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 440
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/drum-dance/1419676997?i=1419677061&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/33/53/1c3353f9-bb31-0603-dcd0-6fb8df6c0e8c/mzaf_3934153710987185377.plus.aac.p.m4a",
+      "bytes": 1135091,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.03247,
+    "onset_rate_per_sec": 7.3173,
+    "dynamic_range_db_p95_p10": 8.932,
+    "crest_factor_db": 10.05,
+    "rms_mean": 0.17592,
+    "rms_std": 0.05667,
+    "spectral_centroid_hz_mean": 2130.79,
+    "spectral_centroid_hz_std": 931.09,
+    "spectral_bandwidth_hz_mean": 2597.22,
+    "spectral_rolloff_hz_mean": 5014.86,
+    "spectral_flatness_mean": 0.02319,
+    "spectral_contrast_mean": 16.1318,
+    "energy_share": {
+      "below_150_hz": 0.81039,
+      "150_to_2000_hz": 0.16708,
+      "above_2000_hz": 0.02253
+    },
+    "percussive_share": 0.32545,
+    "tonal_entropy_bits": 3.56901,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.65238
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.18052,
+        "spectral_centroid_hz": 2019.68,
+        "onset_strength": 1.4464,
+        "spectral_flatness": 0.01884
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1817,
+        "spectral_centroid_hz": 1973.68,
+        "onset_strength": 1.59434,
+        "spectral_flatness": 0.01716
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.18701,
+        "spectral_centroid_hz": 2035.91,
+        "onset_strength": 1.58144,
+        "spectral_flatness": 0.01856
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.19044,
+        "spectral_centroid_hz": 2006.33,
+        "onset_strength": 1.53973,
+        "spectral_flatness": 0.01651
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.17974,
+        "spectral_centroid_hz": 2039.39,
+        "onset_strength": 1.59327,
+        "spectral_flatness": 0.01665
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.19603,
+        "spectral_centroid_hz": 1863.01,
+        "onset_strength": 1.56064,
+        "spectral_flatness": 0.01327
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.18729,
+        "spectral_centroid_hz": 2059.54,
+        "onset_strength": 1.54657,
+        "spectral_flatness": 0.01781
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13466,
+        "spectral_centroid_hz": 2475.59,
+        "onset_strength": 1.726,
+        "spectral_flatness": 0.04329
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16784,
+        "spectral_centroid_hz": 2273.53,
+        "onset_strength": 1.60615,
+        "spectral_flatness": 0.03025
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13702,
+        "spectral_centroid_hz": 2626.22,
+        "onset_strength": 1.70904,
+        "spectral_flatness": 0.05594
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.18811,
+        "spectral_centroid_hz": 1982.42,
+        "onset_strength": 1.5624,
+        "spectral_flatness": 0.01161
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.1813,
+        "spectral_centroid_hz": 2207.33,
+        "onset_strength": 1.74141,
+        "spectral_flatness": 0.01807
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "edfd0fa2-d595-4ee0-a0a4-ee993b0ceb42",
+      "title": "Drum Dance",
+      "artist": "Moses Boyd Exodus",
+      "duration_ms": 314000,
+      "first_release_date": "2016-05-27",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.8911
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "edfd0fa2-d595-4ee0-a0a4-ee993b0ceb42",
+      "duration_sec": 314.226928711,
+      "sample_rate": 44100,
+      "tempo_bpm": 135.05909729,
+      "danceability": 1.19101798534,
+      "onset_rate": 5.51476573944,
+      "beats_count": 691,
+      "key": "G#",
+      "scale": "major",
+      "chords_changes_rate": 0.118794329464,
+      "dynamic_complexity": 4.96539115906,
+      "average_loudness": 0.753596663475,
+      "spectral_centroid_mean": 821.748046875,
+      "spectral_flux_mean": 0.128922104836,
+      "spectral_rolloff_mean": 827.862243652,
+      "dissonance_mean": 0.465660631657,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
