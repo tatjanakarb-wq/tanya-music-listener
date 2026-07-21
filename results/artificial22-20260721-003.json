@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Him & Earl",
+    "track": "Falling Backwards",
+    "request_id": "artificial22-20260721-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "1e433a9b-4cbc-4cdf-9385-23f24ba0d131",
+      "title": "Falling Backwards",
+      "artist": "Him & Earl",
+      "duration_ms": 373000,
+      "first_release_date": "2026-06-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Him & Earl",
+    "track": "Falling Backwards",
+    "album": "Falling Backwards",
+    "duration_ms": 373438,
+    "release_date": "2026-06-26T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/e7/c0/9de7c020-17f2-3a4c-e260-6c1207452125/mzaf_11886258014548972281.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/falling-backwards/6773368860?i=6773368864&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 438
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/falling-backwards/6773368860?i=6773368864&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/e7/c0/9de7c020-17f2-3a4c-e260-6c1207452125/mzaf_11886258014548972281.plus.aac.p.m4a",
+      "bytes": 949973,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.03538,
+    "onset_rate_per_sec": 5.13753,
+    "dynamic_range_db_p95_p10": 10.06,
+    "crest_factor_db": 13.436,
+    "rms_mean": 0.1057,
+    "rms_std": 0.04097,
+    "spectral_centroid_hz_mean": 2046.29,
+    "spectral_centroid_hz_std": 788.99,
+    "spectral_bandwidth_hz_mean": 2585.37,
+    "spectral_rolloff_hz_mean": 4806.23,
+    "spectral_flatness_mean": 0.01546,
+    "spectral_contrast_mean": 19.26176,
+    "energy_share": {
+      "below_150_hz": 0.38749,
+      "150_to_2000_hz": 0.58973,
+      "above_2000_hz": 0.02277
+    },
+    "percussive_share": 0.39901,
+    "tonal_entropy_bits": 3.54527,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.24,
+      "relative_score": 0.81771
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1036,
+        "spectral_centroid_hz": 1640.49,
+        "onset_strength": 1.87221,
+        "spectral_flatness": 0.01091
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.10364,
+        "spectral_centroid_hz": 1691.65,
+        "onset_strength": 2.24544,
+        "spectral_flatness": 0.01093
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10341,
+        "spectral_centroid_hz": 1813.06,
+        "onset_strength": 2.12359,
+        "spectral_flatness": 0.01091
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.11016,
+        "spectral_centroid_hz": 2202.4,
+        "onset_strength": 1.48102,
+        "spectral_flatness": 0.01153
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.11427,
+        "spectral_centroid_hz": 2036.22,
+        "onset_strength": 1.69254,
+        "spectral_flatness": 0.01323
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.10282,
+        "spectral_centroid_hz": 1877.23,
+        "onset_strength": 1.75374,
+        "spectral_flatness": 0.01251
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.10864,
+        "spectral_centroid_hz": 1844.8,
+        "onset_strength": 1.68898,
+        "spectral_flatness": 0.01184
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.10968,
+        "spectral_centroid_hz": 2237.82,
+        "onset_strength": 1.57818,
+        "spectral_flatness": 0.01946
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.11349,
+        "spectral_centroid_hz": 1970.93,
+        "onset_strength": 1.75586,
+        "spectral_flatness": 0.01253
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10461,
+        "spectral_centroid_hz": 2083.2,
+        "onset_strength": 1.77814,
+        "spectral_flatness": 0.01755
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.09841,
+        "spectral_centroid_hz": 2553.13,
+        "onset_strength": 1.62504,
+        "spectral_flatness": 0.02346
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.09576,
+        "spectral_centroid_hz": 2600.7,
+        "onset_strength": 1.24078,
+        "spectral_flatness": 0.03055
+      }
+    ]
+  }
+}
