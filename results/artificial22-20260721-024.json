@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Swedenborgske Rom",
+    "request_id": "artificial22-20260721-024"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "300287f4-2890-4cfb-9bd9-de3f3db484c7",
+      "title": "Swedenborgske rom",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 526627,
+      "first_release_date": "2005-04-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "701a5959-cc3f-4242-8c70-10da767df606",
+      "title": "Swedenborgske Rom",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 29000,
+      "first_release_date": "2008-02",
+      "disambiguation": "part of 1000 Masks Mix DJ-mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d1ce9bf3-2e7f-4d49-be6b-ac4c5d2c965b",
+      "title": "Swedenborgske Rom (Spydeberg demo)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 425746,
+      "first_release_date": "2005-04-04",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.8224
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Swedenborgske Rom",
+    "album": "What We Must",
+    "duration_ms": 526627,
+    "release_date": "2005-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d1/5e/e2/d15ee26b-1e04-4d0d-5b96-09b382ba0a24/mzaf_13065535295400221616.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/swedenborgske-rom/416316254?i=416316269&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/swedenborgske-rom/416316254?i=416316269&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d1/5e/e2/d15ee26b-1e04-4d0d-5b96-09b382ba0a24/mzaf_13065535295400221616.plus.aac.p.m4a",
+      "bytes": 1182219,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.03361,
+    "onset_rate_per_sec": 1.97133,
+    "dynamic_range_db_p95_p10": 44.033,
+    "crest_factor_db": 13.358,
+    "rms_mean": 0.04696,
+    "rms_std": 0.03214,
+    "spectral_centroid_hz_mean": 1107.83,
+    "spectral_centroid_hz_std": 624.04,
+    "spectral_bandwidth_hz_mean": 1462.38,
+    "spectral_rolloff_hz_mean": 1884.26,
+    "spectral_flatness_mean": 0.00069,
+    "spectral_contrast_mean": 21.00175,
+    "energy_share": {
+      "below_150_hz": 0.68493,
+      "150_to_2000_hz": 0.3137,
+      "above_2000_hz": 0.00136
+    },
+    "percussive_share": 0.086,
+    "tonal_entropy_bits": 3.38846,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.49797
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00041,
+        "spectral_centroid_hz": 2113.3,
+        "onset_strength": 0.189,
+        "spectral_flatness": 0.0037
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00065,
+        "spectral_centroid_hz": 2028.93,
+        "onset_strength": 0.22495,
+        "spectral_flatness": 0.00131
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00103,
+        "spectral_centroid_hz": 1922.55,
+        "onset_strength": 0.36487,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03439,
+        "spectral_centroid_hz": 1386.05,
+        "onset_strength": 1.09836,
+        "spectral_flatness": 0.00119
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.06667,
+        "spectral_centroid_hz": 732.97,
+        "onset_strength": 0.90559,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.0609,
+        "spectral_centroid_hz": 771.64,
+        "onset_strength": 0.87758,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06755,
+        "spectral_centroid_hz": 707.71,
+        "onset_strength": 0.88846,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07238,
+        "spectral_centroid_hz": 729.0,
+        "onset_strength": 0.91406,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06532,
+        "spectral_centroid_hz": 707.61,
+        "onset_strength": 0.8555,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06417,
+        "spectral_centroid_hz": 740.0,
+        "onset_strength": 0.94628,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06529,
+        "spectral_centroid_hz": 700.79,
+        "onset_strength": 0.91131,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06446,
+        "spectral_centroid_hz": 759.59,
+        "onset_strength": 0.86547,
+        "spectral_flatness": 0.0002
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "300287f4-2890-4cfb-9bd9-de3f3db484c7",
+      "title": "Swedenborgske rom",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 526627,
+      "first_release_date": "2005-04-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "300287f4-2890-4cfb-9bd9-de3f3db484c7",
+      "duration_sec": 238.262863159,
+      "sample_rate": 44100,
+      "tempo_bpm": 131.988937378,
+      "danceability": 1.00839877129,
+      "onset_rate": 2.35434174538,
+      "beats_count": 454,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.0535853467882,
+      "dynamic_complexity": 5.56413507462,
+      "average_loudness": 0.365973442793,
+      "spectral_centroid_mean": 782.014099121,
+      "spectral_flux_mean": 0.0451327674091,
+      "spectral_rolloff_mean": 960.778137207,
+      "dissonance_mean": 0.405893325806,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
