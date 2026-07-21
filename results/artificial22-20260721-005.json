@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Wash",
+    "request_id": "artificial22-20260721-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f9b24b5d-4349-43f2-b33e-a3d158a35e5d",
+      "title": "Wash",
+      "artist": "GoGo Penguin",
+      "duration_ms": 213306,
+      "first_release_date": "2014-10-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Wash",
+    "album": "v2.0 (Deluxe Edition)",
+    "duration_ms": 213262,
+    "release_date": "2014-03-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/10/b1/5810b115-ac9f-709a-9002-89b062dba774/mzaf_16696283501975562122.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/wash/1579118524?i=1579119148&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 44
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/wash/1579118524?i=1579119148&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/10/b1/5810b115-ac9f-709a-9002-89b062dba774/mzaf_16696283501975562122.plus.aac.p.m4a",
+      "bytes": 1094932,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0309,
+    "onset_rate_per_sec": 3.94266,
+    "dynamic_range_db_p95_p10": 14.969,
+    "crest_factor_db": 14.096,
+    "rms_mean": 0.08906,
+    "rms_std": 0.05163,
+    "spectral_centroid_hz_mean": 475.66,
+    "spectral_centroid_hz_std": 147.1,
+    "spectral_bandwidth_hz_mean": 792.58,
+    "spectral_rolloff_hz_mean": 837.22,
+    "spectral_flatness_mean": 3e-05,
+    "spectral_contrast_mean": 22.61752,
+    "energy_share": {
+      "below_150_hz": 0.82511,
+      "150_to_2000_hz": 0.17358,
+      "above_2000_hz": 0.00132
+    },
+    "percussive_share": 0.13919,
+    "tonal_entropy_bits": 3.38516,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.02665
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07821,
+        "spectral_centroid_hz": 469.62,
+        "onset_strength": 0.59376,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.15237,
+        "spectral_centroid_hz": 376.48,
+        "onset_strength": 0.62539,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07162,
+        "spectral_centroid_hz": 467.62,
+        "onset_strength": 0.55047,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06163,
+        "spectral_centroid_hz": 505.51,
+        "onset_strength": 0.52219,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.13192,
+        "spectral_centroid_hz": 420.46,
+        "onset_strength": 0.6439,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.07438,
+        "spectral_centroid_hz": 540.54,
+        "onset_strength": 0.57368,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04744,
+        "spectral_centroid_hz": 522.23,
+        "onset_strength": 0.57344,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12508,
+        "spectral_centroid_hz": 422.5,
+        "onset_strength": 0.65945,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07932,
+        "spectral_centroid_hz": 537.58,
+        "onset_strength": 0.61034,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.04612,
+        "spectral_centroid_hz": 431.59,
+        "onset_strength": 0.44386,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12779,
+        "spectral_centroid_hz": 422.98,
+        "onset_strength": 0.7724,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07283,
+        "spectral_centroid_hz": 591.19,
+        "onset_strength": 0.59061,
+        "spectral_flatness": 5e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f9b24b5d-4349-43f2-b33e-a3d158a35e5d",
+      "title": "Wash",
+      "artist": "GoGo Penguin",
+      "duration_ms": 213306,
+      "first_release_date": "2014-10-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f9b24b5d-4349-43f2-b33e-a3d158a35e5d",
+      "duration_sec": 213.290710449,
+      "sample_rate": 44100,
+      "tempo_bpm": 122.896507263,
+      "danceability": 1.03209722042,
+      "onset_rate": 3.76916003227,
+      "beats_count": 434,
+      "key": "B",
+      "scale": "major",
+      "chords_changes_rate": 0.0267740525305,
+      "dynamic_complexity": 3.57008862495,
+      "average_loudness": 0.856763541698,
+      "spectral_centroid_mean": 383.655151367,
+      "spectral_flux_mean": 0.107822917402,
+      "spectral_rolloff_mean": 227.476989746,
+      "dissonance_mean": 0.42892447114,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
