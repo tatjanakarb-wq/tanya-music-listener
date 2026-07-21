@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Kessoncoda",
+    "track": "KTO",
+    "request_id": "artificial22-20260721-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5de59994-5856-4136-8d8c-a54ef41257df",
+      "title": "KTO",
+      "artist": "Kessoncoda",
+      "duration_ms": 218000,
+      "first_release_date": "2024-07-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kessoncoda",
+    "track": "KTO",
+    "album": "Outerstate",
+    "duration_ms": 218367,
+    "release_date": "2024-07-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/fe/fd/e4fefdc4-8618-759e-bb08-9a1344f47444/mzaf_8744457564848512995.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/kto/1738527320?i=1738527337&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 367
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/kto/1738527320?i=1738527337&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/fe/fd/e4fefdc4-8618-759e-bb08-9a1344f47444/mzaf_8744457564848512995.plus.aac.p.m4a",
+      "bytes": 1214476,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 143.555,
+    "beat_interval_cv": 0.07399,
+    "onset_rate_per_sec": 6.939,
+    "dynamic_range_db_p95_p10": 21.443,
+    "crest_factor_db": 17.945,
+    "rms_mean": 0.05925,
+    "rms_std": 0.04343,
+    "spectral_centroid_hz_mean": 862.19,
+    "spectral_centroid_hz_std": 435.04,
+    "spectral_bandwidth_hz_mean": 1126.26,
+    "spectral_rolloff_hz_mean": 1590.3,
+    "spectral_flatness_mean": 0.00121,
+    "spectral_contrast_mean": 20.11653,
+    "energy_share": {
+      "below_150_hz": 0.57926,
+      "150_to_2000_hz": 0.41518,
+      "above_2000_hz": 0.00555
+    },
+    "percussive_share": 0.29561,
+    "tonal_entropy_bits": 3.46509,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.27538
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03155,
+        "spectral_centroid_hz": 462.47,
+        "onset_strength": 1.03256,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.02739,
+        "spectral_centroid_hz": 596.57,
+        "onset_strength": 1.11072,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03013,
+        "spectral_centroid_hz": 687.83,
+        "onset_strength": 1.16335,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.0333,
+        "spectral_centroid_hz": 712.34,
+        "onset_strength": 1.06837,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.04447,
+        "spectral_centroid_hz": 680.21,
+        "onset_strength": 1.06221,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.05439,
+        "spectral_centroid_hz": 677.77,
+        "onset_strength": 1.10019,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.05595,
+        "spectral_centroid_hz": 742.25,
+        "onset_strength": 1.14739,
+        "spectral_flatness": 0.00026
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.05869,
+        "spectral_centroid_hz": 831.24,
+        "onset_strength": 1.21249,
+        "spectral_flatness": 0.00035
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.06962,
+        "spectral_centroid_hz": 800.49,
+        "onset_strength": 0.98088,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10408,
+        "spectral_centroid_hz": 1137.2,
+        "onset_strength": 1.11497,
+        "spectral_flatness": 0.0019
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.09192,
+        "spectral_centroid_hz": 1541.74,
+        "onset_strength": 1.15124,
+        "spectral_flatness": 0.00603
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1093,
+        "spectral_centroid_hz": 1471.48,
+        "onset_strength": 1.03321,
+        "spectral_flatness": 0.00487
+      }
+    ]
+  }
+}
