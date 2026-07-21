@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Home",
+    "request_id": "artificial22-20260721-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "900e5b10-64c5-4d0f-955e-bfd8f733c53c",
+      "title": "Home",
+      "artist": "GoGo Penguin",
+      "duration_ms": 321506,
+      "first_release_date": "2014-03-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Home",
+    "album": "v2.0 (Deluxe Edition)",
+    "duration_ms": 321502,
+    "release_date": "2014-03-14T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/63/ae/cc/63aecc46-8efe-9f49-562a-1c80c73fbc57/mzaf_6948009026856882159.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/home/1579118524?i=1579118909&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 4
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/home/1579118524?i=1579118909&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/63/ae/cc/63aecc46-8efe-9f49-562a-1c80c73fbc57/mzaf_6948009026856882159.plus.aac.p.m4a",
+      "bytes": 1124412,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.04156,
+    "onset_rate_per_sec": 4.64431,
+    "dynamic_range_db_p95_p10": 14.77,
+    "crest_factor_db": 15.316,
+    "rms_mean": 0.08699,
+    "rms_std": 0.05025,
+    "spectral_centroid_hz_mean": 882.45,
+    "spectral_centroid_hz_std": 712.15,
+    "spectral_bandwidth_hz_mean": 1529.52,
+    "spectral_rolloff_hz_mean": 1717.34,
+    "spectral_flatness_mean": 0.00574,
+    "spectral_contrast_mean": 18.49789,
+    "energy_share": {
+      "below_150_hz": 0.87179,
+      "150_to_2000_hz": 0.12318,
+      "above_2000_hz": 0.00503
+    },
+    "percussive_share": 0.34962,
+    "tonal_entropy_bits": 3.52651,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 0.95935
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08231,
+        "spectral_centroid_hz": 919.61,
+        "onset_strength": 2.11972,
+        "spectral_flatness": 0.00791
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08717,
+        "spectral_centroid_hz": 860.64,
+        "onset_strength": 2.25364,
+        "spectral_flatness": 0.00396
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08072,
+        "spectral_centroid_hz": 893.39,
+        "onset_strength": 1.73375,
+        "spectral_flatness": 0.00498
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0835,
+        "spectral_centroid_hz": 913.56,
+        "onset_strength": 1.97004,
+        "spectral_flatness": 0.00661
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09298,
+        "spectral_centroid_hz": 932.83,
+        "onset_strength": 2.12546,
+        "spectral_flatness": 0.00689
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08433,
+        "spectral_centroid_hz": 733.87,
+        "onset_strength": 1.71447,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10616,
+        "spectral_centroid_hz": 846.77,
+        "onset_strength": 1.74033,
+        "spectral_flatness": 0.00529
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09511,
+        "spectral_centroid_hz": 916.08,
+        "onset_strength": 1.92678,
+        "spectral_flatness": 0.00459
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08712,
+        "spectral_centroid_hz": 791.36,
+        "onset_strength": 1.91659,
+        "spectral_flatness": 0.00436
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07375,
+        "spectral_centroid_hz": 909.14,
+        "onset_strength": 1.72778,
+        "spectral_flatness": 0.00663
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08259,
+        "spectral_centroid_hz": 915.58,
+        "onset_strength": 1.8115,
+        "spectral_flatness": 0.00868
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.08814,
+        "spectral_centroid_hz": 954.74,
+        "onset_strength": 2.08676,
+        "spectral_flatness": 0.00658
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "900e5b10-64c5-4d0f-955e-bfd8f733c53c",
+      "title": "Home",
+      "artist": "GoGo Penguin",
+      "duration_ms": 321506,
+      "first_release_date": "2014-03-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "900e5b10-64c5-4d0f-955e-bfd8f733c53c",
+      "duration_sec": 321.506652832,
+      "sample_rate": 44100,
+      "tempo_bpm": 106.790794373,
+      "danceability": 1.29029870033,
+      "onset_rate": 4.75854730606,
+      "beats_count": 600,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.0581949464977,
+      "dynamic_complexity": 5.07523679733,
+      "average_loudness": 0.752425789833,
+      "spectral_centroid_mean": 790.428588867,
+      "spectral_flux_mean": 0.0904911011457,
+      "spectral_rolloff_mean": 966.918640137,
+      "dissonance_mean": 0.441068172455,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
