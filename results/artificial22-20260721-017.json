@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Triosk",
+    "track": "Visions IV",
+    "request_id": "artificial22-20260721-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "39553bf1-26e1-4cc9-aeb3-c5de747a03f5",
+      "title": "Visions IV",
+      "artist": "Triosk",
+      "duration_ms": 241733,
+      "first_release_date": "2006-07-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Triosk",
+    "track": "Visions IV",
+    "album": "The Headlight Serenade (Special Edition)",
+    "duration_ms": 241733,
+    "release_date": "2006-07-10T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/09/ee/7609ee22-1910-ff88-8a9d-b94c65215472/mzaf_2008696154758784459.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/visions-iv/1385591047?i=1385591049&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/visions-iv/1385591047?i=1385591049&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/09/ee/7609ee22-1910-ff88-8a9d-b94c65215472/mzaf_2008696154758784459.plus.aac.p.m4a",
+      "bytes": 1147092,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.02673,
+    "onset_rate_per_sec": 6.38176,
+    "dynamic_range_db_p95_p10": 14.366,
+    "crest_factor_db": 17.328,
+    "rms_mean": 0.06843,
+    "rms_std": 0.03792,
+    "spectral_centroid_hz_mean": 1365.39,
+    "spectral_centroid_hz_std": 551.09,
+    "spectral_bandwidth_hz_mean": 2065.39,
+    "spectral_rolloff_hz_mean": 2706.18,
+    "spectral_flatness_mean": 0.00462,
+    "spectral_contrast_mean": 20.17486,
+    "energy_share": {
+      "below_150_hz": 0.35834,
+      "150_to_2000_hz": 0.63753,
+      "above_2000_hz": 0.00413
+    },
+    "percussive_share": 0.17401,
+    "tonal_entropy_bits": 3.42815,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.56113
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03845,
+        "spectral_centroid_hz": 1466.66,
+        "onset_strength": 1.09728,
+        "spectral_flatness": 0.00374
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02474,
+        "spectral_centroid_hz": 2083.49,
+        "onset_strength": 1.10601,
+        "spectral_flatness": 0.01976
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04473,
+        "spectral_centroid_hz": 1591.82,
+        "onset_strength": 1.07193,
+        "spectral_flatness": 0.00703
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04139,
+        "spectral_centroid_hz": 1719.47,
+        "onset_strength": 1.07882,
+        "spectral_flatness": 0.00427
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.05075,
+        "spectral_centroid_hz": 1818.43,
+        "onset_strength": 1.16323,
+        "spectral_flatness": 0.0085
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06511,
+        "spectral_centroid_hz": 1256.66,
+        "onset_strength": 1.00879,
+        "spectral_flatness": 0.0029
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06389,
+        "spectral_centroid_hz": 1167.44,
+        "onset_strength": 0.99464,
+        "spectral_flatness": 0.00215
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07415,
+        "spectral_centroid_hz": 1148.1,
+        "onset_strength": 1.02626,
+        "spectral_flatness": 0.00187
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09919,
+        "spectral_centroid_hz": 1147.05,
+        "onset_strength": 0.9704,
+        "spectral_flatness": 0.00209
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09624,
+        "spectral_centroid_hz": 1027.64,
+        "onset_strength": 0.89037,
+        "spectral_flatness": 0.00117
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12091,
+        "spectral_centroid_hz": 935.32,
+        "onset_strength": 0.95338,
+        "spectral_flatness": 0.00081
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10136,
+        "spectral_centroid_hz": 1024.59,
+        "onset_strength": 0.86654,
+        "spectral_flatness": 0.00118
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "39553bf1-26e1-4cc9-aeb3-c5de747a03f5",
+      "title": "Visions IV",
+      "artist": "Triosk",
+      "duration_ms": 241733,
+      "first_release_date": "2006-07-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "39553bf1-26e1-4cc9-aeb3-c5de747a03f5",
+      "duration_sec": 241.764328003,
+      "sample_rate": 44100,
+      "tempo_bpm": 178.205795288,
+      "danceability": 1.11705160141,
+      "onset_rate": 2.57261037827,
+      "beats_count": 559,
+      "key": "F#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0777799114585,
+      "dynamic_complexity": 4.36438655853,
+      "average_loudness": 0.655262351036,
+      "spectral_centroid_mean": 914.408630371,
+      "spectral_flux_mean": 0.103250466287,
+      "spectral_rolloff_mean": 14343.1708984,
+      "dissonance_mean": 0.459332644939,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
