@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Stardust Hotel",
+    "request_id": "artificial22-20260721-018"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "0dabdee5-9498-4bab-9f53-124b2a547037",
+      "title": "Stardust Hotel",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 375213,
+      "first_release_date": "2005-04-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "40dd964b-7b63-4199-b1f3-168fe2bea176",
+      "title": "Stardust Hotel",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 217000,
+      "first_release_date": "2005",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f9bb3941-4374-461b-9a1b-d1687857eaea",
+      "title": "Stardust Hotel (demo)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 297133,
+      "first_release_date": "2005-04-04",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.9121
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Stardust Hotel",
+    "album": "What We Must",
+    "duration_ms": 375213,
+    "release_date": "2005-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ad/b5/51/adb5511b-990c-f344-8783-a5e5838a3733/mzaf_8649903887760374284.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/stardust-hotel/416316254?i=416316261&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/stardust-hotel/416316254?i=416316261&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ad/b5/51/adb5511b-990c-f344-8783-a5e5838a3733/mzaf_8649903887760374284.plus.aac.p.m4a",
+      "bytes": 1221013,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05705,
+    "onset_rate_per_sec": 3.10735,
+    "dynamic_range_db_p95_p10": 14.775,
+    "crest_factor_db": 14.845,
+    "rms_mean": 0.09515,
+    "rms_std": 0.04778,
+    "spectral_centroid_hz_mean": 1897.59,
+    "spectral_centroid_hz_std": 599.09,
+    "spectral_bandwidth_hz_mean": 1920.19,
+    "spectral_rolloff_hz_mean": 3933.9,
+    "spectral_flatness_mean": 0.01186,
+    "spectral_contrast_mean": 22.41647,
+    "energy_share": {
+      "below_150_hz": 0.33558,
+      "150_to_2000_hz": 0.5867,
+      "above_2000_hz": 0.07772
+    },
+    "percussive_share": 0.24444,
+    "tonal_entropy_bits": 3.472,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.68536
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03729,
+        "spectral_centroid_hz": 1295.37,
+        "onset_strength": 1.04617,
+        "spectral_flatness": 0.0007
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03932,
+        "spectral_centroid_hz": 1193.0,
+        "onset_strength": 0.85355,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04009,
+        "spectral_centroid_hz": 1203.72,
+        "onset_strength": 0.99586,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03931,
+        "spectral_centroid_hz": 1136.88,
+        "onset_strength": 1.23846,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.11226,
+        "spectral_centroid_hz": 1862.47,
+        "onset_strength": 1.22506,
+        "spectral_flatness": 0.01357
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1155,
+        "spectral_centroid_hz": 2493.11,
+        "onset_strength": 1.13546,
+        "spectral_flatness": 0.02403
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13013,
+        "spectral_centroid_hz": 2245.4,
+        "onset_strength": 1.06584,
+        "spectral_flatness": 0.01748
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12105,
+        "spectral_centroid_hz": 2446.22,
+        "onset_strength": 1.08044,
+        "spectral_flatness": 0.02178
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11561,
+        "spectral_centroid_hz": 2071.77,
+        "onset_strength": 1.1469,
+        "spectral_flatness": 0.01399
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1315,
+        "spectral_centroid_hz": 2279.7,
+        "onset_strength": 1.03461,
+        "spectral_flatness": 0.01671
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.1295,
+        "spectral_centroid_hz": 2272.58,
+        "onset_strength": 1.10703,
+        "spectral_flatness": 0.01745
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12967,
+        "spectral_centroid_hz": 2265.46,
+        "onset_strength": 1.03368,
+        "spectral_flatness": 0.0164
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "0dabdee5-9498-4bab-9f53-124b2a547037",
+      "title": "Stardust Hotel",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 375213,
+      "first_release_date": "2005-04-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "0dabdee5-9498-4bab-9f53-124b2a547037",
+      "duration_sec": 259.448150635,
+      "sample_rate": 44100,
+      "tempo_bpm": 111.223144531,
+      "danceability": 1.09408688545,
+      "onset_rate": 4.57874441147,
+      "beats_count": 531,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.0502863265574,
+      "dynamic_complexity": 2.67425465584,
+      "average_loudness": 0.910576164722,
+      "spectral_centroid_mean": 1034.08239746,
+      "spectral_flux_mean": 0.0839638859034,
+      "spectral_rolloff_mean": 1017.4609375,
+      "dissonance_mean": 0.45361879468,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
