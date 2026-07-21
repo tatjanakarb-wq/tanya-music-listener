@@ -1,0 +1,23 @@
+{
+  "request": {
+    "artist": "Shai Maestro",
+    "track": "Human",
+    "request_id": "artificial22-20260721-013"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a6e4ff33-b020-4df1-8cac-bd0249e709ef",
+      "title": "Human",
+      "artist": "Shai Maestro Jorge Roeder Ofri Nehemya Philip Dizack",
+      "duration_ms": 154000,
+      "first_release_date": "2021-01-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.7375
+    }
+  ]
+}
