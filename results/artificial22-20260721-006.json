@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Glass Museum",
+    "track": "Wu",
+    "request_id": "artificial22-20260721-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9bb8c25d-f696-4aa7-8716-6e71432b5ec6",
+      "title": "WU",
+      "artist": "Glass Museum",
+      "duration_ms": 224000,
+      "first_release_date": "2018-05-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Glass Museum",
+    "track": "Wu",
+    "album": "Deux - EP",
+    "duration_ms": 224404,
+    "release_date": "2018-05-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/60/2f/6c/602f6c8b-09ce-d72b-a1a6-65f553df8630/mzaf_17355161891921457932.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/wu/1688007125?i=1688007539&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 404
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/wu/1688007125?i=1688007539&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/60/2f/6c/602f6c8b-09ce-d72b-a1a6-65f553df8630/mzaf_17355161891921457932.plus.aac.p.m4a",
+      "bytes": 1039994,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.04043,
+    "onset_rate_per_sec": 2.27204,
+    "dynamic_range_db_p95_p10": 7.023,
+    "crest_factor_db": 17.311,
+    "rms_mean": 0.07058,
+    "rms_std": 0.0398,
+    "spectral_centroid_hz_mean": 1532.07,
+    "spectral_centroid_hz_std": 683.85,
+    "spectral_bandwidth_hz_mean": 1819.99,
+    "spectral_rolloff_hz_mean": 3098.53,
+    "spectral_flatness_mean": 0.00979,
+    "spectral_contrast_mean": 20.34876,
+    "energy_share": {
+      "below_150_hz": 0.45755,
+      "150_to_2000_hz": 0.51505,
+      "above_2000_hz": 0.0274
+    },
+    "percussive_share": 0.44026,
+    "tonal_entropy_bits": 3.51305,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 2.33005
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08913,
+        "spectral_centroid_hz": 2536.95,
+        "onset_strength": 0.95452,
+        "spectral_flatness": 0.04525
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07202,
+        "spectral_centroid_hz": 1936.24,
+        "onset_strength": 0.90078,
+        "spectral_flatness": 0.01153
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06335,
+        "spectral_centroid_hz": 1497.12,
+        "onset_strength": 0.82513,
+        "spectral_flatness": 0.00776
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06333,
+        "spectral_centroid_hz": 1393.85,
+        "onset_strength": 0.84005,
+        "spectral_flatness": 0.00598
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07098,
+        "spectral_centroid_hz": 1432.42,
+        "onset_strength": 0.88366,
+        "spectral_flatness": 0.00647
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06446,
+        "spectral_centroid_hz": 1398.21,
+        "onset_strength": 0.86321,
+        "spectral_flatness": 0.00548
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07413,
+        "spectral_centroid_hz": 1460.87,
+        "onset_strength": 0.93202,
+        "spectral_flatness": 0.00613
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06817,
+        "spectral_centroid_hz": 1211.61,
+        "onset_strength": 0.8767,
+        "spectral_flatness": 0.00487
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07463,
+        "spectral_centroid_hz": 1480.11,
+        "onset_strength": 0.93158,
+        "spectral_flatness": 0.00595
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07837,
+        "spectral_centroid_hz": 1264.58,
+        "onset_strength": 0.82718,
+        "spectral_flatness": 0.00444
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05992,
+        "spectral_centroid_hz": 1348.22,
+        "onset_strength": 0.89472,
+        "spectral_flatness": 0.00664
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06855,
+        "spectral_centroid_hz": 1432.34,
+        "onset_strength": 0.9114,
+        "spectral_flatness": 0.00715
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "9bb8c25d-f696-4aa7-8716-6e71432b5ec6",
+      "title": "WU",
+      "artist": "Glass Museum",
+      "duration_ms": 224000,
+      "first_release_date": "2018-05-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "9bb8c25d-f696-4aa7-8716-6e71432b5ec6",
+      "duration_sec": 224.444076538,
+      "sample_rate": 44100,
+      "tempo_bpm": 142.92124939,
+      "danceability": 1.34777402878,
+      "onset_rate": 3.59981966019,
+      "beats_count": 441,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.046545304358,
+      "dynamic_complexity": 4.31053256989,
+      "average_loudness": 0.508721351624,
+      "spectral_centroid_mean": 861.942565918,
+      "spectral_flux_mean": 0.0771051421762,
+      "spectral_rolloff_mean": 1024.3112793,
+      "dissonance_mean": 0.448264628649,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
