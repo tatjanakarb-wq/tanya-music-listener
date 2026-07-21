@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Elephant9",
+    "track": "Fugl Fønix",
+    "request_id": "artificial22-20260721-028"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "1e4cd3e5-16d8-4d23-aa2e-40009b85c581",
+      "title": "Fugl Fønix",
+      "artist": "Elephant9",
+      "duration_ms": 223333,
+      "first_release_date": "2010-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8fac597d-a42f-4345-afce-71c1ff92ec7a",
+      "title": "Skink/Fugl Fønix",
+      "artist": "Elephant9",
+      "duration_ms": 801839,
+      "first_release_date": "2019-05-31",
+      "disambiguation": "",
+      "musicbrainz_score": 92,
+      "local_match_score": 0.8662
+    },
+    {
+      "mbid": "d8e70623-9180-4b2d-b214-4c360f74039b",
+      "title": "Fugl Fønix",
+      "artist": "Elephant9 Terje Rypdal",
+      "duration_ms": 627973,
+      "first_release_date": "2024-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.8239
+    },
+    {
+      "mbid": "8fee7054-ca53-4f24-af9f-8d77a07a3507",
+      "title": "Skink/Fugl Fønix",
+      "artist": "Elephant9 Reine Fiske",
+      "duration_ms": 845218,
+      "first_release_date": "2019",
+      "disambiguation": "",
+      "musicbrainz_score": 78,
+      "local_match_score": 0.6982
+    }
+  ],
+  "matched_recording": {
+    "artist": "Elephant9",
+    "track": "Fugl Fønix",
+    "album": "Walk the Nile",
+    "duration_ms": 223264,
+    "release_date": "2010-02-22T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/08/77/76087763-df74-8b46-476a-ce02e03a124f/mzaf_6665099395329089904.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/fugl-f%C3%B8nix/352516151?i=352516156&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 69
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/fugl-f%C3%B8nix/352516151?i=352516156&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/08/77/76087763-df74-8b46-476a-ce02e03a124f/mzaf_6665099395329089904.plus.aac.p.m4a",
+      "bytes": 1086169,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.03226,
+    "onset_rate_per_sec": 3.04052,
+    "dynamic_range_db_p95_p10": 5.472,
+    "crest_factor_db": 11.456,
+    "rms_mean": 0.16005,
+    "rms_std": 0.03446,
+    "spectral_centroid_hz_mean": 2240.16,
+    "spectral_centroid_hz_std": 545.94,
+    "spectral_bandwidth_hz_mean": 2547.98,
+    "spectral_rolloff_hz_mean": 5072.28,
+    "spectral_flatness_mean": 0.01909,
+    "spectral_contrast_mean": 17.19341,
+    "energy_share": {
+      "below_150_hz": 0.57259,
+      "150_to_2000_hz": 0.37902,
+      "above_2000_hz": 0.04839
+    },
+    "percussive_share": 0.30248,
+    "tonal_entropy_bits": 3.54897,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 0.32284
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10089,
+        "spectral_centroid_hz": 1204.14,
+        "onset_strength": 1.77986,
+        "spectral_flatness": 0.0009
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.16345,
+        "spectral_centroid_hz": 2370.81,
+        "onset_strength": 1.24366,
+        "spectral_flatness": 0.02014
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.16323,
+        "spectral_centroid_hz": 2416.9,
+        "onset_strength": 1.14623,
+        "spectral_flatness": 0.02142
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.15993,
+        "spectral_centroid_hz": 2147.73,
+        "onset_strength": 1.14983,
+        "spectral_flatness": 0.0152
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.17132,
+        "spectral_centroid_hz": 2221.59,
+        "onset_strength": 1.15163,
+        "spectral_flatness": 0.01516
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.16751,
+        "spectral_centroid_hz": 2252.74,
+        "onset_strength": 1.16921,
+        "spectral_flatness": 0.01933
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.17133,
+        "spectral_centroid_hz": 2345.09,
+        "onset_strength": 1.12006,
+        "spectral_flatness": 0.02202
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.16022,
+        "spectral_centroid_hz": 2417.51,
+        "onset_strength": 1.17033,
+        "spectral_flatness": 0.02497
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16946,
+        "spectral_centroid_hz": 2443.24,
+        "onset_strength": 1.16248,
+        "spectral_flatness": 0.02339
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.16161,
+        "spectral_centroid_hz": 2424.02,
+        "onset_strength": 1.21465,
+        "spectral_flatness": 0.02333
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.16268,
+        "spectral_centroid_hz": 2311.75,
+        "onset_strength": 1.18233,
+        "spectral_flatness": 0.02328
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.16868,
+        "spectral_centroid_hz": 2320.8,
+        "onset_strength": 1.17291,
+        "spectral_flatness": 0.01982
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "1e4cd3e5-16d8-4d23-aa2e-40009b85c581",
+      "title": "Fugl Fønix",
+      "artist": "Elephant9",
+      "duration_ms": 223333,
+      "first_release_date": "2010-02-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "1e4cd3e5-16d8-4d23-aa2e-40009b85c581",
+      "duration_sec": 223.348007202,
+      "sample_rate": 44100,
+      "tempo_bpm": 154.876846313,
+      "danceability": 1.11037898064,
+      "onset_rate": 2.67276310921,
+      "beats_count": 563,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0538349598646,
+      "dynamic_complexity": 3.23016691208,
+      "average_loudness": 0.974138617516,
+      "spectral_centroid_mean": 1133.82116699,
+      "spectral_flux_mean": 0.163449510932,
+      "spectral_rolloff_mean": 2319.96777344,
+      "dissonance_mean": 0.476426512003,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
