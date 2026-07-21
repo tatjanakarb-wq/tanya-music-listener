@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Amon Tobin",
+    "track": "Get Your Snack On",
+    "request_id": "artificial22-20260721-025"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b6302b3b-b49f-48e7-83d6-95054c2335f9",
+      "title": "Get Your Snack On",
+      "artist": "Amon Tobin",
+      "duration_ms": 262146,
+      "first_release_date": "2000-05-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "cb59e155-eb1b-4bd5-9afe-abb20797b0f6",
+      "title": "Get Your Snack On",
+      "artist": "Amon Tobin",
+      "duration_ms": 128000,
+      "first_release_date": "2001-09-18",
+      "disambiguation": "part of “Under the Influence” album dj-mix; DJ Spooky",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3ea78302-170f-4e2f-b2fb-79c0555e42db",
+      "title": "Get Your Snack On",
+      "artist": "Amon Tobin",
+      "duration_ms": null,
+      "first_release_date": "2000-06-06",
+      "disambiguation": "live, 2000-06-06: Breezeblock: Amon Tobin Showcase Set",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "24730e8e-986e-425d-ad41-4e3ad9056b88",
+      "title": "Get Your Snack On",
+      "artist": "Amon Tobin",
+      "duration_ms": 84000,
+      "first_release_date": "2007",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d84d7112-4384-4f52-9052-4e471d4433ea",
+      "title": "Get Your Snack On",
+      "artist": "Amon Tobin",
+      "duration_ms": 81000,
+      "first_release_date": "2013",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Amon Tobin",
+    "track": "Get Your Snack On",
+    "album": "Supermodified",
+    "duration_ms": 261053,
+    "release_date": "1994-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/2a/4e/3e2a4e6d-47a8-8fce-d19d-9f51430aff61/mzaf_14303110417220870739.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/get-your-snack-on/1203328912?i=1203328995&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1093
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/get-your-snack-on/1203328912?i=1203328995&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/2a/4e/3e2a4e6d-47a8-8fce-d19d-9f51430aff61/mzaf_14303110417220870739.plus.aac.p.m4a",
+      "bytes": 1014727,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.05572,
+    "onset_rate_per_sec": 3.74218,
+    "dynamic_range_db_p95_p10": 6.573,
+    "crest_factor_db": 10.843,
+    "rms_mean": 0.17013,
+    "rms_std": 0.04387,
+    "spectral_centroid_hz_mean": 2017.11,
+    "spectral_centroid_hz_std": 1027.24,
+    "spectral_bandwidth_hz_mean": 2172.72,
+    "spectral_rolloff_hz_mean": 4370.79,
+    "spectral_flatness_mean": 0.02032,
+    "spectral_contrast_mean": 17.9583,
+    "energy_share": {
+      "below_150_hz": 0.83759,
+      "150_to_2000_hz": 0.10685,
+      "above_2000_hz": 0.05556
+    },
+    "percussive_share": 0.20369,
+    "tonal_entropy_bits": 3.35141,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.81921
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.14443,
+        "spectral_centroid_hz": 1006.47,
+        "onset_strength": 1.5172,
+        "spectral_flatness": 0.00987
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.14403,
+        "spectral_centroid_hz": 1090.9,
+        "onset_strength": 1.28757,
+        "spectral_flatness": 0.00063
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15564,
+        "spectral_centroid_hz": 1026.78,
+        "onset_strength": 1.34091,
+        "spectral_flatness": 0.00051
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.14591,
+        "spectral_centroid_hz": 1081.64,
+        "onset_strength": 1.33706,
+        "spectral_flatness": 0.00059
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.15393,
+        "spectral_centroid_hz": 1015.02,
+        "onset_strength": 1.35545,
+        "spectral_flatness": 0.00049
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.15387,
+        "spectral_centroid_hz": 1233.64,
+        "onset_strength": 1.3574,
+        "spectral_flatness": 0.00567
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.1849,
+        "spectral_centroid_hz": 2823.3,
+        "onset_strength": 1.03029,
+        "spectral_flatness": 0.03233
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.18464,
+        "spectral_centroid_hz": 3100.65,
+        "onset_strength": 1.06037,
+        "spectral_flatness": 0.04453
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.19502,
+        "spectral_centroid_hz": 2914.58,
+        "onset_strength": 1.01555,
+        "spectral_flatness": 0.03248
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.18748,
+        "spectral_centroid_hz": 2978.66,
+        "onset_strength": 1.08145,
+        "spectral_flatness": 0.04482
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.19893,
+        "spectral_centroid_hz": 3048.19,
+        "onset_strength": 1.10849,
+        "spectral_flatness": 0.03577
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.19251,
+        "spectral_centroid_hz": 2877.0,
+        "onset_strength": 1.01443,
+        "spectral_flatness": 0.03597
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b6302b3b-b49f-48e7-83d6-95054c2335f9",
+      "title": "Get Your Snack On",
+      "artist": "Amon Tobin",
+      "duration_ms": 262146,
+      "first_release_date": "2000-05-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b6302b3b-b49f-48e7-83d6-95054c2335f9",
+      "duration_sec": 262.086517334,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.048599243,
+      "danceability": 1.17985570431,
+      "onset_rate": 3.12086462975,
+      "beats_count": 524,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0476527884603,
+      "dynamic_complexity": 1.69606566429,
+      "average_loudness": 0.944498956203,
+      "spectral_centroid_mean": 1763.42675781,
+      "spectral_flux_mean": 0.185922726989,
+      "spectral_rolloff_mean": 2462.75341797,
+      "dissonance_mean": 0.487158805132,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
