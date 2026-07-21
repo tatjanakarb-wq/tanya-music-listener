@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Bananfluer Overalt",
+    "request_id": "artificial22-20260721-027"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a78d4549-43a4-4e64-a361-88f996b93272",
+      "title": "Bananfluer overalt",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 233000,
+      "first_release_date": "2010-07-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "52e2e054-8091-4592-b442-42cdf318f928",
+      "title": "Bananfluer overalt",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 376893,
+      "first_release_date": "2010-01-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ab6197ea-82ce-42f5-8cae-c1fcb95bbaea",
+      "title": "Bananfluer Overalt (edit)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 234000,
+      "first_release_date": "2010-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 93,
+      "local_match_score": 0.9293
+    },
+    {
+      "mbid": "b3ce24cb-6fd0-4b97-9adc-37ea69f163c5",
+      "title": "Bananfluer Overalt (Clark remix)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 216000,
+      "first_release_date": "2014-12-08",
+      "disambiguation": "",
+      "musicbrainz_score": 87,
+      "local_match_score": 0.855
+    },
+    {
+      "mbid": "d4bfcd32-289e-4f7e-8e50-799d29d754af",
+      "title": "Bananfluer Overalt (album version)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 377000,
+      "first_release_date": "2010-07-08",
+      "disambiguation": "",
+      "musicbrainz_score": 87,
+      "local_match_score": 0.8376
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Bananfluer Overalt",
+    "album": "One-armed Bandit",
+    "duration_ms": 376893,
+    "release_date": "2010-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/b1/62/5eb16232-a18c-d2c3-3b4d-5fcf90e90812/mzaf_5395549454754616589.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/bananfluer-overalt/416306064?i=416306074&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/bananfluer-overalt/416306064?i=416306074&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/b1/62/5eb16232-a18c-d2c3-3b4d-5fcf90e90812/mzaf_5395549454754616589.plus.aac.p.m4a",
+      "bytes": 1061751,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 172.266,
+    "beat_interval_cv": 0.03914,
+    "onset_rate_per_sec": 2.10498,
+    "dynamic_range_db_p95_p10": 10.294,
+    "crest_factor_db": 11.704,
+    "rms_mean": 0.14694,
+    "rms_std": 0.0534,
+    "spectral_centroid_hz_mean": 2117.42,
+    "spectral_centroid_hz_std": 840.24,
+    "spectral_bandwidth_hz_mean": 2413.41,
+    "spectral_rolloff_hz_mean": 4727.08,
+    "spectral_flatness_mean": 0.01831,
+    "spectral_contrast_mean": 19.16371,
+    "energy_share": {
+      "below_150_hz": 0.462,
+      "150_to_2000_hz": 0.51438,
+      "above_2000_hz": 0.02362
+    },
+    "percussive_share": 0.32137,
+    "tonal_entropy_bits": 3.57498,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.39822
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09222,
+        "spectral_centroid_hz": 2629.99,
+        "onset_strength": 1.71415,
+        "spectral_flatness": 0.04145
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10623,
+        "spectral_centroid_hz": 3446.64,
+        "onset_strength": 1.41619,
+        "spectral_flatness": 0.05666
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.16507,
+        "spectral_centroid_hz": 1757.87,
+        "onset_strength": 1.25294,
+        "spectral_flatness": 0.01434
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.15703,
+        "spectral_centroid_hz": 2017.95,
+        "onset_strength": 1.13328,
+        "spectral_flatness": 0.01192
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.13529,
+        "spectral_centroid_hz": 2192.91,
+        "onset_strength": 1.1664,
+        "spectral_flatness": 0.02124
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.16218,
+        "spectral_centroid_hz": 1812.73,
+        "onset_strength": 1.09701,
+        "spectral_flatness": 0.00869
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14695,
+        "spectral_centroid_hz": 1959.18,
+        "onset_strength": 1.39124,
+        "spectral_flatness": 0.01705
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.16242,
+        "spectral_centroid_hz": 1723.42,
+        "onset_strength": 1.17774,
+        "spectral_flatness": 0.00617
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.15392,
+        "spectral_centroid_hz": 1980.49,
+        "onset_strength": 1.22042,
+        "spectral_flatness": 0.0118
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.16019,
+        "spectral_centroid_hz": 2094.69,
+        "onset_strength": 1.28401,
+        "spectral_flatness": 0.01205
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.1589,
+        "spectral_centroid_hz": 1681.02,
+        "onset_strength": 1.37662,
+        "spectral_flatness": 0.00585
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.16245,
+        "spectral_centroid_hz": 2118.69,
+        "onset_strength": 1.31093,
+        "spectral_flatness": 0.01275
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "a78d4549-43a4-4e64-a361-88f996b93272",
+      "title": "Bananfluer overalt",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 233000,
+      "first_release_date": "2010-07-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "a78d4549-43a4-4e64-a361-88f996b93272",
+      "duration_sec": 232.22857666,
+      "sample_rate": 44100,
+      "tempo_bpm": 172.265274048,
+      "danceability": 1.24051475525,
+      "onset_rate": 3.47906970978,
+      "beats_count": 653,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0515793673694,
+      "dynamic_complexity": 2.79355621338,
+      "average_loudness": 0.951803147793,
+      "spectral_centroid_mean": 903.08380127,
+      "spectral_flux_mean": 0.104348763824,
+      "spectral_rolloff_mean": 876.664794922,
+      "dissonance_mean": 0.435139626265,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
