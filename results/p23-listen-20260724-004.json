@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Akusmi",
+    "track": "Fleeting Future",
+    "request_id": "p23-listen-20260724-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "cabac3d8-a8f7-4e50-aed1-8f38530903a7",
+      "title": "Fleeting Future",
+      "artist": "Akusmi",
+      "duration_ms": 319019,
+      "first_release_date": "2022-06-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Akusmi",
+    "track": "Fleeting Future",
+    "album": "Fleeting Future",
+    "duration_ms": 319019,
+    "release_date": "2022-06-24T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/78/51/84/785184dd-b7c2-99a1-1053-bc2991f36a24/mzaf_16027819371237396360.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/fleeting-future/1613398581?i=1613398592&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/fleeting-future/1613398581?i=1613398592&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/78/51/84/785184dd-b7c2-99a1-1053-bc2991f36a24/mzaf_16027819371237396360.plus.aac.p.m4a",
+      "bytes": 1044886,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.02402,
+    "onset_rate_per_sec": 6.91635,
+    "dynamic_range_db_p95_p10": 9.094,
+    "crest_factor_db": 16.735,
+    "rms_mean": 0.05095,
+    "rms_std": 0.01817,
+    "spectral_centroid_hz_mean": 1457.45,
+    "spectral_centroid_hz_std": 204.73,
+    "spectral_bandwidth_hz_mean": 1742.75,
+    "spectral_rolloff_hz_mean": 2683.52,
+    "spectral_flatness_mean": 0.0028,
+    "spectral_contrast_mean": 20.28528,
+    "energy_share": {
+      "below_150_hz": 0.0142,
+      "150_to_2000_hz": 0.94724,
+      "above_2000_hz": 0.03856
+    },
+    "percussive_share": 0.23861,
+    "tonal_entropy_bits": 3.42037,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.69082
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04366,
+        "spectral_centroid_hz": 1506.02,
+        "onset_strength": 1.47287,
+        "spectral_flatness": 0.00279
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04981,
+        "spectral_centroid_hz": 1472.79,
+        "onset_strength": 1.58598,
+        "spectral_flatness": 0.00252
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04106,
+        "spectral_centroid_hz": 1578.95,
+        "onset_strength": 1.48687,
+        "spectral_flatness": 0.00351
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04107,
+        "spectral_centroid_hz": 1605.31,
+        "onset_strength": 1.43738,
+        "spectral_flatness": 0.00339
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04195,
+        "spectral_centroid_hz": 1573.53,
+        "onset_strength": 1.46651,
+        "spectral_flatness": 0.00389
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05017,
+        "spectral_centroid_hz": 1454.18,
+        "onset_strength": 1.54886,
+        "spectral_flatness": 0.00287
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05485,
+        "spectral_centroid_hz": 1431.29,
+        "onset_strength": 1.43632,
+        "spectral_flatness": 0.0022
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06061,
+        "spectral_centroid_hz": 1361.83,
+        "onset_strength": 1.49873,
+        "spectral_flatness": 0.00222
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05911,
+        "spectral_centroid_hz": 1349.04,
+        "onset_strength": 1.42671,
+        "spectral_flatness": 0.0023
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.05822,
+        "spectral_centroid_hz": 1387.31,
+        "onset_strength": 1.37527,
+        "spectral_flatness": 0.00277
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05635,
+        "spectral_centroid_hz": 1372.97,
+        "onset_strength": 1.36412,
+        "spectral_flatness": 0.00262
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05458,
+        "spectral_centroid_hz": 1396.1,
+        "onset_strength": 1.31461,
+        "spectral_flatness": 0.00256
+      }
+    ]
+  }
+}
