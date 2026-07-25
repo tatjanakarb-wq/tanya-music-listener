@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Laurence Pike",
+    "track": "Drum Chant",
+    "request_id": "p23-listen-20260724-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "946d2f0a-fb90-4a59-9cf6-a3b9e58190c6",
+      "title": "Drum Chant",
+      "artist": "Laurence Pike",
+      "duration_ms": 255578,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Laurence Pike",
+    "track": "Drum Chant",
+    "album": "Holy Spring",
+    "duration_ms": 255578,
+    "release_date": "2019-05-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/fd/61/cffd6110-1631-e30d-5ec7-9eca5bbfd5a9/mzaf_3406584551688202148.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/drum-chant/1451666227?i=1451666232&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/drum-chant/1451666227?i=1451666232&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/fd/61/cffd6110-1631-e30d-5ec7-9eca5bbfd5a9/mzaf_3406584551688202148.plus.aac.p.m4a",
+      "bytes": 1105673,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.0,
+    "onset_rate_per_sec": 4.14313,
+    "dynamic_range_db_p95_p10": 13.139,
+    "crest_factor_db": 15.043,
+    "rms_mean": 0.08872,
+    "rms_std": 0.04967,
+    "spectral_centroid_hz_mean": 1610.25,
+    "spectral_centroid_hz_std": 668.97,
+    "spectral_bandwidth_hz_mean": 2135.64,
+    "spectral_rolloff_hz_mean": 3591.88,
+    "spectral_flatness_mean": 0.00697,
+    "spectral_contrast_mean": 19.13548,
+    "energy_share": {
+      "below_150_hz": 0.6219,
+      "150_to_2000_hz": 0.36117,
+      "above_2000_hz": 0.01694
+    },
+    "percussive_share": 0.45114,
+    "tonal_entropy_bits": 3.48561,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.7014
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06738,
+        "spectral_centroid_hz": 1717.71,
+        "onset_strength": 1.74758,
+        "spectral_flatness": 0.00793
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0924,
+        "spectral_centroid_hz": 1621.71,
+        "onset_strength": 1.92307,
+        "spectral_flatness": 0.00675
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08595,
+        "spectral_centroid_hz": 1589.27,
+        "onset_strength": 1.80917,
+        "spectral_flatness": 0.0072
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08921,
+        "spectral_centroid_hz": 1602.2,
+        "onset_strength": 1.66379,
+        "spectral_flatness": 0.00501
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.08635,
+        "spectral_centroid_hz": 1661.51,
+        "onset_strength": 1.92053,
+        "spectral_flatness": 0.0069
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.09317,
+        "spectral_centroid_hz": 1569.81,
+        "onset_strength": 1.72216,
+        "spectral_flatness": 0.00639
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.08995,
+        "spectral_centroid_hz": 1525.33,
+        "onset_strength": 1.79143,
+        "spectral_flatness": 0.00641
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09146,
+        "spectral_centroid_hz": 1637.67,
+        "onset_strength": 1.89317,
+        "spectral_flatness": 0.00798
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09539,
+        "spectral_centroid_hz": 1540.05,
+        "onset_strength": 1.76722,
+        "spectral_flatness": 0.00616
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08263,
+        "spectral_centroid_hz": 1733.28,
+        "onset_strength": 1.75174,
+        "spectral_flatness": 0.01031
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.09484,
+        "spectral_centroid_hz": 1578.38,
+        "onset_strength": 1.92912,
+        "spectral_flatness": 0.0073
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09589,
+        "spectral_centroid_hz": 1545.01,
+        "onset_strength": 1.68143,
+        "spectral_flatness": 0.00527
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "946d2f0a-fb90-4a59-9cf6-a3b9e58190c6",
+      "title": "Drum Chant",
+      "artist": "Laurence Pike",
+      "duration_ms": 255578,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "946d2f0a-fb90-4a59-9cf6-a3b9e58190c6",
+      "duration_sec": 255.608169556,
+      "sample_rate": 44100,
+      "tempo_bpm": 152.002166748,
+      "danceability": 1.78369629383,
+      "onset_rate": 4.49480438232,
+      "beats_count": 645,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.063567019999,
+      "dynamic_complexity": 3.02239108086,
+      "average_loudness": 0.926574289799,
+      "spectral_centroid_mean": 659.686767578,
+      "spectral_flux_mean": 0.100555755198,
+      "spectral_rolloff_mean": 749.481445312,
+      "dissonance_mean": 0.435329705477,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
