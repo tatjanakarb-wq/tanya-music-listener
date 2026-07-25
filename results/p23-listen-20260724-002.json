@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Kelly Moran",
+    "track": "Water Music",
+    "request_id": "p23-listen-20260724-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c5e9b004-fcd8-486a-bc3d-ad30ef1497c5",
+      "title": "Water Music",
+      "artist": "Kelly Moran",
+      "duration_ms": 389000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6ab73c63-8c07-43d1-9689-ec99757cf05d",
+      "title": "Water Music (piano solo)",
+      "artist": "Kelly Moran",
+      "duration_ms": 394000,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 90,
+      "local_match_score": 0.8067
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kelly Moran",
+    "track": "Water Music",
+    "album": "Ultraviolet",
+    "duration_ms": 389682,
+    "release_date": "2018-11-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/2a/52/29/2a52293a-e746-72dd-8735-7ab7197407c6/mzaf_15026515376873794533.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/water-music/1715661282?i=1715661285&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 682
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/water-music/1715661282?i=1715661285&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/2a/52/29/2a52293a-e746-72dd-8735-7ab7197407c6/mzaf_15026515376873794533.plus.aac.p.m4a",
+      "bytes": 1024010,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 83.354,
+    "beat_interval_cv": 0.04975,
+    "onset_rate_per_sec": 0.60096,
+    "dynamic_range_db_p95_p10": 20.539,
+    "crest_factor_db": 20.319,
+    "rms_mean": 0.00828,
+    "rms_std": 0.0061,
+    "spectral_centroid_hz_mean": 909.5,
+    "spectral_centroid_hz_std": 483.05,
+    "spectral_bandwidth_hz_mean": 1332.24,
+    "spectral_rolloff_hz_mean": 1418.47,
+    "spectral_flatness_mean": 0.0027,
+    "spectral_contrast_mean": 23.19605,
+    "energy_share": {
+      "below_150_hz": 0.03851,
+      "150_to_2000_hz": 0.94826,
+      "above_2000_hz": 0.01323
+    },
+    "percussive_share": 0.19786,
+    "tonal_entropy_bits": 3.51576,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.21,
+      "relative_score": 1.36601
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01127,
+        "spectral_centroid_hz": 1311.14,
+        "onset_strength": 1.09367,
+        "spectral_flatness": 0.01397
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00672,
+        "spectral_centroid_hz": 783.88,
+        "onset_strength": 0.52169,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00292,
+        "spectral_centroid_hz": 569.74,
+        "onset_strength": 0.3912,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.01286,
+        "spectral_centroid_hz": 1044.55,
+        "onset_strength": 1.14186,
+        "spectral_flatness": 0.00408
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.00911,
+        "spectral_centroid_hz": 904.87,
+        "onset_strength": 0.78999,
+        "spectral_flatness": 0.00106
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.00264,
+        "spectral_centroid_hz": 659.81,
+        "onset_strength": 0.33681,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.0076,
+        "spectral_centroid_hz": 1345.73,
+        "onset_strength": 1.17467,
+        "spectral_flatness": 0.00644
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.01392,
+        "spectral_centroid_hz": 929.01,
+        "onset_strength": 0.82945,
+        "spectral_flatness": 0.00054
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.00585,
+        "spectral_centroid_hz": 622.76,
+        "onset_strength": 0.42447,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.00456,
+        "spectral_centroid_hz": 877.13,
+        "onset_strength": 0.68335,
+        "spectral_flatness": 0.00322
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.01399,
+        "spectral_centroid_hz": 1092.5,
+        "onset_strength": 1.28269,
+        "spectral_flatness": 0.00267
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.0079,
+        "spectral_centroid_hz": 776.45,
+        "onset_strength": 0.50518,
+        "spectral_flatness": 0.00011
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "c5e9b004-fcd8-486a-bc3d-ad30ef1497c5",
+      "title": "Water Music",
+      "artist": "Kelly Moran",
+      "duration_ms": 389000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "c5e9b004-fcd8-486a-bc3d-ad30ef1497c5",
+      "duration_sec": 389.720825195,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.927520752,
+      "danceability": 0.888279259205,
+      "onset_rate": 2.74545288086,
+      "beats_count": 782,
+      "key": "D#",
+      "scale": "major",
+      "chords_changes_rate": 0.0287144053727,
+      "dynamic_complexity": 9.67831134796,
+      "average_loudness": 0.0484585240483,
+      "spectral_centroid_mean": 610.833618164,
+      "spectral_flux_mean": 0.0330937989056,
+      "spectral_rolloff_mean": 895.518005371,
+      "dissonance_mean": 0.413080334663,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
