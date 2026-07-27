@@ -32,11 +32,15 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Analyze candidate pool
+      - name: Analyze candidate pool if missing
         shell: bash
         run: |
           set -u
           mkdir -p results
+          if [ -f results/voice24-20260727-manifest.json ]; then
+            echo "Existing batch results found; skipping audio re-analysis."
+            exit 0
+          fi
           python - <<'PY'
           import json
           import subprocess
@@ -86,6 +90,77 @@ jobs:
               json.dump(manifest, handle, ensure_ascii=False, indent=2)
           PY
 
+      - name: Build compact summary
+        shell: bash
+        run: |
+          python - <<'PY'
+          import glob
+          import json
+          import math
+
+          rows = []
+          for path in sorted(glob.glob("results/voice24-20260727-[0-9][0-9][0-9].json")):
+              with open(path, encoding="utf-8") as handle:
+                  data = json.load(handle)
+              req = data.get("request", {})
+              match = data.get("matched_recording", {}) or {}
+              analysis = data.get("analysis", {}) or {}
+              energy = analysis.get("energy_share", {}) or {}
+              timeline = analysis.get("timeline_12_segments", []) or []
+              full = (data.get("archived_full_recording_features", {}) or {}).get("analysis", {}) or {}
+              rms = [float(x.get("rms", 0) or 0) for x in timeline]
+              centroids = [float(x.get("spectral_centroid_hz", 0) or 0) for x in timeline]
+              onsets = [float(x.get("onset_strength", 0) or 0) for x in timeline]
+              start_rms = sum(rms[:3]) / max(1, len(rms[:3]))
+              end_rms = sum(rms[-3:]) / max(1, len(rms[-3:]))
+              rows.append({
+                  "request_id": req.get("request_id"),
+                  "artist": req.get("artist"),
+                  "track": req.get("track"),
+                  "status": data.get("status"),
+                  "warnings": data.get("warnings", []),
+                  "match_artist": match.get("artist"),
+                  "match_track": match.get("track"),
+                  "album": match.get("album"),
+                  "duration_ms": match.get("duration_ms"),
+                  "match_score": match.get("match_score"),
+                  "title_score": match.get("title_score"),
+                  "artist_score": match.get("artist_score"),
+                  "tempo_bpm_preview": analysis.get("tempo_bpm"),
+                  "beat_interval_cv": analysis.get("beat_interval_cv"),
+                  "onset_rate_per_sec": analysis.get("onset_rate_per_sec"),
+                  "dynamic_range_db": analysis.get("dynamic_range_db_p95_p10"),
+                  "crest_factor_db": analysis.get("crest_factor_db"),
+                  "rms_mean": analysis.get("rms_mean"),
+                  "rms_std": analysis.get("rms_std"),
+                  "spectral_centroid_mean": analysis.get("spectral_centroid_hz_mean"),
+                  "spectral_centroid_std": analysis.get("spectral_centroid_hz_std"),
+                  "spectral_contrast": analysis.get("spectral_contrast_mean"),
+                  "low_share": energy.get("below_150_hz"),
+                  "mid_share": energy.get("150_to_2000_hz"),
+                  "high_share": energy.get("above_2000_hz"),
+                  "percussive_share": analysis.get("percussive_share"),
+                  "tonal_entropy": analysis.get("tonal_entropy_bits"),
+                  "climax_time": (analysis.get("climax", {}) or {}).get("time_sec"),
+                  "climax_relative": (analysis.get("climax", {}) or {}).get("relative_score"),
+                  "start_rms": round(start_rms, 5),
+                  "end_rms": round(end_rms, 5),
+                  "end_start_ratio": round(end_rms / start_rms, 4) if start_rms else None,
+                  "rms_min": round(min(rms), 5) if rms else None,
+                  "rms_max": round(max(rms), 5) if rms else None,
+                  "centroid_min": round(min(centroids), 2) if centroids else None,
+                  "centroid_max": round(max(centroids), 2) if centroids else None,
+                  "onset_max": round(max(onsets), 5) if onsets else None,
+                  "full_key": full.get("key"),
+                  "full_scale": full.get("scale"),
+                  "full_chords_change_rate": full.get("chords_changes_rate"),
+                  "full_dynamic_complexity": full.get("dynamic_complexity"),
+                  "full_dissonance": full.get("dissonance_mean"),
+              })
+          with open("results/voice24-20260727-summary.json", "w", encoding="utf-8") as handle:
+              json.dump(rows, handle, ensure_ascii=False, indent=2)
+          PY
+
       - name: Commit results to PR branch
         shell: bash
         env:
@@ -95,7 +170,7 @@ jobs:
           git config user.name "Tanya Music Listener"
           git config user.email "actions@users.noreply.github.com"
           git add results/voice24-20260727-*.json
-          git commit -m "Listen voice24 candidate pool" || exit 0
+          git commit -m "Summarize voice24 candidate pool" || exit 0
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin "$HEAD_REF"
             if git push origin "HEAD:$HEAD_REF"; then
