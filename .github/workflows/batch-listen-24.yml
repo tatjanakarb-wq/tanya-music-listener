@@ -1,10 +1,10 @@
 name: Listen batch 24 candidates
 
 on:
-  workflow_dispatch:
-  push:
+  pull_request:
     paths:
-      - ".github/workflows/batch-listen-24.yml"
+      - ".github/listen-24-trigger.txt"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,9 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - name: Check out repository
+      - name: Check out PR branch
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
       - name: Install ffmpeg
@@ -85,8 +86,10 @@ jobs:
               json.dump(manifest, handle, ensure_ascii=False, indent=2)
           PY
 
-      - name: Commit results safely
+      - name: Commit results to PR branch
         shell: bash
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
         run: |
           set -e
           git config user.name "Tanya Music Listener"
@@ -94,8 +97,8 @@ jobs:
           git add results/voice24-20260727-*.json
           git commit -m "Listen voice24 candidate pool" || exit 0
           for attempt in 1 2 3 4 5; do
-            git pull --rebase origin main
-            if git push origin HEAD:main; then
+            git pull --rebase origin "$HEAD_REF"
+            if git push origin "HEAD:$HEAD_REF"; then
               exit 0
             fi
             sleep $((attempt * 4))
