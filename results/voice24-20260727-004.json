@@ -10,22 +10,22 @@
   ],
   "musicbrainz_candidates": [
     {
-      "mbid": "b050e135-be17-4da1-bef9-f2bb57816401",
-      "title": "Disappearing",
-      "artist": "Low",
-      "duration_ms": 229000,
-      "first_release_date": "2022-05-03",
-      "disambiguation": "live, 2022-05-03: Kulturkirche Köln, Cologne, Germany",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
       "mbid": "54cba80f-9301-4fdf-b3d5-f421fac64b8d",
       "title": "Disappearing",
       "artist": "Low",
       "duration_ms": 279000,
       "first_release_date": "2022-05-12",
       "disambiguation": "live, 2022-05-12: Teatro Duse, Bologna, Italy",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b050e135-be17-4da1-bef9-f2bb57816401",
+      "title": "Disappearing",
+      "artist": "Low",
+      "duration_ms": 229000,
+      "first_release_date": "2022-05-03",
+      "disambiguation": "live, 2022-05-03: Kulturkirche Köln, Cologne, Germany",
       "musicbrainz_score": 100,
       "local_match_score": 1.0
     },

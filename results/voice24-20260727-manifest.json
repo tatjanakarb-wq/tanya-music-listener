@@ -76,7 +76,7 @@
     "artist": "Spellling",
     "track": "Boys at School",
     "returncode": 0,
-    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0437706969678,\n      \"dynamic_complexity\": 4.06417703629,\n      \"average_loudness\": 0.756027460098,\n      \"spectral_centroid_mean\": 942.414550781,\n      \"spectral_flux_mean\": 0.0699388682842,\n      \"spectral_rolloff_mean\": 780.687072754,\n      \"dissonance_mean\": 0.439295202494,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stdout_tail": "3429,\n        \"spectral_centroid_hz\": 1876.43,\n        \"onset_strength\": 1.11971,\n        \"spectral_flatness\": 0.01078\n      },\n      {\n        \"time_sec\": 26.19,\n        \"rms\": 0.04091,\n        \"spectral_centroid_hz\": 1481.62,\n        \"onset_strength\": 0.93611,\n        \"spectral_flatness\": 0.00444\n      },\n      {\n        \"time_sec\": 28.68,\n        \"rms\": 0.03381,\n        \"spectral_centroid_hz\": 1130.03,\n        \"onset_strength\": 0.79244,\n        \"spectral_flatness\": 0.0006\n      }\n    ]\n  }\n}\n",
     "stderr_tail": ""
   },
   {
@@ -84,7 +84,7 @@
     "artist": "Gazelle Twin",
     "track": "Men Like Gods",
     "returncode": 0,
-    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0639534890652,\n      \"dynamic_complexity\": 4.05012512207,\n      \"average_loudness\": 0.496101230383,\n      \"spectral_centroid_mean\": 933.646484375,\n      \"spectral_flux_mean\": 0.0754071623087,\n      \"spectral_rolloff_mean\": 1009.52069092,\n      \"dissonance_mean\": 0.446483612061,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stdout_tail": "3344,\n        \"spectral_centroid_hz\": 1629.41,\n        \"onset_strength\": 1.40955,\n        \"spectral_flatness\": 0.01002\n      },\n      {\n        \"time_sec\": 26.19,\n        \"rms\": 0.1081,\n        \"spectral_centroid_hz\": 1770.33,\n        \"onset_strength\": 1.40538,\n        \"spectral_flatness\": 0.01418\n      },\n      {\n        \"time_sec\": 28.68,\n        \"rms\": 0.15259,\n        \"spectral_centroid_hz\": 1821.03,\n        \"onset_strength\": 1.22104,\n        \"spectral_flatness\": 0.01521\n      }\n    ]\n  }\n}\n",
     "stderr_tail": ""
   },
   {

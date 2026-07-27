@@ -8,22 +8,22 @@
   "warnings": [],
   "musicbrainz_candidates": [
     {
-      "mbid": "d2fcdc2f-37d5-4b7c-a69c-490c0f83a366",
-      "title": "Full of Fire",
-      "artist": "The Knife",
-      "duration_ms": null,
-      "first_release_date": "2017-09-08",
-      "disambiguation": "live, 2014: Terminal 5, New York, NY, USA",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
       "mbid": "5b787c85-49f9-425a-a85f-5b0544e3c950",
       "title": "Full of Fire",
       "artist": "The Knife",
       "duration_ms": 556000,
       "first_release_date": "2013-01-27",
       "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d2fcdc2f-37d5-4b7c-a69c-490c0f83a366",
+      "title": "Full of Fire",
+      "artist": "The Knife",
+      "duration_ms": null,
+      "first_release_date": "2017-09-08",
+      "disambiguation": "live, 2014: Terminal 5, New York, NY, USA",
       "musicbrainz_score": 100,
       "local_match_score": 1.0
     },

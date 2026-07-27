@@ -6,60 +6,10 @@
   },
   "status": "heard_official_short_preview",
   "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Men+Like+Gods%22+AND+artist%3A%22Gazelle+Twin%22&fmt=json&limit=8",
     "Only the official short preview was heard; this is not a full-track analysis."
   ],
-  "musicbrainz_candidates": [
-    {
-      "mbid": "c8e8eaeb-b2b2-491a-883d-38b0bb910db6",
-      "title": "Men Like Gods",
-      "artist": "Gazelle Twin",
-      "duration_ms": 308000,
-      "first_release_date": null,
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
-      "mbid": "e9c08e12-5e8a-4d31-b9f2-761f03be11c9",
-      "title": "Men Like Gods",
-      "artist": "Gazelle Twin",
-      "duration_ms": 295000,
-      "first_release_date": "2011-07-04",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
-      "mbid": "1f81d68a-1ebf-465b-a000-ec707afb2a16",
-      "title": "Men Like Gods (Nedry Remix)",
-      "artist": "Gazelle Twin",
-      "duration_ms": 339000,
-      "first_release_date": "2012-06-04",
-      "disambiguation": "",
-      "musicbrainz_score": 89,
-      "local_match_score": 0.8168
-    },
-    {
-      "mbid": "5f800e7b-d1c6-4285-8049-f4cd6b4bd6d1",
-      "title": "Men Like Gods (Ghost Eyes Remix)",
-      "artist": "Gazelle Twin",
-      "duration_ms": 252000,
-      "first_release_date": "2012-06-04",
-      "disambiguation": "",
-      "musicbrainz_score": 86,
-      "local_match_score": 0.7707
-    },
-    {
-      "mbid": "351d0b9f-0ab0-40f8-8999-59fdfae1d0f8",
-      "title": "Men Like Gods (Maya Postepski Remix)",
-      "artist": "Gazelle Twin",
-      "duration_ms": 351000,
-      "first_release_date": "2012-06-04",
-      "disambiguation": "",
-      "musicbrainz_score": 86,
-      "local_match_score": 0.7409
-    }
-  ],
+  "musicbrainz_candidates": [],
   "matched_recording": {
     "artist": "Gazelle Twin",
     "track": "Men Like Gods",
@@ -70,8 +20,7 @@
     "store_url": "https://music.apple.com/us/album/men-like-gods/1037284481?i=1037284494&uo=4",
     "match_score": 1.0,
     "title_score": 1.0,
-    "artist_score": 1.0,
-    "duration_difference_to_musicbrainz_ms": 488
+    "artist_score": 1.0
   },
   "source": {
     "kind": "Apple_iTunes_official_preview",
@@ -198,38 +147,5 @@
         "spectral_flatness": 0.01521
       }
     ]
-  },
-  "archived_full_recording_features": {
-    "matched_recording": {
-      "mbid": "e9c08e12-5e8a-4d31-b9f2-761f03be11c9",
-      "title": "Men Like Gods",
-      "artist": "Gazelle Twin",
-      "duration_ms": 295000,
-      "first_release_date": "2011-07-04",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    "analysis": {
-      "analysis_kind": "archived_full_recording_features",
-      "source": "AcousticBrainz",
-      "mbid": "e9c08e12-5e8a-4d31-b9f2-761f03be11c9",
-      "duration_sec": 295.493347168,
-      "sample_rate": 44100,
-      "tempo_bpm": 103.926368713,
-      "danceability": 1.15632212162,
-      "onset_rate": 3.45167446136,
-      "beats_count": 546,
-      "key": "A",
-      "scale": "minor",
-      "chords_changes_rate": 0.0639534890652,
-      "dynamic_complexity": 4.05012512207,
-      "average_loudness": 0.496101230383,
-      "spectral_centroid_mean": 933.646484375,
-      "spectral_flux_mean": 0.0754071623087,
-      "spectral_rolloff_mean": 1009.52069092,
-      "dissonance_mean": 0.446483612061,
-      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
-    }
   }
 }

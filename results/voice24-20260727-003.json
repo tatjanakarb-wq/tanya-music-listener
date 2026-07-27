@@ -10,20 +10,20 @@
   ],
   "musicbrainz_candidates": [
     {
-      "mbid": "80a85707-a7a7-4409-af97-075f7bc87491",
+      "mbid": "d83c02c7-d91a-4411-827a-e412f3e2e868",
       "title": "fallen alien",
       "artist": "FKA twigs",
-      "duration_ms": 239000,
+      "duration_ms": 238960,
       "first_release_date": "2019-11-08",
       "disambiguation": "",
       "musicbrainz_score": 100,
       "local_match_score": 1.0
     },
     {
-      "mbid": "d83c02c7-d91a-4411-827a-e412f3e2e868",
+      "mbid": "80a85707-a7a7-4409-af97-075f7bc87491",
       "title": "fallen alien",
       "artist": "FKA twigs",
-      "duration_ms": 238960,
+      "duration_ms": 239000,
       "first_release_date": "2019-11-08",
       "disambiguation": "",
       "musicbrainz_score": 100,
