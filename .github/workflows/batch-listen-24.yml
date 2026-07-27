@@ -1,6 +1,7 @@
 name: Listen batch 24 candidates
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - ".github/workflows/batch-listen-24.yml"
