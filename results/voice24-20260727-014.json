@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Deerhoof",
+    "track": "The Perfect Me",
+    "request_id": "voice24-20260727-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f16549fe-561e-4c12-9661-3637c2521df8",
+      "title": "The Perfect Me",
+      "artist": "Deerhoof",
+      "duration_ms": 157000,
+      "first_release_date": "2007-08-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8410ff00-6314-4eeb-95f7-36ad5e15b76f",
+      "title": "The Perfect Me",
+      "artist": "Deerhoof",
+      "duration_ms": 166059,
+      "first_release_date": "2021-12-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "508c4f3c-4ebe-4343-bd0a-2cfb44e4575c",
+      "title": "The Perfect Me",
+      "artist": "Deerhoof",
+      "duration_ms": 160720,
+      "first_release_date": "2007-01-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3a901fb7-d64f-41d9-80d4-e59958a2c21d",
+      "title": "The Perfect Me",
+      "artist": "Deerhoof",
+      "duration_ms": null,
+      "first_release_date": "2006-12-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6b970e8c-f67d-46de-a186-05e6b79d07a6",
+      "title": "The Perfect Me",
+      "artist": "Deerhoof",
+      "duration_ms": 169000,
+      "first_release_date": "2011-09-09",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Deerhoof",
+    "track": "The Perfect Me",
+    "album": "Friend Opportunity",
+    "duration_ms": 159520,
+    "release_date": "2006-12-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/73/d6/28/73d628d1-e94a-85be-9fa9-e2d2de346ea8/mzaf_1316111887592200781.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-perfect-me/1631907242?i=1631907243&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1200
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-perfect-me/1631907242?i=1631907243&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/73/d6/28/73d628d1-e94a-85be-9fa9-e2d2de346ea8/mzaf_1316111887592200781.plus.aac.p.m4a",
+      "bytes": 1102555,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.06204,
+    "onset_rate_per_sec": 3.50829,
+    "dynamic_range_db_p95_p10": 11.702,
+    "crest_factor_db": 10.323,
+    "rms_mean": 0.17364,
+    "rms_std": 0.06825,
+    "spectral_centroid_hz_mean": 2290.72,
+    "spectral_centroid_hz_std": 392.81,
+    "spectral_bandwidth_hz_mean": 2380.43,
+    "spectral_rolloff_hz_mean": 4740.34,
+    "spectral_flatness_mean": 0.02347,
+    "spectral_contrast_mean": 18.33127,
+    "energy_share": {
+      "below_150_hz": 0.42649,
+      "150_to_2000_hz": 0.49199,
+      "above_2000_hz": 0.08153
+    },
+    "percussive_share": 0.34526,
+    "tonal_entropy_bits": 3.55387,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.63356
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.20697,
+        "spectral_centroid_hz": 2255.34,
+        "onset_strength": 1.01013,
+        "spectral_flatness": 0.02794
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.21286,
+        "spectral_centroid_hz": 2223.91,
+        "onset_strength": 1.00818,
+        "spectral_flatness": 0.02838
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.20715,
+        "spectral_centroid_hz": 2246.67,
+        "onset_strength": 1.05728,
+        "spectral_flatness": 0.02852
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.21685,
+        "spectral_centroid_hz": 2258.37,
+        "onset_strength": 1.26087,
+        "spectral_flatness": 0.02755
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.20512,
+        "spectral_centroid_hz": 2092.54,
+        "onset_strength": 1.34154,
+        "spectral_flatness": 0.02622
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.21126,
+        "spectral_centroid_hz": 2205.56,
+        "onset_strength": 1.28734,
+        "spectral_flatness": 0.02646
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.19129,
+        "spectral_centroid_hz": 2202.58,
+        "onset_strength": 1.23039,
+        "spectral_flatness": 0.03001
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.21049,
+        "spectral_centroid_hz": 2220.8,
+        "onset_strength": 1.32852,
+        "spectral_flatness": 0.02777
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1501,
+        "spectral_centroid_hz": 2311.79,
+        "onset_strength": 1.20292,
+        "spectral_flatness": 0.02276
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08379,
+        "spectral_centroid_hz": 2429.44,
+        "onset_strength": 1.13816,
+        "spectral_flatness": 0.01188
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08864,
+        "spectral_centroid_hz": 2595.59,
+        "onset_strength": 1.07729,
+        "spectral_flatness": 0.014
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09972,
+        "spectral_centroid_hz": 2446.23,
+        "onset_strength": 1.09055,
+        "spectral_flatness": 0.01031
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "8410ff00-6314-4eeb-95f7-36ad5e15b76f",
+      "title": "The Perfect Me",
+      "artist": "Deerhoof",
+      "duration_ms": 166059,
+      "first_release_date": "2021-12-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "8410ff00-6314-4eeb-95f7-36ad5e15b76f",
+      "duration_sec": 166.086532593,
+      "sample_rate": 44100,
+      "tempo_bpm": 139.786743164,
+      "danceability": 0.997591972351,
+      "onset_rate": 3.04026508331,
+      "beats_count": 364,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.109278924763,
+      "dynamic_complexity": 3.42772293091,
+      "average_loudness": 0.936286747456,
+      "spectral_centroid_mean": 1184.56518555,
+      "spectral_flux_mean": 0.102811969817,
+      "spectral_rolloff_mean": 1278.73901367,
+      "dissonance_mean": 0.467611581087,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

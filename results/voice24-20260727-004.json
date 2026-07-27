@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "Low",
+    "track": "Disappearing",
+    "request_id": "voice24-20260727-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b050e135-be17-4da1-bef9-f2bb57816401",
+      "title": "Disappearing",
+      "artist": "Low",
+      "duration_ms": 229000,
+      "first_release_date": "2022-05-03",
+      "disambiguation": "live, 2022-05-03: Kulturkirche Köln, Cologne, Germany",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "54cba80f-9301-4fdf-b3d5-f421fac64b8d",
+      "title": "Disappearing",
+      "artist": "Low",
+      "duration_ms": 279000,
+      "first_release_date": "2022-05-12",
+      "disambiguation": "live, 2022-05-12: Teatro Duse, Bologna, Italy",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3f3dbaac-a3de-49aa-8f49-a23bc8b986e0",
+      "title": "Disappearing",
+      "artist": "Low",
+      "duration_ms": 212000,
+      "first_release_date": "2021-07-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Low",
+    "track": "Disappearing",
+    "album": "HEY WHAT",
+    "duration_ms": 212022,
+    "release_date": "2021-07-20T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ff/4b/54/ff4b5431-f138-f87f-3007-71d67124caee/mzaf_1990995274077863968.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/disappearing/1568438773?i=1568438777&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 22
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/disappearing/1568438773?i=1568438777&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ff/4b/54/ff4b5431-f138-f87f-3007-71d67124caee/mzaf_1990995274077863968.plus.aac.p.m4a",
+      "bytes": 1209960,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.06922,
+    "onset_rate_per_sec": 4.77796,
+    "dynamic_range_db_p95_p10": 5.044,
+    "crest_factor_db": 6.822,
+    "rms_mean": 0.27286,
+    "rms_std": 0.05889,
+    "spectral_centroid_hz_mean": 1771.07,
+    "spectral_centroid_hz_std": 840.92,
+    "spectral_bandwidth_hz_mean": 2246.74,
+    "spectral_rolloff_hz_mean": 3796.45,
+    "spectral_flatness_mean": 0.01575,
+    "spectral_contrast_mean": 16.68857,
+    "energy_share": {
+      "below_150_hz": 0.68783,
+      "150_to_2000_hz": 0.27755,
+      "above_2000_hz": 0.03462
+    },
+    "percussive_share": 0.22244,
+    "tonal_entropy_bits": 3.43941,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.81416
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.21343,
+        "spectral_centroid_hz": 1901.46,
+        "onset_strength": 1.03965,
+        "spectral_flatness": 0.01898
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.2195,
+        "spectral_centroid_hz": 2730.07,
+        "onset_strength": 0.99323,
+        "spectral_flatness": 0.04446
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.23255,
+        "spectral_centroid_hz": 2205.51,
+        "onset_strength": 0.96075,
+        "spectral_flatness": 0.01971
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.26509,
+        "spectral_centroid_hz": 1836.7,
+        "onset_strength": 0.92057,
+        "spectral_flatness": 0.01509
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.3357,
+        "spectral_centroid_hz": 958.58,
+        "onset_strength": 0.95059,
+        "spectral_flatness": 0.00144
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.3015,
+        "spectral_centroid_hz": 1160.82,
+        "onset_strength": 1.10268,
+        "spectral_flatness": 0.00495
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.25475,
+        "spectral_centroid_hz": 2152.74,
+        "onset_strength": 1.03665,
+        "spectral_flatness": 0.02035
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.24604,
+        "spectral_centroid_hz": 2541.76,
+        "onset_strength": 1.06482,
+        "spectral_flatness": 0.03695
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.28396,
+        "spectral_centroid_hz": 1405.21,
+        "onset_strength": 0.95706,
+        "spectral_flatness": 0.00573
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.31495,
+        "spectral_centroid_hz": 1212.65,
+        "onset_strength": 0.98819,
+        "spectral_flatness": 0.00325
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.34428,
+        "spectral_centroid_hz": 1019.1,
+        "onset_strength": 1.02827,
+        "spectral_flatness": 0.0012
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.26227,
+        "spectral_centroid_hz": 2126.48,
+        "onset_strength": 0.96527,
+        "spectral_flatness": 0.01692
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "3f3dbaac-a3de-49aa-8f49-a23bc8b986e0",
+      "title": "Disappearing",
+      "artist": "Low",
+      "duration_ms": 212000,
+      "first_release_date": "2021-07-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "3f3dbaac-a3de-49aa-8f49-a23bc8b986e0",
+      "duration_sec": 212.022216797,
+      "sample_rate": 44100,
+      "tempo_bpm": 126.930992126,
+      "danceability": 0.994001805782,
+      "onset_rate": 1.4195125103,
+      "beats_count": 461,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0275892261416,
+      "dynamic_complexity": 3.04147410393,
+      "average_loudness": 0.69723957777,
+      "spectral_centroid_mean": 994.475524902,
+      "spectral_flux_mean": 0.0981269925833,
+      "spectral_rolloff_mean": 827.507507324,
+      "dissonance_mean": 0.466284364462,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "Keeley Forsyth",
+    "track": "Start Again",
+    "request_id": "voice24-20260727-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f67a3f87-3040-4470-be7c-ee71091895a1",
+      "title": "Start Again",
+      "artist": "Keeley Forsyth",
+      "duration_ms": 205213,
+      "first_release_date": "2019-12-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "25143e53-8890-4768-a34e-c55ec4fc7b31",
+      "title": "Start Again",
+      "artist": "Keeley Forsyth",
+      "duration_ms": 206000,
+      "first_release_date": "2020-01-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ed900350-1c53-4601-a993-4fa4dce82112",
+      "title": "Start Again",
+      "artist": "Keeley Forsyth",
+      "duration_ms": 206527,
+      "first_release_date": "2020-01-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Keeley Forsyth",
+    "track": "Start Again",
+    "album": "Debris",
+    "duration_ms": 206527,
+    "release_date": "2020-01-17T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a8/f6/69/a8f669da-f17e-cb27-ed3a-c7b161e5bbd1/mzaf_1827237870185068090.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/start-again/1510414783?i=1510414939&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/start-again/1510414783?i=1510414939&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a8/f6/69/a8f669da-f17e-cb27-ed3a-c7b161e5bbd1/mzaf_1827237870185068090.plus.aac.p.m4a",
+      "bytes": 1053976,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.05561,
+    "onset_rate_per_sec": 2.20521,
+    "dynamic_range_db_p95_p10": 19.263,
+    "crest_factor_db": 14.786,
+    "rms_mean": 0.08119,
+    "rms_std": 0.05464,
+    "spectral_centroid_hz_mean": 547.37,
+    "spectral_centroid_hz_std": 512.32,
+    "spectral_bandwidth_hz_mean": 1047.24,
+    "spectral_rolloff_hz_mean": 977.25,
+    "spectral_flatness_mean": 0.00049,
+    "spectral_contrast_mean": 20.45451,
+    "energy_share": {
+      "below_150_hz": 0.91375,
+      "150_to_2000_hz": 0.08354,
+      "above_2000_hz": 0.00271
+    },
+    "percussive_share": 0.30648,
+    "tonal_entropy_bits": 3.42286,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.35008
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05347,
+        "spectral_centroid_hz": 305.97,
+        "onset_strength": 0.47934,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05395,
+        "spectral_centroid_hz": 234.99,
+        "onset_strength": 0.50444,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05748,
+        "spectral_centroid_hz": 190.57,
+        "onset_strength": 0.55698,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06229,
+        "spectral_centroid_hz": 205.33,
+        "onset_strength": 0.55212,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10466,
+        "spectral_centroid_hz": 292.17,
+        "onset_strength": 0.60158,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1004,
+        "spectral_centroid_hz": 958.29,
+        "onset_strength": 1.74236,
+        "spectral_flatness": 0.00065
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.08261,
+        "spectral_centroid_hz": 888.71,
+        "onset_strength": 1.25874,
+        "spectral_flatness": 0.00144
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08056,
+        "spectral_centroid_hz": 692.37,
+        "onset_strength": 1.04125,
+        "spectral_flatness": 0.00099
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09508,
+        "spectral_centroid_hz": 1024.8,
+        "onset_strength": 1.53393,
+        "spectral_flatness": 0.00205
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08928,
+        "spectral_centroid_hz": 512.13,
+        "onset_strength": 0.95123,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.1057,
+        "spectral_centroid_hz": 712.13,
+        "onset_strength": 0.94921,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.08864,
+        "spectral_centroid_hz": 555.58,
+        "onset_strength": 0.96385,
+        "spectral_flatness": 0.0004
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ed900350-1c53-4601-a993-4fa4dce82112",
+      "title": "Start Again",
+      "artist": "Keeley Forsyth",
+      "duration_ms": 206527,
+      "first_release_date": "2020-01-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ed900350-1c53-4601-a993-4fa4dce82112",
+      "duration_sec": 206.576324463,
+      "sample_rate": 44100,
+      "tempo_bpm": 99.9209976196,
+      "danceability": 1.27724945545,
+      "onset_rate": 2.41059565544,
+      "beats_count": 342,
+      "key": "G",
+      "scale": "major",
+      "chords_changes_rate": 0.0548314601183,
+      "dynamic_complexity": 5.48788642883,
+      "average_loudness": 0.856686234474,
+      "spectral_centroid_mean": 681.80871582,
+      "spectral_flux_mean": 0.0907609537244,
+      "spectral_rolloff_mean": 587.197265625,
+      "dissonance_mean": 0.416477411985,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

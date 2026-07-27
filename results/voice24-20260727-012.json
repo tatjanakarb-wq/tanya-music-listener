@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Hundred Waters",
+    "track": "Wave to Anchor",
+    "request_id": "voice24-20260727-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7c0348bb-5a53-4312-95be-a21da259d551",
+      "title": "Wave to Anchor",
+      "artist": "Hundred Waters",
+      "duration_ms": 279000,
+      "first_release_date": "2017-09-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "36409d9f-17fc-4ecc-8eb5-5b8d7d4b9a49",
+      "title": "(wave to anchor)",
+      "artist": "Hundred Waters Nicole Miglis",
+      "duration_ms": 316361,
+      "first_release_date": "2025-03-07",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.86
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hundred Waters",
+    "track": "Wave to Anchor",
+    "album": "Communicating",
+    "duration_ms": 279000,
+    "release_date": "2017-09-08T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/d8/71/1ed871b9-384a-c525-129e-ee56e14362db/mzaf_2262236084794472707.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/wave-to-anchor/1268040402?i=1268040404&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/wave-to-anchor/1268040402?i=1268040404&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/d8/71/1ed871b9-384a-c525-129e-ee56e14362db/mzaf_2262236084794472707.plus.aac.p.m4a",
+      "bytes": 1036046,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.0219,
+    "onset_rate_per_sec": 4.44384,
+    "dynamic_range_db_p95_p10": 6.783,
+    "crest_factor_db": 9.097,
+    "rms_mean": 0.20813,
+    "rms_std": 0.05324,
+    "spectral_centroid_hz_mean": 2606.14,
+    "spectral_centroid_hz_std": 600.12,
+    "spectral_bandwidth_hz_mean": 2744.95,
+    "spectral_rolloff_hz_mean": 5814.35,
+    "spectral_flatness_mean": 0.04012,
+    "spectral_contrast_mean": 17.23302,
+    "energy_share": {
+      "below_150_hz": 0.3142,
+      "150_to_2000_hz": 0.62353,
+      "above_2000_hz": 0.06227
+    },
+    "percussive_share": 0.33055,
+    "tonal_entropy_bits": 3.56746,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.78574
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.14711,
+        "spectral_centroid_hz": 2552.39,
+        "onset_strength": 1.123,
+        "spectral_flatness": 0.04111
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.18099,
+        "spectral_centroid_hz": 2764.32,
+        "onset_strength": 1.13577,
+        "spectral_flatness": 0.04033
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.17858,
+        "spectral_centroid_hz": 2725.17,
+        "onset_strength": 1.23159,
+        "spectral_flatness": 0.05634
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.2066,
+        "spectral_centroid_hz": 2482.7,
+        "onset_strength": 1.08842,
+        "spectral_flatness": 0.03101
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.21409,
+        "spectral_centroid_hz": 2281.25,
+        "onset_strength": 1.02675,
+        "spectral_flatness": 0.02423
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1902,
+        "spectral_centroid_hz": 2745.22,
+        "onset_strength": 1.10094,
+        "spectral_flatness": 0.04703
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.22577,
+        "spectral_centroid_hz": 2292.57,
+        "onset_strength": 1.03327,
+        "spectral_flatness": 0.0276
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.2118,
+        "spectral_centroid_hz": 2667.99,
+        "onset_strength": 0.91394,
+        "spectral_flatness": 0.04848
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.23112,
+        "spectral_centroid_hz": 3143.08,
+        "onset_strength": 0.90884,
+        "spectral_flatness": 0.07306
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.22424,
+        "spectral_centroid_hz": 2777.25,
+        "onset_strength": 1.07431,
+        "spectral_flatness": 0.0424
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.24343,
+        "spectral_centroid_hz": 2499.02,
+        "onset_strength": 1.08917,
+        "spectral_flatness": 0.02518
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.24339,
+        "spectral_centroid_hz": 2344.89,
+        "onset_strength": 1.19008,
+        "spectral_flatness": 0.02466
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7c0348bb-5a53-4312-95be-a21da259d551",
+      "title": "Wave to Anchor",
+      "artist": "Hundred Waters",
+      "duration_ms": 279000,
+      "first_release_date": "2017-09-08",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7c0348bb-5a53-4312-95be-a21da259d551",
+      "duration_sec": 279,
+      "sample_rate": 44100,
+      "tempo_bpm": 128.989730835,
+      "danceability": 1.17616260052,
+      "onset_rate": 3.96025300026,
+      "beats_count": 628,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.0640705600381,
+      "dynamic_complexity": 2.85902881622,
+      "average_loudness": 0.931074738503,
+      "spectral_centroid_mean": 1206.53979492,
+      "spectral_flux_mean": 0.0955586135387,
+      "spectral_rolloff_mean": 1437.64550781,
+      "dissonance_mean": 0.454954475164,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

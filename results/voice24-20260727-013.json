@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "These New Puritans",
+    "track": "Organ Eternal",
+    "request_id": "voice24-20260727-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c228d983-f7f6-4391-bae8-4229db7ec4a3",
+      "title": "Organ Eternal",
+      "artist": "These New Puritans",
+      "duration_ms": 331573,
+      "first_release_date": "2013-06-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "fd8dce22-c5dc-47d9-bfdc-f2c2c2c42d74",
+      "title": "Organ Eternal (live)",
+      "artist": "These New Puritans",
+      "duration_ms": 381000,
+      "first_release_date": "2014-10-20",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.9065
+    }
+  ],
+  "matched_recording": {
+    "artist": "These New Puritans",
+    "track": "Organ Eternal",
+    "album": "Field of Reeds",
+    "duration_ms": 331574,
+    "release_date": "2013-06-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/66/7d/1f667d83-f5ed-a99f-bb81-427a2a15d211/mzaf_8189597917076636571.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/organ-eternal/1451827939?i=1451828148&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/organ-eternal/1451827939?i=1451828148&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/66/7d/1f667d83-f5ed-a99f-bb81-427a2a15d211/mzaf_8189597917076636571.plus.aac.p.m4a",
+      "bytes": 1063829,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.02402,
+    "onset_rate_per_sec": 5.10417,
+    "dynamic_range_db_p95_p10": 1.882,
+    "crest_factor_db": 10.764,
+    "rms_mean": 0.15007,
+    "rms_std": 0.01157,
+    "spectral_centroid_hz_mean": 570.81,
+    "spectral_centroid_hz_std": 114.65,
+    "spectral_bandwidth_hz_mean": 899.09,
+    "spectral_rolloff_hz_mean": 1108.54,
+    "spectral_flatness_mean": 7e-05,
+    "spectral_contrast_mean": 22.77232,
+    "energy_share": {
+      "below_150_hz": 0.78881,
+      "150_to_2000_hz": 0.20991,
+      "above_2000_hz": 0.00128
+    },
+    "percussive_share": 0.09876,
+    "tonal_entropy_bits": 3.41309,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.23,
+      "relative_score": 1.55389
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.14249,
+        "spectral_centroid_hz": 505.47,
+        "onset_strength": 0.80184,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.14694,
+        "spectral_centroid_hz": 525.01,
+        "onset_strength": 0.84416,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14535,
+        "spectral_centroid_hz": 528.03,
+        "onset_strength": 0.88843,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15512,
+        "spectral_centroid_hz": 534.73,
+        "onset_strength": 0.89568,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.14912,
+        "spectral_centroid_hz": 532.17,
+        "onset_strength": 0.90263,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.14451,
+        "spectral_centroid_hz": 557.67,
+        "onset_strength": 0.92385,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.14967,
+        "spectral_centroid_hz": 564.03,
+        "onset_strength": 0.93878,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.14664,
+        "spectral_centroid_hz": 583.62,
+        "onset_strength": 0.95016,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.15814,
+        "spectral_centroid_hz": 665.0,
+        "onset_strength": 0.99362,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.15356,
+        "spectral_centroid_hz": 608.71,
+        "onset_strength": 0.97887,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.1532,
+        "spectral_centroid_hz": 738.81,
+        "onset_strength": 0.95187,
+        "spectral_flatness": 0.00042
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.156,
+        "spectral_centroid_hz": 505.6,
+        "onset_strength": 0.79254,
+        "spectral_flatness": 1e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "c228d983-f7f6-4391-bae8-4229db7ec4a3",
+      "title": "Organ Eternal",
+      "artist": "These New Puritans",
+      "duration_ms": 331573,
+      "first_release_date": "2013-06-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "c228d983-f7f6-4391-bae8-4229db7ec4a3",
+      "duration_sec": 332.956726074,
+      "sample_rate": 44100,
+      "tempo_bpm": 139.860534668,
+      "danceability": 0.911707222462,
+      "onset_rate": 2.65786385536,
+      "beats_count": 666,
+      "key": "G#",
+      "scale": "major",
+      "chords_changes_rate": 0.0567563809454,
+      "dynamic_complexity": 3.44722127914,
+      "average_loudness": 0.877790212631,
+      "spectral_centroid_mean": 461.818603516,
+      "spectral_flux_mean": 0.053605645895,
+      "spectral_rolloff_mean": 477.122955322,
+      "dissonance_mean": 0.410560727119,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "request": {
+    "artist": "The Knife",
+    "track": "Full of Fire",
+    "request_id": "voice24-20260727-015"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "d2fcdc2f-37d5-4b7c-a69c-490c0f83a366",
+      "title": "Full of Fire",
+      "artist": "The Knife",
+      "duration_ms": null,
+      "first_release_date": "2017-09-08",
+      "disambiguation": "live, 2014: Terminal 5, New York, NY, USA",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5b787c85-49f9-425a-a85f-5b0544e3c950",
+      "title": "Full of Fire",
+      "artist": "The Knife",
+      "duration_ms": 556000,
+      "first_release_date": "2013-01-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c33e417f-9138-4e79-b750-6e1f740e738b",
+      "title": "Full of Fire (Shaken-Up live version)",
+      "artist": "The Knife",
+      "duration_ms": 556000,
+      "first_release_date": "2017-09-01",
+      "disambiguation": "",
+      "musicbrainz_score": 81,
+      "local_match_score": 0.7162
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "5b787c85-49f9-425a-a85f-5b0544e3c950",
+      "title": "Full of Fire",
+      "artist": "The Knife",
+      "duration_ms": 556000,
+      "first_release_date": "2013-01-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "5b787c85-49f9-425a-a85f-5b0544e3c950",
+      "duration_sec": 556.506652832,
+      "sample_rate": 44100,
+      "tempo_bpm": 143.020858765,
+      "danceability": 1.47787761688,
+      "onset_rate": 4.37177705765,
+      "beats_count": 1325,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0911138951778,
+      "dynamic_complexity": 3.20825982094,
+      "average_loudness": 0.871969759464,
+      "spectral_centroid_mean": 1377.70397949,
+      "spectral_flux_mean": 0.097569912672,
+      "spectral_rolloff_mean": 1424.56311035,
+      "dissonance_mean": 0.467917382717,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "5b787c85-49f9-425a-a85f-5b0544e3c950",
+    "title": "Full of Fire",
+    "artist": "The Knife",
+    "duration_ms": 556000,
+    "first_release_date": "2013-01-27",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "5b787c85-49f9-425a-a85f-5b0544e3c950",
+    "duration_sec": 556.506652832,
+    "sample_rate": 44100,
+    "tempo_bpm": 143.020858765,
+    "danceability": 1.47787761688,
+    "onset_rate": 4.37177705765,
+    "beats_count": 1325,
+    "key": "A",
+    "scale": "minor",
+    "chords_changes_rate": 0.0911138951778,
+    "dynamic_complexity": 3.20825982094,
+    "average_loudness": 0.871969759464,
+    "spectral_centroid_mean": 1377.70397949,
+    "spectral_flux_mean": 0.097569912672,
+    "spectral_rolloff_mean": 1424.56311035,
+    "dissonance_mean": 0.467917382717,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}

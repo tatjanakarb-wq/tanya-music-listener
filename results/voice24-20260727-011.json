@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Gazelle Twin",
+    "track": "Men Like Gods",
+    "request_id": "voice24-20260727-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c8e8eaeb-b2b2-491a-883d-38b0bb910db6",
+      "title": "Men Like Gods",
+      "artist": "Gazelle Twin",
+      "duration_ms": 308000,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e9c08e12-5e8a-4d31-b9f2-761f03be11c9",
+      "title": "Men Like Gods",
+      "artist": "Gazelle Twin",
+      "duration_ms": 295000,
+      "first_release_date": "2011-07-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "1f81d68a-1ebf-465b-a000-ec707afb2a16",
+      "title": "Men Like Gods (Nedry Remix)",
+      "artist": "Gazelle Twin",
+      "duration_ms": 339000,
+      "first_release_date": "2012-06-04",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8168
+    },
+    {
+      "mbid": "5f800e7b-d1c6-4285-8049-f4cd6b4bd6d1",
+      "title": "Men Like Gods (Ghost Eyes Remix)",
+      "artist": "Gazelle Twin",
+      "duration_ms": 252000,
+      "first_release_date": "2012-06-04",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7707
+    },
+    {
+      "mbid": "351d0b9f-0ab0-40f8-8999-59fdfae1d0f8",
+      "title": "Men Like Gods (Maya Postepski Remix)",
+      "artist": "Gazelle Twin",
+      "duration_ms": 351000,
+      "first_release_date": "2012-06-04",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7409
+    }
+  ],
+  "matched_recording": {
+    "artist": "Gazelle Twin",
+    "track": "Men Like Gods",
+    "album": "The Entire City",
+    "duration_ms": 295488,
+    "release_date": "2011-07-04T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/78/f9/3e78f9a8-dac7-6317-1d8e-1e47b00ac427/mzaf_4347861220669975599.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/men-like-gods/1037284481?i=1037284494&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 488
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/men-like-gods/1037284481?i=1037284494&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/78/f9/3e78f9a8-dac7-6317-1d8e-1e47b00ac427/mzaf_4347861220669975599.plus.aac.p.m4a",
+      "bytes": 1132676,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.05496,
+    "onset_rate_per_sec": 3.84242,
+    "dynamic_range_db_p95_p10": 11.039,
+    "crest_factor_db": 13.174,
+    "rms_mean": 0.11821,
+    "rms_std": 0.04921,
+    "spectral_centroid_hz_mean": 1805.35,
+    "spectral_centroid_hz_std": 787.04,
+    "spectral_bandwidth_hz_mean": 2315.57,
+    "spectral_rolloff_hz_mean": 3895.53,
+    "spectral_flatness_mean": 0.0177,
+    "spectral_contrast_mean": 18.93491,
+    "energy_share": {
+      "below_150_hz": 0.54359,
+      "150_to_2000_hz": 0.43929,
+      "above_2000_hz": 0.01712
+    },
+    "percussive_share": 0.25878,
+    "tonal_entropy_bits": 3.51604,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.0114
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10865,
+        "spectral_centroid_hz": 2136.68,
+        "onset_strength": 1.08137,
+        "spectral_flatness": 0.0308
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09634,
+        "spectral_centroid_hz": 1978.33,
+        "onset_strength": 1.21297,
+        "spectral_flatness": 0.01793
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.1003,
+        "spectral_centroid_hz": 1854.14,
+        "onset_strength": 1.19086,
+        "spectral_flatness": 0.01683
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09563,
+        "spectral_centroid_hz": 2158.37,
+        "onset_strength": 1.27194,
+        "spectral_flatness": 0.02747
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10573,
+        "spectral_centroid_hz": 1925.95,
+        "onset_strength": 1.12828,
+        "spectral_flatness": 0.0172
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11609,
+        "spectral_centroid_hz": 2032.12,
+        "onset_strength": 1.15903,
+        "spectral_flatness": 0.02884
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11721,
+        "spectral_centroid_hz": 1553.17,
+        "onset_strength": 1.0536,
+        "spectral_flatness": 0.01961
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14008,
+        "spectral_centroid_hz": 1230.45,
+        "onset_strength": 1.1971,
+        "spectral_flatness": 0.00744
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14398,
+        "spectral_centroid_hz": 1579.49,
+        "onset_strength": 1.37326,
+        "spectral_flatness": 0.00708
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13344,
+        "spectral_centroid_hz": 1629.41,
+        "onset_strength": 1.40955,
+        "spectral_flatness": 0.01002
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.1081,
+        "spectral_centroid_hz": 1770.33,
+        "onset_strength": 1.40538,
+        "spectral_flatness": 0.01418
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.15259,
+        "spectral_centroid_hz": 1821.03,
+        "onset_strength": 1.22104,
+        "spectral_flatness": 0.01521
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "e9c08e12-5e8a-4d31-b9f2-761f03be11c9",
+      "title": "Men Like Gods",
+      "artist": "Gazelle Twin",
+      "duration_ms": 295000,
+      "first_release_date": "2011-07-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "e9c08e12-5e8a-4d31-b9f2-761f03be11c9",
+      "duration_sec": 295.493347168,
+      "sample_rate": 44100,
+      "tempo_bpm": 103.926368713,
+      "danceability": 1.15632212162,
+      "onset_rate": 3.45167446136,
+      "beats_count": 546,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0639534890652,
+      "dynamic_complexity": 4.05012512207,
+      "average_loudness": 0.496101230383,
+      "spectral_centroid_mean": 933.646484375,
+      "spectral_flux_mean": 0.0754071623087,
+      "spectral_rolloff_mean": 1009.52069092,
+      "dissonance_mean": 0.446483612061,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

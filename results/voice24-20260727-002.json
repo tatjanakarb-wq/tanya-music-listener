@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Holly Herndon",
+    "track": "Eternal",
+    "request_id": "voice24-20260727-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "3bd1ffdf-4889-463f-a29c-a4b2611a1b43",
+      "title": "Eternal",
+      "artist": "Holly Herndon",
+      "duration_ms": 285125,
+      "first_release_date": "2019-05-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "897fac0b-b9a7-4f43-b1fe-3452619ae193",
+      "title": "Eternal Re-Imagined",
+      "artist": "Holly Herndon",
+      "duration_ms": 271649,
+      "first_release_date": "2025-06-24",
+      "disambiguation": "",
+      "musicbrainz_score": 91,
+      "local_match_score": 0.7323
+    }
+  ],
+  "matched_recording": {
+    "artist": "Holly Herndon",
+    "track": "Eternal",
+    "album": "PROTO",
+    "duration_ms": 285125,
+    "release_date": "2019-05-10T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/42/d5/92/42d59213-a1ce-9400-37ee-2b1fe27657ca/mzaf_16617054866351337887.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/eternal/1454113472?i=1454113479&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/eternal/1454113472?i=1454113479&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/42/d5/92/42d59213-a1ce-9400-37ee-2b1fe27657ca/mzaf_16617054866351337887.plus.aac.p.m4a",
+      "bytes": 1075071,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.05183,
+    "onset_rate_per_sec": 3.27441,
+    "dynamic_range_db_p95_p10": 13.953,
+    "crest_factor_db": 13.038,
+    "rms_mean": 0.11775,
+    "rms_std": 0.05297,
+    "spectral_centroid_hz_mean": 3253.27,
+    "spectral_centroid_hz_std": 763.07,
+    "spectral_bandwidth_hz_mean": 3086.7,
+    "spectral_rolloff_hz_mean": 7238.31,
+    "spectral_flatness_mean": 0.05735,
+    "spectral_contrast_mean": 18.48213,
+    "energy_share": {
+      "below_150_hz": 0.51723,
+      "150_to_2000_hz": 0.40929,
+      "above_2000_hz": 0.07348
+    },
+    "percussive_share": 0.25611,
+    "tonal_entropy_bits": 3.52517,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.1823
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11952,
+        "spectral_centroid_hz": 2721.48,
+        "onset_strength": 1.01284,
+        "spectral_flatness": 0.01511
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.16295,
+        "spectral_centroid_hz": 2281.79,
+        "onset_strength": 1.24423,
+        "spectral_flatness": 0.02361
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0793,
+        "spectral_centroid_hz": 3875.66,
+        "onset_strength": 1.01283,
+        "spectral_flatness": 0.07946
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07441,
+        "spectral_centroid_hz": 4039.9,
+        "onset_strength": 1.05216,
+        "spectral_flatness": 0.0529
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04635,
+        "spectral_centroid_hz": 3801.56,
+        "onset_strength": 1.06695,
+        "spectral_flatness": 0.1177
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1344,
+        "spectral_centroid_hz": 3528.26,
+        "onset_strength": 1.00087,
+        "spectral_flatness": 0.03469
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.09134,
+        "spectral_centroid_hz": 3755.91,
+        "onset_strength": 1.01968,
+        "spectral_flatness": 0.05978
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11465,
+        "spectral_centroid_hz": 3394.83,
+        "onset_strength": 1.16855,
+        "spectral_flatness": 0.10321
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.14525,
+        "spectral_centroid_hz": 3188.59,
+        "onset_strength": 1.0636,
+        "spectral_flatness": 0.07286
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.14686,
+        "spectral_centroid_hz": 3060.14,
+        "onset_strength": 1.2522,
+        "spectral_flatness": 0.04347
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12435,
+        "spectral_centroid_hz": 2974.61,
+        "onset_strength": 1.10745,
+        "spectral_flatness": 0.06159
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.17391,
+        "spectral_centroid_hz": 2413.93,
+        "onset_strength": 1.46769,
+        "spectral_flatness": 0.02308
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "3bd1ffdf-4889-463f-a29c-a4b2611a1b43",
+      "title": "Eternal",
+      "artist": "Holly Herndon",
+      "duration_ms": 285125,
+      "first_release_date": "2019-05-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "3bd1ffdf-4889-463f-a29c-a4b2611a1b43",
+      "duration_sec": 280.1953125,
+      "sample_rate": 96000,
+      "tempo_bpm": 112.372329712,
+      "danceability": 0.977763235569,
+      "onset_rate": 3.62217450142,
+      "beats_count": 536,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0437448211014,
+      "dynamic_complexity": 5.29960727692,
+      "average_loudness": 0.791054725647,
+      "spectral_centroid_mean": 1311.61413574,
+      "spectral_flux_mean": 0.0772635042667,
+      "spectral_rolloff_mean": 1419.89233398,
+      "dissonance_mean": 0.441756159067,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

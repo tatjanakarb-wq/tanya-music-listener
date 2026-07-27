@@ -1,0 +1,202 @@
+{
+  "request": {
+    "artist": "KÁRYYN",
+    "track": "EVER",
+    "request_id": "voice24-20260727-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5707e70a-95f6-4b52-9353-8ad421d563ab",
+      "title": "Ever",
+      "artist": "KÁRYYN",
+      "duration_ms": 71000,
+      "first_release_date": "2019-07-21",
+      "disambiguation": "part of “Woodstock69: Floating Points in Amsterdam, Jul 21, 2019” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6bc12a1f-fbf0-4a08-b930-afe8d709ba45",
+      "title": "EVER",
+      "artist": "KÁRYYN",
+      "duration_ms": 389000,
+      "first_release_date": "2019-03-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3182750a-5667-4e30-b918-9e3d1133849c",
+      "title": "EVER",
+      "artist": "KÁRYYN",
+      "duration_ms": 226000,
+      "first_release_date": "2019-03-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3229cafb-fa1d-46bf-9740-e96bff460e04",
+      "title": "EVER (edit)",
+      "artist": "KÁRYYN",
+      "duration_ms": 240000,
+      "first_release_date": "2019-01-17",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.7769
+    },
+    {
+      "mbid": "90f05417-9ae0-4d43-8d7f-332034cb1156",
+      "title": "EVER (single edit)",
+      "artist": "KÁRYYN",
+      "duration_ms": 226000,
+      "first_release_date": "2019-01-18",
+      "disambiguation": "",
+      "musicbrainz_score": 91,
+      "local_match_score": 0.652
+    }
+  ],
+  "matched_recording": {
+    "artist": "KÁRYYN",
+    "track": "Ever",
+    "album": "Quanta 1:11 - Single",
+    "duration_ms": 389267,
+    "release_date": "2017-10-30T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/01/33/f101334a-9eae-82b0-3a7a-a146f35ecc25/mzaf_4053775241799395179.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/ever/1440476124?i=1440476125&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 267
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/ever/1440476124?i=1440476125&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/01/33/f101334a-9eae-82b0-3a7a-a146f35ecc25/mzaf_4053775241799395179.plus.aac.p.m4a",
+      "bytes": 993027,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.06781,
+    "onset_rate_per_sec": 4.77056,
+    "dynamic_range_db_p95_p10": 13.527,
+    "crest_factor_db": 12.262,
+    "rms_mean": 0.11371,
+    "rms_std": 0.06215,
+    "spectral_centroid_hz_mean": 2582.72,
+    "spectral_centroid_hz_std": 957.71,
+    "spectral_bandwidth_hz_mean": 2817.36,
+    "spectral_rolloff_hz_mean": 5682.35,
+    "spectral_flatness_mean": 0.02596,
+    "spectral_contrast_mean": 19.48431,
+    "energy_share": {
+      "below_150_hz": 0.72467,
+      "150_to_2000_hz": 0.22883,
+      "above_2000_hz": 0.0465
+    },
+    "percussive_share": 0.30973,
+    "tonal_entropy_bits": 3.53883,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.74,
+      "relative_score": 1.00871
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11365,
+        "spectral_centroid_hz": 2420.27,
+        "onset_strength": 1.29082,
+        "spectral_flatness": 0.02548
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.11352,
+        "spectral_centroid_hz": 2503.13,
+        "onset_strength": 1.34127,
+        "spectral_flatness": 0.01566
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.13113,
+        "spectral_centroid_hz": 3140.59,
+        "onset_strength": 1.35412,
+        "spectral_flatness": 0.02081
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.14996,
+        "spectral_centroid_hz": 2571.25,
+        "onset_strength": 1.8272,
+        "spectral_flatness": 0.02245
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.15553,
+        "spectral_centroid_hz": 2358.32,
+        "onset_strength": 1.49016,
+        "spectral_flatness": 0.01035
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.10442,
+        "spectral_centroid_hz": 2590.9,
+        "onset_strength": 1.19916,
+        "spectral_flatness": 0.0235
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.09785,
+        "spectral_centroid_hz": 2589.7,
+        "onset_strength": 1.57038,
+        "spectral_flatness": 0.02709
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.08275,
+        "spectral_centroid_hz": 2790.21,
+        "onset_strength": 1.29135,
+        "spectral_flatness": 0.04457
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.06029,
+        "spectral_centroid_hz": 3136.31,
+        "onset_strength": 1.78341,
+        "spectral_flatness": 0.05659
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10471,
+        "spectral_centroid_hz": 2826.5,
+        "onset_strength": 1.78995,
+        "spectral_flatness": 0.02701
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.07482,
+        "spectral_centroid_hz": 2468.3,
+        "onset_strength": 1.24684,
+        "spectral_flatness": 0.03454
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.17607,
+        "spectral_centroid_hz": 1602.92,
+        "onset_strength": 1.5082,
+        "spectral_flatness": 0.00346
+      }
+    ]
+  }
+}

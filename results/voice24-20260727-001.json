@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Buke and Gase",
+    "track": "Houdini Crush",
+    "request_id": "voice24-20260727-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a0bffa79-ff4e-4685-bb3d-50fb8b1a4944",
+      "title": "Houdini Crush",
+      "artist": "Buke and Gase",
+      "duration_ms": 281000,
+      "first_release_date": "2016-02-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "14bafd59-1b0f-4365-8904-0677296ee704",
+      "title": "Houdini Crush",
+      "artist": "Buke and Gase",
+      "duration_ms": 266000,
+      "first_release_date": "2013-01-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Buke & Gase",
+    "track": "Houdini Crush",
+    "album": "General Dome",
+    "duration_ms": 266283,
+    "release_date": "2013-01-29T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d7/4f/57/d74f5760-67f4-aae7-7a0f-900a6bea0ffc/mzaf_12156158942106882723.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/houdini-crush/592925962?i=592925966&uo=4",
+    "match_score": 0.9309,
+    "title_score": 1.0,
+    "artist_score": 0.8182,
+    "duration_difference_to_musicbrainz_ms": 283
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/houdini-crush/592925962?i=592925966&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d7/4f/57/d74f5760-67f4-aae7-7a0f-900a6bea0ffc/mzaf_12156158942106882723.plus.aac.p.m4a",
+      "bytes": 1024538,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.02227,
+    "onset_rate_per_sec": 3.60853,
+    "dynamic_range_db_p95_p10": 4.44,
+    "crest_factor_db": 12.351,
+    "rms_mean": 0.13168,
+    "rms_std": 0.02527,
+    "spectral_centroid_hz_mean": 1550.76,
+    "spectral_centroid_hz_std": 423.15,
+    "spectral_bandwidth_hz_mean": 1896.13,
+    "spectral_rolloff_hz_mean": 3206.68,
+    "spectral_flatness_mean": 0.00685,
+    "spectral_contrast_mean": 19.68001,
+    "energy_share": {
+      "below_150_hz": 0.431,
+      "150_to_2000_hz": 0.53805,
+      "above_2000_hz": 0.03095
+    },
+    "percussive_share": 0.26271,
+    "tonal_entropy_bits": 3.45407,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 1.30282
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13877,
+        "spectral_centroid_hz": 1614.11,
+        "onset_strength": 0.94193,
+        "spectral_flatness": 0.00522
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1305,
+        "spectral_centroid_hz": 1560.97,
+        "onset_strength": 1.01335,
+        "spectral_flatness": 0.0053
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.1258,
+        "spectral_centroid_hz": 1545.56,
+        "onset_strength": 1.19348,
+        "spectral_flatness": 0.00488
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.14436,
+        "spectral_centroid_hz": 1684.86,
+        "onset_strength": 1.26917,
+        "spectral_flatness": 0.01078
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.1198,
+        "spectral_centroid_hz": 1339.44,
+        "onset_strength": 1.17283,
+        "spectral_flatness": 0.00499
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12662,
+        "spectral_centroid_hz": 1279.8,
+        "onset_strength": 1.19088,
+        "spectral_flatness": 0.00217
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.15193,
+        "spectral_centroid_hz": 1738.05,
+        "onset_strength": 1.16773,
+        "spectral_flatness": 0.01305
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11602,
+        "spectral_centroid_hz": 1320.16,
+        "onset_strength": 1.17257,
+        "spectral_flatness": 0.00332
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.13022,
+        "spectral_centroid_hz": 1478.12,
+        "onset_strength": 1.33191,
+        "spectral_flatness": 0.00426
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13828,
+        "spectral_centroid_hz": 1722.91,
+        "onset_strength": 1.00114,
+        "spectral_flatness": 0.01307
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11922,
+        "spectral_centroid_hz": 1561.93,
+        "onset_strength": 1.30943,
+        "spectral_flatness": 0.00563
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13879,
+        "spectral_centroid_hz": 1763.72,
+        "onset_strength": 1.20082,
+        "spectral_flatness": 0.00951
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "14bafd59-1b0f-4365-8904-0677296ee704",
+      "title": "Houdini Crush",
+      "artist": "Buke and Gase",
+      "duration_ms": 266000,
+      "first_release_date": "2013-01-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "14bafd59-1b0f-4365-8904-0677296ee704",
+      "duration_sec": 266.605712891,
+      "sample_rate": 44100,
+      "tempo_bpm": 103.114379883,
+      "danceability": 1.13196957111,
+      "onset_rate": 2.98548722267,
+      "beats_count": 457,
+      "key": "A",
+      "scale": "major",
+      "chords_changes_rate": 0.0503308959305,
+      "dynamic_complexity": 2.02414989471,
+      "average_loudness": 0.93965023756,
+      "spectral_centroid_mean": 930.464538574,
+      "spectral_flux_mean": 0.0916735008359,
+      "spectral_rolloff_mean": 1018.35766602,
+      "dissonance_mean": 0.461258679628,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

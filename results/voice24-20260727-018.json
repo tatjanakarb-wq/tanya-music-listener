@@ -1,0 +1,99 @@
+{
+  "request": {
+    "artist": "Young Fathers",
+    "track": "In My View",
+    "request_id": "voice24-20260727-018"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "8dfae998-efd4-4ebe-a482-1523ff687362",
+      "title": "In My View",
+      "artist": "Young Fathers",
+      "duration_ms": 195445,
+      "first_release_date": "2018-01-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b243432f-3b50-4746-b939-13cf55de2d51",
+      "title": "In My View",
+      "artist": "Young Fathers",
+      "duration_ms": 197000,
+      "first_release_date": "2018",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "8dfae998-efd4-4ebe-a482-1523ff687362",
+      "title": "In My View",
+      "artist": "Young Fathers",
+      "duration_ms": 195445,
+      "first_release_date": "2018-01-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "8dfae998-efd4-4ebe-a482-1523ff687362",
+      "duration_sec": 195.510345459,
+      "sample_rate": 96000,
+      "tempo_bpm": 97.8321304321,
+      "danceability": 1.20170783997,
+      "onset_rate": 3.66707587242,
+      "beats_count": 323,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.057943481952,
+      "dynamic_complexity": 3.96575737,
+      "average_loudness": 0.92143201828,
+      "spectral_centroid_mean": 723.348327637,
+      "spectral_flux_mean": 0.0934934020042,
+      "spectral_rolloff_mean": 559.753540039,
+      "dissonance_mean": 0.446098744869,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "8dfae998-efd4-4ebe-a482-1523ff687362",
+    "title": "In My View",
+    "artist": "Young Fathers",
+    "duration_ms": 195445,
+    "first_release_date": "2018-01-17",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "8dfae998-efd4-4ebe-a482-1523ff687362",
+    "duration_sec": 195.510345459,
+    "sample_rate": 96000,
+    "tempo_bpm": 97.8321304321,
+    "danceability": 1.20170783997,
+    "onset_rate": 3.66707587242,
+    "beats_count": 323,
+    "key": "C#",
+    "scale": "major",
+    "chords_changes_rate": 0.057943481952,
+    "dynamic_complexity": 3.96575737,
+    "average_loudness": 0.92143201828,
+    "spectral_centroid_mean": 723.348327637,
+    "spectral_flux_mean": 0.0934934020042,
+    "spectral_rolloff_mean": 559.753540039,
+    "dissonance_mean": 0.446098744869,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}

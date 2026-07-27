@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "L'Rain",
+    "track": "Blame Me",
+    "request_id": "voice24-20260727-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5d1cf973-9bef-4b96-a315-739fac8ecd74",
+      "title": "Blame Me",
+      "artist": "L’Rain",
+      "duration_ms": 211000,
+      "first_release_date": "2021-06-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "L’Rain",
+    "track": "Blame Me",
+    "album": "Fatigue",
+    "duration_ms": 211505,
+    "release_date": "2021-05-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/41/38/c0413836-3a5d-2ead-7245-b604d7f5f29f/mzaf_5170029651228078103.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/blame-me/1775801324?i=1775801447&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 505
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/blame-me/1775801324?i=1775801447&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/41/38/c0413836-3a5d-2ead-7245-b604d7f5f29f/mzaf_5170029651228078103.plus.aac.p.m4a",
+      "bytes": 1000888,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.06695,
+    "onset_rate_per_sec": 3.53622,
+    "dynamic_range_db_p95_p10": 7.15,
+    "crest_factor_db": 12.567,
+    "rms_mean": 0.09093,
+    "rms_std": 0.02358,
+    "spectral_centroid_hz_mean": 1422.16,
+    "spectral_centroid_hz_std": 480.73,
+    "spectral_bandwidth_hz_mean": 1574.81,
+    "spectral_rolloff_hz_mean": 2739.78,
+    "spectral_flatness_mean": 0.00292,
+    "spectral_contrast_mean": 22.24947,
+    "energy_share": {
+      "below_150_hz": 0.00408,
+      "150_to_2000_hz": 0.97216,
+      "above_2000_hz": 0.02376
+    },
+    "percussive_share": 0.1824,
+    "tonal_entropy_bits": 3.50025,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.04781
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08689,
+        "spectral_centroid_hz": 1386.9,
+        "onset_strength": 0.92552,
+        "spectral_flatness": 0.00401
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.09778,
+        "spectral_centroid_hz": 1238.71,
+        "onset_strength": 1.1048,
+        "spectral_flatness": 0.00037
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08661,
+        "spectral_centroid_hz": 1229.99,
+        "onset_strength": 1.23951,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.0837,
+        "spectral_centroid_hz": 1520.24,
+        "onset_strength": 1.17222,
+        "spectral_flatness": 0.002
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.06969,
+        "spectral_centroid_hz": 1799.36,
+        "onset_strength": 1.0885,
+        "spectral_flatness": 0.00915
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.10288,
+        "spectral_centroid_hz": 1321.21,
+        "onset_strength": 1.04125,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.09235,
+        "spectral_centroid_hz": 1089.39,
+        "onset_strength": 1.10714,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.08355,
+        "spectral_centroid_hz": 1363.91,
+        "onset_strength": 1.15464,
+        "spectral_flatness": 0.00097
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.07811,
+        "spectral_centroid_hz": 1588.51,
+        "onset_strength": 1.07746,
+        "spectral_flatness": 0.00366
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10624,
+        "spectral_centroid_hz": 1686.17,
+        "onset_strength": 1.04405,
+        "spectral_flatness": 0.0095
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.10949,
+        "spectral_centroid_hz": 1473.65,
+        "onset_strength": 1.12994,
+        "spectral_flatness": 0.00185
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.09373,
+        "spectral_centroid_hz": 1371.13,
+        "onset_strength": 1.1421,
+        "spectral_flatness": 0.00227
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "5d1cf973-9bef-4b96-a315-739fac8ecd74",
+      "title": "Blame Me",
+      "artist": "L’Rain",
+      "duration_ms": 211000,
+      "first_release_date": "2021-06-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "5d1cf973-9bef-4b96-a315-739fac8ecd74",
+      "duration_sec": 211.539596558,
+      "sample_rate": 44100,
+      "tempo_bpm": 172.265808105,
+      "danceability": 0.906405389309,
+      "onset_rate": 1.6780346632,
+      "beats_count": 453,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0708799660206,
+      "dynamic_complexity": 4.50591230392,
+      "average_loudness": 0.730923652649,
+      "spectral_centroid_mean": 698.425231934,
+      "spectral_flux_mean": 0.0631330609322,
+      "spectral_rolloff_mean": 692.963745117,
+      "dissonance_mean": 0.430121451616,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

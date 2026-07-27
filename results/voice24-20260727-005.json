@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "Jockstrap",
+    "track": "Concrete Over Water",
+    "request_id": "voice24-20260727-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "214252fc-4073-4532-86d8-017c422738a2",
+      "title": "Concrete Over Water",
+      "artist": "Jockstrap",
+      "duration_ms": 365000,
+      "first_release_date": "2023-05-30",
+      "disambiguation": "part of “One Mix with Hudson Mohawke” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d43cd1a1-7ea1-41d7-bde0-46c9343a8845",
+      "title": "Concrete Over Water",
+      "artist": "Jockstrap",
+      "duration_ms": 370000,
+      "first_release_date": "2022-04-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "a026c8d3-e703-4858-9550-c50034ee5e87",
+      "title": "Concrete Over Water (C23 remix)",
+      "artist": "Jockstrap",
+      "duration_ms": 234130,
+      "first_release_date": "2023-03-15",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8792
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jockstrap",
+    "track": "Concrete Over Water",
+    "album": "Concrete Over Water - Single",
+    "duration_ms": 372800,
+    "release_date": "2022-04-11T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/1a/d9/b21ad96a-1a7c-f76b-8df6-fd59fe874fae/mzaf_16501383736942719653.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/concrete-over-water/1615056668?i=1615056687&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 2800
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/concrete-over-water/1615056668?i=1615056687&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/1a/d9/b21ad96a-1a7c-f76b-8df6-fd59fe874fae/mzaf_16501383736942719653.plus.aac.p.m4a",
+      "bytes": 1009918,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 143.555,
+    "beat_interval_cv": 0.035,
+    "onset_rate_per_sec": 2.80229,
+    "dynamic_range_db_p95_p10": 11.771,
+    "crest_factor_db": 12.358,
+    "rms_mean": 0.11926,
+    "rms_std": 0.05765,
+    "spectral_centroid_hz_mean": 1941.03,
+    "spectral_centroid_hz_std": 641.75,
+    "spectral_bandwidth_hz_mean": 2099.66,
+    "spectral_rolloff_hz_mean": 3911.8,
+    "spectral_flatness_mean": 0.01188,
+    "spectral_contrast_mean": 21.19745,
+    "energy_share": {
+      "below_150_hz": 0.24222,
+      "150_to_2000_hz": 0.71543,
+      "above_2000_hz": 0.04235
+    },
+    "percussive_share": 0.32009,
+    "tonal_entropy_bits": 3.43643,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 1.52075
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07872,
+        "spectral_centroid_hz": 1230.34,
+        "onset_strength": 1.15164,
+        "spectral_flatness": 0.00165
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.1153,
+        "spectral_centroid_hz": 1484.63,
+        "onset_strength": 1.21755,
+        "spectral_flatness": 0.00151
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10351,
+        "spectral_centroid_hz": 1639.35,
+        "onset_strength": 1.11174,
+        "spectral_flatness": 0.00364
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15891,
+        "spectral_centroid_hz": 1814.76,
+        "onset_strength": 1.17975,
+        "spectral_flatness": 0.00749
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.07332,
+        "spectral_centroid_hz": 1468.84,
+        "onset_strength": 1.20744,
+        "spectral_flatness": 0.00248
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.13656,
+        "spectral_centroid_hz": 1565.43,
+        "onset_strength": 1.27751,
+        "spectral_flatness": 0.00176
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.10187,
+        "spectral_centroid_hz": 1802.98,
+        "onset_strength": 1.30127,
+        "spectral_flatness": 0.00474
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.08973,
+        "spectral_centroid_hz": 2408.86,
+        "onset_strength": 1.45569,
+        "spectral_flatness": 0.02081
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.14129,
+        "spectral_centroid_hz": 2521.23,
+        "onset_strength": 1.46134,
+        "spectral_flatness": 0.02968
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.13446,
+        "spectral_centroid_hz": 2488.94,
+        "onset_strength": 1.50989,
+        "spectral_flatness": 0.02255
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.13154,
+        "spectral_centroid_hz": 2451.13,
+        "onset_strength": 1.35403,
+        "spectral_flatness": 0.02627
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.16479,
+        "spectral_centroid_hz": 2411.51,
+        "onset_strength": 1.58058,
+        "spectral_flatness": 0.01989
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d43cd1a1-7ea1-41d7-bde0-46c9343a8845",
+      "title": "Concrete Over Water",
+      "artist": "Jockstrap",
+      "duration_ms": 370000,
+      "first_release_date": "2022-04-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d43cd1a1-7ea1-41d7-bde0-46c9343a8845",
+      "duration_sec": 369.935974121,
+      "sample_rate": 48000,
+      "tempo_bpm": 139.214752197,
+      "danceability": 1.01409697533,
+      "onset_rate": 2.64088368416,
+      "beats_count": 834,
+      "key": "C#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0444332882762,
+      "dynamic_complexity": 4.23230457306,
+      "average_loudness": 0.3409935534,
+      "spectral_centroid_mean": 856.45300293,
+      "spectral_flux_mean": 0.0537346154451,
+      "spectral_rolloff_mean": 957.940124512,
+      "dissonance_mean": 0.400905877352,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}

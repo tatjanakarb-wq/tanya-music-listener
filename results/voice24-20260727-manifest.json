@@ -1,0 +1,146 @@
+[
+  {
+    "request_id": "voice24-20260727-001",
+    "artist": "Buke and Gase",
+    "track": "Houdini Crush",
+    "returncode": 0,
+    "stdout_tail": "  \"key\": \"A\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0503308959305,\n      \"dynamic_complexity\": 2.02414989471,\n      \"average_loudness\": 0.93965023756,\n      \"spectral_centroid_mean\": 930.464538574,\n      \"spectral_flux_mean\": 0.0916735008359,\n      \"spectral_rolloff_mean\": 1018.35766602,\n      \"dissonance_mean\": 0.461258679628,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-002",
+    "artist": "Holly Herndon",
+    "track": "Eternal",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0437448211014,\n      \"dynamic_complexity\": 5.29960727692,\n      \"average_loudness\": 0.791054725647,\n      \"spectral_centroid_mean\": 1311.61413574,\n      \"spectral_flux_mean\": 0.0772635042667,\n      \"spectral_rolloff_mean\": 1419.89233398,\n      \"dissonance_mean\": 0.441756159067,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-003",
+    "artist": "FKA twigs",
+    "track": "fallen alien",
+    "returncode": 0,
+    "stdout_tail": "  \"key\": \"E\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0631313100457,\n      \"dynamic_complexity\": 4.4506611824,\n      \"average_loudness\": 0.620496153831,\n      \"spectral_centroid_mean\": 1191.55456543,\n      \"spectral_flux_mean\": 0.0849471017718,\n      \"spectral_rolloff_mean\": 1389.84521484,\n      \"dissonance_mean\": 0.439869642258,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-004",
+    "artist": "Low",
+    "track": "Disappearing",
+    "returncode": 0,
+    "stdout_tail": "  \"key\": \"F\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0275892261416,\n      \"dynamic_complexity\": 3.04147410393,\n      \"average_loudness\": 0.69723957777,\n      \"spectral_centroid_mean\": 994.475524902,\n      \"spectral_flux_mean\": 0.0981269925833,\n      \"spectral_rolloff_mean\": 827.507507324,\n      \"dissonance_mean\": 0.466284364462,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-005",
+    "artist": "Jockstrap",
+    "track": "Concrete Over Water",
+    "returncode": 0,
+    "stdout_tail": "   \"key\": \"C#\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0444332882762,\n      \"dynamic_complexity\": 4.23230457306,\n      \"average_loudness\": 0.3409935534,\n      \"spectral_centroid_mean\": 856.45300293,\n      \"spectral_flux_mean\": 0.0537346154451,\n      \"spectral_rolloff_mean\": 957.940124512,\n      \"dissonance_mean\": 0.400905877352,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-006",
+    "artist": "L'Rain",
+    "track": "Blame Me",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"F\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0708799660206,\n      \"dynamic_complexity\": 4.50591230392,\n      \"average_loudness\": 0.730923652649,\n      \"spectral_centroid_mean\": 698.425231934,\n      \"spectral_flux_mean\": 0.0631330609322,\n      \"spectral_rolloff_mean\": 692.963745117,\n      \"dissonance_mean\": 0.430121451616,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-007",
+    "artist": "Anna von Hausswolff",
+    "track": "The Mysterious Vanishing of Electra",
+    "returncode": 0,
+    "stdout_tail": "  \"key\": \"A\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0452342480421,\n      \"dynamic_complexity\": 3.71299052238,\n      \"average_loudness\": 0.722704529762,\n      \"spectral_centroid_mean\": 1018.32904053,\n      \"spectral_flux_mean\": 0.0807138159871,\n      \"spectral_rolloff_mean\": 888.66583252,\n      \"dissonance_mean\": 0.470239073038,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-008",
+    "artist": "Keeley Forsyth",
+    "track": "Start Again",
+    "returncode": 0,
+    "stdout_tail": "  \"key\": \"G\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0548314601183,\n      \"dynamic_complexity\": 5.48788642883,\n      \"average_loudness\": 0.856686234474,\n      \"spectral_centroid_mean\": 681.80871582,\n      \"spectral_flux_mean\": 0.0907609537244,\n      \"spectral_rolloff_mean\": 587.197265625,\n      \"dissonance_mean\": 0.416477411985,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-009",
+    "artist": "KÁRYYN",
+    "track": "EVER",
+    "returncode": 0,
+    "stdout_tail": ".10471,\n        \"spectral_centroid_hz\": 2826.5,\n        \"onset_strength\": 1.78995,\n        \"spectral_flatness\": 0.02701\n      },\n      {\n        \"time_sec\": 26.23,\n        \"rms\": 0.07482,\n        \"spectral_centroid_hz\": 2468.3,\n        \"onset_strength\": 1.24684,\n        \"spectral_flatness\": 0.03454\n      },\n      {\n        \"time_sec\": 28.73,\n        \"rms\": 0.17607,\n        \"spectral_centroid_hz\": 1602.92,\n        \"onset_strength\": 1.5082,\n        \"spectral_flatness\": 0.00346\n      }\n    ]\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-010",
+    "artist": "Spellling",
+    "track": "Boys at School",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0437706969678,\n      \"dynamic_complexity\": 4.06417703629,\n      \"average_loudness\": 0.756027460098,\n      \"spectral_centroid_mean\": 942.414550781,\n      \"spectral_flux_mean\": 0.0699388682842,\n      \"spectral_rolloff_mean\": 780.687072754,\n      \"dissonance_mean\": 0.439295202494,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-011",
+    "artist": "Gazelle Twin",
+    "track": "Men Like Gods",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"minor\",\n      \"chords_changes_rate\": 0.0639534890652,\n      \"dynamic_complexity\": 4.05012512207,\n      \"average_loudness\": 0.496101230383,\n      \"spectral_centroid_mean\": 933.646484375,\n      \"spectral_flux_mean\": 0.0754071623087,\n      \"spectral_rolloff_mean\": 1009.52069092,\n      \"dissonance_mean\": 0.446483612061,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-012",
+    "artist": "Hundred Waters",
+    "track": "Wave to Anchor",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0640705600381,\n      \"dynamic_complexity\": 2.85902881622,\n      \"average_loudness\": 0.931074738503,\n      \"spectral_centroid_mean\": 1206.53979492,\n      \"spectral_flux_mean\": 0.0955586135387,\n      \"spectral_rolloff_mean\": 1437.64550781,\n      \"dissonance_mean\": 0.454954475164,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-013",
+    "artist": "These New Puritans",
+    "track": "Organ Eternal",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"G#\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0567563809454,\n      \"dynamic_complexity\": 3.44722127914,\n      \"average_loudness\": 0.877790212631,\n      \"spectral_centroid_mean\": 461.818603516,\n      \"spectral_flux_mean\": 0.053605645895,\n      \"spectral_rolloff_mean\": 477.122955322,\n      \"dissonance_mean\": 0.410560727119,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-014",
+    "artist": "Deerhoof",
+    "track": "The Perfect Me",
+    "returncode": 0,
+    "stdout_tail": "   \"key\": \"A\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.109278924763,\n      \"dynamic_complexity\": 3.42772293091,\n      \"average_loudness\": 0.936286747456,\n      \"spectral_centroid_mean\": 1184.56518555,\n      \"spectral_flux_mean\": 0.102811969817,\n      \"spectral_rolloff_mean\": 1278.73901367,\n      \"dissonance_mean\": 0.467611581087,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-015",
+    "artist": "The Knife",
+    "track": "Full of Fire",
+    "returncode": 0,
+    "stdout_tail": " \"beats_count\": 1325,\n    \"key\": \"A\",\n    \"scale\": \"minor\",\n    \"chords_changes_rate\": 0.0911138951778,\n    \"dynamic_complexity\": 3.20825982094,\n    \"average_loudness\": 0.871969759464,\n    \"spectral_centroid_mean\": 1377.70397949,\n    \"spectral_flux_mean\": 0.097569912672,\n    \"spectral_rolloff_mean\": 1424.56311035,\n    \"dissonance_mean\": 0.467917382717,\n    \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-016",
+    "artist": "Eartheater",
+    "track": "Volcano",
+    "returncode": 0,
+    "stdout_tail": " \"key\": \"A\",\n      \"scale\": \"major\",\n      \"chords_changes_rate\": 0.0523118451238,\n      \"dynamic_complexity\": 4.22274017334,\n      \"average_loudness\": 0.804073870182,\n      \"spectral_centroid_mean\": 957.725830078,\n      \"spectral_flux_mean\": 0.0936505421996,\n      \"spectral_rolloff_mean\": 1075.02490234,\n      \"dissonance_mean\": 0.443906664848,\n      \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n    }\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-017",
+    "artist": "Caroline Polachek",
+    "track": "Blood and Butter",
+    "returncode": 0,
+    "stdout_tail": "924,\n        \"spectral_centroid_hz\": 2406.07,\n        \"onset_strength\": 1.53254,\n        \"spectral_flatness\": 0.00905\n      },\n      {\n        \"time_sec\": 26.19,\n        \"rms\": 0.13051,\n        \"spectral_centroid_hz\": 2157.97,\n        \"onset_strength\": 1.39441,\n        \"spectral_flatness\": 0.00773\n      },\n      {\n        \"time_sec\": 28.68,\n        \"rms\": 0.13421,\n        \"spectral_centroid_hz\": 2284.55,\n        \"onset_strength\": 1.62129,\n        \"spectral_flatness\": 0.01115\n      }\n    ]\n  }\n}\n",
+    "stderr_tail": ""
+  },
+  {
+    "request_id": "voice24-20260727-018",
+    "artist": "Young Fathers",
+    "track": "In My View",
+    "returncode": 0,
+    "stdout_tail": "\n    \"beats_count\": 323,\n    \"key\": \"C#\",\n    \"scale\": \"major\",\n    \"chords_changes_rate\": 0.057943481952,\n    \"dynamic_complexity\": 3.96575737,\n    \"average_loudness\": 0.92143201828,\n    \"spectral_centroid_mean\": 723.348327637,\n    \"spectral_flux_mean\": 0.0934934020042,\n    \"spectral_rolloff_mean\": 559.753540039,\n    \"dissonance_mean\": 0.446098744869,\n    \"warning\": \"This is an archived third-party feature profile. Recording/version identity must be checked against duration and release.\"\n  }\n}\n",
+    "stderr_tail": ""
+  }
+]
