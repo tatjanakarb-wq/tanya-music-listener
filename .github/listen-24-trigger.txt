@@ -1,1 +1,1 @@
-Trigger batch listen for playlist 24 candidate pool on 2026-07-27.
+Trigger compact summary for playlist 24 candidate pool on 2026-07-27.
