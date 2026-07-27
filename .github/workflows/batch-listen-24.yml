@@ -1,0 +1,102 @@
+name: Listen batch 24 candidates
+
+on:
+  push:
+    paths:
+      - ".github/workflows/batch-listen-24.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  listen-batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Analyze candidate pool
+        shell: bash
+        run: |
+          set -u
+          mkdir -p results
+          python - <<'PY'
+          import json
+          import subprocess
+
+          candidates = [
+              ("Buke and Gase", "Houdini Crush"),
+              ("Holly Herndon", "Eternal"),
+              ("FKA twigs", "fallen alien"),
+              ("Low", "Disappearing"),
+              ("Jockstrap", "Concrete Over Water"),
+              ("L'Rain", "Blame Me"),
+              ("Anna von Hausswolff", "The Mysterious Vanishing of Electra"),
+              ("Keeley Forsyth", "Start Again"),
+              ("KÁRYYN", "EVER"),
+              ("Spellling", "Boys at School"),
+              ("Gazelle Twin", "Men Like Gods"),
+              ("Hundred Waters", "Wave to Anchor"),
+              ("These New Puritans", "Organ Eternal"),
+              ("Deerhoof", "The Perfect Me"),
+              ("The Knife", "Full of Fire"),
+              ("Eartheater", "Volcano"),
+              ("Caroline Polachek", "Blood and Butter"),
+              ("Young Fathers", "In My View"),
+          ]
+
+          manifest = []
+          for index, (artist, track) in enumerate(candidates, start=1):
+              request_id = f"voice24-20260727-{index:03d}"
+              output = f"results/{request_id}.json"
+              command = [
+                  "python", "listener.py",
+                  "--artist", artist,
+                  "--track", track,
+                  "--request-id", request_id,
+                  "--output", output,
+              ]
+              completed = subprocess.run(command, text=True, capture_output=True)
+              manifest.append({
+                  "request_id": request_id,
+                  "artist": artist,
+                  "track": track,
+                  "returncode": completed.returncode,
+                  "stdout_tail": completed.stdout[-500:],
+                  "stderr_tail": completed.stderr[-500:],
+              })
+          with open("results/voice24-20260727-manifest.json", "w", encoding="utf-8") as handle:
+              json.dump(manifest, handle, ensure_ascii=False, indent=2)
+          PY
+
+      - name: Commit results safely
+        shell: bash
+        run: |
+          set -e
+          git config user.name "Tanya Music Listener"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/voice24-20260727-*.json
+          git commit -m "Listen voice24 candidate pool" || exit 0
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 4))
+          done
+          exit 1
