@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Versus Shapes",
+    "request_id": "gym25-20260729-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4b890858-e2b2-44b3-a083-3a41a6b0f57a",
+      "title": "Versus Shapes",
+      "artist": "Mammal Hands",
+      "duration_ms": 205000,
+      "first_release_date": "2020-09-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Versus Shapes",
+    "album": "Captured Spirits",
+    "duration_ms": 205637,
+    "release_date": "2020-09-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/56/59/9156592c-c18e-77f2-ea34-b786fe775a60/mzaf_16843331733454558133.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/versus-shapes/1579311965?i=1579312335&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 637
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/versus-shapes/1579311965?i=1579312335&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/56/59/9156592c-c18e-77f2-ea34-b786fe775a60/mzaf_16843331733454558133.plus.aac.p.m4a",
+      "bytes": 1023482,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02771,
+    "onset_rate_per_sec": 6.21469,
+    "dynamic_range_db_p95_p10": 10.294,
+    "crest_factor_db": 13.514,
+    "rms_mean": 0.11502,
+    "rms_std": 0.04527,
+    "spectral_centroid_hz_mean": 984.65,
+    "spectral_centroid_hz_std": 375.59,
+    "spectral_bandwidth_hz_mean": 1620.68,
+    "spectral_rolloff_hz_mean": 1811.85,
+    "spectral_flatness_mean": 0.00156,
+    "spectral_contrast_mean": 20.85474,
+    "energy_share": {
+      "below_150_hz": 0.44346,
+      "150_to_2000_hz": 0.553,
+      "above_2000_hz": 0.00354
+    },
+    "percussive_share": 0.33966,
+    "tonal_entropy_bits": 3.52567,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 0.71801
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11124,
+        "spectral_centroid_hz": 1080.94,
+        "onset_strength": 1.69465,
+        "spectral_flatness": 0.00299
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11872,
+        "spectral_centroid_hz": 1077.57,
+        "onset_strength": 1.75439,
+        "spectral_flatness": 0.00185
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12464,
+        "spectral_centroid_hz": 956.33,
+        "onset_strength": 1.59794,
+        "spectral_flatness": 0.00131
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11829,
+        "spectral_centroid_hz": 945.42,
+        "onset_strength": 1.41922,
+        "spectral_flatness": 0.00117
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.11131,
+        "spectral_centroid_hz": 1093.63,
+        "onset_strength": 1.78091,
+        "spectral_flatness": 0.00222
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12753,
+        "spectral_centroid_hz": 950.73,
+        "onset_strength": 1.44479,
+        "spectral_flatness": 0.00098
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11586,
+        "spectral_centroid_hz": 1031.68,
+        "onset_strength": 1.57321,
+        "spectral_flatness": 0.00163
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11542,
+        "spectral_centroid_hz": 943.62,
+        "onset_strength": 1.71459,
+        "spectral_flatness": 0.00125
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12591,
+        "spectral_centroid_hz": 944.58,
+        "onset_strength": 1.47003,
+        "spectral_flatness": 0.00108
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1273,
+        "spectral_centroid_hz": 886.36,
+        "onset_strength": 1.55874,
+        "spectral_flatness": 0.00126
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.09141,
+        "spectral_centroid_hz": 1005.9,
+        "onset_strength": 1.66347,
+        "spectral_flatness": 0.00168
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09268,
+        "spectral_centroid_hz": 900.43,
+        "onset_strength": 1.76974,
+        "spectral_flatness": 0.00135
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "4b890858-e2b2-44b3-a083-3a41a6b0f57a",
+      "title": "Versus Shapes",
+      "artist": "Mammal Hands",
+      "duration_ms": 205000,
+      "first_release_date": "2020-09-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "4b890858-e2b2-44b3-a083-3a41a6b0f57a",
+      "duration_sec": 205.688156128,
+      "sample_rate": 44100,
+      "tempo_bpm": 126.725990295,
+      "danceability": 1.12570738792,
+      "onset_rate": 4.99743366241,
+      "beats_count": 428,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.036334913224,
+      "dynamic_complexity": 4.75766849518,
+      "average_loudness": 0.823826611042,
+      "spectral_centroid_mean": 413.84487915,
+      "spectral_flux_mean": 0.0843924582005,
+      "spectral_rolloff_mean": 444.090270996,
+      "dissonance_mean": 0.392491519451,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
