@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Anna Meredith",
+    "track": "Inhale Exhale",
+    "request_id": "gym25-20260729-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "da049be7-4c07-4021-aa7c-598f97f5c1e6",
+      "title": "Inhale Exhale",
+      "artist": "Anna Meredith",
+      "duration_ms": 226554,
+      "first_release_date": "2019-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Anna Meredith",
+    "track": "Inhale Exhale",
+    "album": "FIBS",
+    "duration_ms": 226554,
+    "release_date": "2019-10-04T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/98/6b/b3986bd1-b5af-0735-1e4a-562ccd97b3c2/mzaf_2048303412027252715.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/inhale-exhale/1798525826?i=1798525838&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/inhale-exhale/1798525826?i=1798525838&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/98/6b/b3986bd1-b5af-0735-1e4a-562ccd97b3c2/mzaf_2048303412027252715.plus.aac.p.m4a",
+      "bytes": 1003579,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.01687,
+    "onset_rate_per_sec": 5.43777,
+    "dynamic_range_db_p95_p10": 6.919,
+    "crest_factor_db": 13.804,
+    "rms_mean": 0.10753,
+    "rms_std": 0.02887,
+    "spectral_centroid_hz_mean": 1946.11,
+    "spectral_centroid_hz_std": 385.82,
+    "spectral_bandwidth_hz_mean": 2349.77,
+    "spectral_rolloff_hz_mean": 4195.88,
+    "spectral_flatness_mean": 0.01808,
+    "spectral_contrast_mean": 18.45777,
+    "energy_share": {
+      "below_150_hz": 0.50156,
+      "150_to_2000_hz": 0.46861,
+      "above_2000_hz": 0.02983
+    },
+    "percussive_share": 0.24381,
+    "tonal_entropy_bits": 3.57309,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.24,
+      "relative_score": 0.40257
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10465,
+        "spectral_centroid_hz": 1802.13,
+        "onset_strength": 1.41752,
+        "spectral_flatness": 0.01588
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.12043,
+        "spectral_centroid_hz": 1837.15,
+        "onset_strength": 1.42338,
+        "spectral_flatness": 0.01319
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11299,
+        "spectral_centroid_hz": 1922.37,
+        "onset_strength": 1.3864,
+        "spectral_flatness": 0.01668
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.11375,
+        "spectral_centroid_hz": 1895.57,
+        "onset_strength": 1.31383,
+        "spectral_flatness": 0.01486
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.10595,
+        "spectral_centroid_hz": 2128.28,
+        "onset_strength": 1.37312,
+        "spectral_flatness": 0.02371
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.11075,
+        "spectral_centroid_hz": 1810.4,
+        "onset_strength": 1.44582,
+        "spectral_flatness": 0.01428
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.12183,
+        "spectral_centroid_hz": 1932.96,
+        "onset_strength": 1.32363,
+        "spectral_flatness": 0.01619
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.10577,
+        "spectral_centroid_hz": 1945.89,
+        "onset_strength": 1.37605,
+        "spectral_flatness": 0.01652
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.11515,
+        "spectral_centroid_hz": 1822.7,
+        "onset_strength": 1.4195,
+        "spectral_flatness": 0.01498
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10772,
+        "spectral_centroid_hz": 2160.2,
+        "onset_strength": 1.32544,
+        "spectral_flatness": 0.02384
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.1056,
+        "spectral_centroid_hz": 2082.76,
+        "onset_strength": 1.37205,
+        "spectral_flatness": 0.02321
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.06572,
+        "spectral_centroid_hz": 2015.01,
+        "onset_strength": 2.05739,
+        "spectral_flatness": 0.0237
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "da049be7-4c07-4021-aa7c-598f97f5c1e6",
+      "title": "Inhale Exhale",
+      "artist": "Anna Meredith",
+      "duration_ms": 226554,
+      "first_release_date": "2019-10-25",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "da049be7-4c07-4021-aa7c-598f97f5c1e6",
+      "duration_sec": 226.554351807,
+      "sample_rate": 44100,
+      "tempo_bpm": 161.499130249,
+      "danceability": 1.34855139256,
+      "onset_rate": 5.18606472015,
+      "beats_count": 519,
+      "key": "D#",
+      "scale": "major",
+      "chords_changes_rate": 0.0608606562018,
+      "dynamic_complexity": 2.98773789406,
+      "average_loudness": 0.74556851387,
+      "spectral_centroid_mean": 1144.7800293,
+      "spectral_flux_mean": 0.110608488321,
+      "spectral_rolloff_mean": 1151.82128906,
+      "dissonance_mean": 0.463731646538,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
