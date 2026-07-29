@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Rival Consoles",
+    "track": "Articulation",
+    "request_id": "gym25-20260729-016"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "694dc802-7ba2-4933-898c-56b9873a3ace",
+      "title": "Articulation",
+      "artist": "Rival Consoles",
+      "duration_ms": 390000,
+      "first_release_date": "2020-11-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "cbfd21b4-4fe9-44e3-886a-e18b8f0a9923",
+      "title": "Articulation",
+      "artist": "Rival Consoles",
+      "duration_ms": 390884,
+      "first_release_date": "2020-11-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "9de44d41-0b23-4bad-9602-b4d7724daad0",
+      "title": "Articulation",
+      "artist": "Rival Consoles",
+      "duration_ms": 390000,
+      "first_release_date": "2020-05-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7155d9a5-1707-4c7b-b2ac-ed7670be340c",
+      "title": "Articulation (Midori Hirano remix)",
+      "artist": "Rival Consoles",
+      "duration_ms": 308000,
+      "first_release_date": "2020-11-24",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.7364
+    }
+  ],
+  "matched_recording": {
+    "artist": "Rival Consoles",
+    "track": "Articulation",
+    "album": "Articulation",
+    "duration_ms": 390884,
+    "release_date": "2020-05-27T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/6b/53/cd6b5372-b8a8-125d-6ccf-5da1c7bde6a3/mzaf_4140949156963642707.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/articulation/1512954620?i=1512954748&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/articulation/1512954620?i=1512954748&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/6b/53/cd6b5372-b8a8-125d-6ccf-5da1c7bde6a3/mzaf_4140949156963642707.plus.aac.p.m4a",
+      "bytes": 1050688,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.09351,
+    "onset_rate_per_sec": 4.27015,
+    "dynamic_range_db_p95_p10": 12.56,
+    "crest_factor_db": 15.894,
+    "rms_mean": 0.08163,
+    "rms_std": 0.03938,
+    "spectral_centroid_hz_mean": 1294.93,
+    "spectral_centroid_hz_std": 644.15,
+    "spectral_bandwidth_hz_mean": 1940.42,
+    "spectral_rolloff_hz_mean": 2677.2,
+    "spectral_flatness_mean": 0.00818,
+    "spectral_contrast_mean": 17.22684,
+    "energy_share": {
+      "below_150_hz": 0.64249,
+      "150_to_2000_hz": 0.34208,
+      "above_2000_hz": 0.01542
+    },
+    "percussive_share": 0.38672,
+    "tonal_entropy_bits": 3.54924,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 1.15711
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06806,
+        "spectral_centroid_hz": 1236.47,
+        "onset_strength": 1.533,
+        "spectral_flatness": 0.00961
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.08057,
+        "spectral_centroid_hz": 1286.47,
+        "onset_strength": 1.68698,
+        "spectral_flatness": 0.0078
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09625,
+        "spectral_centroid_hz": 1365.78,
+        "onset_strength": 1.55189,
+        "spectral_flatness": 0.00711
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.09011,
+        "spectral_centroid_hz": 1260.09,
+        "onset_strength": 1.60511,
+        "spectral_flatness": 0.00647
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.06777,
+        "spectral_centroid_hz": 1293.36,
+        "onset_strength": 1.55934,
+        "spectral_flatness": 0.00909
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.08856,
+        "spectral_centroid_hz": 1164.28,
+        "onset_strength": 1.80071,
+        "spectral_flatness": 0.00623
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.07074,
+        "spectral_centroid_hz": 1317.37,
+        "onset_strength": 1.83476,
+        "spectral_flatness": 0.01121
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.07376,
+        "spectral_centroid_hz": 1316.81,
+        "onset_strength": 1.72607,
+        "spectral_flatness": 0.00653
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.10109,
+        "spectral_centroid_hz": 1242.75,
+        "onset_strength": 1.42001,
+        "spectral_flatness": 0.00579
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.09364,
+        "spectral_centroid_hz": 1430.77,
+        "onset_strength": 1.78924,
+        "spectral_flatness": 0.00966
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.06499,
+        "spectral_centroid_hz": 1357.01,
+        "onset_strength": 1.72315,
+        "spectral_flatness": 0.00968
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.08391,
+        "spectral_centroid_hz": 1269.51,
+        "onset_strength": 1.92207,
+        "spectral_flatness": 0.00897
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "694dc802-7ba2-4933-898c-56b9873a3ace",
+      "title": "Articulation",
+      "artist": "Rival Consoles",
+      "duration_ms": 390000,
+      "first_release_date": "2020-11-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "694dc802-7ba2-4933-898c-56b9873a3ace",
+      "duration_sec": 390.884399414,
+      "sample_rate": 44100,
+      "tempo_bpm": 133.82333374,
+      "danceability": 1.08346962929,
+      "onset_rate": 4.92457914352,
+      "beats_count": 871,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.040033262223,
+      "dynamic_complexity": 4.31017875671,
+      "average_loudness": 0.533170461655,
+      "spectral_centroid_mean": 535.443237305,
+      "spectral_flux_mean": 0.103360660374,
+      "spectral_rolloff_mean": 384.184326172,
+      "dissonance_mean": 0.430347472429,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
