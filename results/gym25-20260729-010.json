@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "Vainamoinen",
+    "request_id": "gym25-20260729-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9bd650d4-7ac8-4b6b-9982-2ed33bda9ecf",
+      "title": "Vainamoinen",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 221746,
+      "first_release_date": "2012-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "19addb38-8013-4c17-9e96-679533ef46d2",
+      "title": "Vainamoinen",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 221746,
+      "first_release_date": "2012-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0c25b7bf-c44f-4abb-87ac-dd0690f67d50",
+      "title": "III: Vainamoinen - Kanteles, Harps & Zithers",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 184066,
+      "first_release_date": "2022-10-21",
+      "disambiguation": "",
+      "musicbrainz_score": 72,
+      "local_match_score": 0.6804
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hidden Orchestra",
+    "track": "Vainamoinen",
+    "album": "Archipelago",
+    "duration_ms": 221747,
+    "release_date": "2012-10-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/2c/34/4b/2c344bca-10f8-f65f-97a1-70d5fe06a1df/mzaf_3889506107080969437.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/vainamoinen/1368925225?i=1368925465&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/vainamoinen/1368925225?i=1368925465&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/2c/34/4b/2c344bca-10f8-f65f-97a1-70d5fe06a1df/mzaf_3889506107080969437.plus.aac.p.m4a",
+      "bytes": 1136578,
+      "content_type": "audio/x-m4a"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02931,
+    "onset_rate_per_sec": 4.04289,
+    "dynamic_range_db_p95_p10": 13.703,
+    "crest_factor_db": 15.869,
+    "rms_mean": 0.03785,
+    "rms_std": 0.02103,
+    "spectral_centroid_hz_mean": 2048.69,
+    "spectral_centroid_hz_std": 415.96,
+    "spectral_bandwidth_hz_mean": 2360.63,
+    "spectral_rolloff_hz_mean": 4410.01,
+    "spectral_flatness_mean": 0.01379,
+    "spectral_contrast_mean": 18.95804,
+    "energy_share": {
+      "below_150_hz": 0.63788,
+      "150_to_2000_hz": 0.33579,
+      "above_2000_hz": 0.02633
+    },
+    "percussive_share": 0.13651,
+    "tonal_entropy_bits": 3.31119,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.11862
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01426,
+        "spectral_centroid_hz": 2411.68,
+        "onset_strength": 0.93164,
+        "spectral_flatness": 0.02744
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0196,
+        "spectral_centroid_hz": 2273.84,
+        "onset_strength": 0.95533,
+        "spectral_flatness": 0.0182
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0182,
+        "spectral_centroid_hz": 2316.37,
+        "onset_strength": 0.98301,
+        "spectral_flatness": 0.0305
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.02303,
+        "spectral_centroid_hz": 2236.41,
+        "onset_strength": 0.96321,
+        "spectral_flatness": 0.01801
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.06066,
+        "spectral_centroid_hz": 1789.2,
+        "onset_strength": 0.96341,
+        "spectral_flatness": 0.00487
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06104,
+        "spectral_centroid_hz": 1996.5,
+        "onset_strength": 1.07399,
+        "spectral_flatness": 0.00665
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06188,
+        "spectral_centroid_hz": 1938.27,
+        "onset_strength": 1.03383,
+        "spectral_flatness": 0.00486
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.03306,
+        "spectral_centroid_hz": 1957.1,
+        "onset_strength": 0.92958,
+        "spectral_flatness": 0.01169
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.03039,
+        "spectral_centroid_hz": 2037.47,
+        "onset_strength": 1.07149,
+        "spectral_flatness": 0.01124
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.02553,
+        "spectral_centroid_hz": 2164.36,
+        "onset_strength": 0.93639,
+        "spectral_flatness": 0.016
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04952,
+        "spectral_centroid_hz": 1879.9,
+        "onset_strength": 0.97032,
+        "spectral_flatness": 0.01099
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05699,
+        "spectral_centroid_hz": 1587.17,
+        "onset_strength": 1.01036,
+        "spectral_flatness": 0.00504
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "19addb38-8013-4c17-9e96-679533ef46d2",
+      "title": "Vainamoinen",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 221746,
+      "first_release_date": "2012-10-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "19addb38-8013-4c17-9e96-679533ef46d2",
+      "duration_sec": 221.779586792,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.008087158,
+      "danceability": 1.00456404686,
+      "onset_rate": 3.83684158325,
+      "beats_count": 442,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0368432067335,
+      "dynamic_complexity": 7.54803371429,
+      "average_loudness": 0.19104552269,
+      "spectral_centroid_mean": 1314.29650879,
+      "spectral_flux_mean": 0.058712720871,
+      "spectral_rolloff_mean": 1636.19067383,
+      "dissonance_mean": 0.464204490185,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
