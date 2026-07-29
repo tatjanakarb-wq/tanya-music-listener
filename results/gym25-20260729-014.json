@@ -1,0 +1,13 @@
+{
+  "request": {
+    "artist": "Sunda Arc",
+    "track": "Tides",
+    "request_id": "gym25-20260729-014"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Tides%22+AND+artist%3A%22Sunda+Arc%22&fmt=json&limit=8",
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": []
+}
