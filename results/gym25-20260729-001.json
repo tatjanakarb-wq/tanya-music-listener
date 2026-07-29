@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Offset",
+    "request_id": "gym25-20260729-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "2691042f-1b4b-4ac0-a506-a66281294583",
+      "title": "Offset",
+      "artist": "Portico Quartet",
+      "duration_ms": 271000,
+      "first_release_date": "2019-10-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Offset",
+    "album": "Memory Streams",
+    "duration_ms": 271003,
+    "release_date": "2019-10-04T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/68/25/eb6825fc-4867-5c31-8c35-1c13780e0769/mzaf_14476286549178687426.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/offset/1583551298?i=1583551321&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 3
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/offset/1583551298?i=1583551321&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/68/25/eb6825fc-4867-5c31-8c35-1c13780e0769/mzaf_14476286549178687426.plus.aac.p.m4a",
+      "bytes": 1132664,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.08045,
+    "onset_rate_per_sec": 4.81138,
+    "dynamic_range_db_p95_p10": 5.688,
+    "crest_factor_db": 10.571,
+    "rms_mean": 0.17048,
+    "rms_std": 0.03802,
+    "spectral_centroid_hz_mean": 1969.34,
+    "spectral_centroid_hz_std": 443.4,
+    "spectral_bandwidth_hz_mean": 2344.1,
+    "spectral_rolloff_hz_mean": 4598.58,
+    "spectral_flatness_mean": 0.01005,
+    "spectral_contrast_mean": 18.91334,
+    "energy_share": {
+      "below_150_hz": 0.58856,
+      "150_to_2000_hz": 0.37195,
+      "above_2000_hz": 0.03949
+    },
+    "percussive_share": 0.26427,
+    "tonal_entropy_bits": 3.50158,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.22,
+      "relative_score": 0.68577
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13077,
+        "spectral_centroid_hz": 1369.65,
+        "onset_strength": 1.13118,
+        "spectral_flatness": 0.00248
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.15811,
+        "spectral_centroid_hz": 1750.39,
+        "onset_strength": 1.19,
+        "spectral_flatness": 0.00934
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.18834,
+        "spectral_centroid_hz": 2030.55,
+        "onset_strength": 1.00915,
+        "spectral_flatness": 0.00909
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.17597,
+        "spectral_centroid_hz": 2113.51,
+        "onset_strength": 1.10194,
+        "spectral_flatness": 0.01218
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.18428,
+        "spectral_centroid_hz": 2224.82,
+        "onset_strength": 1.04716,
+        "spectral_flatness": 0.01563
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.16499,
+        "spectral_centroid_hz": 2056.92,
+        "onset_strength": 1.01204,
+        "spectral_flatness": 0.01186
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.17424,
+        "spectral_centroid_hz": 1967.58,
+        "onset_strength": 1.05254,
+        "spectral_flatness": 0.00869
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.1832,
+        "spectral_centroid_hz": 2175.88,
+        "onset_strength": 0.96809,
+        "spectral_flatness": 0.01605
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.16642,
+        "spectral_centroid_hz": 2106.96,
+        "onset_strength": 1.06488,
+        "spectral_flatness": 0.01206
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.17285,
+        "spectral_centroid_hz": 1875.23,
+        "onset_strength": 1.02402,
+        "spectral_flatness": 0.00666
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.17084,
+        "spectral_centroid_hz": 1942.46,
+        "onset_strength": 1.0979,
+        "spectral_flatness": 0.00834
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.17528,
+        "spectral_centroid_hz": 2013.69,
+        "onset_strength": 1.06769,
+        "spectral_flatness": 0.00811
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "2691042f-1b4b-4ac0-a506-a66281294583",
+      "title": "Offset",
+      "artist": "Portico Quartet",
+      "duration_ms": 271000,
+      "first_release_date": "2019-10-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "2691042f-1b4b-4ac0-a506-a66281294583",
+      "duration_sec": 271.046539307,
+      "sample_rate": 44100,
+      "tempo_bpm": 68.1694946289,
+      "danceability": 1.07164895535,
+      "onset_rate": 3.09896612167,
+      "beats_count": 367,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.050359711051,
+      "dynamic_complexity": 3.10857439041,
+      "average_loudness": 0.945541739464,
+      "spectral_centroid_mean": 1178.05712891,
+      "spectral_flux_mean": 0.0929646790028,
+      "spectral_rolloff_mean": 988.191955566,
+      "dissonance_mean": 0.451136320829,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
