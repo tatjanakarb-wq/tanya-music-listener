@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Vessels",
+    "track": "Mobilise",
+    "request_id": "gym25-20260729-019"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "84cdf9f2-6563-43e0-be06-d47b026fee0f",
+      "title": "Mobilise",
+      "artist": "Vessels",
+      "duration_ms": 517000,
+      "first_release_date": "2017-09-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Vessels",
+    "track": "Mobilise",
+    "album": "The Great Distraction",
+    "duration_ms": 517416,
+    "release_date": "2017-09-29T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/b6/38/71b638be-c137-a385-26b8-270198e45296/mzaf_18274037276336609282.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/mobilise/1252673498?i=1252673842&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 416
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/mobilise/1252673498?i=1252673842&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/b6/38/71b638be-c137-a385-26b8-270198e45296/mzaf_18274037276336609282.plus.aac.p.m4a",
+      "bytes": 1067979,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0231,
+    "onset_rate_per_sec": 6.5154,
+    "dynamic_range_db_p95_p10": 12.63,
+    "crest_factor_db": 12.188,
+    "rms_mean": 0.1223,
+    "rms_std": 0.0554,
+    "spectral_centroid_hz_mean": 2515.83,
+    "spectral_centroid_hz_std": 819.24,
+    "spectral_bandwidth_hz_mean": 2787.7,
+    "spectral_rolloff_hz_mean": 5711.34,
+    "spectral_flatness_mean": 0.02346,
+    "spectral_contrast_mean": 19.24734,
+    "energy_share": {
+      "below_150_hz": 0.84087,
+      "150_to_2000_hz": 0.1207,
+      "above_2000_hz": 0.03843
+    },
+    "percussive_share": 0.2397,
+    "tonal_entropy_bits": 3.54554,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.79691
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10662,
+        "spectral_centroid_hz": 2286.03,
+        "onset_strength": 1.67099,
+        "spectral_flatness": 0.01839
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10575,
+        "spectral_centroid_hz": 2715.63,
+        "onset_strength": 1.41846,
+        "spectral_flatness": 0.02898
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10768,
+        "spectral_centroid_hz": 2255.45,
+        "onset_strength": 1.90081,
+        "spectral_flatness": 0.01775
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11296,
+        "spectral_centroid_hz": 2126.37,
+        "onset_strength": 1.72752,
+        "spectral_flatness": 0.01569
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.1109,
+        "spectral_centroid_hz": 2455.27,
+        "onset_strength": 1.5556,
+        "spectral_flatness": 0.02156
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1068,
+        "spectral_centroid_hz": 3186.77,
+        "onset_strength": 1.61466,
+        "spectral_flatness": 0.03017
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.09781,
+        "spectral_centroid_hz": 2577.84,
+        "onset_strength": 1.48467,
+        "spectral_flatness": 0.03196
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10223,
+        "spectral_centroid_hz": 3115.07,
+        "onset_strength": 1.31258,
+        "spectral_flatness": 0.04596
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1559,
+        "spectral_centroid_hz": 2291.12,
+        "onset_strength": 1.51757,
+        "spectral_flatness": 0.0158
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.15323,
+        "spectral_centroid_hz": 2215.38,
+        "onset_strength": 1.65395,
+        "spectral_flatness": 0.01625
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.14631,
+        "spectral_centroid_hz": 2228.56,
+        "onset_strength": 1.88276,
+        "spectral_flatness": 0.01765
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.16113,
+        "spectral_centroid_hz": 2734.63,
+        "onset_strength": 1.27271,
+        "spectral_flatness": 0.02136
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "84cdf9f2-6563-43e0-be06-d47b026fee0f",
+      "title": "Mobilise",
+      "artist": "Vessels",
+      "duration_ms": 517000,
+      "first_release_date": "2017-09-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "84cdf9f2-6563-43e0-be06-d47b026fee0f",
+      "duration_sec": 517.413330078,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.944313049,
+      "danceability": 1.2157831192,
+      "onset_rate": 5.09437465668,
+      "beats_count": 1017,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0172305479646,
+      "dynamic_complexity": 3.20373868942,
+      "average_loudness": 0.922219991684,
+      "spectral_centroid_mean": 1638.78125,
+      "spectral_flux_mean": 0.0942057296634,
+      "spectral_rolloff_mean": 1312.16564941,
+      "dissonance_mean": 0.468068122864,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
