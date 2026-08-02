@@ -1,0 +1,61 @@
+{
+  "request": {
+    "artist": "Erland Cooper",
+    "track": "Movement 3",
+    "request_id": "worlds26-20260802-029"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "9a5939a7-67c5-4bb6-8160-e01a3283bf11",
+      "title": "Movement 3 - Pt. 1",
+      "artist": "Erland Cooper",
+      "duration_ms": 19000,
+      "first_release_date": "2023-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.884
+    },
+    {
+      "mbid": "9f5a9fb2-be4d-4755-a339-a554bf04b51b",
+      "title": "Movement 3 - Pt. 2",
+      "artist": "Erland Cooper",
+      "duration_ms": 213000,
+      "first_release_date": "2023-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.884
+    },
+    {
+      "mbid": "92163993-178a-40fc-9099-9eca389abfd8",
+      "title": "Movement 3",
+      "artist": "Erland Cooper Scottish Ensemble",
+      "duration_ms": 233053,
+      "first_release_date": "2023-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 96,
+      "local_match_score": 0.8282
+    },
+    {
+      "mbid": "9e8a570d-da78-4483-89a3-1637cf64f91a",
+      "title": "Movement 3 - Pt. 1 - Instrumental",
+      "artist": "Erland Cooper",
+      "duration_ms": 19000,
+      "first_release_date": "2023-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.7253
+    },
+    {
+      "mbid": "fc177d53-5e2a-4de5-8520-c8152d75ff64",
+      "title": "Movement 3 - Pt. 2 - Instrumental",
+      "artist": "Erland Cooper",
+      "duration_ms": 179000,
+      "first_release_date": "2023-05-05",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.7253
+    }
+  ]
+}
