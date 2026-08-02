@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Poppy Ackroyd",
+    "track": "Salt",
+    "request_id": "worlds26-20260802-1505-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "682d5dad-754c-4405-a253-02d7d0280610",
+      "title": "Salt",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 269000,
+      "first_release_date": "2014-11-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Poppy Ackroyd",
+    "track": "Salt",
+    "album": "Feathers",
+    "duration_ms": 269120,
+    "release_date": "2014-11-14T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/f4/8c/c5f48cc4-0a6e-e880-4c87-156e66df0603/mzaf_14437299223079820433.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/salt/1745753077?i=1745753079&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 120
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/salt/1745753077?i=1745753079&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/f4/8c/c5f48cc4-0a6e-e880-4c87-156e66df0603/mzaf_14437299223079820433.plus.aac.p.m4a",
+      "bytes": 993109,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 184.57,
+    "beat_interval_cv": 0.03342,
+    "onset_rate_per_sec": 4.1733,
+    "dynamic_range_db_p95_p10": 15.996,
+    "crest_factor_db": 20.724,
+    "rms_mean": 0.0168,
+    "rms_std": 0.01065,
+    "spectral_centroid_hz_mean": 987.57,
+    "spectral_centroid_hz_std": 399.44,
+    "spectral_bandwidth_hz_mean": 1317.02,
+    "spectral_rolloff_hz_mean": 1556.73,
+    "spectral_flatness_mean": 0.00543,
+    "spectral_contrast_mean": 20.32726,
+    "energy_share": {
+      "below_150_hz": 0.01623,
+      "150_to_2000_hz": 0.97378,
+      "above_2000_hz": 0.00999
+    },
+    "percussive_share": 0.26136,
+    "tonal_entropy_bits": 3.46304,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.21,
+      "relative_score": 1.21373
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00991,
+        "spectral_centroid_hz": 863.15,
+        "onset_strength": 1.16417,
+        "spectral_flatness": 0.05006
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00707,
+        "spectral_centroid_hz": 1047.95,
+        "onset_strength": 1.22715,
+        "spectral_flatness": 0.00188
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02147,
+        "spectral_centroid_hz": 853.83,
+        "onset_strength": 1.21936,
+        "spectral_flatness": 0.00062
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.01082,
+        "spectral_centroid_hz": 974.73,
+        "onset_strength": 1.2244,
+        "spectral_flatness": 0.00126
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.01624,
+        "spectral_centroid_hz": 958.3,
+        "onset_strength": 1.6364,
+        "spectral_flatness": 0.00146
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.01387,
+        "spectral_centroid_hz": 993.78,
+        "onset_strength": 1.7286,
+        "spectral_flatness": 0.00165
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.0179,
+        "spectral_centroid_hz": 967.65,
+        "onset_strength": 1.7887,
+        "spectral_flatness": 0.00123
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.01682,
+        "spectral_centroid_hz": 968.75,
+        "onset_strength": 1.4221,
+        "spectral_flatness": 0.00112
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.01713,
+        "spectral_centroid_hz": 1178.8,
+        "onset_strength": 1.57452,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.02137,
+        "spectral_centroid_hz": 1051.83,
+        "onset_strength": 1.71021,
+        "spectral_flatness": 0.00125
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.02716,
+        "spectral_centroid_hz": 974.13,
+        "onset_strength": 1.67699,
+        "spectral_flatness": 0.00079
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.0219,
+        "spectral_centroid_hz": 1016.76,
+        "onset_strength": 1.50781,
+        "spectral_flatness": 0.00172
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "682d5dad-754c-4405-a253-02d7d0280610",
+      "title": "Salt",
+      "artist": "Poppy Ackroyd",
+      "duration_ms": 269000,
+      "first_release_date": "2014-11-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "682d5dad-754c-4405-a253-02d7d0280610",
+      "duration_sec": 269.135986328,
+      "sample_rate": 48000,
+      "tempo_bpm": 89.9981536865,
+      "danceability": 1.09899115562,
+      "onset_rate": 4.33580589294,
+      "beats_count": 407,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0348456092179,
+      "dynamic_complexity": 7.42871761322,
+      "average_loudness": 0.0773558691144,
+      "spectral_centroid_mean": 636.605224609,
+      "spectral_flux_mean": 0.0449393726885,
+      "spectral_rolloff_mean": 1212.48950195,
+      "dissonance_mean": 0.405784755945,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
