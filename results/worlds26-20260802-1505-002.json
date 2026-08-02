@@ -1,0 +1,23 @@
+{
+  "request": {
+    "artist": "Immortal Onion",
+    "track": "IA",
+    "request_id": "worlds26-20260802-1505-002"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a3da3a72-0cc2-4cc1-98ec-4c15b250163a",
+      "title": "IA (Information Architecture)",
+      "artist": "Immortal Onion",
+      "duration_ms": 388935,
+      "first_release_date": "2020-03-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.5
+    }
+  ]
+}
