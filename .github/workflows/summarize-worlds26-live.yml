@@ -1,0 +1,80 @@
+name: Summarize all playlist 26 listening results
+
+on:
+  push:
+    paths:
+      - "results/worlds26-*.json"
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build compact live summary
+        shell: bash
+        run: |
+          python - <<'PY'
+          import glob, json
+          from pathlib import Path
+
+          rows = []
+          for path in sorted(glob.glob('results/worlds26-*.json')):
+              data = json.loads(Path(path).read_text(encoding='utf-8'))
+              req = data.get('request', {})
+              matched = data.get('matched_recording') or {}
+              a = data.get('analysis') or {}
+              full = (data.get('archived_full_recording_features') or {}).get('analysis') or {}
+              rows.append({
+                  'file': path,
+                  'request_id': req.get('request_id'),
+                  'artist': req.get('artist'),
+                  'track': req.get('track'),
+                  'status': data.get('status'),
+                  'matched_artist': matched.get('artist'),
+                  'matched_track': matched.get('track'),
+                  'album': matched.get('album'),
+                  'match_score': matched.get('match_score'),
+                  'heard_seconds': a.get('heard_seconds'),
+                  'tempo': a.get('tempo_bpm'),
+                  'beat_cv': a.get('beat_interval_cv'),
+                  'onset_rate': a.get('onset_rate_per_sec'),
+                  'dynamic_range': a.get('dynamic_range_db_p95_p10'),
+                  'rms_mean': a.get('rms_mean'),
+                  'rms_std': a.get('rms_std'),
+                  'centroid': a.get('spectral_centroid_hz_mean'),
+                  'percussive_share': a.get('percussive_share'),
+                  'tonal_entropy': a.get('tonal_entropy_bits'),
+                  'low_share': (a.get('energy_share') or {}).get('below_150_hz'),
+                  'climax_segment': (a.get('climax') or {}).get('segment'),
+                  'full_tempo': full.get('tempo_bpm'),
+                  'full_dynamic_complexity': full.get('dynamic_complexity'),
+                  'full_chord_change_rate': full.get('chords_changes_rate'),
+                  'full_key': full.get('key'),
+                  'full_scale': full.get('scale'),
+                  'warnings': data.get('warnings') or []
+              })
+          out = Path('summaries/worlds26-live.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps({'count': len(rows), 'tracks': rows}, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'wrote {len(rows)} rows')
+          PY
+
+      - name: Commit summary
+        shell: bash
+        run: |
+          git config user.name "Tanya Music Listener"
+          git config user.email "actions@users.noreply.github.com"
+          git add summaries/worlds26-live.json
+          git commit -m "Update live summary for playlist 26" || exit 0
+          for attempt in 1 2 3 4 5 6; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
