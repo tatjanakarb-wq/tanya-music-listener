@@ -1,0 +1,12 @@
+{
+  "request": {
+    "artist": "Szun Waves",
+    "track": "Earth Patterns",
+    "request_id": "worlds26-20260802-1505-011"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": []
+}
