@@ -1,215 +1,23 @@
 {
   "request": {
-    "artist": "Poppy Ackroyd",
-    "track": "Glass Sea",
+    "artist": "Immortal Onion",
+    "track": "IA",
     "request_id": "worlds26-20260802-002"
   },
-  "status": "heard_official_short_preview",
+  "status": "no_usable_open_features_or_permitted_audio_found",
   "warnings": [
-    "Only the official short preview was heard; this is not a full-track analysis."
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
   ],
   "musicbrainz_candidates": [
     {
-      "mbid": "dd6586f9-8e86-4851-85ea-d47e1bcd656c",
-      "title": "Glass Sea",
-      "artist": "Poppy Ackroyd",
-      "duration_ms": 294306,
-      "first_release_date": "2012-12-07",
+      "mbid": "a3da3a72-0cc2-4cc1-98ec-4c15b250163a",
+      "title": "IA (Information Architecture)",
+      "artist": "Immortal Onion",
+      "duration_ms": 388935,
+      "first_release_date": "2020-03-13",
       "disambiguation": "",
       "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
-      "mbid": "a442df6e-28b5-461d-8110-fca5f4ded8d7",
-      "title": "Glass Sea",
-      "artist": "Poppy Ackroyd",
-      "duration_ms": 311640,
-      "first_release_date": "2017-05-26",
-      "disambiguation": "solo piano version",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
-      "mbid": "29749802-a00b-4629-8d02-cbb70e8506aa",
-      "title": "Glass Sea",
-      "artist": "Poppy Ackroyd Lumen",
-      "duration_ms": 294306,
-      "first_release_date": "2014-10-24",
-      "disambiguation": "",
-      "musicbrainz_score": 85,
-      "local_match_score": 0.9212
+      "local_match_score": 0.5
     }
-  ],
-  "matched_recording": {
-    "artist": "Poppy Ackroyd",
-    "track": "Glass Sea",
-    "album": "Sketches",
-    "duration_ms": 311640,
-    "release_date": "2017-05-26T12:00:00Z",
-    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/48/58/97/48589711-f0b1-eed0-c4fc-aa0d80a6e545/mzaf_6037453896057159261.plus.aac.p.m4a",
-    "store_url": "https://music.apple.com/us/album/glass-sea/1726656085?i=1726656093&uo=4",
-    "match_score": 1.0,
-    "title_score": 1.0,
-    "artist_score": 1.0,
-    "duration_difference_to_musicbrainz_ms": 0
-  },
-  "source": {
-    "kind": "Apple_iTunes_official_preview",
-    "store_url": "https://music.apple.com/us/album/glass-sea/1726656085?i=1726656093&uo=4",
-    "download": {
-      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/48/58/97/48589711-f0b1-eed0-c4fc-aa0d80a6e545/mzaf_6037453896057159261.plus.aac.p.m4a",
-      "bytes": 989955,
-      "content_type": "audio/x-m4p"
-    },
-    "retained_audio": false
-  },
-  "analysis": {
-    "analysis_kind": "direct_audio_signal",
-    "heard_seconds": 29.952,
-    "sample_rate": 22050,
-    "tempo_bpm": 129.199,
-    "beat_interval_cv": 0.03846,
-    "onset_rate_per_sec": 6.37681,
-    "dynamic_range_db_p95_p10": 11.585,
-    "crest_factor_db": 14.447,
-    "rms_mean": 0.03829,
-    "rms_std": 0.01792,
-    "spectral_centroid_hz_mean": 629.12,
-    "spectral_centroid_hz_std": 407.09,
-    "spectral_bandwidth_hz_mean": 629.86,
-    "spectral_rolloff_hz_mean": 1011.97,
-    "spectral_flatness_mean": 0.00896,
-    "spectral_contrast_mean": 22.54405,
-    "energy_share": {
-      "below_150_hz": 0.00243,
-      "150_to_2000_hz": 0.99732,
-      "above_2000_hz": 0.00025
-    },
-    "percussive_share": 0.09341,
-    "tonal_entropy_bits": 3.20224,
-    "climax": {
-      "segment": 12,
-      "time_sec": 28.7,
-      "relative_score": 0.6618
-    },
-    "timeline_12_segments": [
-      {
-        "time_sec": 1.25,
-        "rms": 0.00595,
-        "spectral_centroid_hz": 1458.46,
-        "onset_strength": 0.40185,
-        "spectral_flatness": 0.10798
-      },
-      {
-        "time_sec": 3.74,
-        "rms": 0.03567,
-        "spectral_centroid_hz": 584.42,
-        "onset_strength": 0.9604,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 6.24,
-        "rms": 0.0377,
-        "spectral_centroid_hz": 588.28,
-        "onset_strength": 0.73979,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 8.74,
-        "rms": 0.03596,
-        "spectral_centroid_hz": 581.55,
-        "onset_strength": 0.78569,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 11.23,
-        "rms": 0.03409,
-        "spectral_centroid_hz": 575.75,
-        "onset_strength": 0.72629,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 13.73,
-        "rms": 0.04944,
-        "spectral_centroid_hz": 550.67,
-        "onset_strength": 0.68532,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 16.22,
-        "rms": 0.03354,
-        "spectral_centroid_hz": 557.75,
-        "onset_strength": 0.74704,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 18.72,
-        "rms": 0.03918,
-        "spectral_centroid_hz": 557.8,
-        "onset_strength": 0.69711,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 21.22,
-        "rms": 0.03418,
-        "spectral_centroid_hz": 532.72,
-        "onset_strength": 0.6633,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 23.71,
-        "rms": 0.04685,
-        "spectral_centroid_hz": 536.57,
-        "onset_strength": 0.78248,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 26.21,
-        "rms": 0.05511,
-        "spectral_centroid_hz": 490.06,
-        "onset_strength": 0.72241,
-        "spectral_flatness": 0.0
-      },
-      {
-        "time_sec": 28.7,
-        "rms": 0.0516,
-        "spectral_centroid_hz": 539.43,
-        "onset_strength": 0.78865,
-        "spectral_flatness": 0.0
-      }
-    ]
-  },
-  "archived_full_recording_features": {
-    "matched_recording": {
-      "mbid": "dd6586f9-8e86-4851-85ea-d47e1bcd656c",
-      "title": "Glass Sea",
-      "artist": "Poppy Ackroyd",
-      "duration_ms": 294306,
-      "first_release_date": "2012-12-07",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    "analysis": {
-      "analysis_kind": "archived_full_recording_features",
-      "source": "AcousticBrainz",
-      "mbid": "dd6586f9-8e86-4851-85ea-d47e1bcd656c",
-      "duration_sec": 294.37387085,
-      "sample_rate": 44100,
-      "tempo_bpm": 94.0097579956,
-      "danceability": 0.991599798203,
-      "onset_rate": 3.59721755981,
-      "beats_count": 487,
-      "key": "A",
-      "scale": "minor",
-      "chords_changes_rate": 0.0408517345786,
-      "dynamic_complexity": 8.3054599762,
-      "average_loudness": 0.157685562968,
-      "spectral_centroid_mean": 567.106262207,
-      "spectral_flux_mean": 0.0362877435982,
-      "spectral_rolloff_mean": 750.156188965,
-      "dissonance_mean": 0.398171633482,
-      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
-    }
-  }
+  ]
 }
