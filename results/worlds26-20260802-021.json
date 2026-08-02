@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Kiasmos",
+    "track": "Held",
+    "request_id": "worlds26-20260802-021"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Held%22+AND+artist%3A%22Kiasmos%22&fmt=json&limit=8",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Kiasmos",
+    "track": "Held",
+    "album": "Kiasmos",
+    "duration_ms": 301291,
+    "release_date": "2014-10-27T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/2b/2d/592b2d7e-5d56-ae3d-176d-48f62d00c4b4/mzaf_8489076047628595734.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/held/1451077320?i=1451077337&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/held/1451077320?i=1451077337&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/2b/2d/592b2d7e-5d56-ae3d-176d-48f62d00c4b4/mzaf_8489076047628595734.plus.aac.p.m4a",
+      "bytes": 981866,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.01571,
+    "onset_rate_per_sec": 1.76811,
+    "dynamic_range_db_p95_p10": 21.001,
+    "crest_factor_db": 12.171,
+    "rms_mean": 0.11738,
+    "rms_std": 0.08047,
+    "spectral_centroid_hz_mean": 486.2,
+    "spectral_centroid_hz_std": 452.81,
+    "spectral_bandwidth_hz_mean": 897.5,
+    "spectral_rolloff_hz_mean": 876.53,
+    "spectral_flatness_mean": 0.00036,
+    "spectral_contrast_mean": 19.22659,
+    "energy_share": {
+      "below_150_hz": 0.88476,
+      "150_to_2000_hz": 0.11408,
+      "above_2000_hz": 0.00116
+    },
+    "percussive_share": 0.36579,
+    "tonal_entropy_bits": 3.50663,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.24,
+      "relative_score": 0.56382
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.15252,
+        "spectral_centroid_hz": 444.75,
+        "onset_strength": 1.05763,
+        "spectral_flatness": 0.00032
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.14324,
+        "spectral_centroid_hz": 492.73,
+        "onset_strength": 1.16353,
+        "spectral_flatness": 0.00075
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.17453,
+        "spectral_centroid_hz": 406.14,
+        "onset_strength": 1.21524,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15709,
+        "spectral_centroid_hz": 448.34,
+        "onset_strength": 1.27438,
+        "spectral_flatness": 0.00042
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.11589,
+        "spectral_centroid_hz": 554.51,
+        "onset_strength": 1.4713,
+        "spectral_flatness": 0.00074
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.14691,
+        "spectral_centroid_hz": 481.57,
+        "onset_strength": 1.07118,
+        "spectral_flatness": 0.00045
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.1447,
+        "spectral_centroid_hz": 435.26,
+        "onset_strength": 1.00924,
+        "spectral_flatness": 0.00034
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.16664,
+        "spectral_centroid_hz": 384.25,
+        "onset_strength": 1.16498,
+        "spectral_flatness": 0.00034
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.11292,
+        "spectral_centroid_hz": 647.08,
+        "onset_strength": 1.14316,
+        "spectral_flatness": 0.00057
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.02449,
+        "spectral_centroid_hz": 593.7,
+        "onset_strength": 0.59751,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.03412,
+        "spectral_centroid_hz": 499.08,
+        "onset_strength": 0.58123,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.036,
+        "spectral_centroid_hz": 446.53,
+        "onset_strength": 0.56225,
+        "spectral_flatness": 3e-05
+      }
+    ]
+  }
+}
