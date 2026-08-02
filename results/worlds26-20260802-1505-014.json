@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Sunda Arc",
+    "track": "Distant Siren",
+    "request_id": "worlds26-20260802-1505-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7235f664-caf2-42ba-acb9-40be49f20410",
+      "title": "Distant Siren",
+      "artist": "Sunda Arc",
+      "duration_ms": 343898,
+      "first_release_date": "2022-11-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Sunda Arc",
+    "track": "Distant Siren",
+    "album": "Night Lands",
+    "duration_ms": 343898,
+    "release_date": "2022-11-18T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/3a/46/213a466a-e769-26d5-c924-4b71e849f77f/mzaf_6771772416580571429.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/distant-siren/1635550283?i=1635550288&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/distant-siren/1635550283?i=1635550288&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/3a/46/213a466a-e769-26d5-c924-4b71e849f77f/mzaf_6771772416580571429.plus.aac.p.m4a",
+      "bytes": 964018,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.06741,
+    "onset_rate_per_sec": 1.76811,
+    "dynamic_range_db_p95_p10": 11.106,
+    "crest_factor_db": 13.355,
+    "rms_mean": 0.11579,
+    "rms_std": 0.0505,
+    "spectral_centroid_hz_mean": 967.77,
+    "spectral_centroid_hz_std": 351.16,
+    "spectral_bandwidth_hz_mean": 1576.96,
+    "spectral_rolloff_hz_mean": 1797.2,
+    "spectral_flatness_mean": 0.00079,
+    "spectral_contrast_mean": 22.81687,
+    "energy_share": {
+      "below_150_hz": 0.69012,
+      "150_to_2000_hz": 0.29749,
+      "above_2000_hz": 0.01239
+    },
+    "percussive_share": 0.2403,
+    "tonal_entropy_bits": 3.45282,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.4856
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07399,
+        "spectral_centroid_hz": 686.34,
+        "onset_strength": 0.82657,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.06618,
+        "spectral_centroid_hz": 644.08,
+        "onset_strength": 0.83118,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08352,
+        "spectral_centroid_hz": 957.03,
+        "onset_strength": 1.09214,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.08021,
+        "spectral_centroid_hz": 862.81,
+        "onset_strength": 0.97325,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.08894,
+        "spectral_centroid_hz": 822.56,
+        "onset_strength": 1.09706,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.11205,
+        "spectral_centroid_hz": 978.83,
+        "onset_strength": 1.17839,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.10375,
+        "spectral_centroid_hz": 1006.59,
+        "onset_strength": 1.14496,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.14221,
+        "spectral_centroid_hz": 800.1,
+        "onset_strength": 1.40848,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.14682,
+        "spectral_centroid_hz": 1123.63,
+        "onset_strength": 1.06599,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.13095,
+        "spectral_centroid_hz": 1239.89,
+        "onset_strength": 1.30871,
+        "spectral_flatness": 0.0039
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.18986,
+        "spectral_centroid_hz": 1257.79,
+        "onset_strength": 1.2141,
+        "spectral_flatness": 0.00098
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1704,
+        "spectral_centroid_hz": 1230.54,
+        "onset_strength": 1.27404,
+        "spectral_flatness": 0.00173
+      }
+    ]
+  }
+}
