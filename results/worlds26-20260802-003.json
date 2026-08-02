@@ -1,64 +1,45 @@
 {
   "request": {
-    "artist": "Grandbrothers",
-    "track": "Infinite",
+    "artist": "BeraadGeslagen",
+    "track": "Isabellade",
     "request_id": "worlds26-20260802-003"
   },
   "status": "heard_official_short_preview",
   "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
     "Only the official short preview was heard; this is not a full-track analysis."
   ],
   "musicbrainz_candidates": [
     {
-      "mbid": "fd2c8ffc-be7f-4b56-b31a-66f5dcd6d7cd",
-      "title": "Infinite",
-      "artist": "Grandbrothers",
-      "duration_ms": 321000,
-      "first_release_date": "2023",
+      "mbid": "e92afbb4-4ec4-485c-bc1b-2dffd17c8f6f",
+      "title": "Isabellade",
+      "artist": "BeraadGeslagen",
+      "duration_ms": 373932,
+      "first_release_date": "2018-10-26",
       "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
-      "mbid": "a151a781-d92a-4cc0-b033-b2c279abec5c",
-      "title": "Infinite",
-      "artist": "Grandbrothers",
-      "duration_ms": 321786,
-      "first_release_date": "2023-04-14",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 1.0
-    },
-    {
-      "mbid": "928cd093-0dae-4854-a190-53a9d618d2ed",
-      "title": "Infinite",
-      "artist": "Grandbrothers",
-      "duration_ms": 321000,
-      "first_release_date": "2023-04-14",
-      "disambiguation": "Dolby Atmos",
       "musicbrainz_score": 100,
       "local_match_score": 1.0
     }
   ],
   "matched_recording": {
-    "artist": "Grandbrothers",
-    "track": "Infinite",
-    "album": "Late Reflections",
-    "duration_ms": 321792,
-    "release_date": "2023-02-09T12:00:00Z",
-    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/67/dc/9067dce9-c0ec-128d-091c-8cf581fd1273/mzaf_3483967724644443876.plus.aac.p.m4a",
-    "store_url": "https://music.apple.com/us/album/infinite/1721055169?i=1721055184&uo=4",
+    "artist": "BeraadGeslagen",
+    "track": "Isabellade",
+    "album": "Duizeldorp",
+    "duration_ms": 373932,
+    "release_date": "2018-10-26T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/07/a8/fb07a8c3-b6ea-5844-5d68-41bad88e9330/mzaf_4376297061768634613.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/isabellade/1436545172?i=1436545176&uo=4",
     "match_score": 1.0,
     "title_score": 1.0,
     "artist_score": 1.0,
-    "duration_difference_to_musicbrainz_ms": 6
+    "duration_difference_to_musicbrainz_ms": 0
   },
   "source": {
     "kind": "Apple_iTunes_official_preview",
-    "store_url": "https://music.apple.com/us/album/infinite/1721055169?i=1721055184&uo=4",
+    "store_url": "https://music.apple.com/us/album/isabellade/1436545172?i=1436545176&uo=4",
     "download": {
-      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/67/dc/9067dce9-c0ec-128d-091c-8cf581fd1273/mzaf_3483967724644443876.plus.aac.p.m4a",
-      "bytes": 1034657,
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/07/a8/fb07a8c3-b6ea-5844-5d68-41bad88e9330/mzaf_4376297061768634613.plus.aac.p.m4a",
+      "bytes": 1042057,
       "content_type": "audio/x-m4p"
     },
     "retained_audio": false
@@ -67,115 +48,115 @@
     "analysis_kind": "direct_audio_signal",
     "heard_seconds": 29.976,
     "sample_rate": 22050,
-    "tempo_bpm": 117.454,
-    "beat_interval_cv": 0.04653,
-    "onset_rate_per_sec": 7.70629,
-    "dynamic_range_db_p95_p10": 10.946,
-    "crest_factor_db": 13.41,
-    "rms_mean": 0.06576,
-    "rms_std": 0.02275,
-    "spectral_centroid_hz_mean": 876.53,
-    "spectral_centroid_hz_std": 201.67,
-    "spectral_bandwidth_hz_mean": 1292.7,
-    "spectral_rolloff_hz_mean": 1689.56,
-    "spectral_flatness_mean": 0.00036,
-    "spectral_contrast_mean": 21.97257,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.03146,
+    "onset_rate_per_sec": 2.76893,
+    "dynamic_range_db_p95_p10": 19.517,
+    "crest_factor_db": 12.153,
+    "rms_mean": 0.1211,
+    "rms_std": 0.07892,
+    "spectral_centroid_hz_mean": 2486.87,
+    "spectral_centroid_hz_std": 1118.61,
+    "spectral_bandwidth_hz_mean": 2788.31,
+    "spectral_rolloff_hz_mean": 5662.49,
+    "spectral_flatness_mean": 0.0337,
+    "spectral_contrast_mean": 19.39315,
     "energy_share": {
-      "below_150_hz": 0.69836,
-      "150_to_2000_hz": 0.29625,
-      "above_2000_hz": 0.00539
+      "below_150_hz": 0.72158,
+      "150_to_2000_hz": 0.25957,
+      "above_2000_hz": 0.01885
     },
-    "percussive_share": 0.12358,
-    "tonal_entropy_bits": 3.34894,
+    "percussive_share": 0.43266,
+    "tonal_entropy_bits": 3.5417,
     "climax": {
-      "segment": 5,
-      "time_sec": 11.24,
-      "relative_score": 0.64511
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 1.04955
     },
     "timeline_12_segments": [
       {
         "time_sec": 1.25,
-        "rms": 0.03038,
-        "spectral_centroid_hz": 1151.58,
-        "onset_strength": 0.89537,
-        "spectral_flatness": 0.00078
+        "rms": 0.13377,
+        "spectral_centroid_hz": 2168.63,
+        "onset_strength": 1.27827,
+        "spectral_flatness": 0.01987
       },
       {
         "time_sec": 3.75,
-        "rms": 0.05232,
-        "spectral_centroid_hz": 977.91,
-        "onset_strength": 0.87303,
-        "spectral_flatness": 0.00039
+        "rms": 0.11773,
+        "spectral_centroid_hz": 2594.17,
+        "onset_strength": 1.77543,
+        "spectral_flatness": 0.04706
       },
       {
         "time_sec": 6.24,
-        "rms": 0.03059,
-        "spectral_centroid_hz": 1258.53,
-        "onset_strength": 0.90601,
-        "spectral_flatness": 0.00093
+        "rms": 0.09646,
+        "spectral_centroid_hz": 3001.89,
+        "onset_strength": 1.69,
+        "spectral_flatness": 0.05301
       },
       {
         "time_sec": 8.74,
-        "rms": 0.07855,
-        "spectral_centroid_hz": 722.41,
-        "onset_strength": 0.89684,
-        "spectral_flatness": 0.00018
+        "rms": 0.12474,
+        "spectral_centroid_hz": 1976.89,
+        "onset_strength": 1.6433,
+        "spectral_flatness": 0.0139
       },
       {
         "time_sec": 11.24,
-        "rms": 0.08318,
-        "spectral_centroid_hz": 736.05,
-        "onset_strength": 0.89635,
-        "spectral_flatness": 0.00013
+        "rms": 0.11775,
+        "spectral_centroid_hz": 2244.22,
+        "onset_strength": 1.61207,
+        "spectral_flatness": 0.01901
       },
       {
         "time_sec": 13.74,
-        "rms": 0.07742,
-        "spectral_centroid_hz": 774.54,
-        "onset_strength": 0.86297,
-        "spectral_flatness": 0.00015
+        "rms": 0.10609,
+        "spectral_centroid_hz": 3054.08,
+        "onset_strength": 1.79177,
+        "spectral_flatness": 0.04832
       },
       {
         "time_sec": 16.24,
-        "rms": 0.0749,
-        "spectral_centroid_hz": 791.17,
-        "onset_strength": 0.8694,
-        "spectral_flatness": 0.00017
+        "rms": 0.09944,
+        "spectral_centroid_hz": 2479.31,
+        "onset_strength": 1.61741,
+        "spectral_flatness": 0.04724
       },
       {
         "time_sec": 18.73,
-        "rms": 0.07322,
-        "spectral_centroid_hz": 779.04,
-        "onset_strength": 0.87776,
-        "spectral_flatness": 0.00018
+        "rms": 0.12019,
+        "spectral_centroid_hz": 2716.65,
+        "onset_strength": 1.25127,
+        "spectral_flatness": 0.05354
       },
       {
         "time_sec": 21.23,
-        "rms": 0.07727,
-        "spectral_centroid_hz": 750.25,
-        "onset_strength": 0.87195,
-        "spectral_flatness": 0.00016
+        "rms": 0.11817,
+        "spectral_centroid_hz": 2405.45,
+        "onset_strength": 1.58516,
+        "spectral_flatness": 0.03854
       },
       {
         "time_sec": 23.73,
-        "rms": 0.07118,
-        "spectral_centroid_hz": 747.88,
-        "onset_strength": 0.86506,
-        "spectral_flatness": 0.00016
+        "rms": 0.11559,
+        "spectral_centroid_hz": 2273.88,
+        "onset_strength": 1.28722,
+        "spectral_flatness": 0.01717
       },
       {
         "time_sec": 26.23,
-        "rms": 0.07485,
-        "spectral_centroid_hz": 810.36,
-        "onset_strength": 0.89045,
-        "spectral_flatness": 0.00031
+        "rms": 0.13909,
+        "spectral_centroid_hz": 2669.18,
+        "onset_strength": 1.45842,
+        "spectral_flatness": 0.02589
       },
       {
         "time_sec": 28.73,
-        "rms": 0.06493,
-        "spectral_centroid_hz": 1021.35,
-        "onset_strength": 0.88119,
-        "spectral_flatness": 0.00079
+        "rms": 0.16401,
+        "spectral_centroid_hz": 2257.86,
+        "onset_strength": 1.42483,
+        "spectral_flatness": 0.02079
       }
     ]
   }
