@@ -1,0 +1,104 @@
+name: Listen to a batch request
+
+on:
+  push:
+    paths:
+      - "requests/*.json"
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.batch.outputs.matrix }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Build matrix from request file
+        id: batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          REQUEST_FILE="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^requests/.*\.json$' | tail -n 1)"
+          if [ -z "$REQUEST_FILE" ]; then
+            echo "No batch request file found in this commit."
+            exit 1
+          fi
+          jq -e '.tracks | type == "array" and length > 0' "$REQUEST_FILE" >/dev/null
+          MATRIX="$(jq -c '{include: [.tracks[] | {artist, track, request_id, source_url: (.source_url // "")} ]}' "$REQUEST_FILE")"
+          echo "matrix=$MATRIX" >> "$GITHUB_OUTPUT"
+
+  listen:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+
+    env:
+      ARTIST: ${{ matrix.artist }}
+      TRACK: ${{ matrix.track }}
+      REQUEST_ID: ${{ matrix.request_id }}
+      SOURCE_URL: ${{ matrix.source_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Analyze
+        shell: bash
+        run: |
+          set -euo pipefail
+          SAFE_ID="$(printf '%s' "$REQUEST_ID" | tr -cd '[:alnum:]_-')"
+          if [ -z "$SAFE_ID" ]; then SAFE_ID="batch"; fi
+          mkdir -p results
+          python listener.py \
+            --artist "$ARTIST" \
+            --track "$TRACK" \
+            --request-id "$SAFE_ID" \
+            --source-url "$SOURCE_URL" \
+            --output "results/${SAFE_ID}.json"
+          echo "RESULT_FILE=results/${SAFE_ID}.json" >> "$GITHUB_ENV"
+
+      - name: Commit result safely
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Tanya Music Listener"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$RESULT_FILE"
+          git commit -m "Listen: $ARTIST — $TRACK" || exit 0
+
+          for attempt in 1 2 3 4 5 6; do
+            echo "Push attempt $attempt"
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Result saved successfully."
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+
+          echo "Could not save result after six attempts."
+          exit 1
