@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Robohands",
+    "track": "Green",
+    "request_id": "worlds26-20260802-1505-019"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "1f23ef59-8465-4012-ac88-b2802e63c525",
+      "title": "Green",
+      "artist": "Robohands",
+      "duration_ms": 228000,
+      "first_release_date": "2018-04-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Robohands",
+    "track": "Green",
+    "album": "Green",
+    "duration_ms": 228589,
+    "release_date": "2018-05-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1a/8f/33/1a8f33b5-b205-d499-0d08-759f674acf56/mzaf_6265371257683148974.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/green/1623410474?i=1623410491&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 589
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/green/1623410474?i=1623410491&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1a/8f/33/1a8f33b5-b205-d499-0d08-759f674acf56/mzaf_6265371257683148974.plus.aac.p.m4a",
+      "bytes": 1111248,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.04752,
+    "onset_rate_per_sec": 4.64431,
+    "dynamic_range_db_p95_p10": 8.155,
+    "crest_factor_db": 16.372,
+    "rms_mean": 0.07311,
+    "rms_std": 0.02429,
+    "spectral_centroid_hz_mean": 1836.74,
+    "spectral_centroid_hz_std": 654.46,
+    "spectral_bandwidth_hz_mean": 2442.52,
+    "spectral_rolloff_hz_mean": 4333.08,
+    "spectral_flatness_mean": 0.01109,
+    "spectral_contrast_mean": 20.58506,
+    "energy_share": {
+      "below_150_hz": 0.61222,
+      "150_to_2000_hz": 0.36687,
+      "above_2000_hz": 0.0209
+    },
+    "percussive_share": 0.31638,
+    "tonal_entropy_bits": 3.48945,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.03482
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07416,
+        "spectral_centroid_hz": 1676.47,
+        "onset_strength": 1.17529,
+        "spectral_flatness": 0.00705
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06397,
+        "spectral_centroid_hz": 2107.18,
+        "onset_strength": 1.52335,
+        "spectral_flatness": 0.01594
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06774,
+        "spectral_centroid_hz": 1853.96,
+        "onset_strength": 1.31221,
+        "spectral_flatness": 0.01224
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06772,
+        "spectral_centroid_hz": 2047.15,
+        "onset_strength": 1.45061,
+        "spectral_flatness": 0.01418
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.07799,
+        "spectral_centroid_hz": 1888.72,
+        "onset_strength": 1.38937,
+        "spectral_flatness": 0.01393
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08122,
+        "spectral_centroid_hz": 1929.45,
+        "onset_strength": 1.44712,
+        "spectral_flatness": 0.00881
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07795,
+        "spectral_centroid_hz": 1783.52,
+        "onset_strength": 1.25029,
+        "spectral_flatness": 0.00856
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.06136,
+        "spectral_centroid_hz": 2207.9,
+        "onset_strength": 1.26007,
+        "spectral_flatness": 0.02094
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06925,
+        "spectral_centroid_hz": 2039.05,
+        "onset_strength": 1.28362,
+        "spectral_flatness": 0.01404
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07693,
+        "spectral_centroid_hz": 1659.44,
+        "onset_strength": 1.12724,
+        "spectral_flatness": 0.00801
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08054,
+        "spectral_centroid_hz": 1458.55,
+        "onset_strength": 1.32329,
+        "spectral_flatness": 0.00442
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07854,
+        "spectral_centroid_hz": 1391.23,
+        "onset_strength": 1.36324,
+        "spectral_flatness": 0.00488
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "1f23ef59-8465-4012-ac88-b2802e63c525",
+      "title": "Green",
+      "artist": "Robohands",
+      "duration_ms": 228000,
+      "first_release_date": "2018-04-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "1f23ef59-8465-4012-ac88-b2802e63c525",
+      "duration_sec": 228.623672485,
+      "sample_rate": 44100,
+      "tempo_bpm": 97.3924789429,
+      "danceability": 1.05971491337,
+      "onset_rate": 4.12884664536,
+      "beats_count": 377,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.070064984262,
+      "dynamic_complexity": 3.34163498878,
+      "average_loudness": 0.88519179821,
+      "spectral_centroid_mean": 720.478759766,
+      "spectral_flux_mean": 0.0828916281462,
+      "spectral_rolloff_mean": 598.607971191,
+      "dissonance_mean": 0.425057590008,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
