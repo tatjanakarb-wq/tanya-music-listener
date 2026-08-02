@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Kinkajous",
+    "track": "Convolution",
+    "request_id": "worlds26-20260802-024"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "38a3b460-181c-4afd-ae9b-e9fec42d827c",
+      "title": "Convolution",
+      "artist": "Kinkajous",
+      "duration_ms": 281967,
+      "first_release_date": "2021-09-17",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kinkajous",
+    "track": "Convolution",
+    "album": "Being Waves",
+    "duration_ms": 281967,
+    "release_date": "2021-07-07T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/b4/7f/8cb47f4f-ef1c-10b5-8197-2c009da19c6a/mzaf_13800189989919960363.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/convolution/1762787555?i=1762787556&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/convolution/1762787555?i=1762787556&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/b4/7f/8cb47f4f-ef1c-10b5-8197-2c009da19c6a/mzaf_13800189989919960363.plus.aac.p.m4a",
+      "bytes": 1007685,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.06558,
+    "onset_rate_per_sec": 4.43696,
+    "dynamic_range_db_p95_p10": 15.012,
+    "crest_factor_db": 15.85,
+    "rms_mean": 0.0845,
+    "rms_std": 0.04505,
+    "spectral_centroid_hz_mean": 1516.23,
+    "spectral_centroid_hz_std": 596.62,
+    "spectral_bandwidth_hz_mean": 1922.18,
+    "spectral_rolloff_hz_mean": 3121.96,
+    "spectral_flatness_mean": 0.00689,
+    "spectral_contrast_mean": 20.28542,
+    "energy_share": {
+      "below_150_hz": 0.13421,
+      "150_to_2000_hz": 0.83159,
+      "above_2000_hz": 0.0342
+    },
+    "percussive_share": 0.27277,
+    "tonal_entropy_bits": 3.4222,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 1.06182
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.16539,
+        "spectral_centroid_hz": 1686.0,
+        "onset_strength": 0.91671,
+        "spectral_flatness": 0.00507
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.13338,
+        "spectral_centroid_hz": 1645.81,
+        "onset_strength": 0.80533,
+        "spectral_flatness": 0.00549
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08386,
+        "spectral_centroid_hz": 1135.62,
+        "onset_strength": 0.88112,
+        "spectral_flatness": 0.00093
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.06572,
+        "spectral_centroid_hz": 1440.61,
+        "onset_strength": 1.02077,
+        "spectral_flatness": 0.00182
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.0325,
+        "spectral_centroid_hz": 1237.06,
+        "onset_strength": 1.17129,
+        "spectral_flatness": 0.00146
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.04892,
+        "spectral_centroid_hz": 919.82,
+        "onset_strength": 1.05507,
+        "spectral_flatness": 0.00144
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.0931,
+        "spectral_centroid_hz": 818.12,
+        "onset_strength": 1.08908,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.05558,
+        "spectral_centroid_hz": 1465.36,
+        "onset_strength": 1.10949,
+        "spectral_flatness": 0.00634
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.05502,
+        "spectral_centroid_hz": 2157.26,
+        "onset_strength": 1.66409,
+        "spectral_flatness": 0.02529
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.11534,
+        "spectral_centroid_hz": 1577.48,
+        "onset_strength": 1.33926,
+        "spectral_flatness": 0.00669
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.08562,
+        "spectral_centroid_hz": 1944.6,
+        "onset_strength": 1.20033,
+        "spectral_flatness": 0.01114
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.07987,
+        "spectral_centroid_hz": 2162.59,
+        "onset_strength": 1.24725,
+        "spectral_flatness": 0.01667
+      }
+    ]
+  }
+}
