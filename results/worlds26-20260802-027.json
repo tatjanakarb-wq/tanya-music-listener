@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Svaneborg Kardyb",
+    "track": "Cycles",
+    "request_id": "worlds26-20260802-027"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4f63e465-025c-453d-988b-b6238e2f0c57",
+      "title": "Cycles",
+      "artist": "Svaneborg Kardyb",
+      "duration_ms": 259971,
+      "first_release_date": "2024-10-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Svaneborg Kardyb",
+    "track": "Cycles",
+    "album": "Superkilen",
+    "duration_ms": 259971,
+    "release_date": "2024-08-02T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/b2/93/5eb29355-1465-2127-c8c6-a46298ae97cf/mzaf_16562327145630342885.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/cycles/1750247514?i=1750247728&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/cycles/1750247514?i=1750247728&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/b2/93/5eb29355-1465-2127-c8c6-a46298ae97cf/mzaf_16562327145630342885.plus.aac.p.m4a",
+      "bytes": 995321,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.02795,
+    "onset_rate_per_sec": 4.53704,
+    "dynamic_range_db_p95_p10": 21.256,
+    "crest_factor_db": 19.09,
+    "rms_mean": 0.0427,
+    "rms_std": 0.03008,
+    "spectral_centroid_hz_mean": 1426.14,
+    "spectral_centroid_hz_std": 774.58,
+    "spectral_bandwidth_hz_mean": 2337.57,
+    "spectral_rolloff_hz_mean": 3038.34,
+    "spectral_flatness_mean": 0.006,
+    "spectral_contrast_mean": 18.4323,
+    "energy_share": {
+      "below_150_hz": 0.51866,
+      "150_to_2000_hz": 0.47912,
+      "above_2000_hz": 0.00221
+    },
+    "percussive_share": 0.34925,
+    "tonal_entropy_bits": 3.38889,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.23,
+      "relative_score": 0.83696
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04277,
+        "spectral_centroid_hz": 1329.3,
+        "onset_strength": 1.81286,
+        "spectral_flatness": 0.0021
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.03131,
+        "spectral_centroid_hz": 1523.38,
+        "onset_strength": 1.83532,
+        "spectral_flatness": 0.00365
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01856,
+        "spectral_centroid_hz": 2650.32,
+        "onset_strength": 1.95973,
+        "spectral_flatness": 0.02564
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.04422,
+        "spectral_centroid_hz": 1200.16,
+        "onset_strength": 1.56181,
+        "spectral_flatness": 0.00197
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.06938,
+        "spectral_centroid_hz": 969.01,
+        "onset_strength": 1.69697,
+        "spectral_flatness": 0.0012
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.03016,
+        "spectral_centroid_hz": 1640.98,
+        "onset_strength": 1.52801,
+        "spectral_flatness": 0.0059
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.02768,
+        "spectral_centroid_hz": 2135.14,
+        "onset_strength": 1.6359,
+        "spectral_flatness": 0.02021
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.04291,
+        "spectral_centroid_hz": 1139.44,
+        "onset_strength": 1.60158,
+        "spectral_flatness": 0.00183
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.07997,
+        "spectral_centroid_hz": 792.47,
+        "onset_strength": 1.5926,
+        "spectral_flatness": 0.00085
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.03457,
+        "spectral_centroid_hz": 1382.11,
+        "onset_strength": 1.52823,
+        "spectral_flatness": 0.00414
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.04311,
+        "spectral_centroid_hz": 1213.23,
+        "onset_strength": 1.56598,
+        "spectral_flatness": 0.00272
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.04768,
+        "spectral_centroid_hz": 1141.25,
+        "onset_strength": 1.7111,
+        "spectral_flatness": 0.00186
+      }
+    ]
+  }
+}
