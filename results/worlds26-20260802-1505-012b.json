@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Nik Bärtsch’s Ronin",
+    "track": "Modul 36",
+    "request_id": "worlds26-20260802-1505-012b"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "42b2cd53-212e-4bd5-b9c7-7c9c0b2e784c",
+      "title": "Modul 36",
+      "artist": "Nik Bärtsch's Ronin",
+      "duration_ms": 917826,
+      "first_release_date": "2006-02-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "80018f33-87f0-4463-964f-653ccbb0d70a",
+      "title": "Modul 36",
+      "artist": "Nik Bärtsch’s Ronin",
+      "duration_ms": 817000,
+      "first_release_date": "2018-05-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Nik Bärtsch's Ronin",
+    "track": "Modul 36",
+    "album": "Awase",
+    "duration_ms": 817560,
+    "release_date": "2018-05-04T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/5c/db/ee5cdb53-08a9-b1e4-470d-b3f1c0ea6b72/mzaf_1654909178692996766.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/modul-36/1364943138?i=1364943151&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 560
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/modul-36/1364943138?i=1364943151&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/5c/db/ee5cdb53-08a9-b1e4-470d-b3f1c0ea6b72/mzaf_1654909178692996766.plus.aac.p.m4a",
+      "bytes": 1108496,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.06915,
+    "onset_rate_per_sec": 2.77322,
+    "dynamic_range_db_p95_p10": 18.436,
+    "crest_factor_db": 21.045,
+    "rms_mean": 0.00563,
+    "rms_std": 0.0046,
+    "spectral_centroid_hz_mean": 645.96,
+    "spectral_centroid_hz_std": 179.26,
+    "spectral_bandwidth_hz_mean": 1238.55,
+    "spectral_rolloff_hz_mean": 796.3,
+    "spectral_flatness_mean": 0.00017,
+    "spectral_contrast_mean": 20.59276,
+    "energy_share": {
+      "below_150_hz": 0.03983,
+      "150_to_2000_hz": 0.96001,
+      "above_2000_hz": 0.00016
+    },
+    "percussive_share": 0.11072,
+    "tonal_entropy_bits": 3.25682,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 0.83664
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00187,
+        "spectral_centroid_hz": 693.28,
+        "onset_strength": 0.43411,
+        "spectral_flatness": 0.00041
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01257,
+        "spectral_centroid_hz": 441.2,
+        "onset_strength": 0.73564,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00804,
+        "spectral_centroid_hz": 488.53,
+        "onset_strength": 0.83596,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.00367,
+        "spectral_centroid_hz": 690.88,
+        "onset_strength": 0.9776,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.00304,
+        "spectral_centroid_hz": 757.92,
+        "onset_strength": 0.85114,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.004,
+        "spectral_centroid_hz": 751.13,
+        "onset_strength": 1.01385,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.00321,
+        "spectral_centroid_hz": 805.75,
+        "onset_strength": 0.87523,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.00373,
+        "spectral_centroid_hz": 809.33,
+        "onset_strength": 0.88991,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.00675,
+        "spectral_centroid_hz": 574.48,
+        "onset_strength": 0.65103,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.00687,
+        "spectral_centroid_hz": 629.39,
+        "onset_strength": 0.75678,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.00414,
+        "spectral_centroid_hz": 596.84,
+        "onset_strength": 0.49331,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.00963,
+        "spectral_centroid_hz": 513.1,
+        "onset_strength": 0.92209,
+        "spectral_flatness": 4e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "42b2cd53-212e-4bd5-b9c7-7c9c0b2e784c",
+      "title": "Modul 36",
+      "artist": "Nik Bärtsch's Ronin",
+      "duration_ms": 917826,
+      "first_release_date": "2006-02-24",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "42b2cd53-212e-4bd5-b9c7-7c9c0b2e784c",
+      "duration_sec": 917.813354492,
+      "sample_rate": 44100,
+      "tempo_bpm": 142.828887939,
+      "danceability": 1.22881007195,
+      "onset_rate": 3.47124314308,
+      "beats_count": 1670,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0701239556074,
+      "dynamic_complexity": 9.95079803467,
+      "average_loudness": 0.196117177606,
+      "spectral_centroid_mean": 585.299804688,
+      "spectral_flux_mean": 0.110084012151,
+      "spectral_rolloff_mean": 13844.7568359,
+      "dissonance_mean": 0.44195830822,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
