@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "Kelly Moran",
+    "track": "Halogen",
+    "request_id": "worlds26-20260802-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5dd0c529-0e90-4a6c-989c-b88b97dd45bd",
+      "title": "Halogen",
+      "artist": "Kelly Moran",
+      "duration_ms": 435000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "8f3a369f-6173-4f9e-97dd-93dab5bac203",
+      "title": "Halogen (Una corda)",
+      "artist": "Kelly Moran",
+      "duration_ms": 402000,
+      "first_release_date": "2019-05-17",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.7583
+    }
+  ],
+  "matched_recording": {
+    "artist": "Kelly Moran",
+    "track": "Halogen",
+    "album": "Ultraviolet",
+    "duration_ms": 435598,
+    "release_date": "2018-11-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0c/9d/7a/0c9d7aa7-3e0a-9f5a-bcc7-ea43bbedae51/mzaf_5731120815535311874.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/halogen/1715661282?i=1715661738&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 598
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/halogen/1715661282?i=1715661738&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0c/9d/7a/0c9d7aa7-3e0a-9f5a-bcc7-ea43bbedae51/mzaf_5731120815535311874.plus.aac.p.m4a",
+      "bytes": 1009665,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.05556,
+    "onset_rate_per_sec": 1.60255,
+    "dynamic_range_db_p95_p10": 24.125,
+    "crest_factor_db": 20.23,
+    "rms_mean": 0.02608,
+    "rms_std": 0.02132,
+    "spectral_centroid_hz_mean": 1009.89,
+    "spectral_centroid_hz_std": 479.83,
+    "spectral_bandwidth_hz_mean": 1285.51,
+    "spectral_rolloff_hz_mean": 1658.44,
+    "spectral_flatness_mean": 0.00177,
+    "spectral_contrast_mean": 22.10883,
+    "energy_share": {
+      "below_150_hz": 0.02451,
+      "150_to_2000_hz": 0.9603,
+      "above_2000_hz": 0.01519
+    },
+    "percussive_share": 0.19897,
+    "tonal_entropy_bits": 3.4957,
+    "climax": {
+      "segment": 1,
+      "time_sec": 1.25,
+      "relative_score": 1.67742
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05152,
+        "spectral_centroid_hz": 1548.64,
+        "onset_strength": 1.71154,
+        "spectral_flatness": 0.00516
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02951,
+        "spectral_centroid_hz": 944.78,
+        "onset_strength": 0.64858,
+        "spectral_flatness": 0.00058
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00777,
+        "spectral_centroid_hz": 645.18,
+        "onset_strength": 0.34753,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.0235,
+        "spectral_centroid_hz": 1035.92,
+        "onset_strength": 1.07471,
+        "spectral_flatness": 0.0028
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.04701,
+        "spectral_centroid_hz": 1266.88,
+        "onset_strength": 1.08288,
+        "spectral_flatness": 0.00236
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.01096,
+        "spectral_centroid_hz": 735.57,
+        "onset_strength": 0.42536,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.00384,
+        "spectral_centroid_hz": 596.68,
+        "onset_strength": 0.28823,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.04546,
+        "spectral_centroid_hz": 1419.49,
+        "onset_strength": 1.54098,
+        "spectral_flatness": 0.00424
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.0282,
+        "spectral_centroid_hz": 957.78,
+        "onset_strength": 0.75245,
+        "spectral_flatness": 0.00079
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.00866,
+        "spectral_centroid_hz": 639.13,
+        "onset_strength": 0.35823,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.01751,
+        "spectral_centroid_hz": 988.73,
+        "onset_strength": 0.93595,
+        "spectral_flatness": 0.00236
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.03897,
+        "spectral_centroid_hz": 1339.43,
+        "onset_strength": 1.26553,
+        "spectral_flatness": 0.00278
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "5dd0c529-0e90-4a6c-989c-b88b97dd45bd",
+      "title": "Halogen",
+      "artist": "Kelly Moran",
+      "duration_ms": 435000,
+      "first_release_date": "2018-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "5dd0c529-0e90-4a6c-989c-b88b97dd45bd",
+      "duration_sec": 435.598388672,
+      "sample_rate": 44100,
+      "tempo_bpm": 178.205657959,
+      "danceability": 0.87810754776,
+      "onset_rate": 4.77023506165,
+      "beats_count": 983,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.0423195809126,
+      "dynamic_complexity": 4.89638471603,
+      "average_loudness": 0.163392856717,
+      "spectral_centroid_mean": 679.784606934,
+      "spectral_flux_mean": 0.0472979694605,
+      "spectral_rolloff_mean": 1005.70739746,
+      "dissonance_mean": 0.439591258764,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
