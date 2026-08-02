@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Shai Maestro",
+    "track": "The Stone Skipper",
+    "request_id": "worlds26-20260802-1505-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "98212563-8dcb-415c-a11c-a9fa2d342a5f",
+      "title": "The Stone Skipper",
+      "artist": "Shai Maestro Trio",
+      "duration_ms": 312000,
+      "first_release_date": "2016-11-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.9276
+    }
+  ],
+  "matched_recording": {
+    "artist": "Shai Maestro",
+    "track": "The Stone Skipper",
+    "album": "The Stone Skipper",
+    "duration_ms": 311546,
+    "release_date": "2016-11-11T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/a2/67/89a26721-92bb-9d28-5b33-630728e93d28/mzaf_15546676035967649908.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-stone-skipper/1164502670?i=1164503130&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 454
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-stone-skipper/1164502670?i=1164503130&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/a2/67/89a26721-92bb-9d28-5b33-630728e93d28/mzaf_15546676035967649908.plus.aac.p.m4a",
+      "bytes": 1019201,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.04612,
+    "onset_rate_per_sec": 6.27665,
+    "dynamic_range_db_p95_p10": 11.801,
+    "crest_factor_db": 18.741,
+    "rms_mean": 0.05662,
+    "rms_std": 0.03147,
+    "spectral_centroid_hz_mean": 1100.37,
+    "spectral_centroid_hz_std": 552.71,
+    "spectral_bandwidth_hz_mean": 1457.34,
+    "spectral_rolloff_hz_mean": 2144.01,
+    "spectral_flatness_mean": 0.00449,
+    "spectral_contrast_mean": 19.16146,
+    "energy_share": {
+      "below_150_hz": 0.43397,
+      "150_to_2000_hz": 0.55283,
+      "above_2000_hz": 0.01321
+    },
+    "percussive_share": 0.49493,
+    "tonal_entropy_bits": 3.54733,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.21,
+      "relative_score": 0.93913
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04769,
+        "spectral_centroid_hz": 828.65,
+        "onset_strength": 1.57763,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04832,
+        "spectral_centroid_hz": 911.84,
+        "onset_strength": 1.67552,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0477,
+        "spectral_centroid_hz": 748.78,
+        "onset_strength": 1.684,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.06302,
+        "spectral_centroid_hz": 1264.51,
+        "onset_strength": 2.41482,
+        "spectral_flatness": 0.01027
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.05601,
+        "spectral_centroid_hz": 1239.71,
+        "onset_strength": 2.3426,
+        "spectral_flatness": 0.00606
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.05489,
+        "spectral_centroid_hz": 1108.68,
+        "onset_strength": 2.54805,
+        "spectral_flatness": 0.00382
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.06395,
+        "spectral_centroid_hz": 1119.14,
+        "onset_strength": 2.70487,
+        "spectral_flatness": 0.00529
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.05271,
+        "spectral_centroid_hz": 1663.36,
+        "onset_strength": 2.42481,
+        "spectral_flatness": 0.01296
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.05809,
+        "spectral_centroid_hz": 1272.23,
+        "onset_strength": 2.39824,
+        "spectral_flatness": 0.00504
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.05456,
+        "spectral_centroid_hz": 1023.6,
+        "onset_strength": 2.63218,
+        "spectral_flatness": 0.00343
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.06838,
+        "spectral_centroid_hz": 982.45,
+        "onset_strength": 2.40251,
+        "spectral_flatness": 0.0029
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.06414,
+        "spectral_centroid_hz": 1037.64,
+        "onset_strength": 2.58281,
+        "spectral_flatness": 0.00327
+      }
+    ]
+  }
+}
