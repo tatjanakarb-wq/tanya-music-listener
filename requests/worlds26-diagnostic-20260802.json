@@ -2,6 +2,7 @@
   "batch": "worlds26-diagnostic-20260802",
   "playlist": 26,
   "title": "Пока рождаются миры",
+  "trigger": 2,
   "tracks": [
     {
       "request_id": "worlds26-20260802-diagnostic",
