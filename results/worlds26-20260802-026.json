@@ -1,0 +1,225 @@
+{
+  "request": {
+    "artist": "Arooj Aftab",
+    "track": "Baghon Main",
+    "request_id": "worlds26-20260802-026"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "93b3d9b5-9a73-4a69-8b20-8157d9d1b18d",
+      "title": "Baghon Main",
+      "artist": "Arooj Aftab",
+      "duration_ms": 407506,
+      "first_release_date": "2021-06",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "90d85a3f-1aeb-47df-84ad-d52f6e733534",
+      "title": "Baghon Main",
+      "artist": "Arooj Aftab",
+      "duration_ms": 404226,
+      "first_release_date": "2021-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2fba6919-20a3-4092-9c7d-83b5c8bd1d24",
+      "title": "Baghon main pade jhoole",
+      "artist": "Arooj Aftab",
+      "duration_ms": 443200,
+      "first_release_date": "2014-12-01",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.7953
+    },
+    {
+      "mbid": "fcbaf65d-43df-4d78-8505-09a3a6a22c79",
+      "title": "Baghon Main",
+      "artist": "Arooj Aftab Darian Donovan Thomas",
+      "duration_ms": 404261,
+      "first_release_date": "2021-04-23",
+      "disambiguation": "",
+      "musicbrainz_score": 78,
+      "local_match_score": 0.79
+    }
+  ],
+  "matched_recording": {
+    "artist": "Arooj Aftab",
+    "track": "Baghon Main (feat. Darian Donovan Thomas)",
+    "album": "Vulture Prince (Deluxe Edition)",
+    "duration_ms": 404261,
+    "release_date": "2021-04-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/16/5d/17165db5-2b06-e071-73ab-e049a187dd26/mzaf_1425829153746793500.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/baghon-main-feat-darian-donovan-thomas/1613561221?i=1613561414&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 35
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/baghon-main-feat-darian-donovan-thomas/1613561221?i=1613561414&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/16/5d/17165db5-2b06-e071-73ab-e049a187dd26/mzaf_1425829153746793500.plus.aac.p.m4a",
+      "bytes": 1013203,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.09126,
+    "onset_rate_per_sec": 1.83483,
+    "dynamic_range_db_p95_p10": 22.724,
+    "crest_factor_db": 15.664,
+    "rms_mean": 0.06561,
+    "rms_std": 0.05524,
+    "spectral_centroid_hz_mean": 918.67,
+    "spectral_centroid_hz_std": 663.81,
+    "spectral_bandwidth_hz_mean": 1472.1,
+    "spectral_rolloff_hz_mean": 1872.62,
+    "spectral_flatness_mean": 0.00065,
+    "spectral_contrast_mean": 23.96577,
+    "energy_share": {
+      "below_150_hz": 0.46405,
+      "150_to_2000_hz": 0.53329,
+      "above_2000_hz": 0.00266
+    },
+    "percussive_share": 0.07899,
+    "tonal_entropy_bits": 3.14802,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.23,
+      "relative_score": 1.68061
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06448,
+        "spectral_centroid_hz": 555.0,
+        "onset_strength": 0.69529,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.04979,
+        "spectral_centroid_hz": 513.16,
+        "onset_strength": 0.58327,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05412,
+        "spectral_centroid_hz": 421.73,
+        "onset_strength": 0.47937,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.02587,
+        "spectral_centroid_hz": 527.03,
+        "onset_strength": 0.54351,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.06837,
+        "spectral_centroid_hz": 497.43,
+        "onset_strength": 0.63228,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.06563,
+        "spectral_centroid_hz": 735.54,
+        "onset_strength": 0.78666,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.07142,
+        "spectral_centroid_hz": 655.98,
+        "onset_strength": 0.64098,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.01929,
+        "spectral_centroid_hz": 962.81,
+        "onset_strength": 0.69046,
+        "spectral_flatness": 0.00057
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.13677,
+        "spectral_centroid_hz": 983.02,
+        "onset_strength": 0.92839,
+        "spectral_flatness": 0.00044
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10322,
+        "spectral_centroid_hz": 2308.98,
+        "onset_strength": 0.81944,
+        "spectral_flatness": 0.00131
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.08768,
+        "spectral_centroid_hz": 1644.69,
+        "onset_strength": 0.8361,
+        "spectral_flatness": 0.00074
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.04051,
+        "spectral_centroid_hz": 1220.08,
+        "onset_strength": 0.87872,
+        "spectral_flatness": 0.00403
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "2fba6919-20a3-4092-9c7d-83b5c8bd1d24",
+      "title": "Baghon main pade jhoole",
+      "artist": "Arooj Aftab",
+      "duration_ms": 443200,
+      "first_release_date": "2014-12-01",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.7953
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "2fba6919-20a3-4092-9c7d-83b5c8bd1d24",
+      "duration_sec": 443.245727539,
+      "sample_rate": 44100,
+      "tempo_bpm": 113.683815002,
+      "danceability": 0.941237747669,
+      "onset_rate": 1.52507352829,
+      "beats_count": 864,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0466163828969,
+      "dynamic_complexity": 6.17198896408,
+      "average_loudness": 0.33099386096,
+      "spectral_centroid_mean": 598.177062988,
+      "spectral_flux_mean": 0.0531438142061,
+      "spectral_rolloff_mean": 610.396972656,
+      "dissonance_mean": 0.415938109159,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
