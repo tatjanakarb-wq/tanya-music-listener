@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "results/worlds26-*.json"
+      - "triggers/worlds26-summary-*.txt"
 
 permissions:
   contents: write
