@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Ill Considered",
+    "track": "Tangled",
+    "request_id": "worlds26-20260802-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "134ecfbc-4e2a-431e-8d8a-fe5fb73c9899",
+      "title": "Tangled",
+      "artist": "Ill Considered",
+      "duration_ms": 363513,
+      "first_release_date": "2017-09-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "dc4c8cda-9b7d-41e4-9c1a-7ec1f6d80418",
+      "title": "Tangled",
+      "artist": "Ill Considered",
+      "duration_ms": 206588,
+      "first_release_date": "2018-04-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Ill Considered",
+    "track": "Tangled",
+    "album": "Ill Considered",
+    "duration_ms": 363513,
+    "release_date": "2017-06-14T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ee/cf/76/eecf7603-0816-1027-e9c8-c889e082f14a/mzaf_1313516153047715578.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/tangled/1660016795?i=1660016798&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/tangled/1660016795?i=1660016798&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ee/cf/76/eecf7603-0816-1027-e9c8-c889e082f14a/mzaf_1313516153047715578.plus.aac.p.m4a",
+      "bytes": 1053689,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.04037,
+    "onset_rate_per_sec": 4.20995,
+    "dynamic_range_db_p95_p10": 13.888,
+    "crest_factor_db": 9.601,
+    "rms_mean": 0.12543,
+    "rms_std": 0.05729,
+    "spectral_centroid_hz_mean": 899.67,
+    "spectral_centroid_hz_std": 798.38,
+    "spectral_bandwidth_hz_mean": 1665.35,
+    "spectral_rolloff_hz_mean": 1861.05,
+    "spectral_flatness_mean": 0.00187,
+    "spectral_contrast_mean": 19.07083,
+    "energy_share": {
+      "below_150_hz": 0.9737,
+      "150_to_2000_hz": 0.02492,
+      "above_2000_hz": 0.00139
+    },
+    "percussive_share": 0.0778,
+    "tonal_entropy_bits": 3.50526,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.96274
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05919,
+        "spectral_centroid_hz": 540.74,
+        "onset_strength": 0.81211,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11959,
+        "spectral_centroid_hz": 173.4,
+        "onset_strength": 0.67756,
+        "spectral_flatness": 0.0
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12894,
+        "spectral_centroid_hz": 280.99,
+        "onset_strength": 1.15944,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10307,
+        "spectral_centroid_hz": 526.12,
+        "onset_strength": 1.90663,
+        "spectral_flatness": 0.00063
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.1439,
+        "spectral_centroid_hz": 567.96,
+        "onset_strength": 1.52271,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.13339,
+        "spectral_centroid_hz": 562.28,
+        "onset_strength": 1.61119,
+        "spectral_flatness": 0.0006
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11432,
+        "spectral_centroid_hz": 1067.17,
+        "onset_strength": 1.67753,
+        "spectral_flatness": 0.00281
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.15397,
+        "spectral_centroid_hz": 1182.81,
+        "onset_strength": 1.57974,
+        "spectral_flatness": 0.00175
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.13814,
+        "spectral_centroid_hz": 1400.67,
+        "onset_strength": 1.68899,
+        "spectral_flatness": 0.00496
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11051,
+        "spectral_centroid_hz": 1592.89,
+        "onset_strength": 1.49,
+        "spectral_flatness": 0.00368
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.15281,
+        "spectral_centroid_hz": 1405.15,
+        "onset_strength": 1.68748,
+        "spectral_flatness": 0.00224
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.14677,
+        "spectral_centroid_hz": 1490.1,
+        "onset_strength": 1.59325,
+        "spectral_flatness": 0.00291
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "134ecfbc-4e2a-431e-8d8a-fe5fb73c9899",
+      "title": "Tangled",
+      "artist": "Ill Considered",
+      "duration_ms": 363513,
+      "first_release_date": "2017-09-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "134ecfbc-4e2a-431e-8d8a-fe5fb73c9899",
+      "duration_sec": 363.546112061,
+      "sample_rate": 44100,
+      "tempo_bpm": 136.324188232,
+      "danceability": 1.03005540371,
+      "onset_rate": 5.30302000046,
+      "beats_count": 809,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.118518516421,
+      "dynamic_complexity": 2.96920323372,
+      "average_loudness": 0.923203885555,
+      "spectral_centroid_mean": 798.194030762,
+      "spectral_flux_mean": 0.103447578847,
+      "spectral_rolloff_mean": 366.202850342,
+      "dissonance_mean": 0.463734269142,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
