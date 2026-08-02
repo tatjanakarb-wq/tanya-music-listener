@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Binker and Moses",
+    "track": "Intoxication from the Jahvmonishi Leaves",
+    "request_id": "worlds26-20260802-1505-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "06df2bbc-4361-4286-83a5-d9b13922ae3e",
+      "title": "Intoxication From the Jahvmonishi Leaves",
+      "artist": "Binker and Moses",
+      "duration_ms": 609000,
+      "first_release_date": "2020-12-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ca00f3a5-acca-4cd8-b31b-fcb50e31fd76",
+      "title": "Intoxication From the Jahvmonishi Leaves",
+      "artist": "Binker Moses",
+      "duration_ms": 383000,
+      "first_release_date": "2017-06-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.94
+    }
+  ],
+  "matched_recording": {
+    "artist": "Binker and Moses",
+    "track": "Intoxication from the Jahvmonishi Leaves",
+    "album": "Journey to the Mountain of Forever",
+    "duration_ms": 383596,
+    "release_date": "2017-06-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fb/cc/be/fbccbed9-e333-b611-26db-5d7e298b280a/mzaf_12900407332363831979.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/intoxication-from-the-jahvmonishi-leaves/1707029949?i=1707030348&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 596
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/intoxication-from-the-jahvmonishi-leaves/1707029949?i=1707030348&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fb/cc/be/fbccbed9-e333-b611-26db-5d7e298b280a/mzaf_12900407332363831979.plus.aac.p.m4a",
+      "bytes": 1018246,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.06432,
+    "onset_rate_per_sec": 5.1749,
+    "dynamic_range_db_p95_p10": 15.132,
+    "crest_factor_db": 19.644,
+    "rms_mean": 0.02425,
+    "rms_std": 0.01503,
+    "spectral_centroid_hz_mean": 2299.25,
+    "spectral_centroid_hz_std": 610.69,
+    "spectral_bandwidth_hz_mean": 2368.38,
+    "spectral_rolloff_hz_mean": 4877.91,
+    "spectral_flatness_mean": 0.02459,
+    "spectral_contrast_mean": 19.63153,
+    "energy_share": {
+      "below_150_hz": 0.46284,
+      "150_to_2000_hz": 0.48656,
+      "above_2000_hz": 0.0506
+    },
+    "percussive_share": 0.46746,
+    "tonal_entropy_bits": 3.54002,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.21,
+      "relative_score": 1.46101
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02227,
+        "spectral_centroid_hz": 2480.05,
+        "onset_strength": 1.65663,
+        "spectral_flatness": 0.02176
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02212,
+        "spectral_centroid_hz": 2080.14,
+        "onset_strength": 1.6909,
+        "spectral_flatness": 0.01284
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.02526,
+        "spectral_centroid_hz": 2075.04,
+        "onset_strength": 1.76445,
+        "spectral_flatness": 0.01411
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.02782,
+        "spectral_centroid_hz": 2202.1,
+        "onset_strength": 1.79583,
+        "spectral_flatness": 0.02104
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.02021,
+        "spectral_centroid_hz": 2275.62,
+        "onset_strength": 1.65071,
+        "spectral_flatness": 0.02933
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.01987,
+        "spectral_centroid_hz": 2319.81,
+        "onset_strength": 1.66311,
+        "spectral_flatness": 0.03107
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.02253,
+        "spectral_centroid_hz": 2380.1,
+        "onset_strength": 1.72605,
+        "spectral_flatness": 0.03326
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.02197,
+        "spectral_centroid_hz": 2418.13,
+        "onset_strength": 1.53499,
+        "spectral_flatness": 0.0314
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.02808,
+        "spectral_centroid_hz": 2269.72,
+        "onset_strength": 1.47576,
+        "spectral_flatness": 0.01685
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.02555,
+        "spectral_centroid_hz": 2409.03,
+        "onset_strength": 1.71762,
+        "spectral_flatness": 0.03218
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.02821,
+        "spectral_centroid_hz": 2558.56,
+        "onset_strength": 1.84453,
+        "spectral_flatness": 0.03208
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.02706,
+        "spectral_centroid_hz": 2124.92,
+        "onset_strength": 1.44891,
+        "spectral_flatness": 0.01912
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "06df2bbc-4361-4286-83a5-d9b13922ae3e",
+      "title": "Intoxication From the Jahvmonishi Leaves",
+      "artist": "Binker and Moses",
+      "duration_ms": 609000,
+      "first_release_date": "2020-12-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "06df2bbc-4361-4286-83a5-d9b13922ae3e",
+      "duration_sec": 609.46282959,
+      "sample_rate": 44100,
+      "tempo_bpm": 108.476928711,
+      "danceability": 1.58906877041,
+      "onset_rate": 5.47846460342,
+      "beats_count": 1142,
+      "key": "G",
+      "scale": "minor",
+      "chords_changes_rate": 0.123657144606,
+      "dynamic_complexity": 3.15581893921,
+      "average_loudness": 0.920848608017,
+      "spectral_centroid_mean": 1068.25769043,
+      "spectral_flux_mean": 0.0936981588602,
+      "spectral_rolloff_mean": 1010.18341064,
+      "dissonance_mean": 0.465409994125,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
