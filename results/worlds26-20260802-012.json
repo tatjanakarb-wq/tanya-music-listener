@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "Skylarks",
+    "request_id": "worlds26-20260802-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "3da3e9c2-f485-4407-b0f5-b57c972e86d8",
+      "title": "Skylarks",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 485693,
+      "first_release_date": "2023-09-22",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hidden Orchestra",
+    "track": "Skylarks",
+    "album": "To Dream is to Forget",
+    "duration_ms": 485693,
+    "release_date": "2023-07-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/01/4b/c2/014bc2ba-66fa-0b26-c6d2-6c7131a701ae/mzaf_3278943209141036323.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/skylarks/1684831633?i=1684832116&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/skylarks/1684831633?i=1684832116&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/01/4b/c2/014bc2ba-66fa-0b26-c6d2-6c7131a701ae/mzaf_3278943209141036323.plus.aac.p.m4a",
+      "bytes": 1110900,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 80.75,
+    "beat_interval_cv": 0.01957,
+    "onset_rate_per_sec": 2.90687,
+    "dynamic_range_db_p95_p10": 15.799,
+    "crest_factor_db": 16.646,
+    "rms_mean": 0.07623,
+    "rms_std": 0.04719,
+    "spectral_centroid_hz_mean": 746.89,
+    "spectral_centroid_hz_std": 351.3,
+    "spectral_bandwidth_hz_mean": 1327.94,
+    "spectral_rolloff_hz_mean": 1299.47,
+    "spectral_flatness_mean": 0.00093,
+    "spectral_contrast_mean": 17.94702,
+    "energy_share": {
+      "below_150_hz": 0.83698,
+      "150_to_2000_hz": 0.16214,
+      "above_2000_hz": 0.00088
+    },
+    "percussive_share": 0.29519,
+    "tonal_entropy_bits": 3.55774,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 0.86397
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0408,
+        "spectral_centroid_hz": 779.74,
+        "onset_strength": 0.94398,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.03483,
+        "spectral_centroid_hz": 781.76,
+        "onset_strength": 1.0257,
+        "spectral_flatness": 0.00035
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05827,
+        "spectral_centroid_hz": 589.21,
+        "onset_strength": 1.03111,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06044,
+        "spectral_centroid_hz": 617.18,
+        "onset_strength": 0.99384,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.0643,
+        "spectral_centroid_hz": 702.46,
+        "onset_strength": 1.19656,
+        "spectral_flatness": 0.00058
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.1137,
+        "spectral_centroid_hz": 456.66,
+        "onset_strength": 1.08207,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10848,
+        "spectral_centroid_hz": 630.17,
+        "onset_strength": 1.16839,
+        "spectral_flatness": 0.00026
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05479,
+        "spectral_centroid_hz": 1105.84,
+        "onset_strength": 1.17795,
+        "spectral_flatness": 0.00283
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08879,
+        "spectral_centroid_hz": 886.99,
+        "onset_strength": 1.3679,
+        "spectral_flatness": 0.00151
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09525,
+        "spectral_centroid_hz": 808.87,
+        "onset_strength": 1.43364,
+        "spectral_flatness": 0.00159
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.0822,
+        "spectral_centroid_hz": 842.94,
+        "onset_strength": 1.45614,
+        "spectral_flatness": 0.00227
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.11293,
+        "spectral_centroid_hz": 758.65,
+        "onset_strength": 1.22764,
+        "spectral_flatness": 0.00094
+      }
+    ]
+  }
+}
