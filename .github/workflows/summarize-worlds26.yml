@@ -1,0 +1,100 @@
+name: Summarize playlist 26 listening pool
+
+on:
+  push:
+    paths:
+      - "results/worlds26-20260802-*.json"
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build compact summary when the pool is complete
+        id: build
+        shell: bash
+        run: |
+          python - <<'PY'
+          import glob
+          import json
+          from pathlib import Path
+
+          paths = sorted(glob.glob('results/worlds26-20260802-[0-9][0-9][0-9].json'))
+          if len(paths) < 30:
+              print(f'Pool incomplete: {len(paths)}/30')
+              raise SystemExit(0)
+
+          rows = []
+          for path in paths:
+              data = json.loads(Path(path).read_text(encoding='utf-8'))
+              request = data.get('request', {})
+              matched = data.get('matched_recording') or {}
+              analysis = data.get('analysis') or {}
+              archived = (data.get('archived_full_recording_features') or {}).get('analysis') or {}
+              rows.append({
+                  'request_id': request.get('request_id'),
+                  'artist': request.get('artist'),
+                  'track': request.get('track'),
+                  'status': data.get('status'),
+                  'matched_artist': matched.get('artist'),
+                  'matched_track': matched.get('track'),
+                  'album': matched.get('album'),
+                  'match_score': matched.get('match_score'),
+                  'duration_ms': matched.get('duration_ms'),
+                  'heard_seconds': analysis.get('heard_seconds'),
+                  'tempo_bpm_preview': analysis.get('tempo_bpm'),
+                  'beat_interval_cv': analysis.get('beat_interval_cv'),
+                  'onset_rate_per_sec': analysis.get('onset_rate_per_sec'),
+                  'dynamic_range_db': analysis.get('dynamic_range_db_p95_p10'),
+                  'rms_mean': analysis.get('rms_mean'),
+                  'rms_std': analysis.get('rms_std'),
+                  'spectral_centroid_hz': analysis.get('spectral_centroid_hz_mean'),
+                  'percussive_share': analysis.get('percussive_share'),
+                  'tonal_entropy_bits': analysis.get('tonal_entropy_bits'),
+                  'low_energy_share': (analysis.get('energy_share') or {}).get('below_150_hz'),
+                  'climax_segment': (analysis.get('climax') or {}).get('segment'),
+                  'climax_time_sec': (analysis.get('climax') or {}).get('time_sec'),
+                  'tempo_bpm_full_profile': archived.get('tempo_bpm'),
+                  'dynamic_complexity_full_profile': archived.get('dynamic_complexity'),
+                  'chords_changes_rate_full_profile': archived.get('chords_changes_rate'),
+                  'key_full_profile': archived.get('key'),
+                  'scale_full_profile': archived.get('scale'),
+                  'warnings': data.get('warnings') or [],
+              })
+
+          out = Path('summaries/worlds26-pool-20260802.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps({'count': len(rows), 'tracks': rows}, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'Wrote {out} with {len(rows)} rows')
+          PY
+
+          if [ -f summaries/worlds26-pool-20260802.json ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit compact summary
+        if: steps.build.outputs.ready == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Tanya Music Listener"
+          git config user.email "actions@users.noreply.github.com"
+          git add summaries/worlds26-pool-20260802.json
+          git commit -m "Summarize playlist 26 listening pool" || exit 0
+          for attempt in 1 2 3 4 5 6; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
