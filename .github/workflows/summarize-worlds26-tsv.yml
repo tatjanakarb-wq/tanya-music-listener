@@ -1,0 +1,48 @@
+name: Build readable playlist 26 summary
+
+on:
+  push:
+    paths:
+      - "triggers/worlds26-tsv-*.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build TSV
+        shell: bash
+        run: |
+          python - <<'PY'
+          import glob, json
+          from pathlib import Path
+          cols = ['request_id','artist','track','status','matched_artist','matched_track','album','match_score','heard_seconds','tempo','beat_cv','onset_rate','dynamic_range','rms_mean','rms_std','centroid','percussive_share','tonal_entropy','low_share','climax_segment','full_tempo','full_dynamic_complexity','full_chord_change_rate','full_key','full_scale']
+          lines = ['\t'.join(cols)]
+          for path in sorted(glob.glob('results/worlds26-*.json')):
+              d=json.loads(Path(path).read_text(encoding='utf-8'))
+              r=d.get('request',{}); m=d.get('matched_recording') or {}; a=d.get('analysis') or {}; f=(d.get('archived_full_recording_features') or {}).get('analysis') or {}
+              row={
+                'request_id':r.get('request_id'),'artist':r.get('artist'),'track':r.get('track'),'status':d.get('status'),'matched_artist':m.get('artist'),'matched_track':m.get('track'),'album':m.get('album'),'match_score':m.get('match_score'),'heard_seconds':a.get('heard_seconds'),'tempo':a.get('tempo_bpm'),'beat_cv':a.get('beat_interval_cv'),'onset_rate':a.get('onset_rate_per_sec'),'dynamic_range':a.get('dynamic_range_db_p95_p10'),'rms_mean':a.get('rms_mean'),'rms_std':a.get('rms_std'),'centroid':a.get('spectral_centroid_hz_mean'),'percussive_share':a.get('percussive_share'),'tonal_entropy':a.get('tonal_entropy_bits'),'low_share':(a.get('energy_share') or {}).get('below_150_hz'),'climax_segment':(a.get('climax') or {}).get('segment'),'full_tempo':f.get('tempo_bpm'),'full_dynamic_complexity':f.get('dynamic_complexity'),'full_chord_change_rate':f.get('chords_changes_rate'),'full_key':f.get('key'),'full_scale':f.get('scale')}
+              def clean(v): return '' if v is None else str(v).replace('\t',' ').replace('\n',' ')
+              lines.append('\t'.join(clean(row[c]) for c in cols))
+          out=Path('summaries/worlds26-live.tsv'); out.parent.mkdir(exist_ok=True); out.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print(len(lines)-1)
+          PY
+      - name: Commit TSV
+        shell: bash
+        run: |
+          git config user.name "Tanya Music Listener"
+          git config user.email "actions@users.noreply.github.com"
+          git add summaries/worlds26-live.tsv
+          git commit -m "Build readable summary for playlist 26" || exit 0
+          for attempt in 1 2 3 4 5 6; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
