@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Dawn of Midi",
+    "track": "Io",
+    "request_id": "chat27-20260805-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7309420f-d8d4-4fb4-8591-fc41e232661a",
+      "title": "Io",
+      "artist": "Dawn of Midi",
+      "duration_ms": 306000,
+      "first_release_date": "2016-01-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5a1929c4-cb88-4758-8347-8210e47c3e97",
+      "title": "Io",
+      "artist": "Dawn of Midi",
+      "duration_ms": 364000,
+      "first_release_date": "2013-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Dawn of Midi",
+    "track": "Io",
+    "album": "Dysnomia",
+    "duration_ms": 363122,
+    "release_date": "2013-08-06T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/82/84/3b82846f-1afc-dd97-09c7-5e05e7a3c60e/mzaf_13710343368947834660.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/io/1451055198?i=1451055199&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 878
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/io/1451055198?i=1451055199&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/82/84/3b82846f-1afc-dd97-09c7-5e05e7a3c60e/mzaf_13710343368947834660.plus.aac.p.m4a",
+      "bytes": 1053785,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 83.354,
+    "beat_interval_cv": 0.04217,
+    "onset_rate_per_sec": 3.13589,
+    "dynamic_range_db_p95_p10": 11.236,
+    "crest_factor_db": 14.65,
+    "rms_mean": 0.09224,
+    "rms_std": 0.03953,
+    "spectral_centroid_hz_mean": 317.39,
+    "spectral_centroid_hz_std": 119.25,
+    "spectral_bandwidth_hz_mean": 788.54,
+    "spectral_rolloff_hz_mean": 381.85,
+    "spectral_flatness_mean": 4e-05,
+    "spectral_contrast_mean": 18.53226,
+    "energy_share": {
+      "below_150_hz": 0.89444,
+      "150_to_2000_hz": 0.1055,
+      "above_2000_hz": 6e-05
+    },
+    "percussive_share": 0.15796,
+    "tonal_entropy_bits": 3.41612,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.11314
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09949,
+        "spectral_centroid_hz": 291.15,
+        "onset_strength": 1.05611,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.07978,
+        "spectral_centroid_hz": 323.69,
+        "onset_strength": 0.93561,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09207,
+        "spectral_centroid_hz": 287.05,
+        "onset_strength": 0.98732,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.09833,
+        "spectral_centroid_hz": 318.56,
+        "onset_strength": 0.97237,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.08362,
+        "spectral_centroid_hz": 306.25,
+        "onset_strength": 0.91074,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.1037,
+        "spectral_centroid_hz": 297.85,
+        "onset_strength": 1.00715,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.08051,
+        "spectral_centroid_hz": 351.87,
+        "onset_strength": 1.00638,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.0967,
+        "spectral_centroid_hz": 314.74,
+        "onset_strength": 1.0076,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.08902,
+        "spectral_centroid_hz": 322.98,
+        "onset_strength": 1.09458,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.09584,
+        "spectral_centroid_hz": 313.32,
+        "onset_strength": 0.93711,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.09491,
+        "spectral_centroid_hz": 343.13,
+        "onset_strength": 1.23526,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.09297,
+        "spectral_centroid_hz": 337.41,
+        "onset_strength": 1.06715,
+        "spectral_flatness": 4e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7309420f-d8d4-4fb4-8591-fc41e232661a",
+      "title": "Io",
+      "artist": "Dawn of Midi",
+      "duration_ms": 306000,
+      "first_release_date": "2016-01-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7309420f-d8d4-4fb4-8591-fc41e232661a",
+      "duration_sec": 306.207336426,
+      "sample_rate": 44100,
+      "tempo_bpm": 116.659729004,
+      "danceability": 2.14877820015,
+      "onset_rate": 5.30002880096,
+      "beats_count": 593,
+      "key": "F#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0351781658828,
+      "dynamic_complexity": 2.66201400757,
+      "average_loudness": 0.94622194767,
+      "spectral_centroid_mean": 330.937683105,
+      "spectral_flux_mean": 0.144229978323,
+      "spectral_rolloff_mean": 248.545471191,
+      "dissonance_mean": 0.367509245872,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
