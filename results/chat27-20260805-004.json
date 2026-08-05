@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Signals in the Dusk",
+    "request_id": "chat27-20260805-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "0d3d3345-f72c-435d-bcc7-d9e6dd69f1e2",
+      "title": "Signals in the Dusk",
+      "artist": "Portico Quartet",
+      "duration_ms": 330546,
+      "first_release_date": "2019-10-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "01b3888b-4f7a-4282-a898-65f2533598f4",
+      "title": "Signals in the Dusk - Live at Metropolis Studio",
+      "artist": "Portico Quartet",
+      "duration_ms": 336957,
+      "first_release_date": "2020-03-13",
+      "disambiguation": "",
+      "musicbrainz_score": 81,
+      "local_match_score": 0.7644
+    }
+  ],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Signals in the Dusk",
+    "album": "Memory Streams",
+    "duration_ms": 330546,
+    "release_date": "2019-07-25T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cf/48/03/cf48036d-aad9-123c-6837-3a5ace91039c/mzaf_7449010232403501163.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/signals-in-the-dusk/1583551298?i=1583551307&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/signals-in-the-dusk/1583551298?i=1583551307&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cf/48/03/cf48036d-aad9-123c-6837-3a5ace91039c/mzaf_7449010232403501163.plus.aac.p.m4a",
+      "bytes": 1062194,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.06297,
+    "onset_rate_per_sec": 5.81375,
+    "dynamic_range_db_p95_p10": 11.813,
+    "crest_factor_db": 18.458,
+    "rms_mean": 0.03828,
+    "rms_std": 0.01821,
+    "spectral_centroid_hz_mean": 815.09,
+    "spectral_centroid_hz_std": 410.15,
+    "spectral_bandwidth_hz_mean": 1231.78,
+    "spectral_rolloff_hz_mean": 1446.22,
+    "spectral_flatness_mean": 0.00134,
+    "spectral_contrast_mean": 18.46259,
+    "energy_share": {
+      "below_150_hz": 0.26244,
+      "150_to_2000_hz": 0.73513,
+      "above_2000_hz": 0.00243
+    },
+    "percussive_share": 0.30866,
+    "tonal_entropy_bits": 3.5469,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.95104
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04706,
+        "spectral_centroid_hz": 667.55,
+        "onset_strength": 1.15445,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0271,
+        "spectral_centroid_hz": 709.64,
+        "onset_strength": 1.09249,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0388,
+        "spectral_centroid_hz": 644.48,
+        "onset_strength": 1.17075,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03366,
+        "spectral_centroid_hz": 663.9,
+        "onset_strength": 1.15912,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03644,
+        "spectral_centroid_hz": 640.89,
+        "onset_strength": 1.13327,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.03733,
+        "spectral_centroid_hz": 646.34,
+        "onset_strength": 1.22092,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.03679,
+        "spectral_centroid_hz": 634.4,
+        "onset_strength": 1.20048,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.02685,
+        "spectral_centroid_hz": 619.02,
+        "onset_strength": 1.09301,
+        "spectral_flatness": 0.00013
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.0358,
+        "spectral_centroid_hz": 706.12,
+        "onset_strength": 1.31496,
+        "spectral_flatness": 0.00025
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.03701,
+        "spectral_centroid_hz": 1298.07,
+        "onset_strength": 1.3786,
+        "spectral_flatness": 0.0055
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05608,
+        "spectral_centroid_hz": 1079.94,
+        "onset_strength": 1.46782,
+        "spectral_flatness": 0.00215
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04648,
+        "spectral_centroid_hz": 1465.23,
+        "onset_strength": 1.32911,
+        "spectral_flatness": 0.00711
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "0d3d3345-f72c-435d-bcc7-d9e6dd69f1e2",
+      "title": "Signals in the Dusk",
+      "artist": "Portico Quartet",
+      "duration_ms": 330546,
+      "first_release_date": "2019-10-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "0d3d3345-f72c-435d-bcc7-d9e6dd69f1e2",
+      "duration_sec": 330.579589844,
+      "sample_rate": 44100,
+      "tempo_bpm": 139.818237305,
+      "danceability": 1.23522782326,
+      "onset_rate": 4.7701997757,
+      "beats_count": 757,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0521067418158,
+      "dynamic_complexity": 4.82258081436,
+      "average_loudness": 0.529272079468,
+      "spectral_centroid_mean": 1028.37158203,
+      "spectral_flux_mean": 0.0932366475463,
+      "spectral_rolloff_mean": 818.79119873,
+      "dissonance_mean": 0.434888660908,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
