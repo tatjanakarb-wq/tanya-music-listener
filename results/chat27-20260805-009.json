@@ -1,0 +1,183 @@
+{
+  "request": {
+    "artist": "Makaya McCraven",
+    "track": "This Place That Place",
+    "request_id": "chat27-20260805-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "83bbbb18-0716-4534-a741-97f48ede8c70",
+      "title": "This Place That Place",
+      "artist": "Makaya McCraven",
+      "duration_ms": 236920,
+      "first_release_date": "2022-09-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "54ace369-b54b-4def-b9bb-89a4f7f39b0b",
+      "title": "This Place That Place",
+      "artist": "Makaya McCraven",
+      "duration_ms": 364000,
+      "first_release_date": "2022-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2ce44cfe-b0ae-466f-a194-f66889e590da",
+      "title": "This Place, That Place",
+      "artist": "Makaya McCraven",
+      "duration_ms": null,
+      "first_release_date": "2021-07-30",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Makaya McCraven",
+    "track": "This Place That Place",
+    "album": "In These Times",
+    "duration_ms": 236922,
+    "release_date": "2022-09-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/54/69/6f546948-cd15-b281-cc80-7f85f029a7b1/mzaf_9611221935366613662.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/this-place-that-place/1627338395?i=1627338614&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 2
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/this-place-that-place/1627338395?i=1627338614&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/54/69/6f546948-cd15-b281-cc80-7f85f029a7b1/mzaf_9611221935366613662.plus.aac.p.m4a",
+      "bytes": 1145542,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 151.999,
+    "beat_interval_cv": 0.04095,
+    "onset_rate_per_sec": 7.47277,
+    "dynamic_range_db_p95_p10": 7.094,
+    "crest_factor_db": 11.784,
+    "rms_mean": 0.14695,
+    "rms_std": 0.04233,
+    "spectral_centroid_hz_mean": 1514.02,
+    "spectral_centroid_hz_std": 384.4,
+    "spectral_bandwidth_hz_mean": 2361.59,
+    "spectral_rolloff_hz_mean": 3696.72,
+    "spectral_flatness_mean": 0.00523,
+    "spectral_contrast_mean": 18.84024,
+    "energy_share": {
+      "below_150_hz": 0.56126,
+      "150_to_2000_hz": 0.42959,
+      "above_2000_hz": 0.00915
+    },
+    "percussive_share": 0.32742,
+    "tonal_entropy_bits": 3.55233,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.74,
+      "relative_score": 1.09808
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13525,
+        "spectral_centroid_hz": 1659.48,
+        "onset_strength": 1.22476,
+        "spectral_flatness": 0.00716
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.13275,
+        "spectral_centroid_hz": 1586.34,
+        "onset_strength": 1.24429,
+        "spectral_flatness": 0.00616
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15123,
+        "spectral_centroid_hz": 1435.21,
+        "onset_strength": 1.43411,
+        "spectral_flatness": 0.00424
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.15241,
+        "spectral_centroid_hz": 1628.57,
+        "onset_strength": 1.45499,
+        "spectral_flatness": 0.00553
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.14476,
+        "spectral_centroid_hz": 1524.37,
+        "onset_strength": 1.16136,
+        "spectral_flatness": 0.00547
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.14238,
+        "spectral_centroid_hz": 1453.17,
+        "onset_strength": 1.3884,
+        "spectral_flatness": 0.0042
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.15152,
+        "spectral_centroid_hz": 1449.81,
+        "onset_strength": 1.31402,
+        "spectral_flatness": 0.00448
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.14092,
+        "spectral_centroid_hz": 1591.32,
+        "onset_strength": 1.21332,
+        "spectral_flatness": 0.00599
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.15489,
+        "spectral_centroid_hz": 1443.98,
+        "onset_strength": 1.23626,
+        "spectral_flatness": 0.0053
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.15304,
+        "spectral_centroid_hz": 1470.16,
+        "onset_strength": 1.31628,
+        "spectral_flatness": 0.00478
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.1552,
+        "spectral_centroid_hz": 1410.34,
+        "onset_strength": 1.39625,
+        "spectral_flatness": 0.00449
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.14899,
+        "spectral_centroid_hz": 1516.47,
+        "onset_strength": 1.32579,
+        "spectral_flatness": 0.00498
+      }
+    ]
+  }
+}
