@@ -1,0 +1,216 @@
+{
+  "request": {
+    "artist": "Moses Sumney",
+    "track": "Virile",
+    "request_id": "chat27-20260805-020"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "01a8fd1c-cab8-4f9b-ac80-ea7b10a1dc37",
+      "title": "Virile",
+      "artist": "Moses Sumney",
+      "duration_ms": 315520,
+      "first_release_date": "2021-12-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "557a787e-b9ec-4af6-8001-7d8dd70a1dbd",
+      "title": "Virile",
+      "artist": "Moses Sumney",
+      "duration_ms": 256000,
+      "first_release_date": "2019-11-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "59ef04c7-03ed-447c-95d1-6563967f0e45",
+      "title": "Virile",
+      "artist": "Moses Sumney",
+      "duration_ms": 269000,
+      "first_release_date": null,
+      "disambiguation": "Official video",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Moses Sumney",
+    "track": "Virile",
+    "album": "græ",
+    "duration_ms": 256293,
+    "release_date": "2019-11-14T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/93/d3/1793d3d4-90c9-3734-b83a-c88ca24059b0/mzaf_6312221663491343822.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/virile/1485411511?i=1485411515&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 293
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/virile/1485411511?i=1485411515&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/93/d3/1793d3d4-90c9-3734-b83a-c88ca24059b0/mzaf_6312221663491343822.plus.aac.p.m4a",
+      "bytes": 1065598,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0608,
+    "onset_rate_per_sec": 3.94266,
+    "dynamic_range_db_p95_p10": 5.628,
+    "crest_factor_db": 8.267,
+    "rms_mean": 0.23124,
+    "rms_std": 0.04891,
+    "spectral_centroid_hz_mean": 1790.35,
+    "spectral_centroid_hz_std": 433.97,
+    "spectral_bandwidth_hz_mean": 2242.89,
+    "spectral_rolloff_hz_mean": 3792.17,
+    "spectral_flatness_mean": 0.01302,
+    "spectral_contrast_mean": 17.12328,
+    "energy_share": {
+      "below_150_hz": 0.15386,
+      "150_to_2000_hz": 0.8227,
+      "above_2000_hz": 0.02344
+    },
+    "percussive_share": 0.32421,
+    "tonal_entropy_bits": 3.56787,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.72392
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.22715,
+        "spectral_centroid_hz": 1290.93,
+        "onset_strength": 1.0832,
+        "spectral_flatness": 0.00197
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.19302,
+        "spectral_centroid_hz": 1261.98,
+        "onset_strength": 1.21882,
+        "spectral_flatness": 0.00477
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.19703,
+        "spectral_centroid_hz": 2098.59,
+        "onset_strength": 1.06448,
+        "spectral_flatness": 0.02139
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.24944,
+        "spectral_centroid_hz": 1984.85,
+        "onset_strength": 1.04832,
+        "spectral_flatness": 0.01318
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.21307,
+        "spectral_centroid_hz": 2033.35,
+        "onset_strength": 1.22033,
+        "spectral_flatness": 0.02477
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.25373,
+        "spectral_centroid_hz": 1702.99,
+        "onset_strength": 1.04735,
+        "spectral_flatness": 0.00823
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.22864,
+        "spectral_centroid_hz": 1766.38,
+        "onset_strength": 1.15674,
+        "spectral_flatness": 0.0135
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.24964,
+        "spectral_centroid_hz": 1727.7,
+        "onset_strength": 1.06652,
+        "spectral_flatness": 0.00903
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.22374,
+        "spectral_centroid_hz": 1890.78,
+        "onset_strength": 1.24776,
+        "spectral_flatness": 0.01633
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.25224,
+        "spectral_centroid_hz": 1804.68,
+        "onset_strength": 1.1059,
+        "spectral_flatness": 0.0092
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.24551,
+        "spectral_centroid_hz": 1872.06,
+        "onset_strength": 1.21737,
+        "spectral_flatness": 0.01679
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.24166,
+        "spectral_centroid_hz": 2042.8,
+        "onset_strength": 1.16917,
+        "spectral_flatness": 0.0169
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "557a787e-b9ec-4af6-8001-7d8dd70a1dbd",
+      "title": "Virile",
+      "artist": "Moses Sumney",
+      "duration_ms": 256000,
+      "first_release_date": "2019-11-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "557a787e-b9ec-4af6-8001-7d8dd70a1dbd",
+      "duration_sec": 253.813339233,
+      "sample_rate": 44100,
+      "tempo_bpm": 122.751419067,
+      "danceability": 1.01824510098,
+      "onset_rate": 2.58047819138,
+      "beats_count": 540,
+      "key": "D",
+      "scale": "major",
+      "chords_changes_rate": 0.0799341499805,
+      "dynamic_complexity": 3.26174068451,
+      "average_loudness": 0.941449046135,
+      "spectral_centroid_mean": 875.17401123,
+      "spectral_flux_mean": 0.0932376757264,
+      "spectral_rolloff_mean": 966.060913086,
+      "dissonance_mean": 0.437977820635,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
