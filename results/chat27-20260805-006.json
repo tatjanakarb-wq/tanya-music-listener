@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Ebi Soda",
+    "track": "Chandler",
+    "request_id": "chat27-20260805-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4b9bf1ae-a6c2-4762-af49-6a3bcb60a786",
+      "title": "Chandler",
+      "artist": "Ebi Soda Yazz Ahmed",
+      "duration_ms": 221000,
+      "first_release_date": "2022-02-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.8289
+    }
+  ],
+  "matched_recording": {
+    "artist": "Ebi Soda",
+    "track": "Chandler (feat. Yazz Ahmed)",
+    "album": "Honk If You're Sad",
+    "duration_ms": 221129,
+    "release_date": "2022-02-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/24/11/ee/2411ee30-368a-3ce2-7b84-38d774d73851/mzaf_2298881947722695230.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/chandler-feat-yazz-ahmed/1601142896?i=1601142902&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 129
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/chandler-feat-yazz-ahmed/1601142896?i=1601142902&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/24/11/ee/2411ee30-368a-3ce2-7b84-38d774d73851/mzaf_2298881947722695230.plus.aac.p.m4a",
+      "bytes": 1019203,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.0576,
+    "onset_rate_per_sec": 4.41043,
+    "dynamic_range_db_p95_p10": 35.07,
+    "crest_factor_db": 14.149,
+    "rms_mean": 0.10478,
+    "rms_std": 0.05496,
+    "spectral_centroid_hz_mean": 1905.11,
+    "spectral_centroid_hz_std": 926.55,
+    "spectral_bandwidth_hz_mean": 2349.46,
+    "spectral_rolloff_hz_mean": 4214.3,
+    "spectral_flatness_mean": 0.02566,
+    "spectral_contrast_mean": 17.92014,
+    "energy_share": {
+      "below_150_hz": 0.52831,
+      "150_to_2000_hz": 0.44505,
+      "above_2000_hz": 0.02664
+    },
+    "percussive_share": 0.42347,
+    "tonal_entropy_bits": 3.5529,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 0.49008
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00182,
+        "spectral_centroid_hz": 3100.42,
+        "onset_strength": 0.88041,
+        "spectral_flatness": 0.09586
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.05806,
+        "spectral_centroid_hz": 2564.58,
+        "onset_strength": 1.5016,
+        "spectral_flatness": 0.05309
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09918,
+        "spectral_centroid_hz": 1877.76,
+        "onset_strength": 1.97236,
+        "spectral_flatness": 0.01338
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09128,
+        "spectral_centroid_hz": 2020.48,
+        "onset_strength": 2.11998,
+        "spectral_flatness": 0.02608
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10768,
+        "spectral_centroid_hz": 1572.58,
+        "onset_strength": 1.90484,
+        "spectral_flatness": 0.01599
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.10149,
+        "spectral_centroid_hz": 1818.75,
+        "onset_strength": 1.70599,
+        "spectral_flatness": 0.0172
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.12495,
+        "spectral_centroid_hz": 1821.52,
+        "onset_strength": 1.70353,
+        "spectral_flatness": 0.02169
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13276,
+        "spectral_centroid_hz": 1578.94,
+        "onset_strength": 1.7328,
+        "spectral_flatness": 0.01374
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.12572,
+        "spectral_centroid_hz": 1741.79,
+        "onset_strength": 1.6934,
+        "spectral_flatness": 0.01874
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.14825,
+        "spectral_centroid_hz": 1472.16,
+        "onset_strength": 1.75004,
+        "spectral_flatness": 0.01016
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.13514,
+        "spectral_centroid_hz": 1544.52,
+        "onset_strength": 1.59528,
+        "spectral_flatness": 0.01143
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13019,
+        "spectral_centroid_hz": 1759.65,
+        "onset_strength": 1.52643,
+        "spectral_flatness": 0.01121
+      }
+    ]
+  }
+}
