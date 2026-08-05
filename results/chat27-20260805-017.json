@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Jambinai",
+    "track": "Time of Extinction",
+    "request_id": "chat27-20260805-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ee11dd89-7496-442f-9b03-721b0f952780",
+      "title": "Time of Extinction",
+      "artist": "Jambinai",
+      "duration_ms": 175000,
+      "first_release_date": "2014-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jambinai",
+    "track": "Time of Extinction",
+    "album": "Differance",
+    "duration_ms": 176698,
+    "release_date": "2015-04-30T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a7/88/4f/a7884f77-f6a2-3ae6-8466-da523d952c8f/mzaf_14784806678348681033.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/time-of-extinction/1199397010?i=1199397164&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1698
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/time-of-extinction/1199397010?i=1199397164&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a7/88/4f/a7884f77-f6a2-3ae6-8466-da523d952c8f/mzaf_14784806678348681033.plus.aac.p.m4a",
+      "bytes": 1069288,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 86.133,
+    "beat_interval_cv": 0.02326,
+    "onset_rate_per_sec": 3.40806,
+    "dynamic_range_db_p95_p10": 27.683,
+    "crest_factor_db": 15.686,
+    "rms_mean": 0.08528,
+    "rms_std": 0.05325,
+    "spectral_centroid_hz_mean": 1415.6,
+    "spectral_centroid_hz_std": 979.63,
+    "spectral_bandwidth_hz_mean": 1678.9,
+    "spectral_rolloff_hz_mean": 2605.89,
+    "spectral_flatness_mean": 0.02557,
+    "spectral_contrast_mean": 17.83928,
+    "energy_share": {
+      "below_150_hz": 0.37018,
+      "150_to_2000_hz": 0.57655,
+      "above_2000_hz": 0.05327
+    },
+    "percussive_share": 0.32575,
+    "tonal_entropy_bits": 3.50694,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 0.86824
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.043,
+        "spectral_centroid_hz": 2626.59,
+        "onset_strength": 1.25433,
+        "spectral_flatness": 0.21034
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06704,
+        "spectral_centroid_hz": 963.04,
+        "onset_strength": 1.61644,
+        "spectral_flatness": 0.00319
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06303,
+        "spectral_centroid_hz": 1064.8,
+        "onset_strength": 1.72377,
+        "spectral_flatness": 0.00501
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06203,
+        "spectral_centroid_hz": 1033.82,
+        "onset_strength": 1.59052,
+        "spectral_flatness": 0.00555
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.06614,
+        "spectral_centroid_hz": 1050.13,
+        "onset_strength": 1.70517,
+        "spectral_flatness": 0.0055
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06421,
+        "spectral_centroid_hz": 989.88,
+        "onset_strength": 1.51125,
+        "spectral_flatness": 0.00336
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07197,
+        "spectral_centroid_hz": 1025.31,
+        "onset_strength": 1.82816,
+        "spectral_flatness": 0.00601
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05848,
+        "spectral_centroid_hz": 1031.47,
+        "onset_strength": 1.61322,
+        "spectral_flatness": 0.00598
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06329,
+        "spectral_centroid_hz": 1039.6,
+        "onset_strength": 1.76495,
+        "spectral_flatness": 0.00537
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.14318,
+        "spectral_centroid_hz": 2176.39,
+        "onset_strength": 1.09145,
+        "spectral_flatness": 0.02195
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.16172,
+        "spectral_centroid_hz": 2007.44,
+        "onset_strength": 1.07125,
+        "spectral_flatness": 0.01748
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.15873,
+        "spectral_centroid_hz": 1976.64,
+        "onset_strength": 1.03428,
+        "spectral_flatness": 0.01775
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "ee11dd89-7496-442f-9b03-721b0f952780",
+      "title": "Time of Extinction",
+      "artist": "Jambinai",
+      "duration_ms": 175000,
+      "first_release_date": "2014-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "ee11dd89-7496-442f-9b03-721b0f952780",
+      "duration_sec": 176.561630249,
+      "sample_rate": 44100,
+      "tempo_bpm": 128.083068848,
+      "danceability": 1.12108778954,
+      "onset_rate": 2.6900575161,
+      "beats_count": 375,
+      "key": "B",
+      "scale": "major",
+      "chords_changes_rate": 0.0565343163908,
+      "dynamic_complexity": 2.80546426773,
+      "average_loudness": 0.951388418674,
+      "spectral_centroid_mean": 1462.78405762,
+      "spectral_flux_mean": 0.10142853111,
+      "spectral_rolloff_mean": 1263.13574219,
+      "dissonance_mean": 0.471962273121,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
