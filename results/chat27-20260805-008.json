@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Moses Boyd",
+    "track": "Stranger Than Fiction",
+    "request_id": "chat27-20260805-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "693d6da5-5bc7-4f01-b7bf-1ebcd7f951af",
+      "title": "Stranger Than Fiction",
+      "artist": "Moses Boyd",
+      "duration_ms": 294840,
+      "first_release_date": "2020-02-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d2fe7dba-00f5-4df5-9e71-819d279905ba",
+      "title": "Stranger Than Fiction",
+      "artist": "Moses Boyd",
+      "duration_ms": 294840,
+      "first_release_date": "2026-07-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Moses Boyd",
+    "track": "Stranger Than Fiction",
+    "album": "Stranger Than Fiction - Single",
+    "duration_ms": 294840,
+    "release_date": "2019-10-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/d7/eb/95d7eb7f-535c-eb92-9a5a-2c7ad0f0d183/mzaf_18438085035514233638.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/stranger-than-fiction/1483277218?i=1483277229&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/stranger-than-fiction/1483277218?i=1483277229&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/d7/eb/95d7eb7f-535c-eb92-9a5a-2c7ad0f0d183/mzaf_18438085035514233638.plus.aac.p.m4a",
+      "bytes": 1161365,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.0586,
+    "onset_rate_per_sec": 5.17891,
+    "dynamic_range_db_p95_p10": 17.041,
+    "crest_factor_db": 18.506,
+    "rms_mean": 0.04429,
+    "rms_std": 0.02039,
+    "spectral_centroid_hz_mean": 1573.68,
+    "spectral_centroid_hz_std": 835.74,
+    "spectral_bandwidth_hz_mean": 1412.07,
+    "spectral_rolloff_hz_mean": 2768.07,
+    "spectral_flatness_mean": 0.02471,
+    "spectral_contrast_mean": 19.80113,
+    "energy_share": {
+      "below_150_hz": 0.03476,
+      "150_to_2000_hz": 0.84796,
+      "above_2000_hz": 0.11728
+    },
+    "percussive_share": 0.19871,
+    "tonal_entropy_bits": 3.27365,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.1854
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00457,
+        "spectral_centroid_hz": 1260.61,
+        "onset_strength": 0.50323,
+        "spectral_flatness": 0.16351
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02016,
+        "spectral_centroid_hz": 935.08,
+        "onset_strength": 0.74079,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03334,
+        "spectral_centroid_hz": 831.5,
+        "onset_strength": 0.67475,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04239,
+        "spectral_centroid_hz": 885.06,
+        "onset_strength": 0.78613,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04664,
+        "spectral_centroid_hz": 1204.01,
+        "onset_strength": 1.03538,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04349,
+        "spectral_centroid_hz": 1079.91,
+        "onset_strength": 0.78969,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0539,
+        "spectral_centroid_hz": 982.25,
+        "onset_strength": 0.84718,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04988,
+        "spectral_centroid_hz": 1479.49,
+        "onset_strength": 1.12788,
+        "spectral_flatness": 0.00119
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05436,
+        "spectral_centroid_hz": 2846.77,
+        "onset_strength": 1.0288,
+        "spectral_flatness": 0.04152
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0602,
+        "spectral_centroid_hz": 2429.7,
+        "onset_strength": 0.94012,
+        "spectral_flatness": 0.02103
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06873,
+        "spectral_centroid_hz": 2989.86,
+        "onset_strength": 0.86602,
+        "spectral_flatness": 0.06073
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05356,
+        "spectral_centroid_hz": 1959.6,
+        "onset_strength": 0.93048,
+        "spectral_flatness": 0.0091
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "693d6da5-5bc7-4f01-b7bf-1ebcd7f951af",
+      "title": "Stranger Than Fiction",
+      "artist": "Moses Boyd",
+      "duration_ms": 294840,
+      "first_release_date": "2020-02-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "693d6da5-5bc7-4f01-b7bf-1ebcd7f951af",
+      "duration_sec": 294.839996338,
+      "sample_rate": 44100,
+      "tempo_bpm": 66.5194549561,
+      "danceability": 1.08783018589,
+      "onset_rate": 4.31393241882,
+      "beats_count": 379,
+      "key": "C",
+      "scale": "minor",
+      "chords_changes_rate": 0.054803147912,
+      "dynamic_complexity": 3.44952487946,
+      "average_loudness": 0.814482212067,
+      "spectral_centroid_mean": 1567.80883789,
+      "spectral_flux_mean": 0.0662105157971,
+      "spectral_rolloff_mean": 2104.5378418,
+      "dissonance_mean": 0.46249845624,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
