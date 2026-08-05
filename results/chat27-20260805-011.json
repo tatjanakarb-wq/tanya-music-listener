@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "James Holden",
+    "track": "Trust Your Feet",
+    "request_id": "chat27-20260805-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "76839465-9193-49ec-bb45-4ba35ff13641",
+      "title": "Trust Your Feet",
+      "artist": "James Holden",
+      "duration_ms": 413000,
+      "first_release_date": "2023-10-13",
+      "disambiguation": "part of “Beats in Space 092: James Lavelle (UNKLE)” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "170ec767-00e0-4ad2-8d72-cdf509c16ce4",
+      "title": "Trust Your Feet",
+      "artist": "James Holden",
+      "duration_ms": 403000,
+      "first_release_date": "2023-03-31",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "James Holden",
+    "track": "Trust Your Feet",
+    "album": "Imagine This Is a High Dimensional Space of All Possibilities",
+    "duration_ms": 403255,
+    "release_date": "2023-03-31T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1d/05/38/1d05380c-b4dd-0aa5-eacd-1f8c9bb7b915/mzaf_5035845230502865031.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/trust-your-feet/1663100602?i=1663100849&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 255
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/trust-your-feet/1663100602?i=1663100849&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1d/05/38/1d05380c-b4dd-0aa5-eacd-1f8c9bb7b915/mzaf_5035845230502865031.plus.aac.p.m4a",
+      "bytes": 1100951,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.03044,
+    "onset_rate_per_sec": 6.84953,
+    "dynamic_range_db_p95_p10": 7.234,
+    "crest_factor_db": 13.296,
+    "rms_mean": 0.09172,
+    "rms_std": 0.02561,
+    "spectral_centroid_hz_mean": 586.43,
+    "spectral_centroid_hz_std": 148.55,
+    "spectral_bandwidth_hz_mean": 1073.72,
+    "spectral_rolloff_hz_mean": 967.47,
+    "spectral_flatness_mean": 0.00017,
+    "spectral_contrast_mean": 19.60076,
+    "energy_share": {
+      "below_150_hz": 0.77816,
+      "150_to_2000_hz": 0.22132,
+      "above_2000_hz": 0.00051
+    },
+    "percussive_share": 0.25881,
+    "tonal_entropy_bits": 3.5451,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 0.55174
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.08001,
+        "spectral_centroid_hz": 839.73,
+        "onset_strength": 1.33518,
+        "spectral_flatness": 0.0007
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08337,
+        "spectral_centroid_hz": 794.72,
+        "onset_strength": 1.26207,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09009,
+        "spectral_centroid_hz": 578.15,
+        "onset_strength": 1.22808,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08608,
+        "spectral_centroid_hz": 577.65,
+        "onset_strength": 1.29137,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.08755,
+        "spectral_centroid_hz": 638.42,
+        "onset_strength": 1.29546,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.09462,
+        "spectral_centroid_hz": 676.23,
+        "onset_strength": 1.2535,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0941,
+        "spectral_centroid_hz": 581.1,
+        "onset_strength": 1.13824,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09052,
+        "spectral_centroid_hz": 535.66,
+        "onset_strength": 1.11622,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.09225,
+        "spectral_centroid_hz": 494.36,
+        "onset_strength": 1.07685,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.0992,
+        "spectral_centroid_hz": 445.58,
+        "onset_strength": 1.12101,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.10375,
+        "spectral_centroid_hz": 423.33,
+        "onset_strength": 1.09211,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09899,
+        "spectral_centroid_hz": 454.86,
+        "onset_strength": 1.10722,
+        "spectral_flatness": 9e-05
+      }
+    ]
+  }
+}
