@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Ishmael Ensemble",
+    "track": "Wax Werk",
+    "request_id": "chat27-20260805-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "7c9764b3-7ea6-452b-b97e-f864fe7474d6",
+      "title": "Wax Werk",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 239760,
+      "first_release_date": "2021-07-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Ishmael Ensemble",
+    "track": "Wax Werk",
+    "album": "Visions of Light",
+    "duration_ms": 239760,
+    "release_date": "2021-07-06T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/22/4c/8f/224c8f52-47f8-2334-26db-f6a05875a1b8/mzaf_12307219145208009165.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/wax-werk/1556917086?i=1556917094&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/wax-werk/1556917086?i=1556917094&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/22/4c/8f/224c8f52-47f8-2334-26db-f6a05875a1b8/mzaf_12307219145208009165.plus.aac.p.m4a",
+      "bytes": 1148472,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.023,
+    "onset_rate_per_sec": 5.88057,
+    "dynamic_range_db_p95_p10": 9.925,
+    "crest_factor_db": 13.076,
+    "rms_mean": 0.11504,
+    "rms_std": 0.04075,
+    "spectral_centroid_hz_mean": 1352.59,
+    "spectral_centroid_hz_std": 469.42,
+    "spectral_bandwidth_hz_mean": 1767.97,
+    "spectral_rolloff_hz_mean": 2704.43,
+    "spectral_flatness_mean": 0.00497,
+    "spectral_contrast_mean": 18.17885,
+    "energy_share": {
+      "below_150_hz": 0.75661,
+      "150_to_2000_hz": 0.22329,
+      "above_2000_hz": 0.0201
+    },
+    "percussive_share": 0.21992,
+    "tonal_entropy_bits": 3.4665,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 1.03281
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11469,
+        "spectral_centroid_hz": 1016.81,
+        "onset_strength": 1.23041,
+        "spectral_flatness": 0.0019
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.11984,
+        "spectral_centroid_hz": 1009.22,
+        "onset_strength": 1.3043,
+        "spectral_flatness": 0.00167
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11125,
+        "spectral_centroid_hz": 1045.41,
+        "onset_strength": 1.31188,
+        "spectral_flatness": 0.00263
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11791,
+        "spectral_centroid_hz": 1147.35,
+        "onset_strength": 1.38218,
+        "spectral_flatness": 0.00263
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12495,
+        "spectral_centroid_hz": 1027.05,
+        "onset_strength": 1.18594,
+        "spectral_flatness": 0.00211
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11418,
+        "spectral_centroid_hz": 1182.17,
+        "onset_strength": 1.16046,
+        "spectral_flatness": 0.00276
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.11888,
+        "spectral_centroid_hz": 1191.92,
+        "onset_strength": 1.24774,
+        "spectral_flatness": 0.00211
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.11399,
+        "spectral_centroid_hz": 1319.83,
+        "onset_strength": 1.19836,
+        "spectral_flatness": 0.0038
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11717,
+        "spectral_centroid_hz": 1583.16,
+        "onset_strength": 1.22331,
+        "spectral_flatness": 0.00654
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11704,
+        "spectral_centroid_hz": 1778.59,
+        "onset_strength": 1.2343,
+        "spectral_flatness": 0.00887
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07186,
+        "spectral_centroid_hz": 2052.2,
+        "onset_strength": 1.38897,
+        "spectral_flatness": 0.01415
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13848,
+        "spectral_centroid_hz": 1874.7,
+        "onset_strength": 1.21758,
+        "spectral_flatness": 0.0105
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7c9764b3-7ea6-452b-b97e-f864fe7474d6",
+      "title": "Wax Werk",
+      "artist": "Ishmael Ensemble",
+      "duration_ms": 239760,
+      "first_release_date": "2021-07-16",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7c9764b3-7ea6-452b-b97e-f864fe7474d6",
+      "duration_sec": 239.804077148,
+      "sample_rate": 44100,
+      "tempo_bpm": 105.051681519,
+      "danceability": 1.2596091032,
+      "onset_rate": 4.82036828995,
+      "beats_count": 432,
+      "key": "C",
+      "scale": "major",
+      "chords_changes_rate": 0.0549854785204,
+      "dynamic_complexity": 4.65501022339,
+      "average_loudness": 0.620314121246,
+      "spectral_centroid_mean": 1016.90142822,
+      "spectral_flux_mean": 0.0827661901712,
+      "spectral_rolloff_mean": 785.061340332,
+      "dissonance_mean": 0.458461076021,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
