@@ -1,0 +1,111 @@
+{
+  "request": {
+    "artist": "Fever Ray",
+    "track": "Concrete Walls",
+    "request_id": "chat27-20260805-019"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted"
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "bebe3b5a-9e59-449a-b650-099fff9757cf",
+      "title": "Concrete Walls",
+      "artist": "Fever Ray",
+      "duration_ms": 340133,
+      "first_release_date": "2009-01-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b8d9e688-0be0-4420-8a71-f38aa47b7b33",
+      "title": "Concrete Walls",
+      "artist": "Fever Ray",
+      "duration_ms": 350160,
+      "first_release_date": "2019-08-02",
+      "disambiguation": "live, 2018-03-20: Troxy, London, England, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7e792cd2-e446-4333-b301-a32f9faaedd4",
+      "title": "Concrete Walls",
+      "artist": "Fever Ray",
+      "duration_ms": 359000,
+      "first_release_date": "2009-11-23",
+      "disambiguation": "live, 2009-03-28: Kulturens Hus, Luleå, Sweden",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "bebe3b5a-9e59-449a-b650-099fff9757cf",
+      "title": "Concrete Walls",
+      "artist": "Fever Ray",
+      "duration_ms": 340133,
+      "first_release_date": "2009-01-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "bebe3b5a-9e59-449a-b650-099fff9757cf",
+      "duration_sec": 340.133331299,
+      "sample_rate": null,
+      "tempo_bpm": 79.9845733643,
+      "danceability": 0.945551633835,
+      "onset_rate": 3.67779874802,
+      "beats_count": 453,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0543270558119,
+      "dynamic_complexity": 4.102891922,
+      "average_loudness": 0.882806539536,
+      "spectral_centroid_mean": 773.224182129,
+      "spectral_flux_mean": 0.0745370388031,
+      "spectral_rolloff_mean": 850.555297852,
+      "dissonance_mean": 0.439253419638,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "bebe3b5a-9e59-449a-b650-099fff9757cf",
+    "title": "Concrete Walls",
+    "artist": "Fever Ray",
+    "duration_ms": 340133,
+    "first_release_date": "2009-01-12",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "bebe3b5a-9e59-449a-b650-099fff9757cf",
+    "duration_sec": 340.133331299,
+    "sample_rate": null,
+    "tempo_bpm": 79.9845733643,
+    "danceability": 0.945551633835,
+    "onset_rate": 3.67779874802,
+    "beats_count": 453,
+    "key": "A#",
+    "scale": "major",
+    "chords_changes_rate": 0.0543270558119,
+    "dynamic_complexity": 4.102891922,
+    "average_loudness": 0.882806539536,
+    "spectral_centroid_mean": 773.224182129,
+    "spectral_flux_mean": 0.0745370388031,
+    "spectral_rolloff_mean": 850.555297852,
+    "dissonance_mean": 0.439253419638,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}
