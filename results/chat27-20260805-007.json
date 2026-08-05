@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Theon Cross",
+    "track": "Activate",
+    "request_id": "chat27-20260805-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "69bdf5cf-ef28-4cba-8e1d-8686d81ccef2",
+      "title": "Activate",
+      "artist": "Theon Cross Moses Boyd Nubya Garcia",
+      "duration_ms": 286000,
+      "first_release_date": "2019-02-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.7809
+    }
+  ],
+  "matched_recording": {
+    "artist": "Theon Cross",
+    "track": "Activate (feat. Moses Boyd & Nubya Garcia)",
+    "album": "Fyah",
+    "duration_ms": 286988,
+    "release_date": "2019-02-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/18/3c/74/183c74c8-6509-cdd8-dd70-76aab788b40d/mzaf_739842686737101688.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/activate-feat-moses-boyd-nubya-garcia/1707009046?i=1707009066&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 988
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/activate-feat-moses-boyd-nubya-garcia/1707009046?i=1707009066&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/18/3c/74/183c74c8-6509-cdd8-dd70-76aab788b40d/mzaf_739842686737101688.plus.aac.p.m4a",
+      "bytes": 1006351,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 143.555,
+    "beat_interval_cv": 0.03922,
+    "onset_rate_per_sec": 4.1733,
+    "dynamic_range_db_p95_p10": 19.682,
+    "crest_factor_db": 12.586,
+    "rms_mean": 0.10725,
+    "rms_std": 0.06708,
+    "spectral_centroid_hz_mean": 3265.09,
+    "spectral_centroid_hz_std": 1395.37,
+    "spectral_bandwidth_hz_mean": 2664.7,
+    "spectral_rolloff_hz_mean": 6223.2,
+    "spectral_flatness_mean": 0.1123,
+    "spectral_contrast_mean": 17.42766,
+    "energy_share": {
+      "below_150_hz": 0.72326,
+      "150_to_2000_hz": 0.1906,
+      "above_2000_hz": 0.08614
+    },
+    "percussive_share": 0.3691,
+    "tonal_entropy_bits": 3.53569,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.22,
+      "relative_score": 0.72702
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09577,
+        "spectral_centroid_hz": 3850.1,
+        "onset_strength": 1.65979,
+        "spectral_flatness": 0.17949
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10213,
+        "spectral_centroid_hz": 3167.35,
+        "onset_strength": 1.70037,
+        "spectral_flatness": 0.1143
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11247,
+        "spectral_centroid_hz": 3027.57,
+        "onset_strength": 1.95074,
+        "spectral_flatness": 0.1214
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.0828,
+        "spectral_centroid_hz": 3476.38,
+        "onset_strength": 1.97719,
+        "spectral_flatness": 0.16373
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.10858,
+        "spectral_centroid_hz": 3289.29,
+        "onset_strength": 1.89074,
+        "spectral_flatness": 0.13931
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.11411,
+        "spectral_centroid_hz": 3181.73,
+        "onset_strength": 1.47652,
+        "spectral_flatness": 0.09352
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.13063,
+        "spectral_centroid_hz": 2932.06,
+        "onset_strength": 1.68923,
+        "spectral_flatness": 0.07562
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.0939,
+        "spectral_centroid_hz": 3108.6,
+        "onset_strength": 1.59947,
+        "spectral_flatness": 0.09955
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.11057,
+        "spectral_centroid_hz": 3778.38,
+        "onset_strength": 1.32906,
+        "spectral_flatness": 0.10327
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.11503,
+        "spectral_centroid_hz": 3193.31,
+        "onset_strength": 1.42099,
+        "spectral_flatness": 0.07185
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.12984,
+        "spectral_centroid_hz": 2846.99,
+        "onset_strength": 1.56092,
+        "spectral_flatness": 0.07724
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.0916,
+        "spectral_centroid_hz": 3330.61,
+        "onset_strength": 1.62274,
+        "spectral_flatness": 0.1085
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "69bdf5cf-ef28-4cba-8e1d-8686d81ccef2",
+      "title": "Activate",
+      "artist": "Theon Cross Moses Boyd Nubya Garcia",
+      "duration_ms": 286000,
+      "first_release_date": "2019-02-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.7809
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "69bdf5cf-ef28-4cba-8e1d-8686d81ccef2",
+      "duration_sec": 287.033477783,
+      "sample_rate": 44100,
+      "tempo_bpm": 146.736694336,
+      "danceability": 1.15535342693,
+      "onset_rate": 4.00633955002,
+      "beats_count": 635,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.107408605516,
+      "dynamic_complexity": 3.05278682709,
+      "average_loudness": 0.934781551361,
+      "spectral_centroid_mean": 1815.3782959,
+      "spectral_flux_mean": 0.108967706561,
+      "spectral_rolloff_mean": 2122.64794922,
+      "dissonance_mean": 0.480110555887,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
