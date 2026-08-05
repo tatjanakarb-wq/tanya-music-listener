@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Floating Points",
+    "track": "Falaise",
+    "request_id": "chat27-20260805-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "5d82b606-b907-4863-8db3-47317e0222a6",
+      "title": "Falaise",
+      "artist": "Floating Points",
+      "duration_ms": 234320,
+      "first_release_date": "2019-10-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "a58bbc2d-34e9-42f5-81ce-d5513d6583ef",
+      "title": "Falaise",
+      "artist": "Floating Points",
+      "duration_ms": 216000,
+      "first_release_date": "2026-06-19",
+      "disambiguation": "part of “Erol Alkan: Bugged In, Pt. III” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Floating Points",
+    "track": "Falaise",
+    "album": "Crush",
+    "duration_ms": 234320,
+    "release_date": "2019-10-18T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/03/15/900315ec-88d0-7fa6-4fc6-852c40074984/mzaf_9858831917701410307.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/falaise/1475361065?i=1475361066&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/falaise/1475361065?i=1475361066&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/03/15/900315ec-88d0-7fa6-4fc6-852c40074984/mzaf_9858831917701410307.plus.aac.p.m4a",
+      "bytes": 1122443,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.04747,
+    "onset_rate_per_sec": 0.90143,
+    "dynamic_range_db_p95_p10": 47.256,
+    "crest_factor_db": 22.914,
+    "rms_mean": 0.00584,
+    "rms_std": 0.00729,
+    "spectral_centroid_hz_mean": 2752.34,
+    "spectral_centroid_hz_std": 1136.99,
+    "spectral_bandwidth_hz_mean": 2413.43,
+    "spectral_rolloff_hz_mean": 5277.96,
+    "spectral_flatness_mean": 0.10371,
+    "spectral_contrast_mean": 19.70303,
+    "energy_share": {
+      "below_150_hz": 0.00869,
+      "150_to_2000_hz": 0.95178,
+      "above_2000_hz": 0.03953
+    },
+    "percussive_share": 0.11438,
+    "tonal_entropy_bits": 3.3427,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 1.04199
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 4e-05,
+        "spectral_centroid_hz": 4052.91,
+        "onset_strength": 0.32185,
+        "spectral_flatness": 0.39232
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00012,
+        "spectral_centroid_hz": 4242.41,
+        "onset_strength": 0.85557,
+        "spectral_flatness": 0.31984
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0002,
+        "spectral_centroid_hz": 4272.29,
+        "onset_strength": 0.85258,
+        "spectral_flatness": 0.33179
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.0014,
+        "spectral_centroid_hz": 3672.69,
+        "onset_strength": 0.86966,
+        "spectral_flatness": 0.16771
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.00313,
+        "spectral_centroid_hz": 3121.92,
+        "onset_strength": 0.85758,
+        "spectral_flatness": 0.00602
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.00255,
+        "spectral_centroid_hz": 3088.0,
+        "onset_strength": 0.83678,
+        "spectral_flatness": 0.00868
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.0031,
+        "spectral_centroid_hz": 2412.72,
+        "onset_strength": 0.76377,
+        "spectral_flatness": 0.00753
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.00592,
+        "spectral_centroid_hz": 1794.08,
+        "onset_strength": 0.72353,
+        "spectral_flatness": 0.00309
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.00769,
+        "spectral_centroid_hz": 1616.12,
+        "onset_strength": 0.68475,
+        "spectral_flatness": 0.00218
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.00632,
+        "spectral_centroid_hz": 1707.7,
+        "onset_strength": 0.68835,
+        "spectral_flatness": 0.00271
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.0188,
+        "spectral_centroid_hz": 1488.8,
+        "onset_strength": 0.81478,
+        "spectral_flatness": 0.00173
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.02082,
+        "spectral_centroid_hz": 1562.56,
+        "onset_strength": 0.77446,
+        "spectral_flatness": 0.00208
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "5d82b606-b907-4863-8db3-47317e0222a6",
+      "title": "Falaise",
+      "artist": "Floating Points",
+      "duration_ms": 234320,
+      "first_release_date": "2019-10-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "5d82b606-b907-4863-8db3-47317e0222a6",
+      "duration_sec": 234.320007324,
+      "sample_rate": 44100,
+      "tempo_bpm": 142.83883667,
+      "danceability": 0.901571333408,
+      "onset_rate": 3.11518788338,
+      "beats_count": 477,
+      "key": "E",
+      "scale": "minor",
+      "chords_changes_rate": 0.0382405407727,
+      "dynamic_complexity": 7.72080039978,
+      "average_loudness": 0.245387330651,
+      "spectral_centroid_mean": 912.335510254,
+      "spectral_flux_mean": 0.0526433587074,
+      "spectral_rolloff_mean": 1168.34631348,
+      "dissonance_mean": 0.43816190958,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
