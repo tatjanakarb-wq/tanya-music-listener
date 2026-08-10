@@ -1,0 +1,226 @@
+{
+  "request": {
+    "artist": "Hauschka",
+    "track": "Radar",
+    "request_id": "gym28-20260810-015"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e3fa2d91-575d-4b05-8593-1c8312ceaf5a",
+      "title": "Radar",
+      "artist": "Hauschka",
+      "duration_ms": 232973,
+      "first_release_date": "2011-02-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "bf15cc3c-2392-4d76-8233-6a1ffaa72fcb",
+      "title": "Radar",
+      "artist": "Hauschka",
+      "duration_ms": 463000,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "09da16ba-f00a-4aba-a702-2360f00916b7",
+      "title": "Radar (Alva Noto Remodel)",
+      "artist": "Hauschka",
+      "duration_ms": 309000,
+      "first_release_date": "2010-10-16",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.6271
+    },
+    {
+      "mbid": "a603b0af-eb86-4385-a9b3-9e900b3bb7ed",
+      "title": "Radar (Michael Mayer remix)",
+      "artist": "Hauschka",
+      "duration_ms": 502000,
+      "first_release_date": "2010-10-16",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.6133
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hauschka",
+    "track": "Radar",
+    "album": "Salon Des Amateurs",
+    "duration_ms": 232973,
+    "release_date": "2011-02-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/08/bb/3808bbcc-1d5a-dbc2-e31a-942c47ce029c/mzaf_11670628373637581523.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/radar/1495891837?i=1495891839&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/radar/1495891837?i=1495891839&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/08/bb/3808bbcc-1d5a-dbc2-e31a-942c47ce029c/mzaf_11670628373637581523.plus.aac.p.m4a",
+      "bytes": 1059575,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.0191,
+    "onset_rate_per_sec": 5.64668,
+    "dynamic_range_db_p95_p10": 9.827,
+    "crest_factor_db": 14.055,
+    "rms_mean": 0.10868,
+    "rms_std": 0.04169,
+    "spectral_centroid_hz_mean": 905.28,
+    "spectral_centroid_hz_std": 411.55,
+    "spectral_bandwidth_hz_mean": 1635.98,
+    "spectral_rolloff_hz_mean": 1652.76,
+    "spectral_flatness_mean": 0.00114,
+    "spectral_contrast_mean": 18.33021,
+    "energy_share": {
+      "below_150_hz": 0.66766,
+      "150_to_2000_hz": 0.32932,
+      "above_2000_hz": 0.00302
+    },
+    "percussive_share": 0.32961,
+    "tonal_entropy_bits": 3.47869,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.51338
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10165,
+        "spectral_centroid_hz": 671.03,
+        "onset_strength": 1.53741,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10375,
+        "spectral_centroid_hz": 765.04,
+        "onset_strength": 1.73822,
+        "spectral_flatness": 0.00084
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09535,
+        "spectral_centroid_hz": 842.48,
+        "onset_strength": 1.73486,
+        "spectral_flatness": 0.00098
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10644,
+        "spectral_centroid_hz": 844.49,
+        "onset_strength": 1.74607,
+        "spectral_flatness": 0.00094
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.10741,
+        "spectral_centroid_hz": 815.15,
+        "onset_strength": 1.54384,
+        "spectral_flatness": 0.00089
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11181,
+        "spectral_centroid_hz": 810.23,
+        "onset_strength": 1.74274,
+        "spectral_flatness": 0.00077
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.10956,
+        "spectral_centroid_hz": 864.5,
+        "onset_strength": 1.64113,
+        "spectral_flatness": 0.00088
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12117,
+        "spectral_centroid_hz": 1058.78,
+        "onset_strength": 1.75113,
+        "spectral_flatness": 0.00164
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10528,
+        "spectral_centroid_hz": 1072.12,
+        "onset_strength": 1.6902,
+        "spectral_flatness": 0.0017
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10052,
+        "spectral_centroid_hz": 1065.1,
+        "onset_strength": 1.90439,
+        "spectral_flatness": 0.00179
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12061,
+        "spectral_centroid_hz": 1033.8,
+        "onset_strength": 2.01877,
+        "spectral_flatness": 0.00153
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12055,
+        "spectral_centroid_hz": 1018.13,
+        "onset_strength": 1.89106,
+        "spectral_flatness": 0.00115
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "e3fa2d91-575d-4b05-8593-1c8312ceaf5a",
+      "title": "Radar",
+      "artist": "Hauschka",
+      "duration_ms": 232973,
+      "first_release_date": "2011-02-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "e3fa2d91-575d-4b05-8593-1c8312ceaf5a",
+      "duration_sec": 232.973327637,
+      "sample_rate": 44100,
+      "tempo_bpm": 123.812767029,
+      "danceability": 1.31989598274,
+      "onset_rate": 5.03886365891,
+      "beats_count": 484,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0298923868686,
+      "dynamic_complexity": 5.24595117569,
+      "average_loudness": 0.905633509159,
+      "spectral_centroid_mean": 523.532653809,
+      "spectral_flux_mean": 0.0798540636897,
+      "spectral_rolloff_mean": 749.281066895,
+      "dissonance_mean": 0.41272777319,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
