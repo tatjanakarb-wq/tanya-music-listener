@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Francesco Tristano",
+    "track": "The Melody",
+    "request_id": "gym28-20260810-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "75537ad9-9f1e-401b-acff-89b269a9c36c",
+      "title": "The Melody",
+      "artist": "Francesco Tristano",
+      "duration_ms": 527280,
+      "first_release_date": "2008-02-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d1912110-6fc4-48c5-b548-e85e710514e6",
+      "title": "The Melody",
+      "artist": "Francesco Tristano",
+      "duration_ms": 275000,
+      "first_release_date": "2007-02-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "c066741e-e9b3-4dd4-a622-a1cc8b1ef617",
+      "title": "The Melody",
+      "artist": "Francesco Tristano",
+      "duration_ms": 273653,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "0aaf9ad8-0ab7-413d-9522-50a153e0903c",
+      "title": "The Melody (C2 remix)",
+      "artist": "Francesco Tristano",
+      "duration_ms": 448933,
+      "first_release_date": "2008-06-02",
+      "disambiguation": "part of “Supperclub: Beauty” DJ-mix",
+      "musicbrainz_score": 91,
+      "local_match_score": 0.82
+    },
+    {
+      "mbid": "9c5df0c8-79a3-4582-9bde-4ef6b196a96a",
+      "title": "The Melody (Balil remix)",
+      "artist": "Francesco Tristano",
+      "duration_ms": 168000,
+      "first_release_date": "2007-10-05",
+      "disambiguation": "",
+      "musicbrainz_score": 91,
+      "local_match_score": 0.7825
+    }
+  ],
+  "matched_recording": {
+    "artist": "Francesco Tristano",
+    "track": "The Melody",
+    "album": "Not for Piano",
+    "duration_ms": 274795,
+    "release_date": "2007-02-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/90/5f/4b905f04-03ab-74cb-1f87-a7d5ebc340e7/mzaf_18217807187150387829.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-melody/377128811?i=377128830&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 205
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-melody/377128811?i=377128830&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/90/5f/4b905f04-03ab-74cb-1f87-a7d5ebc340e7/mzaf_18217807187150387829.plus.aac.p.m4a",
+      "bytes": 1180211,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.0572,
+    "onset_rate_per_sec": 4.81138,
+    "dynamic_range_db_p95_p10": 14.221,
+    "crest_factor_db": 14.956,
+    "rms_mean": 0.04707,
+    "rms_std": 0.02604,
+    "spectral_centroid_hz_mean": 559.12,
+    "spectral_centroid_hz_std": 72.64,
+    "spectral_bandwidth_hz_mean": 752.79,
+    "spectral_rolloff_hz_mean": 941.46,
+    "spectral_flatness_mean": 3e-05,
+    "spectral_contrast_mean": 20.70115,
+    "energy_share": {
+      "below_150_hz": 0.1118,
+      "150_to_2000_hz": 0.88552,
+      "above_2000_hz": 0.00269
+    },
+    "percussive_share": 0.20727,
+    "tonal_entropy_bits": 3.5122,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 1.21749
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05672,
+        "spectral_centroid_hz": 554.56,
+        "onset_strength": 0.83257,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04219,
+        "spectral_centroid_hz": 566.19,
+        "onset_strength": 0.76988,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05912,
+        "spectral_centroid_hz": 604.12,
+        "onset_strength": 0.81798,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04489,
+        "spectral_centroid_hz": 549.79,
+        "onset_strength": 0.78925,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04158,
+        "spectral_centroid_hz": 578.82,
+        "onset_strength": 0.70186,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04827,
+        "spectral_centroid_hz": 535.07,
+        "onset_strength": 0.81262,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.03664,
+        "spectral_centroid_hz": 498.69,
+        "onset_strength": 0.87467,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04192,
+        "spectral_centroid_hz": 535.9,
+        "onset_strength": 0.80835,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05831,
+        "spectral_centroid_hz": 582.9,
+        "onset_strength": 0.82878,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.03606,
+        "spectral_centroid_hz": 558.48,
+        "onset_strength": 0.73578,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.05958,
+        "spectral_centroid_hz": 591.22,
+        "onset_strength": 0.79851,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.03972,
+        "spectral_centroid_hz": 553.36,
+        "onset_strength": 0.79488,
+        "spectral_flatness": 4e-05
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "d1912110-6fc4-48c5-b548-e85e710514e6",
+      "title": "The Melody",
+      "artist": "Francesco Tristano",
+      "duration_ms": 275000,
+      "first_release_date": "2007-02-12",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "d1912110-6fc4-48c5-b548-e85e710514e6",
+      "duration_sec": 273.684906006,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.918708801,
+      "danceability": 1.14894354343,
+      "onset_rate": 3.86181926727,
+      "beats_count": 554,
+      "key": "C#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0529262088239,
+      "dynamic_complexity": 5.87542629242,
+      "average_loudness": 0.402498841286,
+      "spectral_centroid_mean": 478.494781494,
+      "spectral_flux_mean": 0.049859970808,
+      "spectral_rolloff_mean": 811.688415527,
+      "dissonance_mean": 0.403042048216,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
