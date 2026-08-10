@@ -1,0 +1,163 @@
+{
+  "request": {
+    "artist": "Aufgang",
+    "track": "Épopée, pt. 2",
+    "request_id": "gym28-20260810-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "68bd8f6a-74f1-411d-ac5c-836f4690bd69",
+      "title": "Épopée, pt. 2",
+      "artist": "Aufgang",
+      "duration_ms": 254000,
+      "first_release_date": "2021-11-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Aufgang",
+    "track": "Épopée, pt. 2",
+    "album": "Broad Ways",
+    "duration_ms": 254120,
+    "release_date": "2021-11-19T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/46/99/6f/46996f15-34a1-cb5f-fa0c-9e38e6a47839/mzaf_17018843488522983954.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/%C3%A9pop%C3%A9e-pt-2/1584381737?i=1584381748&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 120
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/%C3%A9pop%C3%A9e-pt-2/1584381737?i=1584381748&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/46/99/6f/46996f15-34a1-cb5f-fa0c-9e38e6a47839/mzaf_17018843488522983954.plus.aac.p.m4a",
+      "bytes": 1015240,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.03154,
+    "onset_rate_per_sec": 5.6801,
+    "dynamic_range_db_p95_p10": 8.632,
+    "crest_factor_db": 10.547,
+    "rms_mean": 0.17201,
+    "rms_std": 0.05744,
+    "spectral_centroid_hz_mean": 932.65,
+    "spectral_centroid_hz_std": 498.91,
+    "spectral_bandwidth_hz_mean": 1430.18,
+    "spectral_rolloff_hz_mean": 1840.11,
+    "spectral_flatness_mean": 0.00242,
+    "spectral_contrast_mean": 19.41,
+    "energy_share": {
+      "below_150_hz": 0.6784,
+      "150_to_2000_hz": 0.31465,
+      "above_2000_hz": 0.00694
+    },
+    "percussive_share": 0.29067,
+    "tonal_entropy_bits": 3.53013,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.71,
+      "relative_score": 0.89896
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11286,
+        "spectral_centroid_hz": 667.23,
+        "onset_strength": 1.76248,
+        "spectral_flatness": 0.00133
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.13873,
+        "spectral_centroid_hz": 552.99,
+        "onset_strength": 1.77099,
+        "spectral_flatness": 0.00019
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14577,
+        "spectral_centroid_hz": 742.92,
+        "onset_strength": 1.78045,
+        "spectral_flatness": 0.00068
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.16536,
+        "spectral_centroid_hz": 959.46,
+        "onset_strength": 1.52111,
+        "spectral_flatness": 0.00153
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.16923,
+        "spectral_centroid_hz": 1368.2,
+        "onset_strength": 1.29009,
+        "spectral_flatness": 0.00395
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.18769,
+        "spectral_centroid_hz": 1108.48,
+        "onset_strength": 1.59655,
+        "spectral_flatness": 0.00383
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.1915,
+        "spectral_centroid_hz": 923.23,
+        "onset_strength": 1.79255,
+        "spectral_flatness": 0.0033
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.19313,
+        "spectral_centroid_hz": 959.45,
+        "onset_strength": 2.02792,
+        "spectral_flatness": 0.00334
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.19157,
+        "spectral_centroid_hz": 983.27,
+        "onset_strength": 1.85593,
+        "spectral_flatness": 0.00293
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.1885,
+        "spectral_centroid_hz": 1052.62,
+        "onset_strength": 1.8927,
+        "spectral_flatness": 0.00267
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.19415,
+        "spectral_centroid_hz": 916.46,
+        "onset_strength": 1.71411,
+        "spectral_flatness": 0.00184
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.18543,
+        "spectral_centroid_hz": 953.67,
+        "onset_strength": 1.71891,
+        "spectral_flatness": 0.00337
+      }
+    ]
+  }
+}
