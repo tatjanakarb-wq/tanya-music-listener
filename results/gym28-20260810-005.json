@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Trifonic",
+    "track": "Good Enough",
+    "request_id": "gym28-20260810-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a4f8b330-826e-4f33-9654-f86621c07da9",
+      "title": "Good Enough",
+      "artist": "Trifonic",
+      "duration_ms": 400840,
+      "first_release_date": "2008-02-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "088b3650-d8a9-4b62-89b8-96ad38c880a9",
+      "title": "Good Enough (Clear Skys remix)",
+      "artist": "Trifonic",
+      "duration_ms": 339000,
+      "first_release_date": "2018-06-08",
+      "disambiguation": "",
+      "musicbrainz_score": 86,
+      "local_match_score": 0.7472
+    }
+  ],
+  "matched_recording": {
+    "artist": "Trifonic",
+    "track": "Good Enough",
+    "album": "Emergence",
+    "duration_ms": 402333,
+    "release_date": "2008-02-26T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/86/d9/ec86d97c-638e-47ea-32b1-012dc5599080/mzaf_15284763868021018430.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/good-enough/272671080?i=272671169&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1493
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/good-enough/272671080?i=272671169&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/86/d9/ec86d97c-638e-47ea-32b1-012dc5599080/mzaf_15284763868021018430.plus.aac.p.m4a",
+      "bytes": 1016098,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.0418,
+    "onset_rate_per_sec": 3.57512,
+    "dynamic_range_db_p95_p10": 4.259,
+    "crest_factor_db": 15.327,
+    "rms_mean": 0.09832,
+    "rms_std": 0.01783,
+    "spectral_centroid_hz_mean": 979.08,
+    "spectral_centroid_hz_std": 334.38,
+    "spectral_bandwidth_hz_mean": 1286.0,
+    "spectral_rolloff_hz_mean": 1996.69,
+    "spectral_flatness_mean": 0.00033,
+    "spectral_contrast_mean": 20.80542,
+    "energy_share": {
+      "below_150_hz": 0.38479,
+      "150_to_2000_hz": 0.57793,
+      "above_2000_hz": 0.03729
+    },
+    "percussive_share": 0.18259,
+    "tonal_entropy_bits": 3.30331,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.41295
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09031,
+        "spectral_centroid_hz": 706.4,
+        "onset_strength": 0.85429,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.10004,
+        "spectral_centroid_hz": 866.8,
+        "onset_strength": 1.00614,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10464,
+        "spectral_centroid_hz": 1265.68,
+        "onset_strength": 1.1495,
+        "spectral_flatness": 0.00056
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.08994,
+        "spectral_centroid_hz": 814.94,
+        "onset_strength": 0.83562,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09384,
+        "spectral_centroid_hz": 776.19,
+        "onset_strength": 1.0287,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11075,
+        "spectral_centroid_hz": 1113.1,
+        "onset_strength": 1.09064,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0952,
+        "spectral_centroid_hz": 894.83,
+        "onset_strength": 0.72929,
+        "spectral_flatness": 0.00024
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09451,
+        "spectral_centroid_hz": 695.55,
+        "onset_strength": 0.76201,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10865,
+        "spectral_centroid_hz": 1062.55,
+        "onset_strength": 1.08754,
+        "spectral_flatness": 0.00032
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09861,
+        "spectral_centroid_hz": 1359.27,
+        "onset_strength": 0.99074,
+        "spectral_flatness": 0.00067
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.09288,
+        "spectral_centroid_hz": 1139.5,
+        "onset_strength": 1.02983,
+        "spectral_flatness": 0.0004
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.10047,
+        "spectral_centroid_hz": 1051.8,
+        "onset_strength": 1.00532,
+        "spectral_flatness": 0.00029
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "a4f8b330-826e-4f33-9654-f86621c07da9",
+      "title": "Good Enough",
+      "artist": "Trifonic",
+      "duration_ms": 400840,
+      "first_release_date": "2008-02-26",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "a4f8b330-826e-4f33-9654-f86621c07da9",
+      "duration_sec": 402.333343506,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.070579529,
+      "danceability": 1.36118340492,
+      "onset_rate": 2.81840395927,
+      "beats_count": 737,
+      "key": null,
+      "scale": null,
+      "chords_changes_rate": 0.0567801482975,
+      "dynamic_complexity": 6.38751459122,
+      "average_loudness": 0.378594756126,
+      "spectral_centroid_mean": 892.576293945,
+      "spectral_flux_mean": 0.0835964605212,
+      "spectral_rolloff_mean": 994.798522949,
+      "dissonance_mean": 0.454376995564,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
