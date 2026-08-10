@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Aufgang",
+    "track": "Vertige",
+    "request_id": "gym28-20260810-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "584f2b04-cae6-40e9-b703-793edf7fa578",
+      "title": "Vertige",
+      "artist": "Aufgang",
+      "duration_ms": 327066,
+      "first_release_date": "2013-04-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "29bbdedc-88a5-42c5-bf1d-58b8e99c2b48",
+      "title": "Vertige (sayCet remix)",
+      "artist": "Aufgang",
+      "duration_ms": 328935,
+      "first_release_date": "2014-01-08",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.7207
+    }
+  ],
+  "matched_recording": {
+    "artist": "Aufgang",
+    "track": "Vertige",
+    "album": "Istiklaliya",
+    "duration_ms": 327067,
+    "release_date": "2013-04-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/ed/56/05ed5601-7024-b68c-d08c-91223d0bb368/mzaf_7319907729626904895.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/vertige/610781219?i=610781532&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/vertige/610781219?i=610781532&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/ed/56/05ed5601-7024-b68c-d08c-91223d0bb368/mzaf_7319907729626904895.plus.aac.p.m4a",
+      "bytes": 1047024,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.04797,
+    "onset_rate_per_sec": 6.58223,
+    "dynamic_range_db_p95_p10": 6.812,
+    "crest_factor_db": 12.891,
+    "rms_mean": 0.13286,
+    "rms_std": 0.03475,
+    "spectral_centroid_hz_mean": 1103.66,
+    "spectral_centroid_hz_std": 304.37,
+    "spectral_bandwidth_hz_mean": 1704.42,
+    "spectral_rolloff_hz_mean": 2275.61,
+    "spectral_flatness_mean": 0.00204,
+    "spectral_contrast_mean": 18.71323,
+    "energy_share": {
+      "below_150_hz": 0.66087,
+      "150_to_2000_hz": 0.33329,
+      "above_2000_hz": 0.00584
+    },
+    "percussive_share": 0.32162,
+    "tonal_entropy_bits": 3.50905,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 1.37707
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12939,
+        "spectral_centroid_hz": 993.5,
+        "onset_strength": 1.50959,
+        "spectral_flatness": 0.00155
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.13123,
+        "spectral_centroid_hz": 975.29,
+        "onset_strength": 1.46891,
+        "spectral_flatness": 0.00149
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.128,
+        "spectral_centroid_hz": 972.99,
+        "onset_strength": 1.4466,
+        "spectral_flatness": 0.00143
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.13316,
+        "spectral_centroid_hz": 949.34,
+        "onset_strength": 1.3867,
+        "spectral_flatness": 0.00115
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.13255,
+        "spectral_centroid_hz": 1495.5,
+        "onset_strength": 1.24302,
+        "spectral_flatness": 0.00551
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.14586,
+        "spectral_centroid_hz": 1042.93,
+        "onset_strength": 1.3076,
+        "spectral_flatness": 0.0016
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13256,
+        "spectral_centroid_hz": 1114.19,
+        "onset_strength": 1.28821,
+        "spectral_flatness": 0.00187
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.13385,
+        "spectral_centroid_hz": 1139.18,
+        "onset_strength": 1.20749,
+        "spectral_flatness": 0.00197
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.1306,
+        "spectral_centroid_hz": 1130.59,
+        "onset_strength": 1.32999,
+        "spectral_flatness": 0.00198
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13589,
+        "spectral_centroid_hz": 1150.55,
+        "onset_strength": 1.27899,
+        "spectral_flatness": 0.00193
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12785,
+        "spectral_centroid_hz": 1161.55,
+        "onset_strength": 1.4048,
+        "spectral_flatness": 0.00222
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.13338,
+        "spectral_centroid_hz": 1115.01,
+        "onset_strength": 1.2934,
+        "spectral_flatness": 0.00175
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "584f2b04-cae6-40e9-b703-793edf7fa578",
+      "title": "Vertige",
+      "artist": "Aufgang",
+      "duration_ms": 327066,
+      "first_release_date": "2013-04-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "584f2b04-cae6-40e9-b703-793edf7fa578",
+      "duration_sec": 327.066680908,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.914077759,
+      "danceability": 1.38662910461,
+      "onset_rate": 4.35356998444,
+      "beats_count": 662,
+      "key": "D#",
+      "scale": "major",
+      "chords_changes_rate": 0.0760931298137,
+      "dynamic_complexity": 3.52141308784,
+      "average_loudness": 0.866928040981,
+      "spectral_centroid_mean": 721.259216309,
+      "spectral_flux_mean": 0.119270712137,
+      "spectral_rolloff_mean": 477.293609619,
+      "dissonance_mean": 0.455479592085,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
