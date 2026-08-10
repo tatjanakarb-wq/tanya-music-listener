@@ -1,0 +1,193 @@
+{
+  "request": {
+    "artist": "Rob Clouth",
+    "track": "Transition",
+    "request_id": "gym28-20260810-017"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "37ce5326-65d6-4f3a-9225-1e0f6b78985b",
+      "title": "Transition",
+      "artist": "Rob Clouth",
+      "duration_ms": 417000,
+      "first_release_date": "2018-02-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "04d98bfd-6dab-41a4-9811-0c4bd0c417c4",
+      "title": "Transition (Ben Lukas Boysen remix)",
+      "artist": "Rob Clouth",
+      "duration_ms": 153893,
+      "first_release_date": "2018",
+      "disambiguation": "part of “Balance 030: Max Cooper” DJ‐mix; CD 2",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.6898
+    },
+    {
+      "mbid": "2841bee6-fc1f-4a41-a0b0-e56b87606d80",
+      "title": "Transition (Ben Lukas Boysen remix)",
+      "artist": "Rob Clouth",
+      "duration_ms": 336000,
+      "first_release_date": "2018-03-16",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.6898
+    },
+    {
+      "mbid": "1def47bd-ceec-4bd9-bf01-04bba674e0ec",
+      "title": "Transition (Ben Lukas Boysen remix)",
+      "artist": "Rob Clouth",
+      "duration_ms": null,
+      "first_release_date": "2018-05-08",
+      "disambiguation": "",
+      "musicbrainz_score": 85,
+      "local_match_score": 0.6898
+    }
+  ],
+  "matched_recording": {
+    "artist": "Rob Clouth",
+    "track": "Transition",
+    "album": "Transition - EP",
+    "duration_ms": 417564,
+    "release_date": "2018-02-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/82/66/5e826619-0151-cea2-b885-759ff4cb1a86/mzaf_6038186127209757862.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/transition/1339744908?i=1339744924&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 564
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/transition/1339744908?i=1339744924&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/82/66/5e826619-0151-cea2-b885-759ff4cb1a86/mzaf_6038186127209757862.plus.aac.p.m4a",
+      "bytes": 1191207,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.06493,
+    "onset_rate_per_sec": 5.1455,
+    "dynamic_range_db_p95_p10": 21.009,
+    "crest_factor_db": 20.552,
+    "rms_mean": 0.00931,
+    "rms_std": 0.00793,
+    "spectral_centroid_hz_mean": 1915.05,
+    "spectral_centroid_hz_std": 912.38,
+    "spectral_bandwidth_hz_mean": 2455.36,
+    "spectral_rolloff_hz_mean": 4228.24,
+    "spectral_flatness_mean": 0.0185,
+    "spectral_contrast_mean": 17.98687,
+    "energy_share": {
+      "below_150_hz": 0.94107,
+      "150_to_2000_hz": 0.05059,
+      "above_2000_hz": 0.00834
+    },
+    "percussive_share": 0.24309,
+    "tonal_entropy_bits": 3.54733,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.68,
+      "relative_score": 0.93771
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00391,
+        "spectral_centroid_hz": 2712.4,
+        "onset_strength": 1.52664,
+        "spectral_flatness": 0.05527
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.00352,
+        "spectral_centroid_hz": 2310.56,
+        "onset_strength": 1.47777,
+        "spectral_flatness": 0.02455
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.00248,
+        "spectral_centroid_hz": 2447.29,
+        "onset_strength": 1.49414,
+        "spectral_flatness": 0.03447
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.00241,
+        "spectral_centroid_hz": 2757.95,
+        "onset_strength": 1.47909,
+        "spectral_flatness": 0.03915
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.00278,
+        "spectral_centroid_hz": 2825.23,
+        "onset_strength": 1.54607,
+        "spectral_flatness": 0.04505
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.00468,
+        "spectral_centroid_hz": 1786.31,
+        "onset_strength": 1.35278,
+        "spectral_flatness": 0.00755
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.00847,
+        "spectral_centroid_hz": 1776.17,
+        "onset_strength": 1.45235,
+        "spectral_flatness": 0.00848
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.01028,
+        "spectral_centroid_hz": 1432.2,
+        "onset_strength": 1.35153,
+        "spectral_flatness": 0.00214
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.01267,
+        "spectral_centroid_hz": 1170.43,
+        "onset_strength": 1.32724,
+        "spectral_flatness": 0.00143
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.01393,
+        "spectral_centroid_hz": 1120.27,
+        "onset_strength": 1.20422,
+        "spectral_flatness": 0.00133
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.02085,
+        "spectral_centroid_hz": 955.33,
+        "onset_strength": 1.26571,
+        "spectral_flatness": 0.00066
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.0256,
+        "spectral_centroid_hz": 1687.04,
+        "onset_strength": 1.31126,
+        "spectral_flatness": 0.00195
+      }
+    ]
+  }
+}
