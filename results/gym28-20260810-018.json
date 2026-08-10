@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Amon Tobin",
+    "track": "Four Ton Mantis",
+    "request_id": "gym28-20260810-018"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a7f70453-ba46-4b01-8f12-6da2f24b1228",
+      "title": "Four Ton Mantis",
+      "artist": "Amon Tobin",
+      "duration_ms": 118000,
+      "first_release_date": "2007",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e5b2f2d7-b167-4f7a-9019-1b659e3f1b91",
+      "title": "Four Ton Mantis",
+      "artist": "Amon Tobin",
+      "duration_ms": 285906,
+      "first_release_date": "2000-05-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "9dfd1cdf-352b-4e7b-af44-2b59bb6a01c5",
+      "title": "Four Ton Mantis (Bonobo mix)",
+      "artist": "Amon Tobin",
+      "duration_ms": 255093,
+      "first_release_date": "2002-08-12",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.8444
+    },
+    {
+      "mbid": "96255231-f1e8-42e5-b17b-f82f5df63d91",
+      "title": "Four Ton Mantis / Hey Blondie",
+      "artist": "Amon Tobin",
+      "duration_ms": 148186,
+      "first_release_date": "2004",
+      "disambiguation": "part of “Solid Steel Presents Amon Tobin: Recorded Live” DJ‐mix",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.8343
+    },
+    {
+      "mbid": "b144220f-a6cc-46a8-8537-eaa0ec42939b",
+      "title": "Four Ton Mantis / Hey Blondie",
+      "artist": "Amon Tobin",
+      "duration_ms": 156080,
+      "first_release_date": "2004-07-12",
+      "disambiguation": "part of \"Solid Steel Presents Amon Tobin: Recorded Live\" DJ Mix",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.8343
+    }
+  ],
+  "matched_recording": {
+    "artist": "Amon Tobin",
+    "track": "Four Ton Mantis (Bonobo Mix)",
+    "album": "One Offs Remixes and B Sides",
+    "duration_ms": 255046,
+    "release_date": "2000-08-09T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/88/02/e288029b-4dec-ff69-b8cd-d46e848987c4/mzaf_13516594142023369710.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/four-ton-mantis-bonobo-mix/345408418?i=345408554&uo=4",
+    "match_score": 0.8337,
+    "title_score": 0.7317,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 47
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/four-ton-mantis-bonobo-mix/345408418?i=345408554&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/88/02/e288029b-4dec-ff69-b8cd-d46e848987c4/mzaf_13516594142023369710.plus.aac.p.m4a",
+      "bytes": 1056999,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 86.133,
+    "beat_interval_cv": 0.0238,
+    "onset_rate_per_sec": 2.77322,
+    "dynamic_range_db_p95_p10": 8.369,
+    "crest_factor_db": 11.381,
+    "rms_mean": 0.12892,
+    "rms_std": 0.04206,
+    "spectral_centroid_hz_mean": 2000.52,
+    "spectral_centroid_hz_std": 690.07,
+    "spectral_bandwidth_hz_mean": 2353.74,
+    "spectral_rolloff_hz_mean": 4492.75,
+    "spectral_flatness_mean": 0.01472,
+    "spectral_contrast_mean": 17.61616,
+    "energy_share": {
+      "below_150_hz": 0.682,
+      "150_to_2000_hz": 0.28426,
+      "above_2000_hz": 0.03374
+    },
+    "percussive_share": 0.26625,
+    "tonal_entropy_bits": 3.45423,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.67848
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13039,
+        "spectral_centroid_hz": 2099.52,
+        "onset_strength": 1.17806,
+        "spectral_flatness": 0.01599
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1124,
+        "spectral_centroid_hz": 2005.32,
+        "onset_strength": 1.15012,
+        "spectral_flatness": 0.01941
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14692,
+        "spectral_centroid_hz": 1928.11,
+        "onset_strength": 1.18916,
+        "spectral_flatness": 0.01739
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.12428,
+        "spectral_centroid_hz": 1867.99,
+        "onset_strength": 1.11335,
+        "spectral_flatness": 0.01315
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.14901,
+        "spectral_centroid_hz": 1914.57,
+        "onset_strength": 1.12645,
+        "spectral_flatness": 0.0125
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.12568,
+        "spectral_centroid_hz": 1854.34,
+        "onset_strength": 1.20804,
+        "spectral_flatness": 0.01119
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.14805,
+        "spectral_centroid_hz": 1728.59,
+        "onset_strength": 1.18661,
+        "spectral_flatness": 0.00733
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.14144,
+        "spectral_centroid_hz": 1856.46,
+        "onset_strength": 1.21029,
+        "spectral_flatness": 0.00925
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11204,
+        "spectral_centroid_hz": 1718.13,
+        "onset_strength": 1.34562,
+        "spectral_flatness": 0.01007
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11395,
+        "spectral_centroid_hz": 2262.77,
+        "onset_strength": 1.19079,
+        "spectral_flatness": 0.01506
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11474,
+        "spectral_centroid_hz": 2445.15,
+        "onset_strength": 1.21147,
+        "spectral_flatness": 0.02324
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12786,
+        "spectral_centroid_hz": 2322.67,
+        "onset_strength": 1.0958,
+        "spectral_flatness": 0.02203
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "a7f70453-ba46-4b01-8f12-6da2f24b1228",
+      "title": "Four Ton Mantis",
+      "artist": "Amon Tobin",
+      "duration_ms": 118000,
+      "first_release_date": "2007",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "a7f70453-ba46-4b01-8f12-6da2f24b1228",
+      "duration_sec": 285.906677246,
+      "sample_rate": 44100,
+      "tempo_bpm": 92.7583770752,
+      "danceability": 1.07721078396,
+      "onset_rate": 2.46573400497,
+      "beats_count": 456,
+      "key": "C#",
+      "scale": "major",
+      "chords_changes_rate": 0.0717765539885,
+      "dynamic_complexity": 3.23630642891,
+      "average_loudness": 0.802766084671,
+      "spectral_centroid_mean": 1757.83105469,
+      "spectral_flux_mean": 0.120235919952,
+      "spectral_rolloff_mean": 1465.87475586,
+      "dissonance_mean": 0.468987584114,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
