@@ -1,0 +1,152 @@
+{
+  "request": {
+    "artist": "Daniel Wohl",
+    "track": "Holographic",
+    "request_id": "gym28-20260810-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Holographic%22+AND+artist%3A%22Daniel+Wohl%22&fmt=json&limit=8",
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Daniel Wohl",
+    "track": "Holographic (Intro)",
+    "album": "Daniel Wohl: Holographic",
+    "duration_ms": 75283,
+    "release_date": "2016-01-29T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/88/e4/ee88e459-257c-3f17-46af-781d3268faee/mzaf_16426883449810705159.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/holographic-intro/1831852056?i=1831852180&uo=4",
+    "match_score": 0.8671,
+    "title_score": 0.7857,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/holographic-intro/1831852056?i=1831852180&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/88/e4/ee88e459-257c-3f17-46af-781d3268faee/mzaf_16426883449810705159.plus.aac.p.m4a",
+      "bytes": 1112813,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.03444,
+    "onset_rate_per_sec": 2.40382,
+    "dynamic_range_db_p95_p10": 28.44,
+    "crest_factor_db": 15.363,
+    "rms_mean": 0.0787,
+    "rms_std": 0.0464,
+    "spectral_centroid_hz_mean": 1415.14,
+    "spectral_centroid_hz_std": 545.96,
+    "spectral_bandwidth_hz_mean": 2193.93,
+    "spectral_rolloff_hz_mean": 2861.2,
+    "spectral_flatness_mean": 0.00498,
+    "spectral_contrast_mean": 18.02035,
+    "energy_share": {
+      "below_150_hz": 0.43857,
+      "150_to_2000_hz": 0.55381,
+      "above_2000_hz": 0.00762
+    },
+    "percussive_share": 0.18248,
+    "tonal_entropy_bits": 3.2934,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 1.01579
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00127,
+        "spectral_centroid_hz": 1365.19,
+        "onset_strength": 0.39302,
+        "spectral_flatness": 0.00736
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01359,
+        "spectral_centroid_hz": 1239.63,
+        "onset_strength": 0.91899,
+        "spectral_flatness": 0.00341
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03089,
+        "spectral_centroid_hz": 1321.71,
+        "onset_strength": 0.91528,
+        "spectral_flatness": 0.00415
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.058,
+        "spectral_centroid_hz": 1376.48,
+        "onset_strength": 0.9599,
+        "spectral_flatness": 0.00462
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.07714,
+        "spectral_centroid_hz": 1449.14,
+        "onset_strength": 0.97686,
+        "spectral_flatness": 0.00523
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.07467,
+        "spectral_centroid_hz": 1496.69,
+        "onset_strength": 0.94417,
+        "spectral_flatness": 0.00553
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.08652,
+        "spectral_centroid_hz": 1452.05,
+        "onset_strength": 0.90027,
+        "spectral_flatness": 0.00506
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.10465,
+        "spectral_centroid_hz": 1406.05,
+        "onset_strength": 0.90893,
+        "spectral_flatness": 0.0045
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.11117,
+        "spectral_centroid_hz": 1524.69,
+        "onset_strength": 0.93698,
+        "spectral_flatness": 0.00571
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.13013,
+        "spectral_centroid_hz": 1392.9,
+        "onset_strength": 0.90946,
+        "spectral_flatness": 0.00396
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.12432,
+        "spectral_centroid_hz": 1456.37,
+        "onset_strength": 0.88706,
+        "spectral_flatness": 0.00493
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.13165,
+        "spectral_centroid_hz": 1501.56,
+        "onset_strength": 0.95624,
+        "spectral_flatness": 0.00527
+      }
+    ]
+  }
+}
