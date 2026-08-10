@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "Grandbrothers",
+    "track": "Daybreak",
+    "request_id": "gym28-20260810-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "373b658c-7164-4321-b181-d6183bdb10ca",
+      "title": "Daybreak",
+      "artist": "Grandbrothers",
+      "duration_ms": 345000,
+      "first_release_date": "2023-04-14",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "9e239704-8a1d-4022-8545-e32f9403dfea",
+      "title": "Daybreak",
+      "artist": "Grandbrothers",
+      "duration_ms": 345000,
+      "first_release_date": "2023-04-14",
+      "disambiguation": "Dolby Atmos",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Grandbrothers",
+    "track": "Daybreak",
+    "album": "Late Reflections",
+    "duration_ms": 345000,
+    "release_date": "2023-03-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/54/cb/b954cbd9-2fcc-0e91-ae3d-769a62d39fdd/mzaf_1856090693280529474.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/daybreak/1721055169?i=1721055179&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/daybreak/1721055169?i=1721055179&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/54/cb/b954cbd9-2fcc-0e91-ae3d-769a62d39fdd/mzaf_1856090693280529474.plus.aac.p.m4a",
+      "bytes": 1002510,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.05204,
+    "onset_rate_per_sec": 4.63712,
+    "dynamic_range_db_p95_p10": 15.582,
+    "crest_factor_db": 20.323,
+    "rms_mean": 0.02857,
+    "rms_std": 0.01865,
+    "spectral_centroid_hz_mean": 881.5,
+    "spectral_centroid_hz_std": 230.28,
+    "spectral_bandwidth_hz_mean": 1283.49,
+    "spectral_rolloff_hz_mean": 1339.04,
+    "spectral_flatness_mean": 0.0005,
+    "spectral_contrast_mean": 21.11067,
+    "energy_share": {
+      "below_150_hz": 0.1026,
+      "150_to_2000_hz": 0.89346,
+      "above_2000_hz": 0.00394
+    },
+    "percussive_share": 0.15182,
+    "tonal_entropy_bits": 3.5065,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.73,
+      "relative_score": 1.35653
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02841,
+        "spectral_centroid_hz": 737.02,
+        "onset_strength": 0.74665,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.02359,
+        "spectral_centroid_hz": 819.78,
+        "onset_strength": 0.76744,
+        "spectral_flatness": 0.00038
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.01594,
+        "spectral_centroid_hz": 789.88,
+        "onset_strength": 0.74501,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.02593,
+        "spectral_centroid_hz": 744.16,
+        "onset_strength": 0.72528,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.01901,
+        "spectral_centroid_hz": 978.38,
+        "onset_strength": 0.7461,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.01352,
+        "spectral_centroid_hz": 1146.46,
+        "onset_strength": 0.73997,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.05424,
+        "spectral_centroid_hz": 798.97,
+        "onset_strength": 0.81894,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.04413,
+        "spectral_centroid_hz": 1002.11,
+        "onset_strength": 0.90529,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.01685,
+        "spectral_centroid_hz": 1115.53,
+        "onset_strength": 0.7686,
+        "spectral_flatness": 0.0012
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.02604,
+        "spectral_centroid_hz": 938.98,
+        "onset_strength": 0.75057,
+        "spectral_flatness": 0.00085
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.0602,
+        "spectral_centroid_hz": 621.79,
+        "onset_strength": 0.84446,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.01493,
+        "spectral_centroid_hz": 885.34,
+        "onset_strength": 0.77448,
+        "spectral_flatness": 0.00051
+      }
+    ]
+  }
+}
