@@ -1,0 +1,206 @@
+{
+  "request": {
+    "artist": "Mouse on the Keys",
+    "track": "Leviathan",
+    "request_id": "gym28-20260810-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "fbc9e77f-1cfd-408d-bf40-1ee7e65246e2",
+      "title": "Leviathan",
+      "artist": "Mouse on the Keys",
+      "duration_ms": 349080,
+      "first_release_date": "2015-09-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b409dae3-eeeb-4dfd-bd46-00f9031515b2",
+      "title": "Leviathan",
+      "artist": "Mouse on the Keys",
+      "duration_ms": 356466,
+      "first_release_date": "2016-03-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "mouse on the keys",
+    "track": "Leviathan",
+    "album": "The Flowers of Romance",
+    "duration_ms": 349080,
+    "release_date": "2015-07-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b1/02/da/b102da50-e4f6-cfc3-7c94-f0ca5e077abd/mzaf_13298896084588881096.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/leviathan/1044364858?i=1044364991&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/leviathan/1044364858?i=1044364991&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b1/02/da/b102da50-e4f6-cfc3-7c94-f0ca5e077abd/mzaf_13298896084588881096.plus.aac.p.m4a",
+      "bytes": 1034394,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.06701,
+    "onset_rate_per_sec": 5.57121,
+    "dynamic_range_db_p95_p10": 16.654,
+    "crest_factor_db": 12.901,
+    "rms_mean": 0.11873,
+    "rms_std": 0.06585,
+    "spectral_centroid_hz_mean": 2075.76,
+    "spectral_centroid_hz_std": 868.95,
+    "spectral_bandwidth_hz_mean": 2310.07,
+    "spectral_rolloff_hz_mean": 4651.93,
+    "spectral_flatness_mean": 0.01597,
+    "spectral_contrast_mean": 21.27077,
+    "energy_share": {
+      "below_150_hz": 0.65902,
+      "150_to_2000_hz": 0.30041,
+      "above_2000_hz": 0.04058
+    },
+    "percussive_share": 0.40074,
+    "tonal_entropy_bits": 3.53097,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 0.7331
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03515,
+        "spectral_centroid_hz": 996.39,
+        "onset_strength": 0.85658,
+        "spectral_flatness": 0.00027
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.03802,
+        "spectral_centroid_hz": 1078.21,
+        "onset_strength": 0.81757,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03762,
+        "spectral_centroid_hz": 1131.57,
+        "onset_strength": 0.91123,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.07981,
+        "spectral_centroid_hz": 3191.57,
+        "onset_strength": 0.93807,
+        "spectral_flatness": 0.03761
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.16819,
+        "spectral_centroid_hz": 2252.38,
+        "onset_strength": 1.2695,
+        "spectral_flatness": 0.01697
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.13897,
+        "spectral_centroid_hz": 2195.99,
+        "onset_strength": 1.48523,
+        "spectral_flatness": 0.01967
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.15782,
+        "spectral_centroid_hz": 2432.31,
+        "onset_strength": 1.14109,
+        "spectral_flatness": 0.01887
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.15288,
+        "spectral_centroid_hz": 2151.37,
+        "onset_strength": 1.35693,
+        "spectral_flatness": 0.01642
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.1547,
+        "spectral_centroid_hz": 2651.15,
+        "onset_strength": 1.21032,
+        "spectral_flatness": 0.02379
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.1569,
+        "spectral_centroid_hz": 2112.47,
+        "onset_strength": 1.4456,
+        "spectral_flatness": 0.01534
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.1424,
+        "spectral_centroid_hz": 2402.32,
+        "onset_strength": 1.33745,
+        "spectral_flatness": 0.02332
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.16188,
+        "spectral_centroid_hz": 2297.3,
+        "onset_strength": 1.19875,
+        "spectral_flatness": 0.01852
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "fbc9e77f-1cfd-408d-bf40-1ee7e65246e2",
+      "title": "Leviathan",
+      "artist": "Mouse on the Keys",
+      "duration_ms": 349080,
+      "first_release_date": "2015-09-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "fbc9e77f-1cfd-408d-bf40-1ee7e65246e2",
+      "duration_sec": 349.079986572,
+      "sample_rate": 44100,
+      "tempo_bpm": 163.183746338,
+      "danceability": 1.02245819569,
+      "onset_rate": 3.74104404449,
+      "beats_count": 893,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.0466879494488,
+      "dynamic_complexity": 3.14008927345,
+      "average_loudness": 0.8717700243,
+      "spectral_centroid_mean": 1426.33349609,
+      "spectral_flux_mean": 0.0924879834056,
+      "spectral_rolloff_mean": 1240.83178711,
+      "dissonance_mean": 0.469735503197,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
