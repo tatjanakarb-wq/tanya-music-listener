@@ -1,0 +1,196 @@
+{
+  "request": {
+    "artist": "Dawn of Midi",
+    "track": "Atlas",
+    "request_id": "gym28-20260810-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4cee2007-8a90-4ca8-b075-1d6a3ffe2ef5",
+      "title": "Atlas",
+      "artist": "Dawn of Midi",
+      "duration_ms": 397000,
+      "first_release_date": "2013-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Dawn of Midi",
+    "track": "Atlas",
+    "album": "Dysnomia",
+    "duration_ms": 397368,
+    "release_date": "2013-08-06T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/8c/5a/198c5ac6-8987-1f0f-b281-a4102d3095ed/mzaf_2952872672226404397.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/atlas/1451055198?i=1451055201&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 368
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/atlas/1451055198?i=1451055201&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/8c/5a/198c5ac6-8987-1f0f-b281-a4102d3095ed/mzaf_2952872672226404397.plus.aac.p.m4a",
+      "bytes": 1042593,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.0131,
+    "onset_rate_per_sec": 3.36942,
+    "dynamic_range_db_p95_p10": 21.317,
+    "crest_factor_db": 14.855,
+    "rms_mean": 0.08163,
+    "rms_std": 0.0737,
+    "spectral_centroid_hz_mean": 601.97,
+    "spectral_centroid_hz_std": 354.0,
+    "spectral_bandwidth_hz_mean": 1136.1,
+    "spectral_rolloff_hz_mean": 1043.15,
+    "spectral_flatness_mean": 0.00048,
+    "spectral_contrast_mean": 16.9366,
+    "energy_share": {
+      "below_150_hz": 0.90963,
+      "150_to_2000_hz": 0.08765,
+      "above_2000_hz": 0.00272
+    },
+    "percussive_share": 0.46749,
+    "tonal_entropy_bits": 3.55003,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 0.71554
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05269,
+        "spectral_centroid_hz": 675.81,
+        "onset_strength": 1.39951,
+        "spectral_flatness": 0.00062
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.05212,
+        "spectral_centroid_hz": 665.07,
+        "onset_strength": 1.38588,
+        "spectral_flatness": 0.00058
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05316,
+        "spectral_centroid_hz": 717.36,
+        "onset_strength": 1.59727,
+        "spectral_flatness": 0.00068
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.09235,
+        "spectral_centroid_hz": 534.57,
+        "onset_strength": 1.63054,
+        "spectral_flatness": 0.00033
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.09,
+        "spectral_centroid_hz": 580.35,
+        "onset_strength": 1.81917,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.08856,
+        "spectral_centroid_hz": 604.87,
+        "onset_strength": 2.03101,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.08899,
+        "spectral_centroid_hz": 586.2,
+        "onset_strength": 1.79999,
+        "spectral_flatness": 0.00041
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.08959,
+        "spectral_centroid_hz": 594.33,
+        "onset_strength": 1.9387,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.09397,
+        "spectral_centroid_hz": 543.2,
+        "onset_strength": 1.73007,
+        "spectral_flatness": 0.00042
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.08955,
+        "spectral_centroid_hz": 571.29,
+        "onset_strength": 1.82671,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.09695,
+        "spectral_centroid_hz": 581.64,
+        "onset_strength": 1.97867,
+        "spectral_flatness": 0.00045
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.09132,
+        "spectral_centroid_hz": 570.13,
+        "onset_strength": 1.81207,
+        "spectral_flatness": 0.00041
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "4cee2007-8a90-4ca8-b075-1d6a3ffe2ef5",
+      "title": "Atlas",
+      "artist": "Dawn of Midi",
+      "duration_ms": 397000,
+      "first_release_date": "2013-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "4cee2007-8a90-4ca8-b075-1d6a3ffe2ef5",
+      "duration_sec": 397.679992676,
+      "sample_rate": null,
+      "tempo_bpm": 112.355155945,
+      "danceability": 1.69168865681,
+      "onset_rate": 4.55117177963,
+      "beats_count": 720,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0323409214616,
+      "dynamic_complexity": 4.24529695511,
+      "average_loudness": 0.783915221691,
+      "spectral_centroid_mean": 369.523498535,
+      "spectral_flux_mean": 0.143861785531,
+      "spectral_rolloff_mean": 288.697296143,
+      "dissonance_mean": 0.37835547328,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
