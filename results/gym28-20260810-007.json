@@ -1,0 +1,173 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Ascent",
+    "request_id": "gym28-20260810-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "131a5c21-c6a5-4877-b46c-ac78bb0a8e94",
+      "title": "Ascent",
+      "artist": "GoGo Penguin",
+      "duration_ms": 280400,
+      "first_release_date": "2022-02-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "061ead48-8bc6-48d0-b483-a3b6b13dc95c",
+      "title": "Ascent",
+      "artist": "GoGo Penguin",
+      "duration_ms": 272291,
+      "first_release_date": "2024-04-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Ascent",
+    "album": "Between Two Waves - EP",
+    "duration_ms": 281743,
+    "release_date": "2022-02-11T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/92/a4/bb/92a4bb22-937e-679e-e040-426114f822a2/mzaf_8216307036404890502.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/ascent/1629365604?i=1629365612&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1343
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/ascent/1629365604?i=1629365612&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/92/a4/bb/92a4bb22-937e-679e-e040-426114f822a2/mzaf_8216307036404890502.plus.aac.p.m4a",
+      "bytes": 1089045,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.02524,
+    "onset_rate_per_sec": 5.6801,
+    "dynamic_range_db_p95_p10": 9.269,
+    "crest_factor_db": 14.042,
+    "rms_mean": 0.10777,
+    "rms_std": 0.03919,
+    "spectral_centroid_hz_mean": 966.37,
+    "spectral_centroid_hz_std": 341.9,
+    "spectral_bandwidth_hz_mean": 1614.72,
+    "spectral_rolloff_hz_mean": 1777.5,
+    "spectral_flatness_mean": 0.00145,
+    "spectral_contrast_mean": 20.74819,
+    "energy_share": {
+      "below_150_hz": 0.57332,
+      "150_to_2000_hz": 0.42121,
+      "above_2000_hz": 0.00547
+    },
+    "percussive_share": 0.26917,
+    "tonal_entropy_bits": 3.54103,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 1.18263
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1038,
+        "spectral_centroid_hz": 751.6,
+        "onset_strength": 1.21828,
+        "spectral_flatness": 0.00041
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.08319,
+        "spectral_centroid_hz": 854.54,
+        "onset_strength": 1.05579,
+        "spectral_flatness": 0.00073
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11276,
+        "spectral_centroid_hz": 884.69,
+        "onset_strength": 1.24841,
+        "spectral_flatness": 0.00065
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.11772,
+        "spectral_centroid_hz": 946.02,
+        "onset_strength": 1.16465,
+        "spectral_flatness": 0.00071
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12065,
+        "spectral_centroid_hz": 667.53,
+        "onset_strength": 1.18092,
+        "spectral_flatness": 0.0003
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11745,
+        "spectral_centroid_hz": 731.28,
+        "onset_strength": 1.26642,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.13244,
+        "spectral_centroid_hz": 879.42,
+        "onset_strength": 1.2638,
+        "spectral_flatness": 0.00074
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09021,
+        "spectral_centroid_hz": 907.27,
+        "onset_strength": 1.17664,
+        "spectral_flatness": 0.00073
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10092,
+        "spectral_centroid_hz": 1038.17,
+        "onset_strength": 1.12395,
+        "spectral_flatness": 0.00115
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.10299,
+        "spectral_centroid_hz": 1231.33,
+        "onset_strength": 1.10413,
+        "spectral_flatness": 0.00236
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11284,
+        "spectral_centroid_hz": 1627.93,
+        "onset_strength": 0.94742,
+        "spectral_flatness": 0.00753
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09835,
+        "spectral_centroid_hz": 1077.2,
+        "onset_strength": 1.32323,
+        "spectral_flatness": 0.00174
+      }
+    ]
+  }
+}
