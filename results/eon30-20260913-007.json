@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Mario Batkovic",
+    "track": "Quatere",
+    "request_id": "eon30-20260913-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Quatere%22+AND+artist%3A%22Mario+Batkovic%22&fmt=json&limit=8",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Mario Batkovic",
+    "track": "Quatere",
+    "album": "Mario Batkovic",
+    "duration_ms": 378747,
+    "release_date": "2015-04-10T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/7c/54/257c547e-874d-2dec-6188-764bf3cef2ea/mzaf_4603844878165329474.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/quatere/1790722279?i=1790722284&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/quatere/1790722279?i=1790722284&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/7c/54/257c547e-874d-2dec-6188-764bf3cef2ea/mzaf_4603844878165329474.plus.aac.p.m4a",
+      "bytes": 1043959,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.04727,
+    "onset_rate_per_sec": 6.80556,
+    "dynamic_range_db_p95_p10": 8.598,
+    "crest_factor_db": 14.224,
+    "rms_mean": 0.08757,
+    "rms_std": 0.02866,
+    "spectral_centroid_hz_mean": 731.35,
+    "spectral_centroid_hz_std": 180.08,
+    "spectral_bandwidth_hz_mean": 1187.79,
+    "spectral_rolloff_hz_mean": 1190.45,
+    "spectral_flatness_mean": 0.00031,
+    "spectral_contrast_mean": 21.36529,
+    "energy_share": {
+      "below_150_hz": 0.46476,
+      "150_to_2000_hz": 0.53287,
+      "above_2000_hz": 0.00237
+    },
+    "percussive_share": 0.18566,
+    "tonal_entropy_bits": 3.54712,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.24,
+      "relative_score": 0.78276
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10068,
+        "spectral_centroid_hz": 649.4,
+        "onset_strength": 1.2481,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.09211,
+        "spectral_centroid_hz": 658.39,
+        "onset_strength": 1.34771,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08832,
+        "spectral_centroid_hz": 624.33,
+        "onset_strength": 1.34401,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.08329,
+        "spectral_centroid_hz": 653.89,
+        "onset_strength": 1.28027,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.0913,
+        "spectral_centroid_hz": 646.97,
+        "onset_strength": 1.39783,
+        "spectral_flatness": 0.00089
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.08592,
+        "spectral_centroid_hz": 729.58,
+        "onset_strength": 1.30568,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.09709,
+        "spectral_centroid_hz": 750.06,
+        "onset_strength": 1.33429,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.0745,
+        "spectral_centroid_hz": 884.28,
+        "onset_strength": 1.35011,
+        "spectral_flatness": 0.00044
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.08132,
+        "spectral_centroid_hz": 786.01,
+        "onset_strength": 1.32976,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.09622,
+        "spectral_centroid_hz": 711.24,
+        "onset_strength": 1.32196,
+        "spectral_flatness": 0.00015
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.08062,
+        "spectral_centroid_hz": 869.33,
+        "onset_strength": 1.35123,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.07954,
+        "spectral_centroid_hz": 811.37,
+        "onset_strength": 1.28757,
+        "spectral_flatness": 0.0004
+      }
+    ]
+  }
+}
