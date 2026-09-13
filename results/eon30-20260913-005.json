@@ -1,0 +1,172 @@
+{
+  "request": {
+    "artist": "Athletic Progression",
+    "track": "DEBRA",
+    "request_id": "eon30-20260913-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "17e7abf8-b65f-4ee1-9e15-6e1d11192b78",
+      "title": "DEBRA",
+      "artist": "Athletic Progression",
+      "duration_ms": 438516,
+      "first_release_date": "2021-06-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f4c84099-0e61-48ab-ae1c-c0235393654f",
+      "title": "DEBRA",
+      "artist": "Athletic Progression",
+      "duration_ms": 438000,
+      "first_release_date": "2021-06-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Athletic Progression",
+    "track": "Debra",
+    "album": "Cloud High In Dreams, But Heavy In the Air",
+    "duration_ms": 438516,
+    "release_date": "2021-05-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/26/fb/79/26fb7933-99e3-fcd4-c625-e38facbf1514/mzaf_13032841795598476251.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/debra/1562640574?i=1562641030&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/debra/1562640574?i=1562641030&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/26/fb/79/26fb7933-99e3-fcd4-c625-e38facbf1514/mzaf_13032841795598476251.plus.aac.p.m4a",
+      "bytes": 1061382,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.04471,
+    "onset_rate_per_sec": 4.77796,
+    "dynamic_range_db_p95_p10": 8.758,
+    "crest_factor_db": 14.538,
+    "rms_mean": 0.10621,
+    "rms_std": 0.03691,
+    "spectral_centroid_hz_mean": 1351.87,
+    "spectral_centroid_hz_std": 834.57,
+    "spectral_bandwidth_hz_mean": 1763.9,
+    "spectral_rolloff_hz_mean": 2676.31,
+    "spectral_flatness_mean": 0.00994,
+    "spectral_contrast_mean": 21.28068,
+    "energy_share": {
+      "below_150_hz": 0.44495,
+      "150_to_2000_hz": 0.53788,
+      "above_2000_hz": 0.01717
+    },
+    "percussive_share": 0.33499,
+    "tonal_entropy_bits": 3.55853,
+    "climax": {
+      "segment": 6,
+      "time_sec": 13.72,
+      "relative_score": 0.72507
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12077,
+        "spectral_centroid_hz": 1023.51,
+        "onset_strength": 1.30079,
+        "spectral_flatness": 0.00246
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.09024,
+        "spectral_centroid_hz": 1553.32,
+        "onset_strength": 2.41571,
+        "spectral_flatness": 0.01322
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.09805,
+        "spectral_centroid_hz": 1542.39,
+        "onset_strength": 2.15741,
+        "spectral_flatness": 0.01503
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.09679,
+        "spectral_centroid_hz": 1464.47,
+        "onset_strength": 2.23208,
+        "spectral_flatness": 0.01227
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09686,
+        "spectral_centroid_hz": 1630.51,
+        "onset_strength": 2.39023,
+        "spectral_flatness": 0.01409
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11702,
+        "spectral_centroid_hz": 1443.17,
+        "onset_strength": 2.43617,
+        "spectral_flatness": 0.00884
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.09139,
+        "spectral_centroid_hz": 1653.44,
+        "onset_strength": 2.24899,
+        "spectral_flatness": 0.01779
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.09663,
+        "spectral_centroid_hz": 1661.76,
+        "onset_strength": 2.29636,
+        "spectral_flatness": 0.01498
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.10204,
+        "spectral_centroid_hz": 1499.64,
+        "onset_strength": 2.2496,
+        "spectral_flatness": 0.00947
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.11256,
+        "spectral_centroid_hz": 1408.81,
+        "onset_strength": 2.35818,
+        "spectral_flatness": 0.01023
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.12881,
+        "spectral_centroid_hz": 616.26,
+        "onset_strength": 1.18259,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12345,
+        "spectral_centroid_hz": 723.21,
+        "onset_strength": 1.71316,
+        "spectral_flatness": 0.00061
+      }
+    ]
+  }
+}
