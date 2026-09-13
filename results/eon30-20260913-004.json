@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Błoto",
+    "track": "Szlam",
+    "request_id": "eon30-20260913-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "a5355eaa-01f9-4c99-9265-6e6aea23d7a2",
+      "title": "Szlam",
+      "artist": "Błoto",
+      "duration_ms": 232000,
+      "first_release_date": "2023",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Błoto",
+    "track": "Szlam",
+    "album": "Szlam - Single",
+    "duration_ms": 232757,
+    "release_date": "2023-12-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c3/be/b2/c3beb2cc-8b1e-c855-b731-3a7e55dce903/mzaf_8662314652511948228.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/szlam/1712076131?i=1712076134&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 757
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/szlam/1712076131?i=1712076134&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c3/be/b2/c3beb2cc-8b1e-c855-b731-3a7e55dce903/mzaf_8662314652511948228.plus.aac.p.m4a",
+      "bytes": 1010502,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.06016,
+    "onset_rate_per_sec": 6.03826,
+    "dynamic_range_db_p95_p10": 16.881,
+    "crest_factor_db": 11.366,
+    "rms_mean": 0.14625,
+    "rms_std": 0.07722,
+    "spectral_centroid_hz_mean": 2269.98,
+    "spectral_centroid_hz_std": 921.92,
+    "spectral_bandwidth_hz_mean": 2601.65,
+    "spectral_rolloff_hz_mean": 5182.86,
+    "spectral_flatness_mean": 0.03387,
+    "spectral_contrast_mean": 17.45208,
+    "energy_share": {
+      "below_150_hz": 0.78964,
+      "150_to_2000_hz": 0.1918,
+      "above_2000_hz": 0.01856
+    },
+    "percussive_share": 0.35604,
+    "tonal_entropy_bits": 3.5163,
+    "climax": {
+      "segment": 5,
+      "time_sec": 11.24,
+      "relative_score": 0.70082
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.16477,
+        "spectral_centroid_hz": 2335.26,
+        "onset_strength": 1.69137,
+        "spectral_flatness": 0.0319
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.12877,
+        "spectral_centroid_hz": 2479.3,
+        "onset_strength": 1.5406,
+        "spectral_flatness": 0.02949
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.12508,
+        "spectral_centroid_hz": 2541.25,
+        "onset_strength": 1.70919,
+        "spectral_flatness": 0.05354
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.14693,
+        "spectral_centroid_hz": 2404.41,
+        "onset_strength": 2.001,
+        "spectral_flatness": 0.04084
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.18791,
+        "spectral_centroid_hz": 1891.28,
+        "onset_strength": 1.46904,
+        "spectral_flatness": 0.00684
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.16634,
+        "spectral_centroid_hz": 2421.34,
+        "onset_strength": 1.62108,
+        "spectral_flatness": 0.02302
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.13573,
+        "spectral_centroid_hz": 2557.83,
+        "onset_strength": 1.66065,
+        "spectral_flatness": 0.06173
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.10444,
+        "spectral_centroid_hz": 2821.12,
+        "onset_strength": 1.51686,
+        "spectral_flatness": 0.077
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.16674,
+        "spectral_centroid_hz": 2156.15,
+        "onset_strength": 1.58104,
+        "spectral_flatness": 0.01955
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.11997,
+        "spectral_centroid_hz": 2423.02,
+        "onset_strength": 1.45503,
+        "spectral_flatness": 0.04557
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.14389,
+        "spectral_centroid_hz": 1400.86,
+        "onset_strength": 1.0032,
+        "spectral_flatness": 0.00212
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.16421,
+        "spectral_centroid_hz": 1814.07,
+        "onset_strength": 1.27404,
+        "spectral_flatness": 0.0152
+      }
+    ]
+  }
+}
