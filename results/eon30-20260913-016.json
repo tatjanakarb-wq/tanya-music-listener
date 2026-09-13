@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Telefon Tel Aviv",
+    "track": "Sound In A Dark Room",
+    "request_id": "eon30-20260913-016"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Sound+In+A+Dark+Room%22+AND+artist%3A%22Telefon+Tel+Aviv%22&fmt=json&limit=8",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Telefon Tel Aviv",
+    "track": "Sound in a Dark Room",
+    "album": "Map of What Is Effortless",
+    "duration_ms": 468027,
+    "release_date": "2002-11-19T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/39/39/7c393984-d9eb-b7ef-7e71-683ea526f5d8/mzaf_9709715357571934435.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/sound-in-a-dark-room/1224319075?i=1224319865&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/sound-in-a-dark-room/1224319075?i=1224319865&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/39/39/7c393984-d9eb-b7ef-7e71-683ea526f5d8/mzaf_9709715357571934435.plus.aac.p.m4a",
+      "bytes": 1113167,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.02178,
+    "onset_rate_per_sec": 4.14313,
+    "dynamic_range_db_p95_p10": 13.762,
+    "crest_factor_db": 12.715,
+    "rms_mean": 0.12544,
+    "rms_std": 0.06567,
+    "spectral_centroid_hz_mean": 2052.9,
+    "spectral_centroid_hz_std": 1258.25,
+    "spectral_bandwidth_hz_mean": 2305.43,
+    "spectral_rolloff_hz_mean": 4380.26,
+    "spectral_flatness_mean": 0.02349,
+    "spectral_contrast_mean": 20.72792,
+    "energy_share": {
+      "below_150_hz": 0.51357,
+      "150_to_2000_hz": 0.39013,
+      "above_2000_hz": 0.0963
+    },
+    "percussive_share": 0.37533,
+    "tonal_entropy_bits": 3.48693,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.19,
+      "relative_score": 1.37052
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13028,
+        "spectral_centroid_hz": 2683.26,
+        "onset_strength": 1.82886,
+        "spectral_flatness": 0.03316
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07754,
+        "spectral_centroid_hz": 1652.05,
+        "onset_strength": 1.76619,
+        "spectral_flatness": 0.01578
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14568,
+        "spectral_centroid_hz": 1751.36,
+        "onset_strength": 1.37683,
+        "spectral_flatness": 0.00935
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10551,
+        "spectral_centroid_hz": 2728.01,
+        "onset_strength": 2.31817,
+        "spectral_flatness": 0.04666
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12296,
+        "spectral_centroid_hz": 1761.13,
+        "onset_strength": 1.98411,
+        "spectral_flatness": 0.02335
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.0976,
+        "spectral_centroid_hz": 2222.71,
+        "onset_strength": 1.92671,
+        "spectral_flatness": 0.01902
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.17404,
+        "spectral_centroid_hz": 2141.53,
+        "onset_strength": 2.0847,
+        "spectral_flatness": 0.01909
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12509,
+        "spectral_centroid_hz": 1676.52,
+        "onset_strength": 1.80044,
+        "spectral_flatness": 0.01585
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07681,
+        "spectral_centroid_hz": 2046.52,
+        "onset_strength": 2.3241,
+        "spectral_flatness": 0.02695
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.12392,
+        "spectral_centroid_hz": 2134.91,
+        "onset_strength": 1.79417,
+        "spectral_flatness": 0.03119
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.18365,
+        "spectral_centroid_hz": 2185.34,
+        "onset_strength": 2.26614,
+        "spectral_flatness": 0.02719
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.14192,
+        "spectral_centroid_hz": 1663.37,
+        "onset_strength": 1.9998,
+        "spectral_flatness": 0.01445
+      }
+    ]
+  }
+}
