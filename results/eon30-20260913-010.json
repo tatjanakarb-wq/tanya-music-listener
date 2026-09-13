@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "Clark",
+    "track": "Winter Linn",
+    "request_id": "eon30-20260913-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "16127ae0-d099-4933-8195-95ecbf4df2de",
+      "title": "Winter Linn",
+      "artist": "Clark",
+      "duration_ms": 189000,
+      "first_release_date": "2014-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Clark",
+    "track": "Winter Linn",
+    "album": "Clark",
+    "duration_ms": 188653,
+    "release_date": "2014-11-02T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/91/f0/1291f014-608a-1689-eb81-cdc7b130352a/mzaf_3225220647528312251.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/winter-linn/917623350?i=917623424&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 347
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/winter-linn/917623350?i=917623424&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/91/f0/1291f014-608a-1689-eb81-cdc7b130352a/mzaf_3225220647528312251.plus.aac.p.m4a",
+      "bytes": 1075007,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.03394,
+    "onset_rate_per_sec": 5.80474,
+    "dynamic_range_db_p95_p10": 2.761,
+    "crest_factor_db": 9.475,
+    "rms_mean": 0.2044,
+    "rms_std": 0.0228,
+    "spectral_centroid_hz_mean": 2194.36,
+    "spectral_centroid_hz_std": 563.73,
+    "spectral_bandwidth_hz_mean": 2653.17,
+    "spectral_rolloff_hz_mean": 5176.21,
+    "spectral_flatness_mean": 0.02656,
+    "spectral_contrast_mean": 16.8798,
+    "energy_share": {
+      "below_150_hz": 0.40077,
+      "150_to_2000_hz": 0.56291,
+      "above_2000_hz": 0.03632
+    },
+    "percussive_share": 0.31707,
+    "tonal_entropy_bits": 3.54501,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 0.88148
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.20726,
+        "spectral_centroid_hz": 2175.29,
+        "onset_strength": 0.99197,
+        "spectral_flatness": 0.02409
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.21318,
+        "spectral_centroid_hz": 2031.16,
+        "onset_strength": 0.99548,
+        "spectral_flatness": 0.01734
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.19569,
+        "spectral_centroid_hz": 2374.93,
+        "onset_strength": 0.88733,
+        "spectral_flatness": 0.03671
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.19451,
+        "spectral_centroid_hz": 2162.11,
+        "onset_strength": 0.99992,
+        "spectral_flatness": 0.03166
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.20599,
+        "spectral_centroid_hz": 2235.41,
+        "onset_strength": 0.99382,
+        "spectral_flatness": 0.02638
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.2104,
+        "spectral_centroid_hz": 2239.67,
+        "onset_strength": 1.04025,
+        "spectral_flatness": 0.02192
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.19396,
+        "spectral_centroid_hz": 2241.22,
+        "onset_strength": 0.9762,
+        "spectral_flatness": 0.02786
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.19631,
+        "spectral_centroid_hz": 2280.47,
+        "onset_strength": 1.00108,
+        "spectral_flatness": 0.03252
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.20992,
+        "spectral_centroid_hz": 2106.01,
+        "onset_strength": 0.98433,
+        "spectral_flatness": 0.02521
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.21447,
+        "spectral_centroid_hz": 2111.62,
+        "onset_strength": 1.04326,
+        "spectral_flatness": 0.02081
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.20746,
+        "spectral_centroid_hz": 2078.74,
+        "onset_strength": 1.05644,
+        "spectral_flatness": 0.02247
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.20362,
+        "spectral_centroid_hz": 2297.64,
+        "onset_strength": 1.00054,
+        "spectral_flatness": 0.0318
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "16127ae0-d099-4933-8195-95ecbf4df2de",
+      "title": "Winter Linn",
+      "artist": "Clark",
+      "duration_ms": 189000,
+      "first_release_date": "2014-11-02",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "16127ae0-d099-4933-8195-95ecbf4df2de",
+      "duration_sec": 188.708572388,
+      "sample_rate": 44100,
+      "tempo_bpm": 89.9136505127,
+      "danceability": 1.16985917091,
+      "onset_rate": 4.18079280853,
+      "beats_count": 281,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0504305027425,
+      "dynamic_complexity": 3.80807924271,
+      "average_loudness": 0.876908898354,
+      "spectral_centroid_mean": 1165.61779785,
+      "spectral_flux_mean": 0.10171020776,
+      "spectral_rolloff_mean": 1092.15808105,
+      "dissonance_mean": 0.469060838223,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
