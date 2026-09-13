@@ -1,0 +1,25 @@
+{
+  "playlist_number": 30,
+  "working_title": "Eon 30 — candidate pool",
+  "created_at": "2026-09-13",
+  "tracks": [
+    {"artist": "Mammal Hands", "track": "Kandaiki", "request_id": "eon30-20260913-001"},
+    {"artist": "SML", "track": "Switchboard Operations", "request_id": "eon30-20260913-002"},
+    {"artist": "Erik Truffaz & Murcof", "track": "The Eye", "request_id": "eon30-20260913-003"},
+    {"artist": "Błoto", "track": "Szlam", "request_id": "eon30-20260913-004"},
+    {"artist": "Athletic Progression", "track": "DEBRA", "request_id": "eon30-20260913-005"},
+    {"artist": "Tigran Hamasyan", "track": "The Grid", "request_id": "eon30-20260913-006"},
+    {"artist": "Mario Batkovic", "track": "Quatere", "request_id": "eon30-20260913-007"},
+    {"artist": "Kangding Ray", "track": "Amber Decay", "request_id": "eon30-20260913-008"},
+    {"artist": "Barker", "track": "Look How Hard I've Tried", "request_id": "eon30-20260913-009"},
+    {"artist": "Clark", "track": "Winter Linn", "request_id": "eon30-20260913-010"},
+    {"artist": "Rone", "track": "Brest", "request_id": "eon30-20260913-011"},
+    {"artist": "Throwing Snow", "track": "Simmer", "request_id": "eon30-20260913-012"},
+    {"artist": "Weval", "track": "Someday", "request_id": "eon30-20260913-013"},
+    {"artist": "Lusine", "track": "Witness", "request_id": "eon30-20260913-014"},
+    {"artist": "Dauwd", "track": "Lydia", "request_id": "eon30-20260913-015"},
+    {"artist": "Telefon Tel Aviv", "track": "Sound In A Dark Room", "request_id": "eon30-20260913-016"},
+    {"artist": "The Comet Is Coming", "track": "Summon the Fire", "request_id": "eon30-20260913-017"},
+    {"artist": "Floating Points", "track": "Bias", "request_id": "eon30-20260913-018"}
+  ]
+}
