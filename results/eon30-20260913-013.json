@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "Weval",
+    "track": "Someday",
+    "request_id": "eon30-20260913-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c845803f-7342-48e0-9ef4-3b4693c59655",
+      "title": "Someday",
+      "artist": "Weval",
+      "duration_ms": 344266,
+      "first_release_date": "2019-03-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Weval",
+    "track": "Someday",
+    "album": "The Weight",
+    "duration_ms": 344258,
+    "release_date": "2019-03-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/b5/23/bab523e2-498f-471f-fe53-18aa51ad8bc5/mzaf_12478293784538946224.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/someday/1445005142?i=1445005440&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 8
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/someday/1445005142?i=1445005440&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/b5/23/bab523e2-498f-471f-fe53-18aa51ad8bc5/mzaf_12478293784538946224.plus.aac.p.m4a",
+      "bytes": 1047451,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.05923,
+    "onset_rate_per_sec": 4.53704,
+    "dynamic_range_db_p95_p10": 15.249,
+    "crest_factor_db": 14.461,
+    "rms_mean": 0.09153,
+    "rms_std": 0.05835,
+    "spectral_centroid_hz_mean": 1796.09,
+    "spectral_centroid_hz_std": 765.17,
+    "spectral_bandwidth_hz_mean": 2159.79,
+    "spectral_rolloff_hz_mean": 3950.26,
+    "spectral_flatness_mean": 0.01945,
+    "spectral_contrast_mean": 18.20018,
+    "energy_share": {
+      "below_150_hz": 0.74417,
+      "150_to_2000_hz": 0.2341,
+      "above_2000_hz": 0.02174
+    },
+    "percussive_share": 0.37655,
+    "tonal_entropy_bits": 3.53067,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 0.48415
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.02725,
+        "spectral_centroid_hz": 1451.9,
+        "onset_strength": 1.01912,
+        "spectral_flatness": 0.00243
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.08079,
+        "spectral_centroid_hz": 1627.16,
+        "onset_strength": 1.91983,
+        "spectral_flatness": 0.01671
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11231,
+        "spectral_centroid_hz": 1648.84,
+        "onset_strength": 1.65161,
+        "spectral_flatness": 0.01798
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.09003,
+        "spectral_centroid_hz": 1652.94,
+        "onset_strength": 1.69347,
+        "spectral_flatness": 0.01691
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.09171,
+        "spectral_centroid_hz": 1864.03,
+        "onset_strength": 1.91392,
+        "spectral_flatness": 0.02185
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.09203,
+        "spectral_centroid_hz": 1805.58,
+        "onset_strength": 1.80605,
+        "spectral_flatness": 0.01964
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.09726,
+        "spectral_centroid_hz": 1829.95,
+        "onset_strength": 1.57362,
+        "spectral_flatness": 0.02435
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.09958,
+        "spectral_centroid_hz": 1766.06,
+        "onset_strength": 1.36259,
+        "spectral_flatness": 0.01865
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.10527,
+        "spectral_centroid_hz": 2084.16,
+        "onset_strength": 1.24394,
+        "spectral_flatness": 0.02828
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.10674,
+        "spectral_centroid_hz": 2068.42,
+        "onset_strength": 1.32099,
+        "spectral_flatness": 0.02718
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.10284,
+        "spectral_centroid_hz": 1824.1,
+        "onset_strength": 1.62514,
+        "spectral_flatness": 0.01792
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.09236,
+        "spectral_centroid_hz": 1928.22,
+        "onset_strength": 1.54473,
+        "spectral_flatness": 0.02139
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "c845803f-7342-48e0-9ef4-3b4693c59655",
+      "title": "Someday",
+      "artist": "Weval",
+      "duration_ms": 344266,
+      "first_release_date": "2019-03-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "c845803f-7342-48e0-9ef4-3b4693c59655",
+      "duration_sec": 344.258453369,
+      "sample_rate": 44100,
+      "tempo_bpm": 107.010704041,
+      "danceability": 1.3352304697,
+      "onset_rate": 3.21258854866,
+      "beats_count": 653,
+      "key": "D",
+      "scale": "minor",
+      "chords_changes_rate": 0.0570542216301,
+      "dynamic_complexity": 7.0632390976,
+      "average_loudness": 0.433220177889,
+      "spectral_centroid_mean": 903.421813965,
+      "spectral_flux_mean": 0.087408401072,
+      "spectral_rolloff_mean": 856.719482422,
+      "dissonance_mean": 0.443426519632,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
