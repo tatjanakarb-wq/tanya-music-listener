@@ -1,0 +1,99 @@
+{
+  "request": {
+    "artist": "Rone",
+    "track": "Brest",
+    "request_id": "eon30-20260913-011"
+  },
+  "status": "analyzed_archived_full_recording_features",
+  "warnings": [],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "89084e7a-1766-40d6-ace9-b76ba5aba7ee",
+      "title": "Brest",
+      "artist": "Rone",
+      "duration_ms": 205000,
+      "first_release_date": "2021-08-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "add20167-8453-4bee-913e-e58c73737256",
+      "title": "Brest",
+      "artist": "Rone",
+      "duration_ms": 204000,
+      "first_release_date": "2017-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "add20167-8453-4bee-913e-e58c73737256",
+      "title": "Brest",
+      "artist": "Rone",
+      "duration_ms": 204000,
+      "first_release_date": "2017-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "add20167-8453-4bee-913e-e58c73737256",
+      "duration_sec": 204.747756958,
+      "sample_rate": 44100,
+      "tempo_bpm": 79.8258285522,
+      "danceability": 0.912860751152,
+      "onset_rate": 2.70553827286,
+      "beats_count": 394,
+      "key": "A",
+      "scale": "minor",
+      "chords_changes_rate": 0.0290249437094,
+      "dynamic_complexity": 5.92781019211,
+      "average_loudness": 0.399968475103,
+      "spectral_centroid_mean": 943.12878418,
+      "spectral_flux_mean": 0.071836553514,
+      "spectral_rolloff_mean": 1005.855896,
+      "dissonance_mean": 0.374323368073,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  },
+  "matched_recording": {
+    "mbid": "add20167-8453-4bee-913e-e58c73737256",
+    "title": "Brest",
+    "artist": "Rone",
+    "duration_ms": 204000,
+    "first_release_date": "2017-11-03",
+    "disambiguation": "",
+    "musicbrainz_score": 100,
+    "local_match_score": 1.0
+  },
+  "source": {
+    "kind": "AcousticBrainz",
+    "audio_was_not_downloaded": true
+  },
+  "analysis": {
+    "analysis_kind": "archived_full_recording_features",
+    "source": "AcousticBrainz",
+    "mbid": "add20167-8453-4bee-913e-e58c73737256",
+    "duration_sec": 204.747756958,
+    "sample_rate": 44100,
+    "tempo_bpm": 79.8258285522,
+    "danceability": 0.912860751152,
+    "onset_rate": 2.70553827286,
+    "beats_count": 394,
+    "key": "A",
+    "scale": "minor",
+    "chords_changes_rate": 0.0290249437094,
+    "dynamic_complexity": 5.92781019211,
+    "average_loudness": 0.399968475103,
+    "spectral_centroid_mean": 943.12878418,
+    "spectral_flux_mean": 0.071836553514,
+    "spectral_rolloff_mean": 1005.855896,
+    "dissonance_mean": 0.374323368073,
+    "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+  }
+}
