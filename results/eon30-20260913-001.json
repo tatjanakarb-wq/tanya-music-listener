@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Kandaiki",
+    "request_id": "eon30-20260913-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "04f2ec24-2258-41dd-94ec-25a13e2ba55e",
+      "title": "Kandaiki",
+      "artist": "Mammal Hands",
+      "duration_ms": 315693,
+      "first_release_date": "2014-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Kandaiki",
+    "album": "Animalia",
+    "duration_ms": 315664,
+    "release_date": "2014-09-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/11/46/ac/1146ac97-53be-c32f-19e8-439848b63426/mzaf_17307931596725283988.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/kandaiki/1578456785?i=1578456953&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 29
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/kandaiki/1578456785?i=1578456953&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/11/46/ac/1146ac97-53be-c32f-19e8-439848b63426/mzaf_17307931596725283988.plus.aac.p.m4a",
+      "bytes": 1116385,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04428,
+    "onset_rate_per_sec": 5.84716,
+    "dynamic_range_db_p95_p10": 10.032,
+    "crest_factor_db": 17.22,
+    "rms_mean": 0.05168,
+    "rms_std": 0.0205,
+    "spectral_centroid_hz_mean": 1468.92,
+    "spectral_centroid_hz_std": 525.34,
+    "spectral_bandwidth_hz_mean": 2037.78,
+    "spectral_rolloff_hz_mean": 3107.07,
+    "spectral_flatness_mean": 0.00574,
+    "spectral_contrast_mean": 21.6573,
+    "energy_share": {
+      "below_150_hz": 0.16586,
+      "150_to_2000_hz": 0.8189,
+      "above_2000_hz": 0.01524
+    },
+    "percussive_share": 0.299,
+    "tonal_entropy_bits": 3.40732,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 1.06516
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03828,
+        "spectral_centroid_hz": 1590.57,
+        "onset_strength": 1.20171,
+        "spectral_flatness": 0.00825
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04255,
+        "spectral_centroid_hz": 1428.24,
+        "onset_strength": 1.44444,
+        "spectral_flatness": 0.0049
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03529,
+        "spectral_centroid_hz": 1581.7,
+        "onset_strength": 1.51623,
+        "spectral_flatness": 0.00768
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.03858,
+        "spectral_centroid_hz": 1647.37,
+        "onset_strength": 1.35458,
+        "spectral_flatness": 0.00773
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04115,
+        "spectral_centroid_hz": 1657.69,
+        "onset_strength": 1.25886,
+        "spectral_flatness": 0.00686
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05436,
+        "spectral_centroid_hz": 1304.61,
+        "onset_strength": 1.4508,
+        "spectral_flatness": 0.00421
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.0626,
+        "spectral_centroid_hz": 1608.18,
+        "onset_strength": 1.52016,
+        "spectral_flatness": 0.006
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.05769,
+        "spectral_centroid_hz": 1339.85,
+        "onset_strength": 1.45919,
+        "spectral_flatness": 0.00553
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05673,
+        "spectral_centroid_hz": 1484.52,
+        "onset_strength": 1.48235,
+        "spectral_flatness": 0.00652
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06398,
+        "spectral_centroid_hz": 1366.74,
+        "onset_strength": 1.34498,
+        "spectral_flatness": 0.0039
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06501,
+        "spectral_centroid_hz": 1357.95,
+        "onset_strength": 1.36023,
+        "spectral_flatness": 0.00352
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.06393,
+        "spectral_centroid_hz": 1260.95,
+        "onset_strength": 1.37407,
+        "spectral_flatness": 0.00378
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "04f2ec24-2258-41dd-94ec-25a13e2ba55e",
+      "title": "Kandaiki",
+      "artist": "Mammal Hands",
+      "duration_ms": 315693,
+      "first_release_date": "2014-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "04f2ec24-2258-41dd-94ec-25a13e2ba55e",
+      "duration_sec": 315.742034912,
+      "sample_rate": 44100,
+      "tempo_bpm": 73.7076034546,
+      "danceability": 1.08462703228,
+      "onset_rate": 4.22160673141,
+      "beats_count": 505,
+      "key": "F#",
+      "scale": "major",
+      "chords_changes_rate": 0.0383823513985,
+      "dynamic_complexity": 4.98307180405,
+      "average_loudness": 0.759761154652,
+      "spectral_centroid_mean": 708.119995117,
+      "spectral_flux_mean": 0.0615433529019,
+      "spectral_rolloff_mean": 806.192810059,
+      "dissonance_mean": 0.435761123896,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
