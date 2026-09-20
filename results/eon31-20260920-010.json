@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Koreless",
+    "track": "Black Rainbow",
+    "request_id": "eon31-20260920-010"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "72b6ad3c-acaf-4b6c-b453-cacd2f0b5dfa",
+      "title": "Black Rainbow",
+      "artist": "Koreless",
+      "duration_ms": 272867,
+      "first_release_date": "2021-05-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5920267f-5f09-4606-81b4-042d1cf1c29e",
+      "title": "Black Rainbow",
+      "artist": "Koreless",
+      "duration_ms": 126000,
+      "first_release_date": "2021-03-28",
+      "disambiguation": "part of “London Unlocked: Batu at the Smithfield Market, Mar 28, 2021” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e7600320-95d2-4b57-9b2e-6c55b79e881c",
+      "title": "Black Rainbow",
+      "artist": "Koreless",
+      "duration_ms": 272866,
+      "first_release_date": "2021-05-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "b444bbf5-58af-4995-89e4-374447f18c5b",
+      "title": "Black Rainbow",
+      "artist": "Koreless",
+      "duration_ms": 165000,
+      "first_release_date": "2025-04-14",
+      "disambiguation": "part of “EUSEXUA AESTHETICA with Mathilda Mace & Louis Souvestre, Ep. 5” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "20f7f6a7-4693-43b5-8880-359de3593e6b",
+      "title": "Black Rainbow (Tribal bootleg)",
+      "artist": "Debit Koreless",
+      "duration_ms": 173000,
+      "first_release_date": "2022-06-20",
+      "disambiguation": "",
+      "musicbrainz_score": 74,
+      "local_match_score": 0.6733
+    }
+  ],
+  "matched_recording": {
+    "artist": "Koreless",
+    "track": "Black Rainbow",
+    "album": "Agor",
+    "duration_ms": 272867,
+    "release_date": "2021-05-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1b/92/01/1b92013d-ac93-ab57-675a-f88c022f7b31/mzaf_8373682933351577491.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/black-rainbow/1565923183?i=1565923196&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/black-rainbow/1565923183?i=1565923196&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1b/92/01/1b92013d-ac93-ab57-675a-f88c022f7b31/mzaf_8373682933351577491.plus.aac.p.m4a",
+      "bytes": 1118811,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 161.499,
+    "beat_interval_cv": 0.04303,
+    "onset_rate_per_sec": 4.20995,
+    "dynamic_range_db_p95_p10": 6.075,
+    "crest_factor_db": 19.927,
+    "rms_mean": 0.04467,
+    "rms_std": 0.01228,
+    "spectral_centroid_hz_mean": 2566.6,
+    "spectral_centroid_hz_std": 376.91,
+    "spectral_bandwidth_hz_mean": 2888.86,
+    "spectral_rolloff_hz_mean": 6229.94,
+    "spectral_flatness_mean": 0.02624,
+    "spectral_contrast_mean": 19.62536,
+    "energy_share": {
+      "below_150_hz": 0.17219,
+      "150_to_2000_hz": 0.76138,
+      "above_2000_hz": 0.06643
+    },
+    "percussive_share": 0.37507,
+    "tonal_entropy_bits": 3.47522,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.64612
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.03311,
+        "spectral_centroid_hz": 2643.08,
+        "onset_strength": 1.71261,
+        "spectral_flatness": 0.03912
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04425,
+        "spectral_centroid_hz": 2534.69,
+        "onset_strength": 1.62354,
+        "spectral_flatness": 0.02562
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04868,
+        "spectral_centroid_hz": 2561.34,
+        "onset_strength": 1.63997,
+        "spectral_flatness": 0.0207
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.04626,
+        "spectral_centroid_hz": 2560.38,
+        "onset_strength": 1.63483,
+        "spectral_flatness": 0.02546
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04477,
+        "spectral_centroid_hz": 2541.11,
+        "onset_strength": 1.6873,
+        "spectral_flatness": 0.0253
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.04601,
+        "spectral_centroid_hz": 2597.71,
+        "onset_strength": 1.64362,
+        "spectral_flatness": 0.02753
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04586,
+        "spectral_centroid_hz": 2526.48,
+        "onset_strength": 1.60936,
+        "spectral_flatness": 0.02193
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04519,
+        "spectral_centroid_hz": 2543.92,
+        "onset_strength": 1.56396,
+        "spectral_flatness": 0.02323
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.04525,
+        "spectral_centroid_hz": 2513.15,
+        "onset_strength": 1.65353,
+        "spectral_flatness": 0.02777
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.04683,
+        "spectral_centroid_hz": 2616.19,
+        "onset_strength": 1.60228,
+        "spectral_flatness": 0.02639
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04465,
+        "spectral_centroid_hz": 2580.5,
+        "onset_strength": 1.57616,
+        "spectral_flatness": 0.02645
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04508,
+        "spectral_centroid_hz": 2580.57,
+        "onset_strength": 1.58885,
+        "spectral_flatness": 0.02545
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "e7600320-95d2-4b57-9b2e-6c55b79e881c",
+      "title": "Black Rainbow",
+      "artist": "Koreless",
+      "duration_ms": 272866,
+      "first_release_date": "2021-05-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "e7600320-95d2-4b57-9b2e-6c55b79e881c",
+      "duration_sec": 272.9012146,
+      "sample_rate": 44100,
+      "tempo_bpm": 117.790496826,
+      "danceability": 0.922997891903,
+      "onset_rate": 4.33100700378,
+      "beats_count": 619,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0309629123658,
+      "dynamic_complexity": 4.4169793129,
+      "average_loudness": 0.385130047798,
+      "spectral_centroid_mean": 1551.61669922,
+      "spectral_flux_mean": 0.0591926313937,
+      "spectral_rolloff_mean": 1385.92712402,
+      "dissonance_mean": 0.451200693846,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
