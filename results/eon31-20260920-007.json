@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Moses Yoofee Trio",
+    "track": "Ocean",
+    "request_id": "eon31-20260920-007"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "85482bee-1457-4501-982b-80b5e878769c",
+      "title": "OCEAN",
+      "artist": "Moses Yoofee Trio",
+      "duration_ms": 192284,
+      "first_release_date": "2023-11-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Moses Yoofee Trio",
+    "track": "Ocean",
+    "album": "Ocean - EP",
+    "duration_ms": 192284,
+    "release_date": "2023-09-22T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/21/e6/a121e64b-81de-1163-ded2-8c69804c24ff/mzaf_950576494605551149.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/ocean/6787086853?i=6787087186&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/ocean/6787086853?i=6787087186&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/21/e6/a121e64b-81de-1163-ded2-8c69804c24ff/mzaf_950576494605551149.plus.aac.p.m4a",
+      "bytes": 1042954,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.07762,
+    "onset_rate_per_sec": 5.93818,
+    "dynamic_range_db_p95_p10": 13.754,
+    "crest_factor_db": 10.711,
+    "rms_mean": 0.15572,
+    "rms_std": 0.08685,
+    "spectral_centroid_hz_mean": 2902.99,
+    "spectral_centroid_hz_std": 858.57,
+    "spectral_bandwidth_hz_mean": 3032.02,
+    "spectral_rolloff_hz_mean": 6753.79,
+    "spectral_flatness_mean": 0.04321,
+    "spectral_contrast_mean": 17.62287,
+    "energy_share": {
+      "below_150_hz": 0.75543,
+      "150_to_2000_hz": 0.21491,
+      "above_2000_hz": 0.02966
+    },
+    "percussive_share": 0.43802,
+    "tonal_entropy_bits": 3.56221,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.75,
+      "relative_score": 0.84639
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12802,
+        "spectral_centroid_hz": 2363.27,
+        "onset_strength": 1.19217,
+        "spectral_flatness": 0.02556
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.19605,
+        "spectral_centroid_hz": 2530.47,
+        "onset_strength": 1.39474,
+        "spectral_flatness": 0.02652
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.1773,
+        "spectral_centroid_hz": 2843.13,
+        "onset_strength": 1.37472,
+        "spectral_flatness": 0.04127
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.11398,
+        "spectral_centroid_hz": 3595.06,
+        "onset_strength": 1.23913,
+        "spectral_flatness": 0.07491
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.13348,
+        "spectral_centroid_hz": 3205.51,
+        "onset_strength": 1.48591,
+        "spectral_flatness": 0.04958
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.12684,
+        "spectral_centroid_hz": 3319.96,
+        "onset_strength": 1.28505,
+        "spectral_flatness": 0.07455
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.17763,
+        "spectral_centroid_hz": 2681.88,
+        "onset_strength": 1.37002,
+        "spectral_flatness": 0.03127
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.15358,
+        "spectral_centroid_hz": 2927.46,
+        "onset_strength": 1.3659,
+        "spectral_flatness": 0.0408
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.17357,
+        "spectral_centroid_hz": 2893.43,
+        "onset_strength": 1.3655,
+        "spectral_flatness": 0.03848
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.16142,
+        "spectral_centroid_hz": 2756.33,
+        "onset_strength": 1.39235,
+        "spectral_flatness": 0.03161
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.18212,
+        "spectral_centroid_hz": 2562.09,
+        "onset_strength": 1.28572,
+        "spectral_flatness": 0.0334
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.14439,
+        "spectral_centroid_hz": 3153.41,
+        "onset_strength": 1.07385,
+        "spectral_flatness": 0.05026
+      }
+    ]
+  }
+}
