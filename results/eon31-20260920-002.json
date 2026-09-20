@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "Rival Consoles",
+    "track": "Memory Arc",
+    "request_id": "eon31-20260920-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f1ff69d8-0ee1-4978-a194-2725659ea543",
+      "title": "Memory Arc",
+      "artist": "Rival Consoles",
+      "duration_ms": 133213,
+      "first_release_date": "2018-04-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Rival Consoles",
+    "track": "Memory Arc",
+    "album": "Persona",
+    "duration_ms": 133206,
+    "release_date": "2018-04-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/6a/87/0c6a8716-6221-bd24-4c7f-f6832d3a7492/mzaf_4750290157516955072.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/memory-arc/1451157384?i=1451157868&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 7
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/memory-arc/1451157384?i=1451157868&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/6a/87/0c6a8716-6221-bd24-4c7f-f6832d3a7492/mzaf_4750290157516955072.plus.aac.p.m4a",
+      "bytes": 1145213,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04046,
+    "onset_rate_per_sec": 0.70057,
+    "dynamic_range_db_p95_p10": 10.792,
+    "crest_factor_db": 16.802,
+    "rms_mean": 0.05831,
+    "rms_std": 0.02447,
+    "spectral_centroid_hz_mean": 803.2,
+    "spectral_centroid_hz_std": 124.76,
+    "spectral_bandwidth_hz_mean": 821.32,
+    "spectral_rolloff_hz_mean": 1317.66,
+    "spectral_flatness_mean": 0.00014,
+    "spectral_contrast_mean": 19.06324,
+    "energy_share": {
+      "below_150_hz": 0.02864,
+      "150_to_2000_hz": 0.96697,
+      "above_2000_hz": 0.00439
+    },
+    "percussive_share": 0.20393,
+    "tonal_entropy_bits": 3.432,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 0.86251
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04027,
+        "spectral_centroid_hz": 750.68,
+        "onset_strength": 0.8381,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.05825,
+        "spectral_centroid_hz": 776.71,
+        "onset_strength": 0.70371,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04422,
+        "spectral_centroid_hz": 701.61,
+        "onset_strength": 0.74135,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.07629,
+        "spectral_centroid_hz": 852.67,
+        "onset_strength": 0.82135,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.08644,
+        "spectral_centroid_hz": 799.94,
+        "onset_strength": 0.79427,
+        "spectral_flatness": 9e-05
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.04081,
+        "spectral_centroid_hz": 830.36,
+        "onset_strength": 0.89878,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.0515,
+        "spectral_centroid_hz": 945.28,
+        "onset_strength": 0.91402,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.05643,
+        "spectral_centroid_hz": 837.15,
+        "onset_strength": 0.80656,
+        "spectral_flatness": 0.00022
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.04887,
+        "spectral_centroid_hz": 730.46,
+        "onset_strength": 0.77337,
+        "spectral_flatness": 0.00014
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.07338,
+        "spectral_centroid_hz": 851.57,
+        "onset_strength": 0.83404,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.08533,
+        "spectral_centroid_hz": 808.21,
+        "onset_strength": 0.8055,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.03799,
+        "spectral_centroid_hz": 753.09,
+        "onset_strength": 0.81381,
+        "spectral_flatness": 0.00013
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f1ff69d8-0ee1-4978-a194-2725659ea543",
+      "title": "Memory Arc",
+      "artist": "Rival Consoles",
+      "duration_ms": 133213,
+      "first_release_date": "2018-04-13",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f1ff69d8-0ee1-4978-a194-2725659ea543",
+      "duration_sec": 133.250610352,
+      "sample_rate": 44100,
+      "tempo_bpm": 164.742141724,
+      "danceability": 0.747789919376,
+      "onset_rate": 0.570266902447,
+      "beats_count": 319,
+      "key": "F#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0341344475746,
+      "dynamic_complexity": 6.04229736328,
+      "average_loudness": 0.307526141405,
+      "spectral_centroid_mean": 529.763244629,
+      "spectral_flux_mean": 0.0509364046156,
+      "spectral_rolloff_mean": 756.587097168,
+      "dissonance_mean": 0.426368176937,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
