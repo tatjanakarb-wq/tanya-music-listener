@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Daniel Avery",
+    "track": "Knowing We'll Be Here",
+    "request_id": "eon31-20260920-020"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "56aaf265-3150-4ca3-83e3-3cfe9c0a77bf",
+      "title": "Knowing We’ll Be Here",
+      "artist": "Daniel Avery",
+      "duration_ms": 342853,
+      "first_release_date": "2013-10-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e238a962-6304-49a6-861d-bbbd45bb2e85",
+      "title": "Knowing We’ll Be Here (KiNK remix)",
+      "artist": "Daniel Avery",
+      "duration_ms": 333000,
+      "first_release_date": "2014-06-16",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8796
+    },
+    {
+      "mbid": "0bf8b87a-f719-4499-9a1a-1a8e1f6d232a",
+      "title": "Knowing We’ll Be Here (Kink remix)",
+      "artist": "Daniel Avery",
+      "duration_ms": 232106,
+      "first_release_date": "2014-12-15",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8796
+    },
+    {
+      "mbid": "08310688-7fd1-4bfe-898a-4c99c5fb5195",
+      "title": "Knowing We’ll Be Here (Kink remix)",
+      "artist": "Daniel Avery",
+      "duration_ms": 333980,
+      "first_release_date": "2014-08-10",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8796
+    },
+    {
+      "mbid": "b460e79d-0ea0-485e-8a87-cef85f6f0b01",
+      "title": "Knowing We'll Be Here (KiNK remix)",
+      "artist": "Daniel Avery",
+      "duration_ms": 335973,
+      "first_release_date": "2015-03-02",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.8796
+    }
+  ],
+  "matched_recording": {
+    "artist": "Daniel Avery",
+    "track": "Knowing We'll Be Here",
+    "album": "Knowing We'll Be Here - Single",
+    "duration_ms": 342853,
+    "release_date": "2013-10-04T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/e3/e7/d0e3e764-2fa8-8c4c-2ccd-2cbe417587de/mzaf_6802285358612245204.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/knowing-well-be-here/1779126743?i=1779126752&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/knowing-well-be-here/1779126743?i=1779126752&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/e3/e7/d0e3e764-2fa8-8c4c-2ccd-2cbe417587de/mzaf_6802285358612245204.plus.aac.p.m4a",
+      "bytes": 1146472,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.0842,
+    "onset_rate_per_sec": 6.07162,
+    "dynamic_range_db_p95_p10": 14.381,
+    "crest_factor_db": 13.231,
+    "rms_mean": 0.12213,
+    "rms_std": 0.05378,
+    "spectral_centroid_hz_mean": 1521.24,
+    "spectral_centroid_hz_std": 930.11,
+    "spectral_bandwidth_hz_mean": 2201.37,
+    "spectral_rolloff_hz_mean": 3307.92,
+    "spectral_flatness_mean": 0.00987,
+    "spectral_contrast_mean": 18.81871,
+    "energy_share": {
+      "below_150_hz": 0.37193,
+      "150_to_2000_hz": 0.61791,
+      "above_2000_hz": 0.01016
+    },
+    "percussive_share": 0.31217,
+    "tonal_entropy_bits": 3.43271,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.24,
+      "relative_score": 0.93025
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11521,
+        "spectral_centroid_hz": 1351.58,
+        "onset_strength": 1.87089,
+        "spectral_flatness": 0.00745
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.11035,
+        "spectral_centroid_hz": 1536.51,
+        "onset_strength": 2.07881,
+        "spectral_flatness": 0.00853
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11756,
+        "spectral_centroid_hz": 1307.93,
+        "onset_strength": 1.92508,
+        "spectral_flatness": 0.00678
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.11469,
+        "spectral_centroid_hz": 1527.93,
+        "onset_strength": 1.75043,
+        "spectral_flatness": 0.00802
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.12901,
+        "spectral_centroid_hz": 1115.71,
+        "onset_strength": 1.80068,
+        "spectral_flatness": 0.00344
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.1212,
+        "spectral_centroid_hz": 1379.56,
+        "onset_strength": 1.89755,
+        "spectral_flatness": 0.00654
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.13199,
+        "spectral_centroid_hz": 1358.03,
+        "onset_strength": 2.04148,
+        "spectral_flatness": 0.00685
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.11978,
+        "spectral_centroid_hz": 1241.65,
+        "onset_strength": 1.84166,
+        "spectral_flatness": 0.00603
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.12682,
+        "spectral_centroid_hz": 1284.88,
+        "onset_strength": 1.99222,
+        "spectral_flatness": 0.00682
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.11953,
+        "spectral_centroid_hz": 1571.44,
+        "onset_strength": 1.86597,
+        "spectral_flatness": 0.00965
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.13589,
+        "spectral_centroid_hz": 2062.54,
+        "onset_strength": 1.49084,
+        "spectral_flatness": 0.01784
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.12339,
+        "spectral_centroid_hz": 2507.69,
+        "onset_strength": 1.38792,
+        "spectral_flatness": 0.03034
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "56aaf265-3150-4ca3-83e3-3cfe9c0a77bf",
+      "title": "Knowing We’ll Be Here",
+      "artist": "Daniel Avery",
+      "duration_ms": 342853,
+      "first_release_date": "2013-10-04",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "56aaf265-3150-4ca3-83e3-3cfe9c0a77bf",
+      "duration_sec": 342.909393311,
+      "sample_rate": 44100,
+      "tempo_bpm": 119.998016357,
+      "danceability": 2.14483141899,
+      "onset_rate": 5.31604862213,
+      "beats_count": 687,
+      "key": "F",
+      "scale": "major",
+      "chords_changes_rate": 0.0254570078105,
+      "dynamic_complexity": 3.69132995605,
+      "average_loudness": 0.971183598042,
+      "spectral_centroid_mean": 1034.35876465,
+      "spectral_flux_mean": 0.0804430246353,
+      "spectral_rolloff_mean": 1246.22131348,
+      "dissonance_mean": 0.441703349352,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
