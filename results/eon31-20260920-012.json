@@ -1,0 +1,172 @@
+{
+  "request": {
+    "artist": "Jasmine Myra",
+    "track": "Rising",
+    "request_id": "eon31-20260920-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "ca2bffcc-02cb-4ea0-bf81-d7b741504db1",
+      "title": "Rising",
+      "artist": "Jasmine Myra",
+      "duration_ms": 431293,
+      "first_release_date": "2024-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "ffcf4277-136f-454b-a4fb-e46254fa003b",
+      "title": "Rising",
+      "artist": "Jasmine Myra",
+      "duration_ms": 431293,
+      "first_release_date": "2024-02-23",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jasmine Myra",
+    "track": "Rising",
+    "album": "Rising",
+    "duration_ms": 431293,
+    "release_date": "2024-05-03T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/30/9c/e0309cbf-0dad-b850-1b10-51023250e699/mzaf_13564626698748983109.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/rising/1728065229?i=1728065480&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/rising/1728065229?i=1728065480&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/30/9c/e0309cbf-0dad-b850-1b10-51023250e699/mzaf_13564626698748983109.plus.aac.p.m4a",
+      "bytes": 1036721,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.03909,
+    "onset_rate_per_sec": 1.90155,
+    "dynamic_range_db_p95_p10": 43.604,
+    "crest_factor_db": 15.674,
+    "rms_mean": 0.07453,
+    "rms_std": 0.05427,
+    "spectral_centroid_hz_mean": 1289.98,
+    "spectral_centroid_hz_std": 708.88,
+    "spectral_bandwidth_hz_mean": 1797.83,
+    "spectral_rolloff_hz_mean": 2712.81,
+    "spectral_flatness_mean": 0.00473,
+    "spectral_contrast_mean": 20.84536,
+    "energy_share": {
+      "below_150_hz": 0.48392,
+      "150_to_2000_hz": 0.50455,
+      "above_2000_hz": 0.01153
+    },
+    "percussive_share": 0.13267,
+    "tonal_entropy_bits": 3.28082,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.24,
+      "relative_score": 1.24252
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.05875,
+        "spectral_centroid_hz": 844.73,
+        "onset_strength": 0.76084,
+        "spectral_flatness": 0.00055
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.09612,
+        "spectral_centroid_hz": 1105.17,
+        "onset_strength": 0.73474,
+        "spectral_flatness": 0.00077
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08533,
+        "spectral_centroid_hz": 1007.22,
+        "onset_strength": 0.74487,
+        "spectral_flatness": 0.00079
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.093,
+        "spectral_centroid_hz": 1027.34,
+        "onset_strength": 0.74576,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.07222,
+        "spectral_centroid_hz": 1081.54,
+        "onset_strength": 0.78315,
+        "spectral_flatness": 0.00075
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.13201,
+        "spectral_centroid_hz": 1416.97,
+        "onset_strength": 0.83362,
+        "spectral_flatness": 0.00123
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.17656,
+        "spectral_centroid_hz": 987.78,
+        "onset_strength": 0.83405,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.09619,
+        "spectral_centroid_hz": 1153.25,
+        "onset_strength": 0.80895,
+        "spectral_flatness": 0.00126
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.06018,
+        "spectral_centroid_hz": 777.18,
+        "onset_strength": 0.6624,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.0075,
+        "spectral_centroid_hz": 1356.96,
+        "onset_strength": 0.42088,
+        "spectral_flatness": 0.004
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.0009,
+        "spectral_centroid_hz": 2631.99,
+        "onset_strength": 0.1724,
+        "spectral_flatness": 0.01874
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.01508,
+        "spectral_centroid_hz": 2080.3,
+        "onset_strength": 0.48315,
+        "spectral_flatness": 0.02702
+      }
+    ]
+  }
+}
