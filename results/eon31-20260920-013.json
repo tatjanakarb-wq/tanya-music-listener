@@ -1,0 +1,182 @@
+{
+  "request": {
+    "artist": "Yussef Dayes",
+    "track": "Black Classical Music",
+    "request_id": "eon31-20260920-013"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "dd73aecb-f133-420a-a805-85e44b9ac1ee",
+      "title": "Black Classical Music",
+      "artist": "Yussef Dayes",
+      "duration_ms": 299000,
+      "first_release_date": null,
+      "disambiguation": "live, 2023-11-11: Later… with Jools Holland, Alexandra Palace, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "da1421eb-f2da-4360-a7a5-2acb76e06361",
+      "title": "Black Classical Music (feat. Venna) / Afro Cubanism [Live from Malibu]",
+      "artist": "Yussef Dayes Venna",
+      "duration_ms": 406000,
+      "first_release_date": "2024-01-26",
+      "disambiguation": "",
+      "musicbrainz_score": 63,
+      "local_match_score": 0.916
+    },
+    {
+      "mbid": "71b97890-96fa-4b6b-bb21-a4957613b28a",
+      "title": "Black Classical Music",
+      "artist": "Yussef Dayes Venna Charlie Stacey",
+      "duration_ms": 319040,
+      "first_release_date": "2023-04-27",
+      "disambiguation": "",
+      "musicbrainz_score": 74,
+      "local_match_score": 0.804
+    }
+  ],
+  "matched_recording": {
+    "artist": "Yussef Dayes",
+    "track": "Black Classical Music (feat. Venna & Charlie Stacey)",
+    "album": "Black Classical Music",
+    "duration_ms": 319040,
+    "release_date": "2023-04-27T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/95/82/d9958212-fce7-215b-9006-96f43f53a8f5/mzaf_17103233009897210440.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/black-classical-music-feat-venna-charlie-stacey/1683439010?i=1683439012&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/black-classical-music-feat-venna-charlie-stacey/1683439010?i=1683439012&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/95/82/d9958212-fce7-215b-9006-96f43f53a8f5/mzaf_17103233009897210440.plus.aac.p.m4a",
+      "bytes": 1063215,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.07634,
+    "onset_rate_per_sec": 2.96909,
+    "dynamic_range_db_p95_p10": 17.941,
+    "crest_factor_db": 12.044,
+    "rms_mean": 0.13198,
+    "rms_std": 0.07227,
+    "spectral_centroid_hz_mean": 1522.12,
+    "spectral_centroid_hz_std": 468.05,
+    "spectral_bandwidth_hz_mean": 2172.82,
+    "spectral_rolloff_hz_mean": 3326.3,
+    "spectral_flatness_mean": 0.00575,
+    "spectral_contrast_mean": 18.24238,
+    "energy_share": {
+      "below_150_hz": 0.697,
+      "150_to_2000_hz": 0.29411,
+      "above_2000_hz": 0.0089
+    },
+    "percussive_share": 0.27917,
+    "tonal_entropy_bits": 3.49549,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.73,
+      "relative_score": 0.51074
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.01491,
+        "spectral_centroid_hz": 1680.55,
+        "onset_strength": 0.58093,
+        "spectral_flatness": 0.00424
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.15157,
+        "spectral_centroid_hz": 1449.91,
+        "onset_strength": 1.19883,
+        "spectral_flatness": 0.00463
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14788,
+        "spectral_centroid_hz": 1442.56,
+        "onset_strength": 1.28946,
+        "spectral_flatness": 0.00419
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.13357,
+        "spectral_centroid_hz": 1541.95,
+        "onset_strength": 1.40919,
+        "spectral_flatness": 0.00633
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.14223,
+        "spectral_centroid_hz": 1430.63,
+        "onset_strength": 1.40923,
+        "spectral_flatness": 0.00432
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.14709,
+        "spectral_centroid_hz": 1434.48,
+        "onset_strength": 1.37022,
+        "spectral_flatness": 0.00521
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.15731,
+        "spectral_centroid_hz": 1260.35,
+        "onset_strength": 1.2617,
+        "spectral_flatness": 0.0025
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.15069,
+        "spectral_centroid_hz": 1595.53,
+        "onset_strength": 1.31522,
+        "spectral_flatness": 0.00556
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.1408,
+        "spectral_centroid_hz": 1396.39,
+        "onset_strength": 1.28776,
+        "spectral_flatness": 0.00405
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.13993,
+        "spectral_centroid_hz": 1568.93,
+        "onset_strength": 1.61894,
+        "spectral_flatness": 0.00591
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.11478,
+        "spectral_centroid_hz": 1631.1,
+        "onset_strength": 1.58603,
+        "spectral_flatness": 0.01349
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.14237,
+        "spectral_centroid_hz": 1834.01,
+        "onset_strength": 1.05328,
+        "spectral_flatness": 0.0085
+      }
+    ]
+  }
+}
