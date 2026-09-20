@@ -1,0 +1,225 @@
+{
+  "request": {
+    "artist": "Hidden Orchestra",
+    "track": "Dust",
+    "request_id": "eon31-20260920-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "787dad34-7747-4629-ac84-bd70246fab8e",
+      "title": "Dust",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 432000,
+      "first_release_date": "2019-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "62c1f5e3-cc6c-466c-96f7-2689aeab3460",
+      "title": "Dust",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 424000,
+      "first_release_date": "2010-09-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "dd64758b-0864-4397-97ef-d48386373414",
+      "title": "Dust",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 420853,
+      "first_release_date": "2014-10-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "bb47ed07-5159-4449-b64c-0d6ef80bd658",
+      "title": "Dust (Floex remix)",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 348322,
+      "first_release_date": "2011-11-07",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.652
+    }
+  ],
+  "matched_recording": {
+    "artist": "Hidden Orchestra",
+    "track": "Dust",
+    "album": "Night Walks",
+    "duration_ms": 424200,
+    "release_date": "2010-09-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/df/95/dedf95e5-eb29-2871-4b57-a5baae36be82/mzaf_13525753433270118046.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/dust/1368958985?i=1368959305&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 200
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/dust/1368958985?i=1368959305&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/df/95/dedf95e5-eb29-2871-4b57-a5baae36be82/mzaf_13525753433270118046.plus.aac.p.m4a",
+      "bytes": 1146590,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.02652,
+    "onset_rate_per_sec": 2.30545,
+    "dynamic_range_db_p95_p10": 27.858,
+    "crest_factor_db": 15.384,
+    "rms_mean": 0.04387,
+    "rms_std": 0.04714,
+    "spectral_centroid_hz_mean": 1870.01,
+    "spectral_centroid_hz_std": 885.77,
+    "spectral_bandwidth_hz_mean": 2572.75,
+    "spectral_rolloff_hz_mean": 4250.44,
+    "spectral_flatness_mean": 0.01474,
+    "spectral_contrast_mean": 17.65792,
+    "energy_share": {
+      "below_150_hz": 0.90373,
+      "150_to_2000_hz": 0.09559,
+      "above_2000_hz": 0.00069
+    },
+    "percussive_share": 0.12486,
+    "tonal_entropy_bits": 3.24365,
+    "climax": {
+      "segment": 10,
+      "time_sec": 23.69,
+      "relative_score": 0.88541
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0345,
+        "spectral_centroid_hz": 1767.94,
+        "onset_strength": 0.89609,
+        "spectral_flatness": 0.00139
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.01505,
+        "spectral_centroid_hz": 2493.29,
+        "onset_strength": 0.96043,
+        "spectral_flatness": 0.01559
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04088,
+        "spectral_centroid_hz": 2063.04,
+        "onset_strength": 0.99291,
+        "spectral_flatness": 0.029
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.00927,
+        "spectral_centroid_hz": 2790.14,
+        "onset_strength": 0.98026,
+        "spectral_flatness": 0.03447
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.03664,
+        "spectral_centroid_hz": 2135.33,
+        "onset_strength": 0.98698,
+        "spectral_flatness": 0.03459
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08668,
+        "spectral_centroid_hz": 1338.69,
+        "onset_strength": 1.01418,
+        "spectral_flatness": 0.0052
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05573,
+        "spectral_centroid_hz": 1355.22,
+        "onset_strength": 1.00027,
+        "spectral_flatness": 0.00223
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.0138,
+        "spectral_centroid_hz": 2404.71,
+        "onset_strength": 0.99499,
+        "spectral_flatness": 0.01707
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.0549,
+        "spectral_centroid_hz": 1766.41,
+        "onset_strength": 1.0067,
+        "spectral_flatness": 0.02228
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.09439,
+        "spectral_centroid_hz": 1206.11,
+        "onset_strength": 1.00657,
+        "spectral_flatness": 0.0034
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06735,
+        "spectral_centroid_hz": 1156.0,
+        "onset_strength": 1.00942,
+        "spectral_flatness": 0.0015
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.01741,
+        "spectral_centroid_hz": 1959.35,
+        "onset_strength": 1.02762,
+        "spectral_flatness": 0.00997
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "787dad34-7747-4629-ac84-bd70246fab8e",
+      "title": "Dust",
+      "artist": "Hidden Orchestra",
+      "duration_ms": 432000,
+      "first_release_date": "2019-05-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "787dad34-7747-4629-ac84-bd70246fab8e",
+      "duration_sec": 432.848968506,
+      "sample_rate": 44100,
+      "tempo_bpm": 95.892791748,
+      "danceability": 1.10615479946,
+      "onset_rate": 3.89727640152,
+      "beats_count": 698,
+      "key": "C",
+      "scale": "minor",
+      "chords_changes_rate": 0.0610384047031,
+      "dynamic_complexity": 4.22362184525,
+      "average_loudness": 0.687263190746,
+      "spectral_centroid_mean": 1187.38244629,
+      "spectral_flux_mean": 0.115194514394,
+      "spectral_rolloff_mean": 1301.37487793,
+      "dissonance_mean": 0.462735831738,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
