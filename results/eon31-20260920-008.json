@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Barker",
+    "track": "Look How Hard I've Tried",
+    "request_id": "eon31-20260920-008"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "567ecf05-af03-4ed7-a199-7bb1fd9e8613",
+      "title": "Look How Hard I've Tried",
+      "artist": "Barker",
+      "duration_ms": 294000,
+      "first_release_date": "2019-03-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f61e1a2f-a4d7-438f-8ca0-c3ba3b7e0499",
+      "title": "Look How Hard I’ve Tried",
+      "artist": "Barker",
+      "duration_ms": 316000,
+      "first_release_date": "2018-06-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "423fdee1-5afd-453f-bafa-b37c4e90b5fc",
+      "title": "Look How Hard I've Tried",
+      "artist": "Barker",
+      "duration_ms": 316000,
+      "first_release_date": "2019-03-29",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f749b540-faac-45d4-8b52-bbccbdd819bf",
+      "title": "Look How Hard I've Tried",
+      "artist": "Barker",
+      "duration_ms": 364000,
+      "first_release_date": "2022-08-12",
+      "disambiguation": "part of “The Attention Deficit Mix” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7c199f4f-6166-41a1-b8b8-fb22e32fa88a",
+      "title": "Look How Hard I’ve Tried",
+      "artist": "Barker",
+      "duration_ms": 166000,
+      "first_release_date": "2023-09-22",
+      "disambiguation": "part of “1tbsp: Bug Mix” DJ‐mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Barker",
+    "track": "Look How Hard I've Tried",
+    "album": "Debiasing - EP",
+    "duration_ms": 316754,
+    "release_date": "2018-06-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ad/ad/0c/adad0c51-b4a4-6d16-c28e-e68eb2e8929b/mzaf_14791058083916343083.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/look-how-hard-ive-tried/1386141939?i=1386142842&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 754
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/look-how-hard-ive-tried/1386141939?i=1386142842&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ad/ad/0c/adad0c51-b4a4-6d16-c28e-e68eb2e8929b/mzaf_14791058083916343083.plus.aac.p.m4a",
+      "bytes": 1065656,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 107.666,
+    "beat_interval_cv": 0.08547,
+    "onset_rate_per_sec": 7.65142,
+    "dynamic_range_db_p95_p10": 11.486,
+    "crest_factor_db": 16.986,
+    "rms_mean": 0.0738,
+    "rms_std": 0.03406,
+    "spectral_centroid_hz_mean": 2394.42,
+    "spectral_centroid_hz_std": 847.9,
+    "spectral_bandwidth_hz_mean": 2649.82,
+    "spectral_rolloff_hz_mean": 5386.56,
+    "spectral_flatness_mean": 0.04786,
+    "spectral_contrast_mean": 18.65303,
+    "energy_share": {
+      "below_150_hz": 0.2813,
+      "150_to_2000_hz": 0.65099,
+      "above_2000_hz": 0.06771
+    },
+    "percussive_share": 0.41305,
+    "tonal_entropy_bits": 3.482,
+    "climax": {
+      "segment": 7,
+      "time_sec": 16.21,
+      "relative_score": 1.05092
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.07511,
+        "spectral_centroid_hz": 2050.33,
+        "onset_strength": 2.26347,
+        "spectral_flatness": 0.03283
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07036,
+        "spectral_centroid_hz": 2135.68,
+        "onset_strength": 2.38651,
+        "spectral_flatness": 0.0356
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07383,
+        "spectral_centroid_hz": 2221.9,
+        "onset_strength": 2.28161,
+        "spectral_flatness": 0.04098
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.07443,
+        "spectral_centroid_hz": 2220.66,
+        "onset_strength": 2.37357,
+        "spectral_flatness": 0.04076
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.0721,
+        "spectral_centroid_hz": 2412.52,
+        "onset_strength": 2.30421,
+        "spectral_flatness": 0.04603
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.07579,
+        "spectral_centroid_hz": 2410.74,
+        "onset_strength": 2.32277,
+        "spectral_flatness": 0.04786
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07528,
+        "spectral_centroid_hz": 2424.43,
+        "onset_strength": 2.42394,
+        "spectral_flatness": 0.04696
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.07408,
+        "spectral_centroid_hz": 2519.3,
+        "onset_strength": 2.31805,
+        "spectral_flatness": 0.05463
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.07182,
+        "spectral_centroid_hz": 2512.48,
+        "onset_strength": 2.29562,
+        "spectral_flatness": 0.05549
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07414,
+        "spectral_centroid_hz": 2573.86,
+        "onset_strength": 2.33896,
+        "spectral_flatness": 0.05527
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07395,
+        "spectral_centroid_hz": 2559.86,
+        "onset_strength": 2.38291,
+        "spectral_flatness": 0.05422
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07475,
+        "spectral_centroid_hz": 2687.1,
+        "onset_strength": 2.31973,
+        "spectral_flatness": 0.0635
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "f61e1a2f-a4d7-438f-8ca0-c3ba3b7e0499",
+      "title": "Look How Hard I’ve Tried",
+      "artist": "Barker",
+      "duration_ms": 316000,
+      "first_release_date": "2018-06-01",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "f61e1a2f-a4d7-438f-8ca0-c3ba3b7e0499",
+      "duration_sec": 316.754180908,
+      "sample_rate": 44100,
+      "tempo_bpm": 172.265426636,
+      "danceability": 2.26479458809,
+      "onset_rate": 6.94201946259,
+      "beats_count": 890,
+      "key": "G",
+      "scale": "minor",
+      "chords_changes_rate": 0.00615655211732,
+      "dynamic_complexity": 3.19474744797,
+      "average_loudness": 0.966515600681,
+      "spectral_centroid_mean": 1008.93365479,
+      "spectral_flux_mean": 0.0766794532537,
+      "spectral_rolloff_mean": 1833.30834961,
+      "dissonance_mean": 0.459342449903,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
