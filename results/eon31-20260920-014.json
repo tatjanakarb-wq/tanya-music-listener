@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Forest Swords",
+    "track": "Crow",
+    "request_id": "eon31-20260920-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "342f4288-f305-4c08-a95f-4488fe3ad60e",
+      "title": "Crow",
+      "artist": "Forest Swords",
+      "duration_ms": 217276,
+      "first_release_date": "2024-07-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "2291df07-92c1-4f1a-942e-541f555dcac3",
+      "title": "Crow",
+      "artist": "Forest Swords",
+      "duration_ms": 214000,
+      "first_release_date": "2018-05-18",
+      "disambiguation": "part of “DJ-Kicks: Forest Swords” DJ-mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "70f16eec-49b1-405a-8842-b686b4441032",
+      "title": "Crow",
+      "artist": "Forest Swords",
+      "duration_ms": 216000,
+      "first_release_date": null,
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7eba04e3-f526-475b-b182-a87ecfd23b58",
+      "title": "Crow",
+      "artist": "Forest Swords",
+      "duration_ms": 316000,
+      "first_release_date": "2018-05-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "28303fec-ca96-4635-8cb4-265571d75d53",
+      "title": "Crow (edit)",
+      "artist": "Forest Swords",
+      "duration_ms": 97000,
+      "first_release_date": "2024-07-19",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.7769
+    }
+  ],
+  "matched_recording": {
+    "artist": "Forest Swords",
+    "track": "Crow",
+    "album": "Crow - EP",
+    "duration_ms": 217276,
+    "release_date": "2018-09-07T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/61/eb/b961ebc5-9c60-835f-a938-828ee7e967fe/mzaf_7533716481062187574.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/crow/1754128342?i=1754128343&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/crow/1754128342?i=1754128343&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/61/eb/b961ebc5-9c60-835f-a938-828ee7e967fe/mzaf_7533716481062187574.plus.aac.p.m4a",
+      "bytes": 993814,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 129.199,
+    "beat_interval_cv": 0.05753,
+    "onset_rate_per_sec": 3.73638,
+    "dynamic_range_db_p95_p10": 9.734,
+    "crest_factor_db": 13.557,
+    "rms_mean": 0.11839,
+    "rms_std": 0.0469,
+    "spectral_centroid_hz_mean": 847.58,
+    "spectral_centroid_hz_std": 220.16,
+    "spectral_bandwidth_hz_mean": 1211.55,
+    "spectral_rolloff_hz_mean": 1684.97,
+    "spectral_flatness_mean": 0.00046,
+    "spectral_contrast_mean": 18.59064,
+    "energy_share": {
+      "below_150_hz": 0.65238,
+      "150_to_2000_hz": 0.34041,
+      "above_2000_hz": 0.00721
+    },
+    "percussive_share": 0.30801,
+    "tonal_entropy_bits": 3.52298,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.74,
+      "relative_score": 1.00754
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.11374,
+        "spectral_centroid_hz": 938.17,
+        "onset_strength": 1.00234,
+        "spectral_flatness": 0.00065
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.11694,
+        "spectral_centroid_hz": 878.69,
+        "onset_strength": 0.95257,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11913,
+        "spectral_centroid_hz": 861.83,
+        "onset_strength": 0.96863,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.13281,
+        "spectral_centroid_hz": 863.13,
+        "onset_strength": 0.96084,
+        "spectral_flatness": 0.00036
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.12136,
+        "spectral_centroid_hz": 943.1,
+        "onset_strength": 0.95223,
+        "spectral_flatness": 0.0005
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.11445,
+        "spectral_centroid_hz": 892.29,
+        "onset_strength": 0.9371,
+        "spectral_flatness": 0.0006
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.13163,
+        "spectral_centroid_hz": 860.32,
+        "onset_strength": 0.96555,
+        "spectral_flatness": 0.00037
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.1195,
+        "spectral_centroid_hz": 881.34,
+        "onset_strength": 0.96297,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.1105,
+        "spectral_centroid_hz": 793.56,
+        "onset_strength": 1.02337,
+        "spectral_flatness": 0.00043
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.11162,
+        "spectral_centroid_hz": 776.32,
+        "onset_strength": 1.08757,
+        "spectral_flatness": 0.00046
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.11735,
+        "spectral_centroid_hz": 742.0,
+        "onset_strength": 1.07023,
+        "spectral_flatness": 0.00039
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.11158,
+        "spectral_centroid_hz": 741.77,
+        "onset_strength": 1.06481,
+        "spectral_flatness": 0.00039
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "2291df07-92c1-4f1a-942e-541f555dcac3",
+      "title": "Crow",
+      "artist": "Forest Swords",
+      "duration_ms": 214000,
+      "first_release_date": "2018-05-18",
+      "disambiguation": "part of “DJ-Kicks: Forest Swords” DJ-mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "2291df07-92c1-4f1a-942e-541f555dcac3",
+      "duration_sec": 214.177963257,
+      "sample_rate": 44100,
+      "tempo_bpm": 94.7776870728,
+      "danceability": 1.48244583607,
+      "onset_rate": 3.84233856201,
+      "beats_count": 337,
+      "key": "E",
+      "scale": "major",
+      "chords_changes_rate": 0.0643832683563,
+      "dynamic_complexity": 3.0064458847,
+      "average_loudness": 0.916814208031,
+      "spectral_centroid_mean": 650.425170898,
+      "spectral_flux_mean": 0.111968196929,
+      "spectral_rolloff_mean": 515.461914062,
+      "dissonance_mean": 0.455458641052,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
