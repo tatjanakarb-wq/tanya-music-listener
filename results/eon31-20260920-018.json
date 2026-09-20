@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "The Cinematic Orchestra",
+    "track": "Flite",
+    "request_id": "eon31-20260920-018"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "f89d429b-67bc-448a-a833-d67448da8c1e",
+      "title": "Flite",
+      "artist": "The Cinematic Orchestra",
+      "duration_ms": 392000,
+      "first_release_date": "2003",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "d455aaac-d3b7-480a-8f80-e06c6bd135fe",
+      "title": "Flite",
+      "artist": "The Cinematic Orchestra",
+      "duration_ms": 70000,
+      "first_release_date": "2004",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "f8b0509d-22c4-4731-aa82-d51d2233c126",
+      "title": "Flite",
+      "artist": "The Cinematic Orchestra",
+      "duration_ms": 356000,
+      "first_release_date": "2008-03-15",
+      "disambiguation": "live, 2007‐11‐02: Royal Albert Hall, London, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "60b5c4a1-cf0e-4498-8e7a-173ce6e76399",
+      "title": "Flite",
+      "artist": "The Cinematic Orchestra",
+      "duration_ms": 355000,
+      "first_release_date": "2008-02",
+      "disambiguation": "live, 2007‐11‐02: Royal Albert Hall, London, England, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e8db4e5c-0637-4b5f-841b-9a9449c85997",
+      "title": "Flite",
+      "artist": "The Cinematic Orchestra",
+      "duration_ms": 395706,
+      "first_release_date": "2002-04-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "The Cinematic Orchestra",
+    "track": "Flite",
+    "album": "Every Day",
+    "duration_ms": 395707,
+    "release_date": "2002-05-13T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/95/e9/6195e9ce-a537-920a-8b8a-2220c2d350b3/mzaf_6103296150445189398.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/flite/416338893?i=416338960&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 3707
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/flite/416338893?i=416338960&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/95/e9/6195e9ce-a537-920a-8b8a-2220c2d350b3/mzaf_6103296150445189398.plus.aac.p.m4a",
+      "bytes": 992706,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.952,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.02763,
+    "onset_rate_per_sec": 5.14151,
+    "dynamic_range_db_p95_p10": 15.587,
+    "crest_factor_db": 14.663,
+    "rms_mean": 0.09353,
+    "rms_std": 0.06367,
+    "spectral_centroid_hz_mean": 1638.72,
+    "spectral_centroid_hz_std": 1166.35,
+    "spectral_bandwidth_hz_mean": 1979.25,
+    "spectral_rolloff_hz_mean": 3702.17,
+    "spectral_flatness_mean": 0.01667,
+    "spectral_contrast_mean": 17.81068,
+    "energy_share": {
+      "below_150_hz": 0.6147,
+      "150_to_2000_hz": 0.36872,
+      "above_2000_hz": 0.01659
+    },
+    "percussive_share": 0.45376,
+    "tonal_entropy_bits": 3.54102,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.7,
+      "relative_score": 1.22543
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.06357,
+        "spectral_centroid_hz": 468.99,
+        "onset_strength": 0.83405,
+        "spectral_flatness": 0.08413
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.07064,
+        "spectral_centroid_hz": 448.02,
+        "onset_strength": 0.78768,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.07247,
+        "spectral_centroid_hz": 449.89,
+        "onset_strength": 0.75159,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.04859,
+        "spectral_centroid_hz": 483.47,
+        "onset_strength": 0.69459,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 11.23,
+        "rms": 0.04804,
+        "spectral_centroid_hz": 494.46,
+        "onset_strength": 0.66931,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.73,
+        "rms": 0.11356,
+        "spectral_centroid_hz": 2314.75,
+        "onset_strength": 2.17444,
+        "spectral_flatness": 0.01008
+      },
+      {
+        "time_sec": 16.22,
+        "rms": 0.10775,
+        "spectral_centroid_hz": 2395.49,
+        "onset_strength": 2.03847,
+        "spectral_flatness": 0.01057
+      },
+      {
+        "time_sec": 18.72,
+        "rms": 0.10721,
+        "spectral_centroid_hz": 2642.78,
+        "onset_strength": 2.06903,
+        "spectral_flatness": 0.01999
+      },
+      {
+        "time_sec": 21.22,
+        "rms": 0.09061,
+        "spectral_centroid_hz": 3014.02,
+        "onset_strength": 1.9923,
+        "spectral_flatness": 0.02588
+      },
+      {
+        "time_sec": 23.71,
+        "rms": 0.09967,
+        "spectral_centroid_hz": 2854.54,
+        "onset_strength": 1.99839,
+        "spectral_flatness": 0.03343
+      },
+      {
+        "time_sec": 26.21,
+        "rms": 0.14805,
+        "spectral_centroid_hz": 2060.02,
+        "onset_strength": 1.82864,
+        "spectral_flatness": 0.00683
+      },
+      {
+        "time_sec": 28.7,
+        "rms": 0.15187,
+        "spectral_centroid_hz": 2029.46,
+        "onset_strength": 1.93073,
+        "spectral_flatness": 0.00928
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "60b5c4a1-cf0e-4498-8e7a-173ce6e76399",
+      "title": "Flite",
+      "artist": "The Cinematic Orchestra",
+      "duration_ms": 355000,
+      "first_release_date": "2008-02",
+      "disambiguation": "live, 2007‐11‐02: Royal Albert Hall, London, England, UK",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "60b5c4a1-cf0e-4498-8e7a-173ce6e76399",
+      "duration_sec": 357.302856445,
+      "sample_rate": 44100,
+      "tempo_bpm": 84.3953704834,
+      "danceability": 1.19424641132,
+      "onset_rate": 3.33594274521,
+      "beats_count": 583,
+      "key": "B",
+      "scale": "minor",
+      "chords_changes_rate": 0.0534113049507,
+      "dynamic_complexity": 4.47011947632,
+      "average_loudness": 0.796240568161,
+      "spectral_centroid_mean": 691.176452637,
+      "spectral_flux_mean": 0.0788764432073,
+      "spectral_rolloff_mean": 748.449890137,
+      "dissonance_mean": 0.432062000036,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
