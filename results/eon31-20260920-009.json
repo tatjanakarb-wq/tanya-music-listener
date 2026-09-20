@@ -1,0 +1,162 @@
+{
+  "request": {
+    "artist": "Bremer/McCoy",
+    "track": "Determination",
+    "request_id": "eon31-20260920-009"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "57d3b5fe-3cca-43ac-848e-ff5ac9c02f02",
+      "title": "Determination",
+      "artist": "Bremer/McCoy",
+      "duration_ms": 290000,
+      "first_release_date": "2019-10-18",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Bremer/McCoy",
+    "track": "Determination",
+    "album": "Utopia",
+    "duration_ms": 290401,
+    "release_date": "2019-10-18T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c7/a5/4f/c7a54ff5-76cc-1108-2cc5-2eaddeebf746/mzaf_16682276224437950928.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/determination/1475720669?i=1475721273&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 401
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/determination/1475720669?i=1475721273&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c7/a5/4f/c7a54ff5-76cc-1108-2cc5-2eaddeebf746/mzaf_16682276224437950928.plus.aac.p.m4a",
+      "bytes": 1178277,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.03263,
+    "onset_rate_per_sec": 2.67299,
+    "dynamic_range_db_p95_p10": 14.577,
+    "crest_factor_db": 15.571,
+    "rms_mean": 0.0836,
+    "rms_std": 0.04256,
+    "spectral_centroid_hz_mean": 446.71,
+    "spectral_centroid_hz_std": 210.19,
+    "spectral_bandwidth_hz_mean": 886.68,
+    "spectral_rolloff_hz_mean": 663.48,
+    "spectral_flatness_mean": 4e-05,
+    "spectral_contrast_mean": 21.22874,
+    "energy_share": {
+      "below_150_hz": 0.82479,
+      "150_to_2000_hz": 0.17431,
+      "above_2000_hz": 0.0009
+    },
+    "percussive_share": 0.14109,
+    "tonal_entropy_bits": 3.47186,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 1.07605
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0617,
+        "spectral_centroid_hz": 414.9,
+        "onset_strength": 0.65439,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.0964,
+        "spectral_centroid_hz": 340.11,
+        "onset_strength": 0.90605,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.08999,
+        "spectral_centroid_hz": 729.28,
+        "onset_strength": 1.06323,
+        "spectral_flatness": 6e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06239,
+        "spectral_centroid_hz": 479.93,
+        "onset_strength": 0.65858,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.09893,
+        "spectral_centroid_hz": 344.66,
+        "onset_strength": 0.77217,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.08167,
+        "spectral_centroid_hz": 749.41,
+        "onset_strength": 1.19368,
+        "spectral_flatness": 7e-05
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.07716,
+        "spectral_centroid_hz": 482.42,
+        "onset_strength": 0.79022,
+        "spectral_flatness": 4e-05
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.10067,
+        "spectral_centroid_hz": 359.93,
+        "onset_strength": 0.67943,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.0831,
+        "spectral_centroid_hz": 348.37,
+        "onset_strength": 0.67979,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.07242,
+        "spectral_centroid_hz": 379.45,
+        "onset_strength": 0.71524,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.08255,
+        "spectral_centroid_hz": 370.67,
+        "onset_strength": 0.83214,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.09578,
+        "spectral_centroid_hz": 361.99,
+        "onset_strength": 0.66757,
+        "spectral_flatness": 3e-05
+      }
+    ]
+  }
+}
