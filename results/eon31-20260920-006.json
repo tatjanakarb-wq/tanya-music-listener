@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Mansions of Millions of Years",
+    "request_id": "eon31-20260920-006"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c515da48-e1c4-4c20-918d-bb7f4965da8d",
+      "title": "Mansions of Millions of Years",
+      "artist": "Mammal Hands",
+      "duration_ms": 367946,
+      "first_release_date": "2014-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Mansions of Millions of Years",
+    "album": "Animalia",
+    "duration_ms": 367958,
+    "release_date": "2014-09-12T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/a8/e1/39a8e1aa-3be5-30db-d10f-efe99cba91d6/mzaf_14092238910688365145.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/mansions-of-millions-of-years/1578456785?i=1578456942&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 12
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/mansions-of-millions-of-years/1578456785?i=1578456942&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/a8/e1/39a8e1aa-3be5-30db-d10f-efe99cba91d6/mzaf_14092238910688365145.plus.aac.p.m4a",
+      "bytes": 1013768,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04758,
+    "onset_rate_per_sec": 3.50286,
+    "dynamic_range_db_p95_p10": 10.398,
+    "crest_factor_db": 17.064,
+    "rms_mean": 0.0397,
+    "rms_std": 0.01532,
+    "spectral_centroid_hz_mean": 1985.85,
+    "spectral_centroid_hz_std": 707.8,
+    "spectral_bandwidth_hz_mean": 2663.33,
+    "spectral_rolloff_hz_mean": 4792.14,
+    "spectral_flatness_mean": 0.00833,
+    "spectral_contrast_mean": 21.9064,
+    "energy_share": {
+      "below_150_hz": 0.32494,
+      "150_to_2000_hz": 0.66294,
+      "above_2000_hz": 0.01212
+    },
+    "percussive_share": 0.22396,
+    "tonal_entropy_bits": 3.44756,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.75,
+      "relative_score": 0.80557
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0321,
+        "spectral_centroid_hz": 2206.27,
+        "onset_strength": 0.8014,
+        "spectral_flatness": 0.01042
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.04413,
+        "spectral_centroid_hz": 2147.8,
+        "onset_strength": 0.98695,
+        "spectral_flatness": 0.00972
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03288,
+        "spectral_centroid_hz": 2007.18,
+        "onset_strength": 0.79949,
+        "spectral_flatness": 0.00675
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.03279,
+        "spectral_centroid_hz": 2162.23,
+        "onset_strength": 0.88022,
+        "spectral_flatness": 0.01184
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.04398,
+        "spectral_centroid_hz": 1996.35,
+        "onset_strength": 0.98565,
+        "spectral_flatness": 0.00634
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.0335,
+        "spectral_centroid_hz": 2069.28,
+        "onset_strength": 0.82665,
+        "spectral_flatness": 0.00893
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.02847,
+        "spectral_centroid_hz": 2281.08,
+        "onset_strength": 0.82769,
+        "spectral_flatness": 0.01115
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.0393,
+        "spectral_centroid_hz": 1938.61,
+        "onset_strength": 1.02122,
+        "spectral_flatness": 0.00952
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.03497,
+        "spectral_centroid_hz": 1949.54,
+        "onset_strength": 0.89322,
+        "spectral_flatness": 0.00763
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.04744,
+        "spectral_centroid_hz": 1601.97,
+        "onset_strength": 0.84207,
+        "spectral_flatness": 0.00496
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.05346,
+        "spectral_centroid_hz": 1649.55,
+        "onset_strength": 0.90798,
+        "spectral_flatness": 0.00555
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.05334,
+        "spectral_centroid_hz": 1818.65,
+        "onset_strength": 0.84519,
+        "spectral_flatness": 0.00718
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "c515da48-e1c4-4c20-918d-bb7f4965da8d",
+      "title": "Mansions of Millions of Years",
+      "artist": "Mammal Hands",
+      "duration_ms": 367946,
+      "first_release_date": "2014-09-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "c515da48-e1c4-4c20-918d-bb7f4965da8d",
+      "duration_sec": 368.013061523,
+      "sample_rate": 44100,
+      "tempo_bpm": 73.9396286011,
+      "danceability": 1.19812500477,
+      "onset_rate": 3.86387133598,
+      "beats_count": 488,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0413827896118,
+      "dynamic_complexity": 5.32877206802,
+      "average_loudness": 0.579732000828,
+      "spectral_centroid_mean": 649.174987793,
+      "spectral_flux_mean": 0.0605299770832,
+      "spectral_rolloff_mean": 646.130493164,
+      "dissonance_mean": 0.43389454484,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
