@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "Grandbrothers",
+    "track": "Organism",
+    "request_id": "eon31-20260920-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "4cce1f8d-db51-42fe-9132-7db2b7976eaf",
+      "title": "Organism",
+      "artist": "Grandbrothers",
+      "duration_ms": 255000,
+      "first_release_date": "2021-01-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Grandbrothers",
+    "track": "Organism",
+    "album": "All the Unknown",
+    "duration_ms": 255359,
+    "release_date": "2021-01-15T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/48/7c/9c/487c9c5a-16f2-d190-a875-3dd489de5ec1/mzaf_7441070137877411825.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/organism/1721047014?i=1721048520&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 359
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/organism/1721047014?i=1721048520&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/48/7c/9c/487c9c5a-16f2-d190-a875-3dd489de5ec1/mzaf_7441070137877411825.plus.aac.p.m4a",
+      "bytes": 1009315,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 112.347,
+    "beat_interval_cv": 0.06928,
+    "onset_rate_per_sec": 6.23843,
+    "dynamic_range_db_p95_p10": 6.967,
+    "crest_factor_db": 11.427,
+    "rms_mean": 0.14098,
+    "rms_std": 0.03965,
+    "spectral_centroid_hz_mean": 1194.81,
+    "spectral_centroid_hz_std": 280.85,
+    "spectral_bandwidth_hz_mean": 1673.84,
+    "spectral_rolloff_hz_mean": 2485.43,
+    "spectral_flatness_mean": 0.0023,
+    "spectral_contrast_mean": 19.26243,
+    "energy_share": {
+      "below_150_hz": 0.77401,
+      "150_to_2000_hz": 0.21228,
+      "above_2000_hz": 0.01371
+    },
+    "percussive_share": 0.23361,
+    "tonal_entropy_bits": 3.48156,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.99105
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13879,
+        "spectral_centroid_hz": 1188.5,
+        "onset_strength": 1.10445,
+        "spectral_flatness": 0.00227
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.15385,
+        "spectral_centroid_hz": 1118.22,
+        "onset_strength": 1.20286,
+        "spectral_flatness": 0.00187
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.15582,
+        "spectral_centroid_hz": 1177.48,
+        "onset_strength": 1.16722,
+        "spectral_flatness": 0.00178
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.13952,
+        "spectral_centroid_hz": 1239.77,
+        "onset_strength": 1.13906,
+        "spectral_flatness": 0.00275
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.15054,
+        "spectral_centroid_hz": 1153.68,
+        "onset_strength": 1.1079,
+        "spectral_flatness": 0.00196
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.14264,
+        "spectral_centroid_hz": 1190.1,
+        "onset_strength": 1.12939,
+        "spectral_flatness": 0.00234
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.14688,
+        "spectral_centroid_hz": 1218.81,
+        "onset_strength": 1.07087,
+        "spectral_flatness": 0.00238
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.13498,
+        "spectral_centroid_hz": 1223.61,
+        "onset_strength": 1.14666,
+        "spectral_flatness": 0.00302
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.14169,
+        "spectral_centroid_hz": 1251.47,
+        "onset_strength": 1.05724,
+        "spectral_flatness": 0.00247
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.14141,
+        "spectral_centroid_hz": 1182.83,
+        "onset_strength": 1.12699,
+        "spectral_flatness": 0.00232
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.12749,
+        "spectral_centroid_hz": 1244.82,
+        "onset_strength": 1.09437,
+        "spectral_flatness": 0.00273
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.1183,
+        "spectral_centroid_hz": 1147.92,
+        "onset_strength": 1.01941,
+        "spectral_flatness": 0.00173
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "4cce1f8d-db51-42fe-9132-7db2b7976eaf",
+      "title": "Organism",
+      "artist": "Grandbrothers",
+      "duration_ms": 255000,
+      "first_release_date": "2021-01-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "4cce1f8d-db51-42fe-9132-7db2b7976eaf",
+      "duration_sec": 255.399185181,
+      "sample_rate": 44100,
+      "tempo_bpm": 68.9277420044,
+      "danceability": 1.2373085022,
+      "onset_rate": 4.1656961441,
+      "beats_count": 293,
+      "key": "F#",
+      "scale": "major",
+      "chords_changes_rate": 0.0343573912978,
+      "dynamic_complexity": 2.93746972084,
+      "average_loudness": 0.934953510761,
+      "spectral_centroid_mean": 797.613769531,
+      "spectral_flux_mean": 0.100521467626,
+      "spectral_rolloff_mean": 617.257080078,
+      "dissonance_mean": 0.44632345438,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
