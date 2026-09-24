@@ -1,0 +1,236 @@
+{
+  "request": {
+    "artist": "Aufgang",
+    "track": "Kyrie",
+    "request_id": "mira-aufgang-kyrie-20260924-001"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Direct URL analysis failed: Only HTTPS audio URLs are accepted",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "8b39c1ac-c47f-4a2b-a7f1-a3b3b82c8e79",
+      "title": "Kyrie",
+      "artist": "Aufgang",
+      "duration_ms": 297013,
+      "first_release_date": "2013-03-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "540b7d26-4745-432b-9033-7348da3ff12e",
+      "title": "Kyrie",
+      "artist": "Aufgang",
+      "duration_ms": 297746,
+      "first_release_date": "2013-04-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "85de41b3-854f-43be-b842-a2b9f8c05138",
+      "title": "Kyrie (edit)",
+      "artist": "Aufgang",
+      "duration_ms": 230800,
+      "first_release_date": "2013-05-08",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.8067
+    },
+    {
+      "mbid": "40171955-3750-4c7d-a776-93a50a3e949e",
+      "title": "Kyrie (radio edit)",
+      "artist": "Aufgang",
+      "duration_ms": 228000,
+      "first_release_date": "2013-05-20",
+      "disambiguation": "",
+      "musicbrainz_score": 90,
+      "local_match_score": 0.6962
+    },
+    {
+      "mbid": "b00e31f5-e88d-496a-bb75-653d783c3cbd",
+      "title": "Kyrie (Torb remix)",
+      "artist": "Aufgang",
+      "duration_ms": 414000,
+      "first_release_date": "2013-05-20",
+      "disambiguation": "",
+      "musicbrainz_score": 90,
+      "local_match_score": 0.6962
+    }
+  ],
+  "matched_recording": {
+    "artist": "Aufgang",
+    "track": "Kyrie",
+    "album": "Istiklaliya",
+    "duration_ms": 297013,
+    "release_date": "2013-03-11T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/08/aa/7e08aa9a-466c-09fa-fb33-431fe25e3914/mzaf_13551957368969235048.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/kyrie/610781219?i=610781529&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/kyrie/610781219?i=610781529&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/08/aa/7e08aa9a-466c-09fa-fb33-431fe25e3914/mzaf_13551957368969235048.plus.aac.p.m4a",
+      "bytes": 1054799,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.02739,
+    "onset_rate_per_sec": 5.21232,
+    "dynamic_range_db_p95_p10": 9.008,
+    "crest_factor_db": 13.53,
+    "rms_mean": 0.12097,
+    "rms_std": 0.04023,
+    "spectral_centroid_hz_mean": 1360.02,
+    "spectral_centroid_hz_std": 417.22,
+    "spectral_bandwidth_hz_mean": 1973.7,
+    "spectral_rolloff_hz_mean": 3127.32,
+    "spectral_flatness_mean": 0.00368,
+    "spectral_contrast_mean": 18.91093,
+    "energy_share": {
+      "below_150_hz": 0.8081,
+      "150_to_2000_hz": 0.18354,
+      "above_2000_hz": 0.00836
+    },
+    "percussive_share": 0.29012,
+    "tonal_entropy_bits": 3.56279,
+    "climax": {
+      "segment": 2,
+      "time_sec": 3.74,
+      "relative_score": 1.30784
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.12006,
+        "spectral_centroid_hz": 829.28,
+        "onset_strength": 0.98391,
+        "spectral_flatness": 0.00054
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.1311,
+        "spectral_centroid_hz": 1821.82,
+        "onset_strength": 1.11638,
+        "spectral_flatness": 0.00762
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.11406,
+        "spectral_centroid_hz": 1282.18,
+        "onset_strength": 1.18752,
+        "spectral_flatness": 0.00251
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.10939,
+        "spectral_centroid_hz": 1363.37,
+        "onset_strength": 1.1376,
+        "spectral_flatness": 0.00338
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.12319,
+        "spectral_centroid_hz": 1273.67,
+        "onset_strength": 1.12106,
+        "spectral_flatness": 0.00273
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.11793,
+        "spectral_centroid_hz": 1331.83,
+        "onset_strength": 1.15039,
+        "spectral_flatness": 0.0036
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.12209,
+        "spectral_centroid_hz": 1404.7,
+        "onset_strength": 1.26146,
+        "spectral_flatness": 0.0041
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.12546,
+        "spectral_centroid_hz": 1639.45,
+        "onset_strength": 1.07178,
+        "spectral_flatness": 0.00579
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.11681,
+        "spectral_centroid_hz": 1299.07,
+        "onset_strength": 1.06409,
+        "spectral_flatness": 0.00313
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.13105,
+        "spectral_centroid_hz": 1326.11,
+        "onset_strength": 1.1257,
+        "spectral_flatness": 0.00358
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.11814,
+        "spectral_centroid_hz": 1318.3,
+        "onset_strength": 1.09785,
+        "spectral_flatness": 0.00324
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.12231,
+        "spectral_centroid_hz": 1429.11,
+        "onset_strength": 1.1282,
+        "spectral_flatness": 0.00401
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "540b7d26-4745-432b-9033-7348da3ff12e",
+      "title": "Kyrie",
+      "artist": "Aufgang",
+      "duration_ms": 297746,
+      "first_release_date": "2013-04-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "540b7d26-4745-432b-9033-7348da3ff12e",
+      "duration_sec": 297.746673584,
+      "sample_rate": 44100,
+      "tempo_bpm": 137.991104126,
+      "danceability": 1.25525701046,
+      "onset_rate": 2.46506357193,
+      "beats_count": 662,
+      "key": "A#",
+      "scale": "minor",
+      "chords_changes_rate": 0.0658038333058,
+      "dynamic_complexity": 6.9997177124,
+      "average_loudness": 0.672476649284,
+      "spectral_centroid_mean": 818.547119141,
+      "spectral_flux_mean": 0.0836993679404,
+      "spectral_rolloff_mean": 813.81451416,
+      "dissonance_mean": 0.441687375307,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
