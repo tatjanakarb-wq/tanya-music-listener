@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Sarah Neufeld",
+    "track": "The Ridge",
+    "request_id": "eon32-20261024-012"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22The+Ridge%22+AND+artist%3A%22Sarah+Neufeld%22&fmt=json&limit=8",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Sarah Neufeld",
+    "track": "The Ridge",
+    "album": "The Ridge",
+    "duration_ms": 481867,
+    "release_date": "2015-11-13T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/f8/97/51f89714-e3c4-a070-7a99-f443ef0f942f/mzaf_7250373786963761472.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/the-ridge/1050847362?i=1050847367&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/the-ridge/1050847362?i=1050847367&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/f8/97/51f89714-e3c4-a070-7a99-f443ef0f942f/mzaf_7250373786963761472.plus.aac.p.m4a",
+      "bytes": 1060037,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.02982,
+    "onset_rate_per_sec": 2.76893,
+    "dynamic_range_db_p95_p10": 11.73,
+    "crest_factor_db": 13.847,
+    "rms_mean": 0.10748,
+    "rms_std": 0.05532,
+    "spectral_centroid_hz_mean": 1825.11,
+    "spectral_centroid_hz_std": 550.93,
+    "spectral_bandwidth_hz_mean": 1970.57,
+    "spectral_rolloff_hz_mean": 3715.48,
+    "spectral_flatness_mean": 0.0111,
+    "spectral_contrast_mean": 20.02299,
+    "energy_share": {
+      "below_150_hz": 0.49453,
+      "150_to_2000_hz": 0.46247,
+      "above_2000_hz": 0.043
+    },
+    "percussive_share": 0.52368,
+    "tonal_entropy_bits": 3.54467,
+    "climax": {
+      "segment": 4,
+      "time_sec": 8.74,
+      "relative_score": 1.38569
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.1093,
+        "spectral_centroid_hz": 1552.54,
+        "onset_strength": 1.20984,
+        "spectral_flatness": 0.00494
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.11383,
+        "spectral_centroid_hz": 1565.63,
+        "onset_strength": 1.31255,
+        "spectral_flatness": 0.00471
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10039,
+        "spectral_centroid_hz": 1563.6,
+        "onset_strength": 1.20502,
+        "spectral_flatness": 0.00408
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.12329,
+        "spectral_centroid_hz": 1519.43,
+        "onset_strength": 1.28933,
+        "spectral_flatness": 0.00421
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.09761,
+        "spectral_centroid_hz": 1991.01,
+        "onset_strength": 1.0316,
+        "spectral_flatness": 0.02262
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.10542,
+        "spectral_centroid_hz": 1308.55,
+        "onset_strength": 1.20401,
+        "spectral_flatness": 0.00172
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.11463,
+        "spectral_centroid_hz": 2377.97,
+        "onset_strength": 1.03631,
+        "spectral_flatness": 0.0251
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.11344,
+        "spectral_centroid_hz": 1935.76,
+        "onset_strength": 1.09219,
+        "spectral_flatness": 0.01635
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.10071,
+        "spectral_centroid_hz": 1782.87,
+        "onset_strength": 1.05668,
+        "spectral_flatness": 0.00592
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.1002,
+        "spectral_centroid_hz": 1939.94,
+        "onset_strength": 1.05526,
+        "spectral_flatness": 0.00765
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.10502,
+        "spectral_centroid_hz": 2351.96,
+        "onset_strength": 1.03382,
+        "spectral_flatness": 0.02536
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.10573,
+        "spectral_centroid_hz": 2010.76,
+        "onset_strength": 0.99533,
+        "spectral_flatness": 0.01056
+      }
+    ]
+  }
+}
