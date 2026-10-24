@@ -1,0 +1,98 @@
+{
+  "playlist_number": 32,
+  "working_title": "Невозможный цвет — candidate listening pool",
+  "created_at": "2026-10-24",
+  "purpose": "Fresh emotional and rhythmic candidates, screened against Tanya's prior playlists and listener candidates; no user private data",
+  "tracks": [
+    {
+      "artist": "Anna Meredith",
+      "track": "Inhale Exhale",
+      "request_id": "eon32-20261024-001"
+    },
+    {
+      "artist": "Mammal Hands",
+      "track": "Boreal Forest",
+      "request_id": "eon32-20261024-002"
+    },
+    {
+      "artist": "Portico Quartet",
+      "track": "Gradient",
+      "request_id": "eon32-20261024-003"
+    },
+    {
+      "artist": "GoGo Penguin",
+      "track": "Protest",
+      "request_id": "eon32-20261024-004"
+    },
+    {
+      "artist": "Jaga Jazzist",
+      "track": "Airborne",
+      "request_id": "eon32-20261024-005"
+    },
+    {
+      "artist": "Kiasmos",
+      "track": "Sailed",
+      "request_id": "eon32-20261024-006"
+    },
+    {
+      "artist": "BICEP",
+      "track": "Atlas",
+      "request_id": "eon32-20261024-007"
+    },
+    {
+      "artist": "Bonobo",
+      "track": "Cirrus",
+      "request_id": "eon32-20261024-008"
+    },
+    {
+      "artist": "Moderat",
+      "track": "Eating Hooks",
+      "request_id": "eon32-20261024-009"
+    },
+    {
+      "artist": "Floating Points",
+      "track": "Last Bloom",
+      "request_id": "eon32-20261024-010"
+    },
+    {
+      "artist": "JAMBINAI",
+      "track": "Sun. Tears. Red",
+      "request_id": "eon32-20261024-011"
+    },
+    {
+      "artist": "Sarah Neufeld",
+      "track": "The Ridge",
+      "request_id": "eon32-20261024-012"
+    },
+    {
+      "artist": "Björk",
+      "track": "Wanderlust",
+      "request_id": "eon32-20261024-013"
+    },
+    {
+      "artist": "Radiohead",
+      "track": "Reckoner",
+      "request_id": "eon32-20261024-014"
+    },
+    {
+      "artist": "Rone",
+      "track": "Parade",
+      "request_id": "eon32-20261024-015"
+    },
+    {
+      "artist": "Max Cooper",
+      "track": "Lovesong",
+      "request_id": "eon32-20261024-016"
+    },
+    {
+      "artist": "Grandbrothers",
+      "track": "Adrift",
+      "request_id": "eon32-20261024-017"
+    },
+    {
+      "artist": "Vessels",
+      "track": "4AM",
+      "request_id": "eon32-20261024-018"
+    }
+  ]
+}
