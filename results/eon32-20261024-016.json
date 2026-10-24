@@ -1,0 +1,192 @@
+{
+  "request": {
+    "artist": "Max Cooper",
+    "track": "Lovesong",
+    "request_id": "eon32-20261024-016"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "c357ae4c-2c27-45c4-9296-b2c5d8517821",
+      "title": "Lovesong",
+      "artist": "Max Cooper",
+      "duration_ms": 239000,
+      "first_release_date": "2018-09-20",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "df111034-471f-4fdd-8982-e35b99dbb70e",
+      "title": "Lovesong (Brecon remix)",
+      "artist": "Max Cooper",
+      "duration_ms": 272000,
+      "first_release_date": "2019-03-21",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.74
+    },
+    {
+      "mbid": "c5d433ce-2886-4a5a-80a1-897c6b2af50a",
+      "title": "Lovesong (Acid Pauli remix)",
+      "artist": "Max Cooper",
+      "duration_ms": 274000,
+      "first_release_date": "2019-03-21",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.7012
+    },
+    {
+      "mbid": "b85f504f-48ef-4048-ace3-aa1bb187f2a3",
+      "title": "Lovesong (Poppy Ackroyd remix)",
+      "artist": "Max Cooper",
+      "duration_ms": 386000,
+      "first_release_date": "2019-03-21",
+      "disambiguation": "",
+      "musicbrainz_score": 84,
+      "local_match_score": 0.6778
+    }
+  ],
+  "matched_recording": {
+    "artist": "Max Cooper",
+    "track": "Lovesong",
+    "album": "One Hundred Billion Sparks",
+    "duration_ms": 238110,
+    "release_date": "2018-09-20T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/f7/77/f9f7770c-740d-d544-27e9-ebe839f1c401/mzaf_3106688363406415724.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/lovesong/1394132408?i=1394132766&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 890
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/lovesong/1394132408?i=1394132766&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/f7/77/f9f7770c-740d-d544-27e9-ebe839f1c401/mzaf_3106688363406415724.plus.aac.p.m4a",
+      "bytes": 1055791,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.08079,
+    "onset_rate_per_sec": 2.2018,
+    "dynamic_range_db_p95_p10": 22.246,
+    "crest_factor_db": 13.69,
+    "rms_mean": 0.10332,
+    "rms_std": 0.06392,
+    "spectral_centroid_hz_mean": 563.67,
+    "spectral_centroid_hz_std": 292.35,
+    "spectral_bandwidth_hz_mean": 870.99,
+    "spectral_rolloff_hz_mean": 867.33,
+    "spectral_flatness_mean": 0.00047,
+    "spectral_contrast_mean": 20.02683,
+    "energy_share": {
+      "below_150_hz": 0.3995,
+      "150_to_2000_hz": 0.60013,
+      "above_2000_hz": 0.00036
+    },
+    "percussive_share": 0.26022,
+    "tonal_entropy_bits": 3.41239,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 1.54483
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.09954,
+        "spectral_centroid_hz": 466.12,
+        "onset_strength": 0.75153,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.06376,
+        "spectral_centroid_hz": 470.68,
+        "onset_strength": 0.71097,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04564,
+        "spectral_centroid_hz": 540.17,
+        "onset_strength": 0.70988,
+        "spectral_flatness": 0.0001
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.07499,
+        "spectral_centroid_hz": 405.21,
+        "onset_strength": 1.00253,
+        "spectral_flatness": 3e-05
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.08151,
+        "spectral_centroid_hz": 1057.25,
+        "onset_strength": 0.97864,
+        "spectral_flatness": 0.00416
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.12764,
+        "spectral_centroid_hz": 458.07,
+        "onset_strength": 0.7365,
+        "spectral_flatness": 2e-05
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.07793,
+        "spectral_centroid_hz": 604.74,
+        "onset_strength": 0.98511,
+        "spectral_flatness": 0.00021
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.07184,
+        "spectral_centroid_hz": 614.85,
+        "onset_strength": 0.85665,
+        "spectral_flatness": 0.00053
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.12059,
+        "spectral_centroid_hz": 442.34,
+        "onset_strength": 0.71521,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.138,
+        "spectral_centroid_hz": 516.67,
+        "onset_strength": 0.83603,
+        "spectral_flatness": 1e-05
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.18027,
+        "spectral_centroid_hz": 579.42,
+        "onset_strength": 1.24351,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.15743,
+        "spectral_centroid_hz": 611.99,
+        "onset_strength": 1.25828,
+        "spectral_flatness": 0.00027
+      }
+    ]
+  }
+}
