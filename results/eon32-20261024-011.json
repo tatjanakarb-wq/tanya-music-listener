@@ -1,0 +1,195 @@
+{
+  "request": {
+    "artist": "JAMBINAI",
+    "track": "Sun. Tears. Red",
+    "request_id": "eon32-20261024-011"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "b602b3f9-5dc4-4ca3-afac-fbe3d42fb821",
+      "title": "검은 빛은 붉은 빛으로 (Sun.Tears.Red)",
+      "artist": "Jambinai",
+      "duration_ms": 351000,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jambinai",
+    "track": "Sun. Tears. Red",
+    "album": "ONDA",
+    "duration_ms": 351572,
+    "release_date": "2019-05-28T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/38/b5/08/38b50892-6ee8-d7f5-5100-fbfdc414fce9/mzaf_7305979565502580019.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/sun-tears-red/1457106540?i=1457106550&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 572
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/sun-tears-red/1457106540?i=1457106550&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/38/b5/08/38b50892-6ee8-d7f5-5100-fbfdc414fce9/mzaf_7305979565502580019.plus.aac.p.m4a",
+      "bytes": 1114814,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 135.999,
+    "beat_interval_cv": 0.05009,
+    "onset_rate_per_sec": 4.00948,
+    "dynamic_range_db_p95_p10": 9.931,
+    "crest_factor_db": 16.74,
+    "rms_mean": 0.04982,
+    "rms_std": 0.01799,
+    "spectral_centroid_hz_mean": 1778.32,
+    "spectral_centroid_hz_std": 578.69,
+    "spectral_bandwidth_hz_mean": 2485.24,
+    "spectral_rolloff_hz_mean": 4029.05,
+    "spectral_flatness_mean": 0.00988,
+    "spectral_contrast_mean": 18.81091,
+    "energy_share": {
+      "below_150_hz": 0.09626,
+      "150_to_2000_hz": 0.88289,
+      "above_2000_hz": 0.02085
+    },
+    "percussive_share": 0.30408,
+    "tonal_entropy_bits": 3.42,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 0.9076
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04647,
+        "spectral_centroid_hz": 1090.9,
+        "onset_strength": 1.98492,
+        "spectral_flatness": 0.0017
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.04057,
+        "spectral_centroid_hz": 1138.26,
+        "onset_strength": 2.2048,
+        "spectral_flatness": 0.00205
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.03985,
+        "spectral_centroid_hz": 1196.89,
+        "onset_strength": 2.05406,
+        "spectral_flatness": 0.0054
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.06028,
+        "spectral_centroid_hz": 2261.13,
+        "onset_strength": 1.35396,
+        "spectral_flatness": 0.01993
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04019,
+        "spectral_centroid_hz": 1791.11,
+        "onset_strength": 1.63799,
+        "spectral_flatness": 0.00796
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05407,
+        "spectral_centroid_hz": 2059.93,
+        "onset_strength": 1.32123,
+        "spectral_flatness": 0.01424
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.04872,
+        "spectral_centroid_hz": 1901.92,
+        "onset_strength": 1.36742,
+        "spectral_flatness": 0.01126
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04516,
+        "spectral_centroid_hz": 2049.76,
+        "onset_strength": 1.6502,
+        "spectral_flatness": 0.01319
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.06954,
+        "spectral_centroid_hz": 1953.54,
+        "onset_strength": 1.26388,
+        "spectral_flatness": 0.01069
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.04541,
+        "spectral_centroid_hz": 1933.46,
+        "onset_strength": 1.52736,
+        "spectral_flatness": 0.00902
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.06711,
+        "spectral_centroid_hz": 1991.02,
+        "onset_strength": 1.35035,
+        "spectral_flatness": 0.01232
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.04082,
+        "spectral_centroid_hz": 1971.39,
+        "onset_strength": 1.29441,
+        "spectral_flatness": 0.01076
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "b602b3f9-5dc4-4ca3-afac-fbe3d42fb821",
+      "title": "검은 빛은 붉은 빛으로 (Sun.Tears.Red)",
+      "artist": "Jambinai",
+      "duration_ms": 351000,
+      "first_release_date": "2019-06-07",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "b602b3f9-5dc4-4ca3-afac-fbe3d42fb821",
+      "duration_sec": 351.57232666,
+      "sample_rate": 44100,
+      "tempo_bpm": 82.7214202881,
+      "danceability": 0.980837643147,
+      "onset_rate": 3.09171390533,
+      "beats_count": 533,
+      "key": "B",
+      "scale": "minor",
+      "chords_changes_rate": 0.0522979386151,
+      "dynamic_complexity": 4.99918460846,
+      "average_loudness": 0.796442091465,
+      "spectral_centroid_mean": 1171.61853027,
+      "spectral_flux_mean": 0.083956643939,
+      "spectral_rolloff_mean": 1324.28149414,
+      "dissonance_mean": 0.472077548504,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
