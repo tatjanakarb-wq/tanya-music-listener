@@ -1,0 +1,205 @@
+{
+  "request": {
+    "artist": "GoGo Penguin",
+    "track": "Protest",
+    "request_id": "eon32-20261024-004"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "378b30f9-1ebd-4b46-9d95-266bb1ccb786",
+      "title": "Protest",
+      "artist": "GoGo Penguin",
+      "duration_ms": 285000,
+      "first_release_date": "2016-01-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e9a7a304-21c4-4dd1-98c2-236aa07ab785",
+      "title": "Protest",
+      "artist": "GoGo Penguin",
+      "duration_ms": 285000,
+      "first_release_date": "2020-11-27",
+      "disambiguation": "2020 live",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "GoGo Penguin",
+    "track": "Protest",
+    "album": "Man Made Object (Deluxe)",
+    "duration_ms": 285082,
+    "release_date": "2016-02-05T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/62/0a/5c620a81-4a40-3d2d-fa19-a0db1e9d61e3/mzaf_8582048068124804241.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/protest/1443232963?i=1443233209&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 82
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/protest/1443232963?i=1443233209&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/62/0a/5c620a81-4a40-3d2d-fa19-a0db1e9d61e3/mzaf_8582048068124804241.plus.aac.p.m4a",
+      "bytes": 1027382,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 89.103,
+    "beat_interval_cv": 0.02392,
+    "onset_rate_per_sec": 5.33769,
+    "dynamic_range_db_p95_p10": 9.144,
+    "crest_factor_db": 12.345,
+    "rms_mean": 0.13584,
+    "rms_std": 0.05062,
+    "spectral_centroid_hz_mean": 1374.37,
+    "spectral_centroid_hz_std": 430.33,
+    "spectral_bandwidth_hz_mean": 2043.16,
+    "spectral_rolloff_hz_mean": 3083.14,
+    "spectral_flatness_mean": 0.00492,
+    "spectral_contrast_mean": 17.70095,
+    "energy_share": {
+      "below_150_hz": 0.7662,
+      "150_to_2000_hz": 0.22515,
+      "above_2000_hz": 0.00865
+    },
+    "percussive_share": 0.3388,
+    "tonal_entropy_bits": 3.53327,
+    "climax": {
+      "segment": 3,
+      "time_sec": 6.24,
+      "relative_score": 0.86983
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.13426,
+        "spectral_centroid_hz": 1463.75,
+        "onset_strength": 1.46853,
+        "spectral_flatness": 0.00632
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.13026,
+        "spectral_centroid_hz": 1418.34,
+        "onset_strength": 1.51532,
+        "spectral_flatness": 0.00587
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.14475,
+        "spectral_centroid_hz": 1285.95,
+        "onset_strength": 1.51693,
+        "spectral_flatness": 0.004
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.1332,
+        "spectral_centroid_hz": 1299.35,
+        "onset_strength": 1.59138,
+        "spectral_flatness": 0.00438
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.1398,
+        "spectral_centroid_hz": 1368.77,
+        "onset_strength": 1.61527,
+        "spectral_flatness": 0.00456
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.13359,
+        "spectral_centroid_hz": 1260.5,
+        "onset_strength": 1.59079,
+        "spectral_flatness": 0.00399
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.14267,
+        "spectral_centroid_hz": 1318.4,
+        "onset_strength": 1.5461,
+        "spectral_flatness": 0.00425
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.12654,
+        "spectral_centroid_hz": 1470.97,
+        "onset_strength": 1.23893,
+        "spectral_flatness": 0.00555
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.13463,
+        "spectral_centroid_hz": 1381.65,
+        "onset_strength": 1.39071,
+        "spectral_flatness": 0.00503
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.13546,
+        "spectral_centroid_hz": 1570.68,
+        "onset_strength": 1.21558,
+        "spectral_flatness": 0.00638
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.13315,
+        "spectral_centroid_hz": 1369.45,
+        "onset_strength": 1.38759,
+        "spectral_flatness": 0.00502
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.14179,
+        "spectral_centroid_hz": 1287.33,
+        "onset_strength": 1.41126,
+        "spectral_flatness": 0.00377
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "378b30f9-1ebd-4b46-9d95-266bb1ccb786",
+      "title": "Protest",
+      "artist": "GoGo Penguin",
+      "duration_ms": 285000,
+      "first_release_date": "2016-01-27",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "378b30f9-1ebd-4b46-9d95-266bb1ccb786",
+      "duration_sec": 285.08215332,
+      "sample_rate": 44100,
+      "tempo_bpm": 178.205932617,
+      "danceability": 1.2663077116,
+      "onset_rate": 4.04076385498,
+      "beats_count": 565,
+      "key": "A#",
+      "scale": "major",
+      "chords_changes_rate": 0.049185667187,
+      "dynamic_complexity": 3.17427349091,
+      "average_loudness": 0.890909135342,
+      "spectral_centroid_mean": 858.50994873,
+      "spectral_flux_mean": 0.115014791489,
+      "spectral_rolloff_mean": 792.975463867,
+      "dissonance_mean": 0.45827242732,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
