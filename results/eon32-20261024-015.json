@@ -1,0 +1,235 @@
+{
+  "request": {
+    "artist": "Rone",
+    "track": "Parade",
+    "request_id": "eon32-20261024-015"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "207d1773-1ee1-435e-b873-b3a683e5434f",
+      "title": "Parade",
+      "artist": "Rone",
+      "duration_ms": 379000,
+      "first_release_date": "2013-11-11",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "7c5efa7b-92e5-429d-8cc1-eb29861a508e",
+      "title": "Parade",
+      "artist": "Rone",
+      "duration_ms": 381157,
+      "first_release_date": "2012-10-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e7680e47-2154-4f2e-972b-2fd6e1bcbe98",
+      "title": "Parade",
+      "artist": "Rone",
+      "duration_ms": 204022,
+      "first_release_date": "2020-06-05",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "6a77682d-daa7-420e-a7b1-03d480923f95",
+      "title": "Parade (radio edit)",
+      "artist": "Rone",
+      "duration_ms": 206723,
+      "first_release_date": "2012-11-26",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.7226
+    },
+    {
+      "mbid": "2083495f-06d9-4556-bafb-7fe4b48aac9e",
+      "title": "Parade (CongopunQ remix)",
+      "artist": "Rone",
+      "duration_ms": 399000,
+      "first_release_date": "2012-11-05",
+      "disambiguation": "",
+      "musicbrainz_score": 89,
+      "local_match_score": 0.6686
+    }
+  ],
+  "matched_recording": {
+    "artist": "Rone",
+    "track": "Parade",
+    "album": "Tohu Bohu (Deluxe Edition)",
+    "duration_ms": 381157,
+    "release_date": "2012-01-01T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/24/88/372488e2-079c-6c65-7858-02eb6c2550cf/mzaf_17368807261077391504.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/parade/662866476?i=662866994&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/parade/662866476?i=662866994&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/24/88/372488e2-079c-6c65-7858-02eb6c2550cf/mzaf_17368807261077391504.plus.aac.p.m4a",
+      "bytes": 1075762,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 95.703,
+    "beat_interval_cv": 0.07069,
+    "onset_rate_per_sec": 4.904,
+    "dynamic_range_db_p95_p10": 6.82,
+    "crest_factor_db": 16.304,
+    "rms_mean": 0.05851,
+    "rms_std": 0.01548,
+    "spectral_centroid_hz_mean": 2023.59,
+    "spectral_centroid_hz_std": 475.06,
+    "spectral_bandwidth_hz_mean": 2661.71,
+    "spectral_rolloff_hz_mean": 4773.18,
+    "spectral_flatness_mean": 0.01157,
+    "spectral_contrast_mean": 20.98067,
+    "energy_share": {
+      "below_150_hz": 0.02357,
+      "150_to_2000_hz": 0.95496,
+      "above_2000_hz": 0.02147
+    },
+    "percussive_share": 0.1934,
+    "tonal_entropy_bits": 3.43592,
+    "climax": {
+      "segment": 11,
+      "time_sec": 26.23,
+      "relative_score": 0.99947
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04992,
+        "spectral_centroid_hz": 1888.84,
+        "onset_strength": 1.27405,
+        "spectral_flatness": 0.01001
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.04758,
+        "spectral_centroid_hz": 2043.73,
+        "onset_strength": 1.29897,
+        "spectral_flatness": 0.01128
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05447,
+        "spectral_centroid_hz": 1829.48,
+        "onset_strength": 1.2961,
+        "spectral_flatness": 0.00889
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.05142,
+        "spectral_centroid_hz": 1836.2,
+        "onset_strength": 1.3242,
+        "spectral_flatness": 0.00994
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.06184,
+        "spectral_centroid_hz": 1807.76,
+        "onset_strength": 1.24218,
+        "spectral_flatness": 0.00804
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.05572,
+        "spectral_centroid_hz": 1837.27,
+        "onset_strength": 1.2349,
+        "spectral_flatness": 0.01027
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.05443,
+        "spectral_centroid_hz": 1746.41,
+        "onset_strength": 1.20763,
+        "spectral_flatness": 0.01
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.05484,
+        "spectral_centroid_hz": 1826.4,
+        "onset_strength": 1.17947,
+        "spectral_flatness": 0.01061
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.05694,
+        "spectral_centroid_hz": 2394.09,
+        "onset_strength": 1.13695,
+        "spectral_flatness": 0.01621
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.06632,
+        "spectral_centroid_hz": 2366.12,
+        "onset_strength": 1.07859,
+        "spectral_flatness": 0.01423
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.07634,
+        "spectral_centroid_hz": 2293.22,
+        "onset_strength": 1.06779,
+        "spectral_flatness": 0.01253
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.0723,
+        "spectral_centroid_hz": 2409.85,
+        "onset_strength": 1.05437,
+        "spectral_flatness": 0.01674
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "7c5efa7b-92e5-429d-8cc1-eb29861a508e",
+      "title": "Parade",
+      "artist": "Rone",
+      "duration_ms": 381157,
+      "first_release_date": "2012-10-15",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "7c5efa7b-92e5-429d-8cc1-eb29861a508e",
+      "duration_sec": 381.20489502,
+      "sample_rate": 44100,
+      "tempo_bpm": 120.029502869,
+      "danceability": 1.64341723919,
+      "onset_rate": 4.50127601624,
+      "beats_count": 763,
+      "key": "B",
+      "scale": "major",
+      "chords_changes_rate": 0.0484774671495,
+      "dynamic_complexity": 4.12011194229,
+      "average_loudness": 0.776897490025,
+      "spectral_centroid_mean": 781.384155273,
+      "spectral_flux_mean": 0.0804710835218,
+      "spectral_rolloff_mean": 857.214660645,
+      "dissonance_mean": 0.428977936506,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
