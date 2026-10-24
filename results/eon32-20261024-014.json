@@ -1,0 +1,202 @@
+{
+  "request": {
+    "artist": "Radiohead",
+    "track": "Reckoner",
+    "request_id": "eon32-20261024-014"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "e6b61cf8-cfdd-40c8-84b0-68f83ab0bbfe",
+      "title": "Reckoner",
+      "artist": "Radiohead",
+      "duration_ms": 312275,
+      "first_release_date": null,
+      "disambiguation": "live, 2017‐06‐16: I‐Days Festival, Monza, Italy",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "e5ade1b1-71f5-40dd-9529-d9fdac9980c1",
+      "title": "Reckoner",
+      "artist": "Radiohead",
+      "duration_ms": null,
+      "first_release_date": null,
+      "disambiguation": "live, 2008‐06‐18: Arena Civica Gianni Brera, Milan, Italy",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "a73a4d62-9a4d-4539-8649-f82fb5333f28",
+      "title": "Reckoner",
+      "artist": "Radiohead",
+      "duration_ms": null,
+      "first_release_date": null,
+      "disambiguation": "live, 2008-08-19: Thunderbird Stadium, Vancouver, BC, Canada",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "06f04ce8-91f0-49ff-a20b-dc66c1f1869e",
+      "title": "Reckoner",
+      "artist": "Radiohead",
+      "duration_ms": 322000,
+      "first_release_date": null,
+      "disambiguation": "live, 2008-06-10: Palais Omnisports de Paris-Bercy, Paris, France",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "5cfda53f-00e5-44f1-a6ca-65684397f1eb",
+      "title": "Reckoner",
+      "artist": "Radiohead",
+      "duration_ms": 467864,
+      "first_release_date": null,
+      "disambiguation": "live, 2017‐04‐17: Greek Theatre, Berkely, CA, USA",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    }
+  ],
+  "matched_recording": {
+    "artist": "Radiohead",
+    "track": "Reckoner",
+    "album": "In Rainbows",
+    "duration_ms": 290213,
+    "release_date": "2007-10-10T07:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/84/2b/d9842b3d-350e-3c36-3681-df31588ab202/mzaf_1179366535087719219.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/reckoner/1109714933?i=1109715309&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 22062
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/reckoner/1109714933?i=1109715309&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/84/2b/d9842b3d-350e-3c36-3681-df31588ab202/mzaf_1179366535087719219.plus.aac.p.m4a",
+      "bytes": 1144558,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 103.359,
+    "beat_interval_cv": 0.02324,
+    "onset_rate_per_sec": 5.47113,
+    "dynamic_range_db_p95_p10": 7.105,
+    "crest_factor_db": 13.104,
+    "rms_mean": 0.12717,
+    "rms_std": 0.03716,
+    "spectral_centroid_hz_mean": 2938.65,
+    "spectral_centroid_hz_std": 681.07,
+    "spectral_bandwidth_hz_mean": 2982.38,
+    "spectral_rolloff_hz_mean": 6741.79,
+    "spectral_flatness_mean": 0.03709,
+    "spectral_contrast_mean": 18.51878,
+    "energy_share": {
+      "below_150_hz": 0.2129,
+      "150_to_2000_hz": 0.71045,
+      "above_2000_hz": 0.07665
+    },
+    "percussive_share": 0.28187,
+    "tonal_entropy_bits": 3.53192,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 1.01935
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10965,
+        "spectral_centroid_hz": 3040.83,
+        "onset_strength": 1.21563,
+        "spectral_flatness": 0.0385
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.09747,
+        "spectral_centroid_hz": 3181.35,
+        "onset_strength": 1.27813,
+        "spectral_flatness": 0.04509
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.10188,
+        "spectral_centroid_hz": 3145.76,
+        "onset_strength": 1.33264,
+        "spectral_flatness": 0.04481
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.10558,
+        "spectral_centroid_hz": 3030.15,
+        "onset_strength": 1.30127,
+        "spectral_flatness": 0.04079
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.11288,
+        "spectral_centroid_hz": 2985.69,
+        "onset_strength": 1.34863,
+        "spectral_flatness": 0.03538
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.10487,
+        "spectral_centroid_hz": 3173.4,
+        "onset_strength": 1.35527,
+        "spectral_flatness": 0.05058
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.1346,
+        "spectral_centroid_hz": 2876.59,
+        "onset_strength": 1.23099,
+        "spectral_flatness": 0.0376
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.16981,
+        "spectral_centroid_hz": 2655.61,
+        "onset_strength": 1.21364,
+        "spectral_flatness": 0.02352
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.16237,
+        "spectral_centroid_hz": 2549.24,
+        "onset_strength": 1.27578,
+        "spectral_flatness": 0.02258
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.15799,
+        "spectral_centroid_hz": 2529.14,
+        "onset_strength": 1.22719,
+        "spectral_flatness": 0.02123
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.11242,
+        "spectral_centroid_hz": 3033.44,
+        "onset_strength": 1.23845,
+        "spectral_flatness": 0.04107
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.15662,
+        "spectral_centroid_hz": 3059.52,
+        "onset_strength": 1.34037,
+        "spectral_flatness": 0.04368
+      }
+    ]
+  }
+}
