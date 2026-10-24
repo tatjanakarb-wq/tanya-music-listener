@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Mammal Hands",
+    "track": "Boreal Forest",
+    "request_id": "eon32-20261024-002"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Boreal+Forest%22+AND+artist%3A%22Mammal+Hands%22&fmt=json&limit=8",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Mammal Hands",
+    "track": "Boreal Forest",
+    "album": "Shadow Work",
+    "duration_ms": 307546,
+    "release_date": "2017-10-27T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/f7/87/28f78751-e026-a1ab-62c4-38cb9cc277ca/mzaf_839481977762377173.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/boreal-forest/1577505862?i=1577505875&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/boreal-forest/1577505862?i=1577505875&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/f7/87/28f78751-e026-a1ab-62c4-38cb9cc277ca/mzaf_839481977762377173.plus.aac.p.m4a",
+      "bytes": 1044361,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 117.454,
+    "beat_interval_cv": 0.03253,
+    "onset_rate_per_sec": 3.53622,
+    "dynamic_range_db_p95_p10": 11.109,
+    "crest_factor_db": 15.727,
+    "rms_mean": 0.06209,
+    "rms_std": 0.02559,
+    "spectral_centroid_hz_mean": 1716.67,
+    "spectral_centroid_hz_std": 475.7,
+    "spectral_bandwidth_hz_mean": 2374.49,
+    "spectral_rolloff_hz_mean": 3866.47,
+    "spectral_flatness_mean": 0.00531,
+    "spectral_contrast_mean": 21.94716,
+    "energy_share": {
+      "below_150_hz": 0.38871,
+      "150_to_2000_hz": 0.59617,
+      "above_2000_hz": 0.01512
+    },
+    "percussive_share": 0.26841,
+    "tonal_entropy_bits": 3.44694,
+    "climax": {
+      "segment": 12,
+      "time_sec": 28.73,
+      "relative_score": 0.95419
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.04968,
+        "spectral_centroid_hz": 1644.37,
+        "onset_strength": 0.9405,
+        "spectral_flatness": 0.00562
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.05882,
+        "spectral_centroid_hz": 1734.06,
+        "onset_strength": 1.16482,
+        "spectral_flatness": 0.00659
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.05877,
+        "spectral_centroid_hz": 2082.45,
+        "onset_strength": 1.0632,
+        "spectral_flatness": 0.00482
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.04686,
+        "spectral_centroid_hz": 1834.67,
+        "onset_strength": 1.0614,
+        "spectral_flatness": 0.00657
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.06044,
+        "spectral_centroid_hz": 1732.84,
+        "onset_strength": 1.14616,
+        "spectral_flatness": 0.00475
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.06297,
+        "spectral_centroid_hz": 1617.72,
+        "onset_strength": 1.11216,
+        "spectral_flatness": 0.00439
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.06666,
+        "spectral_centroid_hz": 1609.36,
+        "onset_strength": 1.25968,
+        "spectral_flatness": 0.00518
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.06252,
+        "spectral_centroid_hz": 1667.72,
+        "onset_strength": 1.07585,
+        "spectral_flatness": 0.00485
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.05634,
+        "spectral_centroid_hz": 1862.04,
+        "onset_strength": 1.05196,
+        "spectral_flatness": 0.00711
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.06953,
+        "spectral_centroid_hz": 1647.39,
+        "onset_strength": 1.18801,
+        "spectral_flatness": 0.00422
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.0735,
+        "spectral_centroid_hz": 1588.46,
+        "onset_strength": 1.09813,
+        "spectral_flatness": 0.00449
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.0789,
+        "spectral_centroid_hz": 1580.73,
+        "onset_strength": 1.13887,
+        "spectral_flatness": 0.00505
+      }
+    ]
+  }
+}
