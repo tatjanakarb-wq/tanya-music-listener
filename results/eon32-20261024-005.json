@@ -1,0 +1,225 @@
+{
+  "request": {
+    "artist": "Jaga Jazzist",
+    "track": "Airborne",
+    "request_id": "eon32-20261024-005"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "aaffa3d0-5747-4a11-a2f2-c22836981bfd",
+      "title": "Airborne",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 313146,
+      "first_release_date": "2001-05-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "bd28631a-f284-4474-b41e-9d2d8c92d293",
+      "title": "Airborne",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 236000,
+      "first_release_date": "2002",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "72d9a9ed-c47b-46af-ac42-8b0dce273e6d",
+      "title": "Airborne (live)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 629000,
+      "first_release_date": "2002-08-10",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.8619
+    },
+    {
+      "mbid": "65c8e04c-f133-40d0-bdc4-e0a6b88d2dfb",
+      "title": "Airborne (edit)",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 235240,
+      "first_release_date": "2001",
+      "disambiguation": "",
+      "musicbrainz_score": 94,
+      "local_match_score": 0.8619
+    }
+  ],
+  "matched_recording": {
+    "artist": "Jaga Jazzist",
+    "track": "Airborne",
+    "album": "A Living Room Hush",
+    "duration_ms": 313147,
+    "release_date": "2001-05-23T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/45/49/934549b9-21e1-98d7-b839-3efa23820ee7/mzaf_15003740329398512266.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/airborne/416345894?i=416345954&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 1
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/airborne/416345894?i=416345954&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/45/49/934549b9-21e1-98d7-b839-3efa23820ee7/mzaf_15003740329398512266.plus.aac.p.m4a",
+      "bytes": 1128596,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.03806,
+    "onset_rate_per_sec": 4.77796,
+    "dynamic_range_db_p95_p10": 21.375,
+    "crest_factor_db": 17.922,
+    "rms_mean": 0.0467,
+    "rms_std": 0.02494,
+    "spectral_centroid_hz_mean": 1217.15,
+    "spectral_centroid_hz_std": 829.75,
+    "spectral_bandwidth_hz_mean": 1971.27,
+    "spectral_rolloff_hz_mean": 2400.3,
+    "spectral_flatness_mean": 0.00676,
+    "spectral_contrast_mean": 18.98482,
+    "energy_share": {
+      "below_150_hz": 0.91876,
+      "150_to_2000_hz": 0.07959,
+      "above_2000_hz": 0.00165
+    },
+    "percussive_share": 0.29654,
+    "tonal_entropy_bits": 3.36378,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 0.42509
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.00462,
+        "spectral_centroid_hz": 2584.44,
+        "onset_strength": 1.16285,
+        "spectral_flatness": 0.03616
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.02866,
+        "spectral_centroid_hz": 1988.83,
+        "onset_strength": 1.60851,
+        "spectral_flatness": 0.03142
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.04978,
+        "spectral_centroid_hz": 966.51,
+        "onset_strength": 1.29115,
+        "spectral_flatness": 0.00058
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.05748,
+        "spectral_centroid_hz": 849.74,
+        "onset_strength": 1.21712,
+        "spectral_flatness": 0.00064
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.04956,
+        "spectral_centroid_hz": 1131.84,
+        "onset_strength": 1.67665,
+        "spectral_flatness": 0.00223
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.05351,
+        "spectral_centroid_hz": 904.29,
+        "onset_strength": 1.19256,
+        "spectral_flatness": 0.00034
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.05155,
+        "spectral_centroid_hz": 933.58,
+        "onset_strength": 1.23255,
+        "spectral_flatness": 0.00108
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.04153,
+        "spectral_centroid_hz": 1375.16,
+        "onset_strength": 1.93009,
+        "spectral_flatness": 0.00394
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.05725,
+        "spectral_centroid_hz": 981.76,
+        "onset_strength": 1.56729,
+        "spectral_flatness": 0.00153
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.06214,
+        "spectral_centroid_hz": 832.38,
+        "onset_strength": 1.31732,
+        "spectral_flatness": 0.00052
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.04511,
+        "spectral_centroid_hz": 1122.25,
+        "onset_strength": 1.57654,
+        "spectral_flatness": 0.00199
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.05889,
+        "spectral_centroid_hz": 942.86,
+        "onset_strength": 1.51264,
+        "spectral_flatness": 0.00088
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "aaffa3d0-5747-4a11-a2f2-c22836981bfd",
+      "title": "Airborne",
+      "artist": "Jaga Jazzist",
+      "duration_ms": 313146,
+      "first_release_date": "2001-05-21",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "aaffa3d0-5747-4a11-a2f2-c22836981bfd",
+      "duration_sec": 313.155914307,
+      "sample_rate": 44100,
+      "tempo_bpm": 97.036277771,
+      "danceability": 0.985595464706,
+      "onset_rate": 3.35922431946,
+      "beats_count": 535,
+      "key": "F",
+      "scale": "minor",
+      "chords_changes_rate": 0.0859896242619,
+      "dynamic_complexity": 7.04117155075,
+      "average_loudness": 0.153428897262,
+      "spectral_centroid_mean": 688.629943848,
+      "spectral_flux_mean": 0.0754181593657,
+      "spectral_rolloff_mean": 7968.16308594,
+      "dissonance_mean": 0.454043030739,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
