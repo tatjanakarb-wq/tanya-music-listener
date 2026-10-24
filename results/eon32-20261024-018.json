@@ -1,0 +1,215 @@
+{
+  "request": {
+    "artist": "Vessels",
+    "track": "4AM",
+    "request_id": "eon32-20261024-018"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "2ca5f20f-23c1-49a2-8952-386f263f3048",
+      "title": "4AM",
+      "artist": "Vessels",
+      "duration_ms": 395229,
+      "first_release_date": "2015-03-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    {
+      "mbid": "3fa9dbf7-684b-4a4b-8910-9ea2c1d388b7",
+      "title": "4AM (LV remix)",
+      "artist": "Vessels",
+      "duration_ms": 327000,
+      "first_release_date": "2016-04-01",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.652
+    },
+    {
+      "mbid": "7188cd8e-5582-4a40-a647-83915a2a17ba",
+      "title": "4AM (FaltyDL remix)",
+      "artist": "Vessels",
+      "duration_ms": 271000,
+      "first_release_date": "2015-03-03",
+      "disambiguation": "",
+      "musicbrainz_score": 88,
+      "local_match_score": 0.594
+    }
+  ],
+  "matched_recording": {
+    "artist": "Vessels",
+    "track": "4AM",
+    "album": "Dilate (Special Edition)",
+    "duration_ms": 395229,
+    "release_date": "2016-01-29T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1a/27/7a/1a277a1d-8d0a-80f6-cc40-a9c093c449b9/mzaf_15634008374240819676.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/4am/1084797566?i=1084797991&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0,
+    "duration_difference_to_musicbrainz_ms": 0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/4am/1084797566?i=1084797991&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1a/27/7a/1a277a1d-8d0a-80f6-cc40-a9c093c449b9/mzaf_15634008374240819676.plus.aac.p.m4a",
+      "bytes": 1063691,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.929,
+    "sample_rate": 22050,
+    "tempo_bpm": 99.384,
+    "beat_interval_cv": 0.04081,
+    "onset_rate_per_sec": 3.44147,
+    "dynamic_range_db_p95_p10": 3.794,
+    "crest_factor_db": 12.736,
+    "rms_mean": 0.06941,
+    "rms_std": 0.01143,
+    "spectral_centroid_hz_mean": 676.68,
+    "spectral_centroid_hz_std": 144.27,
+    "spectral_bandwidth_hz_mean": 1062.21,
+    "spectral_rolloff_hz_mean": 1115.85,
+    "spectral_flatness_mean": 0.00027,
+    "spectral_contrast_mean": 20.94756,
+    "energy_share": {
+      "below_150_hz": 0.28215,
+      "150_to_2000_hz": 0.71645,
+      "above_2000_hz": 0.0014
+    },
+    "percussive_share": 0.14856,
+    "tonal_entropy_bits": 3.15677,
+    "climax": {
+      "segment": 9,
+      "time_sec": 21.2,
+      "relative_score": 1.32601
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.0493,
+        "spectral_centroid_hz": 491.48,
+        "onset_strength": 0.91722,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 3.74,
+        "rms": 0.06464,
+        "spectral_centroid_hz": 586.97,
+        "onset_strength": 0.75991,
+        "spectral_flatness": 5e-05
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.06242,
+        "spectral_centroid_hz": 616.91,
+        "onset_strength": 0.82381,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 8.73,
+        "rms": 0.0648,
+        "spectral_centroid_hz": 623.62,
+        "onset_strength": 0.73156,
+        "spectral_flatness": 8e-05
+      },
+      {
+        "time_sec": 11.22,
+        "rms": 0.06658,
+        "spectral_centroid_hz": 640.25,
+        "onset_strength": 0.75551,
+        "spectral_flatness": 0.00012
+      },
+      {
+        "time_sec": 13.72,
+        "rms": 0.06232,
+        "spectral_centroid_hz": 737.72,
+        "onset_strength": 0.70946,
+        "spectral_flatness": 0.0002
+      },
+      {
+        "time_sec": 16.21,
+        "rms": 0.06796,
+        "spectral_centroid_hz": 709.38,
+        "onset_strength": 0.72993,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 18.71,
+        "rms": 0.08137,
+        "spectral_centroid_hz": 706.06,
+        "onset_strength": 0.98831,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 21.2,
+        "rms": 0.08461,
+        "spectral_centroid_hz": 714.33,
+        "onset_strength": 1.16794,
+        "spectral_flatness": 0.00037
+      },
+      {
+        "time_sec": 23.69,
+        "rms": 0.08198,
+        "spectral_centroid_hz": 751.91,
+        "onset_strength": 1.01767,
+        "spectral_flatness": 0.00048
+      },
+      {
+        "time_sec": 26.19,
+        "rms": 0.07485,
+        "spectral_centroid_hz": 744.8,
+        "onset_strength": 1.18679,
+        "spectral_flatness": 0.0006
+      },
+      {
+        "time_sec": 28.68,
+        "rms": 0.07192,
+        "spectral_centroid_hz": 795.56,
+        "onset_strength": 1.12487,
+        "spectral_flatness": 0.00075
+      }
+    ]
+  },
+  "archived_full_recording_features": {
+    "matched_recording": {
+      "mbid": "2ca5f20f-23c1-49a2-8952-386f263f3048",
+      "title": "4AM",
+      "artist": "Vessels",
+      "duration_ms": 395229,
+      "first_release_date": "2015-03-03",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 1.0
+    },
+    "analysis": {
+      "analysis_kind": "archived_full_recording_features",
+      "source": "AcousticBrainz",
+      "mbid": "2ca5f20f-23c1-49a2-8952-386f263f3048",
+      "duration_sec": 395.258789062,
+      "sample_rate": 44100,
+      "tempo_bpm": 149.944015503,
+      "danceability": 1.34250771999,
+      "onset_rate": 3.52667403221,
+      "beats_count": 838,
+      "key": "D#",
+      "scale": "major",
+      "chords_changes_rate": 0.0406437218189,
+      "dynamic_complexity": 4.07530832291,
+      "average_loudness": 0.434910714626,
+      "spectral_centroid_mean": 825.946899414,
+      "spectral_flux_mean": 0.0968651100993,
+      "spectral_rolloff_mean": 728.490112305,
+      "dissonance_mean": 0.449578642845,
+      "warning": "This is an archived third-party feature profile. Recording/version identity must be checked against duration and release."
+    }
+  }
+}
