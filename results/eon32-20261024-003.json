@@ -1,0 +1,151 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "Gradient",
+    "request_id": "eon32-20261024-003"
+  },
+  "status": "heard_official_short_preview",
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22Gradient%22+AND+artist%3A%22Portico+Quartet%22&fmt=json&limit=8",
+    "Only the official short preview was heard; this is not a full-track analysis."
+  ],
+  "musicbrainz_candidates": [],
+  "matched_recording": {
+    "artist": "Portico Quartet",
+    "track": "Gradient",
+    "album": "Memory Streams",
+    "duration_ms": 274166,
+    "release_date": "2019-10-04T12:00:00Z",
+    "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/b7/5f/c1b75f6b-a960-fda1-c825-a522e68354eb/mzaf_7665129917295912520.plus.aac.p.m4a",
+    "store_url": "https://music.apple.com/us/album/gradient/1583551298?i=1583551311&uo=4",
+    "match_score": 1.0,
+    "title_score": 1.0,
+    "artist_score": 1.0
+  },
+  "source": {
+    "kind": "Apple_iTunes_official_preview",
+    "store_url": "https://music.apple.com/us/album/gradient/1583551298?i=1583551311&uo=4",
+    "download": {
+      "resolved_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/b7/5f/c1b75f6b-a960-fda1-c825-a522e68354eb/mzaf_7665129917295912520.plus.aac.p.m4a",
+      "bytes": 1154317,
+      "content_type": "audio/x-m4p"
+    },
+    "retained_audio": false
+  },
+  "analysis": {
+    "analysis_kind": "direct_audio_signal",
+    "heard_seconds": 29.976,
+    "sample_rate": 22050,
+    "tempo_bpm": 123.047,
+    "beat_interval_cv": 0.04764,
+    "onset_rate_per_sec": 4.80392,
+    "dynamic_range_db_p95_p10": 4.239,
+    "crest_factor_db": 13.002,
+    "rms_mean": 0.09699,
+    "rms_std": 0.01651,
+    "spectral_centroid_hz_mean": 815.55,
+    "spectral_centroid_hz_std": 162.46,
+    "spectral_bandwidth_hz_mean": 1118.55,
+    "spectral_rolloff_hz_mean": 1353.35,
+    "spectral_flatness_mean": 0.00023,
+    "spectral_contrast_mean": 21.23607,
+    "energy_share": {
+      "below_150_hz": 0.4221,
+      "150_to_2000_hz": 0.57408,
+      "above_2000_hz": 0.00382
+    },
+    "percussive_share": 0.11345,
+    "tonal_entropy_bits": 3.24887,
+    "climax": {
+      "segment": 8,
+      "time_sec": 18.73,
+      "relative_score": 1.1568
+    },
+    "timeline_12_segments": [
+      {
+        "time_sec": 1.25,
+        "rms": 0.10045,
+        "spectral_centroid_hz": 861.72,
+        "onset_strength": 0.812,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 3.75,
+        "rms": 0.09975,
+        "spectral_centroid_hz": 581.71,
+        "onset_strength": 0.77892,
+        "spectral_flatness": 0.00011
+      },
+      {
+        "time_sec": 6.24,
+        "rms": 0.0864,
+        "spectral_centroid_hz": 742.8,
+        "onset_strength": 0.84482,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 8.74,
+        "rms": 0.10715,
+        "spectral_centroid_hz": 809.16,
+        "onset_strength": 0.83229,
+        "spectral_flatness": 0.00018
+      },
+      {
+        "time_sec": 11.24,
+        "rms": 0.09747,
+        "spectral_centroid_hz": 730.42,
+        "onset_strength": 0.80336,
+        "spectral_flatness": 0.00016
+      },
+      {
+        "time_sec": 13.74,
+        "rms": 0.08861,
+        "spectral_centroid_hz": 669.35,
+        "onset_strength": 0.81288,
+        "spectral_flatness": 0.00017
+      },
+      {
+        "time_sec": 16.24,
+        "rms": 0.09023,
+        "spectral_centroid_hz": 871.59,
+        "onset_strength": 0.88824,
+        "spectral_flatness": 0.00031
+      },
+      {
+        "time_sec": 18.73,
+        "rms": 0.10715,
+        "spectral_centroid_hz": 986.45,
+        "onset_strength": 0.84299,
+        "spectral_flatness": 0.00028
+      },
+      {
+        "time_sec": 21.23,
+        "rms": 0.08679,
+        "spectral_centroid_hz": 828.25,
+        "onset_strength": 0.80822,
+        "spectral_flatness": 0.00023
+      },
+      {
+        "time_sec": 23.73,
+        "rms": 0.0951,
+        "spectral_centroid_hz": 926.01,
+        "onset_strength": 0.88007,
+        "spectral_flatness": 0.00029
+      },
+      {
+        "time_sec": 26.23,
+        "rms": 0.1076,
+        "spectral_centroid_hz": 974.92,
+        "onset_strength": 0.83139,
+        "spectral_flatness": 0.00026
+      },
+      {
+        "time_sec": 28.73,
+        "rms": 0.09725,
+        "spectral_centroid_hz": 805.75,
+        "onset_strength": 0.80955,
+        "spectral_flatness": 0.00022
+      }
+    ]
+  }
+}
