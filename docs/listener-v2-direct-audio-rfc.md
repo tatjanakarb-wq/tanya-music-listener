@@ -197,3 +197,13 @@ Requested by Tanya in ordinary ChatGPT: find Aufgang — Épopée, pt. 1, downlo
 - **Native model hearing not established:** Google Drive returned `file_uri`, which generated a file attachment, but no `audio` content block was delivered to the model's audio perception. Files read returned `No readable content was found in this file for the requested mode.` The assistant is not claiming to have heard the MP3 in this turn.
 
 Next: test whether automatically obtained `file_uri` can be promoted to the current conversation's native audio input (or whether a connected MCP server's `AudioContent` is routed appropriately). The acquisition path is now proven; no need to rebuild the music-finding or downloading sections. Keep source audio private and temporary; use full lawful audio sources when testing musical development beyond 20 seconds.
+
+## Independent recording identity check — 2026-10-25
+
+Following Tanya's explicit correction that she must **not** be the transport between the assistant and music, the assistant checked its **previously independently downloaded** Apple preview (`Aufgang_Epopee_pt1_Apple_preview_20s.mp3`) against a complete recording Tanya voluntarily shared in chat as an optional reference (not as an accepted substitute for autonomous delivery).
+
+Decoded the actual PCM streams with ffmpeg to 8-kHz mono; the source MP3's container estimated duration ~203 s but **decoded audio is ~141.82 s**, in agreement with Apple track metadata 141.773 s. Comparing the two waveforms via normalized FFT cross-correlation yielded a peak correlation around **0.708 at offset 0.0715 s**, consistent with the preview being the beginning of the **same recording**, after transcoding. This is strong identity evidence from actual sound bytes, **not evidence of native acoustic perception by the model**.
+
+The central user acceptance criterion is unchanged: Eon must discover, fetch and **perceive the sound** of candidate recordings before compiling a playlist, without Tanya manually importing the audio. Music handed over by Tanya is valuable as a calibration reference but does not satisfy autonomous intake.
+
+New bounded Mira request `mirareq_f30417c4b2984f178cedcad8` asks for a safe, testable tool-originated audio-to-native-model route (MCP AudioContent via private tunnel or same-chat file attachment through authorized Computer Use). Initial state queued; no success claimed. Custom MCP connection is a one-time account/workspace authorization rather than recurring user file transport; compatibility of ChatGPT's tool-result audio handling remains unverified.
