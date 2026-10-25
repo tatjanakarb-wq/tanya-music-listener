@@ -1,6 +1,6 @@
 # Listener v2: direct-audio bridge for the existing ChatGPT conversation
 
-Status: **delivery-design RFC; not implemented or validated**  
+Status: **isolated MCP AudioContent prototype implemented and tested; ChatGPT tool-to-model transport untested**  
 Date: 2026-10-25  
 Repository: `tatjanakarb-wq/tanya-music-listener`
 
@@ -152,3 +152,21 @@ Two important language rules: (a) `heard_official_short_preview` in v1 means the
 - OpenAI Help Center: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt
 - MCP 2026-07-28 tool result audio content: https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/specification/2026-07-28/server/tools.mdx
 - Current code and previous evidence: `listener.py`, `requests/`, `results/`, `summaries/` in this repository.
+
+
+## Execution receipt — 25 October 2026
+
+A self-contained read-only **synthetic-audio server** and MCP-client integration tests were added to this repository, without touching \`listener.py\`, Spotify, or Eon Hands production:
+
+- \`probes/audio_intake/fixture.py\`: two distinct short stereo PCM WAV clips, identical notes/timing/timbre but different melodic ordering; WAV, 24 kHz, 16-bit, ~1.68 seconds, generated in memory with the standard library.
+- \`probes/audio_intake/server.py\`: SDK v2 \`MCPServer\` tool \`audition_clip(A|B)\` returns actual \`Audio(data=wav_bytes, format="wav")\`. Development transport binds to **127.0.0.1 only**, no public listener or authentication bypass.
+- \`tests/test_audio_intake_probe.py\`: protocol and byte-identity checks, plus native \`Client(mcp)\` round-trip asserting \`AudioContent(type="audio", mime_type="audio/wav")\`.
+- \`.github/workflows/audio-intake-probe.yml\`: official MCP SDK v2 runtime in GitHub Actions. Run https://github.com/tatjanakarb-wq/tanya-music-listener/actions/runs/40167305644, job 121090880018, result **SUCCESS: 5 tests passed** at 2026-10-25T05:56:16Z. Check the Actions log rather than relying on an assistant assertion.
+
+**What is proven:** the server produces real, valid WAV data, and a native MCP test client receives and decodes the two distinct audio payloads as *audio blocks*, not spectral reports.
+
+**What is NOT proven:** the currently connected ChatGPT client delivers \`AudioContent\` returned by a tool to the GPT-6 native audio perception path. The prototype is not deployed as an authenticated remote plugin, nor discovered as a tool in this ChatGPT conversation. Do **not** infer that the assistant heard the two samples. App UI extensions \`ui/update-model-context\` and \`ui/message\` explicitly mark audio as unsupported; this does not necessarily settle the separate question of direct MCP tool-result handling (see https://github.com/openai/mcp-extensions/blob/main/docs/spec.md).
+
+A bounded research handoff to Mira has been queued, \`mirareq_610c45cbd3634aaa89501216\`: examine safe audio-tool integration via existing Eon Hands or Secure MCP Tunnel without modifying production or exposing public unauthenticated audio. Initial receipt status \`queued\`, **not** a technical confirmation. The next required stage is tool registration and one audio-block call in an ordinary ChatGPT chat. A truly *blind* musical-perception test needs an opaque randomized variant selection not visible in the current model context (the initial A/B fixture source has already been seen by its author).
+
+Do not expand to real music, run a second LLM, or claim autonomous intake success before the client-modality hop is observed.
