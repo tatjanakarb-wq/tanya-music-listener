@@ -1,0 +1,46 @@
+name: Prepare acoustic piano samples
+on:
+  push:
+    branches: [arrangement-piano-samples-20261027]
+    paths: [.github/workflows/arrangement-piano-samples.yml]
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Install audio encoder
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Prepare CC-BY piano excerpts
+        shell: python
+        run: |
+          import concurrent.futures, pathlib, urllib.request, urllib.parse, subprocess, hashlib, json, time
+          out=pathlib.Path('piano_samples'); out.mkdir()
+          base='https://raw.githubusercontent.com/sfzinstruments/SalamanderGrandPiano/master/'
+          def read(url):
+              for k in range(3):
+                  try:
+                      with urllib.request.urlopen(url,timeout=45) as r:return r.read()
+                  except Exception:
+                      if k==2:raise
+                      time.sleep(2+k)
+          names=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B']
+          tasks=[(p,v) for p in range(33,88,3) for v in [4,7,10,13]]
+          def prepare(pv):
+              p,v=pv; stem=f'{names[p%12]}{p//12-1}v{v}'
+              u=base+'Samples/'+urllib.parse.quote(stem+'.flac')
+              raw=read(u); tmp=pathlib.Path('/tmp')/(stem+'.flac');tmp.write_bytes(raw)
+              dest=out/(stem+'.ogg')
+              subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',str(tmp),'-t','10','-ar','44100','-af','afade=t=out:st=9:d=1','-c:a','libvorbis','-q:a','7',str(dest)],check=True)
+              tmp.unlink()
+              return {'pitch':p,'velocity_layer':v,'file':dest.name,'source':u,'source_sha256':hashlib.sha256(raw).hexdigest(),'sha256':hashlib.sha256(dest.read_bytes()).hexdigest()}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool: result=list(pool.map(prepare,tasks))
+          (out/'manifest.json').write_text(json.dumps(result,indent=2))
+          (out/'ATTRIBUTION.txt').write_text('Salamander Grand Piano v3 by Alexander Holm. Yamaha C5 acoustic piano recordings. SFZ/FLAC remapping by kinwie. CC BY 3.0. Source: https://github.com/sfzinstruments/SalamanderGrandPiano . License: https://creativecommons.org/licenses/by/3.0/ . Changes: selected pitches and velocity layers; resampled to 44.1 kHz; limited to 10 seconds with fade; encoded as Ogg Vorbis q7. No original user recordings or private data are included.\n')
+          print('Prepared',len(result),'samples;',sum(f.stat().st_size for f in out.iterdir()),'bytes')
+      - uses: actions/upload-artifact@v4
+        with:
+          name: acoustic-piano-arrangement-samples
+          path: piano_samples/
+          retention-days: 2
