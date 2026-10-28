@@ -138,8 +138,30 @@
         "license": "CC BY-NC-SA 4.0"
       },
       "role_hypothesis": "large-scale structure within fractal electronic texture",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "auditioned_full_recording",
+      "origin": "selected_by_eon",
+      "delivered_recording": {
+        "file_format": "original MP3",
+        "verified_duration_sec": 356.4999,
+        "verified_size_bytes": 14912771,
+        "verified_sha256": "a7bbbec19f6498cdbfc0ce5af592e0b540712de5b5f56a0fecda0cd3d83bfd9d",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "transcoding": false
+      },
+      "audition": {
+        "decision": "provisional_take",
+        "verdict": "Provisional keeper as one sharply textured motor/transformation in the middle of #33, conditional on hearing its neighbors; not a melodic heart or already approved playlist track.",
+        "listening_scope": "Full original 5m56.5s native in-chat music recording; listened in five consecutive chunks covering whole track.",
+        "observed_structure": "Quiet low background with a faint, cyclic granular pulse; quick hollow clacks and interlocking, rattling/chattering percussive figures accumulate. A sustained, busy motor develops with small metallic/high-register signals and pitch inflections; mid-recording a more diffuse low sweeping/whistling field changes the perceived function of the pulse. Clattering layers re-form, then the structure gradually strips down; near the end some isolated plucked, pitched notes become distinct and the long machine-like texture recedes.",
+        "arc": "Very pronounced low-level onset and growth over the first approximately 50-60 seconds; denser, sustained middle with internal textural/phase reorganization; gradually fading final minute. The center is less a chord progression than a change of rhythmic roles and spectral weight.",
+        "strengths": "Clear temporal direction despite fairly stable central intensity, asymmetrical interlocking percussion, distinctive material textures, memorable ending with more separable pitched figures. Stronger structural invention than Aysén Proxy.",
+        "reservations": "Melodic/harmonic narrative is sparse and long central swath can feel relentless or alien; not suitable as the emotional peak, and needs living/harmonically rich neighbors. Check against other auditioned rhythmic pieces, never put several unrelieved machine textures consecutively.",
+        "role": "one middle pivot from material/noise into rhythm and back; juxtapose with a warmer harmonic/voice or piano-based track",
+        "supplemental_signal": "Simple 20-second window RMS check confirms strong build (-34 dBFS first 20s to roughly -7 dBFS 60-260s) and late release (~-15 by 320s, ~-28 by 340s); numeric confirmation only, not basis of aesthetic verdict.",
+        "user_rating": "not_yet_heard_by_tanya",
+        "spotify_state": "not_added"
+      }
     },
     {
       "artist": "Gustavo Becerra-Schmidt",
