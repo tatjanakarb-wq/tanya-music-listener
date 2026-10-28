@@ -1,0 +1,76 @@
+name: CC audio audition - Magnatune Eyot pilot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "triggers/magnatune-free-cc-eyot-track03-*.json"
+
+permissions:
+  contents: read
+
+jobs:
+  prepare-licensed-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Fetch metadata and validate Creative Commons source
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifact
+          curl --fail --location --silent --show-error --max-time 30 \
+            'https://magnatune.com/api/albums/eyot-horizon/tracks/3' -o artifact/track-metadata.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('artifact/track-metadata.json').read_text())
+          assert data.get('ok') is True, "API status"
+          t=data['track']
+          assert t['sku']=='eyot-horizon'
+          assert t['track']==3
+          assert t['artist']['name']=='Eyot'
+          assert t['name']=='If I could say what I want to say'
+          expected='https://magnatune.com/api/albums/eyot-horizon/tracks/3/file?format=mp3'
+          assert any(f.get('url')==expected for f in t['free']['files']), "Source not free-listed"
+          assert 'CC BY-NC-SA 1.0' in t['free']['note'], "Non-commercial CC rights not confirmed"
+          assert 'Magnatune' in t['credit'], "Attribution missing"
+          Path('artifact/ATTRIBUTION.txt').write_text(t['credit']+'\n' +t['free']['note']+'\n',encoding='utf-8')
+          print("Source verified against official public API")
+          PY
+      - name: Download the openly licensed free MP3
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 2 \
+            --max-time 90 --max-filesize 20000000 \
+            'https://magnatune.com/api/albums/eyot-horizon/tracks/3/file?format=mp3' \
+            -o artifact/eyot-if-i-could-say-magnatune-free-cc-original.mp3
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          path=Path('artifact/eyot-if-i-could-say-magnatune-free-cc-original.mp3')
+          head=path.read_bytes()[:64]
+          assert head.startswith(b'ID3') or head[:1]==b'\xff', "File is not an MP3"
+          size=path.stat().st_size
+          assert 300_000<size<20_000_000, f"Unexpected file size {size}"
+          sha=hashlib.file_digest(path.open('rb'),'sha256').hexdigest()
+          info={
+            "source":"https://magnatune.com/api/albums/eyot-horizon/tracks/3/file?format=mp3",
+            "artist":"Eyot","title":"If I could say what I want to say",
+            "album":"Horizon","license":"CC BY-NC-SA 1.0",
+            "attribution":"Eyot — If I could say what I want to say (Horizon), Magnatune",
+            "free_version_with_spoken_label":True,
+            "file_size_bytes":size,"sha256":sha,
+            "restrictions":"Non-commercial use, attribution, share alike. Original unchanged."
+          }
+          Path('artifact/PROVENANCE.json').write_text(json.dumps(info,indent=2)+'\n')
+          print(f"Licensed MP3 ready: {size} bytes sha256={sha}")
+          PY
+      - name: Upload for short-lived manual-free courier pickup
+        uses: actions/upload-artifact@v4
+        with:
+          name: eon-magnatune-eyot-cc-native-audition
+          path: artifact/
+          retention-days: 1
+          if-no-files-found: error
