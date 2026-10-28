@@ -1,0 +1,10 @@
+{
+  "action": "run allowlisted magnatune-free-cc Eyot pilot after stricter license check fix",
+  "artist": "Eyot",
+  "sku": "eyot-horizon",
+  "track": 3,
+  "source": "https://magnatune.com/api/albums/eyot-horizon/tracks/3",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/1.0/",
+  "previous_run": 40734105376,
+  "previous_failure": "Literal validation expected CC while actual official text says Creative Commons; no bytes downloaded"
+}
