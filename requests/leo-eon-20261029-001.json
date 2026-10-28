@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "request_id": "leo-eon-20261029-001",
+  "status": "requested_waiting_for_leo_subscriber",
+  "kind": "existing_bundle_source_manifest",
+  "created_on": "2026-10-29",
+  "priority": "high",
+  "message_for_leo": "Спасибо за previews_eon34.zip. Не делай новый архив и не скачивай аудио заново. Для постоянного сотрудничества добавь к УЖЕ переданным 12 клипам машинно-читаемый manifest.json с точными названиями, source pages, правами/условиями, длительностью и SHA-256 каждого файла. Если основание передачи неясно, пометь unknown, не выдавай за разрешённое. Положи manifest в приватную папку 03_Эон_Лео — музыкальный обмен в «Музыкальный эксперимент — Окно захвата», имя leo-eon-20261029-001-manifest.json. По возможности настрой чтение публичной очереди requests/leo-eon-*.json без участия Тани.",
+  "original_archive_name": "previews_eon34.zip",
+  "expected_audio_count": 12,
+  "authorized_scope": "Metadata/provenance for already user-supplied archive; no new audio downloads or AI speech recognition.",
+  "consumer": "Eon music curation, native-audio workflow",
+  "route": "Google Drive shared music exchange folder",
+  "completion_condition": "manifest.json present with 12 exact entries; Leo acknowledges request_id; no assertion of audio listening by Eon",
+  "safety": "No private chat IDs, Drive IDs, tokens or credentials in public response. No copyright-prohibited scraping/DRM/re-publishing."
+}
