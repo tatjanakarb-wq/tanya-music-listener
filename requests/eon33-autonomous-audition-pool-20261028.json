@@ -70,8 +70,26 @@
         "license": "CC BY-NC-SA 4.0"
       },
       "role_hypothesis": "a voice emerges inside dark electronic space",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "auditioned_full_recording",
+      "origin": "selected_by_eon",
+      "delivered_recording": {
+        "file_format": "original MP3",
+        "verified_duration_sec": 290.545,
+        "verified_size_bytes": 12044737,
+        "verified_sha256": "52554d95a37ad4c865d88b26984bb2f76e1089f090c6781c2df991f1f873fee9",
+        "transcoding": false
+      },
+      "audition": {
+        "decision": "strong_reserve",
+        "verdict": "Strong reserve, potentially one dark threshold or uncanny interval before a more embodied rhythmic passage. Not yet a final inclusion.",
+        "listening_scope": "full recording attached to the same conversation, 4m50.5s",
+        "observed_structure": "An almost imperceptible low drone becomes audible beneath long, wind-like or voice-like sustained notes and distant high tonal signals. The texture gradually thickens as upper lines overlap, with piercing pitches and tremulous, choral-sounding layers. There is no stable drum-driven pulse; the dramatic vector comes from mass, register and pressure rather than rhythm. The final section disperses into distant, thinning sustained sounds.",
+        "observations_boundaries": "Voice resemblance is timbral; don't claim clear lyrics or confirmed instruments. Timings are approximate, not a beat-by-beat transcription.",
+        "strengths": "Cumulative acoustic tension and strange, layered singing/wind-like timbres create a distinct, memorable spatial transition; a real contrast with piano/electronics of Miguel Gil.",
+        "reservations": "Long atmosphere and no embodied rhythmic anchor; significant risk of feeling alien or physically uncomfortable to Tanya; don't stack it with more contemplative pieces or claim it will affect her the way it affected the current selection process.",
+        "comparative_role": "May supersede Miguel Gil Dos Pasos for a single dark transitional moment, but not both automatically. Evaluate against delivered rhythmic candidates before deciding final order.",
+        "spotify_state": "not_added"
+      }
     },
     {
       "artist": "Aysén",
