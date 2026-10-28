@@ -103,8 +103,28 @@
         "license": "CC BY-NC-SA 4.0"
       },
       "role_hypothesis": "crisp rhythmic articulation and melodic deviation; risk monotonous loops",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "auditioned_full_recording",
+      "origin": "selected_by_eon",
+      "delivered_recording": {
+        "file_format": "original MP3",
+        "verified_duration_sec": 191.6523,
+        "verified_size_bytes": 8499761,
+        "verified_sha256": "6c848b09076143d5666ba6ba0b6cfef7ad9b89b9710e301fea57c77bbd2b6f3a",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "transcoding": false
+      },
+      "audition": {
+        "decision": "exclude_from_eon33",
+        "verdict": "Reject from playlist #33; retain in research archive as a competent but insufficiently transformative electronic groove.",
+        "listening_scope": "full original 3:11.65 MP3 delivered to same conversation",
+        "observed_structure": "Immediate springy electronic bass and dry syncopated drum grid, with short rounded upward-pitched synth calls. Layers of bright, woody clicking and fast percussive figures accumulate. Mid-to-late the density decreases and returns, and ornamental bleeps and dry attacks shift positions over a relatively constant groove; the ending thins rather than revealing a large new harmonic or formal state.",
+        "strengths": "Clear, surprisingly nimble rhythm and internal interlocking of short figures; a viable rhythmic motor.",
+        "reservations": "Little harmonic ambiguity or structural reversal; most changes add and remove timbral/percussion layers while the repeated groove retains its function. Risk of long electronic plateau, against Tanya's measured preference for shifts in meaning/pressure.",
+        "contrast_with_prior_auditions": "Stronger immediate physical pulse than Miguel Gil Dos Pasos or Tristán Sotomayor voc, but a weaker compelling large-scale trajectory. Reject rather than preserve another optional filler.",
+        "timestamps": "Broad structural observations only; no unverified precise cue points.",
+        "spotify_state": "not_added"
+      }
     },
     {
       "artist": "Yulio",
