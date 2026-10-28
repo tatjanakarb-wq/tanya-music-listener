@@ -1,7 +1,7 @@
 {
   "project": "Eon 33 — autonomous musical auditions",
   "created_at": "2026-10-28",
-  "status": "AUDITIONS_PENDING_NOT_A_PLAYLIST",
+  "status": "AUDITIONS_IN_PROGRESS_NOT_A_PLAYLIST",
   "note": "The selection of music candidates precedes native audio reception and any playlist decision. Do not interpret catalog descriptions or old feature JSON as direct listening. No Spotify playlist has been created.",
   "selection_principle": "Search for harmonic tension, rhythm that transforms its function, organic/electronic conflict, and temporal events; allow negative auditions and reserves.",
   "stoplist_sources": [
@@ -22,8 +22,26 @@
         "license": "CC BY-NC-SA 4.0"
       },
       "role_hypothesis": "piano and live processed oscillator; test organic electronic friction",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "auditioned_full_recording",
+      "origin": "selected_by_eon",
+      "delivered_recording": {
+        "file_format": "original MP3",
+        "verified_duration_sec": 291.798,
+        "verified_size_bytes": 12248337,
+        "verified_sha256": "e0500696a169e90970d72f9e9c654a958f9037f8c898c6535a2aeafe252e608d",
+        "transcoding": false
+      },
+      "audition": {
+        "verdict": "strong reserve — possible single quiet bridge or prelude, not structural motor",
+        "decision": "strong_reserve",
+        "listening_scope": "full 4m51.8s recording, delivered in same conversation",
+        "observed_structure": "Spaced resonant piano notes interact with thin, pitched electronic glides and tremulous high frequencies; in the middle piano gestures become more fluid and concentrated, then decelerate into lower, widely spaced notes and reverberant fade. No sustained drum/pulse backbone and no large-scale high-pressure climax.",
+        "strengths": "Coherent dialogue between acoustic piano tone, electronic extension, long decay and negative space; not sentimental or formulaic.",
+        "reservations": "Macrodynamic arc remains contemplative and restrained; may slow a sequence that requires living rhythm and consequential harmonic struggle.",
+        "place_in_possible_playlist": "Single quiet hinge or threshold if supported by neighboring tracks, not opening stretch of several soft pieces; no decision to include yet.",
+        "timestamp_status": "qualitative full-recording audition; no claimed precise timecodes",
+        "spotify_state": "not_added"
+      }
     },
     {
       "artist": "Polwor",
