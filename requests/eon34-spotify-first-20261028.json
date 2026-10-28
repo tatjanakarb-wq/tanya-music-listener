@@ -3,7 +3,7 @@
   "number": 34,
   "title": "На другой стороне ритма",
   "date": "2026-10-28",
-  "status": "CURATED_12_TRACKS_SPOTIFY_PUBLISH_REQUEST_QUEUED",
+  "status": "SPOTIFY_PUBLISHED_AND_VERIFIED_DIRECTLY",
   "source_scope": "Catalog-verified selections and Tanya preference/negative history; new audio content NOT directly auditioned in the current GPT chat.",
   "note": "Independent Spotify-first curation. These are hypotheses about musical roles, not claimed first-person listening observations.",
   "history_checks": {
@@ -141,5 +141,29 @@
     "weekly_automation_enabled": true,
     "title": "Эон — новые плейлисты",
     "note": "Every scheduled run should read this playlist to avoid repeating it; new playlist must be completed without requiring Tanya to reopen this chat."
-  }
+  },
+  "spotify_publish": {
+    "playlist_uri": "spotify:playlist:1yqUZW63vVz08G7mqTnjpk",
+    "playlist_url": "https://open.spotify.com/playlist/1yqUZW63vVz08G7mqTnjpk",
+    "published_at": "2026-10-28",
+    "operation": "Direct authenticated Spotify app create_playlist + add_playlist_items; no Mira intermediary",
+    "verification": "get_collection_items returned READY / total_items=12 / all 12 Spotify URIs in exact planned sequence",
+    "spotify_track_uris": [
+      "spotify:track:0Sr1pAiAQ9vbwHbWApCbyL",
+      "spotify:track:4l6gl1xs2TQx5SwBNdWEsv",
+      "spotify:track:5SN1sm6qpndnEwY8tEeisI",
+      "spotify:track:1JuSu9qRExm402oH1CrRer",
+      "spotify:track:3g663DIAh9kTBsszTf4oHU",
+      "spotify:track:6MAL1HIq8S2qiKrdFiQAHF",
+      "spotify:track:4XCXyN8EzvcihdZYBNsRDL",
+      "spotify:track:6QMmBohav7z0tWLiplQvEh",
+      "spotify:track:3faXygsW4rEKCXmUJCcBDM",
+      "spotify:track:2IRXPJW1GZPaNCZ96SOOwF",
+      "spotify:track:6bslbp8bb9kpX54SogOLsp",
+      "spotify:track:50Xum0JtI9K1xsBDr2UoZM"
+    ]
+  },
+  "mira_request_status": "SUPSERSEDED_DO_NOT_EXECUTE",
+  "queued_mira_request_id": "mirareq_89b56fe764e549afa8a59fec",
+  "queued_mira_request_warning": "Do not create a duplicate of this playlist: Eon already created and verified it directly through Spotify."
 }
