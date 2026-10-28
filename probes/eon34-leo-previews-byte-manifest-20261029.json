@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "purpose": "Byte-level inventory only: user-provided Leo ZIP, no inference of audio source license or audio hearing",
+  "archive_name": "previews_eon34.zip",
+  "archive_sha256": "ff41e0a9d901e2d5a9bd40d736d8224e698606ae9341916aae3e19cc3d9bf3e9",
+  "archive_file_count": 12,
+  "contents": [
+    {
+      "file_name": "previews/Portico Quartet - Impressions.m4a",
+      "size_bytes": 940254,
+      "sha256": "7bb6d6c8a2844c20c69d5f92e998b7f724f70212ab54f676401ff2f4404d53e2",
+      "duration_seconds": 30,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/GoGo Penguin - Glimmerings.m4a",
+      "size_bytes": 1023231,
+      "sha256": "4780f8f3abd72de9629e8fbd25e2337f5418ed3bfb647760b9c701f5c62d607b",
+      "duration_seconds": 30.019002,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Mammal Hands - The Spinner.m4a",
+      "size_bytes": 1050641,
+      "sha256": "6e143fb970c7090024a7f48f4d3adc63305c1be8e97640799c85b6d5d7b07dd3",
+      "duration_seconds": 30,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Kiasmos, Olafur Arnalds, Janus Rasmussen - Flown.m4a",
+      "size_bytes": 1046587,
+      "sha256": "3929043f1171c56345c3800a9ed69e4946ba0795487951b103b30f62c96ee3db",
+      "duration_seconds": 30.000998,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Hidden Orchestra - Reverse Learning.m4a",
+      "size_bytes": 1034363,
+      "sha256": "e0e9039cd7c66e00366be89d8a1be591713d646a86209155eca56114add69291",
+      "duration_seconds": 29.976961,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Moses Boyd, Joe Armon-Jones - 2 Far Gone.m4a",
+      "size_bytes": 996346,
+      "sha256": "da39394dacb495a10994072707cbfc4d93c2ea00ddee2fbd5d075ad03272c112",
+      "duration_seconds": 30,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Rival Consoles - In Reverse.m4a",
+      "size_bytes": 1030134,
+      "sha256": "f070761758b76c2333ea6fd15b0c7b05693068962a4cfc1131ebe09dc510c2a2",
+      "duration_seconds": 30,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Grandbrothers - We Collide.m4a",
+      "size_bytes": 1107610,
+      "sha256": "06f287ae3b66a75ca71f3da20c5b07d856b72623180f7c33e4b6d5e91c9471ad",
+      "duration_seconds": 30.006009,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/GoGo Penguin - We May Not Stay.m4a",
+      "size_bytes": 1040113,
+      "sha256": "c26098f2cb0e340c5233d00f49711173b21379fa84c9a800b6a21da4d82602d6",
+      "duration_seconds": 30.019002,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Grandbrothers - Where Else.m4a",
+      "size_bytes": 1161118,
+      "sha256": "696f33121e69dd6e26305596018b609f8bbb70649acd831402069bb2872f9198",
+      "duration_seconds": 30.009002,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Hania Rani - The Boat.m4a",
+      "size_bytes": 1059638,
+      "sha256": "0268db902ea6ece1678377b6d085fbcf604c1fd3ba5a9be92dbfe14d3c1f99ed",
+      "duration_seconds": 30,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    },
+    {
+      "file_name": "previews/Hidden Orchestra - Scatter.m4a",
+      "size_bytes": 1067371,
+      "sha256": "3376449feb08e6ea45d2d4f08550376a0dc1ed6541ddbbbd8e9083ebf4cb5e17",
+      "duration_seconds": 29.976961,
+      "codec": "AAC",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "source_url": null,
+      "rights_basis": "unverified_pending_leo_manifest"
+    }
+  ],
+  "no_audio_data_published": true,
+  "native_audio_received": false,
+  "listening_status": "NOT_HEARD_FROM_ZIP",
+  "leo_task_id": "leo-eon-20261029-001",
+  "mira_existing_delivery_request_id": "mirareq_2c05830b7d884f35aadf5c00"
+}
