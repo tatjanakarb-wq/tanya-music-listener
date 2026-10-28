@@ -339,7 +339,7 @@
     }
   ],
   "accepted_tracks": [],
-  "spotify_playlist_status": "NOT_PUBLISHED_SONG_AVAILABILITY_UNVERIFIED",
+  "spotify_playlist_status": "PARTIAL_3_OF_5_CREATED_AND_VERIFIED",
   "final_playlist": {
     "number": 33,
     "title": "Пятый голос",
@@ -386,5 +386,51 @@
     "provenance": "Original full-length files sent as ordinary native audio attachments by authorized Mira courier, SHA256 verified before offline compilation; five original MP3 bitstreams kept unchanged.",
     "packaging": "Offline ZIP with original MP3, relative M3U8, plain TXT and provenance; streaming M3U8 also available as a separate resource.",
     "licensing": "CC BY-NC-SA 3.0 for Balistocata (1979); CC BY-NC-SA 4.0 for other four works. Attribution and publisher URLs in pack."
+  },
+  "spotify_publish": {
+    "status": "partial_3_of_5_verified",
+    "playlist_uri": "spotify:playlist:2znQTvaq4z4T2UUuTDyxfh",
+    "playlist_url": "https://open.spotify.com/playlist/2znQTvaq4z4T2UUuTDyxfh",
+    "playlist_name": "Эон №33 — Пятый голос (Spotify 3/5)",
+    "published_original_order": [
+      {
+        "position": 1,
+        "artist": "Gustavo Becerra-Schmidt",
+        "title": "Balistocata",
+        "spotify_uri": "spotify:track:4wx6YRjQIja5T3vPWoCJeL",
+        "spotify_album": "Música Cibernética Vol.4",
+        "note": "Title differs from archival Balistocata (1979), but artist and 192.104s duration match archival 192.105s; album/release identity not independently proven"
+      },
+      {
+        "position": 2,
+        "artist": "Yulio",
+        "title": "The Fractal Geometry of Nature",
+        "spotify_uri": "spotify:track:2XV8nn6irpqIGkYvJidlM8",
+        "spotify_album": "Cosmic Fractal"
+      },
+      {
+        "position": 3,
+        "artist": "Tristán Sotomayor",
+        "title": "voc",
+        "spotify_uri": "spotify:track:70sGJhG8eA8UJWQYkysLm8",
+        "spotify_album": "Conjunto Vacío"
+      }
+    ],
+    "unavailable_catalog": [
+      {
+        "position": 4,
+        "artist": "Neosintetico",
+        "title": "Reversa Emoción",
+        "reason": "No verified Spotify catalog match; do not substitute"
+      },
+      {
+        "position": 5,
+        "artist": "Miguel Gil",
+        "title": "Dos Pasos",
+        "reason": "No verified Spotify catalog match; do not substitute"
+      }
+    ],
+    "verification": "Spotify get_collection_items READY, total_items=3; exact URIs and order confirmed",
+    "offline_full_suite_status": "unchanged_complete_5"
   }
 }
