@@ -1,7 +1,7 @@
 {
   "project": "Eon 33 — autonomous musical auditions",
   "created_at": "2026-10-28",
-  "status": "AUDITIONS_IN_PROGRESS_NOT_A_PLAYLIST",
+  "status": "PLAYLIST_33_CURATED_OFFLINE",
   "note": "The selection of music candidates precedes native audio reception and any playlist decision. Do not interpret catalog descriptions or old feature JSON as direct listening. No Spotify playlist has been created.",
   "selection_principle": "Search for harmonic tension, rhythm that transforms its function, organic/electronic conflict, and temporal events; allow negative auditions and reserves.",
   "stoplist_sources": [
@@ -41,6 +41,15 @@
         "place_in_possible_playlist": "Single quiet hinge or threshold if supported by neighboring tracks, not opening stretch of several soft pieces; no decision to include yet.",
         "timestamp_status": "qualitative full-recording audition; no claimed precise timecodes",
         "spotify_state": "not_added"
+      },
+      "playlist_selection": {
+        "selected": true,
+        "playlist_number": 33,
+        "position": 5,
+        "role": "фортепиано и электронные отзвуки; сдержанное послесловие",
+        "decision": "promoted to final order after side-by-side musical sequencing",
+        "reviewed_at": "2026-10-28",
+        "user_verdict": "pending"
       }
     },
     {
@@ -65,6 +74,11 @@
         "retry_policy": "Do not silently rewrite metadata; independently reconcile provenance or choose a different licensed source. No new request yet.",
         "audio_received": false,
         "auditioned": false
+      },
+      "playlist_selection": {
+        "selected": false,
+        "playlist_number": 33,
+        "reason": "not delivered"
       }
     },
     {
@@ -98,6 +112,15 @@
         "reservations": "Long atmosphere and no embodied rhythmic anchor; significant risk of feeling alien or physically uncomfortable to Tanya; don't stack it with more contemplative pieces or claim it will affect her the way it affected the current selection process.",
         "comparative_role": "May supersede Miguel Gil Dos Pasos for a single dark transitional moment, but not both automatically. Evaluate against delivered rhythmic candidates before deciding final order.",
         "spotify_state": "not_added"
+      },
+      "playlist_selection": {
+        "selected": true,
+        "playlist_number": 33,
+        "position": 3,
+        "role": "тёмный порог без пульса; голосоподобное пространство",
+        "decision": "promoted to final order after side-by-side musical sequencing",
+        "reviewed_at": "2026-10-28",
+        "user_verdict": "pending"
       }
     },
     {
@@ -133,6 +156,11 @@
         "contrast_with_prior_auditions": "Stronger immediate physical pulse than Miguel Gil Dos Pasos or Tristán Sotomayor voc, but a weaker compelling large-scale trajectory. Reject rather than preserve another optional filler.",
         "timestamps": "Broad structural observations only; no unverified precise cue points.",
         "spotify_state": "not_added"
+      },
+      "playlist_selection": {
+        "selected": false,
+        "playlist_number": 33,
+        "reason": "exclude_from_eon33"
       }
     },
     {
@@ -170,6 +198,15 @@
         "supplemental_signal": "Simple 20-second window RMS check confirms strong build (-34 dBFS first 20s to roughly -7 dBFS 60-260s) and late release (~-15 by 320s, ~-28 by 340s); numeric confirmation only, not basis of aesthetic verdict.",
         "user_rating": "not_yet_heard_by_tanya",
         "spotify_state": "not_added"
+      },
+      "playlist_selection": {
+        "selected": true,
+        "playlist_number": 33,
+        "position": 2,
+        "role": "ритмическая масса; машина меняет и разбирает себя",
+        "decision": "promoted to final order after side-by-side musical sequencing",
+        "reviewed_at": "2026-10-28",
+        "user_verdict": "pending"
       }
     },
     {
@@ -219,6 +256,15 @@
         "comparison": "Stronger melodic agency than Yulio's texture-based engine; less immediate physical percussion than Neosintetico; more structural play than Aysén Proxy.",
         "user_feedback": "not yet heard by Tanya",
         "spotify_state": "not_added"
+      },
+      "playlist_selection": {
+        "selected": true,
+        "playlist_number": 33,
+        "position": 1,
+        "role": "электронная мелодическая беседа; вопрос",
+        "decision": "promoted to final order after side-by-side musical sequencing",
+        "reviewed_at": "2026-10-28",
+        "user_verdict": "pending"
       }
     },
     {
@@ -256,6 +302,15 @@
         "compare_to_other_candidates": "Much stronger presence of embodied breakbeat and voiced layer than Aysén Proxy; more muscular than Yulio but perhaps narrower in tonal development. Choose final only when all sourced audio is heard.",
         "user_feedback": "not yet heard by Tanya",
         "spotify_state": "not_added"
+      },
+      "playlist_selection": {
+        "selected": true,
+        "playlist_number": 33,
+        "position": 4,
+        "role": "человеческая речь в тяжёлом ломаном бите; возвращение тела",
+        "decision": "promoted to final order after side-by-side musical sequencing",
+        "reviewed_at": "2026-10-28",
+        "user_verdict": "pending"
       }
     }
   ],
@@ -284,5 +339,52 @@
     }
   ],
   "accepted_tracks": [],
-  "spotify_playlist_status": "NOT_CREATED"
+  "spotify_playlist_status": "NOT_PUBLISHED_SONG_AVAILABILITY_UNVERIFIED",
+  "final_playlist": {
+    "number": 33,
+    "title": "Пятый голос",
+    "title_english": "The Fifth Voice",
+    "date": "2026-10-28",
+    "status": "CURATED_OFFLINE_NOT_SPOTIFY",
+    "format": "Short original CC audio suite compiled from 5 fully heard tracks",
+    "duration_seconds": 1376.836,
+    "tracks": [
+      {
+        "artist": "Gustavo Becerra-Schmidt",
+        "title": "Balistocata (1979)",
+        "role": "электронная мелодическая беседа; вопрос",
+        "duration_seconds": 192.105
+      },
+      {
+        "artist": "Yulio",
+        "title": "The Fractal Geometry of Nature",
+        "role": "ритмическая масса; машина меняет и разбирает себя",
+        "duration_seconds": 356.5
+      },
+      {
+        "artist": "Tristán Sotomayor",
+        "title": "voc",
+        "role": "тёмный порог без пульса; голосоподобное пространство",
+        "duration_seconds": 290.545
+      },
+      {
+        "artist": "Neosintetico",
+        "title": "Reversa Emoción",
+        "role": "человеческая речь в тяжёлом ломаном бите; возвращение тела",
+        "duration_seconds": 245.888
+      },
+      {
+        "artist": "Miguel Gil",
+        "title": "Dos Pasos",
+        "role": "фортепиано и электронные отзвуки; сдержанное послесловие",
+        "duration_seconds": 291.798
+      }
+    ],
+    "conception": "Электронные голоса разговаривают → ритм становится машиной → машина замолкает и оставляет призрачный голос → человеческая речь возвращает тело → фортепиано отвечает. Пять разных способов говорить, ни один не повторяет функцию другого.",
+    "review": "The listener's personal feedback is pending; no track is asserted to be 10/10.",
+    "exclusions": "Aysén Proxy excluded; Polwor Mais blocked; Djef Ravel not delivered in this conversation; Licix experimental reserve.",
+    "provenance": "Original full-length files sent as ordinary native audio attachments by authorized Mira courier, SHA256 verified before offline compilation; five original MP3 bitstreams kept unchanged.",
+    "packaging": "Offline ZIP with original MP3, relative M3U8, plain TXT and provenance; streaming M3U8 also available as a separate resource.",
+    "licensing": "CC BY-NC-SA 3.0 for Balistocata (1979); CC BY-NC-SA 4.0 for other four works. Attribution and publisher URLs in pack."
+  }
 }
