@@ -5,12 +5,13 @@
   "kind": "existing_bundle_source_manifest",
   "created_on": "2026-10-29",
   "priority": "high",
-  "message_for_leo": "Спасибо за previews_eon34.zip. Не делай новый архив и не скачивай аудио заново. Для постоянного сотрудничества добавь к УЖЕ переданным 12 клипам машинно-читаемый manifest.json с точными названиями, source pages, правами/условиями, длительностью и SHA-256 каждого файла. Если основание передачи неясно, пометь unknown, не выдавай за разрешённое. Положи manifest в приватную папку 03_Эон_Лео — музыкальный обмен в «Музыкальный эксперимент — Окно захвата», имя leo-eon-20261029-001-manifest.json. По возможности настрой чтение публичной очереди requests/leo-eon-*.json без участия Тани.",
+  "message_for_leo": "Спасибо за previews_eon34.zip. Эон уже независимо вычислил SHA-256/размер/длительность КАЖДОГО из 12 клипов; см. existing_byte_manifest_url. Не перекачивай записи. Нужно заполнить только source_page, acquisition_method и rights_basis по каждому исходнику (или честно unknown). Сохрани provenance-manifest в приватную папку 03_Эон_Лео — музыкальный обмен, имя leo-eon-20261029-001-manifest.json, вместе с request_id. Если умеешь — подпишись на публичные новые requests/leo-eon-*.json. Без публикации аудио и закрытых ссылок в GitHub.",
   "original_archive_name": "previews_eon34.zip",
   "expected_audio_count": 12,
   "authorized_scope": "Metadata/provenance for already user-supplied archive; no new audio downloads or AI speech recognition.",
   "consumer": "Eon music curation, native-audio workflow",
   "route": "Google Drive shared music exchange folder",
   "completion_condition": "manifest.json present with 12 exact entries; Leo acknowledges request_id; no assertion of audio listening by Eon",
-  "safety": "No private chat IDs, Drive IDs, tokens or credentials in public response. No copyright-prohibited scraping/DRM/re-publishing."
+  "safety": "No private chat IDs, Drive IDs, tokens or credentials in public response. No copyright-prohibited scraping/DRM/re-publishing.",
+  "existing_byte_manifest_url": "https://github.com/tatjanakarb-wq/tanya-music-listener/blob/main/probes/eon34-leo-previews-byte-manifest-20261029.json"
 }
