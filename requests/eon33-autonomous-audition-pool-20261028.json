@@ -1,0 +1,145 @@
+{
+  "project": "Eon 33 — autonomous musical auditions",
+  "created_at": "2026-10-28",
+  "status": "AUDITIONS_PENDING_NOT_A_PLAYLIST",
+  "note": "The selection of music candidates precedes native audio reception and any playlist decision. Do not interpret catalog descriptions or old feature JSON as direct listening. No Spotify playlist has been created.",
+  "selection_principle": "Search for harmonic tension, rhythm that transforms its function, organic/electronic conflict, and temporal events; allow negative auditions and reserves.",
+  "stoplist_sources": [
+    "Google Drive Музыкальная очередь для GPT: Треки фонотеки, Плейлисты, Кандидаты, Реакции, Калибровка слуха, Алгоритм слуха",
+    "tanya-music-listener summaries #30/#31",
+    "Google Drive #32 Невозможный цвет"
+  ],
+  "candidates": [
+    {
+      "artist": "Miguel Gil",
+      "title": "Dos Pasos",
+      "release": "Eros y Tánatos [pn230], 2024, track 01",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn230",
+        "file_name": "pn230_01_miguel-gil_dos-pasos.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/eros-y-tanatos/",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "role_hypothesis": "piano and live processed oscillator; test organic electronic friction",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    },
+    {
+      "artist": "Polwor",
+      "title": "Mais",
+      "release": "Mais [pn149], 2020, original version track 01",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn149",
+        "file_name": "pn149_01_polwor_mais-original.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/mais/",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "role_hypothesis": "rhythm rebuilding through altered cassette and digital pulses",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    },
+    {
+      "artist": "Tristán Sotomayor",
+      "title": "voc",
+      "release": "Conjunto Vacío [pn228], 2024, track 04",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn228",
+        "file_name": "pn228_04_tristan-sotomayor_voc.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/conjunto-vacio/",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "role_hypothesis": "a voice emerges inside dark electronic space",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    },
+    {
+      "artist": "Aysén",
+      "title": "Proxy",
+      "release": "Sandía [pn241], 2025, track 06",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn241",
+        "file_name": "pn241_06_aysen_proxy.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/sandia/",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "role_hypothesis": "crisp rhythmic articulation and melodic deviation; risk monotonous loops",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    },
+    {
+      "artist": "Yulio",
+      "title": "The Fractal Geometry of Nature",
+      "release": "Cosmic Fractal [pn221], 2023, track 06",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn221",
+        "file_name": "pn221_06_Yulio_The-Fractal-Geometry-of-Nature.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/cosmic-fractal/",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "role_hypothesis": "large-scale structure within fractal electronic texture",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    },
+    {
+      "artist": "Gustavo Becerra-Schmidt",
+      "title": "Balistocata",
+      "release": "Obra Electroacústica [pn036], released 2008; original work 1979; track 10",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn036",
+        "file_name": "pn036_10_becerra-schmidt_balistocata.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/obra-electroacustica/",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "role_hypothesis": "experimental computerized rhythmic composition, possible wild-card contrast",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    },
+    {
+      "artist": "Neosintetico",
+      "title": "Reversa Emoción",
+      "release": "La voz de la energía [pn247], 2025, track 09",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn247",
+        "file_name": "pn247_09_neosintetico_reversa-emocion.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/voz-energia/",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "role_hypothesis": "jazz/dub/breakbeat influence; human-machine rhythmic movement",
+      "status": "queued_not_delivered",
+      "origin": "selected_by_eon"
+    }
+  ],
+  "other_pending": [
+    {
+      "artist": "Djef",
+      "title": "Ravel",
+      "release": "Soft White EP [pn002], 2005, track 03",
+      "source": {
+        "kind": "archive_cc",
+        "item_id": "pn002",
+        "file_name": "pn002_03_Djef_Ravel.mp3",
+        "publisher": "https://pueblonuevo.cl/catalogo/soft-white/",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      "status": "selected_for_ren_courier_no_duplicate_request",
+      "origin": "selected_by_eon_prior_turn"
+    }
+  ],
+  "past_audition_exclusion": [
+    {
+      "artist": "Zacarías Malden",
+      "title": "Licix",
+      "release": "Rítmica [pn104] original",
+      "verdict": "experimental reserve: striking percussion and timbral changes but insufficient large melodic-harmonic arc to be the backbone of next playlist"
+    }
+  ],
+  "accepted_tracks": [],
+  "spotify_playlist_status": "NOT_CREATED"
+}
