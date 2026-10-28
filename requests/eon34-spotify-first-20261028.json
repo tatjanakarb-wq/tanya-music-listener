@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "number": 34,
+  "title": "На другой стороне ритма",
+  "date": "2026-10-28",
+  "status": "CURATED_TRACKLIST_SPOTIFY_NOT_YET_CONFIRMED",
+  "source_scope": "Catalog-verified selections and Tanya preference/negative history; new audio content NOT directly auditioned in the current GPT chat.",
+  "note": "Independent Spotify-first curation. These are hypotheses about musical roles, not claimed first-person listening observations.",
+  "history_checks": {
+    "google_sheet": "Музыкальная очередь для GPT / Треки фонотеки (305 rows), 2026-10-28",
+    "github": [
+      "summaries/playlist-30-material-remembers-turn-20260913.md",
+      "summaries/playlist-31-pulse-changes-body-20260920.md",
+      "summaries/playlist-33-pyatyi-golos-20261028.md"
+    ],
+    "drive": "Эон №32 — Невозможный цвет",
+    "exact_pair_collision_count": 0
+  },
+  "arc": "Живой вход → фортепианная и ансамблевая сборка → первый эмоциональный узел Grandbrothers → распад у Hidden Orchestra → телесное возвращение Moses Boyd → машинное обращение Rival Consoles → живая пересборка → память и перемена → электронное раскрытие → камерное затишье → финал Grandbrothers.",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "GoGo Penguin",
+      "title": "Glimmerings",
+      "album": "Everything Is Going to Be OK",
+      "year": 2023,
+      "role": "возникновение живого пульса",
+      "source": "https://gogopenguin.lnk.to/everythingisgoingtobeok"
+    },
+    {
+      "position": 2,
+      "artist": "Portico Quartet",
+      "title": "Impressions",
+      "album": "Monument",
+      "year": 2021,
+      "role": "раздвижение пространства, камерный синтез",
+      "source": "https://www.porticoquartet.com/monument-home-3/"
+    },
+    {
+      "position": 3,
+      "artist": "Mammal Hands",
+      "title": "The Spinner",
+      "album": "Gift from the Trees",
+      "year": 2023,
+      "role": "органический повтор становится движением",
+      "source": "https://mammalhands.bandcamp.com/track/the-spinner"
+    },
+    {
+      "position": 4,
+      "artist": "Grandbrothers",
+      "title": "We Collide",
+      "album": "Elsewhere",
+      "year": 2025,
+      "role": "первый сильный центр: пересечение фортепиано и электроники",
+      "source": "https://grandbrothers.bandcamp.com/album/elsewhere"
+    },
+    {
+      "position": 5,
+      "artist": "Hidden Orchestra",
+      "title": "Scatter",
+      "album": "To Dream is to Forget",
+      "year": 2023,
+      "role": "рассыпание опоры после плотного движения",
+      "source": "https://hiddenorchestra.bandcamp.com/track/scatter"
+    },
+    {
+      "position": 6,
+      "artist": "Moses Boyd",
+      "title": "2 Far Gone (feat. Joe Armon-Jones)",
+      "album": "Dark Matter",
+      "year": 2020,
+      "role": "возвращение тела через живую перкуссию",
+      "source": "https://mosesboyd.bandcamp.com/album/dark-matter-2"
+    },
+    {
+      "position": 7,
+      "artist": "Rival Consoles",
+      "title": "In Reverse",
+      "album": "Landscape from Memory",
+      "year": 2025,
+      "role": "машина меняет направление",
+      "source": "https://open.spotify.com/album/7981nrScn3tdVhHu7b4s9J"
+    },
+    {
+      "position": 8,
+      "artist": "GoGo Penguin",
+      "title": "We May Not Stay",
+      "album": "Everything Is Going to Be OK",
+      "year": 2023,
+      "role": "акустическое восстановление; вернуть смысл отдельной ноте",
+      "source": "https://gogopenguin.lnk.to/everythingisgoingtobeok"
+    },
+    {
+      "position": 9,
+      "artist": "Hidden Orchestra",
+      "title": "Reverse Learning",
+      "album": "To Dream is to Forget",
+      "year": 2023,
+      "role": "второй когнитивный поворот, память и новое прочтение",
+      "source": "https://hiddenorchestra.bandcamp.com/track/reverse-learning"
+    },
+    {
+      "position": 10,
+      "artist": "Kiasmos",
+      "title": "Flown",
+      "album": "II",
+      "year": 2024,
+      "role": "из глубины в непрерывное движение",
+      "source": "https://kiasmos.bandcamp.com/album/ii"
+    },
+    {
+      "position": 11,
+      "artist": "Hania Rani",
+      "title": "The Boat",
+      "album": "Ghosts",
+      "year": 2023,
+      "role": "хрупкий камерный предфинальный воздух",
+      "source": "https://music.apple.com/us/song/1691158506"
+    },
+    {
+      "position": 12,
+      "artist": "Grandbrothers",
+      "title": "Where Else",
+      "album": "Elsewhere",
+      "year": 2025,
+      "role": "единый финальный горизонт и ответ фортепиано",
+      "source": "https://grandbrothers.bandcamp.com/album/elsewhere"
+    }
+  ],
+  "publish_policy": "Private Spotify playlist only after accurate catalog match of artist and exact original recording; do not substitute remixes/other artists. If any unavailable, explicitly report them and decide whether to create only verified subset, never silently call partial list complete.",
+  "rights": "Spotify consumer playback only. No purchases, downloads of commercial Apple previews, or copyright circumvention.",
+  "future_work": "Collect Tanya's reactions and update stoplist. Do not repeat this track list in new automated playlist."
+}
