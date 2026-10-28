@@ -55,8 +55,17 @@
         "license": "CC BY-NC-SA 3.0"
       },
       "role_hypothesis": "rhythm rebuilding through altered cassette and digital pulses",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "blocked_source_contract",
+      "origin": "selected_by_eon",
+      "delivery_status": {
+        "original_request_id": "mirareq_264ee5dc931f45e68fecae9a",
+        "delivery_result": "blocked_source_contract",
+        "reason": "publisher_and_archive_license_mismatch",
+        "detail": "Pueblo Nuevo release-info states CC BY-NC-SA 3.0 while Internet Archive metadata pn149 states CC BY-NC-SA 4.0; archive original track title is Mais (Original) rather than payload title Mais. Adapter stopped prior to download and sent zero files.",
+        "retry_policy": "Do not silently rewrite metadata; independently reconcile provenance or choose a different licensed source. No new request yet.",
+        "audio_received": false,
+        "auditioned": false
+      }
     },
     {
       "artist": "Tristán Sotomayor",
@@ -175,8 +184,19 @@
         "license": "CC BY-NC-SA 3.0"
       },
       "role_hypothesis": "experimental computerized rhythmic composition, possible wild-card contrast",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "source_bound_retry_queued_not_delivered",
+      "origin": "selected_by_eon",
+      "delivery_status": {
+        "original_request_id": "mirareq_3219d63ad48a4bbea602e5cb",
+        "delivery_result": "blocked_source_contract",
+        "reason": "exact_original_recording_identity_mismatch",
+        "detail": "Archive original track has title Balistocata (1979); former selection title omitted (1979). Publisher, original file and CC BY-NC-SA 3.0 matched; no file was downloaded or delivered on old request.",
+        "new_request_id": "mirareq_bf0f144a84ce4a37b8237a47",
+        "corrected_selection_title": "Balistocata (1979)",
+        "new_request_status": "queued",
+        "audio_received": false,
+        "auditioned": false
+      }
     },
     {
       "artist": "Neosintetico",
@@ -190,8 +210,30 @@
         "license": "CC BY-NC-SA 4.0"
       },
       "role_hypothesis": "jazz/dub/breakbeat influence; human-machine rhythmic movement",
-      "status": "queued_not_delivered",
-      "origin": "selected_by_eon"
+      "status": "auditioned_full_recording",
+      "origin": "selected_by_eon",
+      "delivered_recording": {
+        "file_format": "original MP3",
+        "verified_duration_sec": 245.8913,
+        "publisher_duration_sec": 245.888,
+        "verified_size_bytes": 10639835,
+        "verified_sha256": "33d96cd441d0268aca78370dc3c361982a6b948fd83a286e30d164e95c5cd89b",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "transcoding": false
+      },
+      "audition": {
+        "decision": "provisional_take",
+        "verdict": "Provisional keeper as an embodied, darker broken-beat passage with human speech; don't finalize before comparison against Yulio.",
+        "listening_scope": "Full 4m05.89s original recording, in-chat audio delivered via Mira; listened sequentially in five parts (0–42, 42–90, 90–140, 140–190, 190–245.89s).",
+        "observed_structure": "Dark sustained electronic swell/filtered noise opening; very early heavy syncopated drums enter with grainy hiss/rubbery electronic bubbling. Rough scratch-like swishes repeatedly interrupt a strong broken-beat pattern. Around middle, fragmented low male-sounding Spanish speech becomes audible as an additional layer mixed with the restless rhythm; linguistic transcription not asserted. In latter part vocals depart and harsh rhythmic figure returns; exit dissolves to high thin waterlike/warbling electronic pitches.",
+        "strengths": "Striking human/industrial juxtaposition; rhythm feels physically strong and not a neutral metro-loop. Textural interruptions and retreat into a lighter end change the affective frame, making it a distinct potential segment in #33.",
+        "reservations": "Repetitive beat still dominates much of 4 minutes; harmonic and melodic architecture less developed than rhythmic and textural layers; intense abrasive attacks might be off-putting. Cannot assume Tanya will love it.",
+        "role": "Mid-arc pressurized human-machine collision; competing with Yulio's machine transformation, not automatically adjacent.",
+        "compare_to_other_candidates": "Much stronger presence of embodied breakbeat and voiced layer than Aysén Proxy; more muscular than Yulio but perhaps narrower in tonal development. Choose final only when all sourced audio is heard.",
+        "user_feedback": "not yet heard by Tanya",
+        "spotify_state": "not_added"
+      }
     }
   ],
   "other_pending": [
