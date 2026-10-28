@@ -1,61 +1,12 @@
 {
   "request": {
-    "artist": "GoGo Penguin",
+    "artist": "Portico Quartet",
     "track": "",
     "request_id": "batch"
   },
   "status": "no_usable_open_features_or_permitted_audio_found",
-  "warnings": [],
-  "musicbrainz_candidates": [
-    {
-      "mbid": "d5b55b5c-181d-481b-8637-b32ef36c3575",
-      "title": "Atomised",
-      "artist": "GoGo Penguin",
-      "duration_ms": 263000,
-      "first_release_date": "2020-06-05",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 0.42
-    },
-    {
-      "mbid": "b8d116c8-6109-4b2d-9895-a7dbf5f50d30",
-      "title": "Embers",
-      "artist": "GoGo Penguin",
-      "duration_ms": 180000,
-      "first_release_date": "2020-06-05",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 0.42
-    },
-    {
-      "mbid": "0c3d12b2-b58a-4803-b1dd-dc8bd2e00f33",
-      "title": "Bardo",
-      "artist": "GoGo Penguin",
-      "duration_ms": 360000,
-      "first_release_date": "2020-11-27",
-      "disambiguation": "2020 live",
-      "musicbrainz_score": 100,
-      "local_match_score": 0.42
-    },
-    {
-      "mbid": "b4a194ed-d2d1-48e7-b65d-cfec9329bdb9",
-      "title": "Murmuration",
-      "artist": "GoGo Penguin",
-      "duration_ms": 252600,
-      "first_release_date": "2014-03-17",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 0.42
-    },
-    {
-      "mbid": "578fc82e-0a24-4b75-a79b-005e6b70ee12",
-      "title": "To Drown in You",
-      "artist": "GoGo Penguin",
-      "duration_ms": 388173,
-      "first_release_date": "2014-03-17",
-      "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 0.42
-    }
-  ]
+  "warnings": [
+    "MusicBrainz lookup failed: 503 Server Error: Service Temporarily Unavailable for url: https://musicbrainz.org/ws/2/recording/?query=recording%3A%22%22+AND+artist%3A%22Portico+Quartet%22&fmt=json&limit=8"
+  ],
+  "musicbrainz_candidates": []
 }
