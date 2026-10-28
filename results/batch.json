@@ -1,0 +1,61 @@
+{
+  "request": {
+    "artist": "Portico Quartet",
+    "track": "",
+    "request_id": "batch"
+  },
+  "status": "no_usable_open_features_or_permitted_audio_found",
+  "warnings": [],
+  "musicbrainz_candidates": [
+    {
+      "mbid": "14a9752f-8ac3-4b67-afde-23d692a15db3",
+      "title": "Cittàgazze",
+      "artist": "Portico Quartet",
+      "duration_ms": 287466,
+      "first_release_date": "2007-10-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.42
+    },
+    {
+      "mbid": "bdd1d67a-5164-4615-a278-15d00bbdd4d3",
+      "title": "The Kon Tiki Expedition",
+      "artist": "Portico Quartet",
+      "duration_ms": 269400,
+      "first_release_date": "2007-10-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.42
+    },
+    {
+      "mbid": "368a6294-3c59-4723-84e9-0fab997566fe",
+      "title": "Pompidou",
+      "artist": "Portico Quartet",
+      "duration_ms": 722280,
+      "first_release_date": "2007-10-10",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.42
+    },
+    {
+      "mbid": "258016c0-108f-48ae-aae8-1169f82e1abf",
+      "title": "Life Mask (Interlude)",
+      "artist": "Portico Quartet",
+      "duration_ms": 74746,
+      "first_release_date": "2009-10-19",
+      "disambiguation": "",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.42
+    },
+    {
+      "mbid": "65c3fcab-6039-4f72-b27c-f16ff8dd0dba",
+      "title": "News From Verona",
+      "artist": "Portico Quartet",
+      "duration_ms": 262000,
+      "first_release_date": "2011-01-31",
+      "disambiguation": "John Leckie mix",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.42
+    }
+  ]
+}
