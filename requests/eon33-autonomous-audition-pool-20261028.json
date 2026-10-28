@@ -174,7 +174,7 @@
     },
     {
       "artist": "Gustavo Becerra-Schmidt",
-      "title": "Balistocata",
+      "title": "Balistocata (1979)",
       "release": "Obra Electroacústica [pn036], released 2008; original work 1979; track 10",
       "source": {
         "kind": "archive_cc",
@@ -184,7 +184,7 @@
         "license": "CC BY-NC-SA 3.0"
       },
       "role_hypothesis": "experimental computerized rhythmic composition, possible wild-card contrast",
-      "status": "source_bound_retry_queued_not_delivered",
+      "status": "auditioned_full_recording",
       "origin": "selected_by_eon",
       "delivery_status": {
         "original_request_id": "mirareq_3219d63ad48a4bbea602e5cb",
@@ -196,6 +196,29 @@
         "new_request_status": "queued",
         "audio_received": false,
         "auditioned": false
+      },
+      "delivered_recording": {
+        "file_format": "original MP3",
+        "verified_duration_sec": 192.1045,
+        "file_duration_sec": 192.1077,
+        "verified_size_bytes": 7716784,
+        "verified_sha256": "37d5e76a6f266662d6cd0e1f41febcb7dfef5816bf2d189ec205b9ccb23db396",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "transcoding": false,
+        "request_id": "mirareq_bf0f144a84ce4a37b8237a47"
+      },
+      "audition": {
+        "decision": "provisional_take",
+        "verdict": "Provisionally keep as a nimble, mischievous, melodic electronic interlude that can change the palette after darker and heavier pieces. Not the emotional apex or finale.",
+        "listening_scope": "Full, unmodified 3:12.1 MP3 attached to the current conversation; sequence reviewed from 0–192 seconds in five approximately 35–40-second segments.",
+        "observed_structure": "A few isolated clear high electric tones establish a question. A warm, rubbery low synthesized line begins moving in syncopation, soon joined by quick, bright upper-register notes, trills and climbing figures. The high and low figures exchange initiative, with passages of dense almost jazzy contrapuntal interplay, moments where bass dominates alone, and punctuated stops or drops in density. Themes/figures recur in transformed register and accompaniment. The final moments bring a fast high flourish and a bounded cadence rather than a giant build.",
+        "strengths": "Melodic ideas and phrasing are genuinely active; repetition is used for playful variation and dialogue, not as an inert beat loop; radically different affective color from Yulio and Neosintetico.",
+        "reservations": "Bright early-electronic, somewhat toy-like timbres might be too playful in Tanya's taste or disintegrate the emotional arc of a more severe playlist. No direct personal emotional mapping is claimed; user has not rated it.",
+        "possible_role": "One witty and nimble melodic/rhythmic reset or bridge, especially between a more pressure-heavy and a more harmonically rich piece; should not be stacked with other retro electronic curiosities.",
+        "comparison": "Stronger melodic agency than Yulio's texture-based engine; less immediate physical percussion than Neosintetico; more structural play than Aysén Proxy.",
+        "user_feedback": "not yet heard by Tanya",
+        "spotify_state": "not_added"
       }
     },
     {
