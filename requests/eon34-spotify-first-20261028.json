@@ -3,7 +3,7 @@
   "number": 34,
   "title": "На другой стороне ритма",
   "date": "2026-10-28",
-  "status": "CURATED_TRACKLIST_SPOTIFY_NOT_YET_CONFIRMED",
+  "status": "CURATED_12_TRACKS_SPOTIFY_PUBLISH_REQUEST_QUEUED",
   "source_scope": "Catalog-verified selections and Tanya preference/negative history; new audio content NOT directly auditioned in the current GPT chat.",
   "note": "Independent Spotify-first curation. These are hypotheses about musical roles, not claimed first-person listening observations.",
   "history_checks": {
@@ -129,5 +129,17 @@
   ],
   "publish_policy": "Private Spotify playlist only after accurate catalog match of artist and exact original recording; do not substitute remixes/other artists. If any unavailable, explicitly report them and decide whether to create only verified subset, never silently call partial list complete.",
   "rights": "Spotify consumer playback only. No purchases, downloads of commercial Apple previews, or copyright circumvention.",
-  "future_work": "Collect Tanya's reactions and update stoplist. Do not repeat this track list in new automated playlist."
+  "future_work": "Collect Tanya's reactions and update stoplist. Do not repeat this track list in new automated playlist.",
+  "publication_request": {
+    "id": "mirareq_89b56fe764e549afa8a59fec",
+    "topic": "EON_MUSIC_SPOTIFY_PUBLISH_V1",
+    "status": "queued",
+    "verification": "not yet published or read back",
+    "target": "one private Spotify playlist, 12 exact tracks, no substitutions"
+  },
+  "continuity": {
+    "weekly_automation_enabled": true,
+    "title": "Эон — новые плейлисты",
+    "note": "Every scheduled run should read this playlist to avoid repeating it; new playlist must be completed without requiring Tanya to reopen this chat."
+  }
 }
