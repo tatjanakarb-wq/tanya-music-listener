@@ -1,6 +1,6 @@
 {
   "request": {
-    "artist": "Portico Quartet",
+    "artist": "GoGo Penguin",
     "track": "",
     "request_id": "batch"
   },
@@ -8,52 +8,52 @@
   "warnings": [],
   "musicbrainz_candidates": [
     {
-      "mbid": "14a9752f-8ac3-4b67-afde-23d692a15db3",
-      "title": "Cittàgazze",
-      "artist": "Portico Quartet",
-      "duration_ms": 287466,
-      "first_release_date": "2007-10-10",
+      "mbid": "d5b55b5c-181d-481b-8637-b32ef36c3575",
+      "title": "Atomised",
+      "artist": "GoGo Penguin",
+      "duration_ms": 263000,
+      "first_release_date": "2020-06-05",
       "disambiguation": "",
       "musicbrainz_score": 100,
       "local_match_score": 0.42
     },
     {
-      "mbid": "bdd1d67a-5164-4615-a278-15d00bbdd4d3",
-      "title": "The Kon Tiki Expedition",
-      "artist": "Portico Quartet",
-      "duration_ms": 269400,
-      "first_release_date": "2007-10-10",
+      "mbid": "b8d116c8-6109-4b2d-9895-a7dbf5f50d30",
+      "title": "Embers",
+      "artist": "GoGo Penguin",
+      "duration_ms": 180000,
+      "first_release_date": "2020-06-05",
       "disambiguation": "",
       "musicbrainz_score": 100,
       "local_match_score": 0.42
     },
     {
-      "mbid": "368a6294-3c59-4723-84e9-0fab997566fe",
-      "title": "Pompidou",
-      "artist": "Portico Quartet",
-      "duration_ms": 722280,
-      "first_release_date": "2007-10-10",
+      "mbid": "0c3d12b2-b58a-4803-b1dd-dc8bd2e00f33",
+      "title": "Bardo",
+      "artist": "GoGo Penguin",
+      "duration_ms": 360000,
+      "first_release_date": "2020-11-27",
+      "disambiguation": "2020 live",
+      "musicbrainz_score": 100,
+      "local_match_score": 0.42
+    },
+    {
+      "mbid": "b4a194ed-d2d1-48e7-b65d-cfec9329bdb9",
+      "title": "Murmuration",
+      "artist": "GoGo Penguin",
+      "duration_ms": 252600,
+      "first_release_date": "2014-03-17",
       "disambiguation": "",
       "musicbrainz_score": 100,
       "local_match_score": 0.42
     },
     {
-      "mbid": "258016c0-108f-48ae-aae8-1169f82e1abf",
-      "title": "Life Mask (Interlude)",
-      "artist": "Portico Quartet",
-      "duration_ms": 74746,
-      "first_release_date": "2009-10-19",
+      "mbid": "578fc82e-0a24-4b75-a79b-005e6b70ee12",
+      "title": "To Drown in You",
+      "artist": "GoGo Penguin",
+      "duration_ms": 388173,
+      "first_release_date": "2014-03-17",
       "disambiguation": "",
-      "musicbrainz_score": 100,
-      "local_match_score": 0.42
-    },
-    {
-      "mbid": "65c3fcab-6039-4f72-b27c-f16ff8dd0dba",
-      "title": "News From Verona",
-      "artist": "Portico Quartet",
-      "duration_ms": 262000,
-      "first_release_date": "2011-01-31",
-      "disambiguation": "John Leckie mix",
       "musicbrainz_score": 100,
       "local_match_score": 0.42
     }
