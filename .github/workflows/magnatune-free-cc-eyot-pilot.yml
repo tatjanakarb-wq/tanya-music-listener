@@ -33,7 +33,7 @@ jobs:
           assert t['name']=='If I could say what I want to say'
           expected='https://magnatune.com/api/albums/eyot-horizon/tracks/3/file?format=mp3'
           assert any(f.get('url')==expected for f in t['free']['files']), "Source not free-listed"
-          assert 'CC BY-NC-SA 1.0' in t['free']['note'], "Non-commercial CC rights not confirmed"
+          assert 'BY-NC-SA 1.0' in t['free']['note'] and data['license']['music_license_url']=='https://creativecommons.org/licenses/by-nc-sa/1.0/', "Non-commercial CC rights not confirmed"
           assert 'Magnatune' in t['credit'], "Attribution missing"
           Path('artifact/ATTRIBUTION.txt').write_text(t['credit']+'\n' +t['free']['note']+'\n',encoding='utf-8')
           print("Source verified against official public API")
