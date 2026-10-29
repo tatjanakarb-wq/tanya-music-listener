@@ -41,3 +41,13 @@ UNCONFIRMED: last mile native-audio attachment INTO THE SAME ChatGPT conversatio
 4. Even if Magnatune custom MCP becomes connected, raw AudioContent tool result itself is NOT proven to be a native GPT audio input; use verified Mira courier or another expressly supported native attachment route. Do not claim that adding an MCP URL alone gives model an audio perception capability.
 
 Status on 29.10.2026: LEGAL SOURCE AND CLOUD STAGING PROVEN; NATIVE CHAT DELIVERY PENDING.
+
+
+## Проверка продолжения: вечер 29.10.2026
+
+- Сверено наличие исходного приватного архива `Eon_Magnatune_Eyot_Horizon_03_CC_Source_20261029.zip` в папке `01_аудио` на Google Drive, размер объекта 2 813 977 байт. Исходный MP3 по cloud-пилоту отдельно зафиксирован: 2 850 816 байт, SHA-256 `e4900b5c76e3c970282c6051f79b25125c824f53a0ec446dabfafba57ae2910d`; в этой проверке MP3 заново не извлекался и не прослушивался.
+- Перепроверены официальные положения Magnatune: https://magnatune.com/info/api и https://magnatune.com/info/assistants — общедоступный каталог/API и CC BY-NC-SA для некоммерческого использования, бесплатные файлы с голосовыми метками. Дополнительной покупки и скачивания не производилось.
+- Предыдущая неопределённая заявка на доставку Eyot с диагностикой `Tunnel-client did not poll after this request was enqueued` не объявлена ни проваленной, ни выполненной. Создан **единственный новый статусный запрос** к Мире: только сверить доступность Mac-курьера, наличие прежней заявки и факт уже совершённой нативной доставки; **без прикрепления аудио**. При последней проверке ответ ещё не поступил (`queued`). Новую заявку на доставку MP3 **не запускали**, чтобы не дублировать старую.
+- Отдельная прежняя доставка 12 превью №34 проверена через квитанцию Миры как `answered / delivered 12 of 12`; никакого повторного прикрепления №34 не выполнялось. Spotify №34 не менялся.
+- В папке обмена с Лео `03_Эон_Лео — музыкальный обмен` по Drive API нет файлов. Новый манифест по `leo-eon-20261029-001` не подтверждён; подписка Лео на очередь не подтверждена. Не путать существующий пользовательский ZIP №34 с легальным подтверждённым download-rights-manifest.
+- Эта проверка не дала новых нативных музыкальных вложений в текущем запуске. Ни Eyot, ни другие новые записи не объявлены услышанными; ни один новый плейлист не создавался. Следующий шаг — **прочитать квитанцию статусного запроса Мире**, и только после доказательства отсутствия предыдущей доставки принимать решение об одном source-bound нативном прикреплении Eyot.
