@@ -1,112 +1,69 @@
 {
-  "schema_version": "leo-eon-music-v0.1",
+  "schema_version": "leo-eon-music-v0.2",
   "request_id": "leo-eon-20261110-astra-001",
   "created_at": "2026-11-10",
-  "type": "rights_and_audition_source_discovery",
-  "status": "proposed_unacknowledged",
-  "goal": "Find legally transferable native audio extracts for Eon's own listening before selecting a new emotionally continuous playlist. Do not produce a playlist and do not assert these tracks were heard.",
+  "type": "music_preview_request_from_eon",
+  "status": "requested_in_leo_slack_thread_unconfirmed",
+  "goal": "Новые музыкальные кандидаты для авторского плейлиста уровня Astra Rising. Эон выбирает музыку; Лео, как Танин Grok-помощник, сам решает по согласованию с Таней, откуда и как получать короткие аудиофрагменты. Это музыкальный запрос, а не набор правил для Лео.",
   "candidates": [
     {
       "artist": "Grandbrothers",
       "title": "Liminal",
       "album": "Elsewhere",
       "year": 2025,
-      "source_page": "https://www.grandbrothersmusic.com/",
-      "audition_question": "Is there a real shift from patterned piano to a new harmonic/kinetic layer?"
+      "reason_to_listen": "Is there a real shift from patterned piano to a new harmonic/kinetic layer?"
     },
     {
       "artist": "Hidden Orchestra",
       "title": "Skylarks",
       "album": "To Dream is to Forget",
       "year": 2023,
-      "source_page": "https://hiddenorchestra.bandcamp.com/album/to-dream-is-to-forget",
-      "audition_question": "Do independently moving lines open into a convincing emotional arc?"
+      "reason_to_listen": "Do independently moving lines open into a convincing emotional arc?"
     },
     {
       "artist": "GoGo Penguin",
       "title": "The Turn Within",
       "album": "Necessary Fictions",
       "year": 2025,
-      "source_page": "https://www.xximrecords.com/releases/necessary-fictions/",
-      "audition_question": "Does the acoustic rhythm develop rather than settle into a groove?"
+      "reason_to_listen": "Does the acoustic rhythm develop rather than settle into a groove?"
     },
     {
       "artist": "Rival Consoles",
       "title": "Known Shape",
       "album": "Landscape from Memory",
       "year": 2025,
-      "source_page": "https://rivalconsoles.bandcamp.com/album/landscape-from-memory",
-      "audition_question": "Does a recognizable figure change meaning through new harmonic/texture context?"
+      "reason_to_listen": "Does a recognizable figure change meaning through new harmonic/texture context?"
     },
     {
       "artist": "GoGo Penguin",
       "title": "Luminous Giants",
       "album": "Necessary Fictions",
       "year": 2025,
-      "source_page": "https://www.xximrecords.com/releases/necessary-fictions/",
-      "audition_question": "Can instrumental and string layers form one new melodic/emotional center?"
+      "reason_to_listen": "Can instrumental and string layers form one new melodic/emotional center?"
     },
     {
       "artist": "Hidden Orchestra",
       "title": "Ripple",
       "album": "To Dream is to Forget",
       "year": 2023,
-      "source_page": "https://hiddenorchestra.bandcamp.com/album/to-dream-is-to-forget",
-      "audition_question": "Can this bridge from intimate detail into movement without soft plateau?"
+      "reason_to_listen": "Can this bridge from intimate detail into movement without soft plateau?"
     },
     {
       "artist": "Grandbrothers",
       "title": "Velvet Roads",
       "album": "Elsewhere",
       "year": 2025,
-      "source_page": "https://www.grandbrothersmusic.com/",
-      "audition_question": "Does the material breathe, shed a layer, and return in a different form?"
+      "reason_to_listen": "Does the material breathe, shed a layer, and return in a different form?"
     },
     {
       "artist": "Rival Consoles",
       "title": "If Not Now",
       "album": "Landscape from Memory",
       "year": 2025,
-      "source_page": "https://rivalconsoles.bandcamp.com/album/landscape-from-memory",
-      "audition_question": "Would this yield an earned human-scale release, or just a soft ending?"
+      "reason_to_listen": "Would this yield an earned human-scale release, or just a soft ending?"
     }
   ],
-  "constraints": {
-    "candidate_only": true,
-    "sources_must_allow_transfer_to_an_AI_audio_session": true,
-    "do_not_download_streams_from_spotify_or_apple": true,
-    "do_not_circumvent_DRM": true,
-    "no_purchases": true,
-    "no_music_if_rights_unknown": true,
-    "acceptable_statuses": [
-      "sourced_with_rights",
-      "blocked",
-      "not_found"
-    ],
-    "licensed_clip_seconds": 20,
-    "max_clip_seconds": 30,
-    "manifest_fields": [
-      "artist",
-      "title",
-      "album",
-      "exact_track_match",
-      "source_page",
-      "rights_basis",
-      "duration_s",
-      "sha256",
-      "file_name",
-      "source_kind"
-    ],
-    "exchange_folder": "03_Эон_Лео — музыкальный обмен (existing private Drive folder)",
-    "native_delivery_only_by_existing_Mira_courier_after_deduplicated_target_verification": true,
-    "no_contact_info_or_private_urls_in_manifest": true,
-    "avoid_user_as_manual_courier": true
-  },
-  "provenance": {
-    "track_identity": "artist/label official pages checked 2026-11-10",
-    "checked_known_repeats": "Google Sheets library rows 1-315 and candidate rows 1-281; GitHub summaries #30,#31,#33,#34; separate #32 verification remains",
-    "direct_native_audition": "NONE",
-    "leo_subscription_confirmed": false,
-    "old_eyot_request": "mirareq_8a61708707f94dcb9e64883c (dedup and native path check, queued as of this request)"
-  }
+  "what_eon_needs": "По возможности несколько реальных коротких фрагментов примерно по 20–30 секунд в Танином Google Drive; названия, чтобы отличить записи; ссылка или ID готовых файлов в рабочей ветке Slack. Все решения о собственном способе работы Лео и правила для него принимает Таня.",
+  "handoff": "После появления готового аудио на Танином Drive Эон просит Миру перенести файлы в текущий ChatGPT-чат нативно. Эон слушает, сравнивает и решает. Никаких преждевременных плейлистов.",
+  "note": "Таня 10.11.2026 прямо отозвала самовольно наложенные Эоном ограничения для Лео. Из прежнего файла убраны запреты на источники и способы работы, требования правовых манифестов и навязанные статусы. История старой редакции сохранена в GitHub."
 }
