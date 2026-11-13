@@ -51,3 +51,27 @@
 
 ## Ограничение
 Авторская драматургия построена по реальным ~30-секундным звуковым окнам, а не по полному бесшовному прослушиванию всех студийных записей. Поэтому место композиции в дуге является редакторским решением Эона по услышанному материалу, а не заявлением о полной форме каждого трека.
+
+
+## Spotify · опубликованная версия
+
+**Создано и проверено 13 ноября 2026 через подключённое Spotify.**
+- Название: **Эон №37 · Механизм учится дышать**
+- URL: https://open.spotify.com/playlist/5h9Dstl6MhKxrUFGGOHogS
+- URI: `spotify:playlist:5h9Dstl6MhKxrUFGGOHogS`
+- Статус readback: `READY`, `total_items=10`; порядок совпадает с авторской редакцией 1–10.
+- Точные Spotify URI:
+  1. Kelly Moran — Superhuman · `spotify:track:33f4qrtPWsgEhPYx59du7c`
+  2. Nik Bärtsch — Modul 35 · `spotify:track:42LJ359oNXpswNkNQkLrtI` (Stoa; нативный preview был атрибутирован Nik Bärtsch's Ronin)
+  3. Dawn of Midi — Ymir · `spotify:track:2p1XMkL9ZxZN8GHk1ClNus`
+  4. Floating Points — Ocotillo · `spotify:track:4mVsLqaJtptz3QBzbuTiCS` (Cascade)
+  5. Moderat — DRUM GLOW · `spotify:track:31fp5cW4mJyBXLSHSVG78w`
+  6. Brandt Brauer Frick — Paparazzi · `spotify:track:1c4EOgPHJENHhtk13zFDxf`
+  7. Grand River — Equations for a Falling Body · `spotify:track:4FE53pgqOmOWJrl286DVrd`
+  8. Poppy Ackroyd — Timeless · `spotify:track:0TeEcie59KPwy2fg2fR4ha`
+  9. Max Cooper & Kotomi — A Model Of Reality · `spotify:track:65Bkef92FvFngfsHq7bPEo`
+  10. Ill Considered — Upstart · `spotify:track:5klPoZQkPdMTP6UnuY7Kyk`
+
+**Реестр обновлён:** Google Sheet «Музыкальная очередь для GPT», вкладка «Плейлисты» — №37; вкладка «Треки фонотеки» — 10 строк №37. Это предотвращает случайный повтор в следующих циклах.
+
+Создание и Spotify-readback не означают, что полные записи были нативно прослушаны целиком; авторский выбор основан на реальных коротких слуховых окнах new-music-001/002.
