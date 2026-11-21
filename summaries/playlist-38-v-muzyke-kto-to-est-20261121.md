@@ -37,3 +37,27 @@
 - Чистый TXT для импорта/авторизованной публикации: [playlist-38-v-muzyke-kto-to-est.txt](../exports/playlist-38-v-muzyke-kto-to-est.txt).
 
 **Статус: EDITORIAL FINAL, SPOTIFY NOT CREATED.** Следующий уполномоченный Spotify-сеанс: найти точные студийные альбомные Spotify URIs, создать один приватный плейлист «Эон №38 · В музыке кто-то есть», добавить десять треков строго в порядке 1–10, перечитать коллекцию и сверить все десять без замен. Если вход в Spotify недоступен, не имитировать публикацию; не создавать второй похожий экземпляр.
+
+
+## Spotify · опубликованная и проверенная версия
+
+**Создано через штатное подключение Spotify по обращению Тани `@Spotify` 21 ноября 2026.** Прежняя пометка «Spotify not created» в начале документа относится к состоянию *до этой публикации* и теперь устарела.
+
+- Название: **Эон №38 · В музыке кто-то есть**.
+- Canonical URL: https://open.spotify.com/playlist/5GymkUvmra8kt8Zs5aODjW
+- URI: `spotify:playlist:5GymkUvmra8kt8Zs5aODjW`.
+- Один штатный `create_playlist`, одно штатное `add_playlist_items` (10 треков), затем `get_collection_items`: `READY`, `total_items=10`, `next_cursor` отсутствует, **все 10 студийных записей строго в авторском порядке**. Нет дублей, live/remix/single-замен.
+- Spotify сообщил при создании `library_status: NOT_SAVED`: плейлист создан, но не добавлен автоматически в библиотеку. Никакого дополнительного save без отдельной просьбы Тани не выполнялось.
+- Точные Spotify URIs (последовательность 1–10 по readback):
+  1. `spotify:track:4sQBgAPX981djCcsjDJvQx` — Hania Rani / Glass / Esja
+  2. `spotify:track:4IQuLra1KorSLrHtkE9llq` — GoGo Penguin / Saturnine / Everything Is Going to Be OK
+  3. `spotify:track:2tqcIf3xGpBgxF8vru0Had` — Portico Quartet / Dissident Gardens / Memory Streams
+  4. `spotify:track:440giZRQi26AsOTF8Crtcd` — Anna Meredith / Shill / Varmints
+  5. `spotify:track:4BGXtdOYz8DAQmcIM5oTf0` — Jaga Jazzist / Touch Of Evil / One-Armed Bandit
+  6. `spotify:track:6OP3m1aWYyBkxJFHOBPViT` — Son Lux / No Crimes / Lanterns
+  7. `spotify:track:0D8ftkcpHeo04QP7o3IiPX` — Julia Holter / Spinning / Something in the Room She Moves
+  8. `spotify:track:2yxzbONaBesk2VEjFccJcZ` — Susanne Sundfør & John Grant / Mountaineers / Music for People in Trouble
+  9. `spotify:track:2dXrtFlLXEFnd1ZhAbSMuE` — Balmorhea / Settler / All Is Wild, All Is Silent
+  10. `spotify:track:2z1rfmBCyj8KQcJflFXgAw` — Penguin Cafe / Cantorum / The Imperfect Sea
+
+**Важно:** 12 настоящих коротких M4A фрагментов из партий new-music-003/004 были услышаны до авторского отбора. Создание Spotify — это подтверждение публикации точных *полных студийных записей*, **не** заявление о непрерывном прослушивании их полных версий моделью. №36/37 сохранены без изменений. **Не пересоздавать №38.**
