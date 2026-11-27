@@ -1,7 +1,7 @@
 # Эон · Возвращение тепла
 **Небольшой авторский плейлист для Тани · 27 ноября 2026 · 7 композиций**
 
-**Статус:** окончательно выбранная музыкальная редакция, подготовленная из **настоящих нативных слуховых прослушиваний** 19 оригинальных ~30-секундных M4A в партиях new-music-005 (10), 006 (5), 007 (4). Полные альбомные записи целиком не прослушаны. **НЕ является Spotify-публикацией:** в текущем рабочем сеансе нет доступного авторизованного Spotify-инструмента create/add/get_collection_items; Spotify URL не придумать. Это отдельный **ненумерованный мини-плейлист на неделю** — не отменяет авторского решения не заполнять №39 до условной десятки и не пересоздаёт №36.
+**Статус:** окончательно выбранная музыкальная редакция, подготовленная из **настоящих нативных слуховых прослушиваний** 19 оригинальных ~30-секундных M4A в партиях new-music-005 (10), 006 (5), 007 (4). Полные альбомные записи целиком не прослушаны. **Теперь опубликован в Spotify**; раздел с подтверждённым readback ниже. До 27.11 вечером Spotify-инструмент был недоступен, но Таня явно вызвала подключённый @Spotify и разрешила публикацию. Это отдельный **ненумерованный мини-плейлист на неделю** — не отменяет авторского решения не заполнять №39 до условной десятки и не пересоздаёт №36.
 
 ## Почему короткий
 
@@ -36,6 +36,22 @@
 - [Реакция Тани на №36, №37, №38](music-calibration-20261127-favourite-36-vs-37-38.md).
 - Чистый готовый для Spotify-импорта текст: [mini-playlist-20261127-vozvrashchenie-tepla.txt](../exports/mini-playlist-20261127-vozvrashchenie-tepla.txt).
 
-## Что НЕ сделано
+## Spotify · опубликован и проверен
 
-На момент этой записи **Spotify-ссылка не создана**, поскольку это требует подлинного авторизованного Spotify create_playlist + add_playlist_items + readback, а такого подключённого инструмента в текущем диалоге не доступно. Не утверждать, что плейлист виден в Spotify или сохранён в библиотеке. Не создавать дубликатов, если будущая публикация будет подтверждена; проверять наличие перед create. Этот короткий подарок художественно завершён без необходимости новых заказов Лео/Рену. Не объявлять его №39 — номер останется свободным для полноценного будущего выпуска.
+Таня явно обратилась `@Spotify` для публикации готовой семёрки 27.11.2026. После проверки, что одноимённый плейлист не найден среди собственных Spotify-коллекций, штатным `create_playlist` создан ровно один приватный плейлист **«Эон · Возвращение тепла»**. Одна команда `add_playlist_items` добавила все семь заранее разрешённых точных альбомных URIs.
+
+- **Spotify URL:** https://open.spotify.com/playlist/3o17SQPt2u7ZH3v5dcTI8c
+- **Spotify URI:** `spotify:playlist:3o17SQPt2u7ZH3v5dcTI8c`
+- **Readback:** `get_collection_items` → `READY`, `total_items=7`, семь записей на первой/единственной странице, 7/7 точное совпадение с авторским порядком, нет дублей или неверных live/remix/alternate версий.
+- **Library status после создания:** `NOT_SAVED`; playlist существует, но автоматически в библиотеку не сохранялся. Не делать `save_to_library` без отдельного запроса.
+
+Точные Spotify URIs в авторском порядке:
+1. `spotify:track:1hqjdDt6KRQ2nAZYuink9t` Kaitlyn Aurelia Smith — An Intention · The Kid
+2. `spotify:track:06RAIKFlRxIccYNHBeiVx6` Tortoise — The Taut and Tame · Millions Now Living Will Never Die
+3. `spotify:track:2Qx8gCWklwrSYmQdIbUnwb` Mammal Hands — Riser · Gift from the Trees
+4. `spotify:track:6FZ1o9TwFVnY7vMbuulgZw` Hidden Orchestra — Broken · To Dream is to Forget, album studio version
+5. `spotify:track:2KcsTcTuARranS2cbMX9C9` GoGo Penguin — State of Flux (feat. Manchester Collective & Rakhi Singh) · Necessary Fictions
+6. `spotify:track:4cgmk2owigBlmlV4KsqRNs` Susanne Sundfør — Undercover · Music for People in Trouble, studio version
+7. `spotify:track:0bxyZfACBrKCiNKSl0LzH9` GoGo Penguin — A Hundred Moons · A Humdrum Star, original version
+
+**Не создавать этот мини-плейлист повторно.** Не нумеровать его как №39: это именно короткий недельный авторский подарок. Ни №36, ни №37, ни №38 не изменены. Прослушивания Эона были по реальным ~30-сек M4A, не по полным студийным версиям.
